@@ -65,7 +65,7 @@ A stacked bar chart indicating how frequently each model places the real leftove
 
 4. **Final “Pick” Challenge**  
    - From each of the 810 validated sets, the final prompt includes 3 real examples + 3 anti-examples as context.
-   - The *fourth* real example is hidden among 7 top "misleading" anit-examples (8 total)
+   - The *fourth* real example is hidden among 7 top "misleading" anti-examples (8 total)
    - We then prompt **18 different LLMs** to assign a 0–10 score to each of these 8 candidates. A perfect approach would always rank the correct example #1.
 
 5. **Result Analysis**
