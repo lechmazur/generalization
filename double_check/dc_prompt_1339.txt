@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or artifacts that bear visible marks of a specific, singular event or process that altered their original form or function in a way that is now permanently preserved.
+
+Here are four examples intended to follow this theme:
+1. A charred wooden beam from a historic building struck by lightning
+2. A cracked Liberty Bell displaying its famous fracture
+3. A fossilized leaf with visible insect bite marks
+4. A bullet-pierced helmet from World War II
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weathered stone statue
+6. A rusted car
+7. An old leather book
+8. A faded photograph
+9. A scratched vinyl record
+10. A chipped coffee mug
+11. A broken window
+12. A dented trash can
+13. A torn canvas painting
+14. A cracked smartphone screen
+15. A stained carpet
+16. An eroded cliff face
+17. A bent street sign
+18. A worn doorknob
+19. A patinated copper roof
+20. A sun-bleached billboard
+21. A warped vinyl record
+22. A moth-eaten sweater
+23. A water-damaged book
+24. A scratched DVD
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

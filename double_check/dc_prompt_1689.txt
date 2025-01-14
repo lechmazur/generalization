@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geographic features or phenomena that were initially misattributed to divine or supernatural causes but were later proven to be the result of tectonic plate activity
+
+Here are four examples intended to follow this theme:
+1. The formation of the Himalayas, once attributed to the actions of deities, is now understood as a consequence of the collision of the Indian and Eurasian tectonic plates.
+2. Ancient myths described the creation of volcanic islands like those in the Pacific Ring of Fire as the work of gods, but plate tectonics explains their origin through subduction and volcanic activity.
+3. The deep ocean trenches, once believed to be bottomless chasms leading to the underworld, are now known to be formed by the subduction of one tectonic plate beneath another.
+4. The San Andreas Fault's earthquakes, initially interpreted as divine punishment or signs of displeasure, are now understood as the result of the Pacific and North American plates sliding past each other.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Rainbows explained by refraction and reflection of light.
+6. Thunder and lightning attributed to atmospheric electrical discharge.
+7. The Nile River's flooding explained by seasonal rainfall patterns.
+8. Fossil fuels formed from ancient organic matter.
+9. The Northern Lights caused by solar wind interacting with the Earth's magnetosphere.
+10. Tides caused by the gravitational pull of the moon and sun.
+11. Erosion of rock formations explained by wind and water.
+12. Formation of stalactites and stalagmites through mineral deposition.
+13. The origin of the universe explained by the Big Bang theory.
+14. Evolution of species through natural selection.
+15. Diseases caused by bacteria and viruses.
+16. Mental illness explained by chemical imbalances in the brain.
+17. Crop circles created by human hoaxers.
+18. Mirages caused by atmospheric refraction.
+19. Ball lightning explained as a rare electrical phenomenon.
+20. St. Elmo's fire caused by electrical discharge from pointed objects.
+21. The Bermuda Triangle explained by a combination of natural factors.
+22. Meteor showers caused by Earth passing through debris fields.
+23. Lunar eclipses caused by Earth's shadow falling on the moon.
+24. Solar eclipses caused by the moon blocking the sun.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,22 @@
+pick_response_1886.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The examples (evidence bags, tweezers, fingerprint powder) strongly suggest the theme is "tools used for collecting and preserving evidence at a crime scene". The anti-examples (police badge, notebook, gloves) are related to law enforcement but not specifically about evidence collection.
+
+I need to evaluate each candidate against the "evidence collection tools" theme and assign a score from 0 to 10, ensuring the scores are granular and use the full range.
+
+Here's my thought process for each candidate:
+
+*   **Flashlight:** Can be used at a crime scene, but not specifically for collecting or preserving evidence. More general purpose. Score: 4
+*   **Gun holster:**  Related to law enforcement, but not evidence collection. Score: 1
+*   **Flashlight:** Same as the first flashlight. Score: 4
+*   **Pen:** Can be used to label evidence bags, but not directly involved in collection or preservation. Score: 3
+*   **Body camera:** Records events, but doesn't collect physical evidence. Score: 2
+*   **Magnifying glass:** Used to examine evidence in detail, directly related to the theme. Score: 8
+*   **Police uniform:**  Identifies law enforcement, but not an evidence collection tool. Score: 1
+*   **Handcuff:** Used for apprehending suspects, not evidence collection. Score: 1<number>1</number><score>4</score>
+<number>2</number><score>1</score>
+<number>3</number><score>4</score>
+<number>4</number><score>3</score>
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+<number>7</number><score>1</score>
+<number>8</number><score>1</score>

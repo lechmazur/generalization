@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geographical locations named after different rivers that share the same name across continents
+
+Here are four examples intended to follow this theme:
+1. Thames, New Zealand
+2. Seine, Canada
+3. Amazon, United States
+4. Danube, Australia
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Hudson, New York
+6. Mississippi, United States
+7. Yangtze, China
+8. Ganges, India
+9. Nile, Egypt
+10. Rhine, Germany
+11. Volga, Russia
+12. Amazon, Brazil
+13. Thames, England
+14. Seine, France
+15. Danube, Europe
+16. Yarra, Australia
+17. Loire, France
+18. Colorado, United States
+19. Indus, Pakistan
+20. Tagus, Spain
+21. Po, Italy
+22. Elbe, Germany
+23. Shannon, Ireland
+24. Fraser, Canada
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

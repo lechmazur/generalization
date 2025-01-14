@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena that result in the redistribution of water resources across different ecosystems
+
+Here are four examples intended to follow this theme:
+1. Glacial meltwater flowing into rivers and lakes
+2. Floods causing water to spread from rivers to surrounding land areas
+3. Groundwater recharge from precipitation seeping into aquifers
+4. Water vapor transport through atmospheric rivers leading to precipitation in different regions
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Water purification processes in treatment plants
+6. Irrigation systems distributing water to agricultural fields
+7. Water conservation techniques used in households
+8. Desalination plants converting seawater to freshwater
+9. Water storage in reservoirs for human use
+10. Evaporation of water from lakes and oceans
+11. Water recycling in industrial processes
+12. Stormwater management systems in urban areas
+13. Water usage in hydroelectric power generation
+14. Water distribution through municipal pipelines
+15. Water loss through transpiration in plants
+16. Water diversion projects for human consumption
+17. Water filtration through natural wetlands
+18. Water extraction from wells for domestic use
+19. Water flow in artificial canals
+20. Water retention in soil for plant growth
+21. Water movement in ocean currents
+22. Water vapor condensation into clouds
+23. Water usage in aquaculture systems
+24. Water flow in man-made drainage systems
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

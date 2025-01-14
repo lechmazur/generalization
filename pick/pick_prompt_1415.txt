@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Recognizing specific insect hatches that attract fish to the surface for feeding.
+Following flocks of seabirds to locate schools of fish near the surface.
+Observing the movements of dolphins or other marine mammals to pinpoint tuna or other predatory fish.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Studying migration patterns of fish using tagging and tracking technology.
+Trolling with multiple lines to cover a wider area and attract different species.
+Using sonar technology to map the seabed and locate fish aggregations.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Identifying subtle changes in water turbidity caused by bottom-feeding fish stirring up sediment. <<LEFTOVER>>
+2. Analyzing stomach contents of caught fish to understand their dietary preferences.
+3. Employing longline fishing with hundreds of baited hooks to catch pelagic fish.
+4. Using underwater cameras to observe fish behavior and distribution.
+5. Jigging with artificial lures to mimic the movements of prey fish.
+6. Applying mathematical models to predict fish stock abundance and distribution.
+7. Using fish finders to identify water temperature and depth preferences of target species.
+8. Using chum to create a feeding frenzy and attract fish to a specific location.

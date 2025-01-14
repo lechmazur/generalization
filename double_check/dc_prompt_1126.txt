@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): artifacts or structures that exist in a state of suspended decay, preserved by environmental conditions that prevent further deterioration or destruction
+
+Here are four examples intended to follow this theme:
+1. The Titanic wreck at the bottom of the Atlantic Ocean
+2. A woolly mammoth preserved in Siberian permafrost
+3. An ancient shipwreck in the Black Sea
+4. A body preserved in a peat bog
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A rusting car in a junkyard
+6. An abandoned building overtaken by vegetation
+7. A fossilized dinosaur bone
+8. A mummified pharaoh in a tomb
+9. A decaying wooden barn in a field
+10. A coral reef bleached by climate change
+11. A volcanic ash-covered city like Pompeii
+12. A sunken treasure chest in a coral reef
+13. A glacier slowly melting due to global warming
+14. A petrified tree in a desert
+15. A medieval castle ruin
+16. A submerged city due to rising sea levels
+17. A decaying fruit left on a kitchen counter
+18. A rusted ship anchor on a beach
+19. A termite-infested wooden house
+20. A sunken submarine in a naval graveyard
+21. A collapsed bridge over a river
+22. A dried-up lake bed with remnants of boats
+23. A crumbling statue in a public park
+24. A weathered gravestone in an old cemetery
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

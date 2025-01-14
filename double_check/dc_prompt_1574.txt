@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Locations that were major glass-making centers during both ancient Roman times and the Industrial Revolution
+
+Here are four examples intended to follow this theme:
+1. The Rhineland
+2. Northern Italy (specifically areas like Aquileia)
+3. Southern England (specifically areas like the Weald)
+4. Catalonia (specifically areas around Barcelona)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Murano
+6. Bohemia
+7. Meissen
+8. Sevres
+9. Jingdezhen
+10. Toledo
+11. Jamestown
+12. Pittsburgh
+13. Corning
+14. Mexico City
+15. Sidon
+16. Alexandria
+17. Damascus
+18. Constantinople
+19. Venice
+20. The Levant
+21. Gaul
+22. Syria
+23. Egypt
+24. Mesopotamia
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

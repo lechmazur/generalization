@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Tools and devices that permanently join two materials by melting only one of them
+
+Here are four examples intended to follow this theme:
+1. Plastic welding gun
+2. Hot glue gun
+3. Soldering iron
+4. Heat sealer
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Rivet gun
+6. Stapler
+7. Epoxy resin
+8. Wood glue
+9. Nail gun
+10. Super glue
+11. Velcro
+12. Zip tie
+13. Double-sided tape
+14. Clamps
+15. Threaded bolt
+16. Magnetic strip
+17. Hook and loop fastener
+18. Snap fastener
+19. Welding torch
+20. Seamless tape
+21. Pressure-sensitive adhesive
+22. Mechanical fastener
+23. Binder clip
+24. Paperclip
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

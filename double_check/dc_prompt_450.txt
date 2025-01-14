@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer products first advertised on television during the original airing of the Super Bowl
+
+Here are four examples intended to follow this theme:
+1. Ford Mustang
+2. Xerox 914 copier
+3. Goodyear Double Eagle tire
+4. Schlitz beer
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Coca-Cola
+6. Nike shoes
+7. Budweiser beer
+8. McDonald's Big Mac
+9. Chevrolet Camaro
+10. Apple iPhone
+11. Pepsi
+12. Doritos
+13. Toyota Camry
+14. Tide laundry detergent
+15. Snickers candy bar
+16. Gillette razor
+17. Honda Civic
+18. Nintendo Wii
+19. Samsung Galaxy phone
+20. Maybelline mascara
+21. Crest toothpaste
+22. Head and Shoulders shampoo
+23. Bounty paper towels
+24. Charmin toilet paper
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

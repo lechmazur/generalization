@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Literary works that explore the concept of time through the use of stream of consciousness narrative technique.
+
+Here are four examples intended to follow this theme:
+1. Virginia Woolf's "Mrs. Dalloway," where the protagonist's thoughts flow freely, reflecting on past and present moments throughout a single day.
+2. James Joyce's "Ulysses," which uses stream of consciousness to delve into the characters' minds, exploring their perceptions of time and memory over the course of a day.
+3. Marcel Proust's "In Search of Lost Time," particularly in the section "Swann's Way," where the narrator's stream of consciousness triggers memories and reflections on time.
+4. William Faulkner's "The Sound and the Fury," where the use of stream of consciousness in different sections reveals the characters' fragmented sense of time and memory.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A novel that uses a linear timeline to explore the life of a character from birth to death.
+6. A film that uses flashbacks to show a character's past experiences.
+7. A poem that reflects on the passage of time using traditional narrative structure.
+8. A play that uses dialogue to discuss the concept of time without delving into characters' inner thoughts.
+9. A short story that uses third-person omniscient narration to explore time travel.
+10. A memoir that chronicles the author's life events in chronological order.
+11. A science fiction novel that explores time dilation without using stream of consciousness.
+12. A historical fiction book that uses a straightforward narrative to depict events across different time periods.
+13. A graphic novel that uses visual storytelling to represent the passage of time.
+14. A television series that uses episodic structure to show characters aging over time.
+15. A philosophical essay that discusses the nature of time without using narrative techniques.
+16. A fantasy novel that uses a magical device to manipulate time, narrated in third person.
+17. A documentary that explores the history of a city over several centuries.
+18. A biography that details the life of a historical figure using a chronological approach.
+19. A dystopian novel that examines the control of time by a totalitarian regime, using a linear narrative.
+20. A collection of short stories that each explore different aspects of time, but use traditional storytelling methods.
+21. A mystery novel that uses a detective's investigation to uncover past events, narrated in the third person.
+22. A romance novel that follows the development of a relationship over time, using a straightforward narrative.
+23. A children's book that uses illustrations and simple text to teach about the concept of time.
+24. A psychological thriller that uses a non-linear timeline to build suspense, but does not use stream of consciousness.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

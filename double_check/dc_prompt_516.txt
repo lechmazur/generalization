@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical processes visualized through computer animation that demonstrate a topological transformation
+
+Here are four examples intended to follow this theme:
+1. A coffee mug morphing into a donut shape
+2. A sphere transforming into a cube
+3. A trefoil knot untangling into a simple loop
+4. A Möbius strip being reshaped into a cylinder
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A waterfall simulation
+6. A 3D model of a building
+7. A computer-generated explosion
+8. A simulation of ocean waves
+9. A digital model of a car engine
+10. A virtual reality environment
+11. A computer-generated landscape
+12. A simulation of a chemical reaction
+13. A 3D animation of a roller coaster
+14. A digital model of a human skeleton
+15. A computer-generated forest fire
+16. A simulation of planetary motion
+17. A 3D model of a DNA strand
+18. A computer-generated tornado
+19. A digital model of a city skyline
+20. A simulation of a hurricane
+21. A 3D animation of a solar flare
+22. A computer-generated river flow
+23. A digital model of a bridge
+24. A simulation of a volcanic eruption
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

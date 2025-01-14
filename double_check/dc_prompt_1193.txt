@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or practices that involve the symbolic or literal transformation of a core element through a process of fragmentation, dispersal, or ritualistic division.
+
+Here are four examples intended to follow this theme:
+1. a jigsaw puzzle
+2. a piñata
+3. a sand mandala
+4. a wishbone
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a chessboard
+6. a kaleidoscope
+7. a Rubik's cube
+8. a mosaic
+9. a stained glass window
+10. a quilt
+11. a patchwork blanket
+12. a collage
+13. a fractal pattern
+14. a constellation
+15. a spider web
+16. a labyrinth
+17. a map
+18. a tapestry
+19. a mural
+20. a crossword puzzle
+21. a domino set
+22. a beaded necklace
+23. a chain link fence
+24. a barcode
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

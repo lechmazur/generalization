@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Surveillance or monitoring systems that were originally designed for one purpose but became widely adopted for tracking dance movements or choreography
+
+Here are four examples intended to follow this theme:
+1. Motion capture technology used in film production studios being repurposed for dance performance analysis
+2. GPS tracking devices initially developed for wildlife research being used to map out dance choreography patterns
+3. Security cameras installed in public spaces being utilized by dance enthusiasts to record and study street dance moves
+4. Accelerometers in smartphones, originally designed for fitness tracking, being employed to analyze and replicate dance steps
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Traffic cameras used for monitoring road conditions
+6. Heart rate monitors used in medical settings
+7. Surveillance drones used for border patrol
+8. RFID tags used for inventory management in retail
+9. Weather satellites used for meteorological data collection
+10. Seismographs used for detecting earthquakes
+11. Barcode scanners used in supermarkets
+12. Facial recognition software used for security at airports
+13. Web analytics tools used for tracking website visitor behavior
+14. Electronic ankle bracelets used for monitoring parolees
+15. Thermal imaging cameras used for detecting heat loss in buildings
+16. Speed cameras used for enforcing traffic laws
+17. Biometric scanners used for employee time tracking
+18. License plate readers used for parking enforcement
+19. Underwater sonar used for mapping ocean floors
+20. Telemetry systems used in space exploration
+21. Video conferencing software used for remote meetings
+22. Smart home devices used for controlling household appliances
+23. Electronic toll collection systems used on highways
+24. Noise monitoring devices used for assessing environmental sound levels
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

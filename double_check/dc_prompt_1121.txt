@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena or mathematical constructs that exhibit a cyclic or periodic transformation, where the system returns to a state resembling its initial configuration after a series of changes.
+
+Here are four examples intended to follow this theme:
+1. The water cycle
+2. The phases of the moon
+3. The circadian rhythm
+4. The sine wave
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The growth of a tree
+6. The migration of birds
+7. The flow of a river
+8. The expansion of the universe
+9. The life cycle of a butterfly
+10. The process of photosynthesis
+11. The development of a hurricane
+12. The evolution of species
+13. The aging process of humans
+14. The formation of a mountain range
+15. The spread of a forest fire
+16. The melting of a glacier
+17. The erosion of a coastline
+18. The decomposition of organic matter
+19. The crystallization of minerals
+20. The trajectory of a thrown object
+21. The heating of the Earth's atmosphere
+22. The chemical reaction in a battery
+23. The growth of a crystal
+24. The process of rusting
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

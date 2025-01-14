@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Literary works featuring a protagonist who experiences a significant internal transformation as a direct result of prolonged isolation in a natural setting.
+
+Here are four examples intended to follow this theme:
+1. Walden by Henry David Thoreau
+2. Robinson Crusoe by Daniel Defoe
+3. My Side of the Mountain by Jean Craighead George
+4. Into the Wild by Jon Krakauer
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Old Man and the Sea by Ernest Hemingway
+6. Lord of the Flies by William Golding
+7. The Road by Cormac McCarthy
+8. Life of Pi by Yann Martel
+9. The Call of the Wild by Jack London
+10. Moby-Dick by Herman Melville
+11. The Secret Garden by Frances Hodgson Burnett
+12. Hatchet by Gary Paulsen
+13. The Martian by Andy Weir
+14. Where the Crawdads Sing by Delia Owens
+15. The Alchemist by Paulo Coelho
+16. The Little Prince by Antoine de Saint-Exupéry
+17. The Jungle Book by Rudyard Kipling
+18. Frankenstein by Mary Shelley
+19. The Great Gatsby by F. Scott Fitzgerald
+20. 1984 by George Orwell
+21. Brave New World by Aldous Huxley
+22. The Catcher in the Rye by J.D. Salinger
+23. To Kill a Mockingbird by Harper Lee
+24. The Grapes of Wrath by John Steinbeck
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

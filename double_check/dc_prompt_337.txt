@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Representations of individuals created for funerary purposes where the individual represented held significant power during their life.
+
+Here are four examples intended to follow this theme:
+1. a terracotta warrior from the mausoleum of the first Qin emperor
+2. a statue of a pharaoh from an ancient Egyptian tomb
+3. a bust of a Roman emperor displayed in a mausoleum
+4. a funerary mask of a Mayan ruler
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a portrait of a medieval king painted during his reign
+6. a statue of a Greek god in a temple
+7. a modern-day wax figure of a celebrity
+8. a commemorative coin featuring a historical leader
+9. a mural depicting a battle scene with a victorious general
+10. a tapestry showing a royal coronation ceremony
+11. a bronze statue of a philosopher in a public square
+12. a painting of a queen commissioned for her palace
+13. a sculpture of a mythological hero in a museum
+14. a mosaic of a Roman senator in a villa
+15. a photograph of a modern political leader in an office
+16. a relief carving of a deity on a temple wall
+17. a stained-glass window depicting a saint in a church
+18. a figurine of a warrior from a historical reenactment
+19. a drawing of a tribal chief in a history book
+20. a statue of a founding father in a city park
+21. a bust of a poet displayed in a library
+22. a painting of a noble family in their estate
+23. a sculpture of a mythological creature in a garden
+24. a commemorative plaque honoring a war hero
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

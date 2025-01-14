@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects that are deliberately arranged in a descending size order to achieve a practical function
+
+Here are four examples intended to follow this theme:
+1. Nesting dolls
+2. Stackable food storage containers
+3. A set of graduated measuring cups
+4. Telescoping ladders
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A collection of antique coins arranged by year
+6. Books on a shelf sorted alphabetically by author
+7. A rainbow
+8. A flight of stairs
+9. A pyramid
+10. Concentric circles
+11. A set of differently sized screws
+12. A decreasing sequence of numbers
+13. Russian dolls arranged chronologically
+14. A set of weights for a scale
+15. A stack of pancakes
+16. Layers of sedimentary rock
+17. A sorted deck of cards
+18. A group of people arranged by height
+19. A set of mixing bowls
+20. A collection of progressively smaller boxes, each containing a gift
+21. A tower built with blocks
+22. A set of sieves with progressively finer mesh
+23. A collection of drill bits
+24. A set of cookie cutters
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

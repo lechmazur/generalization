@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Retail spaces that traditionally close with ritualized counting or organizing procedures performed in silence
+
+Here are four examples intended to follow this theme:
+1. Employees at a high-end jewelry store meticulously count each piece of inventory at closing time, maintaining a silent atmosphere to ensure accuracy and focus.
+2. Staff members in a traditional bookstore perform a silent ritual of organizing books on shelves and counting cash at the end of the day.
+3. In a specialty tea shop, workers silently count and organize tea canisters and cash registers as part of their closing routine.
+4. At a luxury watch boutique, the closing procedure involves a silent count of all watches and a meticulous organization of display cases.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A supermarket where employees chat while restocking shelves at closing time.
+6. A fast-food restaurant where staff members loudly clean and prepare for the next day.
+7. A gym where trainers discuss schedules while tidying up equipment at the end of the day.
+8. A car dealership where salespeople talk about their day while organizing paperwork.
+9. A coffee shop where baristas chat while cleaning machines and wiping down counters at closing.
+10. A clothing store where employees discuss sales while folding clothes and organizing racks.
+11. A hardware store where workers talk about inventory while restocking shelves at the end of the day.
+12. A movie theater where staff members discuss films while cleaning up after the last show.
+13. A pharmacy where employees chat while organizing medications and counting cash at closing.
+14. A toy store where workers discuss popular items while tidying up at the end of the day.
+15. A pet store where staff members talk about animals while cleaning cages and organizing supplies.
+16. A beauty salon where stylists chat while cleaning stations and preparing for the next day.
+17. A furniture store where employees discuss sales while arranging displays at closing time.
+18. A florist shop where workers talk about arrangements while cleaning up at the end of the day.
+19. A music store where staff members discuss instruments while organizing inventory at closing.
+20. A sports store where employees chat about equipment while tidying up at the end of the day.
+21. A bookstore where workers discuss books while organizing shelves and counting cash.
+22. A jewelry store where employees talk about sales while counting inventory at closing time.
+23. A boutique where staff members chat while organizing clothes and accessories at the end of the day.
+24. A tea shop where workers discuss flavors while counting tea canisters and organizing at closing.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

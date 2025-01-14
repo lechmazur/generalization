@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Entities or phenomena exhibiting a hidden, complex inner structure or system that is not readily apparent from external observation.
+
+Here are four examples intended to follow this theme:
+1. a seemingly simple rock that contains intricate mineral formations
+2. a plain-looking book with a complex narrative structure
+3. a basic-looking app with sophisticated algorithms running in the background
+4. a traditional woven basket with an elaborate pattern hidden within its design
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a transparent glass
+6. a simple wooden table
+7. a clear pond
+8. a plain white wall
+9. a smooth pebble
+10. a basic calculator
+11. a standard light bulb
+12. a regular sheet of paper
+13. a typical rubber band
+14. a common plastic bottle
+15. a straightforward recipe book
+16. a simple melody
+17. a basic smartphone
+18. a plain cotton t-shirt
+19. a standard door
+20. a typical chair
+21. a regular key
+22. a simple garden hose
+23. a basic wristwatch
+24. a standard pencil
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

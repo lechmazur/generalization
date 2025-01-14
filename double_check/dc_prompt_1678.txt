@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific instruments that were repurposed as fashion accessories in avant-garde runway collections between 2010-2020
+
+Here are four examples intended to follow this theme:
+1. a microscope lens transformed into a pendant necklace
+2. a stethoscope reimagined as a belt for a haute couture gown
+3. a spectrometer prism incorporated into a futuristic headpiece
+4. a barometer dial used as a decorative brooch
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a telescope used as a prop in a sci-fi film
+6. a compass repurposed as a decorative wall art piece
+7. a magnifying glass used in a detective-themed photoshoot
+8. a thermometer displayed in a museum exhibit
+9. a beaker used as a vase for flowers
+10. a Bunsen burner turned into a lamp
+11. a petri dish used as a jewelry dish
+12. a microscope slide framed as a decorative item
+13. a DNA model used as a classroom teaching tool
+14. a weather vane repurposed as a garden ornament
+15. a sextant displayed in a nautical-themed restaurant
+16. a gyroscope used as a desk toy
+17. a stopwatch incorporated into a steampunk costume
+18. a pipette used as a cocktail stirrer
+19. a centrifuge rotor turned into a decorative sculpture
+20. a laser pointer used in a presentation
+21. a slide rule repurposed as a bookmark
+22. a barometer used as a prop in a historical drama
+23. a spectrometer used in a laboratory demonstration
+24. a stethoscope used in a medical training session
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

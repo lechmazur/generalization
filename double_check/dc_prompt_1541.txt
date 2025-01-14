@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Festivals or events that began as small local gatherings and now draw over 300,000 international visitors annually while still maintaining their original location
+
+Here are four examples intended to follow this theme:
+1. Oktoberfest in Munich
+2. Edinburgh Festival Fringe
+3. Carnival of Venice
+4. Albuquerque International Balloon Fiesta
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. South by Southwest
+6. Coachella Valley Music Festival
+7. Burning Man
+8. Ultra Music Festival Miami
+9. Comic-Con International
+10. Glastonbury Festival
+11. Mardi Gras New Orleans
+12. Rio Carnival
+13. Tomorrowland Belgium
+14. Electric Daisy Carnival
+15. Sundance Film Festival
+16. Toronto International Film Festival
+17. Cannes Film Festival
+18. Chinese New Year Parade San Francisco
+19. St. Patrick's Day Parade NYC
+20. Carnival of Brazil
+21. Running of the Bulls Pamplona
+22. Day of the Dead Mexico
+23. Holi Festival India
+24. Songkran Festival Thailand
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

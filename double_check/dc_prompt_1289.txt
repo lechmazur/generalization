@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): cultural practices involving the creation of temporary, intricate designs using natural materials, often for ceremonial or decorative purposes
+
+Here are four examples intended to follow this theme:
+1. a mandala made from colored sand during a Tibetan Buddhist ceremony
+2. a rangoli design created with rice flour and flower petals for Diwali celebrations
+3. a henna tattoo applied to hands and feet for a wedding ceremony
+4. a flower carpet laid out for a religious procession in Belgium
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a permanent mural painted on a city wall
+6. a sculpture carved from marble
+7. a woven tapestry displayed in a museum
+8. a stained glass window in a cathedral
+9. a graffiti tag sprayed on a train
+10. a pottery vase decorated with intricate patterns
+11. a quilt sewn with traditional motifs
+12. a tattoo inked permanently on skin
+13. a mosaic made of tiles on a floor
+14. a carved wooden mask used in rituals
+15. a painted canvas displayed in an art gallery
+16. a metal sculpture in a public park
+17. a calligraphy scroll framed on a wall
+18. a beaded necklace worn as jewelry
+19. a carved stone monument in a cemetery
+20. a printed fabric used for clothing
+21. a ceramic plate with painted designs
+22. a carved ivory figurine
+23. a painted Easter egg
+24. a carved pumpkin for Halloween
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

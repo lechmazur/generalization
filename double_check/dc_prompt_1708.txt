@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Internet memes that originated from a single photograph of an animal and went on to inspire multiple cryptocurrency projects
+
+Here are four examples intended to follow this theme:
+1. 
+2. 
+3. 
+4. 
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a cat video that went viral
+6. a famous dog from a movie
+7. a bird that became a social media sensation
+8. a meme based on a fictional character
+9. a viral video of a dancing animal
+10. a popular animated animal character
+11. a meme featuring a famous person
+12. a viral challenge involving animals
+13. a meme based on a historical event
+14. a famous animal from a TV show
+15. a meme that started from a cartoon
+16. a viral animal rescue story
+17. a meme based on a popular song
+18. a famous animal from a book
+19. a meme featuring a fictional superhero
+20. a viral animal adoption story
+21. a meme based on a viral dance
+22. a famous animal from a commercial
+23. a meme featuring a famous athlete
+24. a viral animal trick video
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): technologies that integrate biological principles with digital systems to enhance functionality or efficiency
+
+Here are four examples intended to follow this theme:
+1. Neural networks used in artificial intelligence to mimic brain function
+2. Biometric sensors that use human physiological data for digital authentication
+3. Genetic algorithms applied in software to optimize solutions by simulating natural selection
+4. Bio-inspired robotics that use principles of animal locomotion for enhanced mobility
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Smart home devices that automate household functions
+6. Virtual reality systems that create immersive digital environments
+7. Cloud computing services that enhance data storage and processing
+8. Blockchain technology used for secure and transparent transactions
+9. Augmented reality applications that overlay digital information on the real world
+10. Internet of Things (IoT) devices that connect everyday objects to the internet
+11. Quantum computing that uses quantum-mechanical phenomena to perform operations on data
+12. 3D printing technology that allows for the creation of complex physical objects
+13. Artificial intelligence systems that use machine learning to improve performance
+14. Robotic process automation that streamlines business processes
+15. Wearable technology that tracks fitness and health metrics
+16. Big data analytics that process large volumes of data to uncover insights
+17. Cybersecurity systems that protect digital networks and devices from threats
+18. Mobile applications that provide services on smartphones and tablets
+19. Social media platforms that facilitate communication and content sharing
+20. Edge computing that processes data near the source to reduce latency
+21. Digital twins that create virtual replicas of physical objects or systems
+22. Autonomous vehicles that use sensors and algorithms to navigate without human input
+23. 5G networks that provide faster and more reliable internet connectivity
+24. Voice recognition systems that allow for hands-free operation of devices
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional tools used by indigenous peoples for food preparation
+
+Here are four examples intended to follow this theme:
+1. Metate and mano (grinding stone)
+2. Coolam (clay pot)
+3. Mortero (mortar and pestle)
+4. Digging stick
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Microwave oven
+6. Blender
+7. Food processor
+8. Electric stove
+9. Gas grill
+10. Refrigerator
+11. Knife (modern steel)
+12. Fork
+13. Spoon
+14. Cutting board (plastic)
+15. Whisk
+16. Spatula (metal)
+17. Measuring cups and spoons
+18. Mixing bowls (stainless steel)
+19. Pressure cooker
+20. Air fryer
+21. Slow cooker
+22. Cast iron skillet
+23. Dutch oven
+24. Baking sheet
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

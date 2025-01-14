@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or processes that rely on sequential, interdependent stages to transform raw inputs into refined outputs, where each stage is essential for the final product's integrity or functionality.
+
+Here are four examples intended to follow this theme:
+1. a car assembly line
+2. a software development lifecycle
+3. a baking recipe for bread
+4. a wastewater treatment plant
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a bicycle
+6. a computer
+7. a tree
+8. a river
+9. a clock
+10. a book
+11. a bridge
+12. a smartphone
+13. a painting
+14. a train
+15. a camera
+16. a musical instrument
+17. a solar panel
+18. a refrigerator
+19. a DNA molecule
+20. a road network
+21. a light bulb
+22. a pencil
+23. a cloud
+24. a chair
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

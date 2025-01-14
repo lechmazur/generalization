@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient philosophical or religious concepts that were later repurposed as modern economic theories or business practices
+
+Here are four examples intended to follow this theme:
+1. The concept of karma being used to develop a rewards and loyalty program in a business.
+2. The idea of dharma being repurposed as a corporate mission statement or ethical guideline.
+3. The principle of wu wei from Taoism being applied to lean management and efficiency in business operations.
+4. The Buddhist concept of impermanence being used to justify flexible and adaptive business strategies.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The use of meditation techniques in corporate wellness programs.
+6. The application of Stoic philosophy in personal development courses for business leaders.
+7. The integration of Confucian values in educational systems to promote discipline and respect.
+8. The use of the Golden Rule in customer service training.
+9. The adoption of Zen principles in product design to enhance user experience.
+10. The influence of Aristotelian ethics on modern moral philosophy.
+11. The use of Socratic questioning in leadership training to foster critical thinking.
+12. The application of Epicureanism in lifestyle branding to promote simplicity and pleasure.
+13. The incorporation of Shinto rituals in Japanese corporate culture to enhance team cohesion.
+14. The use of the Bhagavad Gita's teachings in personal motivation seminars.
+15. The influence of Platonic ideals on the concept of perfect forms in art and design.
+16. The use of Taoist principles in environmental sustainability initiatives.
+17. The application of Jainism's non-violence principle in animal rights activism.
+18. The use of the concept of yin and yang in balancing work and life in corporate wellness programs.
+19. The influence of the Ten Commandments in shaping legal systems.
+20. The use of the concept of Nirvana in marketing campaigns for relaxation products.
+21. The application of the Four Noble Truths in addiction recovery programs.
+22. The use of the concept of the soul in discussions about artificial intelligence and consciousness.
+23. The influence of the concept of reincarnation in discussions about sustainability and resource management.
+24. The use of the concept of the afterlife in financial planning and estate management.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

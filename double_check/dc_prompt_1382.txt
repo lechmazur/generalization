@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient artifacts that were deliberately submerged in water as part of religious or cultural ceremonies before being rediscovered in modern times
+
+Here are four examples intended to follow this theme:
+1. The Antikythera Mechanism, found off the coast of Greece, was part of a shipwreck believed to be a ritual offering to the sea gods.
+2. The Nemi Ships, discovered in Lake Nemi, Italy, were thought to be offerings to the goddess Diana.
+3. The Votive Boat of Fiumicino, found submerged near the ancient port of Claudius, was likely a ceremonial offering to Neptune.
+4. The Dover Bronze Age Boat, discovered in the UK, was believed to have been intentionally sunk as part of a ritual.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ancient pottery found in a dry cave in Peru.
+6. A Viking sword discovered in a burial mound in Norway.
+7. Egyptian artifacts found in the desert sands near the pyramids.
+8. A Roman mosaic uncovered in a villa in Pompeii.
+9. Prehistoric tools found in a cave in France.
+10. A Celtic coin hoard discovered in a field in England.
+11. Ancient Chinese bronzes found in a tomb in Xi'an.
+12. A Maya stela found in a jungle in Guatemala.
+13. Ancient Greek statues found in a temple in Athens.
+14. A medieval manuscript discovered in a monastery in Ireland.
+15. Ancient jewelry found in a royal tomb in Egypt.
+16. A shipwreck from the 18th century found off the coast of Florida.
+17. A Neolithic settlement discovered underwater in the Mediterranean.
+18. Ancient rock art found in a canyon in Australia.
+19. A Byzantine icon found in a church in Constantinople.
+20. Ancient Incan artifacts found in a mountain pass in Peru.
+21. A Roman amphora found in a shipwreck in the Black Sea.
+22. Ancient tools found in a riverbed in Africa.
+23. A medieval castle discovered in ruins in Scotland.
+24. Ancient pottery found in an archaeological dig in Israel.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

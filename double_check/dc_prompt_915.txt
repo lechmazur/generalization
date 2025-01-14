@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Films directed by individuals who have also served as university professors in the field of film studies
+
+Here are four examples intended to follow this theme:
+1. Do the Right Thing
+2. Blue Velvet
+3. The Piano
+4. Boyhood
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Inception
+6. Avatar
+7. Jurassic Park
+8. The Godfather
+9. Star Wars
+10. Forrest Gump
+11. The Shawshank Redemption
+12. Pulp Fiction
+13. The Dark Knight
+14. Gladiator
+15. Schindler's List
+16. La La Land
+17. Mad Max: Fury Road
+18. Black Panther
+19. Parasite
+20. Gravity
+21. Interstellar
+22. Frozen
+23. The Lion King
+24. Titanic
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

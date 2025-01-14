@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that utilize controlled randomness to achieve functional efficiency or aesthetic appeal
+
+Here are four examples intended to follow this theme:
+1. A casino slot machine's random number generator
+2. A music streaming service's shuffle algorithm
+3. A genetic algorithm for optimizing factory production schedules
+4. A procedural terrain generator in video games
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A dice game
+6. A random number table
+7. A lottery drawing machine
+8. A card shuffler
+9. A roulette wheel
+10. A random password generator
+11. A coin flip
+12. A bingo ball machine
+13. A raffle ticket drawer
+14. A random name picker
+15. A chaos pendulum
+16. A weather pattern simulator
+17. A quantum random number generator
+18. A random walk algorithm
+19. A Monte Carlo simulation
+20. A random sampling method
+21. A stochastic process model
+22. A random forest algorithm
+23. A probabilistic neural network
+24. A random mutation genetic operator
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

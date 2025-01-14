@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional professions that involve crafting or altering materials and have a significant cultural garment associated with them.
+
+Here are four examples intended to follow this theme:
+1. A kimono worn by a Japanese tailor
+2. A kilt worn by a Scottish weaver
+3. A sombrero worn by a Mexican hat maker
+4. A sari worn by an Indian textile artisan
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A chef's hat worn by a cook
+6. A lab coat worn by a scientist
+7. A hard hat worn by a construction worker
+8. A uniform worn by a police officer
+9. A suit worn by a businessman
+10. A gown worn by a doctor
+11. A robe worn by a judge
+12. A jersey worn by an athlete
+13. A apron worn by a blacksmith
+14. A tunic worn by a medieval knight
+15. A cloak worn by a wizard
+16. A dress worn by a dancer
+17. A scarf worn by a pilot
+18. A veil worn by a bride
+19. A mask worn by a surgeon
+20. A cap worn by a sailor
+21. A helmet worn by a firefighter
+22. A vest worn by a fisherman
+23. A poncho worn by a hiker
+24. A shawl worn by a grandmother
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

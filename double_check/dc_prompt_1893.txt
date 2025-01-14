@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Volcanic eruptions that significantly impacted global climate
+
+Here are four examples intended to follow this theme:
+1. Mount Tambora eruption in 1815
+2. Krakatoa eruption in 1883
+3. Mount Pinatubo eruption in 1991
+4. Laki eruption in 1783
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Hurricane Katrina
+6. The Dust Bowl
+7. The Great Smog of London
+8. The Chernobyl disaster
+9. The Black Death
+10. The Industrial Revolution
+11. The Little Ice Age
+12. The eruption of Mount Vesuvius in 79 AD
+13. The 2010 Haiti earthquake
+14. The 2004 Indian Ocean tsunami
+15. The 1906 San Francisco earthquake
+16. The 1980 eruption of Mount St. Helens
+17. The 2011 Tōhoku earthquake and tsunami
+18. The 2019-2020 Australian bushfires
+19. The 1986 Lake Nyos disaster
+20. The 1995 Chicago heat wave
+21. The 1931 China floods
+22. The 1970 Bhola cyclone
+23. The 1983 Ash Wednesday bushfires
+24. The 2018 Kilauea eruption
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

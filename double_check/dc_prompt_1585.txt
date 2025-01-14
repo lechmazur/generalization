@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Unfinished or partially complete architectural structures that were inhabited for at least 5 years before completion
+
+Here are four examples intended to follow this theme:
+1. Barcelona's Sagrada Familia from 1882-1915
+2. Winchester Mystery House from 1884-1922
+3. Boldt Castle from 1900-1977
+4. Palace of Parliament in Bucharest from 1984-1997
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Empire State Building construction site
+6. Abandoned Ryugyong Hotel in Pyongyang
+7. Unfinished Foreshore Freeway Bridge in Cape Town
+8. Watts Towers during construction
+9. Notre-Dame Cathedral during medieval construction
+10. Temporary construction housing units
+11. Ancient Roman ruins
+12. Half-built suburban development
+13. Partially completed shopping mall
+14. Construction-phase Olympic village
+15. Incomplete highway overpass
+16. Partially built skyscraper
+17. Abandoned construction project
+18. Temporary festival structures
+19. Building renovation site
+20. Partially demolished building
+21. Earthquake-damaged structure
+22. Incomplete bridge project
+23. Construction-phase airport terminal
+24. Partially built stadium
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

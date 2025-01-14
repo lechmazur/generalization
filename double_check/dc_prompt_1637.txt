@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Survival techniques that originated from traditional winter activities and were later adopted by military forces
+
+Here are four examples intended to follow this theme:
+1. Igloo construction techniques used by Inuit for shelter, later adapted by military for Arctic survival training
+2. Snowshoeing, originally used by indigenous peoples for winter travel, later adopted by military for mobility in snowy conditions
+3. Ice fishing methods developed by traditional communities, later utilized by military for food sourcing in cold climates
+4. Use of animal furs for warmth, a practice from indigenous winter survival, later integrated into military cold weather gear
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Parachuting techniques developed for military operations
+6. Fire-starting methods used by survivalists in various climates
+7. Raft building skills taught in survival courses
+8. Compass navigation techniques used by hikers and military personnel
+9. Desert survival strategies focusing on water conservation
+10. Jungle survival techniques involving shelter construction from foliage
+11. Urban survival skills for navigating cityscapes during emergencies
+12. First aid techniques developed for battlefield injuries
+13. Knot-tying skills used in sailing and mountaineering
+14. Signaling methods for rescue operations in remote areas
+15. Water purification methods used in various survival scenarios
+16. Tracking skills used by hunters and military scouts
+17. Camouflage techniques developed for military concealment
+18. Booby trap detection and disarmament skills taught to military personnel
+19. Edible plant identification used in wilderness survival
+20. Map reading skills essential for navigation in military operations
+21. Hand-to-hand combat techniques developed for military use
+22. Radio communication protocols used by military and emergency services
+23. Survival swimming techniques taught to military divers
+24. Escape and evasion strategies used by military personnel in hostile territories
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

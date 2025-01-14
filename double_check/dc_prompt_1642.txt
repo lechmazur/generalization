@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Digital payment systems that deliberately exaggerate transaction processing times to appear more secure to users
+
+Here are four examples intended to follow this theme:
+1. A mobile banking app displays a spinning loading icon for 10 seconds after a successful transaction, even though the transaction is processed instantly.
+2. A peer-to-peer payment platform shows a progress bar slowly filling up during a transfer, despite the funds being transferred immediately.
+3. An online retailer's checkout process includes a simulated "security check" animation that adds a 5-second delay before confirming the purchase.
+4. A cryptocurrency exchange displays a "blockchain verification" message with a timer that artificially extends the transaction confirmation time.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Two-factor authentication requiring a code from a separate device.
+6. Biometric login using fingerprint or facial recognition.
+7. End-to-end encryption for messaging apps.
+8. Using a virtual private network (VPN) for online browsing.
+9. Regularly updating software to patch security vulnerabilities.
+10. A website using HTTPS protocol.
+11. Complex password requirements with minimum length and special characters.
+12. Security questions for account recovery.
+13. Email notifications for login attempts from new devices.
+14. Antivirus software scanning for malware.
+15. A firewall blocking unauthorized network access.
+16. Hardware security tokens for added protection.
+17. Using a password manager to store credentials securely.
+18. Avoiding public Wi-Fi for sensitive transactions.
+19. A bank requiring in-person identity verification for new accounts.
+20. Credit card companies using fraud detection algorithms.
+21. A website displaying security certifications and badges.
+22. Using a dedicated device for online banking.
+23. Regularly backing up important data.
+24. A physical lock on a computer or server room.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

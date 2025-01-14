@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): artworks or natural phenomena that visually or conceptually juxtapose organic and geometric forms in a way that creates a sense of surreal or unexpected harmony
+
+Here are four examples intended to follow this theme:
+1. Salvador Dalí's painting "Swans Reflecting Elephants"
+2. The rock formations at Bryce Canyon National Park
+3. The sculptures of Isamu Noguchi, such as "The Black Sun"
+4. The patterns created by frost on a windowpane
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a city skyline
+6. A photograph of a forest
+7. A sculpture of a human figure
+8. A geometric abstract painting
+9. A landscape with rolling hills
+10. A still life of fruit in a bowl
+11. A portrait of a person
+12. A photograph of a mountain range
+13. A painting of a stormy sea
+14. A sculpture of an animal
+15. A photograph of a flower
+16. An abstract painting with organic shapes
+17. A geometric pattern on a piece of fabric
+18. A painting of a sunset
+19. A sculpture made entirely of straight lines
+20. A photograph of a river
+21. A painting of a busy street scene
+22. A sculpture of a building
+23. A photograph of a desert
+24. An abstract painting with only curved lines
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

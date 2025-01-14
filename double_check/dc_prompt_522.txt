@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Paintings depicting flowing, tattered fabric rendered in a Symbolist or Art Nouveau style.
+
+Here are four examples intended to follow this theme:
+1. Gustav Klimt's "The Three Ages of Woman" (1905)
+2. Carlos Schwabe's "The Wave" (1907)
+3. Fernand Khnopff's "I Lock My Door Upon Myself" (1891)
+4. Jean Delville's "The Angel of Splendor" (1894)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Botticelli's "Birth of Venus" (1485)
+6. Alphonse Mucha's "The Seasons" poster series
+7. William Blake's "The Ancient of Days" (1794)
+8. John William Waterhouse's "The Lady of Shalott" (1888)
+9. Gustav Klimt's "The Kiss" (1907)
+10. Aubrey Beardsley's "The Peacock Skirt" (1894)
+11. El Greco's "The Burial of the Count of Orgaz" (1586)
+12. Théophile Steinlen's "Chat Noir" poster (1896)
+13. William Morris's textile designs
+14. René Lalique's jewelry designs
+15. Dante Gabriel Rossetti's "Proserpine" (1874)
+16. Henri de Toulouse-Lautrec's cabaret posters
+17. Odilon Redon's "The Cyclops" (1914)
+18. Jan van Eyck's "Arnolfini Portrait" (1434)
+19. Edward Burne-Jones's "The Golden Stairs" (1880)
+20. Georges Seurat's "A Sunday Afternoon" (1884)
+21. Edvard Munch's "The Scream" (1893)
+22. Pierre Puvis de Chavannes's murals
+23. Gustav Moreau's "Jupiter and Semele" (1895)
+24. Max Klinger's "The Glove" series (1881)
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

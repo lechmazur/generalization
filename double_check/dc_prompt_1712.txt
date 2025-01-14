@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures over 100 feet tall that harness natural air movement to generate mechanical power
+
+Here are four examples intended to follow this theme:
+1. a wind turbine tower exceeding 100 feet that uses wind to rotate its blades and generate electricity
+2. a tall chimney-like structure with internal turbines that harness updrafts from heated air to produce mechanical energy
+3. a vertical-axis wind turbine over 100 feet tall designed to capture wind currents at high altitudes
+4. a skyscraper-integrated wind funnel system that channels natural breezes to power internal turbines
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a solar panel array on a rooftop
+6. a hydroelectric dam
+7. a geothermal power plant
+8. a tidal energy generator
+9. a windmill under 100 feet tall
+10. a kite-based wind energy system
+11. a solar updraft tower under 100 feet
+12. a biomass power plant
+13. a wave energy converter
+14. a small-scale residential wind turbine
+15. a coal-fired power plant
+16. a natural gas turbine
+17. a nuclear reactor
+18. a solar thermal power plant
+19. a wind farm with turbines under 100 feet
+20. a rooftop rainwater harvesting system
+21. a vertical garden on a skyscraper
+22. a solar-powered water pump
+23. a small wind-powered water desalination unit
+24. a residential solar water heater
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

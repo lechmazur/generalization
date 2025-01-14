@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Urban infrastructure elements that manage heat distribution or dissipation
+
+Here are four examples intended to follow this theme:
+1. ventilation shafts
+2. cooling towers
+3. heat sinks
+4. thermal vents
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. traffic lights
+6. power lines
+7. storm drains
+8. subway tunnels
+9. water towers
+10. street lamps
+11. manhole covers
+12. fire hydrants
+13. telephone poles
+14. bus shelters
+15. parking meters
+16. garbage bins
+17. bike racks
+18. public benches
+19. road signs
+20. utility boxes
+21. security cameras
+22. crosswalks
+23. guardrails
+24. traffic barriers
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Audio recordings of naturally occurring environmental soundscapes specifically designed for relaxation or therapeutic purposes.
+
+Here are four examples intended to follow this theme:
+1. Whispering winds and gentle ocean waves recorded at a secluded beach, intended for deep relaxation.
+2. A forest soundscape featuring soft rustling leaves and distant bird calls, designed to aid in meditation.
+3. Nighttime ambiance with crickets and a soft breeze, created to promote sleep and relaxation.
+4. A mountain stream's soothing flow combined with ambient forest sounds, used for stress relief therapy.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A live concert recording of a popular band.
+6. Traffic noise captured in a busy city center.
+7. A podcast discussing environmental conservation.
+8. White noise machine sounds for blocking out distractions.
+9. Audiobook narration of a suspense novel.
+10. Recordings of industrial machinery in operation.
+11. A guided meditation session with spoken instructions.
+12. Classical music performance in a concert hall.
+13. Ambient sounds from a bustling café.
+14. Recordings of a sports event with crowd cheering.
+15. A nature documentary with narration and wildlife sounds.
+16. Alarm clock sounds designed to wake people up.
+17. Recordings of a thunderstorm for educational purposes.
+18. Background music for a video game.
+19. Audio from a historical reenactment event.
+20. Recordings of a busy airport terminal.
+21. A radio talk show discussing current events.
+22. Sound effects used in a horror movie.
+23. Recordings of a school playground during recess.
+24. Audio of a busy kitchen during dinner service.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

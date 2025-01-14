@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or practices used in different cultures' mountain-dwelling spiritual traditions specifically for counting or tracking repetitive devotional acts
+
+Here are four examples intended to follow this theme:
+1. A knotted cord used by Inca priests to track the days of a ritual fast in the Andes.
+2. A string of prayer beads made from yak bone used by Tibetan Buddhist monks living in the Himalayas to count mantras recited during meditation.
+3. Small stones kept in a pouch by a Berber spiritual leader in the Atlas Mountains, each representing a completed prayer for rain.
+4. A wooden tally stick carved with notches by an Ainu elder in the Japanese Alps, marking the number of ceremonial dances performed for a successful harvest.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A rosary used by a Catholic in a lowland city.
+6. A Tibetan prayer wheel used in a temple on a plain.
+7. A singing bowl used in a sound bath.
+8. An altar in a mountain shrine.
+9. A thangka painting depicting a mountain deity.
+10. Incense burned during a mountaintop ceremony.
+11. A shaman's drum used in a healing ritual.
+12. A feather worn by a Native American chief.
+13. A hand-woven rug with mountain motifs.
+14. A statue of Buddha in a mountain monastery.
+15. A bell rung during a temple service.
+16. A ceremonial mask used in a festival.
+17. A sacred text recited by a priest.
+18. A pilgrimage to a mountaintop shrine.
+19. An offering of food left at a sacred site.
+20. A meditation cushion used for daily practice.
+21. A Mala beads used for Japa meditation.
+22. A smudge stick used for cleansing.
+23. A crystal grid used for manifestation.
+24. A dream catcher hung above a bed.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

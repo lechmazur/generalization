@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects that gradually accumulate layers of sediment or residue over decades while remaining mostly intact and visible underneath
+
+Here are four examples intended to follow this theme:
+1. A submerged statue in a lake
+2. An old shipwreck at the bottom of the ocean
+3. A buried ancient tool in an archaeological site
+4. An abandoned car in a desert
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tree growing moss over time
+6. A building covered in ivy
+7. A river delta forming over centuries
+8. A glacier accumulating snow and ice
+9. A rock eroded by wind and sand
+10. A painting that fades over time
+11. A piece of metal that rusts
+12. A fossil formed from an ancient organism
+13. A mountain range shaped by tectonic forces
+14. A coral reef growing over time
+15. A cave with stalactites and stalagmites
+16. A landfill accumulating waste
+17. A city street covered in layers of asphalt
+18. A book with pages yellowing over time
+19. A wine bottle accumulating dust on a shelf
+20. A piece of pottery that cracks and weathers
+21. A bridge accumulating graffiti over the years
+22. A field covered in layers of fallen leaves
+23. A piece of driftwood washed up on a beach
+24. A wall covered in posters and flyers
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

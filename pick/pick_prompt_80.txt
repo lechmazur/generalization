@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The Great Schism of 1054, which split Christianity into the Roman Catholic Church and the Eastern Orthodox Church
+The formation of the Old Catholic Church after the First Vatican Council in 1870 due to disagreements over papal infallibility
+The Protestant Reformation in the 16th century, leading to the division of Western Christianity into Catholicism and Protestantism
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+The split between Theravada and Mahayana Buddhism in ancient times
+The establishment of the Anglican Church under Henry VIII in the 16th century
+The founding of the Mormon Church in the 19th century
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. The split between Sunni and Shia Islam following the death of Prophet Muhammad in 632 CE <<LEFTOVER>>
+2. The rise of the Jehovah's Witnesses in the late 19th century
+3. The formation of the Unitarian Universalist Association in the 20th century
+4. The Council of Nicaea in 325 CE, which addressed theological disputes but did not result in a permanent division
+5. The rise of the Bahá'í Faith in the 19th century
+6. The formation of the Seventh-day Adventist Church in the 19th century
+7. The rise of the Amish community in the 17th century
+8. The establishment of the Quaker movement in the 17th century

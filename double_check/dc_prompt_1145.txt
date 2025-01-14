@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or structures that utilize decentralized, self-sustaining networks to distribute resources or information without a central authority
+
+Here are four examples intended to follow this theme:
+1. Bitcoin
+2. Tor network
+3. Mesh networks
+4. Distributed Hash Tables (DHTs)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Corporate hierarchical structure
+6. Centralized database systems
+7. Traditional banking systems
+8. Government-controlled media
+9. Client-server model
+10. Public transportation systems
+11. Supply chain management
+12. Cloud computing services
+13. Telecommunication networks
+14. Traditional energy grids
+15. Water distribution systems
+16. National postal services
+17. Internet Service Providers (ISPs)
+18. Traditional education systems
+19. Healthcare systems
+20. Retail distribution networks
+21. Public libraries
+22. Traditional voting systems
+23. Social media platforms
+24. Corporate intranets
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

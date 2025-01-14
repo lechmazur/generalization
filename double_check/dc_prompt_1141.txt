@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): artworks or installations that use the passage of time as a medium to create or alter their form, requiring the viewer to experience them over a duration to fully grasp their meaning or transformation
+
+Here are four examples intended to follow this theme:
+1. An installation where a series of photographs are taken daily and displayed in sequence, showing the gradual growth of a plant from seed to maturity.
+2. A sculpture made of ice that melts over the course of an exhibition, changing its shape and eventually disappearing.
+3. A video artwork that records the slow erosion of a coastline over several years, played in a time-lapse format.
+4. An interactive digital piece where viewers can see the progression of a virtual city's development over decades by interacting with a timeline.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting that depicts a historical event.
+6. A sculpture made from recycled materials.
+7. An installation that uses light and shadow to create dynamic visuals.
+8. A performance art piece that involves audience participation.
+9. A digital artwork that explores themes of technology and nature.
+10. A series of photographs capturing different moments of a single day.
+11. A kinetic sculpture that moves in response to wind.
+12. An artwork that uses augmented reality to enhance viewer experience.
+13. A piece that explores the concept of memory through various media.
+14. A mural that changes its appearance based on the time of day.
+15. An installation that uses sound to create an immersive environment.
+16. A video that documents a live performance.
+17. A sculpture that represents the concept of infinity.
+18. An artwork that uses mirrors to create optical illusions.
+19. A piece that explores the theme of decay through static imagery.
+20. An installation that uses water as a primary medium.
+21. A digital artwork that allows viewers to manipulate elements in real-time.
+22. A series of paintings that explore the passage of seasons.
+23. An artwork that uses heat-sensitive materials to change appearance.
+24. A sculpture that represents a moment frozen in time.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

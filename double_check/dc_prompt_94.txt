@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena or structures that exhibit cyclical patterns of growth and dormancy influenced by environmental factors
+
+Here are four examples intended to follow this theme:
+1. Deciduous trees shedding leaves in autumn and regrowing them in spring
+2. Annual wildflowers blooming in wet seasons and lying dormant in dry seasons
+3. Hibernating animals entering a state of dormancy in winter and becoming active in spring
+4. Coral reefs undergoing bleaching during warmer periods and recovering during cooler periods
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Seasons changing throughout the year
+6. Migration patterns of birds
+7. Tides rising and falling daily
+8. Day and night cycles
+9. Human hair growth and haircut cycles
+10. Economic cycles of boom and bust
+11. Stock market fluctuations
+12. Menstrual cycles in humans
+13. Sleep-wake cycles
+14. Plant growth influenced by fertilizer application
+15. Weather patterns influenced by climate change
+16. Population growth and decline in cities
+17. Life cycles of insects
+18. Plant growth in response to light exposure
+19. Water levels in reservoirs fluctuating due to rainfall
+20. Changes in ocean currents
+21. Annual cycles of tourism in coastal areas
+22. Fluctuations in wildlife populations due to predation
+23. Changes in river flow due to dam operations
+24. Cycles of technological innovation and obsolescence
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

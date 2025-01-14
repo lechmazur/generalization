@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geological formations or structures that serve as natural metaphors for emotional or psychological states, often used in literature or art to symbolize human experiences.
+
+Here are four examples intended to follow this theme:
+1. A chasm representing the gulf between two estranged lovers.
+2. Shifting sands symbolizing the impermanence of memory.
+3. An eroding cliff face reflecting the gradual decay of hope.
+4. A dormant volcano embodying suppressed rage.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A geyser erupting.
+6. A stalactite forming slowly over time.
+7. The Grand Canyon.
+8. A mountain range.
+9. A river delta.
+10. Smooth, polished river stones.
+11. A field of wildflowers growing near a fault line.
+12. A glacier carving a valley.
+13. Layers of sedimentary rock.
+14. A meteorite impact crater.
+15. A cave painting depicting animals.
+16. A fossil of an ancient creature.
+17. A crystal geode.
+18. A desert oasis.
+19. An underground river.
+20. A sinkhole suddenly appearing.
+21. A landslide blocking a road.
+22. The tectonic plates shifting.
+23. A volcanic eruption causing widespread destruction.
+24. An earthquake creating a tsunami.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

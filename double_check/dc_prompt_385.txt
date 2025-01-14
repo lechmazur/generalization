@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects awarded to individuals for non-military acts of bravery recognized by a national government.
+
+Here are four examples intended to follow this theme:
+1. a gold medal for civilian heroism
+2. a silver cross for lifesaving
+3. a bronze star for acts of valor in non-combat situations
+4. a ribboned medallion for exceptional bravery in emergencies
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a Purple Heart
+6. a Nobel Prize
+7. a Grammy Award
+8. a Medal of Honor
+9. a Pulitzer Prize
+10. a Victoria Cross
+11. a Congressional Gold Medal
+12. an Olympic gold medal
+13. a Presidential Medal of Freedom
+14. a Carnegie Medal
+15. a Silver Star
+16. a Distinguished Service Cross
+17. a Legion of Merit
+18. a Bronze Star Medal
+19. a Knight's Cross
+20. a Croix de Guerre
+21. a George Cross
+22. a Medal of Valor
+23. a Military Cross
+24. a Distinguished Flying Cross
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

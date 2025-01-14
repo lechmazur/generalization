@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that utilize a flexible, node-based structure to manage the distribution of a resource across a non-uniform, evolving topology.
+
+Here are four examples intended to follow this theme:
+1. a decentralized energy grid that dynamically allocates power based on regional demand and supply fluctuations
+2. a peer-to-peer file-sharing network that adjusts data distribution based on node availability and bandwidth
+3. a traffic management system that reroutes vehicles in real-time using adaptive algorithms to optimize flow across changing road conditions
+4. a distributed computing framework that allocates processing tasks across a network of devices with varying capabilities and workloads
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a centralized water distribution system with fixed pipelines
+6. a static website hosting service
+7. a traditional postal service with predefined routes
+8. a linear supply chain with no adaptive mechanisms
+9. a single-server cloud storage system
+10. a rigid hierarchical organizational structure
+11. a fixed public transportation schedule
+12. a manual irrigation system with no sensors or automation
+13. a non-adaptive traffic light system
+14. a traditional library catalog system
+15. a basic email server with no load balancing
+16. a linear conveyor belt in a factory
+17. a static electricity grid with no smart meters
+18. a manual inventory management system
+19. a fixed-route delivery service
+20. a non-adaptive HVAC system
+21. a traditional landline telephone network
+22. a rigid classroom seating arrangement
+23. a basic radio broadcasting system
+24. a non-dynamic video streaming platform
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

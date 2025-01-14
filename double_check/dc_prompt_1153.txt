@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures or designs that incorporate natural water features as a central, functional, or symbolic element in their form or purpose.
+
+Here are four examples intended to follow this theme:
+1. Fallingwater House
+2. Trevi Fountain
+3. Villa d'Este
+4. Bellagio Hotel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Taj Mahal
+6. Golden Gate Bridge
+7. Stonehenge
+8. Empire State Building
+9. Sydney Opera House
+10. Pantheon
+11. Burj Khalifa
+12. Parthenon
+13. Notre Dame Cathedral
+14. Petronas Towers
+15. Chrysler Building
+16. Guggenheim Museum
+17. Palace of Versailles
+18. Colosseum
+19. Forbidden City
+20. Hagia Sophia
+21. Angkor Wat
+22. Leaning Tower of Pisa
+23. St. Peter's Basilica
+24. Brandenburg Gate
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

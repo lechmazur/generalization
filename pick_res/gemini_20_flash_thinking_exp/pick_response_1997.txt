@@ -1,0 +1,32 @@
+pick_response_1997.txt
+The user has provided examples and anti-examples of a specific theme. The examples are all containers made of natural materials (gourd, leather, wood). The anti-examples are all made of glass or metal. The specific theme seems to be "containers made of natural materials for holding liquids". The broader theme could be "containers for holding liquids".
+
+I need to evaluate the candidates based on how well they fit the specific theme (natural materials) and explicitly avoid matching the broader theme (any material).
+
+Let's evaluate each candidate:
+1. a metal keg: Metal, so it's like the anti-examples. Score should be low.
+2. a glass carafe: Glass, so it's like the anti-examples. Score should be low.
+3. a glass jar: Glass, so it's like the anti-examples. Score should be low.
+4. a metal canteen: Metal, so it's like the anti-examples. Score should be low.
+5. a metal barrel: Metal, so it's like the anti-examples. Score should be low.
+6. a glass vial: Glass, so it's like the anti-examples. Score should be low.
+7. a glass pitcher: Glass, so it's like the anti-examples. Score should be low.
+8. a ceramic amphora: Ceramic is a natural material (clay). This fits the specific theme. Score should be high.
+
+Now, let's assign granular scores, considering slight variations:
+
+1. a metal keg: Clearly metal. Score: 1
+2. a glass carafe: Clearly glass. Score: 1
+3. a glass jar: Clearly glass. Score: 1
+4. a metal canteen: Clearly metal. Score: 2 (Slightly better than a keg due to size, but still metal)
+5. a metal barrel: Clearly metal. Score: 1
+6. a glass vial: Clearly glass. Score: 2 (Slightly different use case than a bottle, but still glass)
+7. a glass pitcher: Clearly glass. Score: 1
+8. a ceramic amphora: Ceramic is natural, similar to wood. Score: 9<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>2</score>
+<number>7</number><score>1</score>
+<number>8</number><score>9</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural or historical events that involve the use of symbolic attire or regalia to convey identity, resistance, or tradition.
+
+Here are four examples intended to follow this theme:
+1. The wearing of kilts by Scottish clans during cultural festivals
+2. The use of white dresses by suffragettes during marches
+3. Maori haka performances with traditional attire
+4. Native American headdresses worn during powwows
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The use of uniforms by military personnel
+6. Wearing a suit to a business meeting
+7. Donning a lab coat in a scientific laboratory
+8. Wearing a wedding dress at a ceremony
+9. Sporting a team jersey at a sports event
+10. Wearing a Halloween costume
+11. Putting on a graduation cap and gown
+12. Wearing a chef's hat in a kitchen
+13. Donning a Santa suit during Christmas
+14. Wearing a firefighter's uniform
+15. Wearing a judge's robe in court
+16. Wearing a doctor's scrubs in a hospital
+17. Wearing a beekeeper's suit
+18. Wearing a spacesuit during a spacewalk
+19. Wearing a clown costume at a circus
+20. Wearing a ballet tutu during a performance
+21. Wearing a wetsuit for scuba diving
+22. Wearing a cowboy hat at a rodeo
+23. Wearing a referee's uniform during a game
+24. Wearing a kimono at a Japanese tea ceremony
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

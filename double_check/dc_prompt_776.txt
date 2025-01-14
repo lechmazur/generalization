@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or entities that combine traditional craftsmanship with supernatural abilities
+
+Here are four examples intended to follow this theme:
+1. A sword forged by an ancient blacksmith that grants its wielder the power to control fire
+2. A handwoven tapestry that reveals hidden truths when touched
+3. A ceramic vase that can purify any liquid placed inside it
+4. A wooden flute carved by a master craftsman that can summon rain when played
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smartphone with advanced AI capabilities
+6. A genetically engineered plant that glows in the dark
+7. A futuristic car that can drive itself
+8. A digital watch that can track your health metrics
+9. A painting that changes colors based on the viewer's mood
+10. A robot designed to mimic human emotions
+11. A book that updates its content automatically
+12. A virtual reality headset that simulates different environments
+13. A drone that can deliver packages autonomously
+14. A genetically modified fruit that never spoils
+15. A pair of glasses that can translate languages in real-time
+16. A computer program that predicts stock market trends
+17. A solar-powered flashlight
+18. A digital camera with facial recognition technology
+19. A smart home system that learns your preferences
+20. A holographic display that projects 3D images
+21. A fitness tracker that monitors your sleep patterns
+22. A self-cleaning oven
+23. A voice-activated personal assistant
+24. A high-tech security system with motion sensors
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

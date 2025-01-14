@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Interactive art installations that utilize physical manipulation to create visual patterns
+
+Here are four examples intended to follow this theme:
+1. Visitors can twist and turn a series of interconnected gears to generate intricate geometric designs projected onto a wall.
+2. A large, transparent touch-sensitive surface allows users to draw patterns with their fingers, which are then transformed into colorful light displays.
+3. Participants manipulate a series of levers and pulleys to control the movement of light beams, creating dynamic shadow patterns on a screen.
+4. By physically moving magnetic tiles on a board, users can alter the flow of electric currents, resulting in changing visual patterns displayed on an LED matrix.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Interactive digital art that responds to sound input to create visual effects.
+6. A virtual reality experience where users can paint in a 3D environment.
+7. An art installation that changes colors based on the time of day.
+8. A sculpture that rotates to reveal different images as it moves.
+9. A mural that uses augmented reality to add interactive elements visible through a smartphone app.
+10. An exhibit where visitors can control the playback of a video by moving a joystick.
+11. A light installation that changes patterns based on the temperature in the room.
+12. A kinetic sculpture that moves in response to wind, creating changing shadows.
+13. An interactive floor projection that reacts to people walking over it, but does not create visual patterns.
+14. A digital painting that evolves over time without user interaction.
+15. An art piece that uses sensors to detect movement and trigger sound effects.
+16. A gallery where visitors can use a tablet to select different artworks to be displayed on a screen.
+17. An installation where the audience can vote on which artwork to display next.
+18. A piece that uses facial recognition to change the displayed image based on the viewer's expression.
+19. An exhibit where visitors can add their own drawings to a communal digital canvas.
+20. A sculpture that changes color when touched, but does not create visual patterns.
+21. An interactive game where players can manipulate virtual objects on a screen.
+22. A light show that is controlled by a pre-programmed sequence, not by physical manipulation.
+23. An installation where visitors can record their voices to be part of a sound collage.
+24. A piece of art that uses water flow to create dynamic shapes, but not visual patterns controlled by physical manipulation.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

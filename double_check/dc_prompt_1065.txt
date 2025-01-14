@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Illustrated works by artists who also designed public spaces or architectural elements.
+
+Here are four examples intended to follow this theme:
+1. The Tale of Peter Rabbit illustrations by Beatrix Potter
+2. Where the Wild Things Are illustrations by Maurice Sendak
+3. The Little Prince illustrations by Antoine de Saint-Exupéry
+4. Alice in Wonderland illustrations by John Tenniel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Very Hungry Caterpillar by Eric Carle
+6. Calvin and Hobbes by Bill Watterson
+7. The Sistine Chapel ceiling by Michelangelo
+8. The Mona Lisa by Leonardo da Vinci
+9. The Starry Night by Vincent van Gogh
+10. Guernica by Pablo Picasso
+11. The Persistence of Memory by Salvador Dalí
+12. The Scream by Edvard Munch
+13. American Gothic by Grant Wood
+14. The Birth of Venus by Sandro Botticelli
+15. The Night Watch by Rembrandt
+16. Girl with a Pearl Earring by Johannes Vermeer
+17. The Garden of Earthly Delights by Hieronymus Bosch
+18. Impression, Sunrise by Claude Monet
+19. The Son of Man by René Magritte
+20. Campbell's Soup Cans by Andy Warhol
+21. The Kiss by Gustav Klimt
+22. Dogs Playing Poker by Cassius Marcellus Coolidge
+23. Christina's World by Andrew Wyeth
+24. The Great Wave off Kanagawa by Hokusai
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

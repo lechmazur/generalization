@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Human-made objects designed for long-term mobile habitation that utilize animal power for locomotion.
+
+Here are four examples intended to follow this theme:
+1. A Vardo traditionally used by Romani people in Europe.
+2. A Conestoga wagon used by settlers in North America.
+3. A Yurt mounted on a wheeled frame and pulled by oxen across the steppes.
+4. A small, covered wagon designed for two people, pulled by a single horse, used for nomadic trading.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A houseboat
+6. A recreational vehicle (RV)
+7. A tent
+8. A log cabin
+9. A train car
+10. A cruise ship
+11. A bicycle
+12. A horse-drawn carriage
+13. A sedan chair
+14. A palanquin
+15. A rickshaw
+16. A pack animal with saddlebags
+17. A covered wagon pulled by a tractor
+18. A mobile home
+19. A yurt
+20. A teepee
+21. A house on wheels (not pulled by animals)
+22. A ship
+23. An airplane
+24. A submarine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

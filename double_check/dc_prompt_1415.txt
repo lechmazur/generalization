@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional fishing techniques that rely on interpreting animal behavior patterns to predict fish locations
+
+Here are four examples intended to follow this theme:
+1. Following flocks of seabirds to locate schools of fish near the surface.
+2. Observing the movements of dolphins or other marine mammals to pinpoint tuna or other predatory fish.
+3. Identifying subtle changes in water turbidity caused by bottom-feeding fish stirring up sediment.
+4. Recognizing specific insect hatches that attract fish to the surface for feeding.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Using sonar technology to map the seabed and locate fish aggregations.
+6. Trolling with multiple lines to cover a wider area and attract different species.
+7. Employing longline fishing with hundreds of baited hooks to catch pelagic fish.
+8. Casting nets from shore to capture fish in shallow waters.
+9. Using fish finders to identify water temperature and depth preferences of target species.
+10. Drift netting with large nets to passively catch fish carried by currents.
+11. Bottom trawling with weighted nets to catch demersal fish on the seafloor.
+12. Jigging with artificial lures to mimic the movements of prey fish.
+13. Setting traps or pots baited with attractants to capture crustaceans and shellfish.
+14. Using chum to create a feeding frenzy and attract fish to a specific location.
+15. Studying migration patterns of fish using tagging and tracking technology.
+16. Analyzing stomach contents of caught fish to understand their dietary preferences.
+17. Monitoring water quality parameters like salinity and oxygen levels to identify suitable fish habitats.
+18. Using underwater cameras to observe fish behavior and distribution.
+19. Applying mathematical models to predict fish stock abundance and distribution.
+20. Developing artificial reefs to enhance fish habitat and promote biodiversity.
+21. Implementing fishing regulations to manage fish populations and prevent overfishing.
+22. Using gillnets to entangle fish by their gills.
+23. Electrofishing to stun fish for capture in research or management activities.
+24. Using dynamite fishing to kill or stun fish for easy collection (illegal and destructive).
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

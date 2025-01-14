@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): biological entities or cultural concepts that undergo a dramatic transformation or loss of a defining feature after achieving a specific purpose or milestone
+
+Here are four examples intended to follow this theme:
+1. A caterpillar turning into a butterfly after forming a chrysalis
+2. A tadpole losing its tail after metamorphosing into a frog
+3. A seed losing its protective coat after germinating into a plant
+4. A salmon dying after spawning
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tree losing its leaves in autumn
+6. A snake shedding its skin
+7. A star collapsing into a black hole
+8. A company undergoing a rebranding
+9. A person retiring after a long career
+10. A building being demolished after its use is over
+11. A car being scrapped after reaching the end of its life
+12. A book going out of print after its popularity wanes
+13. A festival ending after its scheduled duration
+14. A glacier melting due to climate change
+15. A smartphone becoming obsolete after new models are released
+16. A tradition fading away as society changes
+17. A species going extinct due to environmental changes
+18. A volcano becoming dormant after an eruption
+19. A political regime collapsing after a revolution
+20. A fashion trend disappearing after its peak popularity
+21. A bridge being closed for safety reasons after years of use
+22. A language evolving and losing certain words over time
+23. A river changing its course after a natural disaster
+24. A piece of technology being upgraded and losing its original features
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

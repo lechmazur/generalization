@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Transportation systems that utilize autonomous navigation technology for non-passenger vehicles
+
+Here are four examples intended to follow this theme:
+1. autonomous delivery drones for packages
+2. self-driving agricultural tractors for crop management
+3. robotic warehouse forklifts for inventory transport
+4. autonomous cargo ships for maritime logistics
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a passenger self-driving car
+6. a human-operated delivery truck
+7. a manually piloted airplane
+8. a traditional subway train with a driver
+9. a bicycle with GPS navigation
+10. a remote-controlled toy car
+11. a manually steered boat
+12. a human-driven taxi
+13. a manually operated forklift
+14. a drone controlled by a human pilot
+15. a traditional train with a conductor
+16. a manually driven tractor
+17. a human-operated cargo ship
+18. a manually guided warehouse robot
+19. a passenger bus with a human driver
+20. a manually piloted helicopter
+21. a human-driven garbage truck
+22. a manually operated snowplow
+23. a traditional ferry with a captain
+24. a human-controlled delivery robot
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures built or significantly modified after major global conflicts to symbolize peace or renewal.
+
+Here are four examples intended to follow this theme:
+1. The Hiroshima Peace Memorial Park
+2. The Berlin Wall Memorial
+3. The Coventry Cathedral
+4. The Nagasaki Peace Park
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Statue of Liberty
+6. The Eiffel Tower
+7. The Great Wall of China
+8. The Taj Mahal
+9. The Colosseum
+10. The Pyramids of Giza
+11. The Golden Gate Bridge
+12. The Empire State Building
+13. The Christ the Redeemer statue
+14. The Sydney Opera House
+15. The Brandenburg Gate
+16. The Arc de Triomphe
+17. The Lincoln Memorial
+18. The Washington Monument
+19. The World Trade Center (original)
+20. The Pentagon
+21. The United Nations Headquarters
+22. The International Space Station
+23. The Channel Tunnel
+24. The Burj Khalifa
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

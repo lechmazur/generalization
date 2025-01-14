@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Organisms that use rapid mechanical movement to propel themselves or capture prey
+
+Here are four examples intended to follow this theme:
+1. Venus flytrap
+2. Mantis shrimp
+3. Chameleon's tongue
+4. Woodpecker
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Cheetah
+6. Falcon
+7. Dolphin
+8. Spider spinning a web
+9. Pitcher plant
+10. Sunflower tracking the sun
+11. Coral polyp extending tentacles
+12. Amoeba moving by pseudopods
+13. Paramecium using cilia
+14. Flagellum of a bacteria
+15. Human walking
+16. Snake slithering
+17. Worm crawling
+18. Fish swimming
+19. Bird flying
+20. Kangaroo hopping
+21. Bladderwort
+22. Sundew
+23. Cobra spitting venom
+24. Archerfish shooting water
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

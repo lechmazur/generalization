@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Depictions of roosting bats in Renaissance paintings located in Florence, Italy.
+
+Here are four examples intended to follow this theme:
+1. Bats depicted in the shadows of the "Martyrdom of Saint Sebastian" by Pollaiolo in the Pitti Palace.
+2. Bats nestled in the rafters of a ruined building in a background detail of Domenico Ghirlandaio's "Adoration of the Shepherds" in the Sassetti Chapel, Santa Trinita.
+3. A small cluster of bats hanging from the crumbling archway in the predella of an altarpiece depicting the life of a saint, attributed to the workshop of Neri di Bicci, in a Florentine church.
+4. Bats subtly painted in the darkened corners of a fresco depicting a nocturnal scene, possibly by Piero di Cosimo, in a private palazzo in Florence.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a bat in flight by a Dutch master.
+6. A gargoyle shaped like a bat on a Florentine building.
+7. A 19th-century Romantic painting of a vampire bat.
+8. A drawing of a bat in Leonardo da Vinci's anatomical studies.
+9. A bat motif in a Renaissance tapestry.
+10. A sculpture of a winged demon with bat-like features.
+11. A painting of owls roosting in a tree at night.
+12. A depiction of a nocturnal landscape in a Florentine fresco.
+13. A painting of a saint being tempted by the devil, symbolized by a shadowy figure.
+14. An illuminated manuscript depicting a bat as a symbol of darkness.
+15. A painting of a still life with a bowl of fruit infested with insects.
+16. A Baroque painting of a bat in a scientific illustration.
+17. A fresco depicting the story of Dracula in a Transylvanian castle.
+18. A painting of a night scene with moths fluttering around a lamp.
+19. A Renaissance painting of a dragon.
+20. A carved wooden panel depicting a forest scene with various animals, including birds.
+21. A painting of a ruined Roman temple with birds nesting in the crevices.
+22. A depiction of a mythological creature with bat wings in a Greek vase painting.
+23. A painting of a cat hunting a mouse in a dark pantry.
+24. A Renaissance portrait of a person wearing a bat-shaped pendant.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

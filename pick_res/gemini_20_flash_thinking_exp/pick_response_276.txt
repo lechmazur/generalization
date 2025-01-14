@@ -1,0 +1,22 @@
+pick_response_276.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme. The examples revolve around natural observation for navigation, specifically using environmental cues directly. The anti-examples involve tools and instruments for navigation. Therefore, the specific theme is likely **natural, observation-based navigation without the use of complex instruments.**
+
+I need to evaluate each candidate against this specific theme and assign a score from 0 to 10.
+
+*   **Candidate 1: Using prevailing winds to determine direction while sailing:** This aligns with the theme of using natural elements for navigation.
+*   **Candidate 2: Using a compass:** This is an instrument, similar to the anti-examples.
+*   **Candidate 3: Using a GPS device:** This is a technological instrument, definitely not the theme.
+*   **Candidate 4: Following a river downstream:** This involves using a natural feature for navigation.
+*   **Candidate 5: Using a chronometer:** This is a tool, similar to the anti-examples.
+*   **Candidate 6: Using a radio beacon:** This is a technological aid, not natural observation.
+*   **Candidate 7: Using landmarks like mountains or distinctive trees:** This fits the theme of using natural features for navigation.
+*   **Candidate 8: Dead reckoning:** This can involve estimations based on speed and time, but often relies on initial observations (like star positions) or natural cues. It's a bit more complex but can align with the theme depending on the implementation.
+
+Now, I will assign scores, ensuring granularity and using the full range.<number>1</number><score>8</score>
+<number>2</number><score>1</score>
+<number>3</number><score>0</score>
+<number>4</number><score>7</score>
+<number>5</number><score>1</score>
+<number>6</number><score>0</score>
+<number>7</number><score>9</score>
+<number>8</number><score>5</score>

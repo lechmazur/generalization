@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Celestial events that have been depicted in science fiction films prior to their actual scientific observation or confirmation.
+
+Here are four examples intended to follow this theme:
+1. Black holes depicted in the 1979 film *Disney's The Black Hole*
+2. Wormholes used for interstellar travel in the 1968 film *2001: A Space Odyssey*
+3. Binary sunset depicted in the 1977 film *Star Wars: A New Hope*
+4. Supermassive black hole at the center of a galaxy depicted in the 1977 film *Star Wars: A New Hope*
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A spacewalk depicted in *Gravity*
+6. Alien invasion in *War of the Worlds*
+7. Faster-than-light travel in *Star Trek*
+8. Terraforming Mars in *Total Recall*
+9. Artificial intelligence in *2001: A Space Odyssey*
+10. Time travel in *Back to the Future*
+11. Asteroid impacts in *Armageddon*
+12. Space stations in *Elysium*
+13. Colonization of other planets in *Avatar*
+14. Genetic engineering in *Gattaca*
+15. Cryosleep in *Passengers*
+16. Robots in *I, Robot*
+17. Virtual reality in *The Matrix*
+18. Teleportation in *Star Trek*
+19. Antimatter propulsion in *Star Trek*
+20. Laser weapons in *Star Wars*
+21. Force fields in *Star Wars*
+22. Cybernetics in *RoboCop*
+23. Mutants in *X-Men*
+24. Exploration of Jupiter in *2010: The Year We Make Contact*
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

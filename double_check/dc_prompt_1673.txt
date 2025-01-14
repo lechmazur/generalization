@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mechanical timekeeping devices that rely on natural cycles or seasonal phenomena rather than gears or pendulums
+
+Here are four examples intended to follow this theme:
+1. A sundial
+2. A water clock (clepsydra) based on consistent flow rate
+3. An oil lamp clock with marked levels indicating passage of time
+4. A candle clock with marked increments
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A grandfather clock
+6. A cuckoo clock
+7. An hourglass
+8. A wristwatch
+9. A stopwatch
+10. An atomic clock
+11. A quartz clock
+12. A digital clock
+13. A metronome
+14. A pendulum
+15. Gears
+16. A spring
+17. A calendar
+18. A chronometer
+19. A marine chronometer
+20. A timer
+21. An egg timer
+22. A clock tower
+23. Big Ben
+24. A sundial designed as an ornament but not functional
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

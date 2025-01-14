@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artworks or creative works that incorporate the concept of time as a central element, either through their subject matter, creation process, or intended interpretation, and are influenced by philosophical or spiritual ideas about the universe.
+
+Here are four examples intended to follow this theme:
+1. a painting depicting the cyclical nature of seasons over centuries
+2. a sculpture that slowly erodes over time, symbolizing impermanence
+3. a musical composition that uses silence and repetition to evoke the passage of time
+4. a film that explores the concept of eternity through non-linear storytelling
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a photograph of a sunset
+6. a clock with Roman numerals
+7. a novel about a single day in a character's life
+8. a stopwatch used in sports
+9. a calendar with historical events marked
+10. a sand timer used in board games
+11. a documentary about the history of clocks
+12. a painting of a clock melting
+13. a poem about the fleeting nature of youth
+14. a sculpture of a sundial
+15. a song about waiting for someone
+16. a film about time travel
+17. a photograph of an hourglass
+18. a novel about aging
+19. a painting of a clock tower
+20. a musical piece with a ticking rhythm
+21. a sculpture of a calendar page
+22. a film about a countdown to an event
+23. a photograph of a clock face
+24. a poem about the seasons changing
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

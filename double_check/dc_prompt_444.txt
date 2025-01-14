@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Discoveries made using indirect observation methods where the existence of the discovered entity was initially inferred from its influence on other observable phenomena.
+
+Here are four examples intended to follow this theme:
+1. Neptune
+2. Dark Matter
+3. Exoplanets
+4. Black Holes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Gravity
+6. Electricity
+7. DNA
+8. Photosynthesis
+9. Evolution
+10. Continental Drift
+11. Atoms
+12. Radio Waves
+13. Quantum Entanglement
+14. Plate Tectonics
+15. Magnetism
+16. Sound Waves
+17. Viruses
+18. Antimatter
+19. Photosynthesis
+20. Relativity
+21. Cell Theory
+22. Big Bang Theory
+23. Radioactivity
+24. Genetic Mutation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

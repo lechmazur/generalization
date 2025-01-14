@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer electronics that utilize biometric authentication for initial setup but subsequently allow bypass via PIN or password.
+
+Here are four examples intended to follow this theme:
+1. A smart TV that uses fingerprint recognition during initial setup but later allows login with a 4-digit PIN.
+2. A fitness tracker that requires voice authentication for first-time pairing but can be unlocked with a password afterwards.
+3. A smart lock for a home safe that uses iris scanning for initial registration but can be opened with a numerical code subsequently.
+4. A VR headset that utilizes facial recognition for initial user profile creation but allows access with a pattern unlock after that.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A laptop that requires a password for initial setup and every subsequent login.
+6. A smartphone that uses facial recognition for unlocking but requires a PIN for initial setup.
+7. A fingerprint scanner for accessing a secure building.
+8. A voice-activated assistant that responds to anyone's voice commands.
+9. A smart refrigerator with a touchscreen that doesn't require any authentication.
+10. A car that uses a key fob for entry and ignition.
+11. A biometric time clock for employee attendance tracking.
+12. A security camera with motion detection.
+13. A smart thermostat controlled via a mobile app with password protection.
+14. A gaming console that uses a username and password for online access.
+15. A smart watch that tracks fitness data and requires a PIN for payments.
+16. A Bluetooth speaker that pairs with any device without authentication.
+17. A digital camera with facial recognition for autofocus.
+18. A door lock that uses a physical key.
+19. A laptop with a fingerprint scanner for login but no initial setup requirement.
+20. A smart light bulb controlled by a voice assistant with user-specific voice profiles.
+21. A tablet that uses a pattern lock for screen unlock and app access.
+22. A biometric passport with embedded microchip.
+23. A smart doorbell with facial recognition for visitor identification.
+24. A USB flash drive with hardware encryption.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

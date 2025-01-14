@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artworks that incorporate celestial bodies as a central motif and are created by artists known for their unconventional use of materials.
+
+Here are four examples intended to follow this theme:
+1. A sculpture of a supernova crafted from recycled computer components by an artist known for their "technosculptures."
+2. An installation featuring a projected lunar eclipse onto a hanging tapestry woven from human hair by an artist famous for using bodily materials in their work.
+3. A mixed-media piece depicting the Milky Way galaxy using rusting metal shavings and discarded plastic bags by an artist who primarily works with found objects.
+4. A series of photographs of planetary nebulae printed on silk scarves dyed with natural pigments derived from plants by an artist known for their unconventional photographic printing techniques.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a sunset.
+6. A photograph of the night sky.
+7. A traditional oil painting of the constellations.
+8. A bronze sculpture of a Greek god associated with a planet.
+9. A digital illustration of a spaceship.
+10. A song about the moon.
+11. A poem about the stars.
+12. A science fiction novel about space travel.
+13. A documentary about astronomy.
+14. A telescope.
+15. An astrolabe.
+16. A meteorite.
+17. A piece of moon rock.
+18. A model of the solar system.
+19. A stained-glass window depicting a biblical scene with stars.
+20. A children's book about the planets.
+21. A mobile featuring planets.
+22. A ceramic bowl with a galaxy glaze.
+23. A watercolor painting of a comet.
+24. A wooden carving of the sun.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

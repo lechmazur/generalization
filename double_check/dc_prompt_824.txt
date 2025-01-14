@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Large-scale structures or systems that manipulate or harness natural forces to create visually striking or surreal environments
+
+Here are four examples intended to follow this theme:
+1. A massive dam that creates a vast reservoir, altering the landscape and climate of the region.
+2. A sprawling wind farm with hundreds of turbines, transforming the horizon into a field of rotating blades.
+3. An enormous greenhouse complex that simulates different climates and ecosystems under one roof.
+4. A large-scale solar power plant with thousands of mirrors reflecting sunlight to a central tower, creating a dazzling light display.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A small garden fountain
+6. A traditional windmill used for grinding grain
+7. A single solar panel on a rooftop
+8. A lighthouse on a rocky coast
+9. A city park with a few trees and benches
+10. A hydroelectric generator in a small stream
+11. A simple weather vane on a barn
+12. A local farmer's market
+13. A small-scale model of a volcano
+14. A traditional coal-fired power plant
+15. A single wind turbine in a rural area
+16. A community swimming pool
+17. A small waterfall in a nature reserve
+18. A traditional fireplace in a home
+19. A local art installation in a city square
+20. A single street lamp powered by solar energy
+21. A small pond in a backyard
+22. A traditional water wheel on a river
+23. A local recycling center
+24. A small wind chime hanging on a porch
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

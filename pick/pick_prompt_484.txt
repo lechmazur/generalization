@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A sculpture of a polar bear, intricately carved from whalebone, with symbols representing the Inuit belief in the animal's spiritual guidance.
+An Inuit sculpture of a raven made from whalebone, adorned with carvings that depict its significance in Inuit mythology.
+A whalebone carving of a seal, featuring traditional Inuit motifs that signify the animal's role in the spiritual world.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A whalebone sculpture of a human figure, representing Inuit daily life rather than spiritual beliefs.
+An Inuit soapstone carving of a human figure, depicting traditional Inuit life.
+A whalebone sculpture of a bird, created by an Inuit artist but not specifically depicting spiritual beliefs.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A bone carving of a fox, created by an Inuit artist but not specifically depicting spiritual beliefs.
+2. A bone carving of a deer, made by an Inuit artist but not specifically depicting spiritual beliefs.
+3. A sculpture of a whale made from ivory, representing Inuit hunting practices but not spiritual beliefs.
+4. A stone carving of a caribou, created by an Inuit artist but not specifically representing spiritual beliefs.
+5. A whalebone sculpture of a fish, created by a non-Inuit artist without spiritual symbolism.
+6. A wooden Inuit mask, used in traditional ceremonies but not depicting animals or made from whalebone.
+7. A whalebone sculpture of a wolf, with detailed carvings that illustrate its place in Inuit spiritual narratives. <<LEFTOVER>>
+8. An Inuit sculpture of a fish made from soapstone, focusing on its role in the diet rather than spiritual beliefs.

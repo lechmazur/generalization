@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): technologies or systems that use real-time data monitoring to predict and prevent failures in physical structures or devices
+
+Here are four examples intended to follow this theme:
+1. A system embedded in a wind turbine analyzes vibration and temperature data to predict bearing wear and schedule maintenance before failure.
+2. Sensors on a bridge monitor strain, deflection, and environmental factors to anticipate potential structural weaknesses and trigger alerts for inspection.
+3. A smart HVAC system in a data center uses real-time temperature, humidity, and airflow data to predict potential cooling failures and adjust operations to prevent overheating.
+4. An industrial robot arm utilizes current and voltage sensors to detect motor anomalies and prevent unplanned downtime due to component failure.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather forecasting system predicting rainfall based on atmospheric pressure and temperature.
+6. A stock market analysis tool predicting price fluctuations based on historical data and trading volume.
+7. A medical device monitoring heart rate and blood pressure to alert medical professionals of potential emergencies.
+8. A car's tire pressure monitoring system alerting the driver when tire pressure is low.
+9. A smart home security system detecting motion and triggering an alarm.
+10. A traffic management system adjusting traffic light timings based on real-time traffic flow.
+11. A social media platform analyzing user engagement to personalize content recommendations.
+12. An online advertising platform predicting click-through rates based on user demographics and browsing history.
+13. A fitness tracker monitoring steps, heart rate, and sleep patterns to provide personalized health insights.
+14. A GPS navigation system providing real-time traffic updates and route optimization.
+15. An email spam filter classifying incoming emails based on content and sender information.
+16. A voice assistant responding to user queries based on natural language processing.
+17. A music streaming service recommending songs based on listening history and user preferences.
+18. A video game adjusting difficulty based on player performance.
+19. An e-commerce platform recommending products based on purchase history and browsing behavior.
+20. A search engine ranking websites based on relevance and authority.
+21. A machine learning model predicting customer churn based on usage patterns and demographics.
+22. A fraud detection system identifying suspicious transactions based on spending patterns and location data.
+23. A self-driving car navigating using real-time sensor data and mapping information.
+24. A power grid managing electricity distribution based on real-time energy demand.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

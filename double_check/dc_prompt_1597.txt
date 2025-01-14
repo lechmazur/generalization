@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Computational systems that generate unique outputs by modeling natural phenomena and weather patterns
+
+Here are four examples intended to follow this theme:
+1. A computer program that simulates ocean currents to predict fish migration patterns
+2. An AI system that generates art based on fractal patterns found in nature
+3. A software that models cloud formation to create realistic weather forecasts
+4. A simulation tool that uses wind patterns to optimize the design of wind turbines
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A calculator app for basic arithmetic operations
+6. A video game that simulates a fictional universe
+7. A text editor for writing and editing documents
+8. A music streaming service that recommends songs based on user preferences
+9. A virtual reality game set in a fantasy world
+10. A language translation app
+11. A social media platform for sharing photos and videos
+12. A fitness tracker that monitors heart rate and steps
+13. A budgeting app for managing personal finances
+14. A navigation app that provides driving directions
+15. A digital assistant that sets reminders and alarms
+16. A photo editing software with filters and effects
+17. A recipe app that suggests meals based on ingredients
+18. A podcast app that curates episodes based on interests
+19. A news aggregator that compiles articles from various sources
+20. A stock trading platform for buying and selling shares
+21. A meditation app with guided sessions
+22. A movie streaming service with personalized recommendations
+23. A digital library for borrowing e-books
+24. A travel booking site for flights and hotels
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

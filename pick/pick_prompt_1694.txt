@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A fairground that converts to a horse racing track for events in June, October, and February
+An arena that hosts horse jumping events in May, September, and January
+A stadium that transforms into a venue for horse shows in April, August, and December
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A city square that hosts a horse-drawn carriage event quarterly
+A theater that occasionally hosts horse-themed performances
+A shopping mall that hosts a horse-themed festival once a year
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A convention center that hosts equestrian competitions in March, July, and November <<LEFTOVER>>
+2. A racetrack that hosts horse races every weekend
+3. A festival ground that hosts a horse-themed carnival annually
+4. A beach that hosts horse races during the summer months
+5. A sports complex that hosts horse polo matches monthly
+6. A community center that hosts a horse show every other month
+7. A gymnasium that hosts a horse-themed charity event biannually
+8. A park that hosts a horse parade annually

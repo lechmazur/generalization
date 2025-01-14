@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Musical instruments made primarily of tonewoods whose common name includes a tree genus.
+
+Here are four examples intended to follow this theme:
+1. a guitar made of spruce
+2. a violin made of maple
+3. a cello made of cedar
+4. a mandolin made of mahogany
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a flute made of metal
+6. a drum made of synthetic materials
+7. a piano with keys made of plastic
+8. a harp made of fiberglass
+9. a clarinet made of ebony
+10. a banjo with a resonator made of steel
+11. a ukulele made of laminated wood
+12. a saxophone made of brass
+13. a tambourine with a wooden frame
+14. a bass guitar with a body made of composite materials
+15. a marimba with bars made of rosewood
+16. a xylophone with synthetic bars
+17. a trumpet made of silver
+18. a violin bow made of pernambuco wood
+19. a guitar with a body made of carbon fiber
+20. a cello with a neck made of ebony
+21. a mandolin with a body made of laminated wood
+22. a drum kit with shells made of acrylic
+23. a lute made of yew
+24. a viola with a body made of laminated maple
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

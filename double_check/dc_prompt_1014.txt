@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that combine precision engineering with cultural or artistic expression, resulting in a functional yet aesthetically significant outcome.
+
+Here are four examples intended to follow this theme:
+1. Stradivarius violin
+2. Swiss mechanical watch
+3. Japanese tea ceremony tools
+4. Art Deco elevator doors
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Computer processor
+6. Oil painting
+7. Marble sculpture
+8. Digital camera
+9. Industrial robot
+10. Crystal vase
+11. Pottery wheel
+12. Microscope
+13. Bronze statue
+14. Telescope
+15. Stained glass window
+16. Printing press
+17. Decorative sword
+18. Steam engine
+19. Grandfather clock
+20. Tapestry loom
+21. Glass blowing tools
+22. Surgical instruments
+23. Calligraphy pen
+24. Ancient sundial
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

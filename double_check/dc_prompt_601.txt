@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Polyhedra that can be constructed by truncating all vertices of a regular dodecahedron such that the original pentagonal faces become decagons.
+
+Here are four examples intended to follow this theme:
+1. A polyhedron with 12 decagonal faces and 20 hexagonal faces.
+2. A polyhedron with 32 faces, where 12 faces are decagons and 20 faces are hexagons.
+3. A polyhedron resulting from truncating the vertices of a dodecahedron, yielding 12 decagonal faces and 20 hexagonal faces.
+4. A polyhedron with 12 decagonal faces surrounded by 20 hexagonal faces, formed by truncating a dodecahedron.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A polyhedron with only hexagonal faces.
+6. A polyhedron formed by truncating the vertices of a cube.
+7. A polyhedron with pentagonal and hexagonal faces.
+8. A polyhedron with only triangular faces.
+9. A polyhedron formed by truncating the vertices of an octahedron.
+10. A polyhedron with square and octagonal faces.
+11. A polyhedron with only pentagonal faces.
+12. A polyhedron formed by truncating the vertices of a tetrahedron.
+13. A polyhedron with hexagonal and octagonal faces.
+14. A polyhedron with only octagonal faces.
+15. A polyhedron formed by truncating the vertices of an icosahedron.
+16. A polyhedron with triangular and hexagonal faces.
+17. A polyhedron with square and hexagonal faces.
+18. A polyhedron with only square faces.
+19. A polyhedron formed by truncating the vertices of a cuboctahedron.
+20. A polyhedron with pentagonal and decagonal faces.
+21. A polyhedron with triangular and pentagonal faces.
+22. A polyhedron with hexagonal and decagonal faces.
+23. A polyhedron formed by truncating the vertices of a rhombicuboctahedron.
+24. A polyhedron with only decagonal faces.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

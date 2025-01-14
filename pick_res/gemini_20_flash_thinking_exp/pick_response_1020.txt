@@ -1,0 +1,26 @@
+pick_response_1020.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the theme and then evaluate the candidates based on how well they fit that specific theme, avoiding broader interpretations.
+
+The examples show technologies developed for disaster relief or emergency situations that have found new applications in everyday or non-emergency contexts.
+
+The anti-examples are related to disaster response but don't necessarily have a secondary application or a shift in their primary use.
+
+Based on this, the specific theme is: **Technology initially developed for disaster relief or emergency response that has found a secondary application in a non-emergency or everyday setting.**
+
+Now I need to evaluate each candidate against this specific theme.
+
+1. **Radiation detectors:**  Could be used in disaster relief (nuclear accidents), but the prompt doesn't mention a secondary application. Likely a lower score.
+2. **Earthquake resistant buildings:** Designed to mitigate disaster impact, not a technology that has found a secondary use. Low score.
+3. **Emergency alert systems:**  Specifically for emergencies, no clear secondary application. Low score.
+4. **Emergency radio beacons:** Designed for emergencies, no clear secondary application. Low score.
+5. **Water filtration systems:** Could be used in disaster relief, and general use is common. This fits the theme. Higher score.
+6. **Tsunami warning buoys:**  Specifically for disaster warning, no clear secondary application. Low score.
+7. **Seismographs:** Used for monitoring earthquakes, not a technology with a clear secondary application. Low score.
+8. **Portable ultrasound devices originally designed for disaster zone triage, now common in routine medical diagnostics:** This is a direct match to the theme. High score.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>3</score>
+<number>5</number><score>7</score>
+<number>6</number><score>2</score>
+<number>7</number><score>1</score>
+<number>8</number><score>10</score>

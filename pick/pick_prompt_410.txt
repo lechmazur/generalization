@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A clay pot placed in a lake during an art installation
+A clay sculpture sunk in the ocean for a cultural ceremony
+A clay statue submerged in a river as part of a religious festival
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A metal statue placed in a river for a religious ceremony
+A stone carving sunk in the ocean as part of a ritual
+A wooden sculpture submerged in a lake for an art project
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A plastic sculpture submerged in a river for an environmental project
+2. A clay figure deposited in a pond for a traditional ritual <<LEFTOVER>>
+3. A ceramic vase placed in a pond for a cultural event
+4. A stone statue placed in a river for a memorial service
+5. A glass sculpture submerged in a pond for an art exhibition
+6. A stone monument placed in a lake for a historical commemoration
+7. A ceramic tile placed in a river as part of a community project
+8. A glass bottle thrown into the sea as part of an art piece

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional textiles or crafts that incorporate natural materials and patterns derived from local ecosystems or cultural symbolism.
+
+Here are four examples intended to follow this theme:
+1. Hand-woven baskets made from river reeds and dyed with local plant extracts
+2. Embroidered shawls featuring motifs inspired by regional flora and fauna
+3. Tapestries crafted from wool and adorned with patterns reflecting indigenous myths
+4. Cloth dyed using traditional methods with natural indigo and adorned with geometric designs inspired by the local landscape
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Modern fabric printed with abstract designs
+6. Plastic woven baskets
+7. Machine-made rugs with synthetic fibers
+8. Leather goods dyed with chemical dyes
+9. Ceramic pottery with modern geometric patterns
+10. Silk scarves with digitally printed images
+11. Wooden carvings with no specific cultural symbolism
+12. Metal jewelry with contemporary designs
+13. Paintings on canvas using acrylic paints
+14. Handbags made from synthetic materials
+15. Clothing with logos and brand names
+16. Industrial-made furniture with no natural materials
+17. Photographs printed on synthetic paper
+18. Electronic devices with decorative casings
+19. Books with covers made from recycled plastics
+20. Kitchen utensils made from stainless steel
+21. Automobiles with custom paint jobs
+22. Plastic toys with vibrant colors
+23. Artificial flowers made from silk
+24. Wallpaper with generic floral patterns
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

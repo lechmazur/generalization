@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Amphibians with distinctive skull shapes used in popular culture.
+
+Here are four examples intended to follow this theme:
+1. Hypnotoad from Futurama
+2. Michigan J. Frog from Looney Tunes
+3. Kermit the Frog from The Muppets
+4. Toad from X-Men
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Tree frog
+6. Poison dart frog
+7. Bullfrog
+8. Fire salamander
+9. Axolotl
+10. Newt
+11. Frogger
+12. Crazy Frog
+13. Battletoads characters
+14. Trevor the Toad from Harry Potter
+15. Common toad
+16. Japanese giant salamander
+17. Spotted salamander
+18. African clawed frog
+19. Pac-Man frog
+20. Cane toad
+21. Pepe the Frog
+22. Slippy Toad from Star Fox
+23. Toad from Super Mario Bros
+24. Greninja from Pokemon
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

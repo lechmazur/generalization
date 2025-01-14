@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Spaces designed to house collections of objects where the primary viewing area is submerged below ground level or water
+
+Here are four examples intended to follow this theme:
+1. The Louvre's Islamic Art Gallery in Paris
+2. Kimbell Art Museum's sunken courtyard galleries
+3. Georgia Aquarium's Ocean Voyager exhibit
+4. The Getty Villa's underground antiquities halls
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The British Museum's main gallery
+6. The Smithsonian Air and Space Museum
+7. Natural History Museum of London
+8. A rooftop sculpture garden
+9. An open-air archaeological site
+10. A lighthouse museum
+11. A traditional art gallery
+12. A private collection display room
+13. A museum's storage facility
+14. A public library's rare book room
+15. A castle's armor display
+16. A botanical garden greenhouse
+17. A university's specimen collection
+18. A jewelry store display case
+19. A natural history diorama
+20. A science center exhibition hall
+21. A military museum hangar
+22. A contemporary art installation space
+23. A historical society's main hall
+24. A museum's temporary exhibition space
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

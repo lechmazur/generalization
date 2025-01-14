@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that are intentionally placed between two distinct elements to create a sense of transition or connection.
+
+Here are four examples intended to follow this theme:
+1. A diplomatic envoy sent to negotiate peace between warring nations.
+2. A hallway connecting two separate rooms in a building.
+3. A musical interlude bridging two movements in a symphony.
+4. A dissolved cross-fade in a film joining two scenes.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bridge over a river.
+6. A telephone wire.
+7. A train track.
+8. A chain link.
+9. A computer network cable.
+10. A shared wall between apartments.
+11. A common ancestor in a family tree.
+12. A hyperlink on a webpage.
+13. A handshake between two people.
+14. A translator facilitating communication.
+15. A messenger delivering a letter.
+16. A shared interest between friends.
+17. A treaty between countries.
+18. A road connecting two cities.
+19. A flight of stairs.
+20. A pipe carrying water.
+21. A blood vessel.
+22. A nerve impulse.
+23. A postal service.
+24. A shipping company.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

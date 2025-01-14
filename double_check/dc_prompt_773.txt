@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations that fundamentally altered personal transportation methods in urban environments
+
+Here are four examples intended to follow this theme:
+1. The introduction of the bicycle-sharing system in cities
+2. The implementation of electric scooters as a rental service in urban areas
+3. The rise of ride-hailing apps like Uber and Lyft in metropolitan regions
+4. The development of autonomous electric shuttle services in city centers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the steam engine
+6. The construction of the first transcontinental railroad
+7. The mass production of the automobile
+8. The creation of the first airplane
+9. The development of high-speed trains
+10. The introduction of GPS navigation systems
+11. The expansion of public bus networks
+12. The establishment of carpooling programs
+13. The improvement of urban road infrastructure
+14. The implementation of traffic light systems
+15. The creation of the first subway system
+16. The development of hybrid vehicles
+17. The introduction of car-sharing services
+18. The invention of the internal combustion engine
+19. The expansion of bicycle lanes in cities
+20. The development of smart traffic management systems
+21. The introduction of congestion pricing in urban areas
+22. The creation of pedestrian-only zones in city centers
+23. The implementation of electric buses in public transit systems
+24. The development of maglev train technology
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

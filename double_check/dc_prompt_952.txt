@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or phenomena that create a pause or gap in a sequence, allowing for reflection or transition, often unnoticed but integral to the overall structure.
+
+Here are four examples intended to follow this theme:
+1. a comma in a sentence
+2. a rest in a musical score
+3. a commercial break in a television show
+4. a day off in a work schedule
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a full stop at the end of a sentence
+6. a pause button on a remote control
+7. a gap year taken after school
+8. a silence during a conversation
+9. a break in a relationship
+10. a timeout in a sports game
+11. a space between words in a text
+12. a pause in a speech
+13. a break in a dance routine
+14. a moment of silence in a ceremony
+15. a pause for breath while running
+16. a break in cloud cover
+17. a pause in a video game
+18. a break in a pattern
+19. a pause in a podcast
+20. a break in a film for intermission
+21. a pause in a live performance
+22. a break in a storm
+23. a pause in a negotiation
+24. a break in a routine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

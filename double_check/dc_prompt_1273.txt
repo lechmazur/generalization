@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Techniques or tools used by virtuoso performers to enhance precision and creativity in their craft.
+
+Here are four examples intended to follow this theme:
+1. Use of a metronome to perfect timing in musical performances
+2. Application of the Alexander Technique to improve posture and movement in dance
+3. Implementation of loop pedals to create layered compositions in live music
+4. Utilization of slow-motion video analysis to refine technique in figure skating
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Choosing the right paintbrush for a detailed artwork
+6. Selecting a specific type of wood for crafting a musical instrument
+7. Using a particular software for graphic design
+8. Employing a certain type of camera lens for photography
+9. Applying a specific cooking technique to enhance flavor
+10. Using a special type of thread for embroidery
+11. Choosing a particular brand of running shoes for marathon training
+12. Selecting a specific type of yoga mat for practice
+13. Using a certain type of fertilizer for gardening
+14. Employing a specific method of meditation for relaxation
+15. Choosing a particular type of fabric for sewing a dress
+16. Using a specific brand of makeup for a theatrical performance
+17. Selecting a certain type of clay for pottery
+18. Applying a particular technique for brewing coffee
+19. Using a specific type of pen for calligraphy
+20. Choosing a particular type of fishing rod for angling
+21. Employing a specific method of data analysis for research
+22. Using a certain type of software for video editing
+23. Selecting a specific type of bicycle for racing
+24. Applying a particular technique for pruning plants
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

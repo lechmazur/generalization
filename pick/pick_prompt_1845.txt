@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A smart thermostat that learns and adjusts the home temperature based on the occupants' daily routines and preferences.
+An adaptive sound system that modifies the audio settings and volume based on the user's listening habits and the ambient noise in the environment.
+A smart window shade that automatically adjusts its position based on the user's preferred light levels and privacy needs throughout the day.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A manual thermostat that requires users to set the temperature themselves.
+A basic air conditioner with fixed settings that users must change manually.
+A regular fan that does not learn or adjust based on user behavior.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A simple heater with a dial that users must set manually.
+2. A non-smart speaker that does not adjust sound based on user preferences.
+3. A standard air purifier with fixed settings that users must change manually.
+4. A standard light switch that does not adjust lighting based on user preferences.
+5. A traditional humidifier that users must adjust manually.
+6. A manual window blind that users must adjust themselves.
+7. An intelligent lighting system that adapts the light intensity and color temperature according to the user's mood and time of day. <<LEFTOVER>>
+8. A remote-controlled ceiling fan that users must adjust manually.

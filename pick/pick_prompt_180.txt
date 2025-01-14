@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+First image of a black hole captured by the Event Horizon Telescope in 2019
+Observation of the Higgs boson at the Large Hadron Collider in 2012
+Discovery of exoplanets using the Kepler Space Telescope in the early 21st century
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Mapping of the human genome completed in 2003
+Discovery of the structure of DNA in 1953
+Discovery of X-rays by Wilhelm Conrad Roentgen in 1895
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Invention of the telescope by Galileo in the 17th century
+2. Detection of gravitational waves by LIGO in 2015 <<LEFTOVER>>
+3. Discovery of penicillin by Alexander Fleming in 1928
+4. Discovery of the neutron in 1932
+5. Discovery of radioactivity by Marie Curie in the late 19th century
+6. First successful cloning of a mammal, Dolly the sheep, in 1996
+7. Discovery of the electron in 1897
+8. First moon landing in 1969

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Organizations or initiatives that aim to foster global understanding and cooperation through multilingual communication and cultural exchange.
+
+Here are four examples intended to follow this theme:
+1. UNESCO's International Mother Language Day
+2. The Polyglot Conference
+3. Global Voices Online
+4. Erasmus+ Language Learning Programs
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. the United Nations General Assembly
+6. the International Red Cross
+7. the World Health Organization
+8. the International Space Station
+9. the Olympic Games
+10. the World Economic Forum
+11. the International Monetary Fund
+12. the World Bank
+13. the International Court of Justice
+14. the International Atomic Energy Agency
+15. the World Trade Organization
+16. the International Labour Organization
+17. the International Telecommunication Union
+18. the International Maritime Organization
+19. the International Civil Aviation Organization
+20. the International Federation of Red Cross and Red Crescent Societies
+21. the International Organization for Migration
+22. the International Criminal Court
+23. the International Renewable Energy Agency
+24. the International Fund for Agricultural Development
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

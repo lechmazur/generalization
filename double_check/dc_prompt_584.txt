@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that evoke a sense of unease through the juxtaposition of seemingly innocuous elements with subtly disturbing details, often achieved through unsettling imagery, sound design, or narrative implications, reminiscent of the unsettling atmosphere found in Preston-Werner productions.
+
+Here are four examples intended to follow this theme:
+1. a child's laughter echoing in an empty, dimly lit playground at dusk
+2. a pristine white porcelain doll with a faint crack running down its face, placed in the center of an otherwise immaculate room
+3. a lullaby playing softly in the background while a shadow moves unnaturally across a wall
+4. a family photo where everyone is smiling except for one person, whose expression is blank and slightly out of focus
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a thunderstorm with loud, crashing lightning
+6. a haunted house with obvious ghosts and cobwebs
+7. a graveyard at midnight with fog rolling in
+8. a clown with exaggerated, menacing features
+9. a dark forest with eerie animal noises
+10. a blood-stained knife on a kitchen counter
+11. a zombie rising from the ground
+12. a vampire with sharp fangs and a cape
+13. a witch cackling over a bubbling cauldron
+14. a werewolf howling at the full moon
+15. a cursed book with glowing symbols
+16. a possessed doll with glowing red eyes
+17. a ghostly figure floating down a hallway
+18. a skeleton emerging from a closet
+19. a shadowy figure standing in a doorway
+20. a creepy old man with a sinister grin
+21. a broken mirror with a face staring back
+22. a dark alley with flickering streetlights
+23. a hand reaching out from under a bed
+24. a door creaking open by itself
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

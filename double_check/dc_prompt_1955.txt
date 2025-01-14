@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures built using recycled glass bottles as primary construction material.
+
+Here are four examples intended to follow this theme:
+1. A small garden shed built with glass bottles mortared together.
+2. A decorative wall incorporating embedded glass bottles of different colors.
+3. A house with walls made of glass bottles filled with sand and bound with cement.
+4. A bench constructed with stacked glass bottles and a concrete top.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A house made of adobe bricks.
+6. A sculpture made of recycled plastic.
+7. A road paved with recycled tires.
+8. A building with solar panels.
+9. A bridge made of steel and concrete.
+10. A chair made of bamboo.
+11. A table made of reclaimed wood.
+12. A fence made of recycled plastic lumber.
+13. A building insulated with recycled newspaper.
+14. A countertop made of recycled glass shards.
+15. A floor tiled with broken ceramic pieces.
+16. A stained glass window.
+17. A bottle of wine.
+18. A glass jar.
+19. A glass vase.
+20. A building with glass windows.
+21. A greenhouse made of glass panes.
+22. A mosaic made of broken glass.
+23. A piece of jewelry with embedded glass beads.
+24. A recycled glass bottle used as a drinking glass.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

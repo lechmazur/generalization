@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): artistic or creative works that incorporate a strict, mathematically derived structure or system as a foundational element of their composition
+
+Here are four examples intended to follow this theme:
+1. Serialism in the music of Arnold Schoenberg, where the composition is based on a series of tones arranged in a specific order and manipulated according to strict rules.
+2. The visual art of Sol LeWitt, where the artwork is created from a set of instructions or algorithms, resulting in geometric patterns and structures.
+3. The poetry of the Oulipo group, such as Georges Perec's "La Disparition," which is written entirely without the letter "e," following a strict constraint.
+4. The architectural designs of Buckminster Fuller, such as the geodesic dome, which are based on mathematical principles and geometric patterns.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting inspired by the artist's emotions and feelings.
+6. A novel with a free-flowing narrative structure.
+7. A jazz improvisation that follows no predetermined pattern.
+8. A sculpture created through spontaneous artistic expression.
+9. A film with a non-linear storyline and loose structure.
+10. A dance performance choreographed based on the dancers' interpretations of the music.
+11. A piece of music composed using traditional harmonic progressions.
+12. A photograph taken to capture a moment in time without any pre-planned composition.
+13. A play with a flexible script that allows for improvisation by the actors.
+14. A fashion design inspired by current trends and personal style.
+15. A landscape painting that focuses on the natural beauty of the scene.
+16. A piece of pottery shaped by hand without the use of any specific measurements.
+17. A graphic novel with a narrative that evolves organically as the story progresses.
+18. A performance art piece that relies on audience interaction and spontaneity.
+19. A culinary dish created through experimentation with flavors and ingredients.
+20. A video game with a storyline that adapts to the player's choices.
+21. A piece of jewelry designed based on the artist's intuition and aesthetic sense.
+22. A mural painted to express the artist's political or social views.
+23. A song written based on the songwriter's personal experiences and emotions.
+24. A theatrical production that follows a traditional three-act structure.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or phenomena that involve a sudden, dramatic shift in state or condition, often resulting in a visible or tangible transformation of form or function.
+
+Here are four examples intended to follow this theme:
+1. a caterpillar transforming into a butterfly
+2. water freezing into ice
+3. a volcano erupting
+4. a seed sprouting into a plant
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a car driving on a highway
+6. a tree growing over decades
+7. a candle burning slowly
+8. a river flowing downstream
+9. a clock ticking
+10. a person aging gradually
+11. a cloud drifting in the sky
+12. a rock eroding over time
+13. a star shining in the night sky
+14. a book being read page by page
+15. a computer processing data
+16. a bird building a nest
+17. a flower blooming over days
+18. a train moving along tracks
+19. a person walking down a street
+20. a wave crashing on the shore
+21. a snowflake forming in a cloud
+22. a leaf falling from a tree
+23. a person breathing in and out
+24. a light bulb glowing steadily
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

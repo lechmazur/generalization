@@ -1,0 +1,34 @@
+pick_response_87.txt
+The user has provided examples and anti-examples of a specific architectural theme. I need to identify this theme and then evaluate a list of candidates based on how well they fit *only* the specific theme, not broader related themes.
+
+The examples are:
+- Kiva at Mesa Verde: Underground ceremonial structure.
+- Hypogeum of Ħal Saflieni: Underground prehistoric burial site.
+- Underground church of St. George:  Church carved into rock below ground level.
+
+The anti-examples are:
+- Sistine Chapel:  Ornate, above-ground chapel.
+- Hagia Sophia: Large, above-ground basilica/mosque/museum.
+- Notre-Dame Cathedral:  Large, above-ground Gothic cathedral.
+
+The specific theme seems to be **subterranean or partially subterranean religious/ceremonial structures**. The anti-examples are all prominent, above-ground religious buildings.
+
+Now I need to evaluate the candidates based on this specific theme:
+
+1. The Great Pyramid of Giza: Primarily a tomb, partially underground, but not primarily a ceremonial space in the same way.
+2. The Pantheon in Rome:  Above-ground temple, later church.
+3. A Jain temple in Rajasthan: Could be above or below ground. Need to consider the likelihood of it being subterranean. Some Jain temples are cave temples.
+4. The Parthenon in Athens: Above-ground temple.
+5. A Hindu temple in India: Could be above or below ground. Need to consider the likelihood of it being subterranean. Some Hindu temples are cave temples.
+6. The Temple of Heaven in Beijing: Above-ground complex.
+7. The Mithraeum in London, England:  Underground Roman cult site.
+8. A Zoroastrian fire temple in Iran:  Likely above ground, focused on open fire.
+
+Based on this analysis, I will assign scores to each candidate.<number>1</number><score>3</score>
+<number>2</number><score>1</score>
+<number>3</number><score>5</score>
+<number>4</number><score>0</score>
+<number>5</number><score>4</score>
+<number>6</number><score>1</score>
+<number>7</number><score>9</score>
+<number>8</number><score>2</score>

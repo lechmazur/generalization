@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A short story where a character's exploration of a bog leads to a rediscovery of forgotten personal memories and a renewed sense of self.
+A novel about a family returning to their ancestral home in a remote, boggy region, where the protagonist confronts unresolved family secrets and the lingering impact of past events on their present identity.
+A play set in a small village bordering a peat bog, where the community's collective memory and traditions are tied to the bog's resources and its role in their history.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A scientific article on the formation and ecological importance of peat bogs.
+A documentary about the traditional uses of peat as fuel.
+A travelogue about exploring the bogs of Ireland.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Seamus Heaney's "Bogland" poems, where the preserved bodies in the bog represent layers of Irish history and cultural trauma. <<LEFTOVER>>
+2. A play about the impact of industrial development on a wetland ecosystem.
+3. A horror story set in a haunted swamp.
+4. A scientific study on the carbon sequestration potential of bogs.
+5. A film about a scientist studying the biodiversity of a bog.
+6. A play about environmental activism to protect a threatened wetland ecosystem.
+7. A novel about a detective investigating a murder in a marshland community.
+8. A nature documentary about the flora and fauna of bogs.

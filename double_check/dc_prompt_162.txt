@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient mythological figures who gained immortality or divine status through studying or mastering a specific academic discipline
+
+Here are four examples intended to follow this theme:
+1. Thoth, the Egyptian god of wisdom, who mastered writing and mathematics to achieve divine status
+2. Athena, the Greek goddess of wisdom, who gained immortality through her mastery of strategy and warfare
+3. Confucius, who was deified in Chinese tradition for his profound understanding of ethics and philosophy
+4. Hermes Trismegistus, a legendary figure who attained divine knowledge through the study of alchemy and hermeticism
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Hercules, who achieved immortality through completing the Twelve Labors
+6. Odysseus, who gained fame through his cunning and adventures in the Odyssey
+7. Prometheus, who was punished for stealing fire from the gods
+8. Perseus, who became a hero by slaying Medusa
+9. Orpheus, who attempted to retrieve his wife from the underworld
+10. Jason, who sought the Golden Fleece
+11. Theseus, who defeated the Minotaur
+12. Achilles, who gained immortality through his mother's intervention
+13. Dionysus, who became a god of wine and revelry
+14. Apollo, who was born a god and associated with music and prophecy
+15. Artemis, who was born a goddess and associated with hunting
+16. Hades, who ruled the underworld as a god
+17. Poseidon, who ruled the seas as a god
+18. Zeus, who became the king of the gods through overthrowing the Titans
+19. Medea, who used magic to achieve her goals
+20. Circe, who transformed men into animals with her sorcery
+21. Icarus, who flew too close to the sun
+22. Narcissus, who became a flower after his obsession with his reflection
+23. Eros, who was born a god of love
+24. Hephaestus, who was born a god of craftsmanship
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

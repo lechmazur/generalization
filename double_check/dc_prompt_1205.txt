@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or places that serve as repositories for lost or forgotten personal histories, often containing fragmented or incomplete narratives, and are associated with emotional or cultural significance.
+
+Here are four examples intended to follow this theme:
+1. A dusty, locked trunk in an attic, filled with faded love letters, sepia-toned photographs, and a tattered diary.
+2. An abandoned orphanage, its peeling walls echoing with the whispers of children who grew up within its confines.
+3. A weathered headstone in a forgotten cemetery, bearing only a name and a date, leaving the rest of the story untold.
+4. A shoebox filled with old ticket stubs, postcards, and dried flowers, tucked away in the back of a closet.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A library full of historical documents.
+6. A museum showcasing ancient artifacts.
+7. A family photo album meticulously maintained and updated.
+8. A digital archive of birth certificates and legal records.
+9. A time capsule buried with specific intentions for future discovery.
+10. A social media profile documenting someone's life in real-time.
+11. A security camera recording a specific event.
+12. A diary with daily entries detailing current events.
+13. A textbook outlining a specific historical period.
+14. A newspaper archive accessible online.
+15. A personal website dedicated to family genealogy.
+16. A university's alumni directory.
+17. A government census database.
+18. A collection of autographs from famous people.
+19. A scrapbook filled with mementos from a recent trip.
+20. A playlist of songs that evoke specific memories.
+21. A hard drive containing backed-up computer files.
+22. A cloud storage account storing personal documents.
+23. A voice recorder documenting interviews for a research project.
+24. A video recording of a family gathering.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that require solving sequential physical puzzles or riddles to gain full access to their interior spaces
+
+Here are four examples intended to follow this theme:
+1. A series of interconnected chambers in an ancient temple, where each chamber's exit is locked by a unique mechanical puzzle that must be solved to proceed further into the temple.
+2. An old manor house with a hidden library that can only be accessed by solving a sequence of riddles found in various rooms, each riddle leading to the next until the final puzzle unlocks the library door.
+3. A modern art installation featuring a maze-like structure where visitors must solve a series of physical puzzles at different checkpoints to unlock new sections and ultimately reach the central exhibit.
+4. An escape room designed as a medieval castle, where participants must solve a series of sequential physical puzzles and riddles to move from one room to another, culminating in accessing the treasure room.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A building with a single locked door that requires a key to enter.
+6. A museum exhibit where visitors can interact with puzzles but do not need to solve them to move through the space.
+7. A house with a secret room that can be accessed by pressing a hidden button.
+8. A playground with various physical challenges but no sequential access to different areas.
+9. A library where books are organized in a puzzle-like manner but accessing them does not require solving puzzles.
+10. An amusement park ride with a storyline involving puzzles, but the ride itself does not require solving them to proceed.
+11. A building with an elevator that requires a code to operate, but the code is given directly without solving puzzles.
+12. A historical site with informational plaques that include riddles, but solving them is not necessary to explore the site.
+13. A themed restaurant where diners can participate in puzzle-solving games at their tables, but it does not affect their dining experience.
+14. A sculpture garden where some sculptures are designed as puzzles, but solving them does not grant access to new areas.
+15. A building with a security system that requires biometric scanning to enter, but no puzzles are involved.
+16. A game show set where contestants solve puzzles to win prizes, but the set itself does not require puzzle-solving to navigate.
+17. A hotel with themed rooms that include puzzles as part of the decor, but solving them is not necessary to use the room.
+18. A public park with a labyrinth where visitors can walk through without solving any puzzles.
+19. A building with a series of doors that require different keys, but the keys are provided without solving puzzles.
+20. An art gallery where some artworks are interactive puzzles, but solving them does not unlock new gallery spaces.
+21. A historical reenactment event where participants solve puzzles as part of the activities, but it does not affect their movement through the event space.
+22. A building with a complex layout that requires a map to navigate, but no puzzles are involved in accessing different areas.
+23. A themed escape room where participants solve puzzles to escape, but the room itself does not represent an architectural structure.
+24. A building with a series of locked rooms that require different codes to enter, but the codes are given without solving puzzles.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fashion designers who have created collections inspired by religious or spiritual themes and have incorporated elements of environmental consciousness or sustainability into their work.
+
+Here are four examples intended to follow this theme:
+1. Stella McCartney's collection featuring garments made from recycled materials, inspired by Buddhist principles of mindfulness and compassion.
+2. Vivienne Westwood's eco-conscious line incorporating medieval religious iconography and sustainable fabrics.
+3. Gucci's "Cruise" collection, which blended Renaissance religious art motifs with upcycled materials and ethical production practices.
+4. Eileen Fisher's capsule collection inspired by Quaker simplicity, using organic cotton and natural dyes.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Alexander McQueen's Gothic-inspired runway show featuring dramatic religious imagery.
+6. Dior's haute couture collection inspired by Byzantine art and architecture.
+7. Chanel's use of recycled plastics in a futuristic, non-religious-themed collection.
+8. Prada's minimalist designs inspired by Japanese Zen gardens.
+9. Versace's baroque-inspired collection featuring gold crosses and ornate detailing.
+10. Hermès' sustainable leather goods line without religious or spiritual themes.
+11. Balenciaga's avant-garde collection exploring dystopian themes and recycled materials.
+12. Yves Saint Laurent's use of African tribal patterns in a non-sustainable collection.
+13. Tom Ford's glamorous designs inspired by 1970s disco culture.
+14. Ralph Lauren's equestrian-themed collection using organic cotton.
+15. Calvin Klein's gender-neutral collection inspired by modern art.
+16. Louis Vuitton's travel-themed collection featuring recycled materials.
+17. Givenchy's collection inspired by celestial motifs and astrology.
+18. Burberry's trench coats made from sustainable materials without religious themes.
+19. Fendi's fur-free collection inspired by Roman architecture.
+20. Issey Miyake's pleated designs inspired by origami and Japanese culture.
+21. Off-White's streetwear collection featuring graffiti and urban themes.
+22. Comme des Garçons' avant-garde designs exploring deconstruction and asymmetry.
+23. Zara's fast-fashion collection using recycled polyester.
+24. H&M's Conscious Collection featuring floral prints and sustainable fabrics.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

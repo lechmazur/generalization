@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects intentionally modified to prevent or mitigate a specific, documented historical disaster or near-disaster.
+
+Here are four examples intended to follow this theme:
+1. O-rings redesigned after the Challenger disaster
+2. Watertight bulkheads added to ships after the Titanic sinking
+3. Reinforced cockpit doors implemented after 9/11
+4. TAWS terrain warning systems installed after multiple CFIT accidents
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Life jackets on airplanes
+6. Fire extinguishers
+7. Lightning rods
+8. Earthquake-resistant buildings
+9. Safety goggles
+10. Smoke detectors
+11. Seat belts
+12. Emergency exits
+13. Flood barriers
+14. Radiation shields
+15. Storm shelters
+16. Circuit breakers
+17. Safety valves
+18. Guardrails
+19. Airbags
+20. Bulletproof vests
+21. Emergency oxygen masks
+22. Hazmat suits
+23. Tsunami warning buoys
+24. Fallout shelters
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

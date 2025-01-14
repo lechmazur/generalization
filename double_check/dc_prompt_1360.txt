@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that use visual boards or cards to track the sequential movement of items through predefined stages or states
+
+Here are four examples intended to follow this theme:
+1. A software development team uses a Kanban board with columns for "To Do," "In Progress," "Testing," and "Done" to manage their tasks.
+2. A sales team uses a whiteboard with sticky notes representing leads, moving them through stages like "Prospecting," "Qualifying," "Proposal," and "Closed."
+3. A manufacturing plant uses a physical board with cards representing work orders, tracking their progress through assembly, quality control, and shipping.
+4. A hospital emergency room uses a visual board to track patients' status, moving them through triage, treatment, and discharge.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Gantt chart showing project timelines.
+6. A spreadsheet tracking inventory levels.
+7. A database of customer information.
+8. A flowchart illustrating a process.
+9. A network diagram showing dependencies between tasks.
+10. A mind map for brainstorming ideas.
+11. A calendar scheduling appointments.
+12. A to-do list on a notepad.
+13. A project management software with task lists.
+14. A CRM system for managing customer relationships.
+15. A bug tracking system for software development.
+16. A version control system for code management.
+17. A white board used for freehand drawing.
+18. A bulletin board with pinned notices.
+19. A roadmap outlining strategic goals.
+20. A checklist for completing a procedure.
+21. A progress bar showing percentage completion.
+22. A dashboard displaying key performance indicators.
+23. A queue management system with numbered tickets.
+24. A digital whiteboard for collaborative brainstorming.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

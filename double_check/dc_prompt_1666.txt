@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional characters who must solve a crime within a specific prophesied time window to prevent a larger catastrophe
+
+Here are four examples intended to follow this theme:
+1. In a mystical realm, a group of enchanted beings must unravel the mystery of a stolen artifact within a lunar cycle, or the realm will be plunged into eternal darkness.
+2. A team of time-traveling detectives must solve the murder of a key historical figure within the next 24 hours, or the timeline will collapse, erasing their existence.
+3. In a futuristic city, a squad of androids has to identify and stop a serial killer before the next predicted victim is taken, or the city's AI will initiate a lockdown, trapping everyone inside.
+4. A group of psychic children must solve the disappearance of their mentor within the span of a solar eclipse, or a dormant evil will awaken and destroy their world.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A detective must solve a murder case before the killer strikes again.
+6. A group of friends must find a lost treasure before someone else claims it.
+7. A superhero must stop a villain's plan before it's too late.
+8. A team of archaeologists must uncover an ancient secret before a natural disaster destroys the site.
+9. A spy must retrieve stolen information before it falls into enemy hands.
+10. A group of survivors must find a cure for a deadly virus before it wipes out humanity.
+11. A journalist must expose a corrupt politician before the next election.
+12. A group of hackers must stop a cyberattack before it cripples the national infrastructure.
+13. A team of scientists must prevent an asteroid from colliding with Earth before impact.
+14. A group of adventurers must find a legendary artifact before it's lost forever.
+15. A detective must solve a series of crimes linked to a mysterious organization.
+16. A group of students must solve a puzzle to escape a locked room before time runs out.
+17. A team of investigators must uncover the truth behind a conspiracy before it's covered up.
+18. A group of explorers must reach the summit of a mountain before a storm hits.
+19. A detective must find a missing person before it's too late.
+20. A group of agents must stop a terrorist attack before it happens.
+21. A team of researchers must find a way to stop a spreading disease before it becomes a pandemic.
+22. A group of survivors must find shelter before a nuclear winter sets in.
+23. A detective must solve a cold case before the statute of limitations expires.
+24. A group of heroes must defeat a powerful enemy before it destroys their world.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

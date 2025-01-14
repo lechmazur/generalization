@@ -1,0 +1,27 @@
+pick_response_794.txt
+The user wants me to score candidates based on how well they match the specific theme identified in the examples, while avoiding the broader themes suggested by the anti-examples.
+
+The specific theme is: Technologies initially developed for military purposes that later found civilian applications.
+
+The broader themes to avoid are:
+- Medical -> other
+- Industrial -> home
+- Telecommunications -> other
+
+I need to evaluate each candidate against the specific theme and assign a score from 0 to 10.
+
+Candidate 1: Maritime -> other. This does not fit the specific theme. Score should be low.
+Candidate 2: Educational -> entertainment. This does not fit the specific theme. Score should be low.
+Candidate 3: Space exploration -> everyday life. While government-funded, it's not specifically military. Score should be moderate.
+Candidate 4: Energy sector -> consumer products. This does not fit the specific theme. Score should be low.
+Candidate 5: Transportation -> consumer products. This does not fit the specific theme. Score should be low.
+Candidate 6: Entertainment -> education. This does not fit the specific theme. Score should be low.
+Candidate 7: Aviation -> other. While aviation has military applications, the prompt specifies "initially developed for military purposes". This is ambiguous. Score should be moderate.
+Candidate 8: GPS -> military navigation. This is a direct match to the specific theme. Score should be high.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>7</score>
+<number>4</number><score>1</score>
+<number>5</number><score>2</score>
+<number>6</number><score>0</score>
+<number>7</number><score>6</score>
+<number>8</number><score>10</score>

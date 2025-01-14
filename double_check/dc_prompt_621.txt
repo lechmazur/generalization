@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Man-made structures unintentionally repurposed by specific bird species as primary nesting sites within urban environments.
+
+Here are four examples intended to follow this theme:
+1. Chimneys used by chimney swifts
+2. Bridges used by peregrine falcons
+3. Streetlights used by house sparrows
+4. Building ledges used by pigeons
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Tree branches used by robins
+6. Cliffs used by eagles
+7. Ground burrows used by burrowing owls
+8. Reeds used by marsh wrens
+9. Hollow trees used by woodpeckers
+10. Riverbanks used by kingfishers
+11. Desert cacti used by cactus wrens
+12. Forest canopies used by orioles
+13. Rock crevices used by swallows
+14. Sand dunes used by plovers
+15. Coral reefs used by seabirds
+16. Mountain ledges used by condors
+17. Grasslands used by meadowlarks
+18. Wetlands used by herons
+19. Snowbanks used by snow buntings
+20. Open fields used by skylarks
+21. Dense bushes used by sparrows
+22. Seashores used by gulls
+23. Old barns used by barn owls
+24. Fallen logs used by nuthatches
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

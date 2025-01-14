@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or entities designed for isolation or containment that paradoxically facilitate escape or freedom.
+
+Here are four examples intended to follow this theme:
+1. a prison cell
+2. a birdcage
+3. a quarantine facility
+4. a submarine
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a parachute
+6. a lifeboat
+7. a maze
+8. a lighthouse
+9. a bridge
+10. a tunnel
+11. a key
+12. a lock
+13. a ladder
+14. a map
+15. a compass
+16. a rope
+17. a net
+18. a trapdoor
+19. a window
+20. a gate
+21. a fence
+22. a dam
+23. a leash
+24. a harness
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

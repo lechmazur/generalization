@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects that utilize folding or unfolding to significantly alter their primary function or form.
+
+Here are four examples intended to follow this theme:
+1. a folding bicycle
+2. a collapsible camping chair
+3. a folding knife
+4. a pop-up tent
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a stapler
+6. a bookshelf
+7. a pair of scissors
+8. a water bottle
+9. a flashlight
+10. a laptop
+11. a smartphone
+12. a pair of shoes
+13. a hammer
+14. a screwdriver
+15. a mirror
+16. a clock
+17. a calculator
+18. a ruler
+19. a pencil
+20. a backpack
+21. a lamp
+22. a frying pan
+23. a toothbrush
+24. a keychain
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

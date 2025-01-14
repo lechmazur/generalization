@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural features designed to support or distribute weight using columns or pillars in non-residential structures built before the 20th century.
+
+Here are four examples intended to follow this theme:
+1. The flying buttresses of Notre-Dame Cathedral in Paris
+2. The Doric columns of the Parthenon in Athens
+3. The granite pillars of Karnak Temple in Egypt
+4. The stone vaults of Canterbury Cathedral
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Modern steel support beams in the Empire State Building
+6. A wooden pergola in a garden
+7. Concrete pillars of a highway overpass
+8. Support posts in a residential basement
+9. The metal frame of a greenhouse
+10. A decorative column in a modern mall
+11. The support structure of a backyard deck
+12. Reinforced concrete columns in a parking garage
+13. Load-bearing walls in an apartment building
+14. The steel framework of a skyscraper
+15. A wooden trellis in a vineyard
+16. Support beams in a modern warehouse
+17. The metal poles of a carport
+18. Structural supports in a modern bridge
+19. The foundation pillars of a beach house
+20. A contemporary church's support structure
+21. The metal framework of a stadium roof
+22. Support columns in a subway station
+23. The concrete pillars of a water tower
+24. Load-bearing posts in a modern barn
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

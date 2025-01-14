@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic or documentary works that capture a specific moment of daily transition between darkness and light
+
+Here are four examples intended to follow this theme:
+1. A photograph capturing the first light of dawn breaking over a city skyline.
+2. A painting depicting the moment streetlights turn on as dusk settles over a quiet neighborhood.
+3. A short film showing the transition from night to day as a market begins to open.
+4. A poem describing the shift from twilight to nightfall in a rural landscape.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A documentary about the history of street lighting.
+6. A painting of a sunset over the ocean.
+7. A novel set in a city that never sleeps.
+8. A photograph of a starry night sky.
+9. A film about the nightlife in a bustling metropolis.
+10. A poem about the beauty of a full moon.
+11. A short story set entirely at midnight.
+12. A documentary on the effects of light pollution.
+13. A painting of a bright sunny day in a park.
+14. A photograph of a cityscape at noon.
+15. A film capturing the hustle and bustle of a morning commute.
+16. A poem about the midday sun.
+17. A novel that takes place over a single night.
+18. A documentary about the evolution of timekeeping.
+19. A painting of a moonlit beach.
+20. A photograph of a sunrise over a mountain range.
+21. A short film about the nightlife in a small town.
+22. A poem about the afternoon rain.
+23. A novel that explores the concept of time travel.
+24. A documentary on the history of photography.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

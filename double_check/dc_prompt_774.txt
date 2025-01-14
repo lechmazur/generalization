@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Materials or systems that exhibit emergent properties through dynamic reconfiguration of their internal structure in response to external stimuli.
+
+Here are four examples intended to follow this theme:
+1. Shape-memory alloys that change their configuration in response to temperature changes
+2. Self-healing polymers that restructure their molecular bonds when damaged
+3. Photonic crystals that alter their optical properties through structural changes induced by light
+4. Magnetorheological fluids that modify their viscosity in response to magnetic fields
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Smartphones that adapt their interface based on user behavior
+6. Thermostats that adjust temperature settings based on room conditions
+7. Traffic systems that change light timings based on traffic flow
+8. Robots that modify their actions based on sensor input
+9. Weather forecasting models that update predictions with new data
+10. Neural networks that adjust weights during learning
+11. Automated stock trading systems that react to market changes
+12. Smart grids that balance electricity distribution based on demand
+13. Autonomous vehicles that alter routes based on traffic conditions
+14. Home security systems that change alert levels based on detected activity
+15. Interactive educational software that adapts to student performance
+16. Climate control systems that adjust based on external weather
+17. Water purification systems that modify filtration based on water quality
+18. Smart fabrics that change color based on environmental conditions
+19. Augmented reality systems that adjust visuals based on user movement
+20. Energy management systems that optimize usage based on time of day
+21. Health monitoring devices that alert based on vital signs
+22. Smart lighting systems that adjust brightness based on ambient light
+23. Automated irrigation systems that water based on soil moisture
+24. Voice recognition systems that adapt to different accents
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

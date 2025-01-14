@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer electronics released in Japan between 1997 and 2003 that utilized a MiniDisc drive.
+
+Here are four examples intended to follow this theme:
+1. Sony MZ-R50 Portable MiniDisc Recorder
+2. Sharp MD-MT15 MiniDisc Player
+3. Panasonic SJ-MJ50 MiniDisc Player
+4. Aiwa AM-F70 MiniDisc Player
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Apple iPod Classic
+6. Sony Walkman Cassette Player
+7. Nintendo Game Boy Advance
+8. Canon PowerShot Digital Camera
+9. Panasonic DVD Player
+10. Sony PlayStation 2
+11. Sharp Aquos LCD TV
+12. Casio G-Shock Watch
+13. Toshiba Satellite Laptop
+14. Hitachi Plasma TV
+15. JVC VHS Camcorder
+16. Pioneer Car Stereo
+17. Fujifilm Instax Camera
+18. Nikon Coolpix Camera
+19. Seiko Kinetic Watch
+20. Epson Inkjet Printer
+21. Olympus Digital Voice Recorder
+22. Yamaha Portable Keyboard
+23. LG DVD Recorder
+24. Roland Digital Piano
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

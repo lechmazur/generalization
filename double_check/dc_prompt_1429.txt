@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Organisms or structures that create self-sustaining underground networks to distribute resources across multiple connected nodes
+
+Here are four examples intended to follow this theme:
+1. mycorrhizal fungi networks connecting tree roots
+2. subterranean ant colonies with interconnected chambers
+3. underground fungal networks distributing nutrients in forests
+4. root systems of clonal plants like aspen trees sharing resources
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a beehive
+6. a coral reef
+7. a spider web
+8. a river delta
+9. a subway system
+10. a power grid
+11. a computer network
+12. a highway system
+13. a telephone network
+14. a food web
+15. a social media network
+16. a neural network
+17. a supply chain
+18. a railway network
+19. a water distribution system
+20. a lymphatic system
+21. a circulatory system
+22. a postal service network
+23. a trade route
+24. a satellite network
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

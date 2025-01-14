@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical installations of kinetic light art permanently displayed in public transportation systems worldwide.
+
+Here are four examples intended to follow this theme:
+1. Leo Villareal's "Multiverse" at the Muni Metro Embarcadero Station in San Francisco
+2. Robert Wilson's "Light Clock" at Zurich Hauptbahnhof
+3. Jason Bruges Studio's "Digital Ornithology" at the Fulton Center in New York City
+4. Nari Ward's "Amazing Grace" at the 167th Street station in New York City (while incorporating light, the kinetic element is debatable and may not fully satisfy the prompt)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Olafur Eliasson's "The Weather Project" at the Tate Modern
+6. James Turrell's "Roden Crater"
+7. Anish Kapoor's "Cloud Gate" in Chicago
+8. A digital billboard displaying advertisements
+9. A neon sign in a subway station
+10. Streetlights along a bus route
+11. A light projection on the side of a building visible from a train
+12. Kinetic sculptures in a museum
+13. A mobile hanging in an airport
+14. A temporary light installation for a festival in a train station
+15. Dan Flavin's fluorescent light installations
+16. Leo Villareal's "The Bay Lights" on the Bay Bridge
+17. A decorative chandelier in a grand central station
+18. Electronic train arrival/departure boards
+19. Light and sound show at a concert venue near a public transit stop
+20. Interactive light displays in a children's museum accessible by public transport
+21. A bus with LED lights decorating its exterior
+22. A holographic projection in a shopping mall connected to a subway station
+23. A water fountain with synchronized lights in a public park near a bus stop
+24. Christmas lights decorating a city center during the holidays, viewable from public transit
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

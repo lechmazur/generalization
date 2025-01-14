@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that combine opposing attributes in their names or descriptions
+
+Here are four examples intended to follow this theme:
+1. bittersweet chocolate
+2. jumbo shrimp
+3. deafening silence
+4. living dead
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. black and white
+6. yin and yang
+7. salt and pepper
+8. day and night
+9. sweet and sour
+10. good versus evil
+11. heaven and hell
+12. positive and negative
+13. light and dark
+14. fire and ice
+15. sun and moon
+16. war and peace
+17. life and death
+18. past and future
+19. truth and lies
+20. love and hate
+21. success and failure
+22. pleasure and pain
+23. victory and defeat
+24. right and wrong
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

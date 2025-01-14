@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Literary works that incorporate the concept of 'bogs' as a metaphor for historical memory and identity.
+
+Here are four examples intended to follow this theme:
+1. Seamus Heaney's "Bogland" poems, where the preserved bodies in the bog represent layers of Irish history and cultural trauma.
+2. A novel about a family returning to their ancestral home in a remote, boggy region, where the protagonist confronts unresolved family secrets and the lingering impact of past events on their present identity.
+3. A play set in a small village bordering a peat bog, where the community's collective memory and traditions are tied to the bog's resources and its role in their history.
+4. A short story where a character's exploration of a bog leads to a rediscovery of forgotten personal memories and a renewed sense of self.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A nature documentary about the flora and fauna of bogs.
+6. A horror story set in a haunted swamp.
+7. A scientific article on the formation and ecological importance of peat bogs.
+8. A travelogue about exploring the bogs of Ireland.
+9. A painting depicting a picturesque bog landscape.
+10. A poem about the beauty of wildflowers growing in a bog.
+11. A children's book about a friendly frog who lives in a bog.
+12. A song about the mystical atmosphere of a bog at night.
+13. A film about a group of friends who get lost in a swamp.
+14. A video game where the player explores a virtual bog environment.
+15. A novel about a detective investigating a murder in a marshland community.
+16. A play about environmental activism to protect a threatened wetland ecosystem.
+17. A documentary about the traditional uses of peat as fuel.
+18. A scientific study on the carbon sequestration potential of bogs.
+19. A photograph of a bog shrouded in mist.
+20. A poem about the stillness and solitude of a bog landscape.
+21. A short story about a character finding solace in the quietness of a bog.
+22. A novel about a community living in harmony with nature in a wetland area.
+23. A play about the impact of industrial development on a wetland ecosystem.
+24. A film about a scientist studying the biodiversity of a bog.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

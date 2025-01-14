@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures built primarily to demonstrate mastery over water flow and fountains before 1800
+
+Here are four examples intended to follow this theme:
+1. Villa d'Este in Tivoli, Italy
+2. Gardens of Versailles, France
+3. Alhambra in Granada, Spain
+4. Villa Lante in Bagnaia, Italy
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Colosseum in Rome, Italy
+6. Great Wall of China
+7. Stonehenge in England
+8. Pyramids of Giza, Egypt
+9. Parthenon in Athens, Greece
+10. Notre-Dame Cathedral in Paris, France
+11. Hagia Sophia in Istanbul, Turkey
+12. Leaning Tower of Pisa, Italy
+13. Chichen Itza in Mexico
+14. St. Basil's Cathedral in Moscow, Russia
+15. Angkor Wat in Cambodia
+16. Petra in Jordan
+17. Mont-Saint-Michel in France
+18. Forbidden City in Beijing, China
+19. Acropolis of Athens, Greece
+20. Neuschwanstein Castle in Germany
+21. Palace of Westminster in London, England
+22. Brandenburg Gate in Berlin, Germany
+23. Moai statues on Easter Island
+24. Temple of Heaven in Beijing, China
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

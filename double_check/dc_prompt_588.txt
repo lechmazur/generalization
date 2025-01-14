@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects constructed using a repeating interlocking pattern of identical tetrahedra, where each tetrahedron shares at least three faces with other tetrahedra.
+
+Here are four examples intended to follow this theme:
+1. A geometric sculpture made from a repeating pattern of interlocking tetrahedra, where each tetrahedron shares at least three faces with others, forming a complex three-dimensional lattice.
+2. An architectural model constructed from a series of interlocking tetrahedra, where each tetrahedron is connected to at least three others, creating a stable and intricate structure.
+3. A mathematical model demonstrating the properties of space-filling using a pattern of interlocking tetrahedra, where each tetrahedron shares at least three faces with adjacent tetrahedra.
+4. A decorative art piece composed of a repeating pattern of interlocking tetrahedra, where each tetrahedron is connected to at least three others, forming an aesthetically pleasing and structurally sound design.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A chain-link fence made from interlocking metal links.
+6. A honeycomb structure composed of hexagonal cells.
+7. A woven basket made from interlocking strips of material.
+8. A molecular model of a diamond, showing the tetrahedral arrangement of carbon atoms.
+9. A geodesic dome constructed from triangular panels.
+10. A jigsaw puzzle with interlocking pieces.
+11. A brick wall where each brick interlocks with adjacent bricks.
+12. A 3D printed object made from layers of interlocking plastic.
+13. A fabric weave where threads interlock to form a pattern.
+14. A modular building system using interlocking blocks.
+15. A crystal lattice structure where atoms are arranged in a repeating pattern.
+16. A Lego structure built from interlocking plastic bricks.
+17. A chainmail armor made from interlocking metal rings.
+18. A tessellation pattern on a flat surface using interlocking shapes.
+19. A molecular model of water, showing the tetrahedral arrangement of hydrogen and oxygen atoms.
+20. A wooden puzzle where pieces interlock to form a complete shape.
+21. A knitted fabric where yarn loops interlock to form a pattern.
+22. A modular shelving unit made from interlocking components.
+23. A mosaic made from interlocking tiles.
+24. A molecular model of methane, showing the tetrahedral arrangement of hydrogen atoms around a carbon atom.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

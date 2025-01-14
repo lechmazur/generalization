@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects found in public spaces that emit light and are powered by non-renewable energy sources
+
+Here are four examples intended to follow this theme:
+1. a streetlamp
+2. a neon sign
+3. a traffic light
+4. a billboard with LED lights
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a solar-powered garden light
+6. a wind turbine
+7. a flashlight
+8. a candle
+9. a firefly
+10. a lighthouse
+11. a glow stick
+12. a lantern
+13. a car headlight
+14. a smartphone screen
+15. a projector
+16. a television
+17. a computer monitor
+18. a flashlight app
+19. a glow-in-the-dark sticker
+20. a firework
+21. a laser pointer
+22. a light bulb in a home
+23. a flashlight on a bicycle
+24. a reflective road sign
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

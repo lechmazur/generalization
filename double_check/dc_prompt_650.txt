@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Philosophical concepts that have been central to political scandals involving prominent leaders.
+
+Here are four examples intended to follow this theme:
+1. The Watergate scandal, involving President Nixon, highlighted the concept of utilitarianism, where the perceived greater good (national security) was used to justify illegal actions (political espionage).
+2. The Profumo Affair, which shook the British government in the 1960s, involved questions of deception and the social contract, as a minister's lies and risky behavior undermined public trust and the implicit agreement between government and citizens.
+3. The Iran-Contra affair during the Reagan administration raised issues of executive power and the limits of presidential authority, sparking debate about the balance of powers and the nature of republicanism.
+4. The impeachment trial of President Clinton centered on perjury and obstruction of justice, raising questions about the nature of truth, morality, and the rule of law in a democratic society.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Campaign finance violations
+6. Lobbying scandals
+7. Insider trading
+8. Bribery of public officials
+9. Nepotism in government appointments
+10. Gerrymandering for political advantage
+11. Misuse of government funds for personal gain
+12. Plagiarism in political speeches
+13. Tax evasion by political figures
+14. Conflicts of interest in government contracts
+15. Cronyism in awarding government positions
+16. Influence peddling by lobbyists
+17. Abuse of power by law enforcement agencies
+18. Election fraud and voter suppression
+19. Foreign interference in elections
+20. Spread of misinformation and propaganda
+21. Cybersecurity breaches and data leaks
+22. Sexual harassment allegations against politicians
+23. Cover-ups of environmental disasters
+24. Mismanagement of public health crises
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer products that utilize a specific variety of Aloe vera (Aloe barbadensis miller) as the primary active ingredient and are marketed primarily for topical skin application.
+
+Here are four examples intended to follow this theme:
+1. Fruit of the Earth Aloe Vera Gel
+2. Seven Minerals Pure Aloe Vera Gel
+3. Green Leaf Naturals Aloe Vera Gel
+4. Nature Republic Soothing & Moisture Aloe Vera Gel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Aloe Vera juice drink
+6. Aloe ferox gel cream
+7. Aloe arborescens extract
+8. Cucumber gel moisturizer
+9. Tea tree oil cream
+10. Aloe vera capsules
+11. Calendula healing ointment
+12. Aloe vera shampoo
+13. Witch hazel toner
+14. Aloe vera toothpaste
+15. Coconut oil moisturizer
+16. Aloe vera mouthwash
+17. Shea butter lotion
+18. Aloe vera hand sanitizer
+19. Chamomile skin cream
+20. Aloe vera soap
+21. Lavender body lotion
+22. Aloe vera face wash
+23. Eucalyptus healing balm
+24. Aloe vera sunscreen
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

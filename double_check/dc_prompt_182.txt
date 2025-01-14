@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural elements from the Renaissance period that depict mythological scenes on ceilings
+
+Here are four examples intended to follow this theme:
+1. The ceiling fresco of the Camera degli Sposi in Mantua, depicting the Gonzaga family and Olympian gods.
+2. The central panel of the Sistine Chapel ceiling, illustrating scenes from the Book of Genesis, including the creation of Adam and Eve.
+3. The stucco and fresco decoration of the Villa Farnesina Loggia, portraying the myth of Cupid and Psyche.
+4. The ceiling painting in the Palazzo Te's Sala dei Giganti, showing the fall of the giants, a mythological battle scene.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Roman bust of Julius Caesar
+6. A Gothic cathedral's stained-glass window depicting biblical scenes
+7. A Renaissance portrait of a nobleman
+8. A fresco of the Last Supper in a monastery refectory
+9. A Baroque sculpture of David and Goliath
+10. An Egyptian sarcophagus with hieroglyphic inscriptions
+11. A Greek temple frieze depicting the Battle of the Centaurs
+12. A Roman mosaic floor depicting scenes of daily life
+13. A medieval tapestry depicting the unicorn hunt
+14. An illuminated manuscript page with floral decorations
+15. A Renaissance altarpiece depicting the Madonna and Child
+16. A Baroque ceiling fresco depicting allegorical figures
+17. A Rococo painting of a pastoral scene
+18. A Neoclassical sculpture of Venus de Milo
+19. An Impressionist painting of water lilies
+20. A Cubist painting of a still life
+21. A Surrealist painting of a melting clock
+22. An Abstract Expressionist painting with bold colors
+23. A Pop Art sculpture of a Campbell's soup can
+24. A Minimalist sculpture of a steel cube
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

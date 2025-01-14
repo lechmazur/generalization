@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ephemeral large-scale art installations primarily composed of compacted snow or ice, exhibited in public spaces for a limited time.
+
+Here are four examples intended to follow this theme:
+1. The 50-foot-tall Winter Palace created for the 2018 St. Paul Winter Carnival
+2. The Snowking's Snow Castle built on Great Slave Lake in Yellowknife
+3. The Ice Symphony installation at the 2020 Harbin International Ice Festival
+4. The Snow Maze constructed in Thunder Bay's Marina Park
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Christo's wrapped Reichstag building
+6. The Spiral Jetty by Robert Smithson
+7. A sand castle competition entry at Virginia Beach
+8. The Gates installation in Central Park
+9. An ice hotel room in Sweden
+10. A carved pumpkin display at Halloween
+11. The Cloud Gate sculpture in Chicago
+12. A temporary chalk art street mural
+13. An igloo built by indigenous peoples
+14. A butter sculpture at a state fair
+15. The Temple at Burning Man
+16. A LEGO brick installation in Times Square
+17. An ice skating rink in Rockefeller Center
+18. A flower carpet in Brussels
+19. The Fourth Plinth installations in London
+20. A crop circle in Wiltshire
+21. An inflatable art installation by Kurt Perschke
+22. A domino toppling exhibition
+23. A cardboard city installation
+24. A light projection show on a building facade
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

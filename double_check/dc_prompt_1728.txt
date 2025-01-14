@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Public sculptures in Rome created during the Baroque period that feature water elements
+
+Here are four examples intended to follow this theme:
+1. Fontana del Tritone
+2. Fontana dei Quattro Fiumi
+3. Fontana della Barcaccia
+4. Fontana di Trevi
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Pantheon
+6. St. Peter's Basilica
+7. Piazza Navona (the square itself)
+8. Spanish Steps
+9. Colosseum
+10. Borghese Gallery and Gardens (the gardens as a whole)
+11. Castel Sant'Angelo
+12. Fontana delle Tartarughe (Renaissance period)
+13. Palazzo Farnese
+14. The Tiber River
+15. Fontana dell'Acqua Felice (mostly Renaissance, some Baroque elements)
+16. Villa d'Este (Tivoli, not Rome)
+17. Apollo and Daphne sculpture (Borghese Gallery, no water element)
+18. The Ecstasy of Saint Teresa (Cornaro Chapel, no water element)
+19. Piazza del Popolo (the square itself)
+20. San Carlo alle Quattro Fontane (the church itself)
+21. Fontana di Piazza Colonna (mostly 16th century)
+22. The Rape of Proserpina sculpture (Borghese Gallery, no water element)
+23. David by Bernini (Borghese Gallery, no water element)
+24. Trevi district (the neighborhood surrounding the fountain)
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

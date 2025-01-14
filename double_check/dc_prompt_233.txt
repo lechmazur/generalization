@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed for public interaction that incorporate non-Euclidean shapes
+
+Here are four examples intended to follow this theme:
+1. A playground sculpture with twisting, interlocking surfaces that children can climb on
+2. An interactive art installation in a museum where visitors navigate through a maze of curved, non-linear walls
+3. A public bench designed with a Möbius strip shape, allowing people to sit and interact with its continuous loop
+4. A community gathering space featuring a central fountain with spiraling, non-Euclidean water features that people can touch and play with
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A traditional park bench
+6. A standard playground slide
+7. A city fountain with straight, geometric shapes
+8. A public art installation with Euclidean shapes
+9. A museum exhibit featuring flat, two-dimensional art
+10. A community center with rectangular tables and chairs
+11. A bus stop shelter with a simple, box-like design
+12. A public library with straight, linear bookshelves
+13. A city park with traditional, Euclidean-shaped playground equipment
+14. A shopping mall with standard, rectangular seating areas
+15. A public restroom with conventional, straight-lined stalls
+16. A town square with a traditional, Euclidean-shaped gazebo
+17. A public swimming pool with straight, rectangular lanes
+18. A city street with standard, Euclidean-shaped crosswalks
+19. A public garden with traditional, straight-lined pathways
+20. A community center with a standard, rectangular dance floor
+21. A public transportation hub with conventional, Euclidean-shaped seating
+22. A city park with a traditional, straight-lined jogging path
+23. A public plaza with standard, Euclidean-shaped planters
+24. A community gathering space with conventional, rectangular picnic tables
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

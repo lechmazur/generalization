@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures designed to regulate the flow of water featuring a polyhedral basin whose faces are all regular polygons, but not all congruent.
+
+Here are four examples intended to follow this theme:
+1. A small fountain basin shaped like a truncated icosahedron.
+2. A concrete cistern with the shape of a rhombicuboctahedron.
+3. An ornamental bird bath designed as a truncated cube.
+4. A large reservoir shaped like a great rhombicosidodecahedron.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A spherical water tank
+6. A cylindrical water tower
+7. A conical funnel
+8. A rectangular swimming pool
+9. A square koi pond
+10. An irrigation ditch
+11. A river delta
+12. A dam
+13. A levee
+14. A canal lock
+15. A water wheel
+16. A water pump
+17. A rain barrel
+18. A watering can
+19. A garden hose
+20. A sprinkler head
+21. A fire hydrant
+22. A drinking fountain
+23. A water bottle
+24. An ice cube tray
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

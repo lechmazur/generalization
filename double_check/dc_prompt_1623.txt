@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific or technological innovations that were initially met with strong skepticism from experts but later became widely accepted medical treatments
+
+Here are four examples intended to follow this theme:
+1. Gastric ulcers being caused by bacteria (H. pylori)
+2. In vitro fertilization (IVF)
+3. The use of laparoscopic surgery
+4. Coronary artery bypass grafting (CABG)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The theory of evolution
+6. The germ theory of disease (initially)
+7. Continental drift
+8. The heliocentric model of the solar system
+9. The use of anesthesia
+10. The discovery of penicillin
+11. The development of vaccines
+12. Organ transplantation
+13. Gene therapy
+14. Stem cell therapy
+15. 3D printing in medicine
+16. Artificial intelligence in healthcare
+17. The use of blood transfusions
+18. The development of X-rays
+19. The use of chemotherapy
+20. The development of antibiotics
+21. The use of radiation therapy
+22. The discovery of DNA
+23. The Human Genome Project
+24. CRISPR gene editing
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

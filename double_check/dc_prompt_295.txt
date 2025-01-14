@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical structures built underneath pre-existing locations specifically to conceal their existence from the general public.
+
+Here are four examples intended to follow this theme:
+1. A hidden bunker beneath a farmhouse
+2. A secret laboratory under a city park
+3. An underground vault beneath a library
+4. A concealed tunnel system under a shopping mall
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A basement in a residential home
+6. A subway station beneath a city street
+7. A wine cellar under a restaurant
+8. A parking garage beneath an office building
+9. A storm shelter under a school
+10. A root cellar beneath a farmhouse
+11. A metro line under a downtown area
+12. A crypt beneath a church
+13. A storage room under a retail store
+14. A basement gym in an apartment complex
+15. A utility tunnel under a university campus
+16. A fallout shelter beneath a government building
+17. A drainage system under a city
+18. A basement bar in a hotel
+19. A pedestrian underpass beneath a highway
+20. A catacomb under a historic site
+21. A service tunnel beneath an airport
+22. A mine shaft under a mountain
+23. A basement storage area in a museum
+24. A subway tunnel under a river
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

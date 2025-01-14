@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+An instrument for atomic force microscopy operating in a controlled argon atmosphere
+A tool for positioning samples in a scanning tunneling microscope under inert gas conditions
+A device used for precise alignment of optical components in a vacuum chamber
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+An electromagnetic actuator used in a standard atmospheric environment
+A system for positioning in a clean room using electrostatic actuators
+A device using thermal actuators for positioning in air
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A device for positioning in a corrosive atmosphere using piezoelectric actuators
+2. A system for nanomanipulation in a helium environment using high-precision actuators <<LEFTOVER>>
+3. A tool for positioning in a high-temperature environment using piezoelectric actuators
+4. An actuator used for positioning in space without piezoelectric technology
+5. A system for positioning in a biological environment using piezoelectric actuators
+6. A piezoelectric device for macroscale positioning in a vacuum
+7. A system for positioning in a chemically reactive environment using piezoelectric actuators
+8. A system for positioning in a reactive gas environment using piezoelectric actuators

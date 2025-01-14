@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Paintings from 1850-1950 that prominently feature a subject's distinctive facial hair as a focal point of the composition
+
+Here are four examples intended to follow this theme:
+1. Vincent van Gogh's Self Portrait with Pipe (1889)
+2. Paul Gauguin's Portrait of Stéphane Mallarmé (1891)
+3. Claude Monet's Self Portrait with a Beret (1886)
+4. Giuseppe Verdi Portrait by Giovanni Boldini (1886)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. American Gothic by Grant Wood (1930)
+6. The Scream by Edvard Munch (1893)
+7. Whistler's Mother by James McNeill Whistler (1871)
+8. Girl with a Pearl Earring by Johannes Vermeer (1665)
+9. The Birth of Venus by Sandro Botticelli (1485)
+10. The Night Watch by Rembrandt (1642)
+11. The Persistence of Memory by Salvador Dalí (1931)
+12. Water Lilies by Claude Monet (1919)
+13. The Kiss by Gustav Klimt (1908)
+14. Portrait of Adele Bloch-Bauer by Gustav Klimt (1907)
+15. The Card Players by Paul Cézanne (1895)
+16. The Son of Man by René Magritte (1964)
+17. Portrait of Dora Maar by Pablo Picasso (1937)
+18. Christina's World by Andrew Wyeth (1948)
+19. The Arnolfini Portrait by Jan van Eyck (1434)
+20. The Blue Boy by Thomas Gainsborough (1770)
+21. Portrait of Madame X by John Singer Sargent (1884)
+22. The Sleeping Gypsy by Henri Rousseau (1897)
+23. Lady with an Ermine by Leonardo da Vinci (1490)
+24. A Bar at the Folies-Bergère by Édouard Manet (1882)
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

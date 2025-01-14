@@ -1,0 +1,37 @@
+pick_response_1394.txt
+The user has provided three examples of a specific theme and three anti-examples. The goal is to identify the specific theme and then score a list of candidates based on how well they match *only* the specific theme, avoiding broader interpretations suggested by the anti-examples.
+
+The examples are: animal horn, gourd, hollowed-out bamboo. These share the characteristics of being natural, hollow, and often used as containers.
+
+The anti-examples are: glass bottle, plastic jug, glass jar. These are all manufactured containers, which helps to narrow down the specific theme. The key difference is the natural origin of the examples.
+
+Therefore, the specific theme seems to be "natural, hollow containers".
+
+Now, let's evaluate the candidates:
+
+1. **metal can**: Manufactured, not natural. Low score.
+2. **steel flask**: Manufactured, not natural. Low score.
+3. **porcelain teapot**: Manufactured, not natural. Low score.
+4. **coconut shell**: Natural, hollow. High score.
+5. **ceramic bowl**: Manufactured, not natural. Low score.
+6. **plastic tub**: Manufactured, not natural. Low score.
+7. **paper cup**: Manufactured, not natural. Low score.
+8. **ceramic vase**: Manufactured, not natural. Low score.
+
+Let's refine the scores to ensure granularity.
+
+1. **metal can**:  Clearly manufactured. Score: 1
+2. **steel flask**: Clearly manufactured. Score: 1
+3. **porcelain teapot**: Clearly manufactured, more complex shape. Score: 2
+4. **coconut shell**: Natural, hollow, used as a container. Score: 9
+5. **ceramic bowl**: Manufactured, open rather than enclosed. Score: 3
+6. **plastic tub**: Clearly manufactured, larger and less like the examples. Score: 1
+7. **paper cup**: Manufactured, flimsy. Score: 2
+8. **ceramic vase**: Manufactured, primarily decorative. Score: 3<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>2</score>
+<number>4</number><score>9</score>
+<number>5</number><score>3</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>3</score>

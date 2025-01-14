@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Early 20th-century inventions that significantly influenced visual storytelling
+
+Here are four examples intended to follow this theme:
+1. The Lumière Brothers' cinematograph
+2. Thomas Edison's Kinetoscope
+3. George Eastman's roll film camera
+4. The Technicolor process
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The printing press
+6. The radio
+7. The phonograph
+8. The steam engine
+9. The electric light bulb
+10. The telephone
+11. The airplane
+12. The assembly line
+13. The refrigerator
+14. The television
+15. The computer
+16. The internet
+17. The smartphone
+18. The digital camera
+19. The video cassette recorder
+20. The compact disc
+21. The microwave oven
+22. The air conditioner
+23. The washing machine
+24. The elevator
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

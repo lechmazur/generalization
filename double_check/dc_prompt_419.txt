@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed to be held in one hand that incorporate a mechanism for controlled, sequential reveal of information.
+
+Here are four examples intended to follow this theme:
+1. A device that displays a new word or phrase each time a button is pressed.
+2. A tool that reveals a sequence of numbers when a dial is turned.
+3. An instrument that shows a series of images as a lever is moved.
+4. A gadget that uncovers a set of symbols with each twist of a knob.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A book with pages that turn to reveal new content.
+6. A smartphone app that scrolls through information.
+7. A deck of cards used for a magic trick.
+8. A remote control that changes TV channels.
+9. A pen that writes in different colors with each click.
+10. A flashlight that can switch between different light modes.
+11. A music player that shuffles through songs.
+12. A camera that cycles through different photo filters.
+13. A toy car that moves forward with each press of a button.
+14. A kitchen timer that counts down time.
+15. A calculator that performs sequential operations.
+16. A game controller that navigates through menus.
+17. A fitness tracker that displays different metrics.
+18. A digital watch that shows time in different formats.
+19. A voice recorder that plays back recorded messages.
+20. A thermometer that displays temperature readings.
+21. A compass that points to different directions.
+22. A magnifying glass used to examine details.
+23. A key that unlocks a door.
+24. A bottle opener that removes bottle caps.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,29 @@
+pick_response_608.txt
+The user has provided three examples and three anti-examples and wants me to score a list of candidates based on how well they fit the theme defined by the examples, while explicitly avoiding the broader theme suggested by the anti-examples.
+
+Examples: Cheerios, Scott Towels, Philip Morris Cigarettes
+Anti-examples: Product advertised during the first episode of "The Tonight Show", "Saturday Night Live", "The Simpsons"
+
+The examples are all specific brands of consumer products.
+The anti-examples are all about the context of advertising during a specific TV show premiere.
+
+Therefore, the specific theme is likely "well-known consumer product brands". The broader theme is "products advertised during a specific TV show premiere".
+
+I need to score the candidates based on whether they are well-known consumer product brands, and not based on whether they were advertised during a specific TV show premiere.
+
+Let's evaluate each candidate:
+1. Product advertised during the first episode of "The Cosby Show": This fits the broader theme of advertising during a premiere, but not necessarily the specific theme of being a well-known consumer product brand. Score: 2
+2. Product advertised during the Super Bowl: Similar to the above, fits the broader theme of advertising during a specific event, but not necessarily the specific theme. Score: 3
+3. Product advertised during the first episode of "All in the Family":  Fits the broader theme. Score: 2
+4. Product advertised during the first episode of "Cheers": Fits the broader theme. Score: 2
+5. Product advertised during the first episode of "The Oprah Winfrey Show": Fits the broader theme. Score: 2
+6. Product advertised during the first episode of "M*A*S*H": Fits the broader theme. Score: 2
+7. Alka-Seltzer: This is a well-known consumer product brand. Score: 9
+8. Product advertised during the first episode of "Seinfeld": Fits the broader theme. Score: 2<number>1</number><score>2</score>
+<number>2</number><score>3</score>
+<number>3</number><score>2</score>
+<number>4</number><score>2</score>
+<number>5</number><score>2</score>
+<number>6</number><score>2</score>
+<number>7</number><score>9</score>
+<number>8</number><score>2</score>

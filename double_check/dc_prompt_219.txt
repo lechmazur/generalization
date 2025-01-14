@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Initial recorded instances of natural phenomena before the 20th century
+
+Here are four examples intended to follow this theme:
+1. The first recorded sighting of Halley's Comet in 240 BC
+2. The Lisbon earthquake of 1755
+3. The eruption of Mount Vesuvius in AD 79
+4. The Great Storm of 1703 in England
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The discovery of penicillin in 1928
+6. The first flight of the Wright brothers in 1903
+7. The invention of the telephone in 1876
+8. The sinking of the Titanic in 1912
+9. The first moon landing in 1969
+10. The discovery of DNA's structure in 1953
+11. The eruption of Mount St. Helens in 1980
+12. The Chernobyl disaster in 1986
+13. The invention of the World Wide Web in 1989
+14. The first use of an atomic bomb in 1945
+15. The discovery of the Higgs boson in 2012
+16. The invention of the steam engine in 1712
+17. The first successful heart transplant in 1967
+18. The discovery of Pluto in 1930
+19. The invention of the light bulb in 1879
+20. The first powered flight in 1903
+21. The discovery of radioactivity in 1896
+22. The first use of anesthesia in 1846
+23. The invention of the printing press in 1440
+24. The discovery of the electron in 1897
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

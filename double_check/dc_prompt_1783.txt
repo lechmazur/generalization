@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Heavy industrial transportation systems that operate primarily on fixed routes and are powered by diesel engines
+
+Here are four examples intended to follow this theme:
+1. Class 66 freight locomotive
+2. EMD SD40-2 locomotive
+3. GE AC4400CW locomotive
+4. EMD GP38-2 switcher engine
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Boeing 747
+6. Electric streetcar
+7. Container ship
+8. Maglev train
+9. Tesla Semi truck
+10. Mining dump truck
+11. Subway train
+12. Cable car
+13. Diesel-powered bus
+14. Harbor crane
+15. Electric locomotive
+16. Steam engine
+17. Forklift
+18. Cargo helicopter
+19. Monorail
+20. Oil tanker
+21. Diesel generator
+22. Tractor trailer
+23. Diesel-powered yacht
+24. Logging truck
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

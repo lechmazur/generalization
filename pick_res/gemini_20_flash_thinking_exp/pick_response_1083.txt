@@ -1,0 +1,35 @@
+pick_response_1083.txt
+The user has provided examples and anti-examples of a specific theme.
+The examples are places named after a person who was *not* a US president.
+The anti-examples are places named after US presidents or are memorials to US presidents.
+
+The task is to score candidates based on how well they fit the specific theme (named after a non-president) and *not* the broader theme (named after a person).
+
+Let's evaluate each candidate:
+
+1. **The Eiffel Tower (designed by Gustave Eiffel)**: Named after the designer, who was not a US president. This fits the specific theme.
+2. **Mount Vernon (George Washington's home)**: Associated with a US president. This fits the broader theme but not the specific one.
+3. **Graceland (Elvis Presley's home)**: Named after a famous person who was not a US president. This fits the specific theme.
+4. **Monticello (Thomas Jefferson's home)**: Associated with a US president. This fits the broader theme but not the specific one.
+5. **The Chrysler Building (named after Walter Chrysler)**: Named after a businessman, who was not a US president. This fits the specific theme.
+6. **Ford's Theatre (where Lincoln was assassinated)**:  While associated with a US president, it's not *named* after him. This is tricky. It doesn't fit the specific theme perfectly, but it's closer than the homes.
+7. **Carnegie Hall (New York City, named after Andrew Carnegie)**: Named after a philanthropist, who was not a US president. This fits the specific theme.
+8. **Shakespeare's Globe (reconstruction of original theatre)**: Named after a playwright, who was not a US president. This fits the specific theme.
+
+Now, let's assign scores, keeping in mind the need for granularity and avoiding polarization.
+
+1. Eiffel Tower: Strong match - 9
+2. Mount Vernon: Clear anti-example - 1
+3. Graceland: Strong match - 9
+4. Monticello: Clear anti-example - 1
+5. Chrysler Building: Strong match - 9
+6. Ford's Theatre:  Doesn't fit the specific theme perfectly, but not a direct anti-example like the presidential homes. - 3
+7. Carnegie Hall: Strong match - 9
+8. Shakespeare's Globe: Strong match - 9<number>1</number><score>9</score>
+<number>2</number><score>1</score>
+<number>3</number><score>9</score>
+<number>4</number><score>1</score>
+<number>5</number><score>9</score>
+<number>6</number><score>3</score>
+<number>7</number><score>9</score>
+<number>8</number><score>9</score>

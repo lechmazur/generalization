@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems of symbolic representation that utilize a 12-element cycle to categorize and interpret aspects of the natural world or human experience.
+
+Here are four examples intended to follow this theme:
+1. The Chinese zodiac cycle used to assign animal signs to years, influencing personality traits and compatibility.
+2. The 12 houses in Western astrology, each representing different areas of life and personal development.
+3. The 12 Jyotirlingas in Hindu mythology, representing sacred sites dedicated to the deity Shiva.
+4. The 12 months of the Gregorian calendar, each associated with specific seasonal changes and cultural events.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The seven chakras in yogic traditions, representing energy centers in the body.
+6. The four classical elements (earth, water, air, fire) used in ancient philosophies to explain the natural world.
+7. The five elements in Chinese cosmology (wood, fire, earth, metal, water) used to describe interactions and transformations.
+8. The eight trigrams of the I Ching, used for divination and understanding cosmic principles.
+9. The ten sefirot in Kabbalistic teachings, representing aspects of the divine and the universe.
+10. The nine planets of the solar system, used in astrology to influence personality and events.
+11. The six realms of existence in Buddhist cosmology, describing different states of being.
+12. The three gunas in Hindu philosophy (sattva, rajas, tamas), representing qualities of nature and consciousness.
+13. The five Platonic solids, used in ancient Greek philosophy to represent the elements.
+14. The seven days of the week, each named after celestial bodies or deities in various cultures.
+15. The four seasons, used to describe cyclical changes in nature and human life.
+16. The five senses, used to categorize human perception and interaction with the world.
+17. The eight phases of the moon, used in various cultures for timing rituals and events.
+18. The seven colors of the rainbow, used to represent the spectrum of visible light.
+19. The ten commandments in Judeo-Christian tradition, used as moral and ethical guidelines.
+20. The five pillars of Islam, representing the core practices of the faith.
+21. The four directions (north, east, south, west), used in various cultures for navigation and symbolism.
+22. The three primary colors (red, blue, yellow), used in art and design to create other colors.
+23. The six tastes in Ayurvedic medicine (sweet, sour, salty, bitter, pungent, astringent), used to balance health.
+24. The seven deadly sins in Christian theology, representing moral failings to be avoided.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

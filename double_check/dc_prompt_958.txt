@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mechanical components or systems that have been named after musical instruments due to their shape or function
+
+Here are four examples intended to follow this theme:
+1. a device used in engines to regulate the flow of fuel, often resembling a wind instrument
+2. a type of valve used in plumbing systems, named for its resemblance to a stringed instrument
+3. a component in a car's suspension system, named after a percussion instrument due to its shape
+4. a tool used in woodworking, named for its similarity to a brass instrument in appearance
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a device named after a type of dance
+6. a tool named after a type of bird
+7. a machine part named after a type of fruit
+8. a component named after a type of flower
+9. a system named after a type of animal
+10. a device named after a type of vehicle
+11. a tool named after a type of fabric
+12. a machine part named after a type of weather phenomenon
+13. a component named after a type of sport
+14. a system named after a type of building
+15. a device named after a type of food
+16. a tool named after a type of mineral
+17. a machine part named after a type of tree
+18. a component named after a type of fish
+19. a system named after a type of clothing
+20. a device named after a type of tool
+21. a tool named after a type of insect
+22. a machine part named after a type of color
+23. a component named after a type of planet
+24. a system named after a type of musical note
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

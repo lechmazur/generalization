@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technologies that enable the study of inaccessible natural environments through indirect observation methods
+
+Here are four examples intended to follow this theme:
+1. Deep-sea remotely operated vehicles (ROVs)
+2. Satellite imagery for monitoring deforestation in remote rainforests
+3. Radio telemetry for tracking animal migration patterns in inaccessible wilderness areas
+4. Ice-penetrating radar for studying subglacial lakes and rivers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Microscopes
+6. Telescopes
+7. High-speed cameras
+8. Underwater diving gear (scuba)
+9. Field notebooks for ecological surveys
+10. Binoculars for birdwatching
+11. Weather balloons
+12. Soil sampling probes
+13. GPS trackers for individual animals
+14. Camera traps for wildlife monitoring
+15. Drones for aerial photography
+16. Sonar for mapping the ocean floor
+17. Seismographs for earthquake detection
+18. Laboratory analysis of water samples
+19. Electron microscopes for cellular biology
+20. Spectrometers for chemical analysis
+21. Thermometers for measuring temperature
+22. Barometers for measuring atmospheric pressure
+23. Hydrophones for underwater sound recording
+24. Magnetometers for measuring magnetic fields
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

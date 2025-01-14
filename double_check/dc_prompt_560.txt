@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that involve a statistically significant deviation from an expected cyclical pattern measured over at least one full cycle.
+
+Here are four examples intended to follow this theme:
+1. A stock market index experiencing a sustained bull market lasting significantly longer than previous bull markets based on historical data.
+2. A region's rainfall patterns showing a multi-year drought significantly exceeding the typical drought cycle length and severity observed over the past century.
+3. A pendulum clock consistently running faster than expected over multiple days, deviating from its established oscillatory period.
+4. A population of migratory birds altering their migration patterns, arriving significantly earlier or later than the historical average over several migration seasons.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A coin landing on heads five times in a row.
+6. A basketball player having an unusually high-scoring game.
+7. A sudden spike in website traffic due to a viral social media post.
+8. A company's quarterly earnings exceeding analysts' expectations.
+9. A car breaking down unexpectedly.
+10. A student getting a perfect score on a test.
+11. A sudden drop in temperature during a heatwave.
+12. A lottery winner.
+13. A hurricane hitting a coastal region.
+14. A volcanic eruption.
+15. An earthquake.
+16. A solar flare.
+17. A change in government policy.
+18. A new technological innovation.
+19. A shift in consumer preferences.
+20. A company merger.
+21. A celebrity scandal.
+22. A sporting event upset.
+23. A scientific discovery.
+24. A work of art becoming popular.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Decorative glass objects or surfaces that incorporate musical notation or sheet music as a primary design element
+
+Here are four examples intended to follow this theme:
+1. a stained glass window featuring a grand piano with sheet music notes embedded in the design
+2. a glass vase etched with a treble clef and musical notes spiraling around its surface
+3. a glass tabletop with a mosaic of sheet music fragments fused into the surface
+4. a glass sculpture shaped like a violin, with musical notation engraved along its body
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a glass bowl with floral patterns
+6. a glass paperweight shaped like a guitar
+7. a glass candle holder with abstract geometric designs
+8. a glass figurine of a dancing ballerina
+9. a glass coaster with a city skyline etched into it
+10. a glass chandelier with crystal droplets
+11. a glass mug with a sports team logo
+12. a glass sculpture of a tree with leaves made of colored glass
+13. a glass picture frame with no musical elements
+14. a glass jewelry box with a floral lid design
+15. a glass wall art piece featuring a mountain landscape
+16. a glass ornament shaped like a star
+17. a glass bottle with a ship engraved on it
+18. a glass chess set with no musical motifs
+19. a glass sculpture of a bird in flight
+20. a glass clock with Roman numerals
+21. a glass pendant with a heart-shaped design
+22. a glass tray with a beach scene painted on it
+23. a glass figurine of a cat sitting on a piano
+24. a glass sculpture of a dragon with no musical elements
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Major engineering projects from 1850-1950 that required the invention of new mathematical or statistical methods to complete
+
+Here are four examples intended to follow this theme:
+1. The construction of the Hoover Dam, which required advancements in concrete strength testing and structural analysis.
+2. The development of the Panama Canal, which necessitated new methods for calculating water flow and soil stability.
+3. The design of the Golden Gate Bridge, which involved innovations in aerodynamic modeling and suspension cable tension calculations.
+4. The Manhattan Project, which required the invention of new statistical methods for nuclear reaction modeling and material analysis.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the steam engine.
+6. The construction of the Eiffel Tower.
+7. The development of the first commercial airplane.
+8. The creation of the first electric power grid.
+9. The building of the Transcontinental Railroad.
+10. The design of the first skyscrapers.
+11. The invention of the telephone.
+12. The construction of the London Underground.
+13. The development of the first automobiles.
+14. The creation of the first radio communication systems.
+15. The building of the Sydney Opera House.
+16. The invention of the first computers.
+17. The construction of the Brooklyn Bridge.
+18. The development of the first submarines.
+19. The creation of the first radar systems.
+20. The building of the Empire State Building.
+21. The invention of the first jet engines.
+22. The construction of the Channel Tunnel.
+23. The development of the first space rockets.
+24. The creation of the first nuclear reactors.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

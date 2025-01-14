@@ -1,0 +1,22 @@
+pick_response_306.txt
+The user wants me to evaluate how well each candidate matches a specific theme, based on provided examples and anti-examples. The theme seems to be "outerwear made of felted wool with a hood". The anti-examples highlight that the material (felted wool) and the presence of a hood are crucial, and other types of outerwear or materials are not part of the specific theme.
+
+I need to score each candidate from 0 to 10 based on how well it fits this specific theme, avoiding broader interpretations.
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **Candidate 1: A fur coat:**  Has the "outerwear" aspect but not the "felted wool" or necessarily the "hood". Low score.
+*   **Candidate 2: A child's hooded felted wool jacket, with a colorful embroidered trim around the hood:**  Matches all key aspects: "felted wool", "hooded", and "outerwear". High score. The fact it's for a child and has embroidery doesn't disqualify it from the core theme.
+*   **Candidate 3: A leather jacket:** Has the "outerwear" aspect but not the "felted wool" or necessarily the "hood". Low score.
+*   **Candidate 4: A blazer:**  Outerwear, but typically not hooded and not made of felted wool. Very low score.
+*   **Candidate 5: A cotton hoodie:** Has the "hood" aspect, but not "felted wool". The anti-example of a cotton hoodie reinforces this is not the specific theme. Low score.
+*   **Candidate 6: A denim jacket:** Outerwear, but not "felted wool" and not necessarily hooded. Low score.
+*   **Candidate 7: A felted wool bag:**  Has "felted wool" but is not "outerwear" or "hooded". Low score.
+*   **Candidate 8: A detachable hood made of felted wool:** Has "felted wool" and "hood", but it's not a complete garment. Medium score, as it's a component of the theme but not the whole thing.<number>1</number><score>1</score>
+<number>2</number><score>9</score>
+<number>3</number><score>2</score>
+<number>4</number><score>0</score>
+<number>5</number><score>3</score>
+<number>6</number><score>2</score>
+<number>7</number><score>4</score>
+<number>8</number><score>7</score>

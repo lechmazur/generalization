@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts first identified or theorized through telescopic observation and named after mythological figures.
+
+Here are four examples intended to follow this theme:
+1. Uranus
+2. Neptune
+3. Jupiter's moon Io
+4. Saturn's moon Titan
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The planet Mars
+6. The constellation Orion
+7. The asteroid Ceres
+8. The dwarf planet Pluto
+9. The star Sirius
+10. The galaxy Andromeda
+11. The moon Europa
+12. The comet Halley
+13. The supernova SN 1987A
+14. The nebula Crab
+15. The planet Venus
+16. The asteroid Vesta
+17. The moon Callisto
+18. The star Betelgeuse
+19. The galaxy M87
+20. The comet Shoemaker-Levy 9
+21. The supernova SN 1054
+22. The nebula Orion
+23. The planet Mercury
+24. The asteroid Pallas
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

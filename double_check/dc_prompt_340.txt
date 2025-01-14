@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects with decorations consisting of truncated polyhedra arranged in a repeating, symmetrical pattern
+
+Here are four examples intended to follow this theme:
+1. A decorative vase with a pattern of truncated icosahedra
+2. A wall hanging featuring a repeating design of truncated octahedra
+3. A set of coasters with a symmetrical pattern of truncated tetrahedra
+4. A tablecloth adorned with a repeating motif of truncated cubes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A soccer ball with a pattern of hexagons and pentagons
+6. A quilt with a repeating pattern of squares and triangles
+7. A ceramic tile floor with a floral motif
+8. A wallpaper design featuring interlocking circles
+9. A stained glass window with geometric shapes
+10. A piece of jewelry with a repeating pattern of stars
+11. A fabric with a paisley design
+12. A rug with a mandala pattern
+13. A mosaic with a repeating pattern of fish scales
+14. A decorative plate with a border of repeating leaves
+15. A lampshade with a pattern of repeating diamonds
+16. A scarf with a tartan pattern
+17. A book cover with a repeating pattern of waves
+18. A shower curtain with a repeating pattern of seashells
+19. A set of curtains with a repeating pattern of birds
+20. A table runner with a repeating pattern of hearts
+21. A throw pillow with a repeating pattern of polka dots
+22. A decorative box with a repeating pattern of stripes
+23. A set of dishes with a repeating pattern of flowers
+24. A wall clock with a repeating pattern of numbers
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

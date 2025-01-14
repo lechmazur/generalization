@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+a dental implant made from a titanium core coated with a bioactive ceramic layer to promote bone integration
+a smart fabric with conductive threads woven into a non-conductive textile for wearable electronics
+a composite material used in aircraft wings, consisting of carbon fibers embedded in a polymer matrix
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+a composite material with interpenetrating networks
+a fiber-reinforced polymer used in sports equipment
+a hybrid solar cell combining organic and inorganic materials
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. a multi-layer insulation used in spacecraft
+2. a composite bow made from different materials
+3. a hybrid car combining electric and gasoline engines
+4. a reinforced concrete structure
+5. a catalytic converter in vehicles, where a ceramic honeycomb structure is coated with precious metal catalysts <<LEFTOVER>>
+6. a multi-component drug delivery system
+7. a dual-phase steel used in automotive applications
+8. a multi-material 3D printed object

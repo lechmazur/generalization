@@ -1,0 +1,35 @@
+pick_response_234.txt
+The user wants me to identify a specific theme from the provided examples and then score a list of candidates based on how well they fit that specific theme, while explicitly excluding broader related themes.
+
+The examples all involve:
+- Ritualistic practice
+- Animal sacrifice/offering
+- To deities/spiritual entities
+- In open-air/outdoor settings
+
+The anti-examples involve:
+- Ritualistic practice
+- But *not* animal sacrifice
+- And *not necessarily* in open-air settings
+
+Therefore, the specific theme is **ritualistic animal sacrifice to deities in an outdoor setting**.
+
+Now I need to evaluate each candidate against this specific theme:
+
+1. **A Wiccan solstice gathering:**  Might involve ritual and outdoors, but not necessarily animal sacrifice.
+2. **A Mayan ball game ritual:** Ritualistic, but no animal sacrifice mentioned, and setting is not the primary focus.
+3. **A Vodou ceremony involving drumming and dancing:** Ritualistic, but no animal sacrifice mentioned, setting can vary.
+4. **A Hindu temple ceremony involving flowers:** Ritualistic, but no animal sacrifice, and explicitly in a temple (indoor).
+5. **A modern indoor church service:** Ritualistic, but no animal sacrifice, and explicitly indoors.
+6. **A Jewish Passover Seder:** Ritualistic, but no animal sacrifice (symbolic lamb bone), and typically indoors.
+7. **The Norse tradition of animal sacrifices during outdoor blóts:**  Explicitly mentions animal sacrifice and outdoor setting.
+8. **A Confucian ancestor worship ceremony:** Ritualistic, but no animal sacrifice to deities, focuses on ancestors.
+
+Now I can assign scores based on how many of the specific theme elements are present in each candidate.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>0</score>
+<number>5</number><score>0</score>
+<number>6</number><score>1</score>
+<number>7</number><score>9</score>
+<number>8</number><score>1</score>

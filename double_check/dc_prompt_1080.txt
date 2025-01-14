@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural or man-made structures that emit light or heat through chemical reactions or physical processes, often used for illumination, signaling, or celebration.
+
+Here are four examples intended to follow this theme:
+1. lighthouse
+2. tiki torch
+3. sparkler
+4. glow stick
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. mirror
+6. crystal prism
+7. stained glass window
+8. solar panel
+9. reflective road sign
+10. disco ball
+11. neon paint
+12. fluorescent clothing
+13. glow-in-the-dark sticker
+14. LED screen
+15. television
+16. smartphone display
+17. laser pointer
+18. projector
+19. computer monitor
+20. traffic light
+21. car headlight
+22. flashlight
+23. desk lamp
+24. ceiling fan light
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

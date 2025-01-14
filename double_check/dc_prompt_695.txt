@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations that significantly altered human communication methods in the 21st century
+
+Here are four examples intended to follow this theme:
+1. smartphones with instant messaging apps
+2. social media platforms enabling global connectivity
+3. video conferencing tools for real-time communication
+4. voice-activated virtual assistants for hands-free interaction
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. the printing press
+6. telegraph machines
+7. radio broadcasting
+8. television sets
+9. typewriters
+10. landline telephones
+11. fax machines
+12. postal mail systems
+13. carrier pigeons
+14. smoke signals
+15. semaphore flags
+16. Morse code devices
+17. pagers
+18. dial-up internet
+19. early email systems
+20. CB radios
+21. walkie-talkies
+22. newspapers
+23. magazines
+24. cave paintings
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

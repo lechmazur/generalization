@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A mountain peak used to represent the highest level or achievement in a progress bar.
+A canyon used to symbolize a deep dive into detailed settings or options in a menu.
+A cave used to represent hidden or advanced features in a software application.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A wave used to symbolize the ups and downs of stock market trends in a financial app.
+A waterfall used to represent a cascading effect or sequence of actions in a workflow.
+A desert used to represent a lack of activity or data in a system.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A swamp used to symbolize a complex and difficult-to-navigate situation in a problem-solving app.
+2. A storm used to indicate turbulent conditions in a weather forecasting application.
+3. A cliff used to symbolize a point of no return or a critical decision in a decision-making tool.
+4. A river used to illustrate the flow of data or information through a system. <<LEFTOVER>>
+5. A glacier used to symbolize slow but steady progress in a long-term project management tool.
+6. A volcano used to indicate a critical or urgent situation in a monitoring system.
+7. A reef used to represent a barrier or obstacle in a project management application.
+8. An island used to symbolize isolation or a standalone feature in a software suite.

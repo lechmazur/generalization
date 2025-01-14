@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or objects that integrate mythical creatures into modern technological applications for enhanced functionality or storytelling.
+
+Here are four examples intended to follow this theme:
+1. A smartphone app that uses a dragon as a virtual assistant, providing weather updates and reminders with fiery animations.
+2. An augmented reality game where players capture and train unicorns to help them solve puzzles in a futuristic cityscape.
+3. A wearable fitness tracker that incorporates a phoenix, which visually regenerates as the user reaches their health goals.
+4. A virtual reality storytelling platform where users interact with mermaids to uncover hidden narratives in a digital ocean world.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smartwatch that tracks steps and heart rate.
+6. A mobile game featuring historical battles.
+7. An e-reader with a built-in dictionary.
+8. A drone used for aerial photography.
+9. A virtual reality headset for watching movies.
+10. A smart home system that controls lighting and temperature.
+11. A language learning app with interactive lessons.
+12. A social media platform for sharing photos and videos.
+13. A navigation app that provides real-time traffic updates.
+14. A digital assistant that plays music and sets alarms.
+15. A fitness app that tracks running routes and times.
+16. An online marketplace for buying and selling goods.
+17. A video conferencing tool for remote meetings.
+18. A cloud storage service for backing up files.
+19. A smart refrigerator that tracks food inventory.
+20. A weather app that provides forecasts and alerts.
+21. A streaming service for watching TV shows and movies.
+22. A digital camera with advanced editing features.
+23. A productivity app for managing tasks and schedules.
+24. A gaming console with high-definition graphics.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

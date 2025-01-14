@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that were repurposed from their original function to serve a completely different cultural or religious purpose.
+
+Here are four examples intended to follow this theme:
+1. Hagia Sophia in Istanbul, originally a cathedral, later a mosque, now a museum
+2. The Pantheon in Rome, originally a Roman temple, now a Catholic church
+3. The Mezquita in Córdoba, originally a mosque, now a cathedral
+4. The Church of St. Nicholas in Prague, originally a church, now a concert hall
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Colosseum in Rome, originally an amphitheater, now a tourist attraction
+6. The Eiffel Tower in Paris, originally a temporary structure for an exposition, now a permanent landmark
+7. The Parthenon in Athens, originally a temple, now a historical ruin
+8. The Tower of London, originally a royal palace, now a museum
+9. The Great Wall of China, originally a fortification, now a tourist attraction
+10. The Louvre in Paris, originally a royal palace, now a museum
+11. The Acropolis in Athens, originally a citadel, now a historical site
+12. The Sydney Opera House, originally and still an opera house
+13. The Forbidden City in Beijing, originally an imperial palace, now a museum
+14. The Sagrada Familia in Barcelona, originally and still a basilica
+15. The Statue of Liberty in New York, originally a gift, now a symbol of freedom
+16. The Alhambra in Granada, originally a palace, now a historical site
+17. The Pyramids of Giza, originally tombs, now historical monuments
+18. The Kremlin in Moscow, originally a fortress, now the seat of government
+19. The White House in Washington D.C., originally and still the residence of the U.S. President
+20. The Brandenburg Gate in Berlin, originally a city gate, now a symbol of peace
+21. The Taj Mahal in Agra, originally a mausoleum, now a UNESCO World Heritage site
+22. The Leaning Tower of Pisa, originally a bell tower, now a tourist attraction
+23. The Palace of Versailles, originally a royal residence, now a museum
+24. The Golden Gate Bridge in San Francisco, originally and still a bridge
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

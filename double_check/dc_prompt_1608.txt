@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional folk dances that incorporate performers manipulating or imitating serpentine creatures
+
+Here are four examples intended to follow this theme:
+1. Dragon Dance (China)
+2. Serpent Dance (Hopi Tribe)
+3. Orochi-mai (Japan)
+4. Ngọc Xà dance (Vietnam)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Lion Dance (China)
+6. Morris dance (England)
+7. Flamenco (Spain)
+8. Bhangra (India)
+9. Waltz (Austria)
+10. Tango (Argentina)
+11. Hula (Hawaii)
+12. Irish stepdance (Ireland)
+13. Polka (Czech Republic)
+14. Square dance (USA)
+15. Belly dance (Middle East)
+16. Capoeira (Brazil)
+17. Ballet (France)
+18. Kabuki (Japan)
+19. Kathak (India)
+20. Maypole dance (Europe)
+21. Highland fling (Scotland)
+22. Tarantella (Italy)
+23. Zorba (Greece)
+24. Cumbia (Colombia)
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

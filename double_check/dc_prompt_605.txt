@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical artifacts depicting rabbits in pre-Columbian Mesoamerican cultures
+
+Here are four examples intended to follow this theme:
+1. A ceramic figurine from the Teotihuacan culture, featuring a stylized animal with long ears and a short tail, commonly interpreted as a rabbit.
+2. A carved stone sculpture from the Maya civilization, depicting a small creature with rabbit-like features, found in a temple complex.
+3. A painted mural in a Zapotec tomb, showing a scene with a figure that resembles a rabbit, part of a larger narrative.
+4. A clay whistle from the Aztec period, shaped like an animal with characteristics suggestive of a rabbit, used in ceremonial contexts.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bronze statue of a hare from ancient China.
+6. A medieval European tapestry depicting a rabbit hunt.
+7. An Egyptian hieroglyph representing a hare.
+8. A modern sculpture of a rabbit made from recycled materials.
+9. A Japanese netsuke carving of a rabbit.
+10. A Native American totem pole featuring a rabbit.
+11. A Greek vase painting showing a hare in a mythological scene.
+12. An Inuit carving of a rabbit from bone.
+13. A Roman mosaic featuring a rabbit in a garden scene.
+14. An Australian Aboriginal painting of a rabbit-like creature.
+15. A medieval illuminated manuscript with a marginal illustration of a rabbit.
+16. A Celtic brooch with a rabbit motif.
+17. An African tribal mask with rabbit features.
+18. A Viking artifact depicting a rabbit in a battle scene.
+19. A Persian miniature painting of a rabbit in a garden.
+20. An Indian sculpture of a rabbit from the Gupta period.
+21. A Polynesian carving of a rabbit-like figure.
+22. A Renaissance painting of a rabbit in a still life.
+23. A Korean celadon vase with a rabbit design.
+24. A Babylonian cylinder seal showing a rabbit in a religious context.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

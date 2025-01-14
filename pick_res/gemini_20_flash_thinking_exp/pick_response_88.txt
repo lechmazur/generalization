@@ -1,0 +1,42 @@
+pick_response_88.txt
+The user has provided examples and anti-examples of a specific theme. The examples are locations named after sedimentary rocks. The anti-examples are locations named after other types of rocks (igneous and metamorphic). The task is to score the candidates based on how well they fit the specific theme (sedimentary rock locations) and not the broader theme (any rock location).
+
+Let's evaluate each candidate:
+1. Flint River: Flint is a sedimentary rock.
+2. Marble Falls: Marble is a metamorphic rock.
+3. Gneiss Lake: Gneiss is a metamorphic rock.
+4. Gypsum Canyon: Gypsum is a sedimentary rock.
+5. Travertine Springs: Travertine is a sedimentary rock.
+6. Pumice Point: Pumice is an igneous rock.
+7. Slate Creek: Slate is a metamorphic rock.
+8. Obsidian Cliff: Obsidian is an igneous rock.
+
+Now, let's assign scores based on how well they fit the *specific* theme of sedimentary rock locations.
+
+- High scores (8-10): Clear examples of sedimentary rocks.
+- Medium scores (4-7):  Might be slightly less common or have some ambiguity.
+- Low scores (0-3): Clearly not sedimentary rocks.
+
+Flint is a well-known sedimentary rock.
+Gypsum and Travertine are also sedimentary rocks.
+
+Marble, Gneiss, Slate are metamorphic.
+Pumice and Obsidian are igneous.
+
+Considering the nuance and avoiding polarization:
+
+1. Flint River:  Flint is a common sedimentary rock. Score: 9
+2. Marble Falls: Marble is metamorphic. Score: 1
+3. Gneiss Lake: Gneiss is metamorphic. Score: 1
+4. Gypsum Canyon: Gypsum is a sedimentary rock. Score: 8
+5. Travertine Springs: Travertine is a sedimentary rock. Score: 8
+6. Pumice Point: Pumice is igneous. Score: 1
+7. Slate Creek: Slate is metamorphic. Score: 2
+8. Obsidian Cliff: Obsidian is igneous. Score: 1<number>1</number><score>9</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>8</score>
+<number>5</number><score>8</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>1</score>

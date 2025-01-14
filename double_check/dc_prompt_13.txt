@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural festivals or events that originated as a response to a specific historical crisis or disaster and have persisted as an annual tradition.
+
+Here are four examples intended to follow this theme:
+1. The Ōtsu Matsuri in Shiga Prefecture, Japan, a vibrant festival with a history rooted in appeasing the gods after a devastating plague in the 17th century.
+2. The Festival of the Redeemer in Venice, Italy, a celebration initially held to give thanks for the end of a devastating plague in 1576.
+3. The Bon Festival in Japan, a Buddhist tradition that evolved to incorporate elements of ancestor worship and remembrance, particularly after widespread famine and epidemics in the 9th century.
+4. The Flower Festival in Panchimalco, El Salvador, a vibrant display of intricate floral carpets originally created as a plea for divine intervention during a period of intense seismic activity in the 19th century.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Oktoberfest
+6. Carnival in Rio de Janeiro
+7. Dia de los Muertos
+8. Chinese New Year
+9. Holi
+10. Thanksgiving
+11. Christmas
+12. Hanukkah
+13. Diwali
+14. Ramadan
+15. St. Patrick's Day
+16. Bastille Day
+17. Cinco de Mayo
+18. Songkran
+19. Burning Man
+20. Lollapalooza
+21. Coachella
+22. Comic-Con
+23. The Notting Hill Carnival
+24. Mardi Gras in New Orleans
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

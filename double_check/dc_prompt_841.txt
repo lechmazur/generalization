@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural geological formations named after mythical or supernatural entities
+
+Here are four examples intended to follow this theme:
+1. Thor's Hammer, a rock formation in Colorado
+2. Merlin's Cave, a sea cave in Cornwall, England
+3. Giant's Causeway, a formation in Northern Ireland named after the mythical giant Finn McCool
+4. Devil's Tower, a geological formation in Wyoming
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Mount Everest, named after Sir George Everest
+6. Old Faithful, a geyser in Yellowstone National Park
+7. Grand Canyon, a geological formation in Arizona
+8. Victoria Falls, named after Queen Victoria
+9. Angel Falls, named after Jimmie Angel
+10. Great Barrier Reef, a coral reef system in Australia
+11. Stonehenge, a prehistoric monument in England
+12. Uluru, a large sandstone rock formation in Australia
+13. Table Mountain, a flat-topped mountain in South Africa
+14. Blue Grotto, a sea cave on the island of Capri, Italy
+15. Half Dome, a granite dome in Yosemite National Park
+16. Waimea Canyon, known as the "Grand Canyon of the Pacific"
+17. El Capitan, a vertical rock formation in Yosemite National Park
+18. Matterhorn, a mountain in the Alps
+19. Great Victoria Desert, named after Queen Victoria
+20. Death Valley, a desert valley in California
+21. Marble Arch Caves, a series of caves in Northern Ireland
+22. Black Forest, a large forested mountain range in Germany
+23. White Cliffs of Dover, a chalk cliff in England
+24. Great Salt Lake, a large saline lake in Utah
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

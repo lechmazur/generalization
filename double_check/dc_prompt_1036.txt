@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): structures or systems that were initially designed for a specific purpose but later repurposed for a completely different function, with the original design still influencing their current use
+
+Here are four examples intended to follow this theme:
+1. Cardboard egg cartons used for soundproofing in recording studios
+2. Old tires used as building materials for artificial reefs
+3. Shipping containers converted into housing units
+4. Discarded floppy disks used as crafting materials for bags or jewelry
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A butter knife used to tighten a loose screw
+6. A CD used as a coaster
+7. A newspaper used to wrap fish and chips
+8. A plastic bottle used as a plant pot
+9. A sock used as a dust cloth
+10. A brick used as a doorstop
+11. A coat hanger used as a makeshift antenna
+12. A teacup used as a pen holder
+13. A wine cork used as a pin cushion
+14. A tin can used as a pencil holder
+15. A ladder used as a bookshelf
+16. A pallet used as a garden bed
+17. A bathtub used as a cattle trough
+18. A piano used as a bar
+19. A car tire swing
+20. A milk crate used as a storage box
+21. A dresser drawer used as a shelf
+22. A suitcase used as a coffee table
+23. A wheelbarrow used as a planter
+24. A bed frame used as a trellis
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

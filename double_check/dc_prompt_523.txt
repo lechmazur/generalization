@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Depictions of reflective surfaces in visual art where the reflection shows a different scene or perspective than the primary subject.
+
+Here are four examples intended to follow this theme:
+1. A painting of a woman looking in a mirror, but the reflection shows her as a child.
+2. A photograph of a skyscraper reflecting a pastoral landscape in its glass facade.
+3. A digital artwork depicting a puddle on a city street reflecting a starry night sky.
+4. A drawing of a polished metal orb showing a distorted image of a different room than the one it sits in.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a still life with a reflective silver platter.
+6. A photograph of a lake reflecting the surrounding trees.
+7. A self-portrait in a mirror.
+8. A drawing of a car with a shiny, polished hood.
+9. A digital painting of a chrome robot.
+10. A photograph of a shop window reflecting the street scene.
+11. A painting of a woman gazing at her reflection in a pond.
+12. A sculpture of a human figure made of polished bronze.
+13. A photograph of a cat looking at its reflection in a glass door.
+14. A painting of a landscape with a river reflecting the sky.
+15. A digital artwork of a futuristic city with holographic projections.
+16. A drawing of a glass of water with light refracting through it.
+17. A photograph of a person taking a selfie in a mirrored elevator.
+18. A painting of a bowl of fruit with a highly polished surface.
+19. A sculpture of a bird with mirrored wings.
+20. A photograph of a building with a glass facade reflecting the clouds.
+21. A painting of a person looking out a window at a rainy street.
+22. A digital artwork of a character trapped in a virtual reality simulation.
+23. A drawing of a magnifying glass distorting the image of a flower.
+24. A photograph of a diamond reflecting light in multiple directions.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

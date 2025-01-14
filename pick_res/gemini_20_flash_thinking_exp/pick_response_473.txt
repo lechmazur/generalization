@@ -1,0 +1,26 @@
+pick_response_473.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate a list of candidates based on how well they fit that specific theme, ignoring broader related themes.
+
+The examples all involve organisms that are genetically modified for aesthetic or display purposes in specific environments (home aquariums, ornamental gardens, butterfly houses).
+
+The anti-examples involve organisms genetically modified for industrial or functional purposes (pharmaceutical production, pollution breakdown, biodegradable plastic production).
+
+Therefore, the specific theme is: **Genetically modified organisms designed for aesthetic or display purposes in controlled environments.**
+
+Now I need to evaluate each candidate based on this specific theme:
+
+1. **A soybean plant engineered to produce biofuel:** This is for industrial/functional purposes, not aesthetic display.
+2. **A yeast strain modified for more efficient fermentation in brewing:** This is for industrial/functional purposes.
+3. **A tree with leaves that change color based on temperature, intended for landscaping:** This has an aesthetic element and is intended for a controlled environment (landscaping).
+4. **A grass variety resistant to heavy foot traffic for sports fields:** This is for functional purposes (durability).
+5. **A crop plant with improved salt tolerance for coastal farming:** This is for functional purposes (increased yield/resilience).
+6. **A fish modified to survive in colder water for aquaculture:** This is for functional purposes (increased yield/range).
+7. **A fruit tree with a modified ripening process for easier shipping:** This is for functional purposes (logistics/efficiency).
+8. **A salmon modified for faster growth:** This is for functional purposes (increased yield).<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>8</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>3</score>
+<number>7</number><score>2</score>
+<number>8</number><score>2</score>

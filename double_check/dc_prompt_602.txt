@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical rituals involving direct contact with fire as a central element of a traditional, localized religious or spiritual practice.
+
+Here are four examples intended to follow this theme:
+1. walking barefoot over hot coals during a fire-walking ceremony
+2. lighting a sacred fire and passing offerings through its flames as part of a harvest ritual
+3. holding burning torches while performing a ceremonial dance around a bonfire
+4. placing hands directly into a sacred flame to receive blessings during a purification rite
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. lighting candles on a birthday cake
+6. burning incense sticks during meditation
+7. using a fireplace to warm a home
+8. roasting marshmallows over a campfire
+9. lighting a lantern during a festival
+10. burning sage for smudging rituals
+11. using a blowtorch for metalworking
+12. lighting fireworks during a celebration
+13. burning a yule log during Christmas
+14. using a Bunsen burner in a science lab
+15. lighting a menorah during Hanukkah
+16. burning old documents for disposal
+17. using a candle to light a dark room
+18. burning a effigy during a protest
+19. lighting a match to start a stove
+20. burning leaves in a backyard fire pit
+21. using a lighter to ignite a cigarette
+22. lighting a candle during a vigil
+23. burning a piece of paper for artistic purposes
+24. using a flame to sterilize a needle
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,39 @@
+pick_response_699.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score new candidates based on how well they fit that specific theme.
+
+The examples are all:
+- Objects used in religious/spiritual practices
+- Made from natural materials (seeds, bamboo, feather)
+- Associated with specific cultural traditions
+
+The anti-examples are:
+- Modern interpretation of a spiritual object (dreamcatcher)
+- Religious object but not necessarily used in a ritualistic way (Buddha sculpture)
+- Religious symbol worn as jewelry (Celtic cross)
+
+Therefore, the specific theme seems to be "ritual objects made from natural materials and associated with specific cultural traditions".
+
+Now I need to evaluate each candidate based on this specific theme, avoiding the broader themes of "religious objects" or "spiritual items".
+
+Candidate breakdown:
+1. Brass meditation bowl: Could be used in rituals, but brass is not a natural material in the same way as the examples.
+2. Metal incense burner: Similar to the bowl, metal is not a natural material.
+3. Porcelain ritual vessel: Porcelain is not a natural material in the same way.
+4. Aboriginal Australian message stick made from eucalyptus wood: Fits the criteria - ritual object, natural material (wood), specific cultural tradition.
+5. Steel ceremonial sword: Could be ceremonial, but steel is not a natural material.
+6. Silver ritual dagger: Could be ritualistic, but silver is not a natural material.
+7. Bronze ritual bell: Could be ritualistic, but bronze is not a natural material.
+8. Painted wooden idol: Fits the criteria - ritual object, natural material (wood), could be associated with a specific cultural tradition.
+
+Scoring strategy:
+- 8-10: Strong match - ritual object, natural material, clear cultural association.
+- 5-7: Moderate match - ritual object, but material is less natural or cultural association is less clear.
+- 2-4: Weak match - might be used in rituals, but material is clearly not natural.
+- 0-1: No match.<number>1</number><score>4</score>
+<number>2</number><score>3</score>
+<number>3</number><score>4</score>
+<number>4</number><score>9</score>
+<number>5</number><score>3</score>
+<number>6</number><score>4</score>
+<number>7</number><score>5</score>
+<number>8</number><score>7</score>

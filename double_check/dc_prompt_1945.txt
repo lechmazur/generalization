@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional garments worn during specific cultural festivals in East Asia
+
+Here are four examples intended to follow this theme:
+1. a hanbok worn during Chuseok
+2. a qipao worn during the Spring Festival
+3. a yukata worn during the Gion Matsuri
+4. a hanfu worn during the Mid-Autumn Festival
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a kimono worn at a wedding
+6. a sari worn during Diwali
+7. a kilt worn at a Highland Games event
+8. a dirndl worn during Oktoberfest
+9. a dashiki worn during Kwanzaa
+10. a poncho worn during a Mexican Independence Day celebration
+11. a keffiyeh worn during Eid al-Fitr
+12. a barong Tagalog worn during a Filipino fiesta
+13. a cheongsam worn at a formal dinner
+14. a thobe worn during Ramadan
+15. a salwar kameez worn during Eid
+16. a ao dai worn at a graduation ceremony
+17. a kebaya worn during a traditional dance performance
+18. a sarong worn at a beach festival
+19. a traje de flamenca worn during the Feria de Abril
+20. a baju kurung worn during a Malay wedding
+21. a chiton worn during a Greek Orthodox Easter celebration
+22. a parka worn during a winter solstice festival
+23. a kente cloth worn during a Ghanaian naming ceremony
+24. a huipil worn during a Day of the Dead celebration
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

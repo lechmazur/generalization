@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations or individuals whose names or contributions are commonly mispronounced or misunderstood despite their widespread recognition.
+
+Here are four examples intended to follow this theme:
+1. Nikola Tesla
+2. Marie Curie
+3. Wi-Fi
+4. Quinoa
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Albert Einstein
+6. Isaac Newton
+7. Thomas Edison
+8. Charles Darwin
+9. Galileo Galilei
+10. Leonardo da Vinci
+11. Internet
+12. Smartphone
+13. Computer
+14. Television
+15. Radio
+16. Electricity
+17. Automobile
+18. Airplane
+19. Telephone
+20. Light bulb
+21. Steam engine
+22. Printing press
+23. Penicillin
+24. Vaccination
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

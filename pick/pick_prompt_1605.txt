@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A gel stress ball that deforms when squeezed and returns to its original shape when released.
+A spring-loaded door stopper that compresses when stepped on and springs back to its original shape when released.
+A retractable pen that extends its tip when clicked and retracts it back when clicked again.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A metal that changes shape when heated but remains in the new shape when cooled.
+A piece of clay that can be molded into different shapes but does not return to its original form.
+A plastic toy that bends when heated but stays in the new shape when cooled.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A metal spring that compresses when weight is applied but does not return to its original length if overstretched.
+2. A memory foam pillow that contours to the shape of a person's head when they lie on it and returns to its original shape when they get up. <<LEFTOVER>>
+3. A candle that melts when lit but does not return to its original shape when cooled.
+4. A piece of paper that can be crumpled but does not automatically smooth out.
+5. A wooden plank that bends under weight but does not return to its original shape when the weight is removed.
+6. A glass that shatters when dropped and cannot return to its original form.
+7. A metal wire that can be bent into different shapes but does not return to its original form.
+8. A piece of ice that melts into water and cannot return to its solid form.

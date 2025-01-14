@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A series of interconnected chambers in an ancient temple, where each chamber's exit is locked by a unique mechanical puzzle that must be solved to proceed further into the temple.
+An old manor house with a hidden library that can only be accessed by solving a sequence of riddles found in various rooms, each riddle leading to the next until the final puzzle unlocks the library door.
+An escape room designed as a medieval castle, where participants must solve a series of sequential physical puzzles and riddles to move from one room to another, culminating in accessing the treasure room.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A themed escape room where participants solve puzzles to escape, but the room itself does not represent an architectural structure.
+A museum exhibit where visitors can interact with puzzles but do not need to solve them to move through the space.
+A historical reenactment event where participants solve puzzles as part of the activities, but it does not affect their movement through the event space.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A themed restaurant where diners can participate in puzzle-solving games at their tables, but it does not affect their dining experience.
+2. An amusement park ride with a storyline involving puzzles, but the ride itself does not require solving them to proceed.
+3. A modern art installation featuring a maze-like structure where visitors must solve a series of physical puzzles at different checkpoints to unlock new sections and ultimately reach the central exhibit. <<LEFTOVER>>
+4. A historical site with informational plaques that include riddles, but solving them is not necessary to explore the site.
+5. A hotel with themed rooms that include puzzles as part of the decor, but solving them is not necessary to use the room.
+6. A game show set where contestants solve puzzles to win prizes, but the set itself does not require puzzle-solving to navigate.
+7. An art gallery where some artworks are interactive puzzles, but solving them does not unlock new gallery spaces.
+8. A sculpture garden where some sculptures are designed as puzzles, but solving them does not grant access to new areas.

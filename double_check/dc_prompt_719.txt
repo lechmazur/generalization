@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that involve the intentional distortion or manipulation of spatial relationships to achieve a specific functional or artistic purpose.
+
+Here are four examples intended to follow this theme:
+1. Forced perspective photography
+2. Anamorphic art
+3. Trompe-l'œil painting
+4. Fish-eye lens
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A photograph taken with a telephoto lens
+6. A portrait painting
+7. A still life painting
+8. A landscape painting
+9. A wide-angle lens
+10. A macro lens
+11. A zoom lens
+12. A blueprint
+13. A map
+14. A globe
+15. A topographical map
+16. A satellite image
+17. A hologram
+18. Virtual Reality
+19. Augmented Reality
+20. A kaleidoscope
+21. A mirage
+22. A magic trick involving illusion
+23. A distorted reflection in a funhouse mirror
+24. A cubist painting
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

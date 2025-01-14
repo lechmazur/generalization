@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): objects or artifacts that were used to preserve or transmit cultural or historical knowledge but are now obsolete or in ruins
+
+Here are four examples intended to follow this theme:
+1. The clay tablets of the ancient Sumerians used for cuneiform writing
+2. The birch bark scrolls used by the Ojibwe for recording songs and stories
+3. The knotted strings of the Inca quipu used for record keeping
+4. The wax tablets used in ancient Rome for writing and education
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern digital encyclopedia
+6. A smartphone used for storing family photos
+7. A current newspaper
+8. A contemporary history textbook
+9. A museum exhibit on modern technology
+10. A podcast discussing current events
+11. A social media platform used for sharing cultural stories
+12. A modern library with digital archives
+13. A television documentary on recent history
+14. A blog about contemporary cultural practices
+15. A current art installation exploring modern themes
+16. A streaming service offering educational content
+17. A virtual reality experience of a modern city
+18. A digital music platform preserving contemporary songs
+19. A website dedicated to modern folklore
+20. An app for learning current languages
+21. A modern sculpture representing today's society
+22. A video game that teaches about present-day culture
+23. A current fashion magazine
+24. A live performance of a new play
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

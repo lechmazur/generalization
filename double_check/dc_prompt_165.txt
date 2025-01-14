@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Sacred objects made of green stone that were ritually buried in Mesoamerican temples
+
+Here are four examples intended to follow this theme:
+1. A small jade figurine of a deity, buried beneath the altar of a temple in the Maya city of Tikal
+2. A green serpentine pendant, placed in a ceremonial cache within the pyramid of the Zapotec site of Monte Albán
+3. A carved greenstone mask, interred in a sacred chamber of the Olmec temple at La Venta
+4. A green chalcedony ceremonial axe, ritually buried in the temple complex of the Aztec city of Tenochtitlan
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A golden idol placed in a temple in South America
+6. A blue stone statue buried in an Egyptian tomb
+7. A wooden totem pole erected in a Pacific Northwest Native American village
+8. A red coral necklace used in a ritual in Polynesia
+9. A bronze bell hung in a Shinto shrine in Japan
+10. A black obsidian mirror used in Aztec divination ceremonies
+11. A silver cross buried in a Christian church in Europe
+12. A yellow amber amulet worn by a priest in ancient Greece
+13. A white marble sculpture displayed in a Roman temple
+14. A purple amethyst gemstone set in a ring in medieval Europe
+15. A brown sandstone stele erected in an ancient Near Eastern temple
+16. A clear quartz crystal used in a New Age meditation ritual
+17. A gray granite altar stone in a Celtic sacred grove
+18. A pink coral carving placed in a Hawaiian heiau
+19. A turquoise mosaic mask worn by a priest in a Pueblo ceremony
+20. A black basalt statue of a god in an ancient Egyptian temple
+21. A red jasper pendant buried with a Viking chieftain
+22. A blue lapis lazuli cylinder seal used in ancient Mesopotamia
+23. A yellow topaz ring worn by a Buddhist monk in Tibet
+24. A white alabaster vase used in a Zoroastrian fire temple
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

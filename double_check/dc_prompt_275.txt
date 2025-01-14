@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Public installations that feature interactive water elements and are designed to promote community well-being
+
+Here are four examples intended to follow this theme:
+1. A fountain in a city park where visitors can adjust the water flow and patterns through interactive controls, encouraging community engagement and relaxation.
+2. An urban water plaza designed with shallow pools and jets that children and adults can play in, fostering a sense of community and promoting physical activity.
+3. A public art installation featuring a series of water walls that respond to touch, creating a dynamic environment that encourages social interaction and mental well-being.
+4. An interactive water garden in a community center where visitors can manipulate water streams to create music, promoting both artistic expression and community cohesion.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A sculpture in a public park that does not involve water or interactive elements.
+6. A community garden where residents can grow their own vegetables.
+7. A public library hosting community events to promote literacy.
+8. A city-sponsored yoga class in a public park to promote physical well-being.
+9. A mural painted on a building to enhance the aesthetic appeal of a neighborhood.
+10. A public bench designed for seating and relaxation without interactive features.
+11. A community center offering workshops on mental health and well-being.
+12. A playground with traditional swings and slides but no water elements.
+13. A public swimming pool that does not feature interactive elements.
+14. A city park with walking trails designed to promote physical activity.
+15. A public art installation that uses light and sound but no water.
+16. A community event featuring live music to foster social connections.
+17. A public space with a traditional fountain that does not allow for interaction.
+18. A city program offering free fitness classes in public spaces.
+19. A community bulletin board where residents can share information and resources.
+20. A public park with a pond for fishing but no interactive water elements.
+21. A neighborhood cleanup initiative to promote community pride and well-being.
+22. A public space with a static water feature that does not encourage interaction.
+23. A community center hosting a farmers' market to promote healthy eating.
+24. A public art installation that uses kinetic sculptures but no water elements.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

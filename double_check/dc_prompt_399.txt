@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects that utilize a slow, consistent, and regulated release of stored resources to maintain a specific function over an extended period.
+
+Here are four examples intended to follow this theme:
+1. Osmotic pump for drug delivery
+2. Hourglass
+3. Incense stick
+4. Drip irrigation system
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A battery
+6. A fuel tank
+7. A water reservoir
+8. A capacitor
+9. A spring
+10. A glacier
+11. A volcano
+12. A geyser
+13. A river
+14. A dam
+15. A balloon
+16. A tire
+17. A fire extinguisher
+18. A can of compressed air
+19. A grain silo
+20. An hourglass filled with sand but blocked
+21. A loaded crossbow
+22. A roll of toilet paper
+23. A bag of chips
+24. A bottle of wine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

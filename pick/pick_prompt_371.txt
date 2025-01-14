@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A graphite drawing of a volcanic landscape with lava flows, made by a French artist in 1875.
+A charcoal sketch of Mount Vesuvius erupting, created by an Italian artist in 1880.
+A graphite study of a volcanic eruption at night, drawn by a British artist in 1865.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+a painting of a volcanic eruption by an artist born in 1905
+an oil painting of a volcanic eruption by a modern artist
+a painting of a volcanic eruption in acrylics
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. a digital illustration of a volcanic island
+2. a pen-and-ink drawing of a forest fire
+3. a photograph of an active volcano
+4. a painting of a volcanic eruption in watercolors
+5. A detailed charcoal rendering of a volcanic crater emitting smoke, produced by a German artist in 1890. <<LEFTOVER>>
+6. a pastel drawing of a sunset over a mountain
+7. a sculpture of a volcano made from clay
+8. a painting of a volcanic eruption in gouache

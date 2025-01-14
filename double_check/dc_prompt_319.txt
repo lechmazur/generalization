@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Woven textiles incorporating metallic threads that depict stylized, geometric floral patterns inspired by Persian Khorasan historical designs.
+
+Here are four examples intended to follow this theme:
+1. A shimmering tapestry with intricate, angular floral motifs woven with gold and silver threads.
+2. A luxurious throw blanket featuring abstract, geometric flower designs in metallic copper and bronze threads.
+3. An elegant wall hanging with stylized, diamond-shaped floral patterns crafted from shimmering platinum threads.
+4. A decorative cushion cover adorned with bold, geometric floral designs woven with lustrous gold and silver threads.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A silk scarf with floral patterns in vibrant colors.
+6. A woolen rug with traditional Persian designs.
+7. A tapestry depicting realistic floral scenes without metallic threads.
+8. A cotton bedspread with geometric patterns in pastel colors.
+9. A linen tablecloth with embroidered floral motifs.
+10. A velvet curtain with abstract designs in metallic threads but no floral patterns.
+11. A brocade jacket with traditional Chinese floral designs.
+12. A hand-woven basket with geometric patterns but no metallic threads.
+13. A silk saree with intricate floral designs in metallic threads but not geometric.
+14. A tapestry with animal motifs woven with metallic threads.
+15. A decorative pillow with paisley patterns in metallic threads.
+16. A wall hanging with geometric designs but no floral elements.
+17. A woven mat with tribal patterns in natural fibers.
+18. A tapestry depicting a landscape scene with metallic threads but no floral patterns.
+19. A hand-knitted shawl with floral designs but no metallic threads.
+20. A woven wall art piece with abstract designs in metallic threads but no floral elements.
+21. A traditional Persian carpet with floral motifs but no metallic threads.
+22. A decorative fabric with geometric patterns in metallic threads but no floral designs.
+23. A woven textile with realistic floral patterns but no metallic threads.
+24. A tapestry with geometric designs inspired by Native American art, woven with metallic threads but no floral patterns.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

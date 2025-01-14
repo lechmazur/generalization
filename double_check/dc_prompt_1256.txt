@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Interactive systems that use real-time data visualization to enhance user decision-making in dynamic environments.
+
+Here are four examples intended to follow this theme:
+1. A stock trading platform that displays real-time market trends and price movements to help users make informed investment decisions.
+2. A traffic management system that uses real-time data to visualize traffic flow and suggest optimal routes to drivers, improving decision-making on the road.
+3. A weather forecasting app that provides real-time data visualizations of storm paths and intensities, aiding users in making safety-related decisions.
+4. A healthcare monitoring system that visualizes real-time patient data, assisting medical staff in making critical treatment decisions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A fitness tracker that records daily steps and heart rate.
+6. A video game that uses static maps for navigation.
+7. A social media platform that displays user posts in real-time.
+8. A digital billboard that shows advertisements based on time of day.
+9. A smart home system that adjusts lighting based on user preferences.
+10. A navigation app that provides turn-by-turn directions without real-time traffic updates.
+11. A website that uses static infographics to display historical data.
+12. A virtual reality game that immerses users in a pre-designed environment.
+13. A music streaming service that suggests songs based on user listening history.
+14. A digital calendar that sends reminders for scheduled events.
+15. A news app that aggregates articles from various sources.
+16. A smart thermostat that learns and adjusts temperature settings over time.
+17. A photo editing software that allows users to manipulate images.
+18. A language learning app that uses pre-recorded lessons.
+19. A ride-sharing app that matches drivers with passengers.
+20. A digital library that provides access to e-books and audiobooks.
+21. A home security system that sends alerts when motion is detected.
+22. A productivity app that helps users manage tasks and deadlines.
+23. A virtual meeting platform that allows users to communicate via video.
+24. A gaming console that streams games over the internet.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

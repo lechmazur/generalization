@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): moments of anticipation or transition in art, history, or nature that precede a significant, irreversible event or transformation
+
+Here are four examples intended to follow this theme:
+1. The calm before a hurricane makes landfall
+2. The tense moments before the signing of the Treaty of Versailles
+3. The quiet anticipation in the seconds before a volcano erupts
+4. The suspenseful pause before the fall of the Berlin Wall
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting depicting a serene landscape
+6. The aftermath of a significant historical event
+7. A photograph of a bustling city street
+8. The celebration following a sports victory
+9. A sculpture representing peace and tranquility
+10. The daily routine of a historical figure
+11. A nature scene showing animals in their habitat
+12. The ongoing process of a scientific experiment
+13. A piece of music that evokes nostalgia
+14. The gradual change of seasons
+15. A film scene showing a character's daily life
+16. The continuous flow of a river
+17. A historical document detailing a minor event
+18. A photograph of a family gathering
+19. The steady growth of a plant
+20. A piece of literature describing a character's thoughts
+21. The routine maintenance of a historical site
+22. A painting of a still life
+23. The regular migration patterns of birds
+24. A documentary about a cultural tradition
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

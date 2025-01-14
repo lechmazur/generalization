@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional practices or tools that use natural materials to enhance sensory experiences in specific cultural or environmental contexts.
+
+Here are four examples intended to follow this theme:
+1. Inuit crafting of snow goggles from bone or wood with narrow slits to reduce glare and enhance contrast in snowy landscapes.
+2. Amazonian tribes using aromatic plant resins and barks in ritualistic smoking ceremonies to induce altered states of consciousness and connect with the spiritual realm.
+3. Pacific Islander communities creating shell trumpets and drums using natural materials like shells, wood, and animal hides for communication, ceremonies, and storytelling.
+4. Saharan nomadic groups weaving intricate grass mats and shelters that provide shade, ventilation, and tactile comfort in the desert environment.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A synthetic tapestry depicting a nature scene.
+6. A digital recording of birdsong played through speakers.
+7. A plastic rain stick filled with metal beads.
+8. A photograph of a sunset.
+9. A concrete sculpture shaped like a tree.
+10. A glass bottle filled with sand from a beach.
+11. A metal wind chime.
+12. A synthetic essential oil diffuser.
+13. A plastic toy shaped like a musical instrument.
+14. A video game depicting a natural environment.
+15. A book about the history of perfume.
+16. A painting of a flower garden.
+17. A metal sculpture of a bird.
+18. A plastic replica of a seashell.
+19. A recording of ocean waves played on a loop.
+20. A synthetic fur rug.
+21. A glass paperweight containing a dried flower.
+22. A digital image of a starry night sky.
+23. A plastic bird feeder.
+24. A metal garden gnome.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

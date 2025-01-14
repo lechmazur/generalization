@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Pre-Columbian artifacts made from volcanic glass used in religious ceremonies
+
+Here are four examples intended to follow this theme:
+1. An obsidian blade used for ritual bloodletting in Aztec ceremonies
+2. A Mayan figurine carved from obsidian, representing a deity associated with agriculture and fertility
+3. An obsidian mirror used by an Olmec shaman for divination and communication with the spirit world
+4. A Teotihuacan mask inlaid with obsidian eyes, worn during funerary rites
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A clay pot used for cooking maize
+6. A gold pendant worn by a Mayan ruler
+7. A feather headdress used in Aztec dances
+8. A stone carving depicting a Chavin deity
+9. A turquoise mosaic adorning a Moche mask
+10. A bone flute played during Inca ceremonies
+11. A cotton textile woven with intricate patterns
+12. A ceramic vessel used for storing chicha
+13. A wooden mask representing a Northwest Coast spirit
+14. A copper ornament found in a Hopewell burial mound
+15. An obsidian arrowhead used for hunting
+16. An obsidian scraper used for hide working
+17. A volcanic rock used in construction
+18. A piece of jade carved into a pendant
+19. A shell ornament used in a burial ritual
+20. A quartz crystal used for healing
+21. A Nazca geoglyph depicting a hummingbird
+22. A painted mural depicting a Mayan myth
+23. A stone altar used for sacrifices
+24. A ceremonial mace made of wood and stone
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

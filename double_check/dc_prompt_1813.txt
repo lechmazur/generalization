@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Items handcrafted from recycled materials specifically for the purpose of providing shelter to stray animals.
+
+Here are four examples intended to follow this theme:
+1. A doghouse made from reclaimed wooden pallets
+2. A cat shelter constructed from old tires
+3. A birdhouse crafted from used plastic bottles
+4. A rabbit hutch built from discarded shipping crates
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A birdhouse made from new wood
+6. A dog bed sewn from recycled fabric
+7. A cat tree made from new materials
+8. A fish tank made from recycled glass
+9. A kennel built from new lumber
+10. A pet carrier made from recycled plastic
+11. A dog leash made from repurposed materials
+12. A cat toy made from recycled yarn
+13. A bird feeder crafted from new metal
+14. A rabbit run made from new wire mesh
+15. A dog collar made from recycled rubber
+16. A cat scratching post made from new sisal
+17. A fish pond liner made from recycled materials
+18. A bird perch made from new wood
+19. A pet bed made from recycled foam
+20. A dog toy made from repurposed fabric
+21. A cat litter box made from recycled plastic
+22. A bird cage made from new metal
+23. A rabbit feeder made from recycled materials
+24. A dog grooming brush made from recycled materials
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

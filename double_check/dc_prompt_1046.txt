@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena or human-made objects that exhibit a layered or stratified structure, where each layer has distinct properties or functions, and the overall form is dependent on the interaction of these layers.
+
+Here are four examples intended to follow this theme:
+1. an onion
+2. the Earth's atmosphere
+3. a multi-layered cake
+4. a semiconductor chip
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a tree trunk
+6. a river delta
+7. a honeycomb
+8. a spider web
+9. a coral reef
+10. a snowflake
+11. a sand dune
+12. a cloud formation
+13. a mountain range
+14. a glacier
+15. a sedimentary rock
+16. a beehive
+17. a bird's nest
+18. a waterfall
+19. a volcano
+20. a canyon
+21. a stalactite
+22. a stalagmite
+23. a geode
+24. a crystal
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

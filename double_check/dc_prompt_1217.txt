@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or entities that combine probabilistic reasoning with historical or cultural artifacts to model or represent complex systems or narratives.
+
+Here are four examples intended to follow this theme:
+1. A Bayesian network trained on archaeological findings and historical texts to infer social structures in ancient Mesopotamia.
+2. A Markov chain model using digitized museum artifacts and oral traditions to simulate the evolution of pottery styles in a specific region.
+3. A probabilistic graphical model incorporating linguistic analysis of historical documents and genetic data to reconstruct migration patterns of a diaspora community.
+4. A hidden Markov model analyzing stylistic features of ancient cave paintings and astronomical observations to infer ritualistic practices.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A statistical analysis of historical stock market data.
+6. A computer simulation of ancient battle formations.
+7. A 3D reconstruction of a ruined temple based on archaeological surveys.
+8. A phylogenetic tree of languages based on linguistic comparisons.
+9. A database of historical artifacts with detailed descriptions.
+10. A timeline of major historical events.
+11. A stylistic analysis of ancient literature.
+12. A geographic information system mapping archaeological sites.
+13. A study of the chemical composition of ancient pigments.
+14. A carbon dating analysis of ancient wood samples.
+15. A digital archive of historical photographs.
+16. A study of the erosion patterns on ancient monuments.
+17. A comparative study of different historical writing systems.
+18. A translation of an ancient text.
+19. A documentary film about an archaeological excavation.
+20. A museum exhibit of ancient artifacts.
+21. A historical novel based on real events.
+22. A study of the impact of climate change on ancient civilizations.
+23. A machine learning model predicting the spread of infectious diseases in the past.
+24. A social network analysis of historical figures.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

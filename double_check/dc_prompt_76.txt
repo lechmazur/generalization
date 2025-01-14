@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or objects that involve a process of removing an outer layer to reveal a functional or essential component underneath
+
+Here are four examples intended to follow this theme:
+1. Peeling a banana
+2. Shucking an oyster
+3. Removing the husk from an ear of corn
+4. Unwrapping a candy bar
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Opening a present
+6. Taking off a jacket
+7. Breaking an egg
+8. Cutting hair
+9. Sharpening a pencil
+10. Sanding wood
+11. Digging a hole
+12. Mining for gold
+13. Shelling peanuts
+14. Slicing bread
+15. Chopping vegetables
+16. Grating cheese
+17. Filtering water
+18. Cracking a nut
+19. Cleaning a fish
+20. Butchering meat
+21. Skinning an animal
+22. Excavating a fossil
+23. Unboxing a new phone
+24. Removing makeup
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

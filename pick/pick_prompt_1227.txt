@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The weaving of grass huts by Pacific Island communities for shelter and communal gatherings.
+The creation of Zen gardens with raked gravel and carefully placed rocks for meditation in Japanese culture.
+The construction of sweat lodges using branches and animal hides by Indigenous peoples for spiritual purification.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A digital meditation app.
+A bamboo flute for musical expression.
+A synthetic yoga mat used for personal practice.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A clay pot used for cooking traditional meals.
+2. A nylon tent for camping.
+3. The use of sand to create intricate mandalas in Tibetan Buddhist rituals. <<LEFTOVER>>
+4. A modern art installation using recycled materials.
+5. A concrete urban park designed for relaxation.
+6. A cotton hammock for outdoor lounging.
+7. A leather-bound journal for personal reflection.
+8. A paper origami crane as a symbol of peace.

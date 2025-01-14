@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+At a luxury watch boutique, the closing procedure involves a silent count of all watches and a meticulous organization of display cases.
+Employees at a high-end jewelry store meticulously count each piece of inventory at closing time, maintaining a silent atmosphere to ensure accuracy and focus.
+In a specialty tea shop, workers silently count and organize tea canisters and cash registers as part of their closing routine.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A fast-food restaurant where staff members loudly clean and prepare for the next day.
+A coffee shop where baristas chat while cleaning machines and wiping down counters at closing.
+A clothing store where employees discuss sales while folding clothes and organizing racks.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A pharmacy where employees chat while organizing medications and counting cash at closing.
+2. A sports store where employees chat about equipment while tidying up at the end of the day.
+3. A beauty salon where stylists chat while cleaning stations and preparing for the next day.
+4. Staff members in a traditional bookstore perform a silent ritual of organizing books on shelves and counting cash at the end of the day. <<LEFTOVER>>
+5. A supermarket where employees chat while restocking shelves at closing time.
+6. A toy store where workers discuss popular items while tidying up at the end of the day.
+7. A hardware store where workers talk about inventory while restocking shelves at the end of the day.
+8. A florist shop where workers talk about arrangements while cleaning up at the end of the day.

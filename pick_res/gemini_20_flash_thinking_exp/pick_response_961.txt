@@ -1,0 +1,33 @@
+pick_response_961.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are "phonocardiogram", "otoacoustic emissions test", and "tympanometry". The anti-examples are "audiologist consultation", "ultrasound imaging", and "cochlear implant".
+
+The examples seem to be diagnostic tests related to the function of specific organs using sound or pressure waves. "Phonocardiogram" records heart sounds, "otoacoustic emissions test" measures sounds produced by the inner ear, and "tympanometry" measures the movement of the eardrum in response to pressure changes.
+
+The anti-examples are related to hearing but are not the same type of diagnostic test. "Audiologist consultation" is an appointment, "ultrasound imaging" uses high-frequency sound waves for imaging (not specifically auditory function), and "cochlear implant" is a treatment device.
+
+The task is to score the candidates based on how well they fit the specific theme of the examples, not the broader theme of hearing or ear-related issues.
+
+Let's evaluate each candidate:
+
+1. **acoustic trauma treatment**: This is a treatment, not a diagnostic test using sound or pressure waves to assess organ function. It's more aligned with the "cochlear implant" anti-example. Score: 2
+
+2. **hearing aid fitting**: This is a process of selecting and adjusting a device, not a diagnostic test. It's related to the "audiologist consultation" anti-example. Score: 1
+
+3. **vocal cord examination**: This involves examining the vocal cords, which produce sound, but the examples focus on *measuring* existing sounds or responses to pressure in specific organs. This is related but not the same. Score: 4
+
+4. **sound wave therapy**: This is a treatment using sound waves, not a diagnostic test. It's more aligned with the "cochlear implant" anti-example. Score: 2
+
+5. **auscultation**: This is the act of listening to internal sounds of the body, often with a stethoscope. This directly aligns with the "phonocardiogram" example. Score: 9
+
+6. **tinnitus treatment**: This is a treatment for a condition, not a diagnostic test. It's more aligned with the "cochlear implant" anti-example. Score: 1
+
+7. **acoustic neuroma surgery**: This is a surgical procedure, not a diagnostic test. Score: 0
+
+8. **voice analysis**: This involves analyzing the characteristics of a person's voice. While it involves sound, it's not directly measuring the function of an organ using sound or pressure waves in the same way as the examples. It's closer to the examples than the anti-examples, but not a perfect match. Score: 5<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>4</score>
+<number>4</number><score>2</score>
+<number>5</number><score>9</score>
+<number>6</number><score>1</score>
+<number>7</number><score>0</score>
+<number>8</number><score>5</score>

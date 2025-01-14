@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations that required workers to develop new physical symptoms or conditions to master the technology
+
+Here are four examples intended to follow this theme:
+1. Typing on early typewriters leading to "glass arm" or repetitive strain injuries
+2. Operating early steam-powered machinery causing "boilermaker's deafness" due to noise exposure
+3. Using early pneumatic drills resulting in "vibration white finger" or hand-arm vibration syndrome
+4. Working with early telegraph systems causing "telegrapher's cramp" from repetitive hand movements
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Driving a car
+6. Using a smartphone
+7. Watching television
+8. Listening to the radio
+9. Flying an airplane
+10. Riding a bicycle
+11. Playing a piano
+12. Using a modern computer
+13. Operating a forklift
+14. Playing video games
+15. Using a microwave oven
+16. Driving a train
+17. Using a washing machine
+18. Riding a horse
+19. Using a chainsaw
+20. Playing a guitar
+21. Using a lawnmower
+22. Operating a crane
+23. Using a sewing machine
+24. Playing a trumpet
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

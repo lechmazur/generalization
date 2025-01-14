@@ -1,0 +1,28 @@
+pick_response_1573.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+The examples (Flash memory cells, Phase-change memory, Magnetic tape data storage) are all types of physical data storage media.
+
+The anti-examples (Cloud storage services, Online backups, Email servers) are all related to data storage but are services or systems, not the physical media itself.
+
+Therefore, the specific theme is **physical data storage media**.
+
+I need to evaluate each candidate based on whether it is a physical data storage medium.
+
+1. **USB flash drives:** Contain flash memory, a physical storage medium. High match.
+2. **Spreadsheets:** Software for organizing data, not physical storage. Low match.
+3. **Database management systems:** Software for managing databases, not physical storage. Low match.
+4. **Server racks:** Physical infrastructure to hold servers, not the storage medium itself. Low match.
+5. **Hard disk drive platters:** The physical component of a hard drive that stores data magnetically. High match.
+6. **Data centers:** Physical facilities housing servers and storage, not the storage medium itself. Low match.
+7. **External hard drives:** Contain hard disk drive platters, a physical storage medium. High match.
+8. **SD cards:** Contain flash memory, a physical storage medium. High match.
+
+Now I need to assign scores from 0 to 10, ensuring granularity and avoiding polarization.<number>1</number><score>9</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>2</score>
+<number>5</number><score>10</score>
+<number>6</number><score>2</score>
+<number>7</number><score>8</score>
+<number>8</number><score>9</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices or systems designed to be deliberately triggered in a specific sequence but which can never be fully tested end-to-end before actual use
+
+Here are four examples intended to follow this theme:
+1. A complex, multi-stage rocket designed to deliver a payload to orbit.
+2. A self-destruct system in a highly secure facility, intended to be activated only in case of a catastrophic breach.
+3. An emergency dam break system designed to prevent catastrophic flooding upstream, activated only if the dam's structural integrity is severely compromised.
+4. A planetary rover's landing sequence, involving a complex series of automated maneuvers from atmospheric entry to touchdown.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A new software update for a mobile phone.
+6. A prototype car undergoing crash testing.
+7. A newly developed recipe being tried for the first time.
+8. A student taking a final exam.
+9. A complex chemical reaction in a laboratory setting.
+10. A theatrical play performed on opening night.
+11. A newly constructed bridge opened to traffic.
+12. A newly designed airplane taking its first flight.
+13. A heart transplant surgery.
+14. A new drug undergoing clinical trials.
+15. A fire drill in a school.
+16. A military exercise simulating a combat scenario.
+17. A complex engineering project, such as a tunnel construction.
+18. A new product launch in a competitive market.
+19. A political campaign leading up to an election.
+20. A scientific experiment testing a new hypothesis.
+21. A piece of software with a complex bug that only appears under specific conditions.
+22. A disaster recovery plan being implemented after a natural disaster.
+23. A new manufacturing process being implemented in a factory.
+24. A complex piece of music being performed for the first time in front of a live audience.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

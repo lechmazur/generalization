@@ -1,0 +1,36 @@
+pick_response_1289.txt
+The user wants me to identify a specific theme from the provided examples and anti-examples.
+
+Examples suggest:
+- Temporary
+- Decorative
+- Created for a religious/spiritual purpose
+- Made from natural materials (flowers, rice flour, sand)
+- Ground-level or floor-based
+
+Anti-examples suggest what the theme is NOT:
+- Permanent
+- Carved/sculpted
+- Not necessarily for religious purposes (Halloween, Easter)
+- Not necessarily made from natural materials (wood, paint)
+- Not necessarily ground-level
+
+Therefore, the specific theme seems to be: **Temporary decorative art made from natural materials for a religious or spiritual ceremony, typically placed on the ground or floor.**
+
+Now I need to evaluate each candidate based on this specific theme, avoiding the broader themes suggested by the anti-examples.
+
+1. **a pottery vase decorated with intricate patterns**:  Not temporary, not necessarily for religious purposes, not ground-level. Score: 2
+2. **a mosaic made of tiles on a floor**:  On the floor, decorative, but not temporary and not necessarily for religious purposes, and not made of natural materials like the examples. Score: 4
+3. **a carved stone monument in a cemetery**:  Not temporary, not necessarily decorative in the same way, not made of natural materials like the examples. Score: 1
+4. **a sculpture carved from marble**: Not temporary, not necessarily for religious purposes, not made of natural materials like the examples, not ground-level. Score: 1
+5. **a henna tattoo applied to hands and feet for a wedding ceremony**: Temporary, decorative, for a ceremony (though not strictly religious in the same way), made from natural material. Not ground-level. Score: 7
+6. **a carved ivory figurine**: Not temporary, not necessarily for religious purposes, not ground-level. Score: 1
+7. **a woven tapestry displayed in a museum**: Not temporary in the same way, not necessarily for religious purposes, not ground-level. Score: 2
+8. **a stained glass window in a cathedral**: Decorative, in a religious setting, but not temporary and not made of natural materials like the examples, not ground-level. Score: 3<number>1</number><score>2</score>
+<number>2</number><score>4</score>
+<number>3</number><score>1</score>
+<number>4</number><score>1</score>
+<number>5</number><score>7</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>3</score>

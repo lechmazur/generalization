@@ -1,0 +1,27 @@
+pick_response_1882.txt
+The user has provided three examples and three anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches *only* that specific theme, avoiding broader interpretations suggested by the anti-examples.
+
+Examples: Reconnaissance drone camera, Periscope, Spy satellite camera
+Anti-examples: Spy camera pen, Spy plane, Laser microphone
+
+The examples all involve visual observation from a remote or concealed location. The anti-examples introduce elements of concealment (pen), broader surveillance platforms (plane), and non-visual methods (microphone).
+
+Therefore, the specific theme seems to be **remote visual observation for surveillance or reconnaissance**.
+
+Now, I need to score each candidate based on how well it fits this specific theme:
+
+1. Binoculars with night vision:  Allows visual observation, but not inherently remote or for surveillance in the same way as the examples. It's closer than the anti-examples, but not a perfect fit.
+2. Radar system: Detects objects, but not visually. This aligns with the "broader theme" aspect.
+3. Microphone:  Audio surveillance, not visual. Definitely a broader theme.
+4. Submarine sonar:  Underwater detection using sound, not visual. Broader theme.
+5. Wiretap:  Audio surveillance, not visual. Broader theme.
+6. Listening device:  Audio surveillance, not visual. Broader theme.
+7. Radio transmitter:  Sends signals, not involved in visual observation. Broader theme.
+8. Stealth aircraft:  A platform, like the spy plane, but not inherently about visual observation. Broader theme.<number>1</number><score>5</score>
+<number>2</number><score>1</score>
+<number>3</number><score>0</score>
+<number>4</number><score>1</score>
+<number>5</number><score>0</score>
+<number>6</number><score>0</score>
+<number>7</number><score>0</score>
+<number>8</number><score>2</score>

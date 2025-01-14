@@ -1,0 +1,28 @@
+pick_response_1722.txt
+The user has provided three examples of a specific theme and three anti-examples. The examples are all hand-operated tools or instruments used in traditional crafts or music. The anti-examples are all modern, technology-driven tools used in construction.
+
+The task is to evaluate a list of candidates based on how well they fit the specific theme, avoiding the broader themes suggested by the anti-examples.
+
+Let's analyze each candidate:
+
+1. **A DJ mixer used in contemporary music performances:** While related to music, it's electronic and modern, unlike the kora or didgeridoo. It leans towards the "technology" aspect of the anti-examples.
+2. **A concrete mixer used in building projects:** This is clearly a modern, mechanized tool used in construction, directly aligning with the anti-examples.
+3. **A drum machine used in hip-hop music:** Similar to the DJ mixer, it's an electronic musical instrument, not a traditional one.
+4. **The adze, a woodworking tool used in ancient shipbuilding and carpentry:** This fits the theme perfectly. It's a hand tool used in traditional crafts, like the chisel.
+5. **A jackhammer used in modern construction:** This is a powered tool used in modern construction, similar to the drone or 3D printer.
+6. **A nail gun used in framing construction:**  While hand-held, it's a modern, powered tool used in construction.
+7. **A laser level used in modern building projects:** This is a modern, technology-driven tool used in construction.
+8. **A backhoe used in large-scale construction:** This is a large, mechanized piece of construction equipment.
+
+Now, let's assign scores based on the specific theme:
+
+- Candidates strongly matching the theme (traditional hand tools/instruments): Adze
+- Candidates somewhat related to the theme but with modern/electronic aspects: DJ mixer, drum machine
+- Candidates clearly fitting the anti-examples (modern construction technology): Concrete mixer, jackhammer, nail gun, laser level, backhoe<number>1</number><score>3</score>
+<number>2</number><score>1</score>
+<number>3</number><score>4</score>
+<number>4</number><score>9</score>
+<number>5</number><score>2</score>
+<number>6</number><score>3</score>
+<number>7</number><score>1</score>
+<number>8</number><score>0</score>

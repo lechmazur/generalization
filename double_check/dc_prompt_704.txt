@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or structures that rely on deliberate imbalance to function effectively
+
+Here are four examples intended to follow this theme:
+1. The gyroscope in a smartphone
+2. A bicycle's gearing system
+3. The suspension system in a car
+4. A progressive tax system
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A balanced diet
+6. A symmetrical building design
+7. A fair coin toss
+8. A perfectly balanced seesaw
+9. A uniform distribution in statistics
+10. A balanced chemical equation
+11. A level playing field in sports
+12. A balanced budget
+13. A symmetrical flower
+14. A balanced ecosystem
+15. A fair judicial system
+16. A balanced load in a washing machine
+17. A symmetrical face
+18. A balanced investment portfolio
+19. A fair election process
+20. A balanced chemical reaction
+21. A symmetrical logo design
+22. A balanced tree in computer science
+23. A fair trade agreement
+24. A balanced sound system
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

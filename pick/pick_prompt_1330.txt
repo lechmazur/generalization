@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+An automated assembly line producing cars, where robotic arms perform specific tasks like welding or painting, and can be reprogrammed and swapped for different models or processes.
+A high-throughput screening system in drug discovery, where robotic systems automate the testing of thousands of compounds against biological targets, using interchangeable plates and reagents.
+A software development kit (SDK) providing pre-built code modules for common functionalities, allowing developers to integrate them into their applications and customize them as needed.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A set of LEGO bricks
+A computer network
+A supply chain
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A highway system
+2. A power grid
+3. A modular synthesizer, where individual components (oscillators, filters, sequencers) can be connected and reconfigured to create a wide range of sounds and musical patterns. <<LEFTOVER>>
+4. A conveyor belt
+5. A zipper
+6. A clockwork mechanism
+7. An electrical circuit
+8. A neural network

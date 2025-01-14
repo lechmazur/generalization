@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A playground sculpture with twisting, interlocking surfaces that children can climb on
+An interactive art installation in a museum where visitors navigate through a maze of curved, non-linear walls
+A public bench designed with a Möbius strip shape, allowing people to sit and interact with its continuous loop
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A public art installation with Euclidean shapes
+A bus stop shelter with a simple, box-like design
+A public transportation hub with conventional, Euclidean-shaped seating
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A city fountain with straight, geometric shapes
+2. A public swimming pool with straight, rectangular lanes
+3. A community gathering space featuring a central fountain with spiraling, non-Euclidean water features that people can touch and play with <<LEFTOVER>>
+4. A town square with a traditional, Euclidean-shaped gazebo
+5. A traditional park bench
+6. A community gathering space with conventional, rectangular picnic tables
+7. A city park with traditional, Euclidean-shaped playground equipment
+8. A museum exhibit featuring flat, two-dimensional art

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Classical compositions inspired by or named after natural hallucinogenic substances
+
+Here are four examples intended to follow this theme:
+1. Fanfare for the Common Man
+2. Music for the Royal Fireworks
+3. The Four Seasons
+4. William Tell Overture
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Requiem in D minor, K. 626
+6. Brandenburg Concertos
+7. The Planets
+8. The Rite of Spring
+9. Clair de Lune
+10. Boléro
+11. Symphony No. 5 in C minor
+12. Swan Lake
+13. The Nutcracker
+14. Peer Gynt Suite No. 1
+15. Pictures at an Exhibition
+16. Canon in D major
+17. Eine kleine Nachtmusik
+18. Water Music
+19. Messiah
+20. Toccata and Fugue in D minor
+21. Für Elise
+22. Moonlight Sonata
+23. The Barber of Seville
+24. Carmen
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

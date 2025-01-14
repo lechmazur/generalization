@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Prehistoric artifacts that were used to create or enhance sounds for ritual purposes
+
+Here are four examples intended to follow this theme:
+1. Divje Babe flute
+2. Ras Shamra clay tablets with musical notation
+3. Iberian Paleolithic bone whistles
+4. Mezin mammoth bone trumpet
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Cave paintings depicting animals
+6. Stone hand axes
+7. Neolithic pottery shards
+8. Venus figurines
+9. Burial goods like jewelry
+10. Flint arrowheads
+11. Bone needles
+12. Ochre pigments
+13. Charcoal drawings
+14. Fossil remains of prehistoric animals
+15. Ancient Roman coins
+16. Medieval swords
+17. Renaissance paintings
+18. Modern musical instruments
+19. Bird bone flutes from non-ritual contexts
+20. Clay rattles used as children's toys
+21. Stone tools for processing food
+22. Wooden spears for hunting
+23. Shell beads for personal adornment
+24. Clay pots for storage
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

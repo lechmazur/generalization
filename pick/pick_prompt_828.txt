@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+In the quiet solitude of a snowy forest, a writer on a retreat gains unexpected clarity about the plot of their novel, inspired by the crisp, cold air.
+While sitting alone in a chilly, dimly lit cabin, a person meditating achieves a sudden insight into resolving a long-standing conflict with a family member.
+While ice fishing alone on a frozen lake, an individual experiences a profound realization about their life's purpose, triggered by the serene and cold surroundings.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+While jogging in a cold park, someone ponders the beauty of nature but doesn't gain any new insights.
+While ice skating with a group, someone enjoys the cold air but doesn't experience any personal revelations.
+During a cold morning run, a person listens to a podcast about self-improvement but doesn't gain new insights.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. During a cold, rainy day, a person writes in their journal about past experiences without gaining new clarity.
+2. During a group ski trip, a person reflects on their career choices amidst the cold mountain air.
+3. During a cold evening walk with friends, someone discusses life goals but doesn't experience a personal epiphany.
+4. During a solo winter hike in the mountains, a person suddenly understands the true meaning of a personal loss they had been struggling with for years. <<LEFTOVER>>
+5. During a cold, windy day at the beach, someone reflects on their childhood memories.
+6. While swimming in a cold pool, a person thinks about their future goals but doesn't reach any new conclusions.
+7. While walking in a cold, busy city street, someone thinks about their daily routine but doesn't gain new insights.
+8. In a bustling city during winter, someone feels a sense of peace but doesn't gain any profound insights.

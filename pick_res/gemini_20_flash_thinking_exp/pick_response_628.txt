@@ -1,0 +1,33 @@
+pick_response_628.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches that specific theme, avoiding broader interpretations.
+
+The examples show:
+- A specific historical figure.
+- Holding a specific book they authored or that is strongly associated with them.
+- The book title is mentioned.
+- The medium is a statuette/carving/figurine.
+
+The anti-examples show:
+- A historical figure holding a book, but the title is missing.
+- A generic figure with a generic scroll.
+- A historical figure with a tool of their trade, not a book.
+
+Therefore, the specific theme is a statuette/figurine/carving of a specific historical figure holding a specific book authored by them or strongly associated with them, with the title mentioned.
+
+Now I need to evaluate each candidate based on this specific theme:
+
+1. **Frederick Douglass holding his autobiography:** Matches all criteria.
+2. **Rosa Parks sitting on a bus:** Does not involve a book.
+3. **Photograph of a historical manuscript:** Does not involve a figure.
+4. **Nelson Mandela with his fist raised:** Does not involve a book.
+5. **Painting of Queen Elizabeth I:** Does not involve a book.
+6. **Bust of Socrates:** Does not involve a book.
+7. **Painting of a library:** Does not involve a figure holding a book.
+8. **Mozart playing the piano:** Involves a tool of his trade, not a book.<number>1</number><score>10</score>
+<number>2</number><score>1</score>
+<number>3</number><score>2</score>
+<number>4</number><score>1</score>
+<number>5</number><score>1</score>
+<number>6</number><score>1</score>
+<number>7</number><score>0</score>
+<number>8</number><score>2</score>

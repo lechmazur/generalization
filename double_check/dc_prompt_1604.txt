@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Experimental musicians who have created their own custom digital instruments or interfaces specifically to perform their compositions live
+
+Here are four examples intended to follow this theme:
+1. Imogen Heap using her Mi.Mu gloves
+2. Reeps One developing and using his bespoke vocal percussion software and hardware
+3. Jordan Rudess playing the custom-designed GeoShred app on an iPad
+4. Suzanne Ciani performing with her Buchla 200e modular synthesizer system
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Kraftwerk using sequencers in the 1970s
+6. Brian Eno creating generative music with software
+7. Aphex Twin using custom Max/MSP patches
+8. Autechre performing with custom-programmed Elektron devices
+9. Deadmau5 using his "mau5head" helmet
+10. Daft Punk's stage show with elaborate lighting and visuals
+11. Björk's use of the Reactable instrument
+12. Herbie Hancock playing the keytar
+13. Jean-Michel Jarre's laser harp
+14. Morton Subotnick composing electronic music with the Buchla synthesizer
+15. Wendy Carlos using the Moog synthesizer for film scores
+16. Laurie Spiegel creating algorithmic music
+17. Holly Herndon using AI in her music creation
+18. Grimes using Ableton Live in her performances
+19. Flying Lotus using visuals and 3D mapping in his shows
+20. Squarepusher playing bass guitar with complex effects
+21. Radiohead using the ondes Martenot
+22. Nine Inch Nails using custom stage props and instruments
+23. Matmos using unconventional objects as instruments
+24. Steve Reich using phasing techniques in his compositions
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

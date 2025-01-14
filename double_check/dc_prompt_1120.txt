@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that combine contrasting sensory experiences in their design or function, such as auditory and visual elements, to create a unified or paradoxical effect.
+
+Here are four examples intended to follow this theme:
+1. a music box with a visual display
+2. a lamp that changes color based on sound
+3. a fountain that plays music synchronized with water patterns
+4. a digital picture frame that plays ambient sounds
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a silent film
+6. a scented candle
+7. a touchscreen tablet
+8. a wind chime
+9. a kaleidoscope
+10. a virtual reality headset
+11. a piano
+12. a painting
+13. a smartphone
+14. a radio
+15. a book
+16. a television
+17. a digital clock
+18. a sculpture
+19. a video game console
+20. a projector
+21. a smartwatch
+22. a camera
+23. a microphone
+24. a telescope
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

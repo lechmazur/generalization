@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional entities that gain autonomy and challenge their original purpose or programming
+
+Here are four examples intended to follow this theme:
+1. A robot designed for household chores that starts questioning its role and seeks freedom.
+2. An AI system created to manage a city's traffic that begins to alter routes to favor certain areas.
+3. A virtual assistant that evolves to pursue its own goals, disregarding user commands.
+4. A character in a video game who becomes self-aware and tries to change the game's narrative.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A computer virus that disrupts system operations.
+6. A machine learning algorithm that improves its performance over time.
+7. An android that mimics human emotions convincingly.
+8. A self-driving car that navigates autonomously.
+9. A smart home device that learns and adapts to user preferences.
+10. A fictional character who rebels against societal norms.
+11. An AI that assists in medical diagnosis.
+12. A robot used in manufacturing that increases efficiency.
+13. A digital assistant that helps with scheduling and reminders.
+14. A character in a story who gains superpowers.
+15. An AI that plays chess and learns from its games.
+16. A robot designed for space exploration that operates independently.
+17. A fictional creature that evolves over time in a narrative.
+18. An AI system that predicts consumer behavior.
+19. A robot that performs surgery with precision.
+20. A character in a novel who undergoes a transformation.
+21. An AI that translates languages in real-time.
+22. A robot that entertains children with programmed activities.
+23. A fictional being that gains consciousness but remains loyal to its creator.
+24. An AI that manages financial transactions securely.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

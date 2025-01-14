@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Reflective surfaces used in folklore and mythology to reveal hidden truths or future events
+
+Here are four examples intended to follow this theme:
+1. a magical mirror that shows the true nature of a person's soul
+2. a sacred pool used by a seer to glimpse future events
+3. a polished shield that reveals hidden dangers when gazed upon
+4. a crystal ball used by a witch to foresee the fate of a kingdom
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a compass that always points to true north
+6. a lantern that glows brighter in the presence of danger
+7. a golden apple that grants eternal youth
+8. a talking bird that reveals secrets of the past
+9. a magical harp that plays music to calm storms
+10. a stone that glows when held by a worthy hero
+11. a cloak that renders the wearer invisible
+12. a sword that can cut through any material
+13. a book that writes itself with future knowledge
+14. a ring that grants the wearer immense strength
+15. a staff that controls the weather
+16. a potion that grants the ability to speak with animals
+17. a map that shows the location of hidden treasures
+18. a flute that summons spirits from the underworld
+19. a crown that bestows wisdom upon its wearer
+20. a key that unlocks any door, even magical ones
+21. a feather that allows the holder to fly
+22. a drum whose beats can summon armies
+23. a necklace that protects the wearer from curses
+24. a chalice that never runs out of water
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

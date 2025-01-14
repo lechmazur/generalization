@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Experiences or products marketed as offering a specialized, curated selection within a niche interest, but which ultimately rely on manufactured scarcity and performative connoisseurship to create an illusion of exclusivity.
+
+Here are four examples intended to follow this theme:
+1. A monthly "rare spirits" subscription box that sends mass-produced liquors with custom labels
+2. A "master coffee taster" course that teaches basic flavor identification using standard commercial beans
+3. A "limited edition" sneaker release that artificially restricts inventory of regular materials and designs
+4. A "craft chocolate appreciation" workshop using rebranded bulk chocolate from major manufacturers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A private wine cellar collection
+6. An invitation-only supper club
+7. A small-batch artisanal cheese shop
+8. A members-only cigar lounge
+9. A luxury watch boutique
+10. A first-edition book collector's society
+11. A vintage vinyl record store
+12. A high-end tea ceremony experience
+13. A rare whiskey tasting event
+14. A designer fashion sample sale
+15. An exclusive golf club membership
+16. A premium sushi omakase restaurant
+17. A limited-run art print series
+18. A boutique perfume atelier
+19. A private museum tour
+20. A specialty coffee roaster
+21. A custom suit tailor shop
+22. A rare coin dealer
+23. A luxury spa retreat
+24. A gourmet food import store
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

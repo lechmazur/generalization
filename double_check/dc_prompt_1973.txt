@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Elaborate annual cultural festivals involving traditional attire and dance, held to celebrate harvest or coming of age in specific ethnic groups.
+
+Here are four examples intended to follow this theme:
+1. The Gerewol festival of the Wodaabe people in Niger, where men adorn elaborate makeup and costumes to perform dances and songs to attract potential mates.
+2. The Sinulog Festival in Cebu, Philippines, a vibrant celebration honoring the Santo Niño with street parades featuring participants in colorful tribal costumes performing traditional dances.
+3. The Umhlanga, or Reed Dance, in Eswatini, where young women wear traditional attire and dance with reeds before the Queen Mother.
+4. The Naadam Festival in Mongolia, featuring traditional wrestling, archery, and horse racing alongside vibrant cultural displays and throat singing performances.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weekly farmers market selling local produce.
+6. A birthday party with a specific cultural theme.
+7. A national holiday celebrating independence.
+8. A religious ceremony involving specific rituals and attire.
+9. A daily prayer ritual in a specific religious tradition.
+10. A fashion show showcasing modern interpretations of traditional clothing.
+11. A concert of traditional folk music.
+12. A theatrical performance of a classic play.
+13. A sporting event with traditional elements, like Sumo wrestling.
+14. A wedding ceremony with traditional customs.
+15. A graduation ceremony with academic regalia.
+16. A community potluck dinner.
+17. A historical reenactment of a significant event.
+18. A street parade celebrating a local sports team's victory.
+19. A carnival with rides and games.
+20. A film festival showcasing international cinema.
+21. An art exhibition featuring traditional crafts.
+22. A conference on cultural preservation.
+23. A family reunion with traditional dishes.
+24. A memorial service honoring deceased community members.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

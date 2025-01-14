@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Moments when a single mechanical click or sound marks the transition from anticipation to action
+
+Here are four examples intended to follow this theme:
+1. the click of a camera shutter capturing a decisive moment
+2. the sound of a gun's safety being switched off before firing
+3. the click of a pen before writing a signature
+4. the snap of a seatbelt buckle before driving
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. the hum of a car engine starting
+6. the beep of a microwave finishing
+7. the ringing of an alarm clock
+8. the sound of a door creaking open
+9. the clinking of glasses during a toast
+10. the rustling of leaves in the wind
+11. the ticking of a clock
+12. the sound of a key turning in a lock
+13. the whirring of a blender
+14. the crackling of a campfire
+15. the sound of a phone vibrating
+16. the chirping of birds at dawn
+17. the sound of footsteps on gravel
+18. the clatter of dishes in a sink
+19. the sound of a train whistle
+20. the buzz of a fluorescent light
+21. the sound of a zipper being pulled
+22. the thud of a book closing
+23. the sound of a faucet dripping
+24. the sound of a balloon popping
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

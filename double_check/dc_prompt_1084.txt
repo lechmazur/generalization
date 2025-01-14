@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or structures that rely on wave propagation to detect, transmit, or mitigate phenomena, where the waves are either mechanical or electromagnetic in nature.
+
+Here are four examples intended to follow this theme:
+1. A bat using echolocation to navigate
+2. An ultrasound machine used for medical imaging
+3. A radio telescope receiving signals from distant galaxies
+4. A noise-cancelling headphone using destructive interference
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A dog barking
+6. A tuning fork
+7. A plucked guitar string
+8. A ripple in a pond
+9. Heat radiating from a fire
+10. Light reflecting off a mirror
+11. A prism separating light
+12. A magnifying glass focusing light
+13. A camera lens
+14. Fiber optic cable
+15. A lightning strike
+16. A transformer
+17. An electric motor
+18. A pendulum swinging
+19. A slinky spring oscillating
+20. A seismograph measuring ground motion
+21. A thermometer measuring temperature
+22. A barometer measuring air pressure
+23. A wind turbine generating electricity
+24. A water wheel
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

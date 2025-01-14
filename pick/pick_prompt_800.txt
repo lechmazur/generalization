@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Virginia Woolf's "Mrs. Dalloway," where the protagonist's thoughts flow freely, reflecting on past and present moments throughout a single day.
+Marcel Proust's "In Search of Lost Time," particularly in the section "Swann's Way," where the narrator's stream of consciousness triggers memories and reflections on time.
+James Joyce's "Ulysses," which uses stream of consciousness to delve into the characters' minds, exploring their perceptions of time and memory over the course of a day.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A science fiction novel that explores time dilation without using stream of consciousness.
+A film that uses flashbacks to show a character's past experiences.
+A novel that uses a linear timeline to explore the life of a character from birth to death.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A dystopian novel that examines the control of time by a totalitarian regime, using a linear narrative.
+2. A psychological thriller that uses a non-linear timeline to build suspense, but does not use stream of consciousness.
+3. William Faulkner's "The Sound and the Fury," where the use of stream of consciousness in different sections reveals the characters' fragmented sense of time and memory. <<LEFTOVER>>
+4. A biography that details the life of a historical figure using a chronological approach.
+5. A fantasy novel that uses a magical device to manipulate time, narrated in third person.
+6. A historical fiction book that uses a straightforward narrative to depict events across different time periods.
+7. A memoir that chronicles the author's life events in chronological order.
+8. A mystery novel that uses a detective's investigation to uncover past events, narrated in the third person.

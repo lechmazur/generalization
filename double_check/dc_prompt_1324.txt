@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or structures that rely on hidden or concealed mechanisms to function effectively, where the primary mechanism is not immediately visible or apparent to an observer.
+
+Here are four examples intended to follow this theme:
+1. A magician's trick that uses a hidden compartment in a table to make objects disappear.
+2. A vending machine that uses an internal mechanism to dispense products, not visible to the user.
+3. A safe with a combination lock that uses a hidden mechanism to secure its contents.
+4. An automatic door that uses sensors and motors concealed within its frame to operate.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A transparent glass elevator that shows its internal workings.
+6. A bicycle with visible gears and chains.
+7. A traditional clock with exposed mechanical parts.
+8. A car engine that is visible under the hood.
+9. A public water fountain with visible pipes and valves.
+10. A computer with a clear case showing its internal components.
+11. A mechanical toy where the winding mechanism is visible.
+12. A bridge with visible support structures.
+13. A musical instrument like a guitar where the strings and mechanics are visible.
+14. A traditional loom where the weaving process is visible.
+15. A steam engine with visible pistons and cylinders.
+16. A wind turbine where the blades and generator are visible.
+17. A solar panel where the photovoltaic cells are visible.
+18. A traditional camera with visible lens and shutter.
+19. A mechanical watch with a visible balance wheel.
+20. A crane with visible cables and pulleys.
+21. A traditional printing press where the ink and paper movement are visible.
+22. A manual typewriter where the keys and hammers are visible.
+23. A traditional sewing machine where the needle and bobbin are visible.
+24. A mechanical scale where the weights and balance are visible.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

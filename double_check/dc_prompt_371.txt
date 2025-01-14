@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Depictions of volcanic activity in charcoal or graphite drawings created by artists born before 1900.
+
+Here are four examples intended to follow this theme:
+1. A charcoal sketch of Mount Vesuvius erupting, created by an Italian artist in 1880.
+2. A graphite drawing of a volcanic landscape with lava flows, made by a French artist in 1875.
+3. A detailed charcoal rendering of a volcanic crater emitting smoke, produced by a German artist in 1890.
+4. A graphite study of a volcanic eruption at night, drawn by a British artist in 1865.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a watercolor painting of a serene mountain landscape
+6. an oil painting of a volcanic eruption by a modern artist
+7. a photograph of an active volcano
+8. a digital illustration of a volcanic island
+9. a sculpture of a volcano made from clay
+10. a pen-and-ink drawing of a forest fire
+11. a pastel drawing of a sunset over a mountain
+12. a charcoal sketch of a cityscape
+13. a graphite drawing of a river flowing through a valley
+14. a painting of a volcanic eruption by an artist born in 1905
+15. a charcoal drawing of a stormy sea
+16. a graphite sketch of a desert landscape
+17. a painting of a volcanic eruption in acrylics
+18. a charcoal drawing of a medieval castle
+19. a graphite study of a rocky coastline
+20. a painting of a volcanic eruption in gouache
+21. a charcoal drawing of a forest with no volcanic elements
+22. a graphite sketch of a mountain range without volcanic activity
+23. a painting of a volcanic eruption in watercolors
+24. a charcoal drawing of a city skyline with no volcanic features
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

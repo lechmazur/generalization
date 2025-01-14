@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that symbolize transition or change through physical deterioration or disassembly
+
+Here are four examples intended to follow this theme:
+1. A crumbling ancient statue
+2. A decaying log slowly returning to the earth
+3. A disassembled grandfather clock, its gears and springs laid out on a table
+4. A worn-out pair of shoes with holes in the soles and frayed laces
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A butterfly emerging from a chrysalis
+6. A seed growing into a plant
+7. A tadpole transforming into a frog
+8. A caterpillar spinning a cocoon
+9. A snake shedding its skin
+10. A river flowing to the sea
+11. The changing seasons
+12. A sunrise
+13. A sunset
+14. The phases of the moon
+15. A building under construction
+16. A freshly baked loaf of bread
+17. A blooming flower
+18. A clean, new car
+19. A polished gemstone
+20. A stack of neatly folded laundry
+21. A full bookshelf
+22. A burning candle
+23. An hourglass
+24. A melting ice cube
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

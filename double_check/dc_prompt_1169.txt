@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): natural systems that exhibit self-sustaining cycles despite extreme environmental constraints
+
+Here are four examples intended to follow this theme:
+1. a hydrothermal vent ecosystem in the deep ocean
+2. a desert oasis supporting diverse flora and fauna
+3. a lichen community thriving in Arctic tundra
+4. a mangrove forest maintaining nutrient cycles in saline coastal waters
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a coral reef
+6. a rainforest canopy
+7. a freshwater lake
+8. a savanna grassland
+9. a tidal pool
+10. a peat bog
+11. a salt marsh
+12. a deciduous forest
+13. a prairie ecosystem
+14. a kelp forest
+15. a cloud forest
+16. a wetland
+17. a taiga biome
+18. a river delta
+19. a montane ecosystem
+20. a steppe
+21. a chaparral
+22. a tundra
+23. a desert
+24. a polar ice cap
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures incorporating a central dome surrounded by exactly four smaller, equidistant domes.
+
+Here are four examples intended to follow this theme:
+1. The Selimiye Mosque in Edirne, Turkey
+2. The Mausoleum of Khoja Ahmed Yasawi in Turkestan, Kazakhstan
+3. The Sheikh Zayed Grand Mosque in Abu Dhabi, UAE
+4. The Sultan Ahmed Mosque (Blue Mosque) in Istanbul, Turkey
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Hagia Sophia in Istanbul, Turkey
+6. The Taj Mahal in Agra, India
+7. The United States Capitol in Washington, D.C.
+8. The Pantheon in Rome, Italy
+9. The Florence Cathedral in Florence, Italy
+10. The St. Basil's Cathedral in Moscow, Russia
+11. The Dome of the Rock in Jerusalem
+12. The Reichstag Building in Berlin, Germany
+13. The Louvre Pyramid in Paris, France
+14. The Sydney Opera House in Sydney, Australia
+15. The Sagrada Familia in Barcelona, Spain
+16. The Basilica of the National Shrine of the Immaculate Conception in Washington, D.C.
+17. The St. Peter's Basilica in Vatican City
+18. The Great Mosque of Cordoba in Cordoba, Spain
+19. The Baha'i House of Worship in New Delhi, India
+20. The Church of the Holy Sepulchre in Jerusalem
+21. The Temple of Heaven in Beijing, China
+22. The Basilica of Our Lady of Guadalupe in Mexico City, Mexico
+23. The Cathedral of Brasília in Brasília, Brazil
+24. The Lotus Temple in New Delhi, India
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

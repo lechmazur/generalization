@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artificial or natural systems that maintain stability by releasing excess pressure through a designated overflow pathway
+
+Here are four examples intended to follow this theme:
+1. A pressure cooker with a release valve
+2. A river floodplain acting as a buffer during floods
+3. An overflow pipe in a water tank preventing overfilling
+4. A volcano releasing pressure through eruptions
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tea kettle whistling
+6. A balloon popping
+7. A dam controlling water flow
+8. A geyser erupting
+9. A tire with a slow leak
+10. A safety valve on a gas cylinder
+11. A capacitor discharging
+12. A lightning strike
+13. A fuse blowing
+14. A circuit breaker tripping
+15. Tears relieving emotional stress
+16. A person screaming to release anger
+17. A garden hose spraying water
+18. A sprinkler system irrigating a lawn
+19. A water fountain bubbling
+20. A dripping faucet
+21. A sewer system managing wastewater
+22. A sump pump removing excess water
+23. A fire extinguisher suppressing flames
+24. A car's radiator cooling the engine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

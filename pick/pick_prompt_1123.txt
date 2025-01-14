@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The ending of Albert Camus' "The Stranger," where Meursault's acceptance of his fate leaves the reader questioning whether his actions were predetermined or a result of his own free will.
+The ambiguous ending of Jean-Paul Sartre's play "No Exit," where the characters' entrapment and interactions suggest a tension between their predetermined fates and their choices.
+The conclusion of Fyodor Dostoevsky's "Notes from Underground," where the narrator's final reflections on his actions and their inevitability blur the lines between determinism and free will.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+The deterministic view of human behavior in B.F. Skinner's behaviorism.
+The deterministic nature of the universe in Isaac Newton's laws of physics.
+The deterministic view of human behavior in the context of social conditioning in Aldous Huxley's "Brave New World."
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. The deterministic view of human behavior in Sigmund Freud's psychoanalytic theory.
+2. The unresolved conclusion of Philip K. Dick's "Ubik," where the shifting realities and characters' actions leave the reader pondering the balance between destiny and personal agency. <<LEFTOVER>>
+3. The concept of fate in Norse mythology, where the Norns dictate the destinies of gods and humans.
+4. The concept of fate in Greek mythology, where gods often dictate human destinies.
+5. The concept of predestination in the theology of St. Augustine.
+6. The theme of predestination in John Calvin's theological works.
+7. The deterministic world of George Orwell's "1984," where free will is systematically suppressed.
+8. The exploration of fate versus free will in Sophocles' "Oedipus Rex," with a clear tragic resolution.

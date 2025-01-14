@@ -1,0 +1,29 @@
+pick_response_992.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are all large, long-lasting atmospheric vortices on other planets. The anti-examples are all terrestrial tropical cyclones. The task is to score a list of candidates based on how well they match the specific theme, avoiding the broader theme suggested by the anti-examples.
+
+The specific theme seems to be: **Large, long-lasting atmospheric vortex on a planet other than Earth.**
+
+Let's evaluate each candidate:
+
+1. **Hadley cell:** This is a large-scale atmospheric circulation pattern, not a localized vortex. It's related to weather patterns but not the specific theme. Score: 1
+
+2. **fire whirl:** This is a vortex of fire, typically small and short-lived, occurring on Earth. It's a vortex, but not planetary or long-lasting in the same way. Score: 2
+
+3. **waterspout:** This is a vortex over water, connected to a cumulus cloud. It's terrestrial and generally smaller and shorter-lived than the examples. Score: 3
+
+4. **dust devil:** This is a small, short-lived vortex of dust on land. Terrestrial and not long-lasting. Score: 2
+
+5. **Saturn's North Polar Hexagon:** This is a persistent hexagonal cloud pattern around Saturn's north pole, containing a polar vortex at its center. It's on another planet and long-lasting. This is a strong match. Score: 9
+
+6. **tornado:** This is a violent, short-lived vortex on Earth. It's a vortex, but terrestrial and not long-lasting in the same way. Score: 1
+
+7. **snow devil:** Similar to a dust devil, but with snow. Terrestrial and not long-lasting. Score: 2
+
+8. **steam devil:** A vortex of steam, typically small and short-lived, occurring on Earth. It's a vortex, but not planetary or long-lasting in the same way. Score: 2<number>1</number><score>1</score>
+<number>2</number><score>2</score>
+<number>3</number><score>3</score>
+<number>4</number><score>2</score>
+<number>5</number><score>9</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>2</score>

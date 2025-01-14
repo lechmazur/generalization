@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Women who were pioneers in computer programming languages and have received a major award for their contributions to computer science.
+
+Here are four examples intended to follow this theme:
+1. Frances Allen
+2. Barbara Liskov
+3. Jean Sammet
+4. Grace Hopper
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ada Lovelace
+6. Margaret Hamilton
+7. Karen Spärck Jones
+8. Donald Knuth
+9. Betty Holberton
+10. Adele Goldberg
+11. Alan Turing
+12. John McCarthy
+13. Marvin Minsky
+14. Radia Perlman
+15. Anita Borg
+16. Sister Mary Kenneth Keller
+17. Stephanie Shirley
+18. Carol Shaw
+19. Evelyn Boyd Granville
+20. Lynn Conway
+21. Fran Allen
+22. Sophie Wilson
+23. Mary Allen Wilkes
+24. Kathleen Booth
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

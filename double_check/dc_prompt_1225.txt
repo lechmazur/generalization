@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or entities that serve as containers for preserving or protecting something culturally, historically, or symbolically significant, but are themselves often overlooked or undervalued.
+
+Here are four examples intended to follow this theme:
+1. a time capsule buried in a schoolyard
+2. a museum storage crate holding ancient artifacts
+3. a family heirloom jewelry box passed down through generations
+4. a forgotten attic trunk containing wartime letters
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a library bookshelf
+6. a treasure chest
+7. a refrigerator
+8. a bank vault
+9. a shipping container
+10. a backpack
+11. a photo album
+12. a safe deposit box
+13. a display case
+14. a toolbox
+15. a cookie jar
+16. a filing cabinet
+17. a jewelry store
+18. a museum exhibit
+19. a storage unit
+20. a lunchbox
+21. a trophy case
+22. a glove compartment
+23. a wine cellar
+24. a closet
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

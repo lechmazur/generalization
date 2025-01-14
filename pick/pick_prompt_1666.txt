@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+In a futuristic city, a squad of androids has to identify and stop a serial killer before the next predicted victim is taken, or the city's AI will initiate a lockdown, trapping everyone inside.
+A team of time-traveling detectives must solve the murder of a key historical figure within the next 24 hours, or the timeline will collapse, erasing their existence.
+A group of psychic children must solve the disappearance of their mentor within the span of a solar eclipse, or a dormant evil will awaken and destroy their world.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A team of scientists must prevent an asteroid from colliding with Earth before impact.
+A group of survivors must find a cure for a deadly virus before it wipes out humanity.
+A team of researchers must find a way to stop a spreading disease before it becomes a pandemic.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A group of hackers must stop a cyberattack before it cripples the national infrastructure.
+2. In a mystical realm, a group of enchanted beings must unravel the mystery of a stolen artifact within a lunar cycle, or the realm will be plunged into eternal darkness. <<LEFTOVER>>
+3. A group of friends must find a lost treasure before someone else claims it.
+4. A group of adventurers must find a legendary artifact before it's lost forever.
+5. A group of agents must stop a terrorist attack before it happens.
+6. A group of explorers must reach the summit of a mountain before a storm hits.
+7. A team of archaeologists must uncover an ancient secret before a natural disaster destroys the site.
+8. A group of survivors must find shelter before a nuclear winter sets in.

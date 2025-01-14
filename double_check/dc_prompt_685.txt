@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional cultural practices that have been adapted into modern automated systems for efficiency
+
+Here are four examples intended to follow this theme:
+1. Automated tea ceremonies using robotic arms to perform traditional movements
+2. Digital platforms for arranging traditional matchmaking services
+3. AI-powered systems for creating traditional calligraphy art
+4. Automated looms that weave traditional patterns into modern textiles
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Modern software for managing traditional farming techniques
+6. Apps that teach traditional dance forms
+7. Virtual reality experiences of historical cultural events
+8. Online courses on traditional cooking methods
+9. Digital archives of traditional music
+10. Augmented reality for exploring ancient ruins
+11. Smartphones with apps for traditional language learning
+12. Robots used in traditional manufacturing processes
+13. Automated systems for tracking traditional festival dates
+14. Software for simulating traditional architectural designs
+15. AI tools for analyzing traditional literature
+16. Digital tools for preserving traditional oral histories
+17. Automated systems for managing traditional agricultural cycles
+18. Apps that simulate traditional board games
+19. Robotic systems for traditional pottery making
+20. AI for predicting traditional weather patterns
+21. Virtual platforms for traditional storytelling
+22. Automated systems for traditional financial transactions
+23. Digital tools for traditional navigation methods
+24. Software for managing traditional community events
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

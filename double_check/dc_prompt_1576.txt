@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Naturally occurring periodic pauses or gaps that occur between regular cycles in biological systems
+
+Here are four examples intended to follow this theme:
+1. The interval between heartbeats in a resting human
+2. The period of dormancy between growth cycles in deciduous trees
+3. The time between successive molts in the life cycle of an insect
+4. The pause between breaths in a sleeping mammal
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The time between high tides
+6. The interval between planetary alignments
+7. The period between economic recessions
+8. The gap between Olympic Games
+9. The time between software updates
+10. The interval between train arrivals at a station
+11. The period between major historical events
+12. The gap between seasons of a television series
+13. The time between eruptions of a geyser
+14. The interval between flights at an airport
+15. The period between full moons
+16. The gap between annual company meetings
+17. The time between solar eclipses
+18. The interval between bus schedules
+19. The period between national elections
+20. The gap between academic semesters
+21. The time between major sports tournaments
+22. The interval between book releases by an author
+23. The period between music album releases by a band
+24. The gap between technology product launches
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

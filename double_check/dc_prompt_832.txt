@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technologies that facilitate real-time decision-making through data analysis and user interaction
+
+Here are four examples intended to follow this theme:
+1. A stock trading platform that analyzes market data and executes trades based on pre-set parameters and real-time user adjustments.
+2. A self-driving car system that processes sensor data to make instantaneous navigation decisions, allowing for manual overrides by the driver.
+3. A smart traffic management system that adjusts traffic light timings dynamically based on real-time traffic flow and pedestrian movement, with options for manual intervention by traffic operators.
+4. A hospital patient monitoring system that provides real-time vital signs and alerts medical staff to critical changes, enabling immediate intervention based on the data and physician assessment.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather forecasting website.
+6. A customer relationship management (CRM) system.
+7. A social media analytics dashboard.
+8. A business intelligence reporting tool.
+9. A database management system.
+10. A data warehouse.
+11. Machine learning algorithms for image recognition.
+12. Statistical software for data analysis.
+13. A flight simulator.
+14. A video game with real-time elements.
+15. A GPS navigation system.
+16. A heart rate monitor.
+17. A smart thermostat.
+18. A home security system.
+19. An online survey platform.
+20. An e-commerce website with product recommendations.
+21. A music streaming service with personalized playlists.
+22. A video conferencing platform.
+23. An online learning platform.
+24. A project management software.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

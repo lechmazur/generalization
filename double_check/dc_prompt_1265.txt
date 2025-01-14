@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Inventions or devices that utilize steam power or mechanical computation to perform tasks previously done manually or by animals.
+
+Here are four examples intended to follow this theme:
+1. A device that uses steam to power a piston, automating the process of pumping water from a mine.
+2. A machine that employs a series of gears and levers to calculate mathematical equations, replacing manual computation.
+3. An apparatus that harnesses steam to drive a series of mechanical arms, performing repetitive tasks in a factory setting.
+4. A contraption that utilizes steam pressure to move a carriage along a track, eliminating the need for animal-drawn transport.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A wind-powered mill used for grinding grain.
+6. An electric motor that powers a conveyor belt in a manufacturing plant.
+7. A solar-powered irrigation system for agricultural use.
+8. A hand-cranked device for sharpening knives.
+9. A diesel engine used in heavy machinery.
+10. An abacus for performing arithmetic calculations.
+11. A water wheel that generates power for a sawmill.
+12. A battery-operated robot designed for household cleaning.
+13. A manually operated loom for weaving fabric.
+14. A gasoline-powered lawnmower.
+15. A hydraulic press used in metalworking.
+16. A human-powered bicycle.
+17. An electric calculator for financial computations.
+18. A wind-up music box.
+19. A nuclear-powered submarine.
+20. A manually operated printing press.
+21. An electric-powered elevator in a building.
+22. A horse-drawn plow for farming.
+23. A gas turbine used in aircraft propulsion.
+24. A manually operated coffee grinder.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

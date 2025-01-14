@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): songs that became iconic due to their use in countdown or launch sequences in films or television
+
+Here are four examples intended to follow this theme:
+1. "Danger Zone" by Kenny Loggins from Top Gun
+2. "Life on Mars?" by David Bowie from The Martian
+3. "Rocket Man" by Elton John from Rocketman
+4. "Space Oddity" by David Bowie from Guardians of the Galaxy
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. "Eye of the Tiger" by Survivor from Rocky III
+6. "Born to be Wild" by Steppenwolf from Easy Rider
+7. "Stayin' Alive" by Bee Gees from Saturday Night Fever
+8. "Lose Yourself" by Eminem from 8 Mile
+9. "Don't You (Forget About Me)" by Simple Minds from The Breakfast Club
+10. "Chariots of Fire" by Vangelis from Chariots of Fire
+11. "The Power of Love" by Huey Lewis and the News from Back to the Future
+12. "My Heart Will Go On" by Celine Dion from Titanic
+13. "Take My Breath Away" by Berlin from Top Gun
+14. "Footloose" by Kenny Loggins from Footloose
+15. "Ghostbusters" by Ray Parker Jr. from Ghostbusters
+16. "We Will Rock You" by Queen from Highlander
+17. "Old Time Rock and Roll" by Bob Seger from Risky Business
+18. "I Will Always Love You" by Whitney Houston from The Bodyguard
+19. "Mrs. Robinson" by Simon & Garfunkel from The Graduate
+20. "Singin' in the Rain" by Gene Kelly from Singin' in the Rain
+21. "Jailhouse Rock" by Elvis Presley from Jailhouse Rock
+22. "The Heat Is On" by Glenn Frey from Beverly Hills Cop
+23. "Against All Odds" by Phil Collins from Against All Odds
+24. "Time of My Life" by Bill Medley and Jennifer Warnes from Dirty Dancing
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

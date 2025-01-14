@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures made primarily of unfired clay that were intentionally submerged in a body of water as part of a ritual or artistic practice.
+
+Here are four examples intended to follow this theme:
+1. A clay statue submerged in a river as part of a religious festival
+2. A clay pot placed in a lake during an art installation
+3. A clay sculpture sunk in the ocean for a cultural ceremony
+4. A clay figure deposited in a pond for a traditional ritual
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A wooden sculpture submerged in a lake for an art project
+6. A metal statue placed in a river for a religious ceremony
+7. A stone carving sunk in the ocean as part of a ritual
+8. A glass bottle thrown into the sea as part of an art piece
+9. A ceramic vase placed in a pond for a cultural event
+10. A plastic sculpture submerged in a river for an environmental project
+11. A paper boat floated on a lake during a festival
+12. A wooden raft set adrift in the ocean for a traditional practice
+13. A metal coin tossed into a fountain for good luck
+14. A stone monument placed in a lake for a historical commemoration
+15. A glass sculpture submerged in a pond for an art exhibition
+16. A ceramic tile placed in a river as part of a community project
+17. A plastic bottle thrown into the sea as part of a protest
+18. A wooden effigy floated on a pond during a cultural festival
+19. A metal artifact sunk in the ocean for a scientific study
+20. A stone statue placed in a river for a memorial service
+21. A glass jar submerged in a lake for a time capsule project
+22. A ceramic plate placed in a pond for a culinary event
+23. A plastic toy thrown into the sea as part of a game
+24. A wooden boat set adrift in the ocean for a maritime tradition
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

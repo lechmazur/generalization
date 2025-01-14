@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artificial objects designed to operate autonomously in extreme environments that successfully completed their mission despite having no human maintenance for over 1000 days
+
+Here are four examples intended to follow this theme:
+1. Voyager 1 space probe
+2. Viking 1 Mars lander
+3. Pioneer 10 spacecraft
+4. Opportunity Mars rover
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. International Space Station
+6. Hubble Space Telescope
+7. Deep sea monitoring buoy
+8. Weather satellite
+9. Underwater pipeline sensor
+10. Arctic research station
+11. Lunar Reconnaissance Orbiter
+12. GPS satellite
+13. Deep ocean thermal vent monitor
+14. Curiosity Mars rover
+15. NOAA weather buoy
+16. Perseverance Mars rover
+17. Cassini spacecraft
+18. Mariner 4 probe
+19. Automated volcano monitoring station
+20. Desert solar monitoring system
+21. Antarctic seismic sensor
+22. Deep mine gas detector
+23. Autonomous underwater vehicle
+24. High-altitude weather balloon
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

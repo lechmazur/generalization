@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or structures that process individual cases through a series of intimidating checkpoints while maintaining an air of ancient, mystical authority
+
+Here are four examples intended to follow this theme:
+1. The journey of a soul through the afterlife as depicted in ancient Egyptian mythology, navigating through various trials and judgments before reaching the final weighing of the heart.
+2. The process of becoming a member of a secret society, involving multiple stages of initiation, each shrouded in mystery and requiring the demonstration of loyalty and knowledge.
+3. The bureaucratic process of obtaining a rare and ancient artifact from a government archive, involving numerous intimidating interviews and document verifications, all conducted in a manner that evokes a sense of timeless authority.
+4. The path of a novice monk in a secluded, ancient monastery, progressing through a series of rigorous spiritual and physical tests, each overseen by enigmatic elders who embody the monastery's centuries-old traditions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern court system where cases are processed through various legal stages.
+6. The educational system where students progress through different grade levels.
+7. A hospital's emergency room triage process.
+8. The immigration process at a national border.
+9. A corporate hiring process involving multiple interview rounds.
+10. The journey of a bill through the legislative process.
+11. A university's admissions process for prospective students.
+12. The process of obtaining a driver's license through a series of tests.
+13. A religious conversion process involving study and rituals.
+14. The journey of a product through a manufacturing assembly line.
+15. The process of obtaining a patent through various stages of review.
+16. A traditional wedding ceremony with multiple rituals and steps.
+17. The process of becoming a certified professional in a field through exams and training.
+18. The journey of a manuscript through the publishing process.
+19. The process of obtaining citizenship in a new country.
+20. A traditional coming-of-age ceremony in a tribal culture.
+21. The process of a new member joining a sports team through tryouts and evaluations.
+22. The journey of a refugee seeking asylum through various bureaucratic steps.
+23. The process of a new technology being adopted through stages of testing and approval.
+24. The journey of a candidate through a political election process.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

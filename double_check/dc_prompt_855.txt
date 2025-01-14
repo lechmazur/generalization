@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): architectural structures designed for both aesthetic appeal and functional airflow management
+
+Here are four examples intended to follow this theme:
+1. a windcatcher tower
+2. a louvered facade
+3. a perforated metal screen wall
+4. a courtyard with strategically placed openings
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a skyscraper
+6. a suspension bridge
+7. a geodesic dome
+8. a glass atrium
+9. a stone archway
+10. a brick chimney
+11. a wooden gazebo
+12. a steel beam structure
+13. a concrete dam
+14. a marble fountain
+15. a thatched roof hut
+16. a glass skylight
+17. a brick wall
+18. a wooden pergola
+19. a metal staircase
+20. a stone monument
+21. a glass greenhouse
+22. a brick oven
+23. a wooden fence
+24. a concrete bunker
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

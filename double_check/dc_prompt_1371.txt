@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices or systems designed to test the functionality of prosthetic limbs in controlled laboratory settings
+
+Here are four examples intended to follow this theme:
+1. A robotic arm manipulating objects of varying weights and textures to assess a prosthetic hand's grip strength and dexterity.
+2. A treadmill equipped with force plates and motion capture cameras to analyze the gait of an individual using a prosthetic leg.
+3. A virtual reality environment simulating everyday tasks like opening doors or picking up groceries to evaluate the user's control and comfort with a prosthetic arm.
+4. A biomechanical testing rig applying controlled forces and torques to a prosthetic joint to determine its range of motion and durability.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A physical therapist guiding a patient through exercises.
+6. A patient using a prosthetic limb in their daily life.
+7. A surgical procedure to implant a prosthetic device.
+8. A software program designed to control a robotic prosthetic.
+9. A 3D printer creating a customized prosthetic socket.
+10. A research study investigating the psychological impact of limb loss.
+11. A support group for individuals with amputations.
+12. A wheelchair designed for individuals with lower limb amputations.
+13. An occupational therapist assessing a patient's ability to perform daily tasks.
+14. A prosthetic limb itself.
+15. A biofeedback system used to control a myoelectric prosthetic.
+16. A gait analysis laboratory used to assess walking patterns.
+17. A rehabilitation center specializing in prosthetic training.
+18. A manufacturer of prosthetic components.
+19. A medical imaging technique used to assess bone health.
+20. A surgical robot used in amputation procedures.
+21. A pressure sensor embedded in a prosthetic socket.
+22. A nerve interface connecting a prosthetic to the nervous system.
+23. A clinical trial evaluating the effectiveness of a new prosthetic design.
+24. A computer simulation modeling the movement of a prosthetic limb.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

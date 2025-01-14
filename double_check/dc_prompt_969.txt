@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations designed to enhance human interaction with natural environments through sensory feedback mechanisms
+
+Here are four examples intended to follow this theme:
+1. A haptic glove that simulates different tree bark textures for forest research
+2. A bioacoustic headset that amplifies and identifies bird calls in real-time
+3. A thermal feedback device that helps track animal movements in darkness
+4. A vibrotactile belt that communicates underwater current directions to divers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A traditional compass
+6. A pair of binoculars
+7. A wildlife camera trap
+8. A handheld GPS device
+9. A weather station
+10. A metal detector
+11. A seismograph
+12. An underwater camera
+13. A drone with camera
+14. A satellite tracking collar
+15. A soil moisture meter
+16. A wind speed indicator
+17. A water quality tester
+18. An altimeter watch
+19. A trail mapping app
+20. A plant identification scanner
+21. A UV index meter
+22. A fish finder device
+23. A geological sampling tool
+24. A night vision scope
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

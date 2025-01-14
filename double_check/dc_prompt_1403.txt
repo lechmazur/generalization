@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures that were deliberately hidden or sealed away by their creators specifically to prevent others from studying or replicating their design
+
+Here are four examples intended to follow this theme:
+1. the Antikythera mechanism
+2. the Voynich manuscript
+3. the Terracotta Army's weapons
+4. the Baghdad Battery
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a time capsule
+6. a buried treasure chest
+7. a secret diary
+8. a hidden bunker
+9. a locked safe
+10. a forgotten library
+11. a sealed tomb
+12. a classified document
+13. a sunken shipwreck
+14. a lost city
+15. a hidden map
+16. a secret recipe
+17. a concealed weapon
+18. a buried artifact
+19. a forgotten invention
+20. a sealed letter
+21. a hidden compartment
+22. a secret laboratory
+23. a lost manuscript
+24. a concealed treasure map
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

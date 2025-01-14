@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Hand-built ceramic objects that incorporate naturally occurring crystalline glazes, where the crystalline growth visibly spans across multiple individually thrown and assembled components.
+
+Here are four examples intended to follow this theme:
+1. A large, undulating ceramic platter composed of five individually thrown sections, seamlessly joined, with iron-saturated crystalline glaze flowing across the seams, showcasing large, feather-like crystals.
+2. A lidded jar formed from three distinct thrown pieces – the base, the body, and the lid – unified by a shimmering, zinc-based crystalline glaze with starburst crystal formations extending across all components.
+3. A sculptural, abstract form built from several wheel-thrown conical and cylindrical elements, assembled and fired with a titanium-infused crystalline glaze, resulting in a complex surface of interconnected, needle-like crystals.
+4. A wall-mounted ceramic light fixture comprised of multiple thrown and altered porcelain shards, joined and glazed with a flowing, lithium-based crystalline glaze, creating a network of delicate, dendritic crystal growth across the fragmented surface.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A single, wheel-thrown bowl with a vibrant, speckled glaze.
+6. A hand-built ceramic sculpture with a smooth, matte finish.
+7. A set of porcelain cups with a delicate floral decal.
+8. A raku-fired vase with crackled and metallic surface effects.
+9. A stoneware teapot with a salt glaze.
+10. A porcelain figurine with intricate hand-painted details.
+11. A large, coiled ceramic vessel with a textured, earthy surface.
+12. A slab-built ceramic box with a geometric pattern.
+13. A thrown and altered vase with a glossy, monochrome glaze.
+14. A ceramic tile mural with a pictorial design.
+15. A hand-built ceramic mask with a vibrant, underglaze decoration.
+16. A set of earthenware plates with a rustic, hand-painted border.
+17. A thrown porcelain bowl with a celadon glaze.
+18. A stoneware pitcher with a reactive, variegated glaze.
+19. A ceramic sculpture with a metallic luster glaze.
+20. A hand-built ceramic vessel with a crackle glaze.
+21. A thrown and altered bottle with a layered, slip-decorated surface.
+22. A ceramic wall hanging with a woven texture.
+23. A set of porcelain spoons with a mother-of-pearl inlay.
+24. A stoneware mug with a carved, geometric design.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

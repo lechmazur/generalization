@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): artificial systems that replicate natural processes through controlled experimentation and precise manipulation of organic materials
+
+Here are four examples intended to follow this theme:
+1. Building a synthetic cell with a minimal genome to study fundamental life processes.
+2. Creating artificial photosynthesis systems using engineered proteins and light-absorbing materials.
+3. Developing a lab-grown organ, such as a liver or kidney, using bioprinting and tissue engineering techniques.
+4. Constructing an artificial enzyme with enhanced catalytic properties for specific chemical reactions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Observing the behavior of ants in a natural ant colony.
+6. Studying the growth of plants in a greenhouse.
+7. Analyzing the DNA sequence of a wild animal.
+8. Developing a computer simulation of weather patterns.
+9. Building a robot that mimics the movement of a cheetah.
+10. Creating a virtual reality environment of a rainforest.
+11. Designing a prosthetic limb that replicates the function of a human arm.
+12. Developing a new type of plastic that is biodegradable.
+13. Creating a genetically modified crop that is resistant to pests.
+14. Using CRISPR technology to edit the genes of a human embryo.
+15. Developing a new drug that targets a specific protein in the body.
+16. Creating a 3D model of a protein molecule.
+17. Studying the effects of pollution on a natural ecosystem.
+18. Developing a new type of solar panel that mimics the process of photosynthesis.
+19. Creating a self-healing material that mimics the properties of human skin.
+20. Building a machine learning algorithm that can identify patterns in biological data.
+21. Developing a new type of fertilizer that enhances plant growth.
+22. Creating a biofuel from algae.
+23. Using bacteria to clean up oil spills.
+24. Developing a new type of antibiotic.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

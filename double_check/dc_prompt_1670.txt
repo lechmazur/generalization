@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Extinct mammals that were named after living celebrities in the 21st century
+
+Here are four examples intended to follow this theme:
+1. Thylacoleo celebrity
+2. Mammuthus star
+3. Smilodon fame
+4. Glyptodon icon
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Extinct bird named after a historical figure
+6. Living mammal named after a scientist
+7. Extinct reptile named after a mythological character
+8. Plant species named after a famous explorer
+9. Fossil named after a geographical location
+10. Extinct fish named after a fictional character
+11. Living insect named after a politician
+12. Extinct amphibian named after a poet
+13. Mineral named after a Nobel laureate
+14. Extinct invertebrate named after an artist
+15. Living bird named after a musician
+16. Extinct mammal named after a prehistoric tool
+17. Plant named after a sports figure
+18. Fossil named after a type of rock
+19. Extinct reptile named after a type of environment
+20. Living fish named after a chef
+21. Extinct amphibian named after a type of water body
+22. Insect named after a type of plant
+23. Mineral named after a color
+24. Extinct invertebrate named after a type of sediment
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

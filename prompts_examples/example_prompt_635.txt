@@ -1,0 +1,17 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures designed to be positioned on the highest point of a building or natural formation, serving a practical or symbolic purpose.
+
+This task to create a quiz questions, so avoid providing clear clues that would reveal the theme based on the examples you create. 
+
+List four specific, varied, illustrative examples that follow this theme. Enclose each in the tag <example></example>. Do not number them. Do no add comments. If you are unable to create an example that follows this specification, write "N/A" in place of the example. E.g.:
+a soccer ball
+a basketball
+a tennis ball
+a volleyball
+
+List 20 varied misleading examples. They could be examples that follow various more general versions of this theme, examples of connected, linked, or associated themese BUT they may not be examples of this exact theme as written. Number them 1 to 20. Enclose each of them in the tag <anti_example></anti_example>. E.g.:
+1 <anti_example>a football</anti_example>
+2 <anti_example>a shuttlecock</anti_example>
+...
+20 <anti_example>a puck</anti_example>
+
+Do not add any comments or explanations. You must list exactly 4 examples and 20 anti-examples.

@@ -1,0 +1,26 @@
+pick_response_1996.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are Rhone, Arno, and Ebro. The anti-examples are Tiber, Garonne, and Danube. The task is to evaluate a list of candidates based on how well they match the specific theme, avoiding broader interpretations.
+
+Looking at the examples, they are all major rivers in Europe that flow into the Mediterranean Sea.
+The anti-examples are also major European rivers, but they flow into different bodies of water (Tiber into the Tyrrhenian Sea, Garonne into the Atlantic, Danube into the Black Sea).
+
+Therefore, the specific theme is likely "major European rivers that flow into the Mediterranean Sea".
+
+Now, let's evaluate the candidates:
+1. Seine: Flows into the English Channel (Atlantic). Score should be low.
+2. Douro: Flows into the Atlantic. Score should be low.
+3. Thames: Flows into the North Sea (Atlantic). Score should be low.
+4. Po: Flows into the Adriatic Sea (Mediterranean). Score should be high.
+5. Guadalquivir: Flows into the Atlantic. Score should be low.
+6. Marne: A tributary of the Seine, flowing into the English Channel (Atlantic). Score should be low.
+7. Rhine: Flows into the North Sea (Atlantic). Score should be low.
+8. Loire: Flows into the Atlantic. Score should be low.
+
+Based on this analysis, I can assign scores to each candidate.<number>1</number><score>1</score>
+<number>2</number><score>2</score>
+<number>3</number><score>0</score>
+<number>4</number><score>9</score>
+<number>5</number><score>3</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>4</score>

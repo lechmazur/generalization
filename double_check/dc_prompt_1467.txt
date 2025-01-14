@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical spaces that were once regularly occupied but have been permanently abandoned while preserving most of their original contents
+
+Here are four examples intended to follow this theme:
+1. A Soviet research station in Antarctica with equipment and personal items left behind in 1992
+2. The Pripyat amusement park in Ukraine with its untouched Ferris wheel and bumper cars
+3. A 1950s Nevada desert diner with plates still on tables and coffee cups on counters
+4. A Japanese elementary school on a remote island with books, desks, and teaching materials intact
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. An empty warehouse that was cleared out before closing
+6. A demolished shopping mall
+7. A renovated historic theater
+8. An old factory converted into apartments
+9. A closed museum with artifacts moved to storage
+10. A vacant lot where a building once stood
+11. A decommissioned military base that was properly cleared
+12. An ancient Roman ruins site
+13. A temporarily closed office building
+14. A seasonal beach resort during winter
+15. An emptied prison facility
+16. A cleaned-out foreclosed home
+17. A closed-down airport terminal
+18. An empty school during summer break
+19. A ghost town's stripped buildings
+20. A bankrupt store after liquidation
+21. A condemned building awaiting demolition
+22. An archaeological dig site
+23. A cleared monastery ruins
+24. A cleaned-out abandoned mine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects incorporating traditional handwoven textiles from nomadic cultures into functional, modern medical devices.
+
+Here are four examples intended to follow this theme:
+1. A stethoscope with earpieces wrapped in handwoven Berber textiles
+2. A wheelchair seat cushion made from traditional Navajo woven patterns
+3. An orthopedic brace featuring handwoven Andean fabric
+4. A surgical mask with straps made from handwoven Mongolian textiles
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A stethoscope with a leather cover
+6. A wheelchair with a leather seat
+7. An orthopedic brace with a neoprene lining
+8. A surgical mask with elastic straps
+9. A hospital bed with a memory foam mattress
+10. A crutch with a rubber handle
+11. A blood pressure cuff with a nylon exterior
+12. A thermometer with a plastic casing
+13. A hearing aid with a silicone mold
+14. A prosthetic limb with a carbon fiber finish
+15. A medical alert bracelet made of stainless steel
+16. A CPAP machine with a plastic mask
+17. A hospital gown made from cotton
+18. A surgical glove made from latex
+19. A dental tool with a metal handle
+20. A first aid kit with a nylon bag
+21. A walker with aluminum frame
+22. A defibrillator with a plastic case
+23. A medical chart with a paper cover
+24. A pill organizer made from plastic
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

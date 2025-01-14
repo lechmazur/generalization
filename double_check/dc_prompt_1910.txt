@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional hunting tools made from animal bones used by indigenous Arctic peoples
+
+Here are four examples intended to follow this theme:
+1. Harpoon tip crafted from caribou bone
+2. Arrowhead fashioned from walrus bone
+3. Fishing spear point made from seal bone
+4. Snow knife handle carved from whale bone
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Stone-tipped spear used by ancient hunters
+6. Wooden bow used in traditional archery
+7. Modern hunting rifle
+8. Metal fishhook used in contemporary fishing
+9. Leather quiver for storing arrows
+10. Flint knife used by early humans
+11. Plastic snow shovel
+12. Copper harpoon used in coastal fishing
+13. Traditional Inuit kayak made from animal skins
+14. Steel axe used for chopping wood
+15. Bamboo blowgun used in tropical hunting
+16. Silk fishing net used in freshwater fishing
+17. Ceramic arrowhead used in ancient warfare
+18. Rubber hunting boots
+19. Canvas tent used for camping
+20. Obsidian blade used by Mesoamerican cultures
+21. Aluminum fishing rod
+22. Polyester hunting jacket
+23. Clay pot used for cooking
+24. Iron spear used in medieval combat
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

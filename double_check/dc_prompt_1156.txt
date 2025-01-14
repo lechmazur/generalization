@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): things named after people that are not directly related to the person's primary field of expertise or fame
+
+Here are four examples intended to follow this theme:
+1. The Graham cracker
+2. The Diesel engine
+3. The Salisbury steak
+4. The Bunsen burner
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Nobel Prize
+6. The Pulitzer Prize
+7. The Tesla car
+8. The Ford Motor Company
+9. The Edison light bulb
+10. The Darwin Awards
+11. The Curie point
+12. The Newton's cradle
+13. The Pasteurization process
+14. The Braille system
+15. The Morse code
+16. The Fahrenheit scale
+17. The Richter scale
+18. The Hubble Space Telescope
+19. The Heisenberg uncertainty principle
+20. The Freudian slip
+21. The Pavlovian response
+22. The Machiavellian tactics
+23. The Orwellian surveillance
+24. The Kafkaesque situation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

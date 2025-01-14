@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures designed primarily to enhance the acoustic properties of a space for a specific musical instrument or vocal range.
+
+Here are four examples intended to follow this theme:
+1. The interior design of the Elbphilharmonie concert hall in Hamburg, Germany, optimized for orchestral music.
+2. The construction of the Sydney Opera House, with its unique acoustic considerations for operatic performances.
+3. The specific architecture of the Walt Disney Concert Hall in Los Angeles, tailored for symphonic music.
+4. The design of the Palau de la Música Catalana in Barcelona, Spain, engineered to enhance choral singing.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A building designed to maximize natural light.
+6. A structure built to withstand earthquakes.
+7. A skyscraper with a focus on energy efficiency.
+8. A sports stadium designed for optimal viewing angles.
+9. A bridge engineered for high traffic flow.
+10. A library designed to maximize storage space for books.
+11. A museum built to protect artworks from environmental damage.
+12. A theater designed for large-scale visual productions.
+13. A shopping mall with a focus on pedestrian flow.
+14. A residential building designed for thermal insulation.
+15. A school building optimized for classroom acoustics in general.
+16. A hospital designed to minimize the spread of infections.
+17. A factory built to optimize production line efficiency.
+18. A greenhouse designed to control plant growth conditions.
+19. A parking garage designed for maximum vehicle capacity.
+20. A church designed to accommodate large congregations.
+21. A restaurant designed to enhance the dining experience.
+22. A hotel designed for guest comfort and convenience.
+23. A government building designed for security and accessibility.
+24. A train station designed for efficient passenger flow.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

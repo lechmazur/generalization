@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed for individual use that incorporate multiple, distinct compartments for organizing small items, each compartment having a dedicated, non-interchangeable lid or closure.
+
+Here are four examples intended to follow this theme:
+1. A weekly pill organizer with a separate compartment and lid for each day of the week.
+2. A fishing tackle box with individual, lidded compartments for different hooks, lures, and weights.
+3. A watercolor paint set with small, individual pans of paint, each with its own hinged lid.
+4. A sewing box with separate, lidded compartments for needles, pins, buttons, and other small sewing notions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A backpack with multiple zippered pockets.
+6. A toolbox with a single large compartment.
+7. A desk drawer organizer with open compartments.
+8. A plastic storage bin with a snap-on lid.
+9. A filing cabinet with multiple drawers.
+10. A shoe organizer hanging over a door.
+11. A silverware tray in a kitchen drawer.
+12. A muffin tin.
+13. An ice cube tray.
+14. A spice rack.
+15. A makeup bag with various pouches.
+16. A wallet with multiple card slots.
+17. A key holder with hooks for multiple keys.
+18. A pencil case with a single zipper.
+19. A jewelry box with a single lid and various compartments.
+20. A multi-tiered lunchbox with a single latch.
+21. A set of nesting bowls.
+22. A set of measuring cups.
+23. A roll of plastic wrap with a cutter.
+24. A bottle of shampoo with a flip-top cap.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

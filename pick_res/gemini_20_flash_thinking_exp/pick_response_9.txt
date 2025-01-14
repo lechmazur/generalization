@@ -1,0 +1,26 @@
+pick_response_9.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit the specific theme, not a broader related theme.
+
+Examples: Nomex, Polycarbonate, Kevlar. These are all materials known for their high strength and resistance to extreme conditions, particularly heat and impact. They are often used in protective gear.
+
+Anti-examples: Safety glasses, Hard hats, Airbags. These are all safety devices or systems, but they are *products* made *from* materials, not the materials themselves.
+
+Therefore, the specific theme is likely "high-performance materials used in protective applications".
+
+Now I need to evaluate each candidate based on whether it is a high-performance material, not a safety device.
+
+1. Life jackets: A safety device, often made of buoyant materials. Not a high-performance material in the same vein as the examples. Score: 1
+2. Anti-lock brakes: A safety system. Not a material. Score: 0
+3. Crumple zones: A design feature in vehicles. Not a material. Score: 0
+4. Seat belts: A safety device made of strong fabric. The fabric itself could be considered a high-performance material, but the *seat belt* as a whole is a device. Score: 3
+5. Ear plugs: A safety device, often made of foam or silicone. The material could be considered for its sound dampening properties, but not in the same high-performance category as the examples. Score: 2
+6. Reflective tape: A safety feature, often made with a reflective coating on a fabric or plastic backing. The backing material might be a standard plastic. Score: 1
+7. Helmets: A safety device made from various materials. Not a material itself. Score: 0
+8. Steel-toed boots: A safety product. The steel toe is a component, but the boot as a whole is a product. The steel itself could be considered, but the prompt is about the item. Score: 2<number>1</number><score>1</score>
+<number>2</number><score>0</score>
+<number>3</number><score>0</score>
+<number>4</number><score>3</score>
+<number>5</number><score>2</score>
+<number>6</number><score>1</score>
+<number>7</number><score>0</score>
+<number>8</number><score>2</score>

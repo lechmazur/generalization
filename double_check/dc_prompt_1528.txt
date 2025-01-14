@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or systems that use measured increments to track gradual descent into increasingly dangerous conditions
+
+Here are four examples intended to follow this theme:
+1. a submarine depth gauge
+2. a car's fuel gauge nearing empty
+3. a climber's altimeter during descent
+4. a patient's blood pressure monitor during a critical drop
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a thermometer
+6. a speedometer
+7. a barometer
+8. a heart rate monitor
+9. a compass
+10. a rain gauge
+11. a seismograph
+12. a pedometer
+13. a hygrometer
+14. a tachometer
+15. a voltmeter
+16. a wind vane
+17. a GPS device
+18. a stopwatch
+19. a light meter
+20. a sound level meter
+21. a pH meter
+22. a Geiger counter
+23. a carbon monoxide detector
+24. a smoke alarm
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

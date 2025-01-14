@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Visitors can twist and turn a series of interconnected gears to generate intricate geometric designs projected onto a wall.
+By physically moving magnetic tiles on a board, users can alter the flow of electric currents, resulting in changing visual patterns displayed on an LED matrix.
+Participants manipulate a series of levers and pulleys to control the movement of light beams, creating dynamic shadow patterns on a screen.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A virtual reality experience where users can paint in a 3D environment.
+An exhibit where visitors can add their own drawings to a communal digital canvas.
+An interactive game where players can manipulate virtual objects on a screen.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A large, transparent touch-sensitive surface allows users to draw patterns with their fingers, which are then transformed into colorful light displays. <<LEFTOVER>>
+2. Interactive digital art that responds to sound input to create visual effects.
+3. A sculpture that changes color when touched, but does not create visual patterns.
+4. An interactive floor projection that reacts to people walking over it, but does not create visual patterns.
+5. A light installation that changes patterns based on the temperature in the room.
+6. A mural that uses augmented reality to add interactive elements visible through a smartphone app.
+7. A piece of art that uses water flow to create dynamic shapes, but not visual patterns controlled by physical manipulation.
+8. A piece that uses facial recognition to change the displayed image based on the viewer's expression.

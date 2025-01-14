@@ -1,0 +1,20 @@
+pick_response_495.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The examples are all passive ventilation/thermal regulation strategies in buildings. The anti-examples are active or localized heat rejection/transfer devices. Therefore, the specific theme is likely **passive building design elements for thermal regulation**.
+
+I need to evaluate each candidate based on this specific theme and assign a score from 0 to 10.
+
+*   **Space heater:** Actively adds heat, not passive. Low score.
+*   **Heat pump:** Actively transfers heat, not passive. Low score.
+*   **Refrigerator:** Actively removes heat, not passive. Low score.
+*   **Heat gun:** Actively adds heat to a localized area, not passive. Low score.
+*   **Convection oven:** Actively heats an enclosed space, not passive. Low score.
+*   **Heat exchanger:** Can be part of a passive system but is more generally an active component. Moderate score.
+*   **Trombe wall:** A passive solar heating and ventilation system. High score.
+*   **Fireplace:** Actively burns fuel for heat, not passive. Low score.<number>1</number><score>1</score>
+<number>2</number><score>2</score>
+<number>3</number><score>1</score>
+<number>4</number><score>1</score>
+<number>5</number><score>3</score>
+<number>6</number><score>5</score>
+<number>7</number><score>9</score>
+<number>8</number><score>2</score>

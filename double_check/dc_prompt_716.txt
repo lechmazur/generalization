@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that are central to a narrative involving a journey of self-discovery and transformation
+
+Here are four examples intended to follow this theme:
+1. a diary filled with reflections on personal growth
+2. a map with a winding path leading to an unknown destination
+3. a mirror that reflects the protagonist's changing self
+4. a compass that points toward inner truth
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a train ticket to a distant city
+6. a backpack filled with camping gear
+7. a photograph of a childhood home
+8. a letter from a long-lost friend
+9. a pair of hiking boots
+10. a telescope for stargazing
+11. a passport with stamps from various countries
+12. a journal documenting daily activities
+13. a treasure chest filled with gold coins
+14. a map of a famous landmark
+15. a camera used to capture memories
+16. a suitcase packed for a long trip
+17. a postcard from a tropical island
+18. a guidebook for tourists
+19. a pair of binoculars for birdwatching
+20. a ticket to a concert
+21. a recipe book for exotic dishes
+22. a painting of a serene landscape
+23. a key to a locked door
+24. a clock ticking down to an important event
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

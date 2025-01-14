@@ -1,0 +1,27 @@
+example_response_1642.txt
+<example>A mobile banking app displays a spinning loading icon for 10 seconds after a successful transaction, even though the transaction is processed instantly.</example>
+<example>A peer-to-peer payment platform shows a progress bar slowly filling up during a transfer, despite the funds being transferred immediately.</example>
+<example>An online retailer's checkout process includes a simulated "security check" animation that adds a 5-second delay before confirming the purchase.</example>
+<example>A cryptocurrency exchange displays a "blockchain verification" message with a timer that artificially extends the transaction confirmation time.</example>
+
+
+1 <anti_example>Two-factor authentication requiring a code from a separate device.</anti_example>
+2 <anti_example>Biometric login using fingerprint or facial recognition.</anti_example>
+3 <anti_example>End-to-end encryption for messaging apps.</anti_example>
+4 <anti_example>Using a virtual private network (VPN) for online browsing.</anti_example>
+5 <anti_example>Regularly updating software to patch security vulnerabilities.</anti_example>
+6 <anti_example>A website using HTTPS protocol.</anti_example>
+7 <anti_example>Complex password requirements with minimum length and special characters.</anti_example>
+8 <anti_example>Security questions for account recovery.</anti_example>
+9 <anti_example>Email notifications for login attempts from new devices.</anti_example>
+10 <anti_example>Antivirus software scanning for malware.</anti_example>
+11 <anti_example>A firewall blocking unauthorized network access.</anti_example>
+12 <anti_example>Hardware security tokens for added protection.</anti_example>
+13 <anti_example>Using a password manager to store credentials securely.</anti_example>
+14 <anti_example>Avoiding public Wi-Fi for sensitive transactions.</anti_example>
+15 <anti_example>A bank requiring in-person identity verification for new accounts.</anti_example>
+16 <anti_example>Credit card companies using fraud detection algorithms.</anti_example>
+17 <anti_example>A website displaying security certifications and badges.</anti_example>
+18 <anti_example>Using a dedicated device for online banking.</anti_example>
+19 <anti_example>Regularly backing up important data.</anti_example>
+20 <anti_example>A physical lock on a computer or server room.</anti_example>

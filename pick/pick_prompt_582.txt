@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A bejeweled sword presented by Shah Abbas I of Persia to Tsar Boris Godunov of Russia in 1605.
+A silver nef, or ship, given by the Republic of Venice to Charles VI of France in 1381.
+A mechanical clock gifted by Louis XIV of France to the Siamese King Narai in 1686.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A livestock animal given as a tribute.
+A religious relic gifted to a church in another country.
+A rare plant specimen given to a botanical garden.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A trade agreement established between two countries.
+2. A royal marriage arranged between two ruling families.
+3. A pair of falcons sent by the Sultan of Egypt to Frederick II, Holy Roman Emperor, in 1229. <<LEFTOVER>>
+4. A portrait of a monarch.
+5. A peace treaty signed between two nations.
+6. Land ceded in a treaty.
+7. A letter of diplomatic correspondence.
+8. Military support offered in times of war.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Games or activities from ancient civilizations that involve a spherical object and have been revived or adapted in modern times for cultural or educational purposes.
+
+Here are four examples intended to follow this theme:
+1. Episkyros
+2. Tlachtli
+3. Cuju
+4. Kemari
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Chess
+6. Senet
+7. Mancala
+8. Discus throwing
+9. Javelin throwing
+10. Knucklebones
+11. Polo
+12. Wrestling
+13. Archery
+14. Dice games
+15. Pankration
+16. Hoop rolling
+17. Kites
+18. Nine men's morris
+19. Tug of war
+20. Hopscotch
+21. Go
+22. Backgammon
+23. Bowling pins
+24. Juggling
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

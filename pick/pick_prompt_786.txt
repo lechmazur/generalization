@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The walrus skin boat launching ceremony practiced by the Chukchi people.
+The traditional seal hunting rituals performed by the Yupik people before the hunt.
+The narwhal tusk used in ceremonial exchanges among the Inuvialuit.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Rituals involving the use of reindeer in Sami culture.
+Traditional use of salmon in Pacific Northwest tribal ceremonies.
+Ceremonial use of buffalo in Great Plains tribal cultures.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Ceremonial use of eagle feathers in Plains Indian cultures.
+2. Ceremonial use of bear claws in some Native American tribes.
+3. Traditional fishing techniques used by Polynesian peoples.
+4. Traditional dances involving animal costumes in various cultures.
+5. Ceremonial use of feathers in Native American rituals.
+6. Annual fishing festivals in coastal communities.
+7. Use of animal symbols in totem poles by Pacific Northwest tribes.
+8. The use of whale bones in ceremonial dances by the Inuit people. <<LEFTOVER>>

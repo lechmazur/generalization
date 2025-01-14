@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Narrative frameworks that use a central, unifying structure to organize multiple interconnected stories or elements, often with a cyclical or recursive pattern.
+
+Here are four examples intended to follow this theme:
+1. A novel that weaves together multiple character arcs into a single, overarching story with a recurring motif of seasons.
+2. A film anthology where each segment is connected by a shared object that reappears in cyclical fashion.
+3. A video game with branching storylines that converge at key moments, creating a recursive narrative structure.
+4. A podcast series where each episode explores a different character's perspective, all tied together by a central event that loops back to the beginning.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A linear biography of a historical figure.
+6. A standalone short story with no connections to other narratives.
+7. A collection of unrelated poems in an anthology.
+8. A single-episode TV show with no recurring themes or characters.
+9. A documentary about a specific event without any narrative framing.
+10. A textbook chapter explaining a scientific concept.
+11. A news article reporting on a current event.
+12. A recipe book with no overarching theme or connection between recipes.
+13. A series of unrelated tweets on social media.
+14. A photo album with no captions or narrative structure.
+15. A standalone painting with no thematic connection to other works.
+16. A single song with no ties to an album or larger musical project.
+17. A blog post about a personal experience without any recurring motifs.
+18. A list of random facts with no unifying theme.
+19. A standalone comic strip with no recurring characters or storylines.
+20. A single act of a play with no connection to the rest of the performance.
+21. A collection of unrelated quotes in a book.
+22. A standalone advertisement with no narrative elements.
+23. A single scene from a movie with no context or connection to the plot.
+24. A random assortment of objects in a museum exhibit with no thematic link.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

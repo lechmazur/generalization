@@ -1,0 +1,25 @@
+pick_response_723.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit the specific theme, not broader related themes.
+
+Examples: lens, prism, rainbow. These all involve the refraction and dispersion of light.
+Anti-examples: telescope, microscope, sound wave. These are related to light or waves but are not the same phenomenon. Telescopes and microscopes *use* lenses, but are not lenses themselves. Sound waves are waves, but not light waves.
+
+Therefore, the specific theme is the refraction and/or dispersion of visible light.
+
+Now I need to evaluate each candidate based on this specific theme:
+
+1. pendulum:  No direct connection to light refraction/dispersion.
+2. aurora borealis: Caused by charged particles interacting with the atmosphere, emitting light. Not directly refraction/dispersion.
+3. solar panel: Converts light to electricity. Uses light, but not primarily about refraction/dispersion.
+4. gravity: A fundamental force. No direct connection to light refraction/dispersion.
+5. electric circuit: Flow of electrons. No direct connection to light refraction/dispersion.
+6. magnet: Creates magnetic fields. No direct connection to light refraction/dispersion.
+7. black hole: Distorts spacetime and absorbs light. Related to light, but not refraction/dispersion in the same way as the examples.
+8. diffraction grating:  Works by diffracting light, which is related to refraction and dispersion.<number>1</number><score>1</score>
+<number>2</number><score>4</score>
+<number>3</number><score>2</score>
+<number>4</number><score>0</score>
+<number>5</number><score>0</score>
+<number>6</number><score>0</score>
+<number>7</number><score>3</score>
+<number>8</number><score>9</score>

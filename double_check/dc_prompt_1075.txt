@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural or human-made structures that are designed to harmonize with or mimic the vertical growth patterns of redwood trees.
+
+Here are four examples intended to follow this theme:
+1. A multi-story apartment building with balconies designed to resemble redwood branches and a tiered, upward-sloping roofline.
+2. A wooden playground structure with a central "trunk" and climbing platforms that spiral upwards like redwood canopy layers.
+3. A conceptual skyscraper with a series of vertical gardens and living walls that mimic the texture and verticality of redwood bark.
+4. A spiraling observation tower made of sustainable materials, designed to evoke the height and upward reach of a redwood tree.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A log cabin.
+6. A treehouse built in an oak tree.
+7. A totem pole.
+8. A stack of books.
+9. A ladder.
+10. A beanstalk.
+11. A DNA double helix model.
+12. A skyscraper with a uniform, rectangular shape.
+13. A suspension bridge.
+14. A church steeple.
+15. A pile of rocks.
+16. A cactus.
+17. A giraffe.
+18. A model rocket.
+19. A wind turbine.
+20. A radio tower.
+21. A stack of pancakes.
+22. A tiered wedding cake.
+23. A set of Russian nesting dolls.
+24. A tall, slender vase.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

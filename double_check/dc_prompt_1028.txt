@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): phenomena or systems that exhibit extreme or paradoxical behavior under specific conditions, often defying conventional expectations or norms
+
+Here are four examples intended to follow this theme:
+1. Superfluidity: Liquid helium at extremely low temperatures flows without any viscosity, defying the typical behavior of fluids.
+2. Mpemba effect: Hot water can freeze faster than cold water under certain conditions, contradicting common intuition.
+3. Braess's paradox: Adding extra capacity to a network, such as a road network, can counterintuitively reduce overall flow and increase congestion.
+4. St. Petersburg paradox: A theoretical lottery game with infinite expected value, yet people are unwilling to pay a large amount to play, highlighting the limitations of expected value in decision-making.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A pendulum swinging with simple harmonic motion
+6. A ball rolling down an inclined plane
+7. Water boiling at 100 degrees Celsius
+8. A metal expanding when heated
+9. Light refracting through a prism
+10. A magnet attracting iron filings
+11. A battery powering a circuit
+12. A plant growing towards sunlight
+13. An animal adapting to its environment
+14. A chemical reaction reaching equilibrium
+15. Erosion of rocks by wind and water
+16. The formation of clouds
+17. The tides caused by the moon's gravity
+18. The Earth orbiting the Sun
+19. A computer processing information
+20. A car accelerating at a constant rate
+21. A plane flying at a constant altitude
+22. A ship floating on water
+23. A building standing upright
+24. A bridge supporting weight
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

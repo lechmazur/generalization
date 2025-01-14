@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Robotic devices designed for companionship that can be programmed by their users
+
+Here are four examples intended to follow this theme:
+1. A customizable robotic cat that can be programmed to purr, play fetch, and learn new tricks.
+2. A build-it-yourself robotic dog with open-source software, allowing users to create unique personalities and behaviors.
+3. A robotic bird companion that can be taught to sing specific songs and respond to voice commands through user-created programs.
+4. A modular robotic companion that can be configured into different shapes and programmed with various interactive functionalities.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smart thermostat that learns user preferences.
+6. A self-driving car.
+7. A robotic vacuum cleaner.
+8. A voice-activated virtual assistant.
+9. A robotic arm used in manufacturing.
+10. A surgical robot.
+11. A drone for aerial photography.
+12. A robotic toy that follows pre-programmed commands.
+13. A social media platform.
+14. A video game console.
+15. A fitness tracker.
+16. A smart refrigerator.
+17. A 3D printer.
+18. A language learning app.
+19. A robotic lawnmower.
+20. A security camera with facial recognition.
+21. A smart watch.
+22. A delivery robot.
+23. A robotic exoskeleton.
+24. A remote-controlled car.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

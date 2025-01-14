@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): celestial bodies or phenomena that exhibit visible atmospheric or surface features when observed through advanced imaging technologies like augmented reality or holographic systems
+
+Here are four examples intended to follow this theme:
+1. The intricate cloud bands of Jupiter, revealing detailed atmospheric dynamics
+2. The surface texture and polar ice caps of Mars, showcasing geological features
+3. The auroral displays on Saturn, highlighting atmospheric phenomena
+4. The detailed surface features of the Moon, including craters and maria
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The vast emptiness of space
+6. The twinkling of distant stars
+7. The trajectory of a comet
+8. The phases of Venus
+9. The color of a planet's sky
+10. The brightness of a supernova
+11. The orbit of a satellite
+12. The size of a galaxy
+13. The temperature of the Sun's surface
+14. The density of a neutron star
+15. The composition of an asteroid
+16. The magnetic field of a planet
+17. The rotation period of Mercury
+18. The distance between planets
+19. The gravitational pull of a black hole
+20. The spectrum of light from a star
+21. The path of a meteor
+22. The age of the universe
+23. The expansion rate of the cosmos
+24. The classification of a celestial object
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

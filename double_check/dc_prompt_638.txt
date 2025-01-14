@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artifacts or tools imbued with a specific individual's life force or soul, intended to enhance or preserve some aspect of that individual beyond their physical lifespan.
+
+Here are four examples intended to follow this theme:
+1. A locket containing a fragment of a poet's soul, allowing the wearer to channel their creativity.
+2. A painting infused with an artist's essence, granting viewers a glimpse into their unique perspective.
+3. A sword that holds the spirit of a legendary warrior, bestowing their combat skills upon the wielder.
+4. A diary that captures the soul of its author, preserving their memories and insights for future generations.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A book of spells that grants magical abilities to its reader.
+6. A time capsule filled with personal mementos to be opened in the future.
+7. A statue erected in honor of a historical figure.
+8. A digital archive of a person's writings and photographs.
+9. A family heirloom passed down through generations.
+10. A hologram of a famous musician performing their greatest hits.
+11. A voice recording of a beloved grandparent telling stories.
+12. A memoir detailing the life experiences of an influential leader.
+13. A virtual reality experience that simulates a person's life journey.
+14. A monument commemorating a significant historical event.
+15. A collection of letters written by a renowned author.
+16. A film biography depicting the life of a celebrated artist.
+17. A museum exhibit showcasing artifacts from an ancient civilization.
+18. A musical composition inspired by a personal experience.
+19. A portrait painted in memory of a loved one.
+20. A documentary chronicling the achievements of a famous scientist.
+21. A novel based on the life of a historical figure.
+22. A sculpture representing the ideals of a cultural movement.
+23. A diary documenting the daily life of a soldier during wartime.
+24. A tapestry depicting the history of a royal family.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

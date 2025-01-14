@@ -1,0 +1,21 @@
+pick_response_634.txt
+The user wants me to score candidates based on how well they match a specific theme, as exemplified by the provided examples and contrasted by the anti-examples.
+
+The specific theme seems to be: **a kitchen utensil made of a non-silver material with a silver inlay on it.**
+
+The anti-examples highlight what the theme is *not*:  items where silver is a primary component or a separate part (like a lid or end caps) rather than an inlay.
+
+I need to evaluate each candidate based on this specific theme and assign a score from 0 to 10.
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **High scores (7-10):**  Candidates that clearly fit the "utensil with silver inlay" pattern.
+*   **Mid-range scores (4-6):** Candidates that have silver elements but might not be inlays or might have silver as a more significant component.
+*   **Low scores (0-3):** Candidates where the silver element is clearly not an inlay or the base material isn't a utensil in the same way as the examples.<number>1</number><score>5</score>
+<number>2</number><score>4</score>
+<number>3</number><score>3</score>
+<number>4</number><score>6</score>
+<number>5</number><score>9</score>
+<number>6</number><score>5</score>
+<number>7</number><score>4</score>
+<number>8</number><score>3</score>

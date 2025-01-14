@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The discovery of the ozone hole over Antarctica in the 1980s was initially dismissed by some newspapers as a hoax.
+When Wilhelm Roentgen discovered X-rays in 1895, many newspapers initially dismissed his findings as a hoax.
+The Wright brothers' first powered flight in 1903 was initially reported by some newspapers as a hoax.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+The controversy surrounding the discovery of cold fusion in 1989.
+The initial dismissal of the theory of continental drift proposed by Alfred Wegener in the early 20th century.
+The controversy surrounding the discovery of the cosmic microwave background radiation in 1964.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. The controversy over the discovery of the exoplanet 51 Pegasi b in 1995.
+2. The controversy over the discovery of the neutrino particle in 1956.
+3. The controversy surrounding the discovery of the structure of DNA by Watson and Crick in 1953.
+4. When Barry Marshall and Robin Warren proposed that bacteria caused stomach ulcers in the 1980s, many newspapers dismissed their findings as a hoax. <<LEFTOVER>>
+5. The skepticism surrounding the first successful heart transplant by Christiaan Barnard in 1967.
+6. The initial skepticism about the existence of black holes in the early 20th century.
+7. The initial skepticism about the possibility of cloning mammals before Dolly the sheep was cloned in 1996.
+8. The controversy surrounding the discovery of the quark particle in 1964.

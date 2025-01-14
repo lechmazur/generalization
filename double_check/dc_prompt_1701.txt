@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects traditionally used for meditation or contemplation that incorporate natural materials arranged in precise geometric patterns
+
+Here are four examples intended to follow this theme:
+1. a Zen garden with carefully raked sand and stones
+2. a mandala made from colored sand
+3. a crystal grid arranged in a sacred geometric pattern
+4. a labyrinth made from stones in a garden
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a yoga mat
+6. a meditation cushion
+7. a Tibetan singing bowl
+8. a scented candle
+9. a bonsai tree
+10. a dreamcatcher
+11. a prayer bead necklace
+12. a bamboo flute
+13. a waterfall fountain
+14. a wind chime
+15. a salt lamp
+16. a meditation app
+17. a yoga block
+18. a mindfulness journal
+19. a zen koan
+20. a meditation bench
+21. a mala bracelet
+22. a gong
+23. a meditation bell
+24. a chakra chart
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

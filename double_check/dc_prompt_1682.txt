@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional cultural practices that involve rhythmic pounding or striking of grains to transform them into edible forms
+
+Here are four examples intended to follow this theme:
+1. Mortar and pestle used in West African fufu preparation
+2. Japanese mochi pounding with kine and usu
+3. Husking rice with a traditional wooden pestle in Southeast Asia
+4. Grinding maize with a metate in Mesoamerican cultures
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Grinding coffee beans with a modern electric grinder
+6. Using a blender to make a smoothie
+7. Chopping vegetables with a knife
+8. Using a rolling pin to flatten dough
+9. Crushing garlic with a garlic press
+10. Using a food processor to make hummus
+11. Beating eggs with a whisk
+12. Using a meat tenderizer on steak
+13. Mixing batter with an electric mixer
+14. Using a juicer to extract juice from fruits
+15. Grinding spices with an electric spice grinder
+16. Using a potato masher to mash potatoes
+17. Crushing ice with an ice crusher
+18. Using a mortar and pestle to make pesto
+19. Using a cheese grater to shred cheese
+20. Using a pasta maker to roll out pasta dough
+21. Using a bread machine to knead dough
+22. Using a stand mixer to knead bread dough
+23. Using a hand-cranked coffee grinder
+24. Using a nutcracker to crack nuts
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

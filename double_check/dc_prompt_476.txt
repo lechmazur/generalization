@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geometric shapes that can be constructed by truncating all vertices of a regular convex polychoron such that the original edges are reduced to points.
+
+Here are four examples intended to follow this theme:
+1. rectified 5-cell
+2. rectified tesseract
+3. rectified 16-cell
+4. rectified 24-cell
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. truncated cube
+6. truncated dodecahedron
+7. truncated icosahedron
+8. great rhombicuboctahedron
+9. snub cube
+10. truncated octahedron
+11. cantellated 120-cell
+12. runcinated 600-cell
+13. bitruncated 24-cell
+14. omnitruncated 5-cell
+15. regular octahedron
+16. regular icosahedron
+17. rhombic dodecahedron
+18. truncated square pyramid
+19. pentagonal prism
+20. hexagonal bipyramid
+21. truncated tetrahedron
+22. cuboctahedron
+23. icosidodecahedron
+24. rhombicosidodecahedron
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

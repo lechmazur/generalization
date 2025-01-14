@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that incorporate deliberate asymmetry to enhance urban integration with natural landscapes.
+
+Here are four examples intended to follow this theme:
+1. The Heydar Aliyev Center in Baku, Azerbaijan
+2. The Kunsthaus Graz in Austria
+3. The Casa da Musica in Porto, Portugal
+4. The CCTV Headquarters in Beijing, China
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Symmetrical skyscraper designs
+6. Traditional Japanese garden layouts
+7. Modernist architecture with geometric shapes
+8. Urban parks designed with symmetrical pathways
+9. Historical buildings with symmetrical facades
+10. Landscape architecture focusing on natural flow
+11. Urban planning that emphasizes grid patterns
+12. Architectural designs inspired by natural forms
+13. Buildings with symmetrical internal layouts
+14. Public spaces designed to mimic natural landscapes
+15. Structures built to blend into mountainous terrains
+16. Architectural projects that prioritize sustainability
+17. Urban developments that incorporate green spaces
+18. Buildings designed to reflect cultural heritage
+19. Modern architecture with curved, flowing lines
+20. Structures that use natural light to enhance interiors
+21. Urban designs that promote pedestrian traffic
+22. Architectural projects that focus on community integration
+23. Buildings designed to withstand natural disasters
+24. Structures that incorporate renewable energy sources
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

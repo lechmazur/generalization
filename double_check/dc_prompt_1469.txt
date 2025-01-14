@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Territorial markers used by both animals and human cultures that rely on scent or chemical signals to communicate boundaries
+
+Here are four examples intended to follow this theme:
+1. urine sprayed by tigers along forest paths
+2. pheromone trails left by ants to mark colony boundaries
+3. scent glands used by wolves to mark pack territories
+4. musk deer secretions used to mark Asian tribal hunting grounds
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. barbed wire fencing
+6. stone wall boundaries
+7. painted property lines
+8. guard towers
+9. warning signs
+10. border checkpoints
+11. flag markers
+12. bird songs
+13. visual displays by peacocks
+14. graffiti tags
+15. hedge rows
+16. moats
+17. electric fences
+18. security cameras
+19. motion sensors
+20. guard dogs
+21. tribal tattoos
+22. cairns
+23. tree blazes
+24. GPS coordinates
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

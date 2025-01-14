@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Figurines or statues of historical figures where the figure is depicted holding a book and the title of the book is clearly visible and legible.
+
+Here are four examples intended to follow this theme:
+1. A resin statue of Frederick Douglass holding a copy of his autobiography, "Narrative of the Life of Frederick Douglass, an American Slave."
+2. A bronze figurine of Abraham Lincoln with a miniature replica of the Bible in his hands.
+3. A porcelain statuette of Marie Curie holding a textbook titled "Traité de Physique Élémentaire."
+4. A wooden carving of William Shakespeare holding a copy of his play "Hamlet."
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bust of Socrates.
+6. A painting of Queen Elizabeth I.
+7. A photograph of Albert Einstein.
+8. A figurine of Joan of Arc with a sword.
+9. A statue of Nelson Mandela with his fist raised.
+10. A miniature replica of the Rosetta Stone.
+11. A model of the Eiffel Tower.
+12. A statue of a Roman soldier.
+13. A figurine of a ballet dancer.
+14. A bust of Winston Churchill with a cigar.
+15. A statue of Leonardo da Vinci holding a paintbrush.
+16. A figurine of Mozart playing the piano.
+17. A statue of Amelia Earhart with a pilot's helmet.
+18. A figurine of a generic scholar reading a scroll.
+19. A statue of a medieval monk holding a bible, the title not visible.
+20. A painting of a library.
+21. A photograph of a historical manuscript.
+22. A model of a printing press.
+23. A statue of Benjamin Franklin with a kite.
+24. A figurine of Rosa Parks sitting on a bus.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

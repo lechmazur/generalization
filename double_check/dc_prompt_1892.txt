@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures designed by Pritzker Prize-winning architects that incorporate innovative use of materials or construction techniques.
+
+Here are four examples intended to follow this theme:
+1. Fallingwater by Frank Lloyd Wright, featuring cantilevered concrete terraces integrated with natural rock formations
+2. The Guggenheim Museum Bilbao by Frank Gehry, known for its titanium-clad curvilinear forms
+3. The Centre Pompidou-Metz by Shigeru Ban, utilizing a woven wooden roof structure
+4. The Serpentine Pavilion 2002 by Toyo Ito, characterized by its lightweight steel lattice design
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Eiffel Tower, a landmark iron lattice structure
+6. The Burj Khalifa, the world's tallest skyscraper
+7. The Sydney Opera House, known for its shell-like roof design
+8. The Colosseum, an ancient Roman amphitheater
+9. The Shard, a glass-clad skyscraper in London
+10. The Sagrada Familia, a basilica with intricate stone carvings
+11. The Empire State Building, an iconic Art Deco skyscraper
+12. The Parthenon, a classical Greek temple
+13. The Louvre Pyramid, a modern glass and metal structure
+14. The Flatiron Building, a triangular-shaped early skyscraper
+15. The Chrysler Building, known for its Art Deco spire
+16. The Pantheon, a Roman temple with a massive dome
+17. The CN Tower, a telecommunications tower in Toronto
+18. The Golden Gate Bridge, a suspension bridge in San Francisco
+19. The Taj Mahal, a white marble mausoleum
+20. The Gherkin, a modern office building in London
+21. The Hoover Dam, a concrete arch-gravity dam
+22. The Atomium, a structure representing an iron crystal
+23. The Gateway Arch, a stainless steel monument in St. Louis
+24. The Petronas Towers, twin skyscrapers in Kuala Lumpur
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

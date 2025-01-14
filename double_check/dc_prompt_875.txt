@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that have been repurposed for a different primary function than originally intended
+
+Here are four examples intended to follow this theme:
+1. a decommissioned church converted into a bookstore
+2. an old railway station transformed into a museum
+3. a former factory now serving as a luxury apartment complex
+4. a disused water tower repurposed into a boutique hotel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a lighthouse still used for navigation
+6. a modern skyscraper designed for office spaces
+7. a historic castle preserved as a tourist attraction
+8. a shopping mall built from scratch
+9. a newly constructed airport terminal
+10. a traditional Japanese tea house
+11. a contemporary art gallery built as an art gallery
+12. a sports stadium used exclusively for sporting events
+13. a university library designed for academic use
+14. a medieval fortress restored for historical tours
+15. a modern hospital built for medical purposes
+16. a newly built concert hall for performances
+17. a government building used for administrative offices
+18. a residential house built as a family home
+19. a bridge constructed for transportation
+20. a newly designed theater for stage productions
+21. a cathedral still used for religious services
+22. a modern hotel built as a hotel
+23. a public park designed for recreation
+24. a newly constructed school building
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

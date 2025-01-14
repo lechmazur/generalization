@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Festivals that celebrate cultural heritage through music and dance, originating from island nations in the Caribbean.
+
+Here are four examples intended to follow this theme:
+1. Carnival of Trinidad and Tobago
+2. Junkanoo Festival in The Bahamas
+3. Crop Over Festival in Barbados
+4. Vincentian Carnival in Saint Vincent and the Grenadines
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Mardi Gras in New Orleans
+6. Rio de Janeiro Carnival in Brazil
+7. Oktoberfest in Germany
+8. Diwali Festival of Lights in India
+9. Chinese New Year Celebrations
+10. Edinburgh Festival Fringe in Scotland
+11. La Tomatina Festival in Spain
+12. Day of the Dead in Mexico
+13. Holland Festival in the Netherlands
+14. Sundance Film Festival in the United States
+15. Notting Hill Carnival in London
+16. Sydney Festival in Australia
+17. Coachella Valley Music and Arts Festival in the United States
+18. Glastonbury Festival in England
+19. Hanami Cherry Blossom Festivals in Japan
+20. St. Patrick's Day Celebrations in Ireland
+21. La Mercè Festival in Barcelona, Spain
+22. Fiesta San Fermín in Pamplona, Spain
+23. Cannes Film Festival in France
+24. Venice Carnival in Italy
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things named after scientists that are not directly related to their field of study
+
+Here are four examples intended to follow this theme:
+1. Avogadro's number (named after chemist Avogadro, but used in physics)
+2. Euler characteristic (named after mathematician Euler, but used in topology)
+3. Doppler effect (named after physicist Doppler, but used in astronomy)
+4. Pascal's law (named after mathematician Pascal, but used in fluid mechanics)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Newton's laws of motion
+6. Einstein's theory of relativity
+7. Boyle's law
+8. Planck constant
+9. Mendel's laws of inheritance
+10. Darwin's theory of evolution
+11. Kepler's laws of planetary motion
+12. Ohm's law
+13. Faraday's law of induction
+14. Maxwell's equations
+15. Pythagoras theorem
+16. Gauss's law
+17. Heisenberg uncertainty principle
+18. Schrödinger equation
+19. Hooke's law
+20. Archimedes principle
+21. Bernoulli's principle
+22. Coulomb's law
+23. Ampere's law
+24. Pauli exclusion principle
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

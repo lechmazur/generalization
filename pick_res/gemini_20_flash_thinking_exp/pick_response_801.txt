@@ -1,0 +1,28 @@
+pick_response_801.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+The examples (cell membrane, dialysis machine, kidney) all relate to selective separation or filtering of substances.
+
+The anti-examples (turnstile, ventilation duct, revolving door) relate to controlling passage or flow, but not necessarily with a selective filtering aspect.
+
+Therefore, the specific theme is **selective separation or filtering of substances**.
+
+I need to evaluate each candidate based on how well it performs selective separation or filtering, while being careful not to score based on general passage or flow control.
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **drawbridge:** Primarily controls passage, not selective separation. Low score.
+*   **pipeline:** Transports substances, but not necessarily with selective separation. Could have some filtering elements, but not its primary function. Moderate score.
+*   **air filter:**  Specifically designed for selective separation of particles from air. High score.
+*   **door:** Controls passage, not selective separation. Low score.
+*   **window:** Allows light and sometimes air to pass, but not primarily for selective separation. Low score.
+*   **canal:** Transports water, but not necessarily with selective separation. Moderate score.
+*   **tunnel:** Allows passage, not selective separation. Low score.
+*   **gate:** Controls passage, not selective separation. Low score.<number>1</number><score>1</score>
+<number>2</number><score>4</score>
+<number>3</number><score>9</score>
+<number>4</number><score>2</score>
+<number>5</number><score>3</score>
+<number>6</number><score>5</score>
+<number>7</number><score>2</score>
+<number>8</number><score>1</score>

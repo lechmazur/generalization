@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Industrial control systems developed before 1990 that are still in use today
+
+Here are four examples intended to follow this theme:
+1. Programmable Logic Controllers (PLCs) from the 1980s used in manufacturing plants
+2. SCADA systems installed in the 1970s for water treatment facilities
+3. Analog control panels from the 1960s in power generation stations
+4. Early distributed control systems (DCS) from the 1980s in oil refineries
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Modern IoT-enabled smart home devices
+6. Robotic assembly lines introduced in the 2000s
+7. Digital twin technology for industrial simulations
+8. AI-driven predictive maintenance systems
+9. Cloud-based industrial automation platforms
+10. 3D printing machines used in prototyping
+11. Autonomous drones for warehouse inventory management
+12. Blockchain-based supply chain tracking systems
+13. Augmented reality tools for factory worker training
+14. Cybersecurity software for industrial networks
+15. Energy-efficient HVAC systems in modern buildings
+16. Smart grid technology for electricity distribution
+17. Wearable devices for monitoring worker safety
+18. Advanced robotics used in automotive manufacturing
+19. Machine learning algorithms for quality control
+20. Real-time data analytics platforms for factories
+21. Wireless sensor networks in agriculture
+22. Virtual reality systems for industrial design
+23. Edge computing devices for process optimization
+24. 5G-enabled industrial communication systems
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural practices or artifacts that deliberately incorporate incompleteness or unfinished elements as a core philosophical principle
+
+Here are four examples intended to follow this theme:
+1. Japanese kintsugi pottery, where broken pieces are repaired with gold, emphasizing imperfections
+2. unfinished novels or manuscripts left intentionally incomplete by authors
+3. deliberately asymmetrical or incomplete designs in wabi-sabi aesthetics
+4. musical compositions with open-ended or unresolved endings
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a perfectly symmetrical sculpture
+6. a fully completed jigsaw puzzle
+7. a polished marble statue
+8. a meticulously edited film
+9. a flawless diamond
+10. a finished painting with no visible brushstrokes
+11. a fully constructed skyscraper
+12. a complete symphony with a definitive ending
+13. a perfectly tailored suit
+14. a fully baked cake with no cracks or imperfections
+15. a finalized architectural blueprint
+16. a fully edited and published novel
+17. a seamless ceramic vase
+18. a completed crossword puzzle
+19. a perfectly restored antique
+20. a fully assembled piece of furniture
+21. a flawless digital rendering
+22. a finished quilt with no loose threads
+23. a complete set of matching dinnerware
+24. a fully developed video game with no bugs
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Medieval European women who were executed and later had their convictions officially overturned or were formally exonerated by religious or government authorities
+
+Here are four examples intended to follow this theme:
+1. Joan of Arc, executed in 1431 and later exonerated by the Catholic Church in 1456
+2. Margery Jourdemayne, accused of witchcraft and executed in 1441, later cleared of charges posthumously
+3. Petronilla de Meath, executed for heresy in 1324, later exonerated by the Church in the 20th century
+4. Anne Askew, executed for heresy in 1546, later recognized as a martyr by Protestant reformers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a medieval knight executed for treason
+6. a woman accused of witchcraft but never formally exonerated
+7. a male heretic executed and later pardoned
+8. a woman executed for adultery in medieval Europe
+9. a woman accused of witchcraft who escaped execution
+10. a medieval queen executed for political reasons
+11. a woman executed for theft in medieval Europe
+12. a woman accused of witchcraft but acquitted at trial
+13. a woman executed for murder in medieval Europe
+14. a woman executed for treason without exoneration
+15. a woman accused of witchcraft but pardoned before execution
+16. a woman executed for heresy without later exoneration
+17. a woman executed for blasphemy in medieval Europe
+18. a woman executed for witchcraft in colonial America
+19. a woman executed for sorcery in medieval Europe
+20. a woman executed for rebellion in medieval Europe
+21. a woman executed for poisoning in medieval Europe
+22. a woman executed for infanticide in medieval Europe
+23. a woman executed for apostasy in medieval Europe
+24. a woman executed for witchcraft in early modern Europe
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

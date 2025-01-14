@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): agricultural systems that utilize water-based land management techniques
+
+Here are four examples intended to follow this theme:
+1. Rice terraces in Southeast Asia
+2. Flooded fields for cranberry cultivation
+3. Wetland rice farming in Africa
+4. Paddy fields in Japan
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Irrigation systems in desert agriculture
+6. Drip irrigation for vineyards
+7. Greenhouse farming with hydroponics
+8. Water conservation techniques in arid regions
+9. Aquaponics systems
+10. Rainwater harvesting for crop irrigation
+11. Subsurface drip irrigation in orchards
+12. Sprinkler systems for lawn maintenance
+13. Water recycling in urban agriculture
+14. Fish farming in ponds
+15. Canal irrigation in ancient civilizations
+16. Water management in hydroelectric dams
+17. Swamp-based agriculture in the Amazon
+18. Water-efficient crop varieties
+19. Artificial lakes for water storage
+20. Water purification systems for farming
+21. Soil moisture sensors for precision agriculture
+22. Water distribution networks in rural areas
+23. Water rights and allocation in agriculture
+24. Stormwater management in urban farming
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

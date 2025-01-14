@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices or systems that use repeated random sampling to find optimal solutions in situations with fixed physical constraints
+
+Here are four examples intended to follow this theme:
+1. A robotic arm learning to grasp objects of different shapes and sizes within a confined workspace using a Monte Carlo tree search algorithm.
+2. A software program designing a complex antenna within specific size and material constraints by repeatedly generating and evaluating random designs based on genetic algorithms.
+3. A simulation optimizing the placement of wind turbines in a wind farm with geographical limitations and cost considerations using a randomized search approach.
+4. A protein folding simulation predicting the lowest energy conformation of a protein under physiological conditions using simulated annealing.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A coin flip
+6. Rolling a dice
+7. A lottery draw
+8. A random number generator
+9. A survey with random sampling
+10. A/B testing of website designs
+11. Gradient descent optimization
+12. Linear programming
+13. Dynamic programming
+14. Simulated bifurcation
+15. Markov Chain Monte Carlo for statistical inference
+16. Random walk simulations
+17. Stochastic gradient descent
+18. A physics engine simulating projectile motion
+19. A weather forecasting model
+20. A traffic flow simulation
+21. A stock market prediction model
+22. A machine learning model for image recognition
+23. A neural network for natural language processing
+24. A computer program playing chess using a minimax algorithm
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

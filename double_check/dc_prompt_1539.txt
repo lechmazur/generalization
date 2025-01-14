@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or practices that claim to balance opposing forces while lacking clear empirical measurements of those forces
+
+Here are four examples intended to follow this theme:
+1. Feng shui principles for interior design, claiming to harmonize "chi" without verifiable methods to detect or measure it.
+2. Certain alternative medicine practices that purport to balance "humors" or "energies" within the body, lacking scientific instruments or methods to quantify these supposed forces.
+3. Personality typing systems based on four temperaments or similar archetypes, presented as balanced opposing traits without objective metrics for these personality dimensions.
+4. Some management theories advocating for balancing "innovation" and "stability" within organizations, without clear definitions or measurements of these concepts.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Checks and balances in government
+6. Supply and demand in economics
+7. A balanced diet
+8. Work-life balance
+9. Yin and yang philosophy
+10. Homeostasis in biology
+11. A scale weighing two objects
+12. A tightrope walker
+13. Negotiating a compromise
+14. Balancing a budget
+15. The pH scale
+16. A seesaw
+17. Calibrating a scientific instrument
+18. Mixing chemicals in a lab
+19. A gymnast performing a handstand
+20. A thermostat regulating temperature
+21. The justice system
+22. Ecosystems in nature
+23. Cognitive behavioral therapy
+24. A balanced chemical equation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

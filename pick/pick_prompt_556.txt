@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Historic grain silos in Chicago harboring critical populations of chimney swifts
+Old water towers in Texas serving as primary roosting sites for Mexican free-tailed bats
+Decommissioned oil platforms off California's coast supporting sea lion colonies
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Empty barns housing owls
+Abandoned subway tunnels with rat colonies
+Raccoons in chimneys
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Abandoned railway bridges in the Pacific Northwest hosting peregrine falcon nests <<LEFTOVER>>
+2. Pigeons nesting under bridges
+3. Bees colonizing wall cavities
+4. Rabbits burrowing under concrete slabs
+5. Foxes denning in drainage pipes
+6. Squirrels living in attics
+7. Termites in wooden structures
+8. Abandoned mine shafts

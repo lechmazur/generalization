@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): astronomical phenomena that have inspired recurring motifs in modernist poetry written between 1910-1940
+
+Here are four examples intended to follow this theme:
+1. The moon's phases
+2. The aurora borealis
+3. Comets
+4. Constellations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The ocean's tides
+6. The changing seasons
+7. The concept of time
+8. The symbolism of light and darkness
+9. The myth of Icarus
+10. The concept of infinity
+11. The imagery of flight
+12. The symbolism of the sun
+13. The metaphor of the journey
+14. The theme of isolation
+15. The concept of fate
+16. The imagery of mirrors
+17. The symbolism of water
+18. The theme of transformation
+19. The concept of the sublime
+20. The imagery of storms
+21. The symbolism of fire
+22. The theme of rebirth
+23. The concept of the void
+24. The imagery of shadows
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Musical instruments designed for four-string bassists that utilize a specific configuration of two humbucker pickups and a single volume and tone control knob.
+
+Here are four examples intended to follow this theme:
+1. A bass guitar with a sleek body design, featuring two humbucker pickups and controlled by a single volume and tone knob.
+2. A four-string bass with a unique finish, equipped with dual humbucker pickups and a streamlined control setup of one volume and one tone knob.
+3. A bass instrument tailored for four-string players, boasting two humbucker pickups and simplified controls with a single volume and tone knob.
+4. A professional-grade four-string bass, designed with two humbucker pickups and a minimalist control layout featuring one volume and one tone knob.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A five-string bass with two humbucker pickups and individual volume controls for each pickup.
+6. A four-string bass with a single humbucker pickup and separate volume and tone controls.
+7. A six-string bass guitar featuring three single-coil pickups and a five-way pickup selector switch.
+8. A four-string bass with two humbucker pickups, a three-band equalizer, and separate volume and tone controls.
+9. A bass guitar with a P-J pickup configuration and individual volume controls for each pickup.
+10. A four-string bass with two humbucker pickups and a blend control instead of separate volume knobs.
+11. A fretless four-string bass with two humbucker pickups and a three-way pickup selector switch.
+12. A four-string bass with active electronics, two humbucker pickups, and a four-band equalizer.
+13. A bass guitar with two humbucker pickups, a coil-split function, and separate volume and tone controls.
+14. A four-string bass with two humbucker pickups and a master volume control but no tone control.
+15. A bass guitar with a single humbucker pickup and a three-band equalizer.
+16. A four-string bass with two humbucker pickups and a push-pull pot for coil splitting.
+17. A bass guitar with two humbucker pickups, a blend control, and a three-band equalizer.
+18. A four-string bass with two humbucker pickups and a five-way rotary pickup selector.
+19. A bass guitar with two humbucker pickups and a master volume control but individual tone controls for each pickup.
+20. A four-string bass with two humbucker pickups and a two-band equalizer.
+21. A bass guitar with two humbucker pickups and a master tone control but individual volume controls for each pickup.
+22. A four-string bass with two humbucker pickups and a phase switch.
+23. A bass guitar with two humbucker pickups and a master volume control but no tone control.
+24. A four-string bass with two humbucker pickups and a blend control but no tone control.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical scientific discoveries made through the use of advanced technological instruments that were first observed in the 21st century
+
+Here are four examples intended to follow this theme:
+1. Detection of gravitational waves by LIGO in 2015
+2. Observation of the Higgs boson at the Large Hadron Collider in 2012
+3. First image of a black hole captured by the Event Horizon Telescope in 2019
+4. Discovery of exoplanets using the Kepler Space Telescope in the early 21st century
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Invention of the telescope by Galileo in the 17th century
+6. Discovery of penicillin by Alexander Fleming in 1928
+7. Development of the polio vaccine in the 1950s
+8. First successful cloning of a mammal, Dolly the sheep, in 1996
+9. Mapping of the human genome completed in 2003
+10. Discovery of the structure of DNA in 1953
+11. First moon landing in 1969
+12. Invention of the printing press in the 15th century
+13. Discovery of X-rays by Wilhelm Conrad Roentgen in 1895
+14. First successful heart transplant in 1967
+15. Development of the first computer in the mid-20th century
+16. Discovery of the electron in 1897
+17. First flight of the Wright brothers in 1903
+18. Invention of the steam engine in the 18th century
+19. Discovery of radioactivity by Marie Curie in the late 19th century
+20. First use of anesthesia in surgery in the 19th century
+21. Development of the first vaccine for smallpox in 1796
+22. Discovery of the neutron in 1932
+23. First successful organ transplant in 1954
+24. Invention of the light bulb by Thomas Edison in the 19th century
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

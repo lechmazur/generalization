@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): innovations or practices that emerged from resource scarcity or crisis and led to significant societal advancements
+
+Here are four examples intended to follow this theme:
+1. The development of synthetic rubber during World War II
+2. The creation of the Green Revolution in response to food shortages
+3. The invention of the bicycle during the 19th-century horse shortage
+4. The establishment of urban community gardens during economic downturns
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the smartphone
+6. The creation of the internet
+7. The development of the steam engine
+8. The discovery of penicillin
+9. The invention of the airplane
+10. The creation of the printing press
+11. The development of nuclear power
+12. The invention of the light bulb
+13. The creation of the World Wide Web
+14. The development of GPS technology
+15. The invention of the refrigerator
+16. The creation of the assembly line
+17. The development of the electric car
+18. The invention of the washing machine
+19. The creation of social media platforms
+20. The development of renewable energy sources
+21. The invention of the microwave oven
+22. The creation of the first personal computer
+23. The development of the telephone
+24. The invention of the television
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

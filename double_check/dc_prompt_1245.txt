@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional dishes that incorporate seasonal herbs and are prepared during specific transitional periods of the year.
+
+Here are four examples intended to follow this theme:
+1. Soba noodles served with fresh mugwort during the spring equinox
+2. Rice cakes mixed with chrysanthemum leaves for the autumn festival
+3. Dumplings filled with chives and served during the winter solstice
+4. A soup featuring basil and eaten during the summer solstice
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Grilled vegetables seasoned with rosemary
+6. A stew with thyme, enjoyed in winter
+7. Salad with mint, popular in summer
+8. Pasta with sage, a fall favorite
+9. Roast with oregano, a dish for any season
+10. Herb-infused tea, enjoyed year-round
+11. Fish baked with dill, a summer dish
+12. Chicken with tarragon, a spring meal
+13. Potatoes with parsley, a common side dish
+14. Beef stew with cilantro, a winter warmer
+15. Marinated olives with basil, a Mediterranean appetizer
+16. Herb-crusted lamb, a festive dish
+17. Quiche with chives, a brunch staple
+18. Soup with lemongrass, a Southeast Asian favorite
+19. Pesto sauce with basil, used in various dishes
+20. Herb-roasted turkey, a Thanksgiving classic
+21. Salmon with dill sauce, a Scandinavian specialty
+22. Herb garden salad, a fresh summer option
+23. Spaghetti with garlic and parsley, an Italian classic
+24. Herb-infused vinegar, used in dressings and marinades
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

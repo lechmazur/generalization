@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Art installations that incorporate live animals and soundscapes to evoke emotional responses
+
+Here are four examples intended to follow this theme:
+1. A room filled with hundreds of fluttering butterflies and ambient forest sounds
+2. An aquarium tunnel with bioluminescent jellyfish and whale song recordings
+3. A walk-through aviary with tropical birds and rainforest acoustics
+4. A meadow-like space with grazing sheep and wind chimes activated by their movement
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of horses in a field
+6. A sculpture made from bird feathers
+7. A video projection of swimming fish
+8. Wind chimes hanging in a garden
+9. A taxidermy display of exotic animals
+10. Nature sounds playing through speakers
+11. A mechanical butterfly mobile
+12. Photos of wildlife in their natural habitat
+13. An electronic bird call device
+14. A zen garden with recorded meditation sounds
+15. Animal footprints cast in bronze
+16. A digital aquarium screen
+17. Wind-activated musical sculptures
+18. A collection of animal-inspired musical instruments
+19. Ceramic sculptures of birds
+20. A water fountain with nature recordings
+21. Animal shadows projected on walls
+22. A kinetic sculpture of flying birds
+23. An interactive digital pet display
+24. A room with animal-themed wallpaper and sounds
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Remote mountain monasteries that have continuously produced a single type of food or beverage for over 300 years
+
+Here are four examples intended to follow this theme:
+1. The monks of Tengboche Monastery in Nepal, renowned for their yak butter tea, a staple they have continuously produced for over three centuries.
+2. The secluded Ganden Monastery in Tibet, where monks have cultivated and brewed a unique medicinal herbal tea for over 300 years.
+3. The isolated Sümela Monastery in Turkey, where a specific type of honey, harvested from the surrounding cliffs, has been produced continuously by the resident monks for over three centuries.
+4. The remote Bhutanese monastery of Taktsang, where monks have been producing a special type of red rice wine for ceremonial purposes for over 300 years.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A family recipe for apple pie passed down for generations.
+6. A vineyard in France producing the same wine for over 200 years.
+7. A brewery in Germany known for its consistent beer recipe.
+8. A specific type of cheese made in a Swiss village for centuries.
+9. A remote island community known for its unique fishing methods.
+10. A type of bread baked in a small Italian town for over 100 years.
+11. A specific coffee bean grown in Colombia for generations.
+12. A particular type of olive oil produced in Greece for centuries.
+13. A remote village in Japan known for its pottery making tradition.
+14. A specific type of silk produced in China for centuries.
+15. A monastery known for its illuminated manuscripts.
+16. A convent known for its embroidery work.
+17. A temple known for its intricate carvings.
+18. A shrine known for its annual pilgrimage.
+19. A hermitage known for its solitary lifestyle.
+20. A community known for its sustainable farming practices.
+21. A group of artisans known for their woodworking skills.
+22. A family known for its blacksmithing tradition.
+23. A town known for its annual music festival.
+24. A city known for its historical architecture.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Experiences or phenomena that evoke the sensation of liminality, specifically the unsettling awareness of being on a threshold between two distinct states or realities, where the familiar dissolves and the unknown hasn't yet fully formed.
+
+Here are four examples intended to follow this theme:
+1. Standing in the doorway of an old, abandoned house, feeling the eerie transition from the safety of the outside world to the unknown darkness within.
+2. Waking up from a vivid dream, momentarily unable to distinguish between the dream world and reality, feeling caught between two states of consciousness.
+3. Experiencing the first moments of a new year, feeling the shift from the past year's familiarity to the uncertainty of the future.
+4. Walking through a dense fog where the usual landmarks are obscured, creating a sense of being between the known path and an uncharted territory.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Feeling nostalgic while looking at old photographs.
+6. Experiencing jet lag after a long flight.
+7. Standing at the edge of a cliff, feeling the thrill of danger.
+8. Attending a graduation ceremony, marking the end of one chapter and the beginning of another.
+9. Walking through a bustling city street, feeling overwhelmed by the crowd.
+10. Feeling anxious before a major life decision.
+11. Experiencing culture shock while traveling abroad.
+12. Feeling a sense of accomplishment after completing a difficult task.
+13. Standing in line at a theme park, anticipating the thrill of a roller coaster.
+14. Feeling disoriented in a new environment.
+15. Experiencing the calm after a storm.
+16. Feeling the excitement of a new relationship.
+17. Walking through a haunted house attraction, feeling scared but safe.
+18. Experiencing the first snowfall of the year.
+19. Feeling the relief of finishing a long journey.
+20. Standing at the top of a mountain, feeling a sense of achievement.
+21. Experiencing the silence of a library, feeling a sense of peace.
+22. Feeling the rush of adrenaline during a competitive sports event.
+23. Experiencing the warmth of a cozy fireplace on a cold night.
+24. Feeling the joy of reuniting with a loved one after a long time apart.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

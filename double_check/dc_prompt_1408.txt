@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or experiences that describe a temporary suspension of normal time perception where the observer feels caught between two distinct states or periods
+
+Here are four examples intended to follow this theme:
+1. That moment after hitting “send” on an important email, before the recipient responds.
+2. The pause between the last firework exploding and the applause of the crowd.
+3. The second a climber reaches the summit, before beginning the descent.
+4. The hush in a theater after the curtain falls, before the audience begins to stir.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A child waiting for Christmas morning.
+6. A person holding their breath underwater.
+7. The period between applying for a job and receiving a response.
+8. A basketball player shooting a free throw.
+9. A runner crossing the finish line of a marathon.
+10. The moment of silence before a concert begins.
+11. A student waiting for exam results.
+12. The time spent in a dream.
+13. The period between asking someone on a date and receiving an answer.
+14. A baseball player waiting for the pitch.
+15. The moment a judge delivers a verdict.
+16. A pregnant woman waiting for labor to begin.
+17. The time it takes for a computer to boot up.
+18. A driver waiting for a traffic light to turn green.
+19. The period between two breaths.
+20. A surfer riding a wave.
+21. The moment a plane takes off.
+22. A person meditating.
+23. The time between lightning and thunder.
+24. A photographer waiting for the perfect shot.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

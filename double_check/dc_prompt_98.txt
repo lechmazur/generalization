@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Stories or concepts that involve the manipulation or perception of hidden dimensions or realities beyond the ordinary senses.
+
+Here are four examples intended to follow this theme:
+1. a character who discovers they can see through walls into parallel universes
+2. a story about a device that allows users to perceive time as a physical dimension
+3. a concept where dreams are revealed to be glimpses of alternate realities
+4. a narrative about a hidden world accessible only through specific sound frequencies
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a detective solving a murder mystery
+6. a scientist studying the behavior of light
+7. a person experiencing déjà vu
+8. a story about a haunted house
+9. a character who can read minds
+10. a tale about a magical portal to another world
+11. a narrative involving time travel to the past
+12. a story about a person who can predict the future
+13. a concept where memories can be erased or altered
+14. a character who can communicate with animals
+15. a story about a hidden treasure map
+16. a narrative involving a secret society
+17. a tale about a person who can control the weather
+18. a story about a character who can become invisible
+19. a concept where emotions are visible as colors
+20. a narrative about a person who can teleport
+21. a story about a character who can manipulate dreams
+22. a tale about a person who can stop time
+23. a narrative involving a parallel universe where history is different
+24. a story about a character who can see ghosts
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

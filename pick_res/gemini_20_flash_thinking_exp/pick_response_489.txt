@@ -1,0 +1,22 @@
+pick_response_489.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The examples clearly point to "smokers" as the specific theme, focusing on the method of cooking using smoke. The anti-examples are cooking appliances that use heat but not necessarily smoke as the primary cooking method.
+
+I need to evaluate each candidate based on its ability to produce smoke for cooking.
+
+1. **Microwave oven:** Uses microwaves, not smoke. Definitely not a match.
+2. **Gas grill:** Primarily uses gas heat, can add wood chips for smoke but not its primary function.
+3. **Pellet smoker:**  Burns wood pellets to generate smoke and heat. A clear match.
+4. **Wood-fired pizza oven:** Primarily uses intense heat from wood fire, some smoke is involved but not the primary cooking method for "smoking".
+5. **Commercial kitchen range:**  General cooking appliance, no inherent smoking capability.
+6. **Toaster oven:** Small electric oven, no smoking capability.
+7. **Barbecue grill:** Can be used for smoking, especially with a lid and wood chips. Closer to the theme than a gas grill.
+8. **Broiler:** Uses direct radiant heat, no smoke involved.
+
+Based on this analysis, I can assign scores.<number>1</number><score>1</score>
+<number>2</number><score>4</score>
+<number>3</number><score>9</score>
+<number>4</number><score>5</score>
+<number>5</number><score>0</score>
+<number>6</number><score>1</score>
+<number>7</number><score>6</score>
+<number>8</number><score>2</score>

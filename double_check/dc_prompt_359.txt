@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Representations of authority or power that utilize abstracted or distorted facial features to convey a specific emotional or spiritual state.
+
+Here are four examples intended to follow this theme:
+1. A tribal mask with exaggerated, sharp angles and a gaping mouth, representing the ferocity of a war god.
+2. A statue of a political leader with elongated, smooth features and a serene expression, symbolizing wisdom and composure.
+3. A painting of a demonic figure with swirling, distorted eyes and a grotesque grin, evoking fear and malevolence.
+4. An icon of a saint with enlarged, upward-gazing eyes and a gentle smile, conveying piety and spiritual transcendence.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A photograph of a king wearing a crown.
+6. A police officer's badge.
+7. A judge's gavel.
+8. A military uniform.
+9. A superhero with exaggerated muscles.
+10. A cartoon villain with a scowling face.
+11. A roaring lion.
+12. A snarling wolf.
+13. A cowering dog.
+14. A majestic eagle.
+15. A portrait of a queen with a regal pose.
+16. A sculpture of a muscular athlete.
+17. A painting of a weeping woman.
+18. A photograph of a smiling child.
+19. A drawing of a frowning man.
+20. A film still of an actor expressing anger.
+21. A theatrical mask depicting sadness.
+22. A religious icon with a halo.
+23. A political cartoon of a leader with a large nose.
+24. A caricature of a celebrity with exaggerated features.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

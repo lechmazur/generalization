@@ -1,0 +1,29 @@
+pick_response_325.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are "Dinosaur bone", "Fossil ammonite", and "Petrified wood". These all represent the preserved remains of once-living organisms that have been mineralized. The anti-examples are "Petrified nest", "Dinosaur egg", and "Coprolite". These are related to the examples in that they are associated with ancient life, but they are not the preserved remains of the organism itself.
+
+The task is to evaluate a list of candidates based on how well they fit the specific theme, not the broader theme.
+
+Let's analyze each candidate:
+
+1. **Stalactite**: Formed from mineral deposits in caves. Not related to living organisms. Score: 0
+
+2. **Mud cracks (preserved in rock)**:  A sedimentary structure, not the remains of an organism. Score: 1
+
+3. **Amber**: Fossilized tree resin, which can contain preserved organisms. This fits the theme of preserved remains of a once-living organism. Score: 9
+
+4. **Opalized belemnite**: A belemnite is an extinct cephalopod. Opalized means it has been replaced by opal. This fits the theme. Score: 10
+
+5. **Coal**: Formed from accumulated plant matter. This fits the theme of preserved remains of once-living organisms. Score: 8
+
+6. **Oil shale**: Sedimentary rock containing organic matter that can be converted to oil. While derived from organic matter, it's not the preserved structure itself. Score: 4
+
+7. **Trace fossil (like a footprint)**: Evidence of past life activity, but not the organism itself. Similar to the anti-examples. Score: 2
+
+8. **Concretion**: A hard, compact mass of sedimentary rock formed by the precipitation of mineral cement within the spaces between particles. Not directly related to the preservation of an organism. Score: 1<number>1</number><score>0</score>
+<number>2</number><score>1</score>
+<number>3</number><score>9</score>
+<number>4</number><score>10</score>
+<number>5</number><score>8</score>
+<number>6</number><score>4</score>
+<number>7</number><score>2</score>
+<number>8</number><score>1</score>

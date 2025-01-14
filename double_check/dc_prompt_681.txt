@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or entities that exhibit a natural phenomenon typically associated with living organisms but are artificially created or enhanced for artistic or functional purposes.
+
+Here are four examples intended to follow this theme:
+1. A robotic arm that mimics human movement
+2. A synthetic heart used in medical training
+3. A bioengineered plant that glows in the dark
+4. An artificial neural network designed to learn and adapt
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A prosthetic limb
+6. A genetically modified crop
+7. A 3D printed organ
+8. A bionic eye
+9. A self-healing material
+10. A drone that can fly autonomously
+11. A smart home system that learns user preferences
+12. A virtual reality environment that simulates real-world physics
+13. A robot designed to perform industrial tasks
+14. A wearable device that monitors health metrics
+15. A computer program that simulates weather patterns
+16. A sculpture made from recycled materials
+17. A painting that uses optical illusions
+18. A musical instrument that uses electronic sounds
+19. A piece of jewelry that changes color with temperature
+20. A car with an advanced autopilot system
+21. A toy that responds to voice commands
+22. A building designed to be energy-efficient
+23. A smartphone app that tracks fitness activities
+24. A camera that uses artificial intelligence to enhance photos
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

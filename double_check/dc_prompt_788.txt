@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations that enhance human perception of natural landscapes through real-time data overlay.
+
+Here are four examples intended to follow this theme:
+1. An augmented reality app that overlays real-time geological information, including rock formations and mineral compositions, onto a mountain vista during a hike.
+2. Smart glasses that display the names and characteristics of plants and animals encountered while walking through a forest, using image recognition and a connected database.
+3. A drone-mounted thermal camera feed streamed to a mobile device, revealing heat signatures of wildlife in a grassland ecosystem during a safari.
+4. A handheld device that uses sonar to map the underwater topography of a lake in real-time, visually displayed on the device's screen while kayaking.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather app displaying the current temperature.
+6. A GPS device showing a hiking trail map.
+7. A nature documentary about the Amazon rainforest.
+8. A pair of binoculars.
+9. A digital camera with a telephoto lens.
+10. A field guide to bird identification.
+11. A website with information about national parks.
+12. A satellite image of deforestation.
+13. A soil testing kit for gardening.
+14. A microscope for viewing microorganisms.
+15. A telescope for observing stars.
+16. A virtual reality experience of a coral reef.
+17. A 3D model of a mountain range.
+18. A time-lapse video of a flower blooming.
+19. An audio recording of birdsong.
+20. A painting of a landscape.
+21. A poem about nature.
+22. A fitness tracker that monitors heart rate during a hike.
+23. A portable power bank for charging electronic devices outdoors.
+24. A compass for navigation.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

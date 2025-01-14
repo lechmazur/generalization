@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional works featuring a character who gains extraordinary abilities due to prolonged exposure to cosmic radiation emanating from a specific celestial object observable by a space telescope.
+
+Here are four examples intended to follow this theme:
+1. In the novel "Celestial Awakening," the protagonist, Dr. Mira Patel, develops telekinetic powers after years of studying a mysterious pulsar through the Hubble Space Telescope.
+2. The graphic novel "Stellar Surge" follows astronaut Jake Thompson, who gains superhuman strength and the ability to manipulate energy after being exposed to cosmic rays from a distant quasar observed by the Chandra X-ray Observatory.
+3. In the film "Cosmic Vision," scientist Elena Rodriguez acquires the power to see into the future after prolonged exposure to gamma rays from a neutron star, which she studies using the James Webb Space Telescope.
+4. The short story "Radiant Destiny" features a character, Professor Leo Chen, who develops the ability to teleport after dedicating his career to observing cosmic radiation from a black hole using the Fermi Gamma-ray Space Telescope.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. In the movie "The Fantastic Four," the characters gain powers after exposure to cosmic rays during a space mission.
+6. The comic book series "The Atom" features a scientist who shrinks after an accident involving a particle accelerator.
+7. In "Spider-Man," Peter Parker gains spider-like abilities after being bitten by a radioactive spider.
+8. The TV show "Heroes" includes characters who develop various powers due to a solar eclipse.
+9. In the novel "Dune," characters gain heightened abilities from the spice melange, a substance found on the planet Arrakis.
+10. The film "The Hulk" features a scientist who transforms into a giant after exposure to gamma radiation.
+11. In "X-Men," mutants are born with their powers due to a genetic mutation.
+12. The anime "Fullmetal Alchemist" involves characters who gain alchemical powers through a mystical process.
+13. In the game "BioShock," characters gain powers from a substance called ADAM, derived from sea slugs.
+14. The novel "The Invisible Man" features a scientist who becomes invisible after experimenting with optics.
+15. In "The Flash," the protagonist gains super speed after a lightning strike combined with chemicals.
+16. The movie "Lucy" involves a woman who gains enhanced abilities after a drug overdose.
+17. In "Akira," characters develop psychic powers due to government experiments.
+18. The TV series "Stranger Things" features children with powers resulting from secret government experiments.
+19. In the novel "Flowers for Algernon," a man gains increased intelligence through a surgical procedure.
+20. The film "Chronicle" follows teenagers who gain telekinetic powers after encountering a mysterious object.
+21. In "The Matrix," characters gain abilities through a virtual reality program.
+22. The comic "Green Lantern" features characters who gain powers from a ring powered by a central battery.
+23. In the game "Mass Effect," characters gain biotic powers through exposure to element zero.
+24. The novel "Brave New World" includes a drug called Soma that alters perception and mood.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

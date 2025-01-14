@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A fish with iridescent scales, designed for display in home aquariums.
+A rose with petals that glow in the dark, created for ornamental gardens.
+A butterfly with wings patterned like famous artworks, developed for butterfly houses.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A plant engineered to produce pharmaceuticals.
+A bacterium engineered to break down pollutants.
+A microorganism engineered to produce biodegradable plastics.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A soybean plant engineered to produce biofuel.
+2. A yeast strain modified for more efficient fermentation in brewing.
+3. A tree with leaves that change color based on temperature, intended for landscaping. <<LEFTOVER>>
+4. A grass variety resistant to heavy foot traffic for sports fields.
+5. A crop plant with improved salt tolerance for coastal farming.
+6. A fish modified to survive in colder water for aquaculture.
+7. A fruit tree with a modified ripening process for easier shipping.
+8. A salmon modified for faster growth.

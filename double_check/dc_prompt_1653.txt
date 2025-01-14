@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Village-level traditional governance systems that use circular physical arrangements for community decision-making
+
+Here are four examples intended to follow this theme:
+1. Gacaca courts of Rwanda
+2. Fono meeting houses in Samoan villages
+3. Kurultai assemblies of Mongolian nomadic communities
+4. Ndaba tribal gathering circles of Zulu villages
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. United Nations Security Council
+6. Ancient Greek amphitheater
+7. Traditional Native American powwow
+8. Medieval European round table
+9. Modern town hall meeting
+10. Buddhist temple meditation hall
+11. Roman Forum
+12. Village elder's council tree
+13. Tribal ceremonial fire circle
+14. Celtic stone circle
+15. Indigenous Australian songline gathering
+16. African palaver tree meetings
+17. Aztec ceremonial plaza
+18. Viking thing assembly
+19. Traditional Irish ringfort
+20. Maori marae gathering space
+21. Persian garden council
+22. Chinese imperial court
+23. Incan huaca ceremonial site
+24. Japanese tea ceremony room
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

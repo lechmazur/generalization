@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): ceramic objects created using the slipcasting technique and inspired by natural forms
+
+Here are four examples intended to follow this theme:
+1. A porcelain vase with a texture resembling tree bark
+2. A ceramic bowl shaped like a seashell
+3. A slipcast sculpture mimicking coral formations
+4. A ceramic lamp base designed to look like a cluster of mushrooms
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A hand-thrown clay pot with a smooth finish
+6. A ceramic plate with a floral painted design
+7. A stoneware mug with a matte glaze
+8. A terracotta planter with geometric patterns
+9. A glass vase with a leaf motif
+10. A wooden sculpture of a tree
+11. A metal bowl with a hammered texture
+12. A ceramic tile with a mosaic design
+13. A hand-carved wooden bowl
+14. A plastic model of a fish
+15. A knitted woolen blanket with a leaf pattern
+16. A ceramic teapot with a dragon motif
+17. A clay sculpture of a human figure
+18. A porcelain figurine of a cat
+19. A glass sculpture of a wave
+20. A ceramic cup with a smooth, glossy finish
+21. A metal sculpture of a bird
+22. A ceramic tile with a geometric pattern
+23. A hand-painted ceramic bowl with abstract designs
+24. A clay vase with a traditional Greek design
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Locations that contain both a predatory animal name and a geological landform in their official place name
+
+Here are four examples intended to follow this theme:
+1. Wolf Mountain, Utah
+2. Bear Butte, South Dakota
+3. Lion's Head Peak, South Africa
+4. Tiger Hill, India
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Eagle, Colorado
+6. Rocky Mountains
+7. Bear Lake
+8. Wolf Creek Pass
+9. Grand Canyon
+10. Shark Bay
+11. Mount Everest
+12. Death Valley
+13. Fox River
+14. Great Plains
+15. Cougar Springs
+16. Snake River
+17. Badlands National Park
+18. Lion Country
+19. Tiger Woods
+20. Hawk Ridge
+21. Mammoth Cave
+22. Coyote Valley
+23. Black Hills
+24. Grizzly Peak
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

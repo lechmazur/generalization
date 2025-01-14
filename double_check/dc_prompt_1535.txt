@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geometric patterns found in both ancient cave art and modern blacklight-reactive body paint designs
+
+Here are four examples intended to follow this theme:
+1. Concentric circles in ochre from Chauvet Cave matched by UV-reactive spiral mandalas
+2. Diamond lattice patterns from Serra da Capivara replicated in fluorescent geometric tattoos
+3. Zigzag lines from Lascaux Cave mirrored in neon body paint designs
+4. Dot matrix patterns from Altamira Cave echoed in phosphorescent stippled body art
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Celtic knot designs
+6. Henna wedding patterns
+7. Aboriginal dot paintings
+8. Islamic geometric tiles
+9. Modern graffiti murals
+10. Ancient Greek meanders
+11. Polynesian tribal tattoos
+12. Crop circles
+13. Nazca lines
+14. Rangoli floor designs
+15. Native American petroglyphs
+16. Egyptian hieroglyphic patterns
+17. Maori facial tattoos
+18. Chinese paper cutting designs
+19. Mexican textile patterns
+20. Roman mosaic floors
+21. Sanskrit mandala designs
+22. African tribal face paint
+23. Persian carpet patterns
+24. Japanese zen garden designs
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

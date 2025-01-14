@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical artifacts or documents that were created by a single individual and later became foundational to a widely adopted system or field of study.
+
+Here are four examples intended to follow this theme:
+1. The Principia Mathematica by Isaac Newton
+2. The Origin of Species by Charles Darwin
+3. The Communist Manifesto by Karl Marx
+4. The Wealth of Nations by Adam Smith
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Declaration of Independence
+6. The Magna Carta
+7. The Rosetta Stone
+8. The Code of Hammurabi
+9. The U.S. Constitution
+10. The Dead Sea Scrolls
+11. The Gutenberg Bible
+12. The Bayeux Tapestry
+13. The Epic of Gilgamesh
+14. The Book of Kells
+15. The Sistine Chapel ceiling
+16. The Colosseum
+17. The Eiffel Tower
+18. The Great Wall of China
+19. The Taj Mahal
+20. The Parthenon
+21. The Sphinx
+22. The Terracotta Army
+23. The Statue of Liberty
+24. The Pyramids of Giza
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects associated with significant historical events that occurred in public parks
+
+Here are four examples intended to follow this theme:
+1. a statue commemorating a civil rights march
+2. a plaque marking the site of a historic speech
+3. a monument dedicated to a peace treaty signing
+4. a bench where a famous protest leader sat
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a painting depicting a historical event
+6. a book about a significant historical event
+7. a flag used during a historical battle
+8. a piece of clothing worn by a historical figure
+9. a photograph of a historical event
+10. a document signed during a historical event
+11. a weapon used in a historical conflict
+12. a musical instrument played at a historical event
+13. a vehicle used during a historical event
+14. a piece of jewelry worn by a historical figure
+15. a tool used in a historical event
+16. a piece of furniture from a historical period
+17. a map used during a historical event
+18. a coin minted during a historical period
+19. a piece of pottery from a historical era
+20. a letter written by a historical figure
+21. a piece of technology from a historical period
+22. a toy from a historical era
+23. a piece of architecture from a historical period
+24. a film about a historical event
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

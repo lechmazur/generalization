@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Man-made structures that incorporate a shallow pool of water designed to create a reflective surface, built between 1900 and 1950, and located in a capital city.
+
+Here are four examples intended to follow this theme:
+1. The Lincoln Memorial Reflecting Pool in Washington, D.C.
+2. The Canberra War Memorial's Pool of Reflection in Canberra, Australia
+3. The Reflecting Pool at the Palacio de Bellas Artes in Mexico City, Mexico
+4. The Reflecting Pool at the National Gallery in Ottawa, Canada
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern skyscraper with a rooftop pool in New York City
+6. A natural lake used for reflection in a park in Paris
+7. A fountain built in the 1960s in Rome
+8. A pond in a botanical garden in Tokyo
+9. A reflecting pool in a private estate built in the 1800s in London
+10. A public swimming pool constructed in the 1970s in Berlin
+11. A small decorative pool in a shopping mall in Beijing
+12. A large artificial lake in a theme park in Orlando
+13. A reflecting pool in a university campus built in the 1980s in Madrid
+14. A pond in a residential area in Sydney
+15. A water feature in a museum courtyard built in the 1990s in Cairo
+16. A reflecting pool in a monastery garden in Dublin
+17. A decorative pool in a hotel lobby in Las Vegas
+18. A pond in a public park in Seoul
+19. A reflecting pool in a corporate building constructed in the 2000s in Mumbai
+20. A water feature in a historic site built in the 1850s in Athens
+21. A pool in a community center in Johannesburg
+22. A reflecting pool in a private garden in Buenos Aires
+23. A pond in a nature reserve in Wellington
+24. A water feature in a hospital built in the 2010s in Brussels
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

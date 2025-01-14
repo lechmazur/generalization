@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific or technological breakthroughs that were initially dismissed as hoaxes by major newspapers
+
+Here are four examples intended to follow this theme:
+1. When Wilhelm Roentgen discovered X-rays in 1895, many newspapers initially dismissed his findings as a hoax.
+2. The Wright brothers' first powered flight in 1903 was initially reported by some newspapers as a hoax.
+3. When Barry Marshall and Robin Warren proposed that bacteria caused stomach ulcers in the 1980s, many newspapers dismissed their findings as a hoax.
+4. The discovery of the ozone hole over Antarctica in the 1980s was initially dismissed by some newspapers as a hoax.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The initial skepticism about the existence of black holes in the early 20th century.
+6. The controversy surrounding the discovery of cold fusion in 1989.
+7. The public's initial disbelief in the possibility of human flight before the Wright brothers' success.
+8. The skepticism surrounding the first successful heart transplant by Christiaan Barnard in 1967.
+9. The initial dismissal of the theory of continental drift proposed by Alfred Wegener in the early 20th century.
+10. The controversy over the discovery of the Higgs boson particle in 2012.
+11. The initial skepticism about the possibility of cloning mammals before Dolly the sheep was cloned in 1996.
+12. The public's initial disbelief in the possibility of landing on the moon before the Apollo 11 mission in 1969.
+13. The controversy surrounding the discovery of the structure of DNA by Watson and Crick in 1953.
+14. The initial skepticism about the possibility of in vitro fertilization before the birth of Louise Brown in 1978.
+15. The controversy over the discovery of the exoplanet 51 Pegasi b in 1995.
+16. The initial skepticism about the possibility of creating artificial intelligence before the development of Deep Blue in 1997.
+17. The public's initial disbelief in the possibility of creating a nuclear chain reaction before the first atomic bomb was detonated in 1945.
+18. The controversy surrounding the discovery of the cosmic microwave background radiation in 1964.
+19. The initial skepticism about the possibility of creating a vaccine for polio before the Salk vaccine was developed in 1955.
+20. The controversy over the discovery of the neutrino particle in 1956.
+21. The initial skepticism about the possibility of creating a laser before the first working laser was demonstrated in 1960.
+22. The public's initial disbelief in the possibility of creating a computer network before the development of ARPANET in 1969.
+23. The controversy surrounding the discovery of the quark particle in 1964.
+24. The initial skepticism about the possibility of creating a genetically modified organism before the first GMO was created in 1973.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations that mimic ancient cultural artifacts in their design or function
+
+Here are four examples intended to follow this theme:
+1. A modern smartphone with a flip design reminiscent of ancient folding fans
+2. A smartwatch with a circular face inspired by ancient sundials
+3. A digital camera designed to look like an ancient telescope
+4. A wireless speaker shaped like an ancient amphora
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A car with a touchscreen interface
+6. A drone used for aerial photography
+7. A virtual reality headset
+8. A 3D printer
+9. A smartwatch with fitness tracking
+10. A smartphone with facial recognition
+11. A robot vacuum cleaner
+12. A smart home thermostat
+13. A wireless charging pad
+14. A laptop with a touch screen
+15. A digital assistant device
+16. A smart refrigerator with inventory tracking
+17. A fitness tracker
+18. A smart light bulb
+19. A noise-canceling headphone
+20. A smart lock for doors
+21. A portable solar charger
+22. A smart water bottle
+23. A GPS navigation system
+24. A smart gardening system
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

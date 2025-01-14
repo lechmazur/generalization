@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mythological creatures that were created through a parent figure consuming or drinking something unusual
+
+Here are four examples intended to follow this theme:
+1. Māui, born after his mother drank from a calabash
+2. Fionn mac Cumhaill, conceived after his mother drank a potion
+3. Huitzilopochtli, born after his mother consumed a ball of feathers
+4. Minos, born after his mother consumed a potion
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Medusa, transformed by Athena
+6. Pegasus, born from Medusa's blood
+7. Fenrir, offspring of Loki and Angrboda
+8. Chimera, offspring of Typhon and Echidna
+9. Hydra, offspring of Typhon and Echidna
+10. Kraken, a legendary sea monster
+11. Griffin, a creature with the body of a lion and the head of an eagle
+12. Unicorn, a horse-like creature with a single horn
+13. Dragon, a large, serpentine creature
+14. Mermaid, a creature with the upper body of a human and the tail of a fish
+15. Centaur, a creature with the upper body of a human and the lower body of a horse
+16. Gorgon, a creature with snakes for hair
+17. Yeti, a mythical ape-like creature
+18. Bigfoot, a large, hairy humanoid creature
+19. Werewolf, a human who can transform into a wolf
+20. Vampire, a creature that drinks blood
+21. Zombie, a reanimated corpse
+22. Elf, a supernatural being with magical powers
+23. Fairy, a small, magical creature
+24. Goblin, a mischievous creature
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

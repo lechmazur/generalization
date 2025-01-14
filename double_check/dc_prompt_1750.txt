@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Three-dimensional representations of living organisms created through the process of needle felting.
+
+Here are four examples intended to follow this theme:
+1. A needle-felted miniature poodle with curly white fur.
+2. A needle-felted hummingbird with iridescent green feathers and a long, thin beak.
+3. A needle-felted succulent plant with plump, green leaves and delicate pink flowers.
+4. A needle-felted mushroom with a bright red cap and white spots.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A crocheted amigurumi of a cat.
+6. A clay sculpture of a horse.
+7. A wooden carving of a bear.
+8. A glass figurine of a dolphin.
+9. A drawing of a bird.
+10. A photograph of a fish.
+11. A knitted sweater with a dog pattern.
+12. A stuffed animal elephant.
+13. A plastic model of a dinosaur.
+14. A metal sculpture of an insect.
+15. A painting of a flower.
+16. A digital illustration of a tree.
+17. A taxidermied butterfly.
+18. A preserved specimen of a frog.
+19. A felt ball.
+20. A piece of wool roving.
+21. A set of felting needles.
+22. A felted landscape.
+23. A needle-felted abstract design.
+24. A needle-felted geometric shape.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

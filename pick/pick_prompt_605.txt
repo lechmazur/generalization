@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A ceramic figurine from the Teotihuacan culture, featuring a stylized animal with long ears and a short tail, commonly interpreted as a rabbit.
+A carved stone sculpture from the Maya civilization, depicting a small creature with rabbit-like features, found in a temple complex.
+A clay whistle from the Aztec period, shaped like an animal with characteristics suggestive of a rabbit, used in ceremonial contexts.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A medieval European tapestry depicting a rabbit hunt.
+A medieval illuminated manuscript with a marginal illustration of a rabbit.
+A Celtic brooch with a rabbit motif.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A painted mural in a Zapotec tomb, showing a scene with a figure that resembles a rabbit, part of a larger narrative. <<LEFTOVER>>
+2. A Persian miniature painting of a rabbit in a garden.
+3. A Roman mosaic featuring a rabbit in a garden scene.
+4. A bronze statue of a hare from ancient China.
+5. A Greek vase painting showing a hare in a mythological scene.
+6. A Japanese netsuke carving of a rabbit.
+7. A Korean celadon vase with a rabbit design.
+8. A Viking artifact depicting a rabbit in a battle scene.

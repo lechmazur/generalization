@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or structures where information or material is selectively passed down or transmitted through a hierarchical or lineage-based mechanism, ensuring continuity while allowing for variation or adaptation over time
+
+Here are four examples intended to follow this theme:
+1. The process of oral tradition in indigenous cultures where stories and knowledge are passed from elders to younger generations, adapting over time.
+2. The transmission of genetic material through DNA from parents to offspring, allowing for genetic variation and evolution.
+3. The succession of leadership in a monarchy where the throne is passed down through a family line, with potential for changes in ruling style.
+4. The inheritance of family recipes where culinary techniques and ingredients are shared across generations, with room for personal touches.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A library's cataloging system that organizes books by subject and author.
+6. The spread of a virus through a population, mutating as it infects new hosts.
+7. A corporate training program where new employees learn from experienced staff.
+8. The peer review process in academic publishing where research is critiqued and improved upon.
+9. A social media platform's algorithm that curates content based on user interaction.
+10. The process of osmosis where molecules move from areas of high concentration to low concentration.
+11. A mentorship program where skills and knowledge are shared between mentor and mentee.
+12. The electoral system where citizens vote for representatives to govern on their behalf.
+13. A franchise model where business practices are standardized across different locations.
+14. The diffusion of innovations where new technologies spread through a society.
+15. A news broadcast where information is disseminated to the public.
+16. The process of photosynthesis where plants convert sunlight into energy.
+17. A university curriculum where knowledge is structured and taught to students.
+18. The circulation of currency in an economy, facilitating trade and exchange.
+19. A software update system where new versions are released to users.
+20. The process of cellular respiration where cells convert nutrients into energy.
+21. A public transportation system where people move from one place to another.
+22. The spread of a meme across the internet, evolving as it is shared.
+23. A legal system where laws are created and enforced by a government.
+24. The process of evaporation where water turns into vapor and rises into the atmosphere.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

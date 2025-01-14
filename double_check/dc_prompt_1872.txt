@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): inventions from the 1950s that revolutionized food service
+
+Here are four examples intended to follow this theme:
+1. The introduction of the first commercial microwave oven by Raytheon in 1954.
+2. The launch of the first automatic drip coffee maker by Mr. Coffee in 1952.
+3. The invention of the first electric non-stick frying pan by Tefal in 1954.
+4. The debut of the first commercial blender by Waring in 1950.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the refrigerator in the early 20th century.
+6. The development of the first fast food restaurant chain in the 1920s.
+7. The creation of the first vending machine in the late 19th century.
+8. The introduction of the first dishwasher in the late 19th century.
+9. The invention of the first gas stove in the late 19th century.
+10. The development of the first electric mixer in the early 20th century.
+11. The creation of the first food processor in the 1970s.
+12. The introduction of the first convection oven in the 1960s.
+13. The invention of the first sous-vide machine in the 1970s.
+14. The development of the first commercial deep fryer in the 1930s.
+15. The creation of the first electric grill in the 1960s.
+16. The introduction of the first instant pot in the 2010s.
+17. The invention of the first commercial ice cream maker in the 19th century.
+18. The development of the first commercial juicer in the 1930s.
+19. The creation of the first electric kettle in the early 20th century.
+20. The introduction of the first commercial toaster in the early 20th century.
+21. The invention of the first commercial pressure cooker in the 1930s.
+22. The development of the first commercial slow cooker in the 1970s.
+23. The creation of the first commercial bread slicer in the 1920s.
+24. The introduction of the first commercial pasta maker in the 20th century.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or tools that revolutionized their respective fields by providing a fundamentally new way to understand, diagnose, or regulate complex systems.
+
+Here are four examples intended to follow this theme:
+1. The introduction of the polymerase chain reaction (PCR) in molecular biology.
+2. The development of the Global Positioning System (GPS) in navigation.
+3. The implementation of the Internet Protocol (IP) in computer networking.
+4. The creation of the Diagnostic and Statistical Manual of Mental Disorders (DSM) in psychiatry.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the wheel in transportation.
+6. The discovery of penicillin in medicine.
+7. The use of the assembly line in manufacturing.
+8. The development of the steam engine in the Industrial Revolution.
+9. The creation of the printing press in communication.
+10. The establishment of the scientific method in research.
+11. The introduction of double-entry bookkeeping in accounting.
+12. The invention of the microscope in biology.
+13. The development of the theory of relativity in physics.
+14. The creation of the periodic table in chemistry.
+15. The use of the compass in navigation.
+16. The invention of the telephone in communication.
+17. The development of the airplane in transportation.
+18. The introduction of the electric light bulb in daily life.
+19. The creation of the World Wide Web in information sharing.
+20. The use of the stethoscope in medicine.
+21. The invention of the telescope in astronomy.
+22. The development of the internal combustion engine in automotive industry.
+23. The introduction of the bar code in retail.
+24. The creation of the transistor in electronics.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

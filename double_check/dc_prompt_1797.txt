@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures designed to manage and process waste or unwanted materials in enclosed systems
+
+Here are four examples intended to follow this theme:
+1. Septic tank
+2. Incinerator
+3. Composting bin
+4. Wastewater treatment plant
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Recycling bin
+6. Landfill
+7. Garbage truck
+8. Trash can
+9. Street sweeper
+10. Recycling center
+11. Dump site
+12. Garbage chute
+13. Waste collection point
+14. Compost pile
+15. Recycling depot
+16. Transfer station
+17. Hazardous waste drop-off
+18. Recycling truck
+19. Street trash bin
+20. Open-air compost heap
+21. Public waste bin
+22. Garbage disposal unit
+23. Recycling facility
+24. Waste sorting center
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

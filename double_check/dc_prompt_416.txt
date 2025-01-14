@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic representations of light as a transformative force acting upon the human form, specifically in the context of early 20th-century Western art.
+
+Here are four examples intended to follow this theme:
+1. A painting depicting a nude figure bathed in golden sunlight, with the light creating a halo-like effect around the body.
+2. A sculpture where light is projected through colored glass, casting dynamic shadows that alter the perception of the human form.
+3. A photograph capturing a dancer mid-movement, with light streaks emphasizing the fluidity and transformation of the body.
+4. A charcoal drawing showing a figure emerging from darkness, with light rays sculpting the contours of the body.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A landscape painting with a sunrise illuminating a mountain range.
+6. A still life of fruit under a single light source.
+7. A portrait of a person with dramatic chiaroscuro lighting.
+8. A cityscape at night with neon lights reflecting on wet streets.
+9. A photograph of a lighthouse beam cutting through fog.
+10. A painting of a candlelit dinner scene.
+11. A sculpture of an abstract form illuminated by spotlights.
+12. A drawing of a tree with sunlight filtering through its leaves.
+13. A photograph of a rainbow over a waterfall.
+14. A painting of a starry night sky.
+15. A sculpture of a human figure in complete darkness.
+16. A photograph of a shadow cast by a building.
+17. A painting of a fire illuminating a group of people.
+18. A drawing of a moonlit forest.
+19. A photograph of a prism refracting light into colors.
+20. A painting of a sunset over the ocean.
+21. A sculpture of a bird in flight, with light reflecting off its wings.
+22. A photograph of a streetlamp glowing in the rain.
+23. A painting of a stained glass window with light streaming through.
+24. A drawing of a person holding a lantern in a dark room.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

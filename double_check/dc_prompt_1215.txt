@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or structures that rely on rotational mechanics to achieve a specific functional purpose.
+
+Here are four examples intended to follow this theme:
+1. a wind turbine
+2. a bicycle wheel
+3. a ceiling fan
+4. a car engine crankshaft
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a solar panel
+6. a battery
+7. a light bulb
+8. a computer processor
+9. a hydraulic press
+10. a conveyor belt
+11. a microwave oven
+12. a refrigerator
+13. a smartphone
+14. a television screen
+15. a washing machine drum
+16. a toaster
+17. a blender blade
+18. a sewing machine needle
+19. a printer
+20. a vacuum cleaner
+21. a electric kettle
+22. a hair dryer
+23. a electric guitar
+24. a digital camera
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

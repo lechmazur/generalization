@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that integrate probabilistic decision-making with cultural safety practices in high-risk environments
+
+Here are four examples intended to follow this theme:
+1. A nuclear power plant's emergency response protocol that combines Bayesian risk assessment with indigenous land acknowledgment practices
+2. An air traffic control system that integrates weather probability models with multilingual communication standards
+3. A hospital triage algorithm that weighs statistical outcomes while incorporating diverse cultural healing practices
+4. An offshore drilling platform's safety management system that combines predictive analytics with local maritime customs
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A basic hospital checklist system
+6. Statistical quality control in manufacturing
+7. Traditional indigenous healing practices
+8. Standard operating procedures for firefighters
+9. Cultural sensitivity training programs
+10. Risk assessment matrices
+11. Emergency evacuation protocols
+12. Machine learning algorithms for prediction
+13. Workplace diversity initiatives
+14. Safety compliance software
+15. Cross-cultural communication guidelines
+16. Probabilistic risk analysis tools
+17. Cultural competency frameworks
+18. Decision support systems
+19. Environmental impact assessments
+20. Quality management systems
+21. Hazard identification procedures
+22. Community engagement protocols
+23. Statistical process control methods
+24. Traditional safety management systems
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

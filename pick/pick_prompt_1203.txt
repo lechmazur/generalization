@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A salmon dying after spawning
+A tadpole losing its tail after metamorphosing into a frog
+A caterpillar turning into a butterfly after forming a chrysalis
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A car being scrapped after reaching the end of its life
+A building being demolished after its use is over
+A piece of technology being upgraded and losing its original features
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A bridge being closed for safety reasons after years of use
+2. A species going extinct due to environmental changes
+3. A language evolving and losing certain words over time
+4. A seed losing its protective coat after germinating into a plant <<LEFTOVER>>
+5. A snake shedding its skin
+6. A star collapsing into a black hole
+7. A tradition fading away as society changes
+8. A person retiring after a long career

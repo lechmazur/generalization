@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Places where retired or obsolete entertainment equipment is permanently displayed and maintained for historical preservation
+
+Here are four examples intended to follow this theme:
+1. Rock and Roll Hall of Fame in Cleveland
+2. National Pinball Museum in Baltimore
+3. Computer Game Museum in Berlin
+4. Museum of the Game in San Francisco
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Dave & Buster's arcade
+6. Universal Studios theme park
+7. A private collector's game room
+8. Circus World Museum
+9. Broadway theater storage warehouse
+10. Disney animation archives
+11. Las Vegas casino floor
+12. Hollywood prop warehouse
+13. Antique toy store
+14. Film restoration facility
+15. Amusement park maintenance shed
+16. Television studio equipment room
+17. Concert venue storage facility
+18. Movie theater projection booth
+19. Carnival equipment yard
+20. Stage lighting rental company
+21. Recording studio gear closet
+22. Theater costume department
+23. Radio station equipment room
+24. Gaming convention display hall
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

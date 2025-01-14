@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional characters who are the eldest sibling in a family and have a significant storyline involving their struggle with family responsibilities.
+
+Here are four examples intended to follow this theme:
+1. Brady from "The Brady Bunch" who often navigates the challenges of leading his blended family.
+2. Frank from "Fiddler on the Roof" who deals with the pressures of maintaining family traditions and supporting his siblings.
+3. Jo from "Little Women" who takes on significant responsibilities to support her family after their father leaves for war.
+4. Hermione Granger from "Harry Potter" who, as the eldest child in her family, often feels the weight of setting a good example for her younger siblings.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Harry Potter, who struggles with his identity and destiny.
+6. Elizabeth Bennet from "Pride and Prejudice," who navigates societal expectations and family dynamics.
+7. Luke Skywalker, who faces the burden of saving the galaxy.
+8. Scarlett O'Hara from "Gone with the Wind," who manages her family's plantation during turbulent times.
+9. Odysseus, who is challenged by his long journey home to his family.
+10. Jane Eyre, who overcomes personal hardships and seeks a sense of belonging.
+11. Atticus Finch from "To Kill a Mockingbird," who instills values in his children amidst societal conflict.
+12. Katniss Everdeen from "The Hunger Games," who takes on the role of protector for her family and district.
+13. Emma Woodhouse from "Emma," who meddles in the lives of those around her.
+14. Holden Caulfield from "The Catcher in the Rye," who grapples with adolescence and alienation.
+15. Jay Gatsby from "The Great Gatsby," who pursues an idealized version of the American Dream.
+16. Anna Karenina, who struggles with societal norms and personal desires.
+17. Hamlet, who is torn between avenging his father's death and his own moral dilemmas.
+18. Elizabeth Costello, who reflects on her life and career as a writer.
+19. Don Quixote, who embarks on a quest driven by his chivalric ideals.
+20. Jane Austen's Mr. Darcy, who must overcome his pride to find love.
+21. Raskolnikov from "Crime and Punishment," who wrestles with guilt and redemption.
+22. Heathcliff from "Wuthering Heights," who is consumed by passion and revenge.
+23. Pi Patel from "Life of Pi," who survives a harrowing journey at sea.
+24. Clarissa Dalloway from "Mrs. Dalloway," who reflects on her life choices and societal roles.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

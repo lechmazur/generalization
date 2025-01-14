@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geological features or formations that have been used as metaphors in user interface design patterns
+
+Here are four examples intended to follow this theme:
+1. A mountain peak used to represent the highest level or achievement in a progress bar.
+2. A canyon used to symbolize a deep dive into detailed settings or options in a menu.
+3. A river used to illustrate the flow of data or information through a system.
+4. A cave used to represent hidden or advanced features in a software application.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tree used to represent a hierarchical structure in a file system.
+6. A wave used to symbolize the ups and downs of stock market trends in a financial app.
+7. A bridge used to represent a connection between two different parts of a network.
+8. A storm used to indicate turbulent conditions in a weather forecasting application.
+9. A road used to symbolize the journey or path through a tutorial or onboarding process.
+10. A forest used to represent a collection of data or items in a database.
+11. A lake used to symbolize a calm and serene state in a meditation app.
+12. A volcano used to indicate a critical or urgent situation in a monitoring system.
+13. A desert used to represent a lack of activity or data in a system.
+14. A glacier used to symbolize slow but steady progress in a long-term project management tool.
+15. A waterfall used to represent a cascading effect or sequence of actions in a workflow.
+16. A cliff used to symbolize a point of no return or a critical decision in a decision-making tool.
+17. A beach used to represent a relaxing or casual mode in a gaming application.
+18. A swamp used to symbolize a complex and difficult-to-navigate situation in a problem-solving app.
+19. A hill used to represent a minor challenge or obstacle in a fitness tracking app.
+20. A plain used to symbolize simplicity and ease of use in a user interface design.
+21. A valley used to represent a low point or a dip in performance metrics in a business analytics tool.
+22. An island used to symbolize isolation or a standalone feature in a software suite.
+23. A reef used to represent a barrier or obstacle in a project management application.
+24. A tundra used to symbolize a cold and harsh environment in a survival game.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

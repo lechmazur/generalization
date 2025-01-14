@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Anaerobic digester that converts organic waste into biogas and nutrient-rich digestate, used within a closed-loop farm system.
+Aquaponics system that recycles fish waste to nourish plants, with water being continuously filtered and reused within the system.
+Composting toilet system that transforms human waste into compost for use in gardening, all within a self-contained unit.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A wastewater treatment plant that cleans sewage before releasing it into a river.
+Recycling program that collects plastic bottles from households and processes them into new products.
+Composting facility that processes yard waste into soil amendment, but the process is not contained within a single environment.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A recycling program that collects and processes aluminum cans into new products, but the process is not contained within a single environment.
+2. A bioreactor that uses bacteria to break down pollutants in soil, but the process is not contained within a single environment.
+3. Closed-loop industrial process that recycles manufacturing byproducts into raw materials for new production cycles within the same facility. <<LEFTOVER>>
+4. Industrial process that uses waste heat to preheat incoming air, but does not transform the waste into a resource.
+5. Landfill gas recovery system that captures methane from decomposing waste for energy production.
+6. A recycling center that sorts and processes various materials, but the process is not contained within a single environment.
+7. A biomass power plant that burns wood chips to generate electricity, but does not involve a cyclical process within a contained environment.
+8. A municipal composting program that collects food waste from residents and processes it into compost, but the process is not contained within a single environment.

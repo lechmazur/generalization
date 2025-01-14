@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Books that explore the intersection of cultural identity and personal transformation through the lens of a female protagonist's journey in a post-colonial context.
+
+Here are four examples intended to follow this theme:
+1. Half of a Yellow Sun by Chimamanda Ngozi Adichie
+2. Wide Sargasso Sea by Jean Rhys
+3. The God of Small Things by Arundhati Roy
+4. Nervous Conditions by Tsitsi Dangarembga
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Pride and Prejudice by Jane Austen
+6. The Great Gatsby by F. Scott Fitzgerald
+7. 1984 by George Orwell
+8. To Kill a Mockingbird by Harper Lee
+9. The Catcher in the Rye by J.D. Salinger
+10. Moby-Dick by Herman Melville
+11. The Handmaid's Tale by Margaret Atwood
+12. Brave New World by Aldous Huxley
+13. The Alchemist by Paulo Coelho
+14. The Road by Cormac McCarthy
+15. Frankenstein by Mary Shelley
+16. Jane Eyre by Charlotte Brontë
+17. The Bell Jar by Sylvia Plath
+18. One Hundred Years of Solitude by Gabriel García Márquez
+19. The Kite Runner by Khaled Hosseini
+20. The Color Purple by Alice Walker
+21. Beloved by Toni Morrison
+22. The Hunger Games by Suzanne Collins
+23. Harry Potter and the Sorcerer's Stone by J.K. Rowling
+24. The Da Vinci Code by Dan Brown
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

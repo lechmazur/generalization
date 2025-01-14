@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural spaces that incorporate optical illusions to enhance or alter the perception of depth and dimension.
+
+Here are four examples intended to follow this theme:
+1. Ames Room
+2. Forced perspective corridor in Palazzo Spada, Rome
+3. Villanueva Building, MIT with manipulated window sizes
+4. Installation art using mirrors and distorted surfaces to create infinite reflections or compressed spaces
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A building with large windows offering panoramic views
+6. A house with high ceilings
+7. A long hallway with repeating patterns
+8. A room painted in light colors to make it feel bigger
+9. A garden with converging paths
+10. A skyscraper with a tapered design
+11. A bridge with a parabolic arch
+12. A stadium with tiered seating
+13. A church with a tall spire
+14. A museum with interactive exhibits
+15. A theater with a raked stage
+16. A library with tall bookshelves
+17. A park with a winding path
+18. A city with a grid layout
+19. A desert with vast open spaces
+20. An ocean with a seemingly endless horizon
+21. A mountain range with varying elevations
+22. A forest with dense vegetation
+23. A cave with a narrow entrance
+24. A tunnel with a distant light at the end
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

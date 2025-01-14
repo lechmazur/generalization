@@ -1,0 +1,30 @@
+pick_response_549.txt
+The user wants me to evaluate how well each candidate matches a specific theme identified from the examples, while explicitly avoiding matching broader themes suggested by the anti-examples.
+
+The core elements of the specific theme are:
+- Four-string bass
+- Two humbucker pickups
+- Single volume knob
+- Single tone knob
+
+The anti-examples introduce additional controls like equalizers, blend controls, and separate volume/tone controls, which should be penalized.
+
+I need to score each candidate from 0 to 10 based on how closely it adheres to the specific theme.
+
+Here's a breakdown of how I'll approach each candidate:
+
+1. **Push-pull pot for coil splitting:** This adds functionality beyond the basic theme, but the core controls are still present. It's not a direct match but closer than the anti-examples.
+2. **Blend control instead of separate volume knobs:** This deviates from the single volume knob.
+3. **Master tone, individual volume:** This deviates from the single volume and single tone.
+4. **Two-band equalizer:** This is a clear deviation, similar to the anti-examples.
+5. **Simplified controls with single volume and tone:** This is a strong match to the specific theme.
+6. **Coil-split, separate volume and tone:** The separate volume control is a deviation.
+7. **Master volume, individual tone:** This deviates from the single tone.
+8. **Blend control, no tone control:** This deviates from both the single volume and single tone.<number>1</number><score>6</score>
+<number>2</number><score>3</score>
+<number>3</number><score>4</score>
+<number>4</number><score>2</score>
+<number>5</number><score>10</score>
+<number>6</number><score>5</score>
+<number>7</number><score>4</score>
+<number>8</number><score>1</score>

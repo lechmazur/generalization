@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Musical traditions that feature continuous drone notes maintained through circular breathing techniques
+
+Here are four examples intended to follow this theme:
+1. didgeridoo music from Indigenous Australian cultures
+2. Tuvan throat singing with accompanying igil or doshpuluur
+3. Indian classical music featuring the tanpura drone
+4. Moroccan Gnawa music with the sintir drone
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. bagpipe music from Scotland
+6. Gregorian chant with organ accompaniment
+7. flamenco guitar with rhythmic strumming
+8. jazz saxophone solos
+9. African drumming ensembles
+10. classical piano sonatas
+11. bluegrass banjo picking
+12. opera arias with orchestral backing
+13. electronic dance music with bass drops
+14. reggae music with offbeat guitar chords
+15. Chinese guzheng performances
+16. Irish fiddle tunes
+17. hip-hop beats with sampled loops
+18. baroque harpsichord compositions
+19. rock guitar riffs with distortion
+20. samba percussion rhythms
+21. country music with pedal steel guitar
+22. choir singing in four-part harmony
+23. blues harmonica solos
+24. kora music from West Africa
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

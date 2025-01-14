@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Hand-carved Inuit sculptures of animals made primarily from whalebone and depicting traditional Inuit spiritual beliefs.
+
+Here are four examples intended to follow this theme:
+1. A sculpture of a polar bear, intricately carved from whalebone, with symbols representing the Inuit belief in the animal's spiritual guidance.
+2. A whalebone carving of a seal, featuring traditional Inuit motifs that signify the animal's role in the spiritual world.
+3. An Inuit sculpture of a raven made from whalebone, adorned with carvings that depict its significance in Inuit mythology.
+4. A whalebone sculpture of a wolf, with detailed carvings that illustrate its place in Inuit spiritual narratives.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A wooden sculpture of a bear, representing Native American spiritual beliefs.
+6. An Inuit soapstone carving of a human figure, depicting traditional Inuit life.
+7. A modern art piece made from metal, inspired by Inuit culture but not depicting spiritual beliefs.
+8. A whalebone sculpture of a fish, created by a non-Inuit artist without spiritual symbolism.
+9. An Inuit painting of animals, showcasing their natural environment rather than spiritual beliefs.
+10. A wooden carving of an eagle, symbolizing spiritual beliefs of the Haida people.
+11. A sculpture of a whale made from ivory, representing Inuit hunting practices but not spiritual beliefs.
+12. An Inuit textile art piece depicting animals, focused on their ecological role rather than spiritual significance.
+13. A bone carving of a fox, created by an Inuit artist but not specifically depicting spiritual beliefs.
+14. A ceramic sculpture of a bird, inspired by Inuit folklore but not made from whalebone.
+15. A wooden Inuit mask, used in traditional ceremonies but not depicting animals or made from whalebone.
+16. A stone carving of a caribou, created by an Inuit artist but not specifically representing spiritual beliefs.
+17. A modern Inuit sculpture made from mixed materials, depicting animals but not focusing on spiritual beliefs.
+18. A whalebone sculpture of a human figure, representing Inuit daily life rather than spiritual beliefs.
+19. An Inuit print of animals, showcasing their role in the ecosystem rather than spiritual significance.
+20. A wooden sculpture of a moose, created by an artist from another indigenous culture with different spiritual beliefs.
+21. A bone carving of a deer, made by an Inuit artist but not specifically depicting spiritual beliefs.
+22. An Inuit sculpture of a fish made from soapstone, focusing on its role in the diet rather than spiritual beliefs.
+23. A whalebone sculpture of a bird, created by an Inuit artist but not specifically depicting spiritual beliefs.
+24. A wooden carving of a bear, representing the spiritual beliefs of the Ojibwe people.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

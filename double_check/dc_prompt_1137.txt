@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional handcrafted textiles that incorporate symbolic patterns representing cultural or spiritual beliefs.
+
+Here are four examples intended to follow this theme:
+1. A Navajo weaving incorporating geometric patterns representing the four cardinal directions and spiritual deities.
+2. An Andean textile featuring stylized depictions of condors and other animals, symbolizing connection to the natural world and ancestral spirits.
+3. An Indonesian batik cloth with intricate floral motifs representing life, growth, and the interconnectedness of all beings.
+4. A Hmong tapestry embroidered with stylized figures and symbols representing clan history, migration stories, and spiritual beliefs.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A machine-made Persian rug with traditional patterns.
+6. A tie-dye t-shirt with a spiral pattern.
+7. A crocheted blanket with a geometric design.
+8. A hand-knitted sweater with a cable knit pattern.
+9. A printed scarf with paisley motifs.
+10. A mass-produced tapestry depicting a historical scene.
+11. A quilt made with scraps of fabric in a patchwork design.
+12. An embroidered pillowcase with floral patterns.
+13. A woven basket with a decorative border.
+14. A macrame wall hanging with knotted patterns.
+15. A piece of lace with intricate floral designs.
+16. A digitally printed fabric with abstract patterns.
+17. A hand-painted silk scarf with a landscape design.
+18. A beaded necklace with a geometric pattern.
+19. A leather belt with embossed designs.
+20. A ceramic tile with a hand-painted floral motif.
+21. A wooden carving with intricate patterns.
+22. A metal sculpture with decorative elements.
+23. A stained glass window with geometric shapes.
+24. A piece of calligraphy with decorative flourishes.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

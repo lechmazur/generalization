@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural designs inspired by literary or mythological narratives that aim to influence human behavior or perception.
+
+Here are four examples intended to follow this theme:
+1. A building designed with a labyrinthine structure to evoke the myth of the Minotaur, encouraging visitors to reflect on their journey and choices.
+2. An office complex with a central atrium inspired by the story of Icarus, using height and light to inspire ambition and caution in its occupants.
+3. A library designed with a tree-like structure, drawing from the myth of Yggdrasil, to foster a sense of growth and interconnectedness among its users.
+4. A residential complex with rooms arranged to mimic the narrative flow of Dante's Inferno, aiming to influence residents' perceptions of their personal journeys.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A skyscraper designed to maximize natural light and energy efficiency.
+6. A museum dedicated to the history of architecture.
+7. A public park designed to promote community interaction.
+8. A bridge designed for aesthetic appeal and structural integrity.
+9. A shopping mall with a focus on sustainability.
+10. A residential building with smart home technology.
+11. A theater designed to enhance the acoustics for performances.
+12. A sports stadium designed for optimal viewing and fan experience.
+13. A hospital designed to promote healing and comfort.
+14. A school building designed to facilitate learning and collaboration.
+15. A government building designed to reflect national identity.
+16. A hotel designed to provide luxury and comfort.
+17. A restaurant designed to enhance the dining experience.
+18. A factory designed for efficiency and safety.
+19. A train station designed for ease of access and flow.
+20. A library designed to maximize storage and accessibility of books.
+21. A community center designed to serve diverse populations.
+22. A concert hall designed for optimal sound quality.
+23. A skyscraper designed to withstand earthquakes.
+24. A museum designed to showcase art and history.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

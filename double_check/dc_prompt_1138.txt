@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or devices that rely on precise alignment of components during a transformative process to achieve functionality
+
+Here are four examples intended to follow this theme:
+1. A camera lens focusing mechanism
+2. A hard disk drive's read/write head positioning system
+3. A 3D printer's layer deposition alignment system
+4. An inkjet printer's print head alignment system
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bicycle's gear shifting system
+6. A car's suspension system
+7. A smartphone's touchscreen
+8. A laptop's hinge mechanism
+9. A drone's propeller system
+10. A watch's timekeeping mechanism
+11. A refrigerator's cooling system
+12. A washing machine's drum
+13. A vacuum cleaner's suction system
+14. A coffee maker's brewing system
+15. A television's display panel
+16. A speaker's sound projection system
+17. A flashlight's battery compartment
+18. A door lock's mechanism
+19. A window's opening mechanism
+20. A seatbelt's retraction system
+21. A stapler's staple driving mechanism
+22. A can opener's cutting mechanism
+23. A scissors' cutting action
+24. A paper shredder's cutting system
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

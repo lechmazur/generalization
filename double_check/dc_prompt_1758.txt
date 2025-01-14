@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Single-use items made of non-biodegradable materials that are commonly found in environmental waste surveys.
+
+Here are four examples intended to follow this theme:
+1. plastic drinking straw
+2. disposable lighter
+3. styrofoam coffee cup
+4. plastic shopping bag
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. cardboard box
+6. glass bottle
+7. aluminum can
+8. paper napkin
+9. cotton t-shirt
+10. wooden pencil
+11. metal fork
+12. ceramic plate
+13. bamboo chopsticks
+14. steel water bottle
+15. cloth shopping bag
+16. paper coffee cup
+17. metal straw
+18. glass food container
+19. wooden cutlery
+20. biodegradable trash bag
+21. canvas tote
+22. silicon food storage bag
+23. stainless steel razor
+24. cork coaster
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient monumental stone sculptures that were carved from a single block and weigh over 20 tons
+
+Here are four examples intended to follow this theme:
+1. Great Sphinx of Giza
+2. Colossal Olmec Head 1
+3. Moai at Rano Raraku
+4. Lion of Babylon
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Parthenon frieze
+6. Terracotta Warriors
+7. Venus de Milo
+8. Winged Victory of Samothrace
+9. Aztec Sun Stone
+10. Rosetta Stone
+11. Trajan's Column
+12. Assyrian lamassu
+13. Khmer Buddha statues
+14. Olmec jade masks
+15. Roman marble sarcophagi
+16. Mayan stone reliefs
+17. Egyptian obelisks
+18. Stonehenge trilithons
+19. Zeus at Olympia
+20. Serpent Column
+21. Babylonian kudurru
+22. Persepolis reliefs
+23. Etruscan bronze sculptures
+24. Minoan stone vessels
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

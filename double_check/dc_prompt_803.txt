@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that integrate living organisms with mechanical components to maintain environmental conditions
+
+Here are four examples intended to follow this theme:
+1. A building facade with integrated algae bioreactors that regulate temperature and air quality.
+2. A wastewater treatment system using microbial communities to break down pollutants and generate biogas.
+3. A self-sustaining closed-loop greenhouse that utilizes plant transpiration and microbial processes for climate control and nutrient cycling.
+4. A robotic arm with a bio-hybrid sensor array incorporating living cells to detect and respond to environmental changes.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A solar panel
+6. A wind turbine
+7. A geothermal power plant
+8. A hydroponic garden
+9. A smart thermostat
+10. An air purifier
+11. A water filter
+12. A composting system
+13. A weather station
+14. A prosthetic limb
+15. A pacemaker
+16. A cochlear implant
+17. A drone
+18. A self-driving car
+19. A robot vacuum cleaner
+20. A 3D printer
+21. Virtual reality headset
+22. A genetically modified crop
+23. A biofuel
+24. A bionic eye
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mass-produced items that became valuable collector pieces primarily due to their packaging rather than their contents
+
+Here are four examples intended to follow this theme:
+1. 1980s McDonald's Happy Meal toys in their original packaging
+2. Vintage Barbie dolls with unopened boxes from the 1960s
+3. First edition Pokémon cards in their original booster packs
+4. Early edition Star Wars action figures in mint condition packaging
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Antique furniture pieces that have increased in value over time
+6. Rare coins that are valuable due to their minting errors
+7. Classic cars that have become collector's items due to their rarity
+8. First edition books that are valuable due to their historical significance
+9. Vintage wine bottles that have increased in value due to their age
+10. Original artwork by famous artists that have appreciated in value
+11. Retro video game consoles that are sought after by collectors
+12. Designer handbags that have become valuable due to their brand prestige
+13. Rare stamps that are valuable due to their limited production
+14. Antique jewelry pieces that have increased in value due to their craftsmanship
+15. Collectible comic books that are valuable due to their rarity and condition
+16. Vintage musical instruments that have appreciated in value over time
+17. Rare vinyl records that are sought after by audiophiles
+18. Antique watches that have become valuable due to their historical significance
+19. Collectible sports memorabilia that are valuable due to their association with famous athletes
+20. Vintage cameras that have increased in value due to their technological significance
+21. Rare beer cans that are sought after by collectors due to their unique designs
+22. Antique quilts that have become valuable due to their craftsmanship and historical significance
+23. Collectible figurines that are valuable due to their limited edition status
+24. Vintage advertising signs that have increased in value due to their nostalgic appeal
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,28 @@
+pick_response_207.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The key is to differentiate the specific theme from broader, related themes.
+
+Looking at the examples: insulin pump, pacemaker, deep brain stimulator. These are all implantable medical devices that deliver therapy directly to the body.
+
+Looking at the anti-examples: external defibrillator, hearing aid, external insulin pen. These are all external devices, even though they relate to similar medical needs.
+
+Therefore, the specific theme seems to be **implantable medical devices that deliver therapy**.
+
+Now I need to evaluate each candidate based on this specific theme:
+
+1. **glucose meter**: Measures, doesn't deliver therapy, and is external. Low score.
+2. **prosthetic limb**: Replaces a body part, doesn't deliver therapy. External. Low score.
+3. **cochlear implant**: Implantable and delivers therapy (sound signals). High score.
+4. **oxygen concentrator**: External and delivers a substance, not directly implantable therapy. Medium-low score.
+5. **heart rate monitor**: Measures, doesn't deliver therapy, can be external. Low score.
+6. **wearable ECG monitor**: Measures, doesn't deliver therapy, external. Low score.
+7. **blood pressure monitor**: Measures, doesn't deliver therapy, external. Low score.
+8. **external hearing amplifier**: External, amplifies sound, doesn't deliver therapy in the same way as a cochlear implant. Low score.
+
+Now I will assign scores using the full range, ensuring nuance.<number>1</number><score>1</score>
+<number>2</number><score>0</score>
+<number>3</number><score>9</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>2</score>
+<number>7</number><score>1</score>
+<number>8</number><score>3</score>

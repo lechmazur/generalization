@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or phenomena that involve the interaction between the macroscopic and microscopic worlds in a way that challenges traditional perceptions of reality.
+
+Here are four examples intended to follow this theme:
+1. quantum entanglement
+2. the double-slit experiment
+3. Schrödinger's cat thought experiment
+4. the observer effect in quantum mechanics
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. black holes
+6. the theory of relativity
+7. dark matter
+8. the Big Bang
+9. string theory
+10. the multiverse hypothesis
+11. the Higgs boson
+12. gravitational waves
+13. the uncertainty principle
+14. the photoelectric effect
+15. the butterfly effect
+16. chaos theory
+17. the Doppler effect
+18. the concept of entropy
+19. the holographic principle
+20. the Fermi paradox
+21. the anthropic principle
+22. the concept of time dilation
+23. the concept of wormholes
+24. the concept of parallel universes
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

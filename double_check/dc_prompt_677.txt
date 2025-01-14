@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that have been used as symbols of resilience in extreme environments
+
+Here are four examples intended to follow this theme:
+1. a cactus surviving in the desert
+2. a lighthouse enduring harsh storms
+3. a lone tree growing on a rocky cliff
+4. a phoenix rising from ashes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a snowflake
+6. a butterfly emerging from a cocoon
+7. a mountain peak
+8. a river flowing through a canyon
+9. a sunflower turning toward the sun
+10. a glacier slowly melting
+11. a rainbow after a storm
+12. a seed sprouting in fertile soil
+13. a bird migrating south for the winter
+14. a volcano erupting
+15. a coral reef teeming with life
+16. a spider spinning a web
+17. a star shining in the night sky
+18. a whale diving into the deep ocean
+19. a sand dune shifting in the wind
+20. a forest recovering after a wildfire
+21. a fish swimming upstream
+22. a cloud forming in the sky
+23. a rock eroded by water over time
+24. a leaf falling from a tree in autumn
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

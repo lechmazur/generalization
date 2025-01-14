@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Methods of establishing truth or authenticity that rely on comparing two physically separated pieces that must perfectly match
+
+Here are four examples intended to follow this theme:
+1. Verifying the authenticity of a torn banknote by matching the serial numbers and patterns on both halves
+2. Confirming the identity of a broken ancient artifact by fitting the two pieces together perfectly
+3. Authenticating a historical document by comparing the watermarks on two separate pieces of paper
+4. Proving the originality of a piece of art by matching the signature on two separate canvases
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Using DNA testing to confirm paternity
+6. Verifying a person's identity through fingerprint analysis
+7. Authenticating a wine bottle by checking its label and cork
+8. Confirming the validity of a passport through its hologram and microprinting
+9. Using carbon dating to determine the age of an artifact
+10. Verifying a credit card by checking its chip and signature
+11. Authenticating a painting by analyzing its brush strokes and pigments
+12. Confirming the identity of a person through facial recognition technology
+13. Verifying the authenticity of a coin by examining its weight and metal composition
+14. Using a polygraph test to determine the truthfulness of a statement
+15. Authenticating a stamp by checking its perforations and ink
+16. Confirming the originality of a manuscript by analyzing its handwriting and ink
+17. Verifying the authenticity of a watch by examining its serial number and movement
+18. Using voice recognition to confirm a person's identity
+19. Authenticating a piece of jewelry by checking its hallmarks and gemstones
+20. Confirming the validity of a driver's license through its hologram and barcode
+21. Verifying the authenticity of a photograph by analyzing its metadata and EXIF data
+22. Using blockchain technology to confirm the ownership of a digital asset
+23. Authenticating a musical instrument by examining its craftsmanship and materials
+24. Confirming the identity of a person through iris scanning technology
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

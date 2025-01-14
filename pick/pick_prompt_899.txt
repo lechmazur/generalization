@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+a mountain range eroding into hills over eons
+a tree growing thicker bark over decades
+a coral reef expanding and changing shape over centuries
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+a meteor impact creating a crater
+a lightning strike splitting a tree
+a landslide reshaping a hillside
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. a tsunami reshaping a coastline
+2. a rock being crushed into sand by machinery
+3. a tornado altering a town
+4. a forest fire altering a landscape
+5. a tree falling in a storm
+6. a river carving a canyon over millennia <<LEFTOVER>>
+7. a geyser erupting
+8. a volcano erupting

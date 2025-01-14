@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical artifacts depicting a specific Egyptian deity combined with representations of wave-particle duality as understood in modern physics.
+
+Here are four examples intended to follow this theme:
+1. A statue of Anubis holding a prism with light refracting into a spectrum
+2. A painting of Ra with a depiction of the double-slit experiment in the background
+3. A sculpture of Bastet with a photon wave function diagram etched into the base
+4. A relief of Osiris alongside a diagram illustrating the concept of wave-particle duality
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A statue of Anubis
+6. A prism with light refracting into a spectrum
+7. A painting of Ra
+8. A depiction of the double-slit experiment
+9. A sculpture of Bastet
+10. A photon wave function diagram
+11. A relief of Osiris
+12. A diagram illustrating wave-particle duality
+13. A statue of Horus with a falcon
+14. A model of an atom with electron orbitals
+15. A painting of the Nile River
+16. A diagram of the electromagnetic spectrum
+17. A sculpture of Thoth with a scroll
+18. A depiction of quantum entanglement
+19. A relief of Isis with a sistrum
+20. A diagram of Schrödinger's cat thought experiment
+21. A statue of Sekhmet with a lioness head
+22. A model of a wave function collapse
+23. A painting of the pyramids at Giza
+24. A depiction of the Heisenberg uncertainty principle
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices or systems that analyze large quantities of discrete units to predict future patterns but were invented before 1950
+
+Here are four examples intended to follow this theme:
+1. Hollerith tabulating machine
+2. Powers-Samas punched card machines
+3. IBM 601 multiplying punch
+4. BTM Type 3 statistical machine
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Google Analytics
+6. SPSS software
+7. Watson supercomputer
+8. Crystal ball
+9. Weather vane
+10. Abacus
+11. Slide rule
+12. ENIAC
+13. Stock ticker
+14. Mechanical calculator
+15. Astrolabe
+16. Geiger counter
+17. Barometer
+18. Random number generator
+19. Census ledger
+20. Mechanical adding machine
+21. Difference engine
+22. Analytical engine
+23. Pascal's calculator
+24. Modern predictive analytics software
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

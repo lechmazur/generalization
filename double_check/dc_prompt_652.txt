@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Textile art forms that incorporate traditional cultural symbolism and are used in ceremonial or significant life events.
+
+Here are four examples intended to follow this theme:
+1. An intricately embroidered Hmong story cloth depicting the group's migration journey, used in wedding ceremonies.
+2. A Navajo wedding basket woven with specific geometric patterns symbolizing prosperity and harmony, presented to the bride.
+3. A Kente cloth woven with Adinkra symbols representing concepts like wisdom and leadership, worn during chieftaincy installations in Ghana.
+4. A Bolivian Aguayo textile featuring vibrant colors and stylized depictions of animals and deities, used in rituals honoring Pachamama (Mother Earth).
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tie-dye t-shirt.
+6. A crocheted blanket.
+7. A macrame wall hanging.
+8. An embroidered pillowcase.
+9. A hand-knitted sweater.
+10. A quilt with a geometric pattern.
+11. A tapestry depicting a landscape.
+12. A batik scarf with floral motifs.
+13. A beaded necklace.
+14. A woven rug with abstract designs.
+15. A piece of lace used for trimming a dress.
+16. A silk screen printed poster.
+17. A digitally printed fabric with a repeating pattern.
+18. Flags used in national celebrations.
+19. Theater costumes for a historical play.
+20. A hand-painted silk fan.
+21. A leather belt with embossed designs.
+22. A feathered headdress worn for decorative purposes.
+23. A patchwork denim jacket.
+24. Embroidered patches on a scout uniform.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

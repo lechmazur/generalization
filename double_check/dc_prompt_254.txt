@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artworks featuring birch bark as a primary material created by artists born in the 19th century
+
+Here are four examples intended to follow this theme:
+1. Birch Bark Basket by Maude Gage Baum (1862-1947)
+2. Native American Wigwam Model by George Morrison (1871-1952)
+3. Birch Bark Canoe by William Commanda (1882-1980)
+4. Decorative Birch Panel by Gustaf Fjaestad (1868-1948)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Pine Bark Sculpture by Louise Nevelson
+6. Birch Wood Carving by Henry Moore
+7. Paper Bark Installation by Christo
+8. Tree Bark Collage by Max Ernst
+9. Birch Branch Mobile by Alexander Calder
+10. Bark Cloth Painting by Jasper Johns
+11. Birch Log Sculpture by Andy Goldsworthy
+12. Bark Paper Drawing by Georgia O'Keeffe
+13. Birch Tree Photography by Ansel Adams
+14. Cork Art Installation by Robert Rauschenberg
+15. Birch Forest Painting by Gustav Klimt
+16. Tree Ring Print by Friedl Dicker-Brandeis
+17. Bark Textile by Anni Albers
+18. Birch Grove Etching by Käthe Kollwitz
+19. Wood Sculpture by Barbara Hepworth
+20. Bark Relief by Jean Arp
+21. Forest Floor Installation by Wolfgang Laib
+22. Birch Landscape by Emily Carr
+23. Tree Bark Photography by Karl Blossfeldt
+24. Woodland Scene by Tom Thomson
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

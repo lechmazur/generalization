@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Shipping containers designed specifically for the transport of cultural artifacts
+
+Here are four examples intended to follow this theme:
+1. A climate-controlled crate for transporting ancient manuscripts
+2. A shock-absorbent container for moving delicate sculptures
+3. A humidity-regulated box for shipping historical paintings
+4. A vibration-dampening case for transporting archaeological artifacts
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a refrigerated container for perishable food
+6. a standard shipping container for electronics
+7. a padded box for fragile glassware
+8. a waterproof container for outdoor gear
+9. a temperature-controlled unit for pharmaceuticals
+10. a reinforced crate for heavy machinery
+11. a fireproof safe for important documents
+12. a sealed container for hazardous materials
+13. a lightweight box for express mail
+14. a stackable bin for warehouse storage
+15. a collapsible container for space-saving storage
+16. a vacuum-sealed bag for clothing
+17. a foam-lined case for musical instruments
+18. a GPS-tracked container for high-value goods
+19. a biodegradable package for eco-friendly shipping
+20. a tamper-evident box for secure deliveries
+21. a modular container for flexible shipping solutions
+22. a palletized box for bulk items
+23. a UV-protected case for sensitive electronics
+24. a custom-fit box for automotive parts
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

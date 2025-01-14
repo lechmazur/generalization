@@ -1,0 +1,39 @@
+pick_response_1514.txt
+The user wants me to score candidates based on how well they match a specific theme, as exemplified by the provided examples, while explicitly avoiding broader interpretations suggested by the anti-examples. The core of the theme seems to be about *living organisms* creating *dynamic light patterns* through *natural processes* (color change, refraction, bioluminescence) *while moving*.
+
+The anti-examples involve *artificial* light sources and *man-made* displays.
+
+I need to evaluate each candidate based on these criteria:
+- Is it a living organism?
+- Does it create light patterns?
+- Are the patterns dynamic/shifting?
+- Is the light generation/manipulation a natural process inherent to the organism?
+
+Let's evaluate each candidate:
+
+1. **LED screens:** Artificial, not a living organism. Definitely doesn't fit the specific theme.
+2. **Certain species of jellyfish:** Living organism. Iridescent colors are a form of light manipulation. Movement causes the colors to shift. This seems like a good fit.
+3. **Holographic stickers:** Artificial, not a living organism. The color change is due to the structure of the sticker, not a biological process.
+4. **Kaleidoscopes:** Artificial device. The patterns are created by mirrors and colored objects.
+5. **Oil slicks on water:**  Not a living organism. The colors are due to light interference.
+6. **Auroras:** Natural phenomenon, but not caused by a living organism.
+7. **Prism glasses:** Artificial device. The patterns are created by the prism.
+8. **Soap bubbles:** Not a living organism. The colors are due to light interference.
+
+Now, let's assign scores, keeping in mind the need for granularity and avoiding polarization.
+
+- Candidate 1: Clearly a 0.
+- Candidate 2: Seems like a strong match, maybe an 8 or 9.
+- Candidate 3: Clearly a 0.
+- Candidate 4: Clearly a 0.
+- Candidate 5:  While it involves shifting color patterns, it's not biological. Maybe a 2 or 3 for the visual similarity.
+- Candidate 6: Natural light patterns, but not biological. Similar to oil slicks, maybe a 2 or 3.
+- Candidate 7: Artificial device. Clearly a 0.
+- Candidate 8: Similar to oil slicks, not biological. Maybe a 2 or 3.<number>1</number><score>0</score>
+<number>2</number><score>9</score>
+<number>3</number><score>1</score>
+<number>4</number><score>0</score>
+<number>5</number><score>3</score>
+<number>6</number><score>4</score>
+<number>7</number><score>0</score>
+<number>8</number><score>3</score>

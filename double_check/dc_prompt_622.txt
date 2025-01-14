@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Animated films featuring a protagonist who discovers a hidden world or civilization through a portal or passage concealed within a natural landscape.
+
+Here are four examples intended to follow this theme:
+1. Coraline discovers a hidden world behind a small door in her new home, which leads to an alternate version of her life.
+2. Jake Sully enters the world of Pandora through a neural link, discovering the Na'vi civilization.
+3. Alice falls down a rabbit hole into Wonderland, a fantastical world hidden beneath the surface.
+4. Chihiro enters the spirit world through a tunnel, discovering a bathhouse run by spirits.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A young boy discovers a magical train that takes him to a school of witchcraft and wizardry.
+6. A girl finds a wardrobe that leads her to a magical land filled with mythical creatures.
+7. A character stumbles upon a time-traveling device that transports them to different eras.
+8. A protagonist enters a virtual reality game and explores a digital world.
+9. A boy discovers a secret society living beneath the city through an old subway tunnel.
+10. A character finds a magic mirror that shows them alternate realities.
+11. A girl discovers a hidden room in her house that contains a portal to another dimension.
+12. A protagonist enters a dream world through a special device that controls dreams.
+13. A character finds a hidden cave that leads to an underground city.
+14. A boy discovers a magical book that transports him to different worlds when he reads it.
+15. A girl finds a hidden door in her school that leads to a parallel universe.
+16. A protagonist enters a fantasy world through a magical amulet.
+17. A character discovers a hidden laboratory that contains a time machine.
+18. A boy finds a secret passage in his attic that leads to a world of adventure.
+19. A girl discovers a hidden island that is home to a lost civilization.
+20. A protagonist enters a magical forest through a hidden path and meets enchanted creatures.
+21. A character finds a hidden elevator that takes them to a futuristic city.
+22. A boy discovers a secret tunnel in his backyard that leads to a world of dinosaurs.
+23. A girl finds a hidden staircase in her library that leads to a world of books come to life.
+24. A protagonist enters a hidden realm through a magical painting.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

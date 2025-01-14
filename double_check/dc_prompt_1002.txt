@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or technologies that utilize modular design principles to enable scalability, adaptability, or interchangeability of components while maintaining a unified functional purpose.
+
+Here are four examples intended to follow this theme:
+1. a modular smartphone with swappable camera, battery, and display components
+2. a prefabricated building system with interchangeable wall and floor panels
+3. a modular robotics kit with customizable limbs and sensors
+4. a modular synthesizer with detachable sound modules and control interfaces
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a monolithic skyscraper
+6. a fixed-function calculator
+7. a traditional wristwatch
+8. a single-use disposable camera
+9. a non-upgradable desktop computer
+10. a static sculpture
+11. a rigid steel beam
+12. a sealed lithium-ion battery
+13. a one-piece wooden chair
+14. a fixed-gear bicycle
+15. a monolithic concrete block
+16. a non-customizable software application
+17. a single-function kitchen appliance
+18. a static printed circuit board
+19. a non-modular video game console
+20. a rigid plastic toy
+21. a fixed-layout printed book
+22. a non-interchangeable car engine
+23. a static LED light fixture
+24. a single-purpose medical device
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

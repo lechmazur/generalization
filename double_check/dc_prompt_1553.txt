@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient artifacts or structures that were repurposed as waste disposal sites during the 20th century
+
+Here are four examples intended to follow this theme:
+1. A section of Hadrian's Wall used as a household dumping ground in the mid-1900s.
+2. An abandoned Roman quarry in England filled with construction debris in the 1970s.
+3. A crumbling section of the Great Wall of China used by nearby villagers for trash disposal in the late 1980s.
+4. A ruined Mayan temple in Central America used as a dumping ground for refuse by locals in the 1960s.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A medieval castle converted into a museum.
+6. An ancient Egyptian tomb raided by grave robbers.
+7. A Roman amphitheater used for modern concerts.
+8. A prehistoric cave used as a shelter by homeless people.
+9. A sunken ship used as an artificial reef.
+10. A deserted medieval village.
+11. An abandoned factory turned into lofts.
+12. A disused railway line converted into a walking trail.
+13. A landfill built on a former farmland.
+14. A modern building demolished and its debris used as landfill.
+15. An old growth forest cleared for logging.
+16. A river polluted by industrial waste.
+17. A mountaintop removed for coal mining.
+18. A wetland drained for agriculture.
+19. A historic battlefield turned into a national park.
+20. An ancient city buried by a volcanic eruption.
+21. A medieval church used as a community center.
+22. A colonial fort converted into a prison.
+23. A Native American burial ground desecrated by looters.
+24. A Victorian mansion converted into a hotel.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

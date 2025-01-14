@@ -1,0 +1,22 @@
+pick_response_1353.txt
+The user has provided examples and anti-examples of a specific theme. The examples relate to adaptations to desert environments. The anti-examples relate to adaptations to other extreme environments (deep sea, space). The task is to score candidates based on how well they fit the specific desert adaptation theme, avoiding the broader theme of adaptation to extreme environments.
+
+Let's analyze each candidate:
+
+1. **Deep-sea anglerfish:**  Adaptation to the deep sea, clearly an anti-example environment. Score should be low.
+2. **High-altitude mountaineering tent:** Adaptation to cold, windy mountain environments. Not desert. Score should be low.
+3. **Polar bear:** Adaptation to cold, arctic environments. Not desert. Score should be low.
+4. **Mangrove tree:** Adaptation to brackish water environments. Not desert. Score should be low.
+5. **Rainforest orchid:** Adaptation to rainforest environments. Not desert. Score should be low.
+6. **Snowshoe hare:** Adaptation to snowy environments. Not desert. Score should be low.
+7. **Skyscraper:** Engineered structure to withstand wind and earthquakes. Not a natural adaptation to a specific environment, and certainly not a desert. Score should be very low.
+8. **Barrel cactus:**  Directly related to desert survival through water storage. This is a strong match. Score should be high.
+
+Based on this analysis, I can now assign scores, ensuring they are granular and use the full range.<number>1</number><score>1</score>
+<number>2</number><score>2</score>
+<number>3</number><score>1</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>2</score>
+<number>7</number><score>0</score>
+<number>8</number><score>9</score>

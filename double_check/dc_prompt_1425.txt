@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or locations that were illuminated exclusively by whale oil lamps during their initial public unveiling
+
+Here are four examples intended to follow this theme:
+1. The interior of the American Museum of Natural History's original building
+2. Displays at the first World's Fair in London (1851), in areas not using gas lighting
+3. Early photographic studios in the mid-19th century, before electric lighting
+4. Some of the paintings in the Louvre during its initial opening as a museum in 1793
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A lighthouse in the 18th century
+6. A whaling ship
+7. A street lamp in 19th century London
+8. A painting of a whale
+9. A Victorian era home
+10. A kerosene lamp
+11. A theater stage in the 1800s
+12. A beeswax candle
+13. A gaslight
+14. A tavern in colonial America
+15. An oil painting
+16. A scrimshaw carving
+17. A fireplace
+18. The Eiffel Tower
+19. The Statue of Liberty
+20. A daguerreotype
+21. A phonograph
+22. A typewriter
+23. A horse-drawn carriage
+24. A sailing ship
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

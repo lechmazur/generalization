@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Exploratory voyages that resulted in the first circumnavigation of a celestial body by a human-made object
+
+Here are four examples intended to follow this theme:
+1. Luna 3's 1959 mission around the Moon
+2. Mariner 10's 1974 Mercury flyby
+3. Pioneer 10's 1973 Jupiter encounter
+4. Voyager 1's 1980 Saturn flyby
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Apollo 8's lunar orbit mission
+6. Magellan's global circumnavigation
+7. Cassini's entry into Saturn's atmosphere
+8. Viking 1's Mars landing
+9. Vostok 1's Earth orbit
+10. New Horizons' Pluto flyby
+11. Galileo's Jupiter atmospheric probe
+12. MESSENGER's Mercury impact
+13. Venera 7's Venus landing
+14. Sputnik 1's Earth orbit
+15. Drake's circumnavigation voyage
+16. Zheng He's Indian Ocean expeditions
+17. Cook's Pacific exploration
+18. Vasco da Gama's India route
+19. Hubble Space Telescope's Earth orbit
+20. Mars Reconnaissance Orbiter's mission
+21. Curiosity rover's Mars exploration
+22. Huygens probe's Titan landing
+23. Columbia's first shuttle mission
+24. NEAR Shoemaker's asteroid orbit
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

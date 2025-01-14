@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena or events that occurred in the year 1816 and had significant global impacts on climate, culture, or human history.
+
+Here are four examples intended to follow this theme:
+1. The eruption of Mount Tambora in Indonesia
+2. The Year Without a Summer
+3. Widespread crop failures and famine in Europe and North America
+4. The creation of the poem "Darkness" by Lord Byron
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The eruption of Krakatoa in 1883
+6. The Little Ice Age
+7. The Dust Bowl of the 1930s
+8. The invention of the steam engine
+9. The French Revolution
+10. The Industrial Revolution
+11. The discovery of penicillin
+12. The Great Famine of Ireland in the 1840s
+13. The publication of "Frankenstein" by Mary Shelley
+14. The Napoleonic Wars
+15. The Louisiana Purchase
+16. The War of 1812
+17. The invention of the telegraph
+18. The California Gold Rush
+19. The eruption of Vesuvius in AD 79
+20. The Black Death in the 14th century
+21. The Renaissance
+22. The fall of the Roman Empire
+23. The invention of the printing press
+24. The American Civil War
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

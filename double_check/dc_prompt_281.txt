@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects composed primarily of translucent or transparent silica-based material that incorporate a visible, intentionally included foreign object.
+
+Here are four examples intended to follow this theme:
+1. a paperweight with a butterfly inside
+2. a glass orb with a miniature ship inside
+3. a crystal block with a laser-etched image inside
+4. a resin pendant with a flower inside
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a glass window
+6. a clear plastic bottle
+7. a glass vase
+8. a crystal chandelier
+9. a glass of water
+10. a transparent acrylic sheet
+11. a glass sculpture
+12. a clear quartz crystal
+13. a glass jar
+14. a stained glass window
+15. a frosted glass door
+16. a glass beaker
+17. a glass fish tank
+18. a clear glass bowl
+19. a glass test tube
+20. a glass bottle
+21. a glass mirror
+22. a glass lens
+23. a glass ashtray
+24. a glass mosaic
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

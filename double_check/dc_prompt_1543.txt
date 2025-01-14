@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or processes designed to prevent catastrophic failures that were themselves responsible for major disasters due to their complexity or misapplication
+
+Here are four examples intended to follow this theme:
+1. The Space Shuttle Challenger disaster, where the O-ring failure was exacerbated by cold weather conditions not adequately accounted for in the design and safety protocols.
+2. The Chernobyl nuclear disaster, where the safety test procedure led to a power surge and subsequent explosion due to flaws in the reactor's design and safety systems.
+3. The Therac-25 radiation therapy machine incidents, where software errors in the safety interlocks resulted in patients receiving lethal doses of radiation.
+4. The Boeing 737 MAX crashes, where the MCAS system designed to enhance safety instead caused the aircraft to enter unrecoverable dives due to faulty sensor data and inadequate pilot training.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A car's airbag system that deploys correctly to prevent injury during a collision.
+6. A fire suppression system in a building that successfully extinguishes a fire.
+7. A backup generator that automatically activates during a power outage.
+8. A safety harness used by construction workers to prevent falls.
+9. A circuit breaker that trips to prevent electrical overloads.
+10. A smoke detector that alerts occupants to a fire, allowing for safe evacuation.
+11. A seatbelt that prevents injury during a car accident.
+12. A pressure relief valve that prevents a boiler from exploding.
+13. A child safety lock on a car door that prevents accidental opening.
+14. A life jacket that keeps a person afloat in water.
+15. A helmet that protects a cyclist's head during a fall.
+16. A guardrail on a highway that prevents vehicles from veering off the road.
+17. A safety net used by circus performers to catch them if they fall.
+18. A ground fault circuit interrupter that prevents electrocution.
+19. A safety switch on a power tool that prevents accidental activation.
+20. A rollover protection system in a vehicle that protects occupants during a rollover accident.
+21. A safety curtain in a theater that prevents the spread of fire.
+22. A dead man's switch on a train that stops the train if the operator becomes incapacitated.
+23. A safety valve on a scuba tank that prevents over-pressurization.
+24. A safety interlock on a machine that prevents operation without proper guarding in place.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

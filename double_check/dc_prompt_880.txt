@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or tools that combine elements of art and technology to enhance understanding or visualization of complex data.
+
+Here are four examples intended to follow this theme:
+1. an interactive data visualization platform that uses color gradients and 3D modeling to represent climate change trends
+2. a virtual reality art installation that transforms scientific data about black holes into immersive visual and auditory experiences
+3. a generative art tool that uses machine learning to create abstract visuals based on real-time financial market data
+4. a holographic projection system that maps genetic sequences into dynamic, interactive sculptures
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a spreadsheet software for organizing numerical data
+6. a traditional bar graph showing sales trends
+7. a paintbrush used for creating oil paintings
+8. a calculator for solving mathematical equations
+9. a camera used for capturing photographs
+10. a music streaming app that recommends songs based on user preferences
+11. a digital thermometer displaying temperature readings
+12. a word processor for writing essays
+13. a GPS navigation system for driving directions
+14. a stopwatch for timing athletic events
+15. a microscope for examining biological samples
+16. a whiteboard for brainstorming ideas
+17. a video game console for playing interactive games
+18. a printer for producing physical copies of documents
+19. a telescope for observing celestial objects
+20. a digital audio workstation for recording music
+21. a fitness tracker for monitoring physical activity
+22. a smartwatch for receiving notifications
+23. a projector for displaying slideshows
+24. a robotic arm used in manufacturing
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

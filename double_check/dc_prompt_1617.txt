@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Abandoned control rooms from the Cold War era that have been repurposed as art galleries or cultural spaces
+
+Here are four examples intended to follow this theme:
+1. An underground bunker in Berlin transformed into a contemporary art museum.
+2. A decommissioned missile silo in the United States now hosting immersive art installations.
+3. A former Soviet command center in Moscow converted into a cultural exhibition space.
+4. An old nuclear power plant control room in Eastern Europe repurposed as an avant-garde art gallery.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Cold War submarine turned into a maritime museum.
+6. An abandoned factory converted into a community theater.
+7. A historic castle used as a venue for classical music concerts.
+8. A former military base now serving as a wildlife sanctuary.
+9. An old railway station transformed into a shopping mall.
+10. A disused airport repurposed as a film studio.
+11. A Cold War-era spy station now a tourist attraction.
+12. An old prison converted into a luxury hotel.
+13. A former coal mine turned into a science museum.
+14. An abandoned church used as a community center.
+15. A historic lighthouse now a bed and breakfast.
+16. A decommissioned aircraft carrier serving as a naval museum.
+17. An old library building repurposed as a coworking space.
+18. A former textile mill converted into loft apartments.
+19. An abandoned hospital now a haunted house attraction.
+20. A disused water tower transformed into a climbing gym.
+21. A Cold War radar station now a weather observatory.
+22. An old brewery turned into a craft beer pub.
+23. A historic train depot now a farmer's market.
+24. A former school building used as a community art center.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

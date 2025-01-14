@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or phenomena that embody a transition from functionality to obsolescence, marked by a lingering aesthetic or emotional resonance.
+
+Here are four examples intended to follow this theme:
+1. A rotary phone, still displayed in a mid-century modern home.
+2. A cassette tape of a mixtape, tucked away in a dusty box of memories.
+3. A vintage typewriter, now a decorative object on a writer's desk.
+4. A decommissioned lighthouse, still standing sentinel against the sea.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A broken chair
+6. A rusty bicycle
+7. A faded photograph
+8. A worn-out pair of shoes
+9. A cracked teacup
+10. A dried-up flower
+11. An empty perfume bottle
+12. A chipped plate
+13. A torn map
+14. A burned-out lightbulb
+15. A discarded newspaper
+16. An obsolete computer
+17. A vintage car in perfect working order
+18. A brand new, unused flip phone
+19. A collection of antique tools still used regularly
+20. A fully functional gramophone
+21. A modern art sculpture made of discarded materials
+22. A building demolished to make way for a new one
+23. A forgotten toy in the attic
+24. A historical artifact in a museum
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

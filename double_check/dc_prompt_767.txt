@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical methods of mass production that significantly influenced modern manufacturing techniques
+
+Here are four examples intended to follow this theme:
+1. The assembly line used by Henry Ford for the Model T automobile
+2. The interchangeable parts system developed by Eli Whitney for muskets
+3. The Bessemer process for mass production of steel
+4. The mechanized spinning jenny for textile production
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The use of robotics in modern car manufacturing
+6. 3D printing technology in prototyping
+7. Just-in-time manufacturing systems
+8. Lean manufacturing principles
+9. Computer-aided design (CAD) software
+10. Automation in packaging lines
+11. The use of CNC machines in precision manufacturing
+12. Supply chain management software
+13. Quality control systems in electronics manufacturing
+14. Agile manufacturing techniques
+15. The application of Six Sigma in process improvement
+16. Use of artificial intelligence in predictive maintenance
+17. Implementation of ERP systems in factory management
+18. The development of smart factories
+19. Use of IoT in monitoring production lines
+20. Additive manufacturing in aerospace
+21. Green manufacturing practices
+22. Outsourcing of manufacturing to lower-cost countries
+23. Customization in luxury goods production
+24. Use of blockchain for supply chain transparency
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

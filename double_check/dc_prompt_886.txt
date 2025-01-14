@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Books that were banned in specific countries due to their portrayal of political ideologies
+
+Here are four examples intended to follow this theme:
+1. Animal Farm by George Orwell (banned in the Soviet Union and other communist countries)
+2. The Satanic Verses by Salman Rushdie (banned in several countries with Muslim majorities)
+3. Doctor Zhivago by Boris Pasternak (banned in the Soviet Union)
+4. The Grapes of Wrath by John Steinbeck (banned in parts of the United States during the Great Depression)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Adventures of Huckleberry Finn by Mark Twain
+6. Lady Chatterley's Lover by D.H. Lawrence
+7. Lolita by Vladimir Nabokov
+8. Ulysses by James Joyce
+9. The Catcher in the Rye by J.D. Salinger
+10. Brave New World by Aldous Huxley
+11. 1984 by George Orwell
+12. Fahrenheit 451 by Ray Bradbury
+13. To Kill a Mockingbird by Harper Lee
+14. The Color Purple by Alice Walker
+15. Beloved by Toni Morrison
+16. The Lord of the Rings by J.R.R. Tolkien
+17. The Hobbit by J.R.R. Tolkien
+18. And Then There Were None by Agatha Christie
+19. Gone Girl by Gillian Flynn
+20. The Girl with the Dragon Tattoo by Stieg Larsson
+21. The Da Vinci Code by Dan Brown
+22. Fifty Shades of Grey by E. L. James
+23. The Hunger Games by Suzanne Collins
+24. Harry Potter and the Sorcerer's Stone by J.K. Rowling
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

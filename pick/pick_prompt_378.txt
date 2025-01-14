@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+An electronic tool worn on the finger that monitors skin conductance to gauge relaxation and displays it on a small LCD.
+A handheld unit that assesses skin's electrical properties to indicate stress and features a digital readout.
+A portable gadget that measures emotional arousal via skin response and shows results on an integrated screen.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A heart rate variability monitor that displays data on a mobile app.
+A smartwatch that tracks heart rate and displays it on the screen.
+A blood pressure monitor that displays readings on a digital screen.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A glucose meter that displays blood sugar levels on a digital display.
+2. A device that tracks hydration levels and displays them on a wristband.
+3. A pulse oximeter that measures blood oxygen levels and shows them on a screen.
+4. A device that measures respiratory rate and shows it on a digital display.
+5. A device that measures body fat percentage and displays it on an electronic screen.
+6. A device that tracks stress levels through skin conductivity and displays the data on a wristband. <<LEFTOVER>>
+7. A fitness tracker that monitors steps and shows them on a device.
+8. A device that monitors blood alcohol levels and shows them on a digital display.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices that automatically adjust environmental conditions based on learned user preferences
+
+Here are four examples intended to follow this theme:
+1. A smart thermostat that learns and adjusts the home temperature based on the occupants' daily routines and preferences.
+2. An intelligent lighting system that adapts the light intensity and color temperature according to the user's mood and time of day.
+3. A smart window shade that automatically adjusts its position based on the user's preferred light levels and privacy needs throughout the day.
+4. An adaptive sound system that modifies the audio settings and volume based on the user's listening habits and the ambient noise in the environment.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A manual thermostat that requires users to set the temperature themselves.
+6. A standard light switch that does not adjust lighting based on user preferences.
+7. A weather station that collects data but does not adjust environmental conditions.
+8. A programmable coffee maker that brews at set times but does not learn from user behavior.
+9. A remote-controlled ceiling fan that users must adjust manually.
+10. A basic air conditioner with fixed settings that users must change manually.
+11. A humidity sensor that monitors but does not control the environment.
+12. A traditional alarm clock that does not adapt to user sleep patterns.
+13. A manual window blind that users must adjust themselves.
+14. A non-smart speaker that does not adjust sound based on user preferences.
+15. A simple heater with a dial that users must set manually.
+16. A regular fan that does not learn or adjust based on user behavior.
+17. A standard air purifier with fixed settings that users must change manually.
+18. A basic sprinkler system that operates on a timer but does not learn from user behavior.
+19. A traditional humidifier that users must adjust manually.
+20. A non-smart dehumidifier with fixed settings that users must change manually.
+21. A regular smoke detector that does not adjust based on user preferences.
+22. A manual irrigation system that users must set and adjust themselves.
+23. A standard security camera that does not adapt to user behavior.
+24. A basic motion sensor that activates lights but does not learn from user preferences.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

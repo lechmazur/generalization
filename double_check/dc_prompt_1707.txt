@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures that were deliberately set on fire as part of documented religious ceremonies before 1900 CE
+
+Here are four examples intended to follow this theme:
+1. The burning of the Temple of Artemis at Ephesus
+2. The Zoroastrian fire altars
+3. The Viking ship burial pyres
+4. The Celtic Beltane bonfires
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Great Fire of London
+6. The burning of the Library of Alexandria
+7. The destruction of Pompeii by volcanic eruption
+8. The Chicago Fire of 1871
+9. The burning of Joan of Arc
+10. The eruption of Mount Vesuvius
+11. The burning of witches during the Salem witch trials
+12. The firebombing of Dresden
+13. The burning of the Reichstag
+14. The destruction of the Parthenon
+15. The burning of the White House in 1814
+16. The fire at the Triangle Shirtwaist Factory
+17. The burning of the Bastille
+18. The eruption of Krakatoa
+19. The burning of Atlanta during the Civil War
+20. The fire at Notre-Dame Cathedral in 2019
+21. The burning of the Spanish Armada
+22. The destruction of the Colosseum
+23. The burning of the Hindenburg
+24. The fire at Windsor Castle in 1992
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

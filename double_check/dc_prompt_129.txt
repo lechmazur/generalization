@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or systems that transition from a state of potential or chaos to a structured or functional form through external influence or internal reorganization.
+
+Here are four examples intended to follow this theme:
+1. a seed growing into a tree after being planted and watered
+2. a jigsaw puzzle being assembled into a complete picture
+3. a computer program compiling from source code into an executable application
+4. a cloud of gas collapsing under gravity to form a star
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a rock eroding over time
+6. a candle burning down
+7. a river flowing downstream
+8. a snowman melting in the sun
+9. a car engine running
+10. a clock ticking
+11. a book being read
+12. a light bulb turning on
+13. a tree shedding its leaves
+14. a cake being baked
+15. a balloon deflating
+16. a battery charging
+17. a flower blooming
+18. a fire spreading
+19. a glass breaking
+20. a computer booting up
+21. a snowflake forming
+22. a sandcastle being built
+23. a star exploding into a supernova
+24. a magnet attracting metal
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

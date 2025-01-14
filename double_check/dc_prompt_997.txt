@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical journeys that significantly influenced the development of a scientific theory or philosophy
+
+Here are four examples intended to follow this theme:
+1. Darwin's voyage on the HMS Beagle
+2. Alexander von Humboldt's Latin American expedition
+3. Alfred Russel Wallace's Malay Archipelago exploration
+4. Ibn Battuta's journey through Asia and Africa
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Marco Polo's travels to China
+6. Lewis and Clark expedition
+7. Christopher Columbus's voyages
+8. Magellan's circumnavigation
+9. Neil Armstrong's moon landing
+10. Amelia Earhart's final flight
+11. Roald Amundsen's South Pole expedition
+12. Edmund Hillary's Mount Everest climb
+13. Vasco da Gama's route to India
+14. James Cook's Pacific voyages
+15. Thor Heyerdahl's Kon-Tiki expedition
+16. Zheng He's maritime expeditions
+17. Ernest Shackleton's Antarctic journey
+18. Ibn Fadlan's journey to the Volga Bulgars
+19. Robert Peary's Arctic expedition
+20. Bartolomeu Dias's Cape of Good Hope voyage
+21. John Franklin's Northwest Passage expedition
+22. David Livingstone's African explorations
+23. Yuri Gagarin's space flight
+24. Sir Francis Drake's circumnavigation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic techniques used in the 16th century that involve the manipulation of light and shadow to enhance visual depth and emotional impact.
+
+Here are four examples intended to follow this theme:
+1. The use of sfumato in the Mona Lisa's facial features
+2. Titian's application of chiaroscuro in Venus of Urbino
+3. Tintoretto's dramatic tenebrism in The Last Supper
+4. Holbein's controlled contrast in The Ambassadors
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Pointillism in Seurat's paintings
+6. Bronze casting techniques
+7. Fresco painting methods
+8. Gothic stained glass windows
+9. Woodblock printing
+10. Gold leaf application
+11. Tempera paint mixing
+12. Medieval manuscript illumination
+13. Stone carving techniques
+14. Tapestry weaving methods
+15. Mosaic tile placement
+16. Watercolor washes
+17. Egg tempera preparation
+18. Marble sculpting
+19. Panel painting preparation
+20. Ceramic glazing
+21. Metalpoint drawing
+22. Ivory carving
+23. Enamel work
+24. Glass blowing techniques
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

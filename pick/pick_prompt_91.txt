@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Sergei Eisenstein's film "Battleship Potemkin" (1925)
+Chris Ofili's painting "The Holy Virgin Mary" (1996)
+Dennis Cooper's novel "Frisk" (1991)
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+The film "The Last Temptation of Christ" (1988)
+Stravinsky's ballet "The Rite of Spring" (1913)
+The novel "Lolita" by Vladimir Nabokov (1955)
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. The musical "Hair" (1967)
+2. James Joyce's novel "Ulysses" (1922)
+3. Andres Serrano's photograph "Piss Christ" (1987) <<LEFTOVER>>
+4. The film "A Clockwork Orange" (1971)
+5. The Sex Pistols' single "God Save the Queen" (1977)
+6. The film "The Exorcist" (1973)
+7. The play "Angels in America" by Tony Kushner (1991)
+8. Marcel Duchamp's "Fountain" (1917)

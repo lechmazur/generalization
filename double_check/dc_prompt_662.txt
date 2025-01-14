@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Moments or places characterized by a sudden, profound silence amidst an otherwise dynamic or bustling environment.
+
+Here are four examples intended to follow this theme:
+1. The moment a crowded train station falls silent as a train departs, leaving only the echo of its wheels.
+2. A bustling city street where all noise ceases during a sudden, unexpected snowfall.
+3. The instant a packed concert hall hushes in anticipation just before the orchestra begins to play.
+4. A lively playground where all children stop and listen as a distant siren wails.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A quiet library where people are always expected to be silent.
+6. The calm atmosphere of a deserted beach at dawn.
+7. A serene forest where the only sounds are those of nature.
+8. The peaceful ambiance of a meditation retreat.
+9. A moment of silence observed during a memorial service.
+10. The stillness of a church during a prayer.
+11. The quietness of a countryside road with no traffic.
+12. The silence of a museum where visitors are hushed.
+13. The tranquility of a yoga class in session.
+14. The hushed tones of a hospital ward at night.
+15. The calm before a storm when the wind dies down.
+16. The silence of a graveyard at midnight.
+17. The quiet of a sleeping household in the early morning.
+18. The stillness of a deserted town square at night.
+19. The silence of a classroom during an exam.
+20. The quiet of a park in the early hours before it opens.
+21. The hush of a theater audience waiting for the curtain to rise.
+22. The silence of a snowy landscape with no one around.
+23. The quiet of a remote mountain trail.
+24. The stillness of a lake at dusk with no boats or people.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

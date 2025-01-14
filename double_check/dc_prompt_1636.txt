@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Naturally occurring fractal patterns that form in brackish or saline water bodies
+
+Here are four examples intended to follow this theme:
+1. The intricate branching patterns of mangrove roots in estuarine environments
+2. The formation of salt crystals on the surface of hypersaline lagoons
+3. The fractal-like distribution of phytoplankton blooms in coastal saline waters
+4. The complex network of tidal channels in salt marshes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The fractal patterns of river deltas
+6. The branching patterns of lightning in the sky
+7. The fractal geometry of snowflakes
+8. The self-similar patterns in broccoli florets
+9. The fractal structure of Romanesco cauliflower
+10. The branching patterns of trees in a forest
+11. The fractal patterns in mountain ranges
+12. The self-similar patterns in coastlines
+13. The fractal patterns in clouds
+14. The branching patterns of blood vessels
+15. The fractal patterns in coral reefs
+16. The self-similar patterns in fern leaves
+17. The fractal patterns in the structure of lungs
+18. The branching patterns of river systems
+19. The fractal patterns in the structure of galaxies
+20. The self-similar patterns in the growth of bacterial colonies
+21. The fractal patterns in the structure of sponges
+22. The branching patterns of neural networks
+23. The fractal patterns in the structure of crystals
+24. The self-similar patterns in the formation of sand dunes
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

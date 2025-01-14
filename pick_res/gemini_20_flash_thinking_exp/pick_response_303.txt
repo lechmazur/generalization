@@ -1,0 +1,27 @@
+pick_response_303.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+The examples are all types of wheelbarrows.
+The anti-examples are all wheeled devices for moving things, but they are not wheelbarrows.
+
+Therefore, the specific theme is likely "wheelbarrow". The broader theme is "wheeled carts for moving items".
+
+I need to evaluate each candidate based on how closely it resembles a wheelbarrow, specifically considering the single wheel and the way it's used (lifting and pushing).
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **push cart:**  Generally has multiple wheels and a handle for pushing. Not a wheelbarrow.
+*   **construction wheelbarrow:**  Clearly a type of wheelbarrow.
+*   **pallet jack:**  Designed for lifting and moving pallets. Not a wheelbarrow.
+*   **beach wagon:**  Has multiple wheels and is pulled. Not a wheelbarrow.
+*   **dump cart:**  Can be similar to a wheelbarrow but often has more wheels and a dumping mechanism. Closer than some, but not a standard wheelbarrow.
+*   **platform cart:**  Flat platform with wheels. Not a wheelbarrow.
+*   **garden cart:**  Similar to a dump cart, often with multiple wheels and pulled. Not a wheelbarrow.
+*   **mail cart:**  Designed for carrying mail, often with multiple wheels. Not a wheelbarrow.<number>1</number><score>2</score>
+<number>2</number><score>9</score>
+<number>3</number><score>1</score>
+<number>4</number><score>3</score>
+<number>5</number><score>6</score>
+<number>6</number><score>2</score>
+<number>7</number><score>5</score>
+<number>8</number><score>2</score>

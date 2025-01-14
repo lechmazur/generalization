@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artifacts from the early 20th century that feature geometric patterns inspired by non-Western cultures
+
+Here are four examples intended to follow this theme:
+1. A Cubist painting by Pablo Picasso featuring African mask motifs
+2. A Wiener Werkstätte textile design incorporating Japanese wave patterns
+3. A Frank Lloyd Wright stained glass window with Native American geometric designs
+4. An Art Deco vase with Egyptian-inspired geometric motifs
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Renaissance painting with religious themes
+6. A Baroque sculpture of a mythological figure
+7. A Victorian-era floral wallpaper
+8. A medieval tapestry depicting a historical battle
+9. A Rococo-style mirror with ornate curves
+10. A Gothic cathedral with pointed arches
+11. A Neoclassical building with Greek columns
+12. A Romantic landscape painting
+13. A 19th-century Impressionist painting
+14. A traditional Chinese porcelain vase
+15. A Native American totem pole
+16. A Japanese ukiyo-e woodblock print
+17. An ancient Egyptian hieroglyphic tablet
+18. A Byzantine mosaic of a religious scene
+19. A Persian rug with floral patterns
+20. A medieval illuminated manuscript
+21. A traditional African tribal mask
+22. A Mayan calendar stone
+23. A Greek amphora with mythological scenes
+24. A Roman fresco from Pompeii
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

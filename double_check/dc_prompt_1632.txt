@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific instruments or tools that directly led to a fundamental shift in humanity's understanding of its place in the universe
+
+Here are four examples intended to follow this theme:
+1. Galileo's telescope
+2. Hubble Space Telescope
+3. Spectroscope
+4. Radio telescope
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Microscope
+6. Compass
+7. Sextant
+8. Barometer
+9. Thermometer
+10. Seismograph
+11. DNA sequencer
+12. Electron microscope
+13. Mass spectrometer
+14. pH meter
+15. Geiger counter
+16. Chronometer
+17. Astrolabe
+18. Particle accelerator
+19. X-ray machine
+20. MRI scanner
+21. Wind vane
+22. Sundial
+23. Voltmeter
+24. Oscilloscope
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts that involve the enumeration or categorization of complex, non-linear relationships in systems or narratives
+
+Here are four examples intended to follow this theme:
+1. The interconnected web of characters and their relationships in a novel like "War and Peace"
+2. The complex network of species interactions in an ecosystem, such as a coral reef
+3. The intricate system of cause-and-effect relationships in a historical event like the fall of the Roman Empire
+4. The multifaceted connections between various plotlines in a TV series like "Game of Thrones"
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A simple flowchart depicting a company's organizational structure
+6. A linear timeline of a person's life events
+7. A basic family tree showing direct lineage
+8. A straightforward recipe for baking a cake
+9. A list of ingredients needed for a meal
+10. A step-by-step guide to assembling furniture
+11. A chronological list of historical events
+12. A diagram showing the parts of a bicycle
+13. A map showing the route of a hiking trail
+14. A list of countries and their capitals
+15. A table of contents in a book
+16. A schedule of train departures and arrivals
+17. A list of colors in the visible spectrum
+18. A diagram of the solar system showing planetary orbits
+19. A list of musical notes in a scale
+20. A chart showing the hierarchy of a company's management
+21. A list of ingredients on a food product label
+22. A diagram showing the water cycle
+23. A list of steps in a scientific experiment
+24. A map showing the layout of a city's streets
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

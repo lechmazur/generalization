@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Decorative art or architectural elements that utilize naturally occurring tessellated patterns found in geological formations.
+
+Here are four examples intended to follow this theme:
+1. A mosaic floor inspired by the Giant's Causeway basalt columns.
+2. A ceramic tile backsplash mimicking the septarian concretions found in sedimentary rock.
+3. A stained-glass window designed after the crystalline structure of amethyst geodes.
+4. A carved stone fireplace mantel replicating the tessellated patterns of a dried mud bed.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Honeycomb pattern wallpaper
+6. A quilt with a patchwork design
+7. A brick wall in a running bond pattern
+8. Fish scales
+9. A chain-link fence
+10. Spider web
+11. A tiled bathroom floor
+12. A parquet floor
+13. A woven basket
+14. A knitted sweater
+15. A pineapple skin
+16. A soccer ball
+17. Graph paper
+18. A circuit board
+19. A stained-glass window with geometric patterns
+20. A building facade with repeating window patterns
+21. A cobblestone street
+22. Dry stacked stone wall
+23. A tortoiseshell pattern
+24. A wood carving with geometric designs
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

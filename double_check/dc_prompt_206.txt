@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects made of brass used for utilitarian purposes in the 19th century
+
+Here are four examples intended to follow this theme:
+1. a brass telescope
+2. a brass candlestick holder
+3. a brass compass
+4. a brass door knocker
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a wooden chair
+6. a silver spoon
+7. a copper kettle
+8. a brass statue
+9. a glass vase
+10. a steel sword
+11. a porcelain teapot
+12. a leather saddle
+13. a bronze medal
+14. a brass musical instrument
+15. a gold ring
+16. a ceramic plate
+17. a plastic bucket
+18. a brass decorative figurine
+19. a wool blanket
+20. a brass clock
+21. a stone sculpture
+22. a brass chandelier
+23. a cotton shirt
+24. a brass picture frame
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

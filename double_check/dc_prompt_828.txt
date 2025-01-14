@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Stories or narratives that involve unexpected clarity or insight during traditionally solitary or introspective activities in cold environments
+
+Here are four examples intended to follow this theme:
+1. During a solo winter hike in the mountains, a person suddenly understands the true meaning of a personal loss they had been struggling with for years.
+2. While ice fishing alone on a frozen lake, an individual experiences a profound realization about their life's purpose, triggered by the serene and cold surroundings.
+3. In the quiet solitude of a snowy forest, a writer on a retreat gains unexpected clarity about the plot of their novel, inspired by the crisp, cold air.
+4. While sitting alone in a chilly, dimly lit cabin, a person meditating achieves a sudden insight into resolving a long-standing conflict with a family member.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. During a group ski trip, a person reflects on their career choices amidst the cold mountain air.
+6. While jogging in a cold park, someone ponders the beauty of nature but doesn't gain any new insights.
+7. In a warm café, a person reads a book about personal growth and feels inspired.
+8. During a summer hike, a person experiences a moment of clarity about their relationships.
+9. While swimming in a cold pool, a person thinks about their future goals but doesn't reach any new conclusions.
+10. In a bustling city during winter, someone feels a sense of peace but doesn't gain any profound insights.
+11. During a cold, rainy day, a person writes in their journal about past experiences without gaining new clarity.
+12. While camping in a warm climate, a person meditates and reflects on their life's journey.
+13. In a cold classroom, a student listens to a lecture on philosophy and feels inspired.
+14. During a cold evening walk with friends, someone discusses life goals but doesn't experience a personal epiphany.
+15. While sitting in a cold movie theater, a person watches a film that makes them think about societal issues.
+16. In a cold art gallery, someone admires paintings and reflects on the artist's techniques.
+17. During a cold morning run, a person listens to a podcast about self-improvement but doesn't gain new insights.
+18. While ice skating with a group, someone enjoys the cold air but doesn't experience any personal revelations.
+19. In a cold library, a person reads a novel and feels emotionally moved but doesn't gain new clarity.
+20. During a cold, windy day at the beach, someone reflects on their childhood memories.
+21. While attending a cold outdoor concert, a person enjoys the music and feels a sense of community.
+22. In a cold, crowded subway, someone reads a self-help book and feels motivated.
+23. During a cold, rainy day at a café, a person writes poetry inspired by the weather.
+24. While walking in a cold, busy city street, someone thinks about their daily routine but doesn't gain new insights.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Functional Victorian-era style automatons powered by pressurized fjord water.
+
+Here are four examples intended to follow this theme:
+1. A mechanical pianist that plays intricate compositions using water pressure from a nearby fjord.
+2. A clockwork butler that serves tea and adjusts its movements based on the flow of pressurized fjord water.
+3. A self-winding loom that weaves intricate Victorian patterns, powered by fjord water pressure.
+4. A steam-powered ornithopter that mimics bird flight, driven by pressurized fjord water.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A wind-up toy soldier
+6. A solar-powered calculator
+7. A hand-cranked music box
+8. A battery-operated robot
+9. A coal-powered steam engine
+10. A hydroelectric dam
+11. A modern electric car
+12. A gas-powered lawnmower
+13. A windmill
+14. A nuclear reactor
+15. A hand-pumped water fountain
+16. A diesel generator
+17. A geothermal power plant
+18. A pedal-powered bicycle
+19. A candle-powered clock
+20. A hand-operated water pump
+21. A coal-fired locomotive
+22. A solar-powered watch
+23. A battery-powered flashlight
+24. A hand-cranked flashlight
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

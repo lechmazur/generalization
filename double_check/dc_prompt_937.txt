@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Books where the protagonist is a detective with a unique psychological condition that aids in solving mysteries
+
+Here are four examples intended to follow this theme:
+1. The Curious Incident of the Dog in the Night-Time
+2. The Alienist
+3. Dexter
+4. The Mentalist
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Sherlock Holmes
+6. Miss Marple
+7. Hercule Poirot
+8. Nancy Drew
+9. The Girl with the Dragon Tattoo
+10. Gone Girl
+11. The Da Vinci Code
+12. Big Little Lies
+13. The Silence of the Lambs
+14. In the Woods
+15. The Big Sleep
+16. The Maltese Falcon
+17. The Secret History
+18. Sharp Objects
+19. The Reversal
+20. The Lincoln Lawyer
+21. The Cuckoo's Calling
+22. The No. 1 Ladies' Detective Agency
+23. The Postman Always Rings Twice
+24. The Name of the Rose
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

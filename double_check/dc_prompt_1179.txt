@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or systems that repurpose industrial or utilitarian materials into designs that evoke a sense of warmth, nostalgia, or emotional comfort.
+
+Here are four examples intended to follow this theme:
+1. A lamp made from an old factory pulley
+2. A coffee table crafted from reclaimed barn wood
+3. A chair upholstered with vintage grain sacks
+4. A clock made from a repurposed bicycle wheel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern glass and steel skyscraper
+6. A plastic water bottle
+7. A digital smartwatch
+8. A stainless steel kitchen sink
+9. A high-tech gaming console
+10. A ceramic vase
+11. A leather-bound journal
+12. A marble statue
+13. A silk scarf
+14. A wooden cutting board
+15. A cast iron skillet
+16. A bamboo toothbrush
+17. A woolen blanket
+18. A porcelain teapot
+19. A fiberglass kayak
+20. A titanium bicycle frame
+21. A granite countertop
+22. A carbon fiber tennis racket
+23. A velvet armchair
+24. A silver necklace
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

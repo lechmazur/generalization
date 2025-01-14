@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): historical institutions that have inspired fictional settings in literature
+
+Here are four examples intended to follow this theme:
+1. The prison in "The Count of Monte Cristo" inspired by the Château d'If
+2. The school in "Harry Potter" inspired by various British boarding schools like Eton College
+3. The asylum in "One Flew Over the Cuckoo's Nest" inspired by the Oregon State Hospital
+4. The monastery in "The Name of the Rose" inspired by several medieval monasteries
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A futuristic cityscape in a science fiction novel
+6. A mythical kingdom in a fantasy epic
+7. A dystopian society in a speculative fiction work
+8. A pirate ship in an adventure story
+9. A haunted house in a gothic novel
+10. A space station in a sci-fi thriller
+11. A post-apocalyptic wasteland in a survival narrative
+12. A magical forest in a fairy tale
+13. A detective's office in a mystery novel
+14. A courtroom in a legal drama
+15. A battlefield in a war story
+16. A spaceship in a space opera
+17. A small town in a coming-of-age story
+18. A castle in a medieval romance
+19. A laboratory in a science fiction horror
+20. A train in a suspense thriller
+21. A bar in a noir detective story
+22. A desert island in an adventure tale
+23. A skyscraper in an urban thriller
+24. A submarine in a naval adventure
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

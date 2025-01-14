@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient rulers known for constructing monumental architectural projects that served both religious and political purposes.
+
+Here are four examples intended to follow this theme:
+1. Ramses II and the construction of the Abu Simbel temples
+2. Ashoka the Great and the creation of the Great Stupa at Sanchi
+3. Qin Shi Huang and the building of the Terracotta Army complex
+4. Pachacuti and the development of Machu Picchu
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Julius Caesar and the Roman Senate
+6. Napoleon Bonaparte and the Napoleonic Code
+7. Alexander the Great and his military conquests
+8. Cleopatra and her diplomatic alliances
+9. Genghis Khan and the Mongol Empire's expansion
+10. Charlemagne and the Carolingian Renaissance
+11. Elizabeth I and the English Renaissance
+12. Louis XIV and the Palace of Versailles
+13. Henry VIII and the English Reformation
+14. Augustus and the Pax Romana
+15. Hammurabi and the Code of Hammurabi
+16. Justinian I and the Corpus Juris Civilis
+17. Shaka Zulu and the Zulu Kingdom's military reforms
+18. Akbar the Great and the Mughal administrative system
+19. Peter the Great and the modernization of Russia
+20. Mehmed the Conqueror and the fall of Constantinople
+21. Kublai Khan and the Yuan Dynasty's governance
+22. Alfred the Great and the defense of Wessex
+23. Montezuma II and the Aztec Empire's diplomacy
+24. Harald Hardrada and his Viking expeditions
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

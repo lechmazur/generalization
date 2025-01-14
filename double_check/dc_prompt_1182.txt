@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or networks that use modular, interchangeable components to optimize resource distribution or functionality in response to dynamic environmental conditions.
+
+Here are four examples intended to follow this theme:
+1. Adaptive traffic management systems that use sensors and modular signal controllers to dynamically adjust traffic flow based on real-time conditions.
+2. Smart grid systems that employ modular energy storage units and distribution components to optimize electricity distribution in response to fluctuating demand and supply.
+3. Modular water purification systems that can be reconfigured with different filtration units to adapt to varying water quality conditions in different environments.
+4. Agricultural irrigation systems that use interchangeable sprinkler heads and sensors to adjust water distribution based on soil moisture levels and weather conditions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A centralized heating system in a building.
+6. A traditional power grid with fixed infrastructure.
+7. A fixed-route public transportation system.
+8. A standard desktop computer with non-upgradable components.
+9. A non-adjustable irrigation system for a golf course.
+10. A fixed-configuration water treatment plant.
+11. A static traffic light system with predetermined timings.
+12. A non-modular solar panel installation.
+13. A traditional telephone network with fixed lines.
+14. A standard HVAC system without smart controls.
+15. A fixed-layout factory assembly line.
+16. A non-adaptive lighting system in a building.
+17. A traditional radio broadcasting system.
+18. A fixed-configuration data center.
+19. A standard plumbing system in a residential building.
+20. A non-modular kitchen appliance set.
+21. A fixed-route delivery service.
+22. A traditional classroom setup with fixed desks.
+23. A standard electrical wiring system in a house.
+24. A fixed-configuration amusement park ride.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

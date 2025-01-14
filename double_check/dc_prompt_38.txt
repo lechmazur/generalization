@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices or structures primarily designed for aerial locomotion that unexpectedly resulted in combustion or fire during their first publicly documented attempt at manned flight.
+
+Here are four examples intended to follow this theme:
+1. The Hindenburg airship
+2. The Montgolfier brothers' hot air balloon
+3. The Thomas Selfridge and Orville Wright flight
+4. The Great Aerodrome by Samuel Langley
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Wright brothers' first successful flight
+6. The Spirit of St. Louis
+7. The Apollo 11 lunar module
+8. The Space Shuttle Challenger
+9. The Boeing 747
+10. The Concorde
+11. The Redstone rocket
+12. The Lockheed SR-71 Blackbird
+13. The Bell X-1
+14. The Vostok 1 spacecraft
+15. The Zeppelin LZ 127 Graf Zeppelin
+16. The Airbus A380
+17. The F-16 Fighting Falcon
+18. The B-2 Spirit bomber
+19. The Sikorsky R-4 helicopter
+20. The Northrop Grumman B-21 Raider
+21. The Douglas DC-3
+22. The Lockheed Martin F-35 Lightning II
+23. The V-22 Osprey
+24. The SpaceX Falcon 9
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

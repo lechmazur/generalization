@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Coastal buildings that were originally constructed for one purpose but were later converted into museums about local maritime history
+
+Here are four examples intended to follow this theme:
+1. An old lighthouse on the Oregon coast that now houses exhibits on shipwrecks and coastal navigation
+2. A former fish processing plant in Nova Scotia converted into a museum showcasing the region's fishing heritage
+3. A historic naval barracks in Portsmouth, England, repurposed as a maritime history museum
+4. A decommissioned ferry terminal in San Francisco transformed into a museum about the city's maritime trade
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A coastal restaurant serving seafood dishes
+6. A modern art gallery located near the beach
+7. A beachfront hotel with ocean views
+8. A shipyard still in operation building fishing boats
+9. A coastal fort used for military defense
+10. A seaside amusement park with a pirate-themed ride
+11. A coastal observatory studying marine wildlife
+12. A beachside café with nautical decor
+13. A coastal library with a section on maritime literature
+14. A coastal theater hosting performances about the sea
+15. A coastal research station studying oceanography
+16. A coastal winery offering tours and tastings
+17. A coastal aquarium showcasing marine life
+18. A coastal marina with boat rentals
+19. A coastal museum dedicated to local art history
+20. A coastal lighthouse still in operation
+21. A coastal museum about World War II naval battles
+22. A coastal museum focused on shipbuilding techniques
+23. A coastal museum about pirates and privateers
+24. A coastal museum about underwater archaeology
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

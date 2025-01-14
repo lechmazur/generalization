@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Hand-built ceramic objects that incorporate found, non-ceramic gaming pieces.
+
+Here are four examples intended to follow this theme:
+1. A small, hand-built ceramic bowl with Scrabble tiles embedded in the clay around the rim.
+2. A ceramic sculpture of a bird, with dominoes forming the texture of its wing feathers.
+3. A hand-thrown ceramic vase, glazed in a deep blue, with several dice embedded in the base.
+4. A whimsical, hand-built ceramic teapot, with various game board pieces (Monopoly houses, chess pawns, etc.) incorporated into the handle and spout.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a chessboard.
+6. A wooden chess set.
+7. A collection of vintage board games.
+8. A ceramic tile with a game-related design printed on it.
+9. A sculpture made entirely of dice.
+10. A board game with ceramic playing pieces.
+11. A hand-built ceramic bowl with decorative, non-game-related beads embedded in it.
+12. A photograph of a game of poker.
+13. A digital rendering of a game controller.
+14. A hand-knitted blanket with a checkerboard pattern.
+15. A metal sculpture incorporating gears and cogs.
+16. A glass vase with marbles inside.
+17. A wooden box inlaid with mother-of-pearl.
+18. A hand-blown glass sculpture.
+19. A ceramic mug with a game logo printed on it.
+20. A set of hand-painted playing cards.
+21. A hand-carved wooden game board.
+22. A collection of antique game tokens.
+23. A hand-built ceramic figure holding a playing card.
+24. A mixed-media artwork incorporating fabric and buttons.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

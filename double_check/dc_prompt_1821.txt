@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Public events that integrate live music with educational workshops on specific academic subjects
+
+Here are four examples intended to follow this theme:
+1. A festival where attendees can enjoy live jazz performances while participating in workshops about the history of jazz music and its influence on American culture.
+2. An event featuring live classical music concerts alongside interactive sessions on the physics of sound and acoustics.
+3. A community gathering with live folk music and educational workshops on environmental science, focusing on sustainability and conservation.
+4. A cultural fair that includes live performances of traditional music from various countries, coupled with workshops on world geography and cultural studies.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A concert with a guest speaker discussing the artist's career.
+6. A music festival with food stalls offering cooking demonstrations.
+7. An educational conference with background music during breaks.
+8. A workshop on music theory without any live performances.
+9. A science fair with a DJ playing music in the background.
+10. A live music event with a silent auction for educational scholarships.
+11. A history lecture series with live music as an opening act.
+12. A music-themed party with trivia games about pop culture.
+13. An art exhibition with live music performances but no educational component.
+14. A workshop on environmental conservation with recorded music playing.
+15. A cultural festival with traditional dances but no educational workshops.
+16. A live music event with a book signing by a music historian.
+17. A seminar on world cultures with a playlist of international music.
+18. A music festival with a panel discussion on the music industry.
+19. An educational event on physics with a live demonstration but no music.
+20. A concert with a pre-show talk about the band's influences.
+21. A workshop on sound engineering without live music performances.
+22. A live music event with a charity component for education.
+23. A cultural event with live music and a food tasting session.
+24. An educational conference with a live band playing during the reception.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

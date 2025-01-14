@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): structures or spaces that were intentionally designed to preserve knowledge or memory but have since been abandoned or forgotten, leaving their original purpose obscured or unrecognizable
+
+Here are four examples intended to follow this theme:
+1. An ancient library buried beneath a city, its texts lost to time.
+2. A forgotten observatory overtaken by forest, its instruments rusted and broken.
+3. A derelict museum with exhibits scattered and unrecognizable.
+4. An abandoned archive building, its documents decayed and unreadable.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern library with a digital catalog.
+6. A historical monument still visited by tourists.
+7. A functioning university campus.
+8. A well-preserved ancient temple with guided tours.
+9. A contemporary art gallery in a bustling city.
+10. A national park with maintained trails and signage.
+11. A renovated castle turned into a museum.
+12. A thriving cultural center hosting regular events.
+13. A popular historical reenactment site.
+14. A bustling city library with community programs.
+15. A famous archaeological site with ongoing excavations.
+16. A well-maintained war memorial.
+17. A modern science center with interactive exhibits.
+18. A restored historical village with active participation.
+19. A vibrant public square with historical significance.
+20. A contemporary museum with rotating exhibits.
+21. A national archive with digitized records.
+22. A popular tourist destination with guided tours.
+23. A historical library with a preservation program.
+24. A cultural heritage site with active conservation efforts.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

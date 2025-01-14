@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural systems or objects that exhibit a slow, gradual transformation over time due to environmental conditions, resulting in a visibly altered state or structure.
+
+Here are four examples intended to follow this theme:
+1. a river carving a canyon over millennia
+2. a tree growing thicker bark over decades
+3. a mountain range eroding into hills over eons
+4. a coral reef expanding and changing shape over centuries
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a butterfly emerging from a chrysalis
+6. a volcano erupting
+7. a seed sprouting into a plant
+8. a glacier melting rapidly due to climate change
+9. a fruit ripening on a tree
+10. a caterpillar transforming into a butterfly
+11. a lightning strike splitting a tree
+12. a forest fire altering a landscape
+13. a rock being crushed into sand by machinery
+14. a flower blooming in spring
+15. a sand dune shifting in a storm
+16. a river flooding a valley
+17. a landslide reshaping a hillside
+18. a meteor impact creating a crater
+19. a snowstorm covering a landscape
+20. a tree falling in a storm
+21. a lake drying up in a drought
+22. a geyser erupting
+23. a tornado altering a town
+24. a tsunami reshaping a coastline
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

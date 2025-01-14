@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+a qipao worn during the Spring Festival
+a hanfu worn during the Mid-Autumn Festival
+a hanbok worn during Chuseok
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+a kimono worn at a wedding
+a sari worn during Diwali
+a barong Tagalog worn during a Filipino fiesta
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. a poncho worn during a Mexican Independence Day celebration
+2. a dashiki worn during Kwanzaa
+3. a kebaya worn during a traditional dance performance
+4. a cheongsam worn at a formal dinner
+5. a yukata worn during the Gion Matsuri <<LEFTOVER>>
+6. a thobe worn during Ramadan
+7. a salwar kameez worn during Eid
+8. a keffiyeh worn during Eid al-Fitr

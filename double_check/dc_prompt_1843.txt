@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures built on water that serve as transportation hubs
+
+Here are four examples intended to follow this theme:
+1. Venetian Vaporetto Stops
+2. Hong Kong Star Ferry Piers
+3. Stockholm Archipelago Ferry Terminals
+4. Rotterdam Waterbus Stations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Golden Gate Bridge
+6. Brooklyn Bridge
+7. Panama Canal
+8. Hoover Dam
+9. Lake Mead Marina
+10. Statue of Liberty
+11. Alcatraz Island
+12. London Eye
+13. Niagara Falls
+14. Great Barrier Reef
+15. Mount Fuji
+16. Empire State Building
+17. Burj Khalifa
+18. Grand Canyon
+19. Central Park
+20. Amazon Rainforest
+21. Great Wall of China
+22. Big Ben
+23. Colosseum
+24. Eiffel Tower
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

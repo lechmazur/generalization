@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Geometric structures or phenomena that exhibit both symmetry and a central point of convergence or divergence.
+
+Here are four examples intended to follow this theme:
+1. A perfectly formed snowflake
+2. A spiral galaxy
+3. Concentric circles emanating from a dropped pebble in water
+4. A regular star polygon
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A spiderweb (irregular)
+6. A tree
+7. A river delta
+8. A human circulatory system
+9. A lightning strike
+10. A fractal, such as the Mandelbrot set
+11. A sunflower head (spiral arrangement, not strictly convergent/divergent from a central point)
+12. A pinecone (spiral arrangement)
+13. A nautilus shell (spiral)
+14. A fern leaf
+15. A network of roads intersecting at a roundabout
+16. The spokes of a bicycle wheel
+17. A dandelion seed head (after dispersal)
+18. A fireworks explosion
+19. A magnetic field around a bar magnet
+20. A topographical map showing contour lines
+21. The veins on a leaf
+22. A crystal lattice (repeating unit, not necessarily convergent/divergent)
+23. A honeycomb (tessellation)
+24. A kaleidoscope image
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

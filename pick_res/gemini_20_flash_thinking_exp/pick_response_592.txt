@@ -1,0 +1,34 @@
+pick_response_592.txt
+The user has provided three examples and three anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches that specific theme, while explicitly avoiding matching broader, related themes.
+
+The examples are:
+- Lighthouse lantern
+- Overhead projector
+- Fresnel spotlight
+
+The anti-examples are:
+- Stage lighting (parabolic reflector)
+- Streetlight (refractor)
+- Projector (DLP)
+
+The core element in the examples seems to be the use of a Fresnel lens for light manipulation. The anti-examples use different methods (parabolic reflector, refractor, DLP).
+
+Therefore, the specific theme is likely "devices utilizing a Fresnel lens for light manipulation/projection/collection".
+
+Now, I need to evaluate each candidate based on this specific theme:
+
+1. **Solar panel (non-concentrating):** Does not use a Fresnel lens. Score: 0
+2. **Telescope:** Uses lenses, but typically not Fresnel lenses for the primary objective. Score: 2
+3. **Microscope:** Uses lenses, but typically not Fresnel lenses. Score: 1
+4. **Car headlight:** Uses reflectors and lenses, but typically not Fresnel lenses for the main beam. Score: 2
+5. **Camera lens:** Uses multiple lenses, but typically not Fresnel lenses for the primary image formation. Score: 1
+6. **Magnifying glass:** A simple convex lens, not a Fresnel lens. Score: 0
+7. **Concentrated photovoltaic (CPV) system:** Some CPV systems use Fresnel lenses to concentrate sunlight. Score: 9
+8. **Rear-projection television:** Older models used Fresnel lenses to improve brightness and viewing angle. Score: 7<number>1</number><score>0</score>
+<number>2</number><score>2</score>
+<number>3</number><score>1</score>
+<number>4</number><score>3</score>
+<number>5</number><score>2</score>
+<number>6</number><score>0</score>
+<number>7</number><score>9</score>
+<number>8</number><score>7</score>

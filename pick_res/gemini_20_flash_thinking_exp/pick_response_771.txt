@@ -1,0 +1,32 @@
+pick_response_771.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches that specific theme, while explicitly avoiding matching broader, related themes.
+
+Examples:
+- virtual reality headsets: allow immersive visual experiences, often with head tracking.
+- GPS navigation systems: provide location and direction information.
+- the telescope: allows viewing distant objects.
+
+Anti-examples:
+- smartphone: a general-purpose communication and computing device.
+- satellite: an object orbiting the Earth, used for various purposes.
+- binoculars: allow viewing distant objects with both eyes, but lack the advanced capabilities of a telescope.
+
+The specific theme seems to be **devices that enhance or extend human perception of the world, often through specialized technology and a focused purpose.**  The anti-examples are broader technologies that can *include* aspects of the theme but are not solely defined by it.
+
+Now, I need to evaluate each candidate based on this specific theme:
+
+1. space shuttle: While it allows humans to experience space, its primary function is transportation. It's broader than the theme.
+2. sonar: Uses sound waves to perceive underwater environments. This fits the theme of extending perception.
+3. airplane: Primarily for transportation. While it offers a different perspective, it's not about enhancing perception in the same way.
+4. television: Transmits visual and auditory information, but it's a passive reception device, not directly enhancing personal perception of the environment.
+5. drone: Can be used for remote observation and data gathering, extending perception.
+6. Google Earth: A software application that provides a virtual representation of the Earth. It enhances spatial understanding and visual perception.
+7. computer: A general-purpose computing device. While it can be used for perception-enhancing tasks, it's not its primary function.
+8. radar: Uses radio waves to detect objects and their location, extending perception.<number>1</number><score>3</score>
+<number>2</number><score>8</score>
+<number>3</number><score>2</score>
+<number>4</number><score>1</score>
+<number>5</number><score>7</score>
+<number>6</number><score>9</score>
+<number>7</number><score>4</score>
+<number>8</number><score>8</score>

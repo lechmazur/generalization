@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic representations of folklore or mythological figures that have been adapted into modern horror narratives
+
+Here are four examples intended to follow this theme:
+1. The Babadook from "The Babadook" (2014)
+2. Slender Man from "Slender Man" (2018)
+3. La Llorona from "The Curse of La Llorona" (2019)
+4. Pennywise the Dancing Clown from "It" (2017)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting of a traditional fairy tale scene
+6. A sculpture of a historical figure
+7. A photograph of a haunted house
+8. A drawing of a ghost from a popular ghost story
+9. A film poster for a sci-fi horror movie
+10. A comic book illustration of a superhero
+11. A video game character from a survival horror game
+12. A piece of abstract art inspired by fear
+13. A costume design for a theater production of a classic play
+14. A graphic novel depiction of a dystopian future
+15. A mural depicting a scene from a war
+16. A digital art piece of a futuristic city
+17. A sketch of a character from a romance novel
+18. A watercolor painting of a serene landscape
+19. A collage made from magazine clippings
+20. A tapestry showing a historical event
+21. A stained glass window in a church
+22. A photograph of a famous landmark
+23. A piece of performance art
+24. A caricature drawn at a fair
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

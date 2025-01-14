@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional characters who were named after real people the author personally knew in childhood
+
+Here are four examples intended to follow this theme:
+1. Anne Shirley from "Anne of Green Gables"
+2. Tom Sawyer from "The Adventures of Tom Sawyer"
+3. Winnie-the-Pooh from "Winnie-the-Pooh"
+4. Christopher Robin from "Winnie-the-Pooh"
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Sherlock Holmes from "Sherlock Holmes"
+6. Harry Potter from "Harry Potter"
+7. Elizabeth Bennet from "Pride and Prejudice"
+8. Atticus Finch from "To Kill a Mockingbird"
+9. Huckleberry Finn from "Adventures of Huckleberry Finn"
+10. Katniss Everdeen from "The Hunger Games"
+11. Frodo Baggins from "The Lord of the Rings"
+12. Holden Caulfield from "The Catcher in the Rye"
+13. Jay Gatsby from "The Great Gatsby"
+14. Hermione Granger from "Harry Potter"
+15. Dorothy Gale from "The Wizard of Oz"
+16. Scout Finch from "To Kill a Mockingbird"
+17. Bilbo Baggins from "The Hobbit"
+18. Alice from "Alice's Adventures in Wonderland"
+19. Jo March from "Little Women"
+20. Dracula from "Dracula"
+21. Frankenstein's Monster from "Frankenstein"
+22. Oliver Twist from "Oliver Twist"
+23. Jane Eyre from "Jane Eyre"
+24. Pip from "Great Expectations"
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or devices designed to reduce sensory input or perception, either temporarily or permanently, to enhance focus, comfort, or safety.
+
+Here are four examples intended to follow this theme:
+1. Earplugs used during sleep to block out noise
+2. Light-blocking sleep masks
+3. Noise-canceling headphones used in open office environments
+4. White noise machines to mask distracting sounds
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Headphones for listening to music
+6. Sunglasses to protect eyes from UV rays
+7. Eye drops to relieve dryness
+8. Air purifiers to improve air quality
+9. Ergonomic chairs to enhance comfort while working
+10. Blue light filters on screens to reduce eye strain
+11. Meditation apps to aid in relaxation
+12. Heating pads for muscle relaxation
+13. Aromatherapy diffusers to create a calming environment
+14. Sound amplifiers for hearing assistance
+15. Weighted blankets for anxiety relief
+16. Smart home devices to control lighting and temperature
+17. Virtual reality headsets for immersive experiences
+18. Adjustable desks for standing or sitting work positions
+19. Noise-making toys for children
+20. Flashlights for visibility in dark environments
+21. Alarm clocks to wake up on time
+22. Insulated mugs to keep beverages at desired temperatures
+23. Portable fans for personal cooling
+24. Waterproof phone cases for protection against water damage
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

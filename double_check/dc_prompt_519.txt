@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Creative works that explore the ethical implications of technological advancements that mimic or surpass human capabilities.
+
+Here are four examples intended to follow this theme:
+1. Ex Machina
+2. Black Mirror: "White Christmas"
+3. Ghost in the Shell
+4. Westworld
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Star Wars
+6. The Matrix
+7. Jurassic Park
+8. Blade Runner
+9. 2001: A Space Odyssey
+10. Minority Report
+11. Her
+12. Ready Player One
+13. Terminator
+14. Altered Carbon
+15. Gattaca
+16. Neuromancer
+17. Snow Crash
+18. Frankenstein
+19. The Stepford Wives
+20. Metropolis
+21. AI: Artificial Intelligence
+22. Robocop
+23. Transcendence
+24. Upgrade
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

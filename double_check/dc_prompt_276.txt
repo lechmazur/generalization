@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional navigation methods that rely on natural environmental cues
+
+Here are four examples intended to follow this theme:
+1. Using wave patterns and swells to guide a canoe across the open ocean
+2. Following the flight paths of migratory birds to locate land
+3. Navigating by the position of stars in the night sky
+4. Using prevailing winds to determine direction while sailing
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Using a compass
+6. Using a sextant
+7. Using a GPS device
+8. Consulting a map
+9. Following a marked trail
+10. Using a radio beacon
+11. Dead reckoning
+12. Using sonar
+13. Following animal tracks in the snow
+14. Observing the growth patterns of moss on trees
+15. Using a chronometer
+16. Referring to a nautical chart
+17. Using an astrolabe
+18. Following a river downstream
+19. Using landmarks like mountains or distinctive trees
+20. Reading a topographic map
+21. Using an odometer
+22. Following a road sign
+23. Using a weather forecast
+24. Using the sun's position to tell time
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

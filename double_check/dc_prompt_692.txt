@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures that incorporate natural elements to create self-sustaining energy systems in extreme environments
+
+Here are four examples intended to follow this theme:
+1. A desert research facility with integrated sand-filtering solar panels and thermal storage systems
+2. An arctic station utilizing geothermal vents and ice-melt collection for power generation
+3. A mountain observatory powered by wind turbines and rainwater harvesting systems
+4. A deep-sea research lab using tidal forces and thermal gradients for energy production
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A traditional windmill
+6. A greenhouse
+7. A solar farm
+8. A hydroelectric dam
+9. A geothermal power plant
+10. A wave energy converter
+11. A bamboo treehouse
+12. A living wall system
+13. A rain garden
+14. A green roof installation
+15. A natural ventilation system
+16. A biomass heating facility
+17. A passive solar house
+18. An earth-sheltered building
+19. A composting facility
+20. A natural swimming pool
+21. A rainwater collection tank
+22. A solar water heater
+23. A wind farm
+24. A tidal barrier
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

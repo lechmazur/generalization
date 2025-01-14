@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena where two distinct biological entities engage in a competitive interaction that results in a dynamic equilibrium, influenced by external environmental factors.
+
+Here are four examples intended to follow this theme:
+1. Wolves and deer populations in a forest ecosystem
+2. Coral and algae in a coral reef
+3. Predatory birds and small mammals in a grassland
+4. Ants and aphids on a plant
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Bees pollinating flowers
+6. Symbiotic relationship between clownfish and sea anemones
+7. Photosynthesis in plants
+8. Migration of birds
+9. Parasitic wasps laying eggs in caterpillars
+10. Mutualistic relationship between humans and gut bacteria
+11. Fungi decomposing organic matter
+12. Fish swimming in schools
+13. Camouflage in chameleons
+14. Pollution affecting marine life
+15. Seasonal hibernation of bears
+16. Photosynthetic algae in aquatic environments
+17. Seed dispersal by wind
+18. Formation of rainbows
+19. Lightning strikes during a storm
+20. Formation of sand dunes
+21. Volcanic eruptions
+22. Earthquakes
+23. Formation of glaciers
+24. Ocean currents
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

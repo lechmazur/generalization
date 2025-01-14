@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Tools and instruments used in traditional construction and music that have been pivotal in cultural or historical movements.
+
+Here are four examples intended to follow this theme:
+1. The adze, a woodworking tool used in ancient shipbuilding and carpentry
+2. The kora, a West African bridge-harp used in traditional music
+3. The didgeridoo, an Australian Aboriginal wind instrument
+4. The chisel, a tool used in stonemasonry and sculpture throughout history
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern electric guitar
+6. A computer-aided design software
+7. A 3D printer used in construction
+8. A synthesizer used in electronic music
+9. A jackhammer used in modern construction
+10. A violin used in classical orchestras
+11. A drone used for surveying construction sites
+12. A piano used in jazz music
+13. A laser level used in modern building projects
+14. A DJ mixer used in contemporary music performances
+15. A power drill used in home renovations
+16. A saxophone used in big band music
+17. A circular saw used in woodworking
+18. A flute used in orchestral music
+19. A nail gun used in framing construction
+20. A cello used in chamber music
+21. A backhoe used in large-scale construction
+22. A drum machine used in hip-hop music
+23. A concrete mixer used in building projects
+24. A trumpet used in jazz and blues music
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

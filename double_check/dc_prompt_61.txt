@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Buildings constructed primarily from materials sourced within a 10-mile radius of the building site.
+
+Here are four examples intended to follow this theme:
+1. A house built using locally quarried stone and timber from nearby forests.
+2. A community center constructed with bricks made from clay sourced from a nearby riverbed.
+3. A school built using sand and gravel extracted from a local pit for its concrete.
+4. A barn constructed with wood harvested from trees within the farm's property.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A skyscraper made with steel sourced from across the country.
+6. A cottage built with imported tropical hardwoods.
+7. An office building using glass manufactured in a different state.
+8. A museum constructed with marble quarried from a distant mountain range.
+9. A residential complex using bricks made from clay sourced from another region.
+10. A factory built with concrete using aggregates from a quarry 50 miles away.
+11. A library constructed with timber imported from another continent.
+12. A shopping mall using recycled materials from various locations.
+13. A hospital built with locally sourced materials but supplemented with imported steel.
+14. A bridge constructed with stones from a quarry 20 miles away.
+15. A church using locally sourced wood but with stained glass windows from abroad.
+16. A theater built with bricks made from clay sourced within 15 miles of the site.
+17. A restaurant using bamboo sourced from a nearby region but not within 10 miles.
+18. A hotel constructed with locally sourced materials but with roofing tiles from another country.
+19. A sports arena using concrete made with sand from a beach 30 miles away.
+20. A government building using locally sourced stone but with imported granite for the facade.
+21. A warehouse built with steel beams manufactured within the same state but not within 10 miles.
+22. A university building using locally sourced timber but with aluminum windows from another region.
+23. A train station constructed with bricks made from clay sourced within 12 miles of the site.
+24. A convention center using locally sourced materials but with flooring imported from overseas.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

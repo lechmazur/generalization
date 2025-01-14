@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that use a hub-and-spoke model to distribute resources but require users to wait at fixed points for a minimum duration of several minutes
+
+Here are four examples intended to follow this theme:
+1. A traveler at an airport must wait at the designated gate for at least 15 minutes before boarding their flight.
+2. A patient at a medical clinic must wait in the designated waiting area for a minimum of 10 minutes before being called for their appointment.
+3. A student at a university must wait at the campus shuttle stop for at least 5 minutes before the shuttle arrives to transport them to different parts of the campus.
+4. A commuter at a train station must wait on the platform for a minimum of 8 minutes before the train arrives to take them to various destinations.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A customer at a grocery store uses a self-checkout machine to quickly purchase their items.
+6. A traveler uses a ridesharing app to get a direct ride to their destination without waiting at a fixed point.
+7. A user accesses a cloud storage service to instantly retrieve their files from any location.
+8. A person uses a mobile app to order food for immediate pickup at a restaurant.
+9. A commuter uses a bike-sharing system to travel directly to their destination without waiting.
+10. A student uses an online learning platform to access course materials at any time without waiting.
+11. A traveler uses a travel agency to book a flight and receive immediate confirmation.
+12. A customer at a bank uses an ATM to quickly withdraw cash without waiting in line.
+13. A person uses a streaming service to watch a movie instantly without waiting for a specific time.
+14. A commuter uses a public transportation system that allows them to board immediately upon arrival.
+15. A user accesses a social media platform to share content instantly with their network.
+16. A traveler uses a hotel booking website to reserve a room and receive immediate confirmation.
+17. A customer at a fast-food restaurant uses a drive-thru to quickly order and receive their meal.
+18. A person uses a telemedicine service to consult with a doctor without waiting at a physical location.
+19. A commuter uses a car-sharing service to pick up a vehicle and drive directly to their destination.
+20. A student uses a library's online catalog to instantly access digital resources without waiting.
+21. A traveler uses a travel app to book a tour and receive immediate confirmation.
+22. A customer at a retail store uses a mobile payment system to quickly complete their purchase.
+23. A person uses a fitness app to track their exercise progress in real-time without waiting.
+24. A commuter uses a ferry service that allows them to board immediately upon arrival at the dock.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

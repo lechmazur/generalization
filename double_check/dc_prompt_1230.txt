@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Public figures or events that have been commemorated through both a major international airport and a competitive artistic or intellectual event.
+
+Here are four examples intended to follow this theme:
+1. Leonardo da Vinci
+2. Johann Sebastian Bach
+3. Albert Einstein
+4. Marie Curie
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Elvis Presley
+6. Oprah Winfrey
+7. Michael Jordan
+8. World War II
+9. The Beatles
+10. Christopher Columbus
+11. Nelson Mandela
+12. The Renaissance
+13. Mahatma Gandhi
+14. Martin Luther King Jr.
+15. The Industrial Revolution
+16. William Shakespeare
+17. The Cold War
+18. Charles Darwin
+19. The French Revolution
+20. Steve Jobs
+21. The American Civil War
+22. Queen Elizabeth II
+23. The Space Race
+24. Bill Gates
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

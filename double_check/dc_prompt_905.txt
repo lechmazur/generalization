@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures or artifacts built as defensive barriers that have become significant cultural or historical symbols over time
+
+Here are four examples intended to follow this theme:
+1. The Great Wall of China
+2. Hadrian's Wall
+3. The Berlin Wall
+4. The Walls of Constantinople
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Eiffel Tower
+6. The Statue of Liberty
+7. The Colosseum
+8. The Pyramids of Giza
+9. The Panama Canal
+10. The Golden Gate Bridge
+11. The Taj Mahal
+12. Stonehenge
+13. The Parthenon
+14. The Forbidden City
+15. Machu Picchu
+16. The Acropolis
+17. The Tower of London
+18. The Palace of Versailles
+19. The Kremlin
+20. The Pentagon
+21. The Sydney Opera House
+22. The Leaning Tower of Pisa
+23. Mount Rushmore
+24. The Empire State Building
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

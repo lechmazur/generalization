@@ -1,0 +1,24 @@
+pick_response_840.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+The examples (Milankovitch cycles, Volcanic eruptions, ENSO) all relate to natural, large-scale drivers of climate variability on different timescales.
+
+The anti-examples (Burning fossil fuels, Industrial emissions, Thermohaline circulation) relate to human-caused climate change and a major ocean current system. The key distinction is the natural vs. anthropogenic driver and the scale/type of phenomenon.
+
+I need to evaluate each candidate based on whether it fits the pattern of natural, large-scale drivers of climate variability.
+
+1. Cloud formation:  A natural process, but more of a response/feedback than a primary driver.
+2. Wildfires: Can be natural or human-caused, and while impactful, not a fundamental driver like the examples.
+3. Deforestation: Primarily human-caused, so likely a poor fit.
+4. Atmospheric rivers: A natural phenomenon related to weather and climate, potentially a good fit.
+5. Meteorite impacts: A natural, albeit infrequent, large-scale driver.
+6. Ocean currents:  A natural system, but the anti-example of thermohaline circulation suggests the focus is on drivers *of* such systems, not the systems themselves.
+7. Agricultural practices: Primarily human-caused.
+8. Variations in solar radiation: A natural, external driver of climate, similar to Milankovitch cycles.<number>1</number><score>4</score>
+<number>2</number><score>5</score>
+<number>3</number><score>1</score>
+<number>4</number><score>7</score>
+<number>5</number><score>8</score>
+<number>6</number><score>6</score>
+<number>7</number><score>2</score>
+<number>8</number><score>9</score>

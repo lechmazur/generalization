@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects that would be admissible as evidence in court but would create paradoxes if authenticated
+
+Here are four examples intended to follow this theme:
+1. a photograph of a crime scene that shows the photographer committing the crime
+2. a signed confession from a person who was proven to have been in a coma at the time of the crime
+3. a video recording of a future event that has not yet occurred
+4. a fingerprint on a weapon that matches a suspect who was confirmed to be in another country at the time of the crime
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a forged document
+6. a witness testimony
+7. a surveillance video
+8. a DNA sample
+9. a handwritten note
+10. a weapon with fingerprints
+11. a bloodstain
+12. a voice recording
+13. a security camera footage
+14. a contract signed under duress
+15. a piece of clothing with fibers matching the crime scene
+16. a bank statement showing suspicious transactions
+17. a text message exchange
+18. a diary entry
+19. a polygraph test result
+20. a receipt from a store
+21. a GPS tracking record
+22. a photograph of a suspect
+23. a piece of jewelry found at the crime scene
+24. a video of a suspect fleeing the scene
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

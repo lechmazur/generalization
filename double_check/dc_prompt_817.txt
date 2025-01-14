@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical trade routes that significantly influenced the spread of scientific knowledge and technology across different civilizations
+
+Here are four examples intended to follow this theme:
+1. The Silk Road connecting China and Europe through Central Asia
+2. The Maritime Spice Routes linking the Mediterranean to India and Southeast Asia
+3. The Trans-Saharan trade routes connecting North Africa to West Africa
+4. The Incense Route connecting the Arabian Peninsula to the Mediterranean
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Oregon Trail
+6. The Amber Road
+7. The Tea Horse Road
+8. The Roman Road System
+9. The Hanseatic League trade network
+10. The Phoenician maritime routes
+11. The Santa Fe Trail
+12. The Grand Trunk Road
+13. The Khyber Pass
+14. The Manila Galleon Trade Route
+15. The Salt Route
+16. The Tin Route
+17. The Viking trade routes
+18. The Mesopotamian trade network
+19. The Aztec trade routes
+20. The Portuguese India Route
+21. The Fur Trade Route
+22. The Tea Route
+23. The Gold Road
+24. The Jade Road
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

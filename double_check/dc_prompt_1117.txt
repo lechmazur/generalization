@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or phenomena that emit or detect specific types of radiation, either naturally or through human intervention, and are used to measure or interact with their environment.
+
+Here are four examples intended to follow this theme:
+1. Geiger counter
+2. Infrared thermometer
+3. Smoke detector
+4. Radium watch dial
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Light bulb
+6. Television screen
+7. Radio antenna
+8. Solar panel
+9. Microwave oven
+10. Camera flash
+11. X-ray machine
+12. Laser pointer
+13. Fluorescent paint
+14. Glow stick
+15. Night vision goggles
+16. UV sterilizer
+17. Motion sensor
+18. Radar gun
+19. Satellite dish
+20. Cell phone tower
+21. Lightning rod
+22. Metal detector
+23. Electric fence
+24. Barcode scanner
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

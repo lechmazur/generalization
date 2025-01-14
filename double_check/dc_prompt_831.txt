@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Individuals or entities known for excelling in a domain through unconventional methods or strategies that defy traditional expectations.
+
+Here are four examples intended to follow this theme:
+1. Guerrilla marketing campaigns that achieve viral success through unconventional tactics.
+2. Artists who use non-traditional materials or methods to create groundbreaking works.
+3. Entrepreneurs who disrupt industries by leveraging unique business models that defy conventional wisdom.
+4. Athletes who achieve success by employing unorthodox training or competitive strategies.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Individuals who excel in their field through hard work and dedication.
+6. Companies that achieve success by following industry best practices.
+7. Innovators who create new technologies that revolutionize their industry.
+8. Artists who master traditional techniques to create highly skilled works.
+9. Athletes who win championships through superior physical conditioning and skill.
+10. Entrepreneurs who build successful businesses by identifying and filling market gaps.
+11. Scientists who make groundbreaking discoveries through rigorous research and experimentation.
+12. Politicians who gain popularity by aligning with the values and beliefs of their constituents.
+13. Chefs who create innovative dishes by combining traditional culinary techniques with modern ingredients.
+14. Musicians who achieve fame by mastering their instruments and creating popular songs.
+15. Authors who write best-selling novels by crafting compelling stories and characters.
+16. Actors who win awards for their ability to portray a wide range of roles convincingly.
+17. Architects who design iconic buildings by combining form and function in innovative ways.
+18. Fashion designers who create trendsetting clothing lines by understanding and anticipating consumer preferences.
+19. Photographers who capture stunning images by mastering the technical aspects of their craft.
+20. Teachers who inspire their students to learn and grow by creating engaging lesson plans and fostering a positive classroom environment.
+21. Doctors who save lives by staying up-to-date with the latest medical research and treatments.
+22. Engineers who design and build complex systems by applying their knowledge of mathematics and physics.
+23. Lawyers who win cases by presenting compelling arguments and evidence in court.
+24. Journalists who uncover important stories by conducting thorough investigations and interviews.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

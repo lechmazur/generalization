@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural or man-made phenomena that leave a temporary, visible trace or mark after their primary event or action has ceased.
+
+Here are four examples intended to follow this theme:
+1. The skid marks left by a car on a road after it has stopped.
+2. The contrails left by an airplane in the sky after it has passed.
+3. The footprints left in the sand after a person has walked along the beach.
+4. The scorch marks left on a surface after a firework has exploded.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A permanent tattoo on someone's skin.
+6. The sound of thunder after a lightning strike.
+7. A permanent scar from a healed wound.
+8. The smell of rain after a storm has passed.
+9. A permanent road sign indicating a speed limit.
+10. The heat felt after a fire has been extinguished.
+11. A permanent monument commemorating an event.
+12. The echo of a shout in a canyon after the person has stopped shouting.
+13. A permanent graffiti artwork on a wall.
+14. The vibration felt after an earthquake has stopped.
+15. A permanent memorial plaque on a building.
+16. The smell of smoke lingering after a barbecue has ended.
+17. A permanent mural painted on a city wall.
+18. The sound of a car engine after the car has driven away.
+19. A permanent statue in a public park.
+20. The feeling of warmth after sitting in the sun.
+21. A permanent billboard advertisement.
+22. The sound of waves crashing after a boat has passed.
+23. A permanent engraving on a piece of jewelry.
+24. The smell of a perfume lingering after the person wearing it has left.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

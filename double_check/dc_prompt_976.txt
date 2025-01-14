@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Written works that incorporate visual diagrams to convey complex systems or narratives
+
+Here are four examples intended to follow this theme:
+1. A book on human anatomy that includes detailed diagrams of the circulatory system to explain its function and structure.
+2. A novel that uses flowcharts to illustrate the complex relationships and interactions between characters throughout the story.
+3. A technical manual on electronics that employs circuit diagrams to explain the workings of various electronic devices.
+4. A historical text that uses maps and timelines to visually depict the progression of events during a significant period.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A graphic novel that tells its story primarily through illustrations.
+6. A children's book with colorful pictures to engage young readers.
+7. A textbook on mathematics that includes equations but no diagrams.
+8. A scientific article that discusses theories without visual aids.
+9. A cookbook with recipes but no diagrams of cooking techniques.
+10. A travel guide that includes photographs of landmarks but no maps.
+11. A biography that uses text to narrate a person's life without visual timelines.
+12. A manual on car maintenance that uses text descriptions but no diagrams of car parts.
+13. A novel that describes settings in detail but does not include any visual aids.
+14. A history book that discusses events chronologically without using timelines.
+15. A technical report on software development that includes code snippets but no flowcharts.
+16. An art book that showcases paintings and sculptures but does not explain them with diagrams.
+17. A self-help book that uses text to explain concepts without visual aids.
+18. A magazine article on architecture that includes photos but no blueprints.
+19. A guide to bird watching that lists species but does not include diagrams of bird anatomy.
+20. A business report that uses graphs to show data trends but no diagrams to explain business processes.
+21. A legal document that outlines laws and regulations without using flowcharts to explain legal processes.
+22. A fitness book that describes exercises in text but does not include diagrams of muscle groups.
+23. A gardening book that provides planting instructions but no diagrams of plant structures.
+24. A music theory book that explains concepts through text and musical notation but no diagrams of musical scales.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

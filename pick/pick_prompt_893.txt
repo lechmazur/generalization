@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A story unfolding in medieval Florence, where a character confronts existential despair while navigating the city's political turmoil.
+A narrative set in ancient Athens, exploring a philosopher's journey through existential dread as he walks the city's historic streets.
+A tale set in 18th-century Paris, where the protagonist's existential angst is mirrored by the revolutionary unrest of the city.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A film set in a futuristic city where characters face existential questions but not dread.
+A science fiction story set in a space city exploring existential questions but not dread.
+A book set in modern New York exploring themes of existentialism without a historical setting.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A graphic novel set in a dystopian future city dealing with societal collapse but not existential dread.
+2. A novel set in 19th-century Vienna where the protagonist grapples with the meaninglessness of life amidst the backdrop of the city's cultural flourishing. <<LEFTOVER>>
+3. A memoir set in 19th-century Vienna discussing personal growth without existential dread.
+4. A novel set in 20th-century London where the protagonist deals with anxiety but not existential dread.
+5. A fantasy novel set in a mythical city where characters face existential questions but not dread.
+6. A short story set in a fictional city exploring philosophical concepts unrelated to existential dread.
+7. A play set in modern Tokyo exploring existentialism without a historical setting.
+8. A film set in a post-apocalyptic city where characters face survival issues but not existential dread.

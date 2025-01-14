@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical structures designed for a specific purpose that have been repurposed by nature as a habitat for a keystone species.
+
+Here are four examples intended to follow this theme:
+1. Abandoned railway bridges in the Pacific Northwest hosting peregrine falcon nests
+2. Old water towers in Texas serving as primary roosting sites for Mexican free-tailed bats
+3. Decommissioned oil platforms off California's coast supporting sea lion colonies
+4. Historic grain silos in Chicago harboring critical populations of chimney swifts
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Bird nests in traffic lights
+6. Squirrels living in attics
+7. Bees colonizing wall cavities
+8. Moss growing on building walls
+9. Abandoned mine shafts
+10. Empty barns housing owls
+11. Coral reefs near coastal structures
+12. Pigeons nesting under bridges
+13. Vines covering old buildings
+14. Fish swimming in flooded quarries
+15. Rabbits burrowing under concrete slabs
+16. Termites in wooden structures
+17. Abandoned subway tunnels with rat colonies
+18. Weeds growing through sidewalk cracks
+19. Spiders in window frames
+20. Raccoons in chimneys
+21. Algae on sea walls
+22. Foxes denning in drainage pipes
+23. Wasps nesting in shed eaves
+24. Lichens on old monuments
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

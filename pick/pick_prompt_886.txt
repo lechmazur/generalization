@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The Satanic Verses by Salman Rushdie (banned in several countries with Muslim majorities)
+The Grapes of Wrath by John Steinbeck (banned in parts of the United States during the Great Depression)
+Doctor Zhivago by Boris Pasternak (banned in the Soviet Union)
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+1984 by George Orwell
+Fahrenheit 451 by Ray Bradbury
+Brave New World by Aldous Huxley
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. The Catcher in the Rye by J.D. Salinger
+2. The Adventures of Huckleberry Finn by Mark Twain
+3. Animal Farm by George Orwell (banned in the Soviet Union and other communist countries) <<LEFTOVER>>
+4. Ulysses by James Joyce
+5. To Kill a Mockingbird by Harper Lee
+6. Lady Chatterley's Lover by D.H. Lawrence
+7. Lolita by Vladimir Nabokov
+8. The Color Purple by Alice Walker

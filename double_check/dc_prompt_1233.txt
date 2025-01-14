@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): cultural artifacts or designs that incorporate hybridized elements from two or more distinct traditions, resulting in a visually or conceptually unified yet culturally layered aesthetic.
+
+Here are four examples intended to follow this theme:
+1. A fusion of traditional Japanese kimono patterns with African tribal motifs in a modern fashion design.
+2. A sculpture that combines elements of ancient Egyptian hieroglyphics with modern graffiti art.
+3. A piece of jewelry featuring both Celtic knots and Maori tribal designs.
+4. A mural that integrates traditional Chinese calligraphy with Latin American folk art styles.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting that solely represents traditional Chinese culture.
+6. A modern building designed with elements inspired by a single historical period.
+7. A piece of music that blends jazz and classical styles.
+8. A film that explores themes from two different genres but does not visually represent them.
+9. A dish that combines ingredients from Italian and Mexican cuisines.
+10. A book that discusses the influence of one culture on another without visual representation.
+11. A dance performance that incorporates movements from ballet and hip-hop.
+12. A fashion line that uses fabrics from one culture but designs from another.
+13. A piece of furniture that combines modern and vintage styles from the same culture.
+14. A photograph that captures a scene from a single cultural festival.
+15. A poem that merges themes from two different literary traditions without visual elements.
+16. A video game that includes characters from various cultures but does not blend their visual styles.
+17. A car design that incorporates elements from different eras of automotive history.
+18. A piece of pottery that uses techniques from one culture to depict scenes from another.
+19. A musical instrument that combines the sound of two different traditional instruments.
+20. A garden that features plants from different regions but does not blend their cultural significance.
+21. A logo that uses typography from one culture and imagery from another without blending them.
+22. A theater production that tells a story from one culture using the music of another.
+23. A website that showcases art from multiple cultures but does not integrate their styles.
+24. A toy that combines elements from different popular culture franchises.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

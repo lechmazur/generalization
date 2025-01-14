@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Folkloric entities that serve as both protectors and antagonists within their narratives, often associated with nature or the supernatural.
+
+Here are four examples intended to follow this theme:
+1. a forest spirit that guards sacred groves but curses trespassers
+2. a river nymph who aids fishermen but drowns those who disrespect her waters
+3. a mountain troll that protects travelers but punishes those who exploit the land
+4. a shapeshifting wolf that defends villages but hunts those who break ancient pacts
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a vampire that preys on humans but protects its own kind
+6. a ghost that haunts a house but helps its former family
+7. a dragon that hoards treasure but spares those who offer gifts
+8. a witch who curses intruders but heals those who seek her aid
+9. a guardian angel that protects its charge but punishes wrongdoers
+10. a demon that grants wishes but demands a heavy price
+11. a siren that lures sailors but spares those who resist her song
+12. a phoenix that destroys with fire but brings renewal
+13. a golem that defends its creator but turns on those who misuse it
+14. a banshee whose wail foretells death but warns the innocent
+15. a trickster god who causes chaos but rewards cleverness
+16. a mermaid who saves drowning sailors but curses those who betray her
+17. a werewolf that hunts humans but protects its pack
+18. a fairy that grants blessings but curses those who break promises
+19. a chimera that terrorizes villages but spares those who offer tribute
+20. a leprechaun who grants wishes but tricks the greedy
+21. a basilisk that petrifies intruders but spares those who avoid its gaze
+22. a unicorn that heals the pure but attacks the corrupt
+23. a kraken that sinks ships but spares those who honor the sea
+24. a thunderbird that brings storms but protects sacred lands
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

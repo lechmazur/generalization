@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Culinary preparation methods that require ingredients to be arranged in concentric circles before cooking begins
+
+Here are four examples intended to follow this theme:
+1. Ratatouille
+2. Galette des Rois
+3. Pizza Margherita
+4. Paella Valenciana
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Grilled cheese sandwich
+6. Beef Wellington
+7. Lasagna
+8. Stir-fried vegetables
+9. Roast chicken
+10. Spaghetti Bolognese
+11. Caesar salad
+12. Fried rice
+13. Chicken curry
+14. Hamburger
+15. Quiche Lorraine
+16. Shepherd's pie
+17. Clam chowder
+18. Fish and chips
+19. Eggs Benedict
+20. Beef stew
+21. Apple pie
+22. French toast
+23. Chicken pot pie
+24. Macaroni and cheese
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

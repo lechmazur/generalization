@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A method that repurposes discarded books into custom-made bookmarks, gifted during literary festivals.
+A system that converts old wedding dresses into unique, handcrafted paper for crafting personalized gift cards for anniversaries.
+A process that recycles broken jewelry into new, bespoke pieces for gifting during traditional rites of passage.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A process that turns waste oil into biodiesel for transportation.
+A system that converts organic waste into biogas for energy production.
+A process that turns scrap metal into new metal products for industrial use.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A program that transforms used musical instruments into decorative pieces for use in cultural exchange ceremonies. <<LEFTOVER>>
+2. A composting system that converts food waste into soil for gardening.
+3. A process that turns scrap paper into new paper products for office use.
+4. A system that converts waste paper into new paper products for commercial use.
+5. A system that converts waste paper into cardboard for packaging.
+6. A machine that recycles aluminum cans into new cans.
+7. A method that recycles old batteries into new batteries for consumer electronics.
+8. A program that recycles old CDs into new CDs for data storage.

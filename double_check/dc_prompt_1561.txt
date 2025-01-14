@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects traditionally made with iridescent materials that served as symbols of power in pre-modern civilizations
+
+Here are four examples intended to follow this theme:
+1. a ceremonial headdress adorned with iridescent feathers
+2. a scepter inlaid with opalescent gemstones
+3. a shield decorated with mother-of-pearl inlays
+4. a crown embedded with shimmering abalone shell fragments
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a golden chalice
+6. a marble statue
+7. a bronze sword
+8. a wooden throne
+9. a jade necklace
+10. a clay pot
+11. a silver coin
+12. a stone tablet
+13. a leather belt
+14. a glass mirror
+15. a woven tapestry
+16. a ceramic vase
+17. a steel helmet
+18. a parchment scroll
+19. a wooden mask
+20. a copper bracelet
+21. a bone carving
+22. a silk robe
+23. a crystal goblet
+24. a feather fan
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

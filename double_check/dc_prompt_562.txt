@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Botanical illustrations in scientific publications from the 18th century that depict plants native to the Americas and utilize stipple engraving.
+
+Here are four examples intended to follow this theme:
+1. Illustration of *Helianthus annuus* (sunflower) from a 1789 botanical publication, using stipple engraving to depict its texture and form.
+2. Depiction of *Passiflora incarnata* (passionflower) in a 1795 scientific journal, showcasing its intricate floral structure through stipple engraving.
+3. Rendering of *Nicotiana tabacum* (tobacco plant) in an 18th-century botanical text, employing stipple engraving to highlight its leaves and flowers.
+4. Illustration of *Capsicum annuum* (chili pepper) from a 1778 publication, utilizing stipple engraving to emphasize its fruit and foliage.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A 19th-century lithograph of a European rose species.
+6. A watercolor painting of a Japanese cherry blossom from the 18th century.
+7. A woodcut illustration of a medicinal herb from a 17th-century herbal.
+8. A modern digital rendering of a tropical orchid.
+9. A 20th-century photograph of a cactus native to the Americas.
+10. A 16th-century engraving of a European oak tree.
+11. A 19th-century botanical drawing of an African baobab tree.
+12. A 21st-century scientific illustration of a fern using digital techniques.
+13. A 15th-century illuminated manuscript depicting a Middle Eastern palm tree.
+14. A 20th-century linocut print of a sunflower.
+15. A 19th-century etching of a European tulip.
+16. A 17th-century copperplate engraving of a European lily.
+17. A 20th-century botanical poster of a South African protea.
+18. A 16th-century woodblock print of a Chinese bamboo plant.
+19. A 21st-century acrylic painting of a North American pine tree.
+20. A 19th-century lithograph of an Australian eucalyptus tree.
+21. A 20th-century pencil sketch of a European daisy.
+22. A 18th-century ink drawing of a Himalayan rhododendron.
+23. A 17th-century botanical illustration of a Mediterranean olive tree.
+24. A 21st-century 3D model of a tropical bromeliad.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

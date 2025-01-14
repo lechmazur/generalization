@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects designed to be worn on the human body that incorporate a functional timekeeping mechanism.
+
+Here are four examples intended to follow this theme:
+1. a wristwatch with a leather strap
+2. a pocket watch with a chain
+3. a smartwatch with fitness tracking
+4. a pendant watch on a necklace
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a decorative brooch
+6. a fitness tracker without time display
+7. a smartphone with a clock app
+8. a wall clock
+9. a desk clock
+10. a car dashboard clock
+11. a kitchen timer
+12. a stopwatch
+13. a sundial
+14. a grandfather clock
+15. a digital alarm clock
+16. a timekeeping app on a tablet
+17. a necklace with a decorative pendant
+18. a bracelet without any functional mechanism
+19. a ring with a decorative stone
+20. a belt with a buckle
+21. a hat with a logo
+22. a pair of sunglasses
+23. a scarf
+24. a pair of earrings
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

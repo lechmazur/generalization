@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Spaces designed for contemplation that incorporate natural elements and minimalist aesthetics
+
+Here are four examples intended to follow this theme:
+1. A secluded, open-air pavilion with a smooth stone floor, surrounded by a bamboo grove, featuring a single bonsai tree
+2. A sun-drenched room with white walls, a single window overlooking a rock garden, and a low wooden platform for seated meditation
+3. A minimalist concrete courtyard with a shallow reflecting pool, pebbles arranged in a circular pattern, and a single, strategically placed flowering succulent
+4. A simple wooden cabin in a forest clearing, with large windows offering views of the surrounding trees, furnished with a single woven mat and a small, rustic table
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A brightly colored playroom with large windows
+6. A bustling urban rooftop garden with colorful flowers and seating areas
+7. An ornate Victorian conservatory filled with exotic plants
+8. A rustic log cabin with a fireplace and taxidermied animals on the walls
+9. A modern art gallery with large abstract paintings
+10. A home library with floor-to-ceiling bookshelves and comfortable armchairs
+11. A dark, enclosed sensory deprivation tank
+12. A brightly lit yoga studio with mirrors and exercise equipment
+13. A traditional Japanese tea room with tatami mats and intricate scrollwork
+14. A minimalist bedroom with a platform bed and a single piece of abstract art
+15. A greenhouse filled with a variety of tropical plants
+16. A public park with a large pond and walking paths
+17. A botanical garden with labeled plants and educational displays
+18. A church sanctuary with stained glass windows and religious iconography
+19. A mountaintop retreat with panoramic views and luxurious amenities
+20. A desert landscape with cacti and rock formations
+21. A beach with white sand and clear blue water
+22. A waterfall cascading down a rocky cliff
+23. A forest trail winding through dense trees
+24. A field of wildflowers swaying in the breeze
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

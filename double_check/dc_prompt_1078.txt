@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): luxury experiences or products that incorporate celestial or astronomical motifs in their design or branding
+
+Here are four examples intended to follow this theme:
+1. A luxury watch with a starry night sky dial
+2. A high-end perfume inspired by the phases of the moon
+3. A designer handbag with a constellation pattern
+4. A premium champagne brand with a celestial-themed label
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A luxury car with a sleek design
+6. A high-end fashion brand known for its minimalist style
+7. A gourmet chocolate brand with exotic flavors
+8. A designer dress with floral patterns
+9. A luxury yacht with a modern interior
+10. A premium skincare line using natural ingredients
+11. A high-end hotel with an ocean view
+12. A luxury pen with a gold finish
+13. A designer shoe collection with vibrant colors
+14. A gourmet coffee brand with a rich aroma
+15. A luxury fragrance inspired by a tropical island
+16. A high-end jewelry line with geometric shapes
+17. A premium whiskey with a smoky flavor
+18. A designer scarf with abstract art prints
+19. A luxury spa offering holistic treatments
+20. A high-end furniture line with a rustic look
+21. A premium tea brand with rare blends
+22. A designer sunglasses collection with bold frames
+23. A luxury cruise with exotic destinations
+24. A high-end bicycle with a lightweight frame
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

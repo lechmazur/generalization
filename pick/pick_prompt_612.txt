@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+An apparatus that records air pressure changes every 15 minutes for a week, using a self-contained power source.
+A device that logs temperature and humidity levels every hour for 30 days, powered by an internal battery.
+An instrument that captures soil moisture data every 10 minutes for 45 days, utilizing an integrated power mechanism.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A sensor that measures air quality but needs to be connected to a power outlet.
+An instrument that records atmospheric CO2 levels but needs external power to function.
+A sensor that measures light intensity but only operates when connected to a power source.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A system that tracks solar radiation but needs to be plugged into an electrical socket.
+2. An instrument that measures ozone levels but needs to be plugged into a power outlet.
+3. A sensor that tracks particulate matter but requires a connection to a power grid.
+4. A tool that measures and stores UV radiation intensity every 30 minutes for 2 months, operating on an internal energy cell. <<LEFTOVER>>
+5. A weather station that requires external power to operate and transmit data in real-time.
+6. A device that monitors ocean salinity but requires a wired connection for data collection.
+7. A device that logs seismic activity but requires a connection to a power grid.
+8. A system that logs river flow rates but needs to be connected to a generator.

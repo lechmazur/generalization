@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Tools or weapons constructed using a lashing technique where a separate, flexible material binds two or more rigid components together.
+
+Here are four examples intended to follow this theme:
+1. A traditional Polynesian paddle with a wooden blade and handle bound together with plant fibers.
+2. An ancient Egyptian spear with a stone tip lashed to a wooden shaft using animal sinew.
+3. A Native American bow with the limbs attached to the grip using rawhide strips.
+4. A medieval European flail with the handle and chain connected using leather thongs.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern composite bow with limbs attached using epoxy resin.
+6. A metal hammer with a welded handle.
+7. A wooden staff carved from a single piece of wood.
+8. A plastic toy sword with a glued handle.
+9. A steel axe with a handle secured by a metal wedge.
+10. A bamboo fishing rod with sections connected by ferrules.
+11. A carbon fiber tennis racket with a one-piece frame.
+12. A kitchen knife with a handle attached using rivets.
+13. A baseball bat made from a single piece of aluminum.
+14. A garden hoe with a metal blade and wooden handle connected by a bolt.
+15. A golf club with a shaft and head joined by a hosel.
+16. A carpenter's saw with a handle and blade connected by screws.
+17. A metal rake with tines welded to the handle.
+18. A plastic shovel with a molded handle and blade.
+19. A wooden mallet with a handle inserted into a mortise.
+20. A metal chisel with a handle secured by a ferrule.
+21. A fiberglass fishing pole with a one-piece construction.
+22. A garden trowel with a handle and blade made from a single piece of metal.
+23. A metal crowbar with a solid, one-piece design.
+24. A wooden rolling pin carved from a single piece of wood.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

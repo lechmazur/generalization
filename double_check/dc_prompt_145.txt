@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical locations where automated sorting systems intersect with unplanned human pathways
+
+Here are four examples intended to follow this theme:
+1. A busy airport baggage claim area where passengers cut across automated conveyor belt paths
+2. A warehouse loading dock where forklifts cross automated guided vehicle routes
+3. A grocery store self-checkout area where shoppers intersect with robotic cart return paths
+4. A library's automated book sorting room where staff walkways cross conveyor tracks
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A subway platform
+6. An automated parking garage
+7. A self-driving car testing facility
+8. A robotic assembly line
+9. A pedestrian crosswalk
+10. An automated farm harvesting field
+11. A package sorting facility
+12. A train station ticket gate
+13. A hospital corridor
+14. An automated storage facility
+15. A shopping mall escalator
+16. A factory production line
+17. A drive-through car wash
+18. An automated toll booth
+19. A vending machine area
+20. A post office sorting room
+21. A theme park ride queue
+22. A bus terminal
+23. A school hallway
+24. A supermarket checkout line
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

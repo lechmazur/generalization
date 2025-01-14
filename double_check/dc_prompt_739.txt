@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations from the mid-20th century that significantly advanced computational methods and were pioneered by women.
+
+Here are four examples intended to follow this theme:
+1. Ada Lovelace's work on the Analytical Engine
+2. Grace Hopper's development of the COBOL programming language
+3. Katherine Johnson's calculations for NASA's space missions
+4. Jean Sammet's contributions to the development of FORMAC
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Alan Turing's development of the Turing machine
+6. Steve Jobs' role in the creation of the Apple Macintosh
+7. Bill Gates' development of Microsoft Windows
+8. John von Neumann's architecture for computers
+9. Tim Berners-Lee's invention of the World Wide Web
+10. Elon Musk's advancements in electric vehicles
+11. Thomas Edison's invention of the phonograph
+12. Mark Zuckerberg's creation of Facebook
+13. Sergey Brin's work on Google search algorithms
+14. Jeff Bezos' founding of Amazon
+15. Gordon Moore's formulation of Moore's Law
+16. Linus Torvalds' development of the Linux kernel
+17. Vint Cerf's contributions to the development of the Internet
+18. Jack Kilby's invention of the integrated circuit
+19. Claude Shannon's information theory
+20. Hedy Lamarr's frequency-hopping spread spectrum
+21. Marissa Mayer's leadership at Yahoo
+22. Sheryl Sandberg's role at Facebook
+23. Margaret Hamilton's software engineering for Apollo missions
+24. Rosalind Franklin's work on DNA structure
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

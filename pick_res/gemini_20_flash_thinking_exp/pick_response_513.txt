@@ -1,0 +1,33 @@
+pick_response_513.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches that specific theme, avoiding broader interpretations.
+
+Examples suggest:
+- Reflecting pool
+- Located at a significant national institution (memorial, art museum, national gallery)
+- Located in a capital city
+- Located in North America (US, Canada, Mexico)
+
+Anti-examples suggest what the theme is NOT:
+- Natural bodies of water
+- Reflecting pools on private estates
+- Water features at general historic sites
+
+Therefore, the specific theme seems to be: **A reflecting pool located at a national institution (memorial, museum, gallery) in a capital city.**
+
+Now I need to evaluate each candidate based on this specific theme.
+
+1. **A fountain built in the 1960s in Rome:** Not a reflecting pool. Score: 1
+2. **The Canberra War Memorial's Pool of Reflection in Canberra, Australia:** Reflecting pool at a national memorial in a capital city. Strong match. Score: 9
+3. **A water feature in a museum courtyard built in the 1990s in Cairo:** Could be a reflecting pool, located at a museum in a capital city. Needs more specificity to be a perfect match. Score: 6
+4. **A reflecting pool in a monastery garden in Dublin:** Reflecting pool, but not at a national institution. Score: 4
+5. **A reflecting pool in a corporate building constructed in the 2000s in Mumbai:** Reflecting pool, but not at a national institution or in a capital city (Mumbai is a major city but not the capital of India). Score: 3
+6. **A pond in a botanical garden in Tokyo:** Not a reflecting pool. Score: 2
+7. **A reflecting pool in a private garden in Buenos Aires:** Reflecting pool, but private. Score: 3
+8. **A reflecting pool in a university campus built in the 1980s in Madrid:** Reflecting pool in a capital city, but not at a national institution (in the same way as the examples). Score: 5<number>1</number><score>1</score>
+<number>2</number><score>9</score>
+<number>3</number><score>6</score>
+<number>4</number><score>4</score>
+<number>5</number><score>3</score>
+<number>6</number><score>2</score>
+<number>7</number><score>3</score>
+<number>8</number><score>5</score>

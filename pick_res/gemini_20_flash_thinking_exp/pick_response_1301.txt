@@ -1,0 +1,29 @@
+pick_response_1301.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate the candidates based on how well they fit that specific theme, while explicitly avoiding broader interpretations.
+
+The examples share the following characteristics:
+- Traditional dance forms
+- Performed outdoors in a natural setting
+- Strongly associated with a specific geographic location/culture
+
+The anti-examples share the characteristic of being dance forms but are performed in indoor, more formal or urban settings.
+
+Therefore, the specific theme seems to be: **Traditional dance forms performed outdoors in a natural setting, deeply rooted in a specific geographic location/culture.**
+
+Now I need to evaluate each candidate against this specific theme.
+
+1. **Flamenco performances near the Alhambra in Spain:** Traditional dance form (Flamenco), outdoors in a significant location (Alhambra), strongly associated with Spain. High match.
+2. **Folk dancing at a cultural festival:** Could be traditional, but "cultural festival" implies a less specific, potentially staged setting, not necessarily a natural outdoor environment. Medium match.
+3. **Traditional African dance in a village:** Traditional dance form, in a village (natural setting), associated with a specific culture/location. High match.
+4. **Modern dance in a contemporary art museum:** Not traditional, indoors. Low match.
+5. **Samba parade during Carnival in a city street:** Traditional (Samba), outdoors (city street), associated with Brazil. Good match, but "city street" is less of a natural setting than the examples.
+6. **Ballroom dancing in a competition:** Not traditional in the same sense, indoors, competitive setting. Low match.
+7. **Scottish Highland dancing at a gathering:** Traditional, could be outdoors depending on the gathering, strongly associated with Scotland. Medium-high match.
+8. **Bharatanatyam in an Indian temple:** Traditional, but the setting is a temple (built environment) rather than a natural outdoor setting. Medium match.<number>1</number><score>9</score>
+<number>2</number><score>5</score>
+<number>3</number><score>8</score>
+<number>4</number><score>1</score>
+<number>5</number><score>7</score>
+<number>6</number><score>2</score>
+<number>7</number><score>7</score>
+<number>8</number><score>6</score>

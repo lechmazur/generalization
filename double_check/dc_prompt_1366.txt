@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Phenomena where discrete, independent units spontaneously self-organize into stable, ordered structures through random interactions
+
+Here are four examples intended to follow this theme:
+1. Formation of snowflakes from water molecules
+2. Crystallization of salt from a supersaturated solution
+3. Flocking behavior of birds
+4. Self-assembly of lipid molecules into cell membranes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A line of ants following a pheromone trail
+6. The growth of a tree from a seed
+7. The formation of a delta at the mouth of a river
+8. The development of a fetus in the womb
+9. The construction of a termite mound
+10. The weaving of a spider web
+11. The arrangement of iron filings around a magnet
+12. The formation of a rainbow
+13. The erosion of a canyon by a river
+14. The formation of clouds
+15. The organization of a school of fish fleeing a predator
+16. The assembly of a car on a production line
+17. The formation of a traffic jam
+18. The development of mold on bread
+19. The arrangement of leaves on a stem
+20. The formation of rust on metal
+21. The creation of a sand dune by wind
+22. The formation of a pearl inside an oyster
+23. The development of a hurricane
+24. The layering of sedimentary rock
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

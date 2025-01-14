@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Genetically modified organisms with traits specifically designed to enhance their aesthetic appeal in a human-controlled environment.
+
+Here are four examples intended to follow this theme:
+1. A rose with petals that glow in the dark, created for ornamental gardens.
+2. A fish with iridescent scales, designed for display in home aquariums.
+3. A tree with leaves that change color based on temperature, intended for landscaping.
+4. A butterfly with wings patterned like famous artworks, developed for butterfly houses.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tomato plant engineered for higher yield.
+6. A cow bred for increased milk production.
+7. A drought-resistant wheat variety.
+8. A pest-resistant cotton plant.
+9. A salmon modified for faster growth.
+10. A corn variety with enhanced nutritional content.
+11. A soybean plant engineered to produce biofuel.
+12. A pig bred for leaner meat.
+13. A rice strain with improved disease resistance.
+14. A chicken modified for larger eggs.
+15. A tree engineered for faster growth in reforestation projects.
+16. A flower with a longer blooming period for commercial cut flowers.
+17. A grass variety resistant to heavy foot traffic for sports fields.
+18. A fruit tree with a modified ripening process for easier shipping.
+19. A bacterium engineered to break down pollutants.
+20. A yeast strain modified for more efficient fermentation in brewing.
+21. A plant engineered to produce pharmaceuticals.
+22. A fish modified to survive in colder water for aquaculture.
+23. A crop plant with improved salt tolerance for coastal farming.
+24. A microorganism engineered to produce biodegradable plastics.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical events or locations that became significant due to societal rejection or neglect
+
+Here are four examples intended to follow this theme:
+1. The Stonewall Inn in New York City
+2. The Triangle Shirtwaist Factory in New York City
+3. The Edmund Pettus Bridge in Selma, Alabama
+4. The Chernobyl Nuclear Power Plant in Ukraine
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The signing of the Declaration of Independence
+6. The construction of the Great Wall of China
+7. The moon landing in 1969
+8. The fall of the Berlin Wall
+9. The invention of the printing press
+10. The Renaissance period in Europe
+11. The Industrial Revolution
+12. The discovery of penicillin
+13. The establishment of the United Nations
+14. The French Revolution
+15. The American Civil War
+16. The Wright brothers' first flight
+17. The coronation of Queen Elizabeth II
+18. The Battle of Waterloo
+19. The sinking of the Titanic
+20. The assassination of Archduke Franz Ferdinand
+21. The Boston Tea Party
+22. The D-Day invasion during World War II
+23. The launch of Sputnik
+24. The end of apartheid in South Africa
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

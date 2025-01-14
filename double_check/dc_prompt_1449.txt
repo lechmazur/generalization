@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Unfinished creative works that were later completed by someone other than the original creator and became widely recognized masterpieces
+
+Here are four examples intended to follow this theme:
+1. The Unfinished Symphony by Franz Schubert, completed by others after his death
+2. The Mystery of Edwin Drood by Charles Dickens, finished by various authors posthumously
+3. Mozart's Requiem, completed by Franz Xaver Süssmayr and others
+4. Gustav Mahler's Symphony No. 10, completed by Deryck Cooke
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Mona Lisa by Leonardo da Vinci
+6. Beethoven's Symphony No. 9
+7. Shakespeare's Hamlet
+8. Van Gogh's Starry Night
+9. J.R.R. Tolkien's The Lord of the Rings
+10. Pablo Picasso's Guernica
+11. George Orwell's 1984
+12. Michelangelo's David
+13. Jane Austen's Pride and Prejudice
+14. F. Scott Fitzgerald's The Great Gatsby
+15. Johann Sebastian Bach's Brandenburg Concertos
+16. Agatha Christie's Murder on the Orient Express
+17. Vincent van Gogh's Sunflowers
+18. Mark Twain's Adventures of Huckleberry Finn
+19. Claude Monet's Water Lilies series
+20. Herman Melville's Moby-Dick
+21. Ludwig van Beethoven's Moonlight Sonata
+22. Edgar Allan Poe's The Raven
+23. Salvador Dalí's The Persistence of Memory
+24. Emily Dickinson's collected poems
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

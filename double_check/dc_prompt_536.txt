@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Metal alloys named after people that are primarily used for bearings
+
+Here are four examples intended to follow this theme:
+1. Babbitt metal
+2. Frary metal
+3. Hoyt metal
+4. Rose's metal
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Bessemer steel
+6. Hadfield steel
+7. Reynolds aluminum
+8. Monel metal
+9. bronze
+10. brass
+11. pewter
+12. sterling silver
+13. Wood's metal
+14. Nichrome
+15. tungsten carbide
+16. cast iron
+17. stainless steel
+18. German silver
+19. white gold
+20. Duralumin
+21. Vitallium
+22. Alnico
+23. Stellite
+24. Hastelloy
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

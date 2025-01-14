@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that exist in a state of suspension between two contrasting environments or realities
+
+Here are four examples intended to follow this theme:
+1. The meniscus of water in a graduated cylinder
+2. A soap bubble floating in the air
+3. The thermocline in a lake
+4. The aurora borealis in the Earth's atmosphere
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bridge connecting two landmasses
+6. A person standing at a crossroads
+7. A hybrid car
+8. A bilingual dictionary
+9. A person with dual citizenship
+10. A chameleon changing colors
+11. A person in a doorway
+12. A river delta
+13. A person on a seesaw
+14. A person in a hammock
+15. A person on a tightrope
+16. A person in an elevator
+17. A person at the beach where the water meets the sand
+18. A person in a revolving door
+19. A person on a swing
+20. A person in a hot air balloon
+21. A person on a trampoline
+22. A person in a kayak
+23. A person on a zip line
+24. A person in a cable car
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

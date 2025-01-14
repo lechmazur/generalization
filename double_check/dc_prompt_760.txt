@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena that result in the creation of a new, distinct entity from a previously existing structure or organism.
+
+Here are four examples intended to follow this theme:
+1. a butterfly emerging from a chrysalis
+2. a volcanic island forming from an underwater eruption
+3. a seed germinating into a new plant
+4. a star forming from a collapsing nebula
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a river carving a canyon
+6. a tree shedding its leaves
+7. a glacier melting into water
+8. a rock eroding into sand
+9. a cloud forming in the sky
+10. a rainbow appearing after rain
+11. a lightning strike during a storm
+12. a snowflake crystallizing in the atmosphere
+13. a wave crashing on the shore
+14. a geyser erupting
+15. a tornado forming from a thunderstorm
+16. a solar eclipse occurring
+17. a meteor shower in the night sky
+18. a coral reef growing over time
+19. a stalactite forming in a cave
+20. a sand dune shifting in the desert
+21. a waterfall cascading down a cliff
+22. a fog bank rolling in over a valley
+23. a comet passing through the solar system
+24. a thunderclap during a storm
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

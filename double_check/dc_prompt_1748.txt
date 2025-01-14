@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Monarchs who reigned during significant scientific discoveries related to physics
+
+Here are four examples intended to follow this theme:
+1. King George III during the discovery of Uranus by William Herschel
+2. Queen Victoria during the formulation of Maxwell's equations
+3. King Louis XIV during the development of Newton's laws of motion
+4. Emperor Hirohito during the discovery of the positron by Carl D. Anderson
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. King Henry VIII during the Reformation
+6. Queen Elizabeth I during the exploration of the New World
+7. Emperor Napoleon during the Napoleonic Wars
+8. King Louis XVI during the French Revolution
+9. Queen Isabella I during the voyage of Columbus
+10. Emperor Qin Shi Huang during the construction of the Great Wall
+11. King Charles II during the Great Fire of London
+12. Queen Anne during the Act of Union
+13. Emperor Charlemagne during the Carolingian Renaissance
+14. King Philip II during the Spanish Armada
+15. Queen Victoria during the Industrial Revolution
+16. Emperor Augustus during the Pax Romana
+17. King James I during the publication of the King James Bible
+18. Queen Elizabeth II during the moon landing
+19. Emperor Constantine during the Edict of Milan
+20. King Edward VII during the Entente Cordiale
+21. Queen Mary I during the Marian Persecutions
+22. Emperor Justinian during the codification of Roman law
+23. King George V during World War I
+24. Queen Catherine the Great during the partition of Poland
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

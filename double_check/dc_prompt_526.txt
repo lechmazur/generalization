@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Electro-mechanical devices designed for automated street cleaning that utilize rotating brushes for primary debris collection.
+
+Here are four examples intended to follow this theme:
+1. Street sweeper with a rotating brush system for debris collection
+2. Automated sidewalk cleaner using a cylindrical brush for sweeping
+3. Urban road cleaning machine equipped with a rotating brush mechanism
+4. Municipal street cleaner with a front-mounted rotating brush for debris removal
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Robotic vacuum cleaner with a rotating brush for home use
+6. Industrial floor scrubber with rotating brushes
+7. Automated car wash system using rotating brushes
+8. Leaf blower with a rotating brush attachment
+9. Manual push broom with rotating bristles
+10. Lawn mower with a rotating blade for grass cutting
+11. Pool cleaner robot with a rotating brush for pool maintenance
+12. Street washing vehicle using high-pressure water jets
+13. Automated gutter cleaning system with a rotating brush
+14. Conveyor belt system with rotating brushes for cleaning
+15. Window cleaning robot with rotating brushes
+16. Snow plow with a rotating brush for snow removal
+17. Automated carpet cleaner with rotating brushes
+18. Street marking machine with a rotating brush for paint application
+19. Industrial dust collector with rotating brushes
+20. Automated shoe polisher with rotating brushes
+21. Street lighting system with automated cleaning
+22. Automated trash compactor with a rotating mechanism
+23. Street surveillance camera with a rotating base
+24. Automated graffiti removal system using rotating brushes
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

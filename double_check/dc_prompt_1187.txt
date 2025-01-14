@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical figures who significantly altered the course of a civilization through a single decisive event or conquest.
+
+Here are four examples intended to follow this theme:
+1. Julius Caesar's crossing of the Rubicon in 49 BC, leading to the end of the Roman Republic and the rise of the Roman Empire.
+2. William the Conqueror's victory at the Battle of Hastings in 1066, which led to the Norman Conquest of England.
+3. Genghis Khan's unification of the Mongol tribes in 1206, setting the stage for the creation of the Mongol Empire.
+4. Hernán Cortés's conquest of the Aztec Empire in 1521, significantly altering the course of Mesoamerican history.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Leonardo da Vinci, known for his contributions to art and science during the Renaissance.
+6. Mahatma Gandhi, who led India to independence through nonviolent resistance.
+7. Albert Einstein, whose theory of relativity revolutionized physics.
+8. Marie Curie, the first person to win the Nobel Prize in two different scientific fields.
+9. Napoleon Bonaparte, who rose to power during the French Revolution and led numerous military campaigns.
+10. Martin Luther King Jr., a leader in the American civil rights movement.
+11. Christopher Columbus, who initiated European exploration and colonization of the Americas.
+12. Isaac Newton, whose laws of motion and universal gravitation laid the foundations of classical mechanics.
+13. Queen Elizabeth I, who ruled England during a period of significant cultural and political change.
+14. Karl Marx, whose ideas on communism influenced political movements worldwide.
+15. Thomas Edison, known for his inventions that contributed to modern life.
+16. Charles Darwin, whose theory of evolution by natural selection transformed biology.
+17. Socrates, a philosopher whose teachings influenced Western philosophy.
+18. Confucius, whose teachings shaped Chinese culture and ethics.
+19. Amelia Earhart, the first woman to fly solo across the Atlantic Ocean.
+20. Nelson Mandela, who fought against apartheid and became South Africa's first black president.
+21. Galileo Galilei, whose work in astronomy and physics challenged prevailing views of the universe.
+22. Oprah Winfrey, a media mogul who has influenced popular culture and philanthropy.
+23. Steve Jobs, co-founder of Apple Inc., who revolutionized personal computing and communication.
+24. Frida Kahlo, an artist known for her surrealist works and personal style.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+pick_response_1928.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate how well each candidate matches that specific theme, while explicitly avoiding matching broader, related themes.
+
+The examples are:
+- green jade prayer beads
+- red ochre powder bowl
+- white sage smudge bundle
+
+These items seem to be related to spiritual or ritual practices and are made of natural materials.
+
+The anti-examples are:
+- brass bell
+- bronze ritual vessel
+- metal singing bowl
+
+These items are also related to spiritual or ritual practices but are made of metal. This suggests the specific theme is related to spiritual/ritual items made of *non-metallic* natural materials.
+
+Now I need to evaluate each candidate based on this specific theme:
+
+1. steel ritual sword - Metal, so not a good match.
+2. gold offering plate - Metal, so not a good match.
+3. silver chalice - Metal, so not a good match.
+4. wooden cross - Non-metallic natural material, related to spiritual practice. Good match.
+5. clay ritual pot - Non-metallic natural material, related to ritual practice. Good match.
+6. copper meditation bowl - Metal, so not a good match.
+7. black obsidian ceremonial knife - Non-metallic natural material, related to ceremonial practice. Good match.
+8. ceramic incense holder - Non-metallic material, related to ritual practice. Good match.
+
+Now I need to assign scores from 0 to 10, ensuring granularity and avoiding polarization.
+
+1. steel ritual sword - Clearly doesn't fit the specific theme (metal). Score: 1
+2. gold offering plate - Clearly doesn't fit the specific theme (metal). Score: 1
+3. silver chalice - Clearly doesn't fit the specific theme (metal). Score: 1
+4. wooden cross - Fits the specific theme (non-metallic natural material, spiritual). Score: 9
+5. clay ritual pot - Fits the specific theme (non-metallic natural material, ritual). Score: 9
+6. copper meditation bowl - Clearly doesn't fit the specific theme (metal). Score: 1
+7. black obsidian ceremonial knife - Fits the specific theme (non-metallic natural material, ceremonial). Score: 8 (Obsidian is less obviously 'natural' than wood or clay).
+8. ceramic incense holder - Fits the specific theme (non-metallic material, ritual). Score: 8 (Ceramic is processed, less purely 'natural').<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>9</score>
+<number>5</number><score>9</score>
+<number>6</number><score>1</score>
+<number>7</number><score>8</score>
+<number>8</number><score>8</score>

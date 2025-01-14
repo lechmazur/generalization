@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Household objects that commonly serve as makeshift sleeping surfaces but were not designed for sleeping
+
+Here are four examples intended to follow this theme:
+1. a couch
+2. a recliner
+3. a bean bag chair
+4. a hammock
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a bed
+6. a sleeping bag
+7. a futon
+8. a mattress
+9. a crib
+10. a cot
+11. a sleeping pad
+12. a bunk bed
+13. a daybed
+14. a waterbed
+15. a murphy bed
+16. a trundle bed
+17. a canopy bed
+18. a four-poster bed
+19. a sleigh bed
+20. a platform bed
+21. a toddler bed
+22. a bassinet
+23. a chaise lounge
+24. a tatami mat
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

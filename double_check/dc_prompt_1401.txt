@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific instruments that use chaotic or random patterns to detect hidden properties or vulnerabilities in complex systems
+
+Here are four examples intended to follow this theme:
+1. A device that uses random laser speckle patterns to detect structural weaknesses in materials
+2. An instrument that employs chaotic electron trajectories to identify defects in semiconductor chips
+3. A tool that utilizes random thermal noise to uncover hidden flaws in mechanical systems
+4. A sensor that uses chaotic fluid dynamics to detect vulnerabilities in pipeline integrity
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A microscope used to observe cellular structures
+6. A spectrometer for analyzing the composition of materials
+7. A geiger counter for detecting radiation levels
+8. A seismograph for monitoring earthquake activity
+9. A barometer for measuring atmospheric pressure
+10. A thermometer for gauging temperature
+11. A stethoscope for listening to internal body sounds
+12. A telescope for observing distant celestial objects
+13. A radar system for detecting aircraft
+14. A sonar device for underwater navigation
+15. A laser level for ensuring horizontal alignment
+16. A pH meter for measuring acidity or alkalinity
+17. An oscilloscope for visualizing electrical signals
+18. A refractometer for determining the refractive index of substances
+19. A gravimeter for measuring gravitational fields
+20. A magnetometer for detecting magnetic fields
+21. A calorimeter for measuring heat changes
+22. An anemometer for measuring wind speed
+23. A hygrometer for measuring humidity
+24. A chronometer for precise timekeeping
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

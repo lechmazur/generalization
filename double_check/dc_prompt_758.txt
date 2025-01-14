@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technologies that integrate real-time data processing with user interaction to optimize decision-making in dynamic environments.
+
+Here are four examples intended to follow this theme:
+1. A traffic management system that adjusts signal timings based on real-time traffic flow and pedestrian interactions.
+2. An emergency response platform that processes real-time data from multiple sources to guide first responders' actions in the field.
+3. A smart grid system that uses real-time energy consumption data and user feedback to optimize electricity distribution.
+4. A dynamic pricing engine for ride-sharing services that adjusts fares based on real-time demand and user behavior patterns.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather forecasting app that provides real-time updates but does not allow user interaction.
+6. A fitness tracker that collects real-time data but only displays it without influencing user decisions.
+7. A stock trading platform that uses historical data for analysis but does not process data in real-time.
+8. A social media platform that allows user interaction but does not use real-time data to optimize content delivery.
+9. A home automation system that responds to user commands but does not process real-time environmental data.
+10. A virtual reality game that processes real-time data but does not involve decision-making in a dynamic environment.
+11. A navigation app that provides real-time traffic updates but does not allow users to influence route optimization.
+12. A smart thermostat that adjusts temperature based on real-time data but does not involve user interaction for decision-making.
+13. A health monitoring system that collects real-time data but does not integrate it with user interaction for decision-making.
+14. A retail inventory management system that uses real-time data but does not involve user interaction to optimize stock levels.
+15. A video streaming service that uses real-time data to adjust video quality but does not involve user interaction for decision-making.
+16. A smart city surveillance system that processes real-time data but does not allow user interaction to influence security measures.
+17. A logistics tracking system that provides real-time updates but does not involve user interaction to optimize delivery routes.
+18. A financial dashboard that displays real-time market data but does not allow user interaction to influence investment decisions.
+19. A smart agriculture system that uses real-time data to monitor crop health but does not involve user interaction for decision-making.
+20. A remote monitoring system for industrial equipment that collects real-time data but does not involve user interaction for maintenance decisions.
+21. A real-time analytics platform that processes data but does not integrate user interaction to optimize business strategies.
+22. A smart home security system that uses real-time data to detect intrusions but does not involve user interaction for decision-making.
+23. A traffic information system that provides real-time data but does not allow user interaction to influence traffic flow management.
+24. A real-time translation app that processes spoken language but does not involve user interaction to optimize translation accuracy.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

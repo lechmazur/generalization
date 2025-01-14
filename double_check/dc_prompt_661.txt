@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional performance arts that incorporate elements of satire and parody to critique societal norms
+
+Here are four examples intended to follow this theme:
+1. Kabuki theater performances that mock political figures through exaggerated gestures and dialogue
+2. Commedia dell'arte troupes using stock characters like Harlequin to ridicule social hierarchies
+3. Chinese Xiangsheng comedy routines that satirize contemporary societal issues
+4. Yoruba Alarinjo theater, where masked performers critique corruption and hypocrisy in society
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a ballet performance of Swan Lake
+6. a classical piano recital
+7. a Shakespearean tragedy like Hamlet
+8. a modern dance piece exploring abstract emotions
+9. a traditional Japanese tea ceremony
+10. a symphony orchestra playing Beethoven's Fifth
+11. a Broadway musical like The Phantom of the Opera
+12. a contemporary art installation
+13. a folk music concert featuring traditional ballads
+14. a mime performance in a public square
+15. a poetry reading at a literary festival
+16. a circus act with acrobats and clowns
+17. a documentary film about wildlife
+18. a stand-up comedy routine about personal life
+19. a puppet show for children
+20. a street art mural
+21. a fashion show featuring avant-garde designs
+22. a jazz improvisation session
+23. a historical reenactment of a medieval battle
+24. a silent film from the 1920s
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

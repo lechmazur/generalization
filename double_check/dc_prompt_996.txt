@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Places or objects that are hidden or revealed through the cessation of a repetitive or cyclical sound or motion.
+
+Here are four examples intended to follow this theme:
+1. A secret door behind a grandfather clock that swings open when the pendulum stops.
+2. A hidden compartment in a washing machine revealed when the drum ceases spinning.
+3. A message written in the sand that becomes visible when the tide recedes.
+4. A flickering light bulb illuminating a hidden passage when the flickering stops.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A treasure chest buried under an X.
+6. A hidden message in a bottle.
+7. A secret room behind a bookcase.
+8. A coded message revealed under UV light.
+9. A hidden microphone in a lamp.
+10. A spy camera disguised as a pen.
+11. A secret passage behind a waterfall.
+12. A hidden compartment in a car's dashboard.
+13. A message written in invisible ink.
+14. A treasure map found in an attic.
+15. A hidden key under a doormat.
+16. A secret knock to enter a speakeasy.
+17. A false bottom in a suitcase.
+18. A hidden compartment in a shoe.
+19. A secret tunnel under a castle.
+20. A hidden message in a painting.
+21. A secret code in a book.
+22. A hidden room accessed by a rotating wall panel.
+23. A disguised listening device in a teddy bear.
+24. A secret compartment revealed by a specific sequence of button presses.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

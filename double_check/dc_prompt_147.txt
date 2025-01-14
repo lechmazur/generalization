@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Astronomical phenomena that have been successfully simulated in laboratory conditions using analog materials or systems
+
+Here are four examples intended to follow this theme:
+1. Accretion disks around black holes using rotating fluids
+2. Solar flares using plasma experiments
+3. Planetary rings using granular materials
+4. Neutron star mergers using colliding droplets of superfluid helium
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Observing a lunar eclipse
+6. Calculating the trajectory of a comet
+7. Building a scale model of the solar system
+8. Photographing the Milky Way
+9. Measuring the redshift of a distant galaxy
+10. Detecting gravitational waves
+11. Studying the composition of meteorites
+12. Simulating the formation of stars in a computer
+13. Analyzing data from a space telescope
+14. Launching a weather satellite
+15. Creating a 3D model of a nebula
+16. Developing a new type of telescope
+17. Teaching astronomy in a classroom
+18. Writing a science fiction novel about space travel
+19. Visiting a planetarium
+20. Watching a documentary about the universe
+21. Using a telescope to observe Jupiter
+22. Tracking the movement of asteroids
+23. Searching for extraterrestrial life
+24. Studying the cosmic microwave background radiation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

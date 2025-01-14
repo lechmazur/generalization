@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural artifacts or phenomena that are traditionally associated with specific celestial events or natural light phenomena and are deeply tied to the identity or rituals of a particular community.
+
+Here are four examples intended to follow this theme:
+1. the Stonehenge alignment with the summer solstice sunrise
+2. the Inti Raymi festival celebrating the winter solstice in the Andes
+3. the lantern festivals in East Asia tied to the first full moon of the lunar year
+4. the Navajo sand paintings created during solar eclipses
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a harvest festival celebrating the autumn equinox
+6. a lighthouse guiding ships at night
+7. a sundial used to tell time
+8. a rainbow flag symbolizing diversity
+9. a bonfire lit during a full moon
+10. a meteor shower observed for scientific study
+11. a calendar marking the phases of the moon
+12. a solar panel harnessing sunlight for energy
+13. a star map used for navigation
+14. a fireworks display on New Year's Eve
+15. a compass pointing to the North Star
+16. a telescope used to observe distant galaxies
+17. a candlelit vigil for a community event
+18. a weather vane indicating wind direction
+19. a solar eclipse viewed through protective glasses
+20. a constellation tattoo representing a zodiac sign
+21. a sunrise yoga session
+22. a moonstone jewelry piece believed to bring luck
+23. a solar-powered calculator
+24. a star-shaped decoration for a holiday
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

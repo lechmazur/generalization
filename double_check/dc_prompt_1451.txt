@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Temporary accommodation networks that rely on reciprocal hosting arrangements between strangers and use reputation-based trust systems
+
+Here are four examples intended to follow this theme:
+1. a platform where users can offer their spare rooms to travelers in exchange for future stays in other users' homes
+2. a network where members earn points by hosting others and can redeem those points for stays elsewhere
+3. a system where users build trust through reviews and ratings to facilitate short-term stays in shared spaces
+4. a community-based service where strangers exchange lodging based on mutual agreements and verified reputations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a hotel booking website
+6. a long-term rental apartment listing
+7. a timeshare property exchange
+8. a vacation home rental platform
+9. a hostel dormitory booking system
+10. a couch-surfing app without reputation tracking
+11. a bed and breakfast reservation service
+12. a corporate housing provider
+13. a camping site reservation system
+14. a luxury villa rental platform
+15. a home exchange program without user reviews
+16. a student housing network
+17. a peer-to-peer car rental service
+18. a shared office space booking platform
+19. a pet-sitting exchange network
+20. a ride-sharing app with driver ratings
+21. a meal-sharing service with host reviews
+22. a local tour guide booking platform
+23. a freelance work exchange network
+24. a community garden plot rental system
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): systems or structures that use hierarchical layering to manage or distribute resources, information, or functionality across multiple levels or platforms
+
+Here are four examples intended to follow this theme:
+1. A computer operating system with kernel, drivers, and user applications
+2. A corporate organizational structure with executives, managers, and employees
+3. A multi-tiered web application architecture with presentation, application, and data layers
+4. A federal government system with national, state, and local levels
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A single-layer neural network
+6. A flat organizational structure
+7. A peer-to-peer network
+8. A single-page website
+9. A monolithic software application
+10. A decentralized autonomous organization
+11. A linear data structure like an array
+12. A non-hierarchical social network
+13. A single-level file system
+14. A flat tax system
+15. A direct democracy
+16. A single-tier supply chain
+17. A flat database
+18. A non-hierarchical team structure
+19. A single-layer PCB (Printed Circuit Board)
+20. A flat rate pricing model
+21. A single-level cache system
+22. A non-hierarchical decision-making process
+23. A flat earth model
+24. A single-layer cake
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

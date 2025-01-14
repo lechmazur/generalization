@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or locations that contain preserved specimens suspended in a viscous liquid that appears to move in reverse when agitated
+
+Here are four examples intended to follow this theme:
+1. A jar filled with a clear, thick liquid where a small, preserved frog appears to swim upwards when the jar is shaken.
+2. A sealed glass container with a viscous, amber-colored fluid in which a preserved butterfly seems to flutter in reverse when disturbed.
+3. A cylindrical tube containing a dark, syrupy liquid with a preserved snake that appears to slither backwards when the tube is agitated.
+4. A decorative orb filled with a translucent, gelatinous substance where a preserved flower seems to bloom in reverse when the orb is moved.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A bottle of honey with a preserved cherry inside.
+6. A snow globe with miniature figures suspended in water.
+7. A jar of pickled vegetables in vinegar.
+8. A lava lamp with floating wax blobs.
+9. A fish tank with live fish swimming in water.
+10. A sealed container of olive oil with herbs floating inside.
+11. A glass of water with ice cubes that melt over time.
+12. A jar of jam with fruit pieces suspended in it.
+13. A bottle of perfume with flower petals inside.
+14. A container of syrup with a preserved lemon slice.
+15. A vase of water with fresh cut flowers.
+16. A bottle of wine with sediment at the bottom.
+17. A jar of mayonnaise with visible ingredients.
+18. A bottle of shampoo with suspended glitter particles.
+19. A container of hand sanitizer with aloe vera chunks.
+20. A jar of honey with honeycomb pieces inside.
+21. A bottle of hot sauce with chili peppers floating in it.
+22. A glass of cola with ice and lemon slices.
+23. A jar of mustard with visible seeds.
+24. A bottle of mineral water with bubbles rising to the top.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

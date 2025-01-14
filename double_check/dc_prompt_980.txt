@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures or concepts that involve rotational symmetry and are used to represent or understand complex systems or phenomena.
+
+Here are four examples intended to follow this theme:
+1. Color wheel
+2. Mandala
+3. Unit circle in trigonometry
+4. Cyclic group in abstract algebra
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Spiral galaxy
+6. Benzene ring
+7. Kaleidoscope pattern
+8. Fibonacci spiral
+9. Snowflake
+10. Starfish
+11. Flower petals
+12. Pinwheel
+13. DNA double helix
+14. Hurricane
+15. Wheel
+16. Propeller
+17. Clock face
+18. Dartboard
+19. Spider web
+20. Gear
+21. Compass rose
+22. Zodiac chart
+23. Tree rings
+24. Ripple in water
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

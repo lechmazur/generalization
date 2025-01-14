@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures that maintain their essential function even when a significant portion is removed or destroyed
+
+Here are four examples intended to follow this theme:
+1. The internet
+2. A decentralized blockchain network
+3. A colony of ants
+4. The human brain
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A car
+6. A bicycle
+7. A table
+8. A chair
+9. A house
+10. A tree
+11. A flower
+12. A computer
+13. A phone
+14. A book
+15. A television
+16. A radio
+17. A watch
+18. A pair of glasses
+19. A set of keys
+20. A deck of cards
+21. A game of chess
+22. A musical instrument
+23. A piece of clothing
+24. A piece of food
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

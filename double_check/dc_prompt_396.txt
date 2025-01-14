@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures built specifically as customs houses in port cities that were decommissioned between 1985 and 2005 and subsequently converted into art galleries or museums.
+
+Here are four examples intended to follow this theme:
+1. The Old Customs House in Sydney, Australia
+2. The Customs House in Belfast, Northern Ireland
+3. The Port of Liverpool Building in Liverpool, England
+4. The Old Customs House in Dublin, Ireland
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Louvre Museum in Paris, France
+6. The Guggenheim Museum in Bilbao, Spain
+7. The Tate Modern in London, England
+8. The Metropolitan Museum of Art in New York City, USA
+9. The British Museum in London, England
+10. The National Gallery in Washington, D.C., USA
+11. The Hermitage Museum in St. Petersburg, Russia
+12. The Prado Museum in Madrid, Spain
+13. The Uffizi Gallery in Florence, Italy
+14. The Rijksmuseum in Amsterdam, Netherlands
+15. The Art Institute of Chicago in Chicago, USA
+16. The Museum of Modern Art in New York City, USA
+17. The Vatican Museums in Vatican City
+18. The Acropolis Museum in Athens, Greece
+19. The National Museum of China in Beijing, China
+20. The Musée d'Orsay in Paris, France
+21. The Smithsonian Institution in Washington, D.C., USA
+22. The Getty Center in Los Angeles, USA
+23. The National Palace Museum in Taipei, Taiwan
+24. The Museum of Fine Arts in Boston, USA
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

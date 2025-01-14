@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed for public use that incorporate sustainable materials and have a minimalist aesthetic.
+
+Here are four examples intended to follow this theme:
+1. A bus stop shelter constructed with reclaimed wood and featuring a simple slanted roof.
+2. A drinking fountain made from recycled stainless steel with a single, push-button activation.
+3. A park bench formed from recycled plastic lumber with a sleek, linear design.
+4. A bike rack made of bamboo with a minimalist geometric frame.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A solar-powered phone charging station with ornate decorations.
+6. A brightly colored playground made from recycled tires.
+7. An intricately carved wooden sculpture in a public park.
+8. A public restroom facility built with traditional brick and mortar.
+9. A wrought iron gate with elaborate scrollwork.
+10. A large, inflatable public art installation.
+11. A community garden with a variety of plant species.
+12. A cobblestone pathway through a public square.
+13. A bronze statue of a historical figure.
+14. A public library with a grand, classical facade.
+15. A streetlight powered by natural gas.
+16. A public swimming pool with a complex filtration system.
+17. An ornate drinking fountain with multiple spouts.
+18. A bus stop shelter made of brightly colored fiberglass.
+19. A park bench made of concrete with decorative carvings.
+20. A bike rack made of steel with a complex locking mechanism.
+21. A public telephone booth made of glass and aluminum.
+22. A mailbox made of cast iron with decorative embellishments.
+23. A public trash can made of stainless steel with a sensor-activated lid.
+24. A crosswalk signal with flashing LED lights and audible alerts.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

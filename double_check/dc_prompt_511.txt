@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed for human use that incorporate a visible knot as a structural or functional element, excluding textiles and macrame.
+
+Here are four examples intended to follow this theme:
+1. A wooden chair with a knot in the backrest used as a decorative and structural element.
+2. A decorative door handle made of metal with a knot design that serves as a grip.
+3. A wooden puzzle where the objective is to untangle a knot, using the knot as a functional element.
+4. A garden trellis made of wood with a knot incorporated into the design for added structural support.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A rope ladder used for climbing.
+6. A hammock made of woven fabric.
+7. A fishing net used to catch fish.
+8. A decorative wall hanging made of macrame.
+9. A scarf with a woven pattern.
+10. A braided leather belt.
+11. A knot-shaped pendant necklace.
+12. A decorative knot pillow.
+13. A sailor's knot bracelet.
+14. A knot-themed tattoo.
+15. A knot garden design in landscaping.
+16. A knot diagram in a mathematics textbook.
+17. A knot sculpture made of metal.
+18. A knot pattern on a ceramic vase.
+19. A knot-themed painting.
+20. A knot-shaped keychain.
+21. A knot design on a rug.
+22. A knot pattern on a piece of jewelry.
+23. A knot-themed logo for a company.
+24. A knot illustration in a book on sailing.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Processes that involve the transformation of chaotic systems into structured, predictable patterns through iterative refinement.
+
+Here are four examples intended to follow this theme:
+1. The formation of snowflakes from water vapor in the atmosphere.
+2. The development of a mature forest from a random distribution of seeds.
+3. The emergence of stable planetary orbits from a chaotic protoplanetary disk.
+4. The crystallization of metals from a molten state into a structured lattice.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The organization of a library's book collection by genre and author.
+6. The process of urban planning to design city layouts.
+7. The sorting of data in a computer algorithm.
+8. The training of a neural network to recognize patterns.
+9. The evolution of species through natural selection.
+10. The creation of a schedule for a school's classes.
+11. The development of a company's organizational structure.
+12. The process of writing a novel from an outline.
+13. The formation of a political party from a group of individuals.
+14. The establishment of traffic flow patterns in a city.
+15. The creation of a musical composition from a set of notes.
+16. The process of cooking a meal from a recipe.
+17. The development of a software program from a set of requirements.
+18. The organization of a team's strategy in a sports game.
+19. The process of assembling a puzzle from its pieces.
+20. The creation of a painting from a blank canvas.
+21. The development of a garden from a plot of land.
+22. The process of learning a new language through structured lessons.
+23. The organization of a filing system in an office.
+24. The creation of a sculpture from a block of marble.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

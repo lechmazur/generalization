@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical events that resulted in the permanent division of a major religious institution into two or more distinct branches
+
+Here are four examples intended to follow this theme:
+1. The Great Schism of 1054, which split Christianity into the Roman Catholic Church and the Eastern Orthodox Church
+2. The Protestant Reformation in the 16th century, leading to the division of Western Christianity into Catholicism and Protestantism
+3. The split between Sunni and Shia Islam following the death of Prophet Muhammad in 632 CE
+4. The formation of the Old Catholic Church after the First Vatican Council in 1870 due to disagreements over papal infallibility
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Council of Nicaea in 325 CE, which addressed theological disputes but did not result in a permanent division
+6. The establishment of the Anglican Church under Henry VIII in the 16th century
+7. The rise of Sufism as a mystical branch within Islam
+8. The spread of Buddhism from India to East Asia
+9. The founding of the Mormon Church in the 19th century
+10. The Second Great Awakening in the United States during the early 19th century
+11. The split between Theravada and Mahayana Buddhism in ancient times
+12. The emergence of the Hasidic movement within Judaism in the 18th century
+13. The formation of the Unitarian Universalist Association in the 20th century
+14. The rise of the Jehovah's Witnesses in the late 19th century
+15. The establishment of the Quaker movement in the 17th century
+16. The spread of Christianity to the Roman Empire
+17. The development of the Kabbalah tradition within Judaism
+18. The rise of the Amish community in the 17th century
+19. The formation of the Seventh-day Adventist Church in the 19th century
+20. The spread of Hinduism across Southeast Asia
+21. The rise of the Pentecostal movement in the early 20th century
+22. The establishment of the Coptic Orthodox Church in Egypt
+23. The spread of Zoroastrianism in ancient Persia
+24. The rise of the Bahá'í Faith in the 19th century
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

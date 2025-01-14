@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations that were initially dismissed as impossible but were completed ahead of their projected timeline and under budget
+
+Here are four examples intended to follow this theme:
+1. SpaceX's Falcon 9 reusable rocket
+2. Human Genome Project
+3. ENIAC computer
+4. Channel Tunnel
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Wright brothers' first flight
+6. Apollo 11 mission
+7. Manhattan Project
+8. Tesla Model S
+9. iPhone development
+10. Panama Canal
+11. Brooklyn Bridge
+12. Transcontinental Railroad
+13. Internet development
+14. GPS system
+15. Hoover Dam
+16. Large Hadron Collider
+17. International Space Station
+18. First heart transplant
+19. Digital camera invention
+20. First nuclear submarine
+21. Development of penicillin
+22. First artificial satellite
+23. First mobile phone network
+24. First successful cloning
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,26 @@
+pick_response_1223.txt
+The user wants me to score candidates based on how well they match the specific theme identified by the examples: "Shamanic rattles made from animal bones", "Bone jewelry used in tribal ceremonies", and "Bone flutes used in ancient rituals". The core elements of this theme are: **animal bones** used in **ritualistic/ceremonial objects**.
+
+The anti-examples ("Stone carvings of animals", "Ivory carvings", "Wooden totem poles") highlight what the theme is *not*:  it's not just about animals, or carvings, or natural materials. It's specifically about **bones**.
+
+I need to evaluate each candidate based on the presence of **animal bones** and their use in a **ritualistic/ceremonial context**.
+
+Here's a breakdown of how I'll approach each candidate:
+
+* **Candidate 1: Totem poles incorporating animal bones:** This directly includes animal bones, and totem poles can have ceremonial significance. High score.
+* **Candidate 2: Gold jewelry with animal shapes:**  Focus is on the material (gold) and shape (animal), not bones. Low score.
+* **Candidate 3: Bronze statues of animals:** Material is bronze, not bone. Low score.
+* **Candidate 4: Metal swords with animal engravings:** Material is metal, and the animal element is decorative (engravings), not structural or material. Low score.
+* **Candidate 5: Wooden masks used in festivals:** Material is wood, not bone. While masks can be ceremonial, the material is the key differentiator here. Low score.
+* **Candidate 6: Metal amulets shaped like animals:** Material is metal, not bone. Low score.
+* **Candidate 7: Woolen blankets with animal patterns:** Material is wool, and the animal element is decorative (patterns). Low score.
+* **Candidate 8: Clay pottery with animal motifs:** Material is clay, and the animal element is decorative (motifs). Low score.
+
+Now I will assign scores, ensuring granularity and using the full range.<number>1</number><score>9</score>
+<number>2</number><score>1</score>
+<number>3</number><score>0</score>
+<number>4</number><score>2</score>
+<number>5</number><score>3</score>
+<number>6</number><score>1</score>
+<number>7</number><score>0</score>
+<number>8</number><score>2</score>

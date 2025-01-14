@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Bust of General Marcus Agrippa sculpted from a single piece of gabbro
+Figure of Emperor Hadrian hewn from a single block of diorite
+Statue of Emperor Augustus carved from a single block of basalt
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Statue of Emperor Augustus carved from marble
+Bust of General Marcus Agrippa sculpted from limestone
+Portrait of General Lucius Verus crafted from sandstone
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Figure of Emperor Claudius made from a single block of marble
+2. Portrait of General Germanicus crafted from a single piece of marble
+3. Portrait of General Lucius Verus crafted from a single piece of andesite <<LEFTOVER>>
+4. Figure of Emperor Vespasian hewn from a single block of limestone
+5. Figure of Emperor Trajan carved from a single block of marble
+6. Figure of Emperor Antoninus Pius hewn from a single block of marble
+7. Portrait of General Marius crafted from a single piece of limestone
+8. Statue of Emperor Domitian made from a single block of marble

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): ancient religious practices involving animal sacrifices performed outdoors
+
+Here are four examples intended to follow this theme:
+1. The Aztec ritual of sacrificing animals to the gods at the top of pyramids
+2. The ancient Greek practice of offering animals to deities at outdoor altars
+3. The Norse tradition of animal sacrifices during outdoor blóts
+4. The Vedic rituals involving animal offerings in open-air ceremonies
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern indoor church service
+6. A Buddhist meditation session
+7. A Native American rain dance
+8. A Hindu temple ceremony involving flowers
+9. A Christian baptism in a river
+10. A Jewish Passover Seder
+11. A Muslim Eid al-Fitr celebration
+12. A Shinto shrine visit
+13. A Taoist festival with lanterns
+14. A Sikh langar meal
+15. A Wiccan solstice gathering
+16. A Zoroastrian fire temple ritual
+17. A Jain festival of Paryushana
+18. A Rastafarian Nyabinghi drumming session
+19. A Confucian ancestor worship ceremony
+20. A Baha'i Naw-Ruz celebration
+21. A Vodou ceremony involving drumming and dancing
+22. A Celtic festival of Samhain
+23. A Mayan ball game ritual
+24. A Druidic tree worship ceremony
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

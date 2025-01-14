@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical or mythological events involving celestial phenomena that are documented in multiple cultural or religious traditions.
+
+Here are four examples intended to follow this theme:
+1. The Star of Bethlehem, observed at the time of Jesus's birth, is mentioned in Christian texts and has parallels in other ancient cultures.
+2. The flood narrative, associated with a celestial event, appears in the Epic of Gilgamesh, the Bible, and other ancient texts across different cultures.
+3. The celestial event of the sun standing still, described in the Book of Joshua, has similarities in ancient Chinese and Mesoamerican records.
+4. The myth of Phaethon's disastrous ride in the sun chariot, causing celestial chaos, is found in Greek mythology and has parallels in other mythologies.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Aurora Borealis, a natural celestial phenomenon, observed and documented in various cultures.
+6. The lunar eclipse, a celestial event, noted in ancient Chinese, Babylonian, and Greek records.
+7. The supernova of 1054 AD, observed and recorded by Chinese, Japanese, and Arab astronomers.
+8. The myth of the Pleiades star cluster, which appears in Greek, Native American, and Aboriginal Australian stories.
+9. The comet Halley, observed and documented in ancient Chinese, Babylonian, and medieval European records.
+10. The myth of Orion, the hunter, which appears in Greek, Egyptian, and Arabian mythologies.
+11. The solar eclipse, a celestial event, noted in ancient Chinese, Mayan, and Greek records.
+12. The myth of the Milky Way, which appears in Greek, Chinese, and Aboriginal Australian stories.
+13. The celestial event of the sun's movement, described in the Egyptian Book of the Dead.
+14. The myth of the constellation Cygnus, which appears in Greek, Native American, and Siberian stories.
+15. The celestial event of the moon's phases, noted in ancient Chinese, Mayan, and Greek records.
+16. The myth of the constellation Ursa Major, which appears in Greek, Native American, and Finnish stories.
+17. The celestial event of the sun's path, described in the ancient Egyptian Pyramid Texts.
+18. The myth of the constellation Cassiopeia, which appears in Greek, African, and Polynesian stories.
+19. The celestial event of the sun's rising and setting, noted in ancient Chinese, Mayan, and Greek records.
+20. The myth of the constellation Pegasus, which appears in Greek, Arabian, and Native American stories.
+21. The celestial event of the sun's annual cycle, described in the ancient Egyptian Book of Gates.
+22. The myth of the constellation Draco, which appears in Greek, Chinese, and Native American stories.
+23. The celestial event of the sun's daily journey, noted in ancient Egyptian, Mayan, and Greek records.
+24. The myth of the constellation Lyra, which appears in Greek, Polynesian, and African stories.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Political figures who were widely criticized for their handling of labor strikes during their time in office
+
+Here are four examples intended to follow this theme:
+1. Margaret Thatcher during the UK miners' strike of 1984-1985
+2. Ronald Reagan during the 1981 air traffic controllers' strike
+3. Grover Cleveland during the 1894 Pullman Strike
+4. Nicolás Maduro during the 2016 Venezuelan general strike
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a labor union leader advocating for workers' rights
+6. a politician praised for mediating a labor dispute
+7. a historical figure known for abolishing child labor
+8. a government official who increased minimum wage
+9. a leader who implemented universal healthcare
+10. a president who signed a major trade agreement
+11. a mayor who improved public transportation
+12. a governor who expanded education funding
+13. a senator who championed environmental protection
+14. a prime minister who reduced unemployment rates
+15. a political figure who supported universal basic income
+16. a leader who promoted gender equality in the workplace
+17. a president who focused on infrastructure development
+18. a politician who advocated for paid family leave
+19. a leader who introduced pension reforms
+20. a governor who prioritized renewable energy projects
+21. a mayor who implemented affordable housing policies
+22. a president who negotiated a peace treaty
+23. a prime minister who reduced national debt
+24. a political figure who focused on technological innovation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,33 @@
+pick_response_1915.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are all extinct species of the genus *Homo*. The anti-examples are related to the study of prehistoric life but are not examples of extinct *Homo* species themselves.
+
+The task is to evaluate a list of candidates based on how well they fit the specific theme (extinct *Homo* species) and not broader related themes.
+
+Let's analyze each candidate:
+
+1. **Ancient burial sites:** This relates to human activity, but not necessarily a specific *Homo* species. It's more of an archaeological concept. It's related but not the specific theme.
+2. **Fossilized plant remains:** This is related to prehistoric life but not human species. It's definitely outside the specific theme.
+3. **Ancient human footprints:**  These are evidence of ancient humans, but don't represent a species name. Related but not the specific theme.
+4. **Genetic studies of ancient populations:** This is a method of studying ancient humans, not a specific species. Related but not the specific theme.
+5. **Australopithecus afarensis:** This is an extinct hominin species, closely related to *Homo*, but not within the *Homo* genus. It's closer than some, but not the specific theme.
+6. **Archaeological sites:** Similar to burial sites, this relates to human activity but not a specific *Homo* species. Related but not the specific theme.
+7. **Mitochondrial DNA analysis:** This is a method used to study ancient populations, not a specific species. Related but not the specific theme.
+8. **Modern human skeletal remains:** This is a *Homo* species, but not an extinct one like the examples. It's within the genus but doesn't fit the "extinct" part of the specific theme.
+
+Now, let's assign scores based on how well they match the specific theme (extinct *Homo* species):
+
+1. Ancient burial sites:  Low score, as it's about human activity, not a species. Score: 2
+2. Fossilized plant remains: Very low score, not related to humans. Score: 0
+3. Ancient human footprints: Low score, evidence of humans but not a species. Score: 3
+4. Genetic studies of ancient populations: Low score, a method of study, not a species. Score: 2
+5. Australopithecus afarensis:  Moderate score, a related extinct hominin but not *Homo*. Score: 6
+6. Archaeological sites: Low score, about human activity, not a species. Score: 2
+7. Mitochondrial DNA analysis: Low score, a method of study, not a species. Score: 1
+8. Modern human skeletal remains: Moderate score, a *Homo* species but not extinct. Score: 5<number>1</number><score>2</score>
+<number>2</number><score>0</score>
+<number>3</number><score>3</score>
+<number>4</number><score>2</score>
+<number>5</number><score>6</score>
+<number>6</number><score>2</score>
+<number>7</number><score>1</score>
+<number>8</number><score>5</score>

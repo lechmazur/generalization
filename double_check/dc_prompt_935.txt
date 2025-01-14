@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical events or objects that symbolize a significant turning point or transformation in cultural or political history.
+
+Here are four examples intended to follow this theme:
+1. The demolition of the Berlin Wall
+2. The printing of the Gutenberg Bible
+3. The Rosetta Stone
+4. The signing of the Magna Carta
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The invention of the telephone
+6. The first transatlantic flight
+7. The discovery of penicillin
+8. The construction of the Great Pyramid of Giza
+9. The sinking of the Titanic
+10. The painting of the Mona Lisa
+11. The composition of Beethoven's Fifth Symphony
+12. The writing of Hamlet
+13. The launch of Sputnik
+14. The assassination of Archduke Franz Ferdinand
+15. The end of World War II
+16. The Civil Rights Movement
+17. The invention of the internet
+18. The first moon landing
+19. The fall of the Roman Empire
+20. The Black Death
+21. The American Revolution
+22. The French Revolution
+23. The Industrial Revolution
+24. The development of agriculture
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

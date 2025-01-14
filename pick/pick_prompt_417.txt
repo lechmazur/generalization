@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A heavy-duty insulated jacket with a full lining of synthetic fur designed for Arctic explorers.
+A parka with a detachable hood lined with synthetic fur for added warmth.
+A thermal overall with real beaver fur integrated into the torso area for extreme cold weather protection.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A ski jacket with synthetic insulation but no fur.
+A down-filled vest for moderate cold.
+A pair of thermal leggings without fur.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A raincoat with a waterproof membrane.
+2. A fleece-lined hoodie for casual wear.
+3. A poncho for rainy conditions.
+4. A winter expedition suit featuring real fox fur around the collar and cuffs to protect against severe cold. <<LEFTOVER>>
+5. A lightweight windbreaker for mild weather.
+6. A wool sweater for everyday use.
+7. A pair of gloves without fur lining.
+8. A hat made of wool for mild winter days.

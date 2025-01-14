@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic representations that utilize self-similar, recursive patterns to evoke a sense of organized chaos or controlled complexity.
+
+Here are four examples intended to follow this theme:
+1. M.C. Escher's "Circle Limit III"
+2. The Sierpinski Triangle
+3. Jackson Pollock's "Lavender Mist"
+4. Mandelbrot Set visualizations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Van Gogh's "Starry Night"
+6. A spider's web
+7. DNA double helix model
+8. Honeycomb patterns
+9. Islamic geometric tiles
+10. Celtic knot designs
+11. Nautilus shell
+12. Snowflake crystals
+13. Tree branching patterns
+14. Fibonacci spiral
+15. Kandinsky's "Composition VIII"
+16. Roman mosaic floors
+17. Gothic cathedral rose windows
+18. Aboriginal dot paintings
+19. Persian carpet designs
+20. Zen garden patterns
+21. Crop circles
+22. Sand mandalas
+23. Butterfly wing patterns
+24. Crystal formations
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,40 @@
+pick_response_410.txt
+The user wants me to identify a specific theme from the provided examples and anti-examples.
+
+Examples: Clay object, submerged in water (lake, ocean, river), for a cultural/art/religious purpose.
+Anti-examples: Different material (metal, stone, wood), submerged in water (river, ocean, lake), for a cultural/ritual/art purpose.
+
+The specific theme seems to be: **A clay object submerged in a body of water for a cultural, artistic, or religious purpose.**
+
+Now I need to evaluate each candidate based on how well it matches this specific theme, avoiding the broader themes suggested by the anti-examples.
+
+Candidate 1: Plastic sculpture, river, environmental project. Material is wrong. Purpose is related but not the same.
+Candidate 2: Clay figure, pond, traditional ritual. Material is correct. Location is similar. Purpose is similar.
+Candidate 3: Ceramic vase, pond, cultural event. Material is similar. Location is similar. Purpose is similar.
+Candidate 4: Stone statue, river, memorial service. Material is wrong. Location is similar. Purpose is related.
+Candidate 5: Glass sculpture, pond, art exhibition. Material is wrong. Location is similar. Purpose is similar.
+Candidate 6: Stone monument, lake, historical commemoration. Material is wrong. Location is similar. Purpose is related.
+Candidate 7: Ceramic tile, river, community project. Material is similar. Location is similar. Purpose is related.
+Candidate 8: Glass bottle, sea, art piece. Material is wrong. Location is similar. Purpose is similar.
+
+Let's assign scores based on the match to the specific theme:
+
+- Material (clay): Strong positive. Ceramic is close. Other materials are negative.
+- Location (lake, ocean, river): Strong positive. Pond is close. Sea is similar.
+- Purpose (art installation, cultural ceremony, religious festival): Strong positive. Traditional ritual, cultural event are close. Environmental project, memorial service, historical commemoration, community project, art piece are related but not exact.
+
+Candidate 1: Wrong material, right location, related purpose. Low score.
+Candidate 2: Right material, close location, close purpose. High score.
+Candidate 3: Similar material, close location, close purpose. Good score.
+Candidate 4: Wrong material, right location, related purpose. Low score.
+Candidate 5: Wrong material, close location, similar purpose. Low score.
+Candidate 6: Wrong material, right location, related purpose. Low score.
+Candidate 7: Similar material, right location, related purpose. Medium score.
+Candidate 8: Wrong material, similar location, similar purpose. Low score.<number>1</number><score>2</score>
+<number>2</number><score>8</score>
+<number>3</number><score>7</score>
+<number>4</number><score>3</score>
+<number>5</number><score>4</score>
+<number>6</number><score>2</score>
+<number>7</number><score>6</score>
+<number>8</number><score>3</score>

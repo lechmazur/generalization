@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Rooms or spaces specifically designed for tracking and coordinating multiple moving objects in real-time through technological means
+
+Here are four examples intended to follow this theme:
+1. Air traffic control tower
+2. Maritime vessel traffic service center
+3. Drone operations control room
+4. Satellite tracking and command center
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Security surveillance room
+6. Video game development studio
+7. Weather forecasting center
+8. Stock trading floor
+9. Traffic management center
+10. Logistics and supply chain operations center
+11. Network operations center
+12. Emergency response coordination center
+13. Space mission control room
+14. Automated warehouse management system
+15. Public transportation control center
+16. Border control and monitoring facility
+17. Wildlife tracking and research station
+18. Event management and crowd control center
+19. Robotics testing and control lab
+20. Telecommunications monitoring center
+21. Environmental monitoring and response center
+22. Automotive testing and simulation facility
+23. Healthcare patient monitoring center
+24. Retail inventory management system
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

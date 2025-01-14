@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Biological or medical visualization techniques that rely on crossing or interweaving patterns to reveal hidden information
+
+Here are four examples intended to follow this theme:
+1. Connectogram showing brain regions and their interconnections
+2. Visualization of overlapping gene expression patterns in different cell types using Venn diagrams
+3. Tractography depicting white matter fiber tracts intersecting in the brain
+4. Confocal microscopy image of interwoven cytoskeletal filaments
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Heatmap of gene expression levels
+6. 3D model of a protein structure
+7. Scatter plot of patient data
+8. MRI image of the brain
+9. Phylogenetic tree
+10. Flow cytometry dot plot
+11. Electrocardiogram (ECG)
+12. Illustration of a biological pathway
+13. Microscopic image of a cell
+14. X-ray image of a bone fracture
+15. Animation of protein folding
+16. Graph of population growth
+17. Medical illustration of the human heart
+18. Time-lapse microscopy of cell division
+19. Chladni patterns visualizing sound waves
+20. Network diagram of protein-protein interactions
+21. Bar chart of disease prevalence
+22. Topographic map of brain activity
+23. Diagram of the circulatory system
+24. Illustration of DNA replication
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

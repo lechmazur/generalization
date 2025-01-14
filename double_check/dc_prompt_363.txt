@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical training regimens historically documented as used by elite warriors of pre-gunpowder eras.
+
+Here are four examples intended to follow this theme:
+1. Roman legionaries' daily marches with full gear
+2. Spartan hoplites' endurance drills in the Agoge
+3. Mongol horse archers' mounted archery practice
+4. Samurai swordsmanship training with bokken
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. modern CrossFit workouts
+6. yoga for flexibility
+7. marathon running
+8. weightlifting for bodybuilding
+9. swimming laps in a pool
+10. boxing sparring sessions
+11. martial arts katas
+12. calisthenics routines
+13. pilates for core strength
+14. cycling on stationary bikes
+15. high-intensity interval training (HIIT)
+16. rock climbing exercises
+17. parkour training
+18. kettlebell workouts
+19. Zumba dance fitness
+20. rowing machine exercises
+21. tai chi for relaxation
+22. aerobic dance classes
+23. functional fitness training
+24. pole vaulting practice
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

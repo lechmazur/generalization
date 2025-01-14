@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural practices or objects that involve the transformation of a natural material into a functional or symbolic form through a specific, ritualized process.
+
+Here are four examples intended to follow this theme:
+1. Japanese tea ceremony
+2. Native American dreamcatcher
+3. Balinese offering baskets
+4. Sand mandalas in Tibetan Buddhism
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a wooden chair
+6. a clay pot
+7. a glass vase
+8. a metal sculpture
+9. a woven basket
+10. a stone statue
+11. a leather wallet
+12. a cotton shirt
+13. a wool sweater
+14. a paper airplane
+15. a plastic bottle
+16. a ceramic mug
+17. a bamboo flute
+18. a silk scarf
+19. a bronze medal
+20. a rubber ball
+21. a gold ring
+22. a silver spoon
+23. a cotton canvas painting
+24. a wooden spoon
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

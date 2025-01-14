@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical figures who survived extreme isolation in the Arctic
+
+Here are four examples intended to follow this theme:
+1. Ada Blackjack - survived 2 years on Wrangel Island after expedition members died
+2. Robert Bartlett - survived 37 days on ice after Karluk sank in 1914
+3. Peter Freuchen - survived being trapped in an ice cave in Greenland
+4. Valerian Albanov - survived 3 months after abandoning ship in Franz Josef Land
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ernest Shackleton
+6. Roald Amundsen
+7. Robert Falcon Scott
+8. John Franklin
+9. Richard Byrd
+10. Alexander Mackenzie
+11. Edmund Hillary
+12. Matthew Henson
+13. Robert Peary
+14. Fridtjof Nansen
+15. Douglas Mawson
+16. Adolphus Greely
+17. John Ross
+18. James Clark Ross
+19. Frederick Cook
+20. Vilhjalmur Stefansson
+21. Otto Sverdrup
+22. Knud Rasmussen
+23. Louise Boyd
+24. Ann Bancroft
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

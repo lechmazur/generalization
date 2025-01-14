@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Techniques or methods that combine precise mathematical modeling with deliberately imperfect or incomplete data to make predictions about human behavior or social phenomena
+
+Here are four examples intended to follow this theme:
+1. Using Bayesian inference to predict election outcomes based on incomplete polling data
+2. Applying machine learning algorithms to forecast consumer spending patterns with noisy transactional data
+3. Modeling disease spread in a population using stochastic processes and limited case reports
+4. Predicting traffic flow dynamics using differential equations and sparse sensor data
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Analyzing historical stock prices to predict future trends
+6. Using linear regression to estimate the relationship between education and income
+7. Forecasting weather patterns using satellite imagery and atmospheric models
+8. Predicting sports outcomes based on player statistics and team performance
+9. Estimating population growth using census data and demographic models
+10. Using neural networks to classify images of handwritten digits
+11. Predicting crop yields based on soil quality and weather conditions
+12. Modeling the spread of wildfires using geographic and meteorological data
+13. Forecasting energy demand using historical consumption patterns
+14. Predicting customer churn using CRM data and machine learning
+15. Estimating the impact of advertising campaigns on sales revenue
+16. Using sentiment analysis to predict public opinion on social media
+17. Modeling the spread of misinformation using network analysis
+18. Predicting the success of new product launches using market research
+19. Forecasting airline passenger numbers using booking data
+20. Estimating the likelihood of loan defaults using credit scores
+21. Predicting crime rates using demographic and socioeconomic data
+22. Modeling the spread of infectious diseases using contact tracing data
+23. Forecasting retail sales using point-of-sale data and seasonal trends
+24. Predicting student performance using standardized test scores
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

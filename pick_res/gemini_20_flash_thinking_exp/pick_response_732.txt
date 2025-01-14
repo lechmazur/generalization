@@ -1,0 +1,24 @@
+pick_response_732.txt
+The user has provided three examples and three anti-examples of a specific theme. The examples are "Hydraulic cylinder", "Gearbox", and "Torque converter". These are all components of mechanical power transmission systems, specifically focusing on converting and transmitting rotational or linear motion and force. The anti-examples are "Solar panel", "Generator", and "Battery". These relate to energy generation and storage, which is a broader theme but distinct from mechanical power transmission.
+
+The task is to evaluate a list of candidates based on how well they fit the *specific* theme, not the broader theme suggested by the anti-examples. I need to assign a score from 0 to 10 for each candidate, reflecting the strength of its match to the specific theme.
+
+Here's a breakdown of how I'll evaluate each candidate:
+
+*   **Pulley:**  A component of mechanical power transmission, often used with belts or ropes to change direction or speed of rotation. Strong match.
+*   **Wheel:** While related to motion, it's more of a fundamental component for enabling movement rather than a specific power transmission element like the examples. Moderate match.
+*   **Axle:**  A shaft on which a wheel or other rotating part revolves. Essential for rotational motion but not directly involved in power *conversion* or *transmission* in the same way as the examples. Moderate match.
+*   **Electric motor:** Converts electrical energy into mechanical energy. This is related to power transmission but is an *actuator* rather than a passive transmission component like the examples. Weaker match to the *specific* theme.
+*   **Turbine:**  A rotary mechanical device that extracts energy from a fluid flow and converts it into useful work. While it involves mechanical power, it's more about energy extraction than the specific transmission focus of the examples. Weaker match.
+*   **Lever:** A simple machine used to multiply force. It's a mechanical element but operates on a different principle than the rotating/fluid-based examples. Moderate match.
+*   **Spring:**  A mechanical device used to store and release mechanical energy. Related to mechanical systems but not directly involved in continuous power transmission in the same way as the examples. Weaker match.
+*   **Engine:** A device that converts chemical energy into mechanical work. This is a power source, not a power transmission component. Weak match.
+
+Based on this analysis, I will assign scores accordingly, ensuring a range of values is used.<number>1</number><score>8</score>
+<number>2</number><score>5</score>
+<number>3</number><score>6</score>
+<number>4</number><score>3</score>
+<number>5</number><score>4</score>
+<number>6</number><score>7</score>
+<number>7</number><score>2</score>
+<number>8</number><score>1</score>

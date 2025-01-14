@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Urban phenomena that significantly alter local microclimates
+
+Here are four examples intended to follow this theme:
+1. Heat island effect caused by extensive asphalt paving in city centers
+2. Microclimate cooling from urban green roofs and vertical gardens
+3. Wind patterns altered by skyscraper configurations in downtown areas
+4. Increased humidity levels due to urban water features and fountains
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Traffic congestion leading to increased air pollution
+6. Noise pollution from urban construction sites
+7. Light pollution affecting urban night skies
+8. Urban sprawl leading to loss of natural habitats
+9. Increased crime rates in densely populated urban areas
+10. Public transportation systems reducing car dependency
+11. Gentrification causing shifts in neighborhood demographics
+12. Urban farming initiatives promoting local food production
+13. High-rise buildings providing more housing units
+14. Street art enhancing the aesthetic appeal of urban spaces
+15. Smart city technologies improving urban efficiency
+16. Urban parks providing recreational spaces for residents
+17. Homelessness as a social issue in urban environments
+18. Urban renewal projects revitalizing old city districts
+19. Public Wi-Fi networks increasing digital connectivity in cities
+20. Food deserts in urban areas lacking grocery stores
+21. Urban heatwaves exacerbated by global climate change
+22. Cycling infrastructure promoting healthier lifestyles in cities
+23. Urban planning policies aimed at reducing carbon emissions
+24. Graffiti as a form of urban expression and vandalism
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

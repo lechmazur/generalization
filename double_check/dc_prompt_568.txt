@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical artifacts found in museums that depict or are directly related to the earliest known examples of wheeled transportation in human history.
+
+Here are four examples intended to follow this theme:
+1. a clay tablet depicting a chariot from ancient Mesopotamia
+2. a wooden wheel fragment from the Ljubljana Marshes in Slovenia
+3. a bronze model of a wheeled cart from the Indus Valley Civilization
+4. a stone carving of a wheeled vehicle from the ancient city of Ur
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a Roman gladiator helmet
+6. a Viking longship
+7. a medieval suit of armor
+8. a Greek amphora
+9. a Egyptian sarcophagus
+10. a Chinese terracotta warrior
+11. a Mayan calendar stone
+12. a Native American totem pole
+13. a Renaissance painting
+14. a Victorian-era steam engine
+15. a medieval tapestry
+16. a Roman mosaic
+17. a Viking sword
+18. a Greek marble statue
+19. a Egyptian papyrus scroll
+20. a Chinese jade carving
+21. a Mayan jade mask
+22. a Native American arrowhead
+23. a Baroque-era harpsichord
+24. a medieval illuminated manuscript
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

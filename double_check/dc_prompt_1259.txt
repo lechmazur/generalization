@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Elements that transition from a singular, centralized form to a distributed or fragmented structure over time or through a process.
+
+Here are four examples intended to follow this theme:
+1. Mainframe computing evolving into cloud computing
+2. A monolithic software application being refactored into microservices
+3. A centralized, planned economy transitioning to a market-based economy
+4. A single large empire breaking up into multiple smaller nation-states
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tree growing branches
+6. A river forming a delta
+7. A single cell dividing into multiple cells
+8. A group of friends drifting apart
+9. A company expanding into new markets
+10. A virus spreading through a population
+11. Information being shared on social media
+12. A network of interconnected computers
+13. A supply chain with multiple suppliers
+14. A family tree branching out through generations
+15. A seed germinating and growing into a plant
+16. A rumor spreading through a community
+17. A group of people forming a team
+18. A collection of essays on a single topic
+19. A library cataloging its books
+20. A museum displaying artifacts from different cultures
+21. A school organizing students into different classes
+22. A city expanding its infrastructure
+23. A country establishing diplomatic relations with other countries
+24. A global organization with offices in multiple countries
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

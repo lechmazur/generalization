@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic works inspired by literary stream of consciousness techniques.
+
+Here are four examples intended to follow this theme:
+1. James Joyce's "Ulysses" inspired painting series by an artist capturing the internal monologue of characters.
+2. A film montage using rapid cuts and voice-overs to mimic the stream of consciousness narrative style from Virginia Woolf's "Mrs. Dalloway."
+3. A dance performance choreographed to reflect the disjointed thoughts and emotions from William Faulkner's "The Sound and the Fury."
+4. A series of abstract sculptures inspired by the inner thoughts and reflections in Marcel Proust's "In Search of Lost Time."
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting depicting a scene from a classic novel.
+6. A film adaptation of a famous book.
+7. A sculpture inspired by a historical event.
+8. A dance performance based on a traditional folk tale.
+9. A photograph series capturing urban landscapes.
+10. A musical composition inspired by nature.
+11. A theatrical production of a Shakespearean play.
+12. A graphic novel adaptation of a popular story.
+13. A series of portraits of famous authors.
+14. An installation art piece about environmental issues.
+15. A documentary film about a historical figure.
+16. A ballet performance inspired by a fairy tale.
+17. A mural depicting a community's history.
+18. A series of photographs inspired by a travelogue.
+19. A musical inspired by a real-life event.
+20. A painting series inspired by mythological stories.
+21. A film about the life of a famous artist.
+22. A dance piece reflecting cultural traditions.
+23. A sculpture garden inspired by geometric shapes.
+24. A theatrical production of a contemporary play.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

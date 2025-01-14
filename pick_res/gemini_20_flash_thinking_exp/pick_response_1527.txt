@@ -1,0 +1,22 @@
+pick_response_1527.txt
+The user has provided examples and anti-examples of a specific theme related to gemstones. The examples (bicolor sapphire, bicolor topaz, ametrine) all exhibit two distinct colors within a single stone. The anti-examples (agate, labradorite, tiger's eye) display color variations or optical effects but not in the same way as the examples. Agate has banding, labradorite has labradorescence (a play of color), and tiger's eye has chatoyancy (a cat's-eye effect).
+
+The task is to score the candidates based on how well they fit the specific theme of having two distinct colors within a single stone, similar to the examples, and *not* based on broader themes like general color variation or optical effects.
+
+Let's evaluate each candidate:
+
+1. **malachite**: Typically a single green color with banding. Doesn't fit the bicolor theme. Score: 1
+2. **fluorite**: Can occur in multiple colors within a single crystal, often with distinct zones. This fits the theme well. Score: 9
+3. **moss agate**: Contains inclusions that resemble moss, but the base color is usually one color. Doesn't fit the bicolor theme in the same way as the examples. Score: 2
+4. **spectrolite**: A variety of labradorite, exhibiting a broad range of colors due to labradorescence. While colorful, it's not two distinct color zones. Score: 3
+5. **alexandrite**: Known for its color change depending on the light source (e.g., green in daylight, red in incandescent light). This is a color change, not two distinct colors visible simultaneously. Score: 4
+6. **jasper**: Often multicolored with patterns and bands, but not typically two distinct, separate color zones like the examples. Score: 2
+7. **watermelon tourmaline**: Characterized by a pink center and green outer layer, clearly exhibiting two distinct colors. This is a strong match. Score: 10
+8. **color change garnet**: Similar to alexandrite, it changes color depending on the light source. Not two distinct colors visible simultaneously. Score: 4<number>1</number><score>1</score>
+<number>2</number><score>9</score>
+<number>3</number><score>2</score>
+<number>4</number><score>3</score>
+<number>5</number><score>4</score>
+<number>6</number><score>2</score>
+<number>7</number><score>10</score>
+<number>8</number><score>4</score>

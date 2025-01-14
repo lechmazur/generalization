@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Events or phenomena that signify a sudden transition from chaos or activity to silence or stillness, often marking a significant change in perception or atmosphere.
+
+Here are four examples intended to follow this theme:
+1. The moment after a conductor signals the end of a symphony and the music stops.
+2. A sudden power outage during a bustling city night.
+3. The instant a snowstorm ceases, leaving a quiet, white landscape.
+4. The abrupt silence following a firework display finale.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A sunrise over a calm ocean.
+6. A bustling market at noon.
+7. A gentle breeze rustling through leaves.
+8. A crowded subway station during rush hour.
+9. A waterfall cascading down a cliff.
+10. A busy highway at peak traffic time.
+11. A thunderstorm rolling in from the distance.
+12. A lively concert in full swing.
+13. A river flowing steadily through a valley.
+14. A forest filled with the sounds of wildlife.
+15. A bustling airport terminal.
+16. A city park filled with children playing.
+17. A crowded beach on a sunny day.
+18. A parade marching down the street.
+19. A busy restaurant during dinner service.
+20. A train station with trains arriving and departing.
+21. A festival with music and dancing.
+22. A sports stadium during a game.
+23. A construction site with machinery operating.
+24. A classroom full of students during a lesson.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

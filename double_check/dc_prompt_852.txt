@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed to provide protection or coverage that incorporate geometric patterns for structural integrity or aesthetic purposes
+
+Here are four examples intended to follow this theme:
+1. a honeycomb-patterned motorcycle helmet
+2. a geodesic dome tent
+3. a chainmail armor shirt
+4. a quilted jacket with diamond stitching
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a plain raincoat
+6. a smooth leather wallet
+7. a wooden baseball bat
+8. a silk scarf
+9. a plastic water bottle
+10. a woolen sweater
+11. a glass window pane
+12. a metal spoon
+13. a cotton t-shirt
+14. a ceramic vase
+15. a rubber tire
+16. a nylon backpack
+17. a paper notebook
+18. a wooden chair
+19. a plastic comb
+20. a stone statue
+21. a wool blanket
+22. a leather belt
+23. a metal key
+24. a cotton pillowcase
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

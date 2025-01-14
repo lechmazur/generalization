@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or activities that require circular motion and are used in competitive or artistic contexts
+
+Here are four examples intended to follow this theme:
+1. a figure skater performing a spin
+2. a discus thrower in athletics
+3. a rhythmic gymnast using a hoop
+4. a breakdancer executing a windmill
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a bicycle wheel
+6. a washing machine drum
+7. a ceiling fan
+8. a merry-go-round
+9. a record player
+10. a fidget spinner
+11. a yo-yo
+12. a car tire
+13. a clock's second hand
+14. a revolving door
+15. a planet orbiting the sun
+16. a mixer's blades
+17. a wind turbine
+18. a potter's wheel
+19. a centrifuge
+20. a carousel
+21. a gyroscope
+22. a helicopter's rotor
+23. a spinning top
+24. a drill bit
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

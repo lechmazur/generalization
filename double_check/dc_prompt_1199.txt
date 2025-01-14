@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): cultural practices or rituals that involve the symbolic use of circular formations to represent unity, continuity, or cyclical processes
+
+Here are four examples intended to follow this theme:
+1. a Native American medicine wheel used in healing ceremonies
+2. a Sufi whirling dervish dance symbolizing spiritual unity
+3. a Celtic stone circle used in solstice celebrations
+4. a Hindu rangoli design created during Diwali to symbolize the cycle of life
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a wedding ring
+6. a Ferris wheel
+7. a clock face
+8. a circular table
+9. a roundabout in a city
+10. a basketball hoop
+11. a car tire
+12. a vinyl record
+13. a hula hoop
+14. a circular saw blade
+15. a pizza
+16. a globe
+17. a bicycle wheel
+18. a coin
+19. a circular mirror
+20. a round shield
+21. a circular rug
+22. a donut
+23. a circular window
+24. a circular pool
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

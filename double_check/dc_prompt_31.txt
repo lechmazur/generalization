@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Tools or systems designed for analyzing the composition of a specific substance through direct physical interaction with a sample.
+
+Here are four examples intended to follow this theme:
+1. A mass spectrometer used to determine the isotopic composition of a solid sample.
+2. An X-ray fluorescence analyzer employed to identify the elemental makeup of a mineral specimen.
+3. A gas chromatograph coupled with a mass spectrometer for analyzing the chemical components of a volatile liquid sample.
+4. An inductively coupled plasma optical emission spectrometer used to quantify trace elements in a water sample.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A software program that predicts molecular structures based on theoretical models.
+6. A database that stores information about chemical compositions without direct sample interaction.
+7. A remote sensing satellite that detects changes in vegetation over time.
+8. A handheld device that measures air quality without analyzing specific substances.
+9. A laboratory centrifuge used to separate components of a mixture based on density.
+10. A pH meter that measures the acidity or alkalinity of a solution.
+11. A microscope used to visually inspect the surface of a material.
+12. A device that measures the temperature of a substance without analyzing its composition.
+13. A tool that calculates the nutritional content of food based on a database of ingredients.
+14. A system that monitors the flow rate of a liquid through a pipeline.
+15. A device that measures the electrical conductivity of a solution.
+16. A tool used to measure the viscosity of a liquid.
+17. A device that detects the presence of radiation in an environment.
+18. A system that analyzes the color of a substance using a spectrophotometer.
+19. A tool that measures the hardness of a material.
+20. A device that detects the presence of specific gases in the air.
+21. A system that measures the turbidity of water.
+22. A tool that calculates the energy content of a fuel based on its chemical formula.
+23. A device that measures the humidity in a room.
+24. A system that analyzes the particle size distribution of a powder.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

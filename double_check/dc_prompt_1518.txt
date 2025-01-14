@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Materials or processes that artificially replicate naturally-occurring biological structures while deliberately excluding living cells from the final product
+
+Here are four examples intended to follow this theme:
+1. Synthetic spider silk woven into a fabric
+2. A prosthetic heart valve made of biocompatible polymers
+3. A lab-grown diamond with the same crystal structure as a naturally occurring diamond
+4. A microfluidic device mimicking the branching patterns of a lung's alveoli
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tissue-engineered blood vessel
+6. A bacterial cellulose face mask
+7. A cultured meat product
+8. A bioluminescent lamp using genetically modified bacteria
+9. A bone graft using coral
+10. A leather bag
+11. A wooden chair
+12. A cotton shirt
+13. A silk scarf
+14. A wool sweater
+15. A seashell used as decoration
+16. A genetically modified plant
+17. A 3D-printed organ scaffold seeded with cells
+18. A vaccine
+19. A bioreactor
+20. A petri dish with growing bacteria
+21. A preserved butterfly in a frame
+22. A taxidermied animal
+23. A fossil
+24. A bio-inspired robot
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

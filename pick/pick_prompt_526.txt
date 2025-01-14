@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+Urban road cleaning machine equipped with a rotating brush mechanism
+Automated sidewalk cleaner using a cylindrical brush for sweeping
+Street sweeper with a rotating brush system for debris collection
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Industrial floor scrubber with rotating brushes
+Automated car wash system using rotating brushes
+Robotic vacuum cleaner with a rotating brush for home use
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Automated carpet cleaner with rotating brushes
+2. Industrial dust collector with rotating brushes
+3. Automated gutter cleaning system with a rotating brush
+4. Municipal street cleaner with a front-mounted rotating brush for debris removal <<LEFTOVER>>
+5. Snow plow with a rotating brush for snow removal
+6. Pool cleaner robot with a rotating brush for pool maintenance
+7. Conveyor belt system with rotating brushes for cleaning
+8. Automated graffiti removal system using rotating brushes

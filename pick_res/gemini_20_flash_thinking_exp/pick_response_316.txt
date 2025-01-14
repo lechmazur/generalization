@@ -1,0 +1,26 @@
+pick_response_316.txt
+The user wants me to score how well each candidate matches the specific theme identified by the examples, while explicitly avoiding broader interpretations suggested by the anti-examples.
+
+The examples all describe devices for precise positioning or manipulation within a controlled, non-standard atmosphere (argon, inert gas, vacuum). They also imply high precision, although this is less explicit.
+
+The anti-examples describe positioning systems in standard atmospheric conditions, clean rooms, or air, and use different actuation methods (electromagnetic, electrostatic, thermal).
+
+Therefore, the specific theme is: **Precise positioning/manipulation devices operating in a controlled, non-standard atmosphere (specifically vacuum or inert gas).**  The actuation method is not explicitly part of the specific theme, but piezoelectric is present in one example.
+
+Now, I will evaluate each candidate based on this specific theme:
+
+*   **Candidate 1:** Corrosive atmosphere is a controlled, non-standard atmosphere. Piezoelectric actuators are not excluded. Good match.
+*   **Candidate 2:** Helium environment is a controlled, non-standard atmosphere (inert gas). High-precision actuators align with the implied precision. Excellent match.
+*   **Candidate 3:** High-temperature environment is not necessarily a controlled atmosphere in the same way as the examples. Piezoelectric actuators are not excluded. Moderate match.
+*   **Candidate 4:** Space is a vacuum (controlled, non-standard atmosphere). The absence of piezoelectric technology makes it a slightly weaker match to the examples, but still fits the core theme.
+*   **Candidate 5:** Biological environment is not a vacuum or inert gas. Piezoelectric actuators are not excluded. Poor match.
+*   **Candidate 6:** Vacuum is a controlled, non-standard atmosphere. Piezoelectric device aligns with one example. Macroscale positioning is a slight deviation from the implied nanoscale, but still fits the core theme.
+*   **Candidate 7:** Chemically reactive environment is a controlled, non-standard atmosphere. Piezoelectric actuators are not excluded. Good match.
+*   **Candidate 8:** Reactive gas environment is a controlled, non-standard atmosphere (similar to inert gas). Piezoelectric actuators are not excluded. Excellent match.<number>1</number><score>8</score>
+<number>2</number><score>9</score>
+<number>3</number><score>6</score>
+<number>4</number><score>7</score>
+<number>5</number><score>3</score>
+<number>6</number><score>8</score>
+<number>7</number><score>8</score>
+<number>8</number><score>9</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): neon-lit public spaces beneath urban environments
+
+Here are four examples intended to follow this theme:
+1. A ramen stall tucked under a freeway overpass, illuminated by pink and green neon signs.
+2. A 24-hour laundromat in a subway station, bathed in the blue glow of neon lights.
+3. An underground nightclub accessed through an unmarked door in a parking garage, its entrance framed by a pulsating neon sign.
+4. A dimly lit arcade in a basement level of a shopping mall, its retro games glowing under neon lights.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A rooftop bar with string lights.
+6. A brightly lit office building.
+7. A park with streetlamps.
+8. A bustling market square during the day.
+9. A neon sign in a shop window.
+10. A concert venue with stage lighting.
+11. A drive-in movie theater.
+12. A subway car with fluorescent lighting.
+13. A brightly lit hospital waiting room.
+14. A candlelit restaurant.
+15. A bonfire on a beach.
+16. A Times Square billboard.
+17. A dark alleyway lit by a single streetlight.
+18. A basement apartment with incandescent lighting.
+19. A warehouse rave with laser lights.
+20. A brightly lit convenience store.
+21. A bus stop illuminated by a sodium-vapor lamp.
+22. A movie theater lobby with posters and displays.
+23. An art gallery with track lighting.
+24. A public library reading room.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

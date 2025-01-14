@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or systems that fundamentally challenge or redefine traditional binary classifications in their respective fields.
+
+Here are four examples intended to follow this theme:
+1. Quantum superposition in physics, which challenges the binary notion of a particle existing in a single, definite state.
+2. The concept of the cyborg in sociology and philosophy, blurring the lines between human and machine.
+3. Non-binary gender identities, which challenge the traditional male/female dichotomy.
+4. Fuzzy logic in mathematics and computer science, which allows for degrees of truth beyond the binary true/false.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The theory of evolution
+6. The concept of gravity
+7. Digital vs. Analog
+8. The wave-particle duality of light
+9. The concept of artificial intelligence
+10. The nature vs. nurture debate
+11. The mind-body problem
+12. Introversion vs. Extroversion
+13. Classical mechanics
+14. The Big Bang theory
+15. The concept of time
+16. The scientific method
+17. The concept of space
+18. The theory of relativity
+19. Online vs. Offline
+20. The concept of emotions
+21. The concept of consciousness
+22. Virtual Reality
+23. Augmented Reality
+24. The concept of free will
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

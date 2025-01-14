@@ -1,0 +1,34 @@
+pick_response_312.txt
+The user has provided examples and anti-examples of a specific theme. The examples all involve specific consumer products contaminated with a known carcinogen or harmful substance. The anti-examples involve broader categories of harmful substances or products with known health risks, but not necessarily contamination of a specific product type.
+
+The task is to evaluate a list of candidates based on how well they fit the *specific* theme, not the broader theme. This means looking for candidates that involve specific types of consumer products contaminated with a harmful substance.
+
+Let's evaluate each candidate:
+
+1. **Certain artificial sweeteners found to cause cancer in lab animals:** This fits the theme of a specific consumer product (artificial sweeteners) being linked to a health risk (cancer). It's not a contamination issue, but it's close.
+
+2. **Certain pesticides:** This is broader. Pesticides are a category of chemicals, not a specific consumer product people directly use on their bodies.
+
+3. **Certain types of plastic containing BPA:** This fits the theme. BPA is a harmful substance found in specific types of plastic, a consumer product.
+
+4. **Medications with severe side effects:** This is too broad. Medications are designed to have effects, and side effects are a known aspect of their use, not necessarily a contamination issue.
+
+5. **Cigarettes:**  While harmful, cigarettes are intentionally produced with harmful substances, not contaminated.
+
+6. **Tanning beds:** This is a service/device, not a consumable product.
+
+7. **Processed meats with high nitrate levels:** This fits the theme. Specific food products (processed meats) contain a harmful substance (nitrates).
+
+8. **Foods with high trans fat content:** This is similar to nitrates in processed meats. Specific food products contain a harmful substance (trans fats).
+
+Now, let's assign scores based on how well they match the *specific* theme:
+
+- Candidates that involve a specific consumer product contaminated with a harmful substance will score higher.
+- Candidates that involve a broader category or an intentional ingredient will score lower.<number>1</number><score>7</score>
+<number>2</number><score>3</score>
+<number>3</number><score>8</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>0</score>
+<number>7</number><score>6</score>
+<number>8</number><score>5</score>

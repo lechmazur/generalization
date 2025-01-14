@@ -1,0 +1,24 @@
+pick_response_484.txt
+The user wants me to score each candidate based on how well it matches a specific theme derived from the examples, while explicitly avoiding broader interpretations suggested by the anti-examples.
+
+The specific theme seems to be: **Inuit whalebone carvings of animals that hold spiritual significance in Inuit culture.**
+
+Let's evaluate each candidate against this specific theme:
+
+*   **Candidate 1:** Bone carving of a fox, Inuit artist, not spiritual. *Matches material and artist, but not spiritual significance or specific animal (whalebone).*
+*   **Candidate 2:** Bone carving of a deer, Inuit artist, not spiritual. *Matches material and artist, but not spiritual significance or specific animal (whalebone).*
+*   **Candidate 3:** Ivory whale sculpture, Inuit hunting, not spiritual. *Matches animal and artist, but not material (whalebone) or spiritual significance.*
+*   **Candidate 4:** Stone caribou, Inuit artist, not spiritual. *Matches artist, but not material (whalebone), animal, or spiritual significance.*
+*   **Candidate 5:** Whalebone fish, non-Inuit, no spiritual. *Matches material and animal, but not artist or spiritual significance.*
+*   **Candidate 6:** Wooden Inuit mask, ceremonial, not animal/whalebone. *Matches artist and some cultural aspect, but not material, animal, or direct spiritual animal representation.*
+*   **Candidate 7:** Whalebone wolf, Inuit, spiritual narratives. *Strong match - matches material, artist, animal, and spiritual significance.*
+*   **Candidate 8:** Soapstone fish, Inuit, diet, not spiritual. *Matches artist and animal, but not material (whalebone) or spiritual significance.*
+
+Now, let's assign scores based on these evaluations, ensuring granularity and avoiding polarization.<number>1</number><score>4</score>
+<number>2</number><score>3</score>
+<number>3</number><score>5</score>
+<number>4</number><score>2</score>
+<number>5</number><score>3</score>
+<number>6</number><score>1</score>
+<number>7</number><score>9</score>
+<number>8</number><score>3</score>

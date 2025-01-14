@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ritual masks worn by shamans that incorporate movable or articulated jaws activated by strings or cords
+
+Here are four examples intended to follow this theme:
+1. A wooden mask with a hinged jaw operated by a pull string, used in traditional healing ceremonies.
+2. A ceremonial mask with a movable lower jaw controlled by internal cords, worn during spiritual rituals.
+3. A shamanic mask featuring an articulated jaw mechanism activated by a series of strings, used in tribal dances.
+4. A ritual mask with a jaw that opens and closes via a cord system, utilized in shamanistic rites.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A mask used in theater performances with static features.
+6. A traditional mask worn during cultural festivals without any moving parts.
+7. A decorative mask with painted designs, used as wall art.
+8. A mask with a hinged visor, used in medieval reenactments.
+9. A mask with electronic components that light up, used in modern dance performances.
+10. A mask with a removable nose piece, used in costume parties.
+11. A mask with a fixed jaw, used in traditional storytelling.
+12. A mask with feathers and beads, worn during Mardi Gras celebrations.
+13. A mask with a hinged door, used in haunted house attractions.
+14. A mask with a detachable chin strap, used in sports.
+15. A mask with a sliding panel, used in magic shows.
+16. A mask with a rotating eye piece, used in futuristic-themed events.
+17. A mask with a spring-loaded mechanism, used in carnival rides.
+18. A mask with a flexible rubber jaw, used in horror movies.
+19. A mask with a hinged cheek piece, used in historical reenactments.
+20. A mask with a pull-tab to change expressions, used in children's toys.
+21. A mask with a snap-on jaw, used in puppet shows.
+22. A mask with a lever-operated mouth, used in ventriloquist acts.
+23. A mask with a magnetic jaw attachment, used in educational demonstrations.
+24. A mask with a flip-up visor, used in motorcycle helmets.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

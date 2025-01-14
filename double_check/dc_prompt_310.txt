@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Musical compositions incorporating rhythmic patterns derived from the movements of specific martial arts forms.
+
+Here are four examples intended to follow this theme:
+1. "Tai Chi Symphony" by Tan Dun
+2. "Capoeira Rhythms Suite" by Hermeto Pascoal
+3. "Wing Chun Concerto" by Bright Sheng
+4. "Karate Kata in Five Movements" by Toshio Hosokawa
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. "Combat Dance" by John Cage
+6. "Warrior's Path" by Philip Glass
+7. "Shaolin Meditation" by Zhou Long
+8. "Fight Night" by Hans Zimmer
+9. "Traditional Kendo Drums"
+10. "Boxing Ring Overture" by Aaron Copland
+11. "Martial Symphony" by Igor Stravinsky
+12. "Ancient Battle" by Yo-Yo Ma
+13. "Dojo Meditation" by Brian Eno
+14. "Samurai's Honor" by Joe Hisaishi
+15. "Temple Warriors" by Steve Reich
+16. "Combat Sports Suite" by Michael Nyman
+17. "Traditional Sumo Drums"
+18. "Warrior Dance" by Béla Bartók
+19. "Fight Scene" by Ennio Morricone
+20. "Martial Arts Movie Theme" by Lalo Schifrin
+21. "Training Montage" by Bill Conti
+22. "Sparring Match" by John Williams
+23. "Kung Fu Fighting" by Carl Douglas
+24. "Enter the Dragon Theme" by Lalo Schifrin
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

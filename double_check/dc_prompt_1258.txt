@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Materials or structures that combine two distinct phases or components to enhance functionality, where one phase is embedded within or bonded to the other in a way that creates a synergistic effect.
+
+Here are four examples intended to follow this theme:
+1. a composite material used in aircraft wings, consisting of carbon fibers embedded in a polymer matrix
+2. a dental implant made from a titanium core coated with a bioactive ceramic layer to promote bone integration
+3. a smart fabric with conductive threads woven into a non-conductive textile for wearable electronics
+4. a catalytic converter in vehicles, where a ceramic honeycomb structure is coated with precious metal catalysts
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a layered cake with different flavors
+6. a hybrid car combining electric and gasoline engines
+7. a dual-layer paint system for corrosion protection
+8. a sandwich panel used in construction
+9. a multi-component alloy with enhanced strength
+10. a laminated glass used in car windshields
+11. a reinforced concrete structure
+12. a bimetallic strip used in thermostats
+13. a composite bow made from different materials
+14. a multi-layer PCB (Printed Circuit Board)
+15. a dual-phase steel used in automotive applications
+16. a fiber-reinforced polymer used in sports equipment
+17. a multi-material 3D printed object
+18. a coaxial cable with different layers for signal transmission
+19. a laminated wood beam for structural support
+20. a multi-layer coating on eyeglass lenses
+21. a hybrid solar cell combining organic and inorganic materials
+22. a multi-component drug delivery system
+23. a composite material with interpenetrating networks
+24. a multi-layer insulation used in spacecraft
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

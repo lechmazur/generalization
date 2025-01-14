@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures designed for communal spiritual or ritualistic gatherings that are partially or fully subterranean.
+
+Here are four examples intended to follow this theme:
+1. The Kiva at the Ancestral Puebloan site of Mesa Verde
+2. The Hypogeum of Ħal Saflieni in Malta
+3. The underground church of St. George in Lalibela, Ethiopia
+4. The Mithraeum in London, England
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A traditional Japanese tea house
+6. The Sistine Chapel in Vatican City
+7. A modern skyscraper
+8. The Pantheon in Rome
+9. A Buddhist temple in Thailand
+10. The Hagia Sophia in Istanbul
+11. A synagogue in New York City
+12. A mosque in Dubai
+13. The Notre-Dame Cathedral in Paris
+14. A Hindu temple in India
+15. A Zoroastrian fire temple in Iran
+16. The Temple of Heaven in Beijing
+17. A Shinto shrine in Japan
+18. The Western Wall in Jerusalem
+19. A Sikh gurdwara in Punjab
+20. The Great Pyramid of Giza
+21. A Baháʼí House of Worship in Australia
+22. The Stonehenge monument in England
+23. A Jain temple in Rajasthan
+24. The Parthenon in Athens
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

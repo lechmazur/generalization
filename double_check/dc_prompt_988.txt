@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Characters or personas that blend elements of comedy and mythology to critique modern society
+
+Here are four examples intended to follow this theme:
+1. A trickster god who disguises themselves as a stand-up comedian to mock corporate greed.
+2. A satirical superhero inspired by ancient myths, using absurd powers to expose societal hypocrisy.
+3. A mythological creature reimagined as a social media influencer, parodying modern vanity and obsession with fame.
+4. A comedic demigod who works in a fast-food restaurant, using their divine wit to critique consumer culture.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tragic hero from Greek mythology who struggles with fate.
+6. A modern-day detective solving crimes inspired by ancient myths.
+7. A historical figure reimagined as a fantasy warrior.
+8. A mythological creature used as a mascot for a sports team.
+9. A comedic character in a sitcom with no ties to mythology.
+10. A mythical beast that serves as a guardian in a fantasy novel.
+11. A satirical cartoon character critiquing politics without mythological elements.
+12. A modern retelling of a myth with no comedic elements.
+13. A mythological figure portrayed as a villain in a serious drama.
+14. A comedic duo inspired by folklore but not critiquing society.
+15. A mythical hero who saves the world in an epic adventure.
+16. A parody of a historical event with no mythological references.
+17. A mythological creature used as a symbol in a serious poem.
+18. A comedic character in a fantasy setting with no societal critique.
+19. A modern-day adaptation of a myth focused on romance.
+20. A satirical play about modern life with no mythological characters.
+21. A mythological figure reimagined as a scientist in a serious story.
+22. A comedic alien character critiquing human behavior without mythological ties.
+23. A mythical artifact used as a plot device in a thriller.
+24. A parody of a fairy tale with no connection to mythology.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A luxurious throw blanket featuring abstract, geometric flower designs in metallic copper and bronze threads.
+An elegant wall hanging with stylized, diamond-shaped floral patterns crafted from shimmering platinum threads.
+A shimmering tapestry with intricate, angular floral motifs woven with gold and silver threads.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A silk saree with intricate floral designs in metallic threads but not geometric.
+A woolen rug with traditional Persian designs.
+A decorative fabric with geometric patterns in metallic threads but no floral designs.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A tapestry with animal motifs woven with metallic threads.
+2. A decorative pillow with paisley patterns in metallic threads.
+3. A wall hanging with geometric designs but no floral elements.
+4. A velvet curtain with abstract designs in metallic threads but no floral patterns.
+5. A decorative cushion cover adorned with bold, geometric floral designs woven with lustrous gold and silver threads. <<LEFTOVER>>
+6. A traditional Persian carpet with floral motifs but no metallic threads.
+7. A tapestry with geometric designs inspired by Native American art, woven with metallic threads but no floral patterns.
+8. A woven wall art piece with abstract designs in metallic threads but no floral elements.

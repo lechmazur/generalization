@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer products that utilize eccentric rotating mass vibration motors for haptic feedback and are manufactured in Germany.
+
+Here are four examples intended to follow this theme:
+1. A Bosch power tool with haptic feedback for indicating material resistance.
+2. A Miele washing machine with an eccentric rotating mass vibration motor for signaling cycle completion.
+3. A Braun electric toothbrush manufactured in Germany with haptic feedback for timing intervals.
+4. A Mercedes-Benz steering wheel with haptic feedback for lane departure warnings, made in Germany.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A linear resonant actuator in a smartphone.
+6. A piezoelectric transducer in a game controller.
+7. A solenoid in a pinball machine.
+8. A speaker used for haptic feedback in a tablet.
+9. An electric shaver made in Japan.
+10. A washing machine with a buzzer alarm.
+11. A power drill with a variable speed trigger.
+12. A car seat with pneumatic lumbar support.
+13. A German-engineered car manufactured in the USA.
+14. A Swiss-made watch with a vibration alarm.
+15. A kitchen appliance with a light indicator.
+16. A toy robot with vibrating movement.
+17. A medical device with ultrasonic feedback.
+18. A gaming mouse with adjustable weights.
+19. A fitness tracker with a rotating crown.
+20. A pair of headphones with noise cancellation.
+21. A laptop with a trackpad.
+22. A smart thermostat with a touch screen.
+23. A doorbell with a chime.
+24. A smoke detector with an audible alarm.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

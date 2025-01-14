@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): mythological or symbolic entities that represent the disruption or inversion of natural order within their respective cultural or ecological systems
+
+Here are four examples intended to follow this theme:
+1. Fenrir, the monstrous wolf from Norse mythology
+2. Typhon, the serpentine giant from Greek mythology
+3. Rangda, the demon queen in Balinese mythology
+4. Ammit, the devourer of the dead in Egyptian mythology
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Zeus, the king of the Greek gods
+6. Thor, the Norse god of thunder
+7. Ra, the Egyptian sun god
+8. Odin, the chief god in Norse mythology
+9. Poseidon, the Greek god of the sea
+10. Horus, the Egyptian god of the sky
+11. Hera, the Greek goddess of marriage
+12. Freya, the Norse goddess of love
+13. Anubis, the Egyptian god of mummification
+14. Athena, the Greek goddess of wisdom
+15. Hermes, the Greek messenger god
+16. Isis, the Egyptian goddess of magic
+17. Apollo, the Greek god of music
+18. Set, the Egyptian god of chaos
+19. Loki, the Norse trickster god
+20. Hades, the Greek god of the underworld
+21. Nephthys, the Egyptian goddess of mourning
+22. Demeter, the Greek goddess of the harvest
+23. Baldr, the Norse god of beauty
+24. Osiris, the Egyptian god of the afterlife
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

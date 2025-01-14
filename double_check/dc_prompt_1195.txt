@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural or artificial structures that exhibit self-similarity at multiple scales and are formed through repetitive, cyclical processes.
+
+Here are four examples intended to follow this theme:
+1. a snowflake
+2. a river delta
+3. a nautilus shell
+4. a Romanesco broccoli
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a mountain range
+6. a spider web
+7. a honeycomb
+8. a coral reef
+9. a tree trunk
+10. a lightning bolt
+11. a galaxy
+12. a cloud formation
+13. a sand dune
+14. a crystal lattice
+15. a sunflower seed pattern
+16. a coastline
+17. a leaf vein pattern
+18. a fractal tree
+19. a seashell
+20. a pinecone
+21. a fern leaf
+22. a lightning strike scar
+23. a river meander
+24. a volcanic crater
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

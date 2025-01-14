@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or entities that are associated with both a significant scientific principle and a major cultural or artistic contribution.
+
+Here are four examples intended to follow this theme:
+1. the Fibonacci sequence
+2. the Golden Ratio
+3. the periodic table
+4. the double helix structure of DNA
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. the Pythagorean theorem
+6. the theory of relativity
+7. the Mona Lisa
+8. the Sistine Chapel ceiling
+9. the concept of zero
+10. the invention of the printing press
+11. the discovery of penicillin
+12. the Eiffel Tower
+13. the Great Wall of China
+14. the theory of evolution
+15. the invention of the light bulb
+16. the works of Shakespeare
+17. the discovery of gravity
+18. the invention of the telephone
+19. the Taj Mahal
+20. the concept of democracy
+21. the invention of the wheel
+22. the discovery of electricity
+23. the works of Beethoven
+24. the invention of the airplane
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

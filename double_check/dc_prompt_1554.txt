@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific discoveries made by analyzing frozen material that had been naturally preserved for over 1000 years
+
+Here are four examples intended to follow this theme:
+1. Analysis of ancient ice cores revealing atmospheric composition from 1,000 years ago
+2. Discovery of ancient viruses preserved in permafrost for over a millennium
+3. Identification of prehistoric plant species from seeds frozen in glaciers for 1,000+ years
+4. Reconstruction of ancient climate patterns using frozen lake sediments over 1,000 years old
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Fossilized dinosaur bones
+6. Preserved amber with insects inside
+7. Ancient pottery shards found in archaeological digs
+8. Mummified remains from Egyptian tombs
+9. Petrified wood
+10. Stone tools from the Paleolithic era
+11. Ancient coins discovered in shipwrecks
+12. Preserved scrolls from the Dead Sea
+13. Frozen mammoth remains from the last Ice Age
+14. Ancient cave paintings
+15. Preserved textiles from Viking burial sites
+16. Fossilized footprints of early humans
+17. Ancient Roman aqueducts
+18. Preserved seeds from medieval storage pits
+19. Fossilized coral reefs
+20. Ancient manuscripts from monastic libraries
+21. Preserved leather artifacts from bogs
+22. Fossilized fish from ancient lake beds
+23. Ancient jewelry found in burial mounds
+24. Preserved wooden ships from Viking times
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

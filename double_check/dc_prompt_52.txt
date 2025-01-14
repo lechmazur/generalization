@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that utilize flexible tethers to harness or counteract the force of a fluid in motion for a practical purpose.
+
+Here are four examples intended to follow this theme:
+1. A kite flying in the wind.
+2. A parachute slowing a skydiver's descent.
+3. A drogue chute deployed from an aircraft to reduce speed.
+4. A series of interconnected underwater kites generating power from ocean currents.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A wind turbine.
+6. A water wheel.
+7. A sailboat.
+8. An airplane wing.
+9. A weather balloon.
+10. A hot air balloon.
+11. A blimp.
+12. A flag flapping in the wind.
+13. A windsock.
+14. A hang glider.
+15. A bird in flight.
+16. A fish swimming.
+17. A submarine.
+18. A buoy.
+19. A sea anchor.
+20. A fishing net.
+21. A spider web.
+22. Hair blowing in the wind.
+23. Clothes drying on a clothesline.
+24. A rope swing.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

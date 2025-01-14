@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures or systems designed by ancient civilizations to manage or manipulate natural resources for urban development
+
+Here are four examples intended to follow this theme:
+1. Roman aqueducts
+2. Incan terrace farming
+3. Mesopotamian irrigation canals
+4. Ancient Egyptian nilometers
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Stonehenge
+6. Greek amphitheaters
+7. Roman Colosseum
+8. Great Wall of China
+9. Aztec pyramids
+10. Viking longships
+11. Babylonian ziggurats
+12. Greek Parthenon
+13. Roman roads
+14. Chinese pagodas
+15. Egyptian pyramids
+16. Hanging Gardens of Babylon
+17. Roman baths
+18. Greek temples
+19. Incan roads
+20. Persian qanats
+21. Maori meeting houses
+22. Japanese Shinto shrines
+23. Roman amphitheaters
+24. Byzantine churches
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that become temporarily non-functional due to a predictable, cyclical event
+
+Here are four examples intended to follow this theme:
+1. Street lights during a scheduled power outage
+2. Air conditioners during a routine maintenance shutdown
+3. Public fountains during winterization
+4. Elevators during a fire drill
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A car needing repairs after an accident
+6. A smartphone with a dead battery
+7. A computer during a software update
+8. A washing machine with a broken motor
+9. A television during a blackout
+10. A radio with a malfunctioning antenna
+11. A lawnmower during the off-season
+12. A bicycle with a flat tire
+13. A printer out of ink
+14. A camera with a cracked lens
+15. A refrigerator during a power surge
+16. A microwave with a faulty door switch
+17. A dishwasher during a water shortage
+18. A vacuum cleaner with a clogged filter
+19. A coffee maker with a broken heating element
+20. A toaster with a jammed lever
+21. A blender with a shattered pitcher
+22. A sewing machine with a tangled thread
+23. A hair dryer with a burnt-out motor
+24. A treadmill with a worn-out belt
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

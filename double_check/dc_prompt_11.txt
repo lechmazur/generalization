@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): objects or systems that incorporate a protective outer layer or structure designed to shield or conceal a more fragile or critical inner component
+
+Here are four examples intended to follow this theme:
+1. A geode
+2. A knight's suit of armor
+3. A walnut
+4. A car chassis
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A chain link fence
+6. A curtain
+7. A wall
+8. Sunglasses
+9. A roof
+10. An umbrella
+11. Sunscreen
+12. A bandage
+13. A cast
+14. A shield (as carried by a soldier)
+15. A bomb shelter
+16. A safe
+17. A bank vault
+18. A phone case
+19. Bubble wrap
+20. A padded envelope
+21. A scabbard
+22. A holster
+23. A display case
+24. A picture frame
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

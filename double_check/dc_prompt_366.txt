@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Representations of a coming-of-age ritual or ceremony in a work of art created before 1950
+
+Here are four examples intended to follow this theme:
+1. The Adventures of Huckleberry Finn by Mark Twain
+2. The Catcher in the Rye by J.D. Salinger
+3. To Kill a Mockingbird by Harper Lee
+4. Great Expectations by Charles Dickens
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Mona Lisa by Leonardo da Vinci
+6. The Starry Night by Vincent van Gogh
+7. The Persistence of Memory by Salvador Dalí
+8. The Scream by Edvard Munch
+9. The Last Supper by Leonardo da Vinci
+10. The Thinker by Auguste Rodin
+11. The Birth of Venus by Sandro Botticelli
+12. The Night Watch by Rembrandt
+13. The Arnolfini Portrait by Jan van Eyck
+14. The School of Athens by Raphael
+15. The Girl with a Pearl Earring by Johannes Vermeer
+16. The Creation of Adam by Michelangelo
+17. The Hay Wain by John Constable
+18. The Kiss by Gustav Klimt
+19. The Garden of Earthly Delights by Hieronymus Bosch
+20. The Raft of the Medusa by Théodore Géricault
+21. The Death of Socrates by Jacques-Louis David
+22. The Liberty Leading the People by Eugène Delacroix
+23. The Oath of the Horatii by Jacques-Louis David
+24. The Swing by Jean-Honoré Fragonard
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

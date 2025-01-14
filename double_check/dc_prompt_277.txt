@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Publicly accessible structures built before 1900 that contain intricate mechanical timekeeping devices
+
+Here are four examples intended to follow this theme:
+1. The Prague Astronomical Clock in the Old Town Hall of Prague, Czech Republic
+2. The Wells Cathedral Clock in Somerset, England
+3. The Strasbourg Cathedral Astronomical Clock in Strasbourg, France
+4. The Zytglogge Clock Tower in Bern, Switzerland
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern digital clock in a public square
+6. A sundial in a public park
+7. A water clock in a museum
+8. A grandfather clock in a private residence
+9. A wristwatch from the early 20th century
+10. A public library built in 1905
+11. A modern planetarium with a digital time display
+12. An ancient Roman aqueduct
+13. A medieval castle with no timekeeping devices
+14. A public monument built in 1920
+15. A pocket watch from the 1800s
+16. A modern skyscraper with a large clock
+17. A church bell tower built in 1910
+18. An hourglass in a historical exhibit
+19. A public fountain built in 1850 with no timekeeping device
+20. A train station clock from the 1930s
+21. A mechanical clock in a private collection
+22. A public building constructed in 1890 with a simple clock
+23. A modern art installation featuring time
+24. A historical ship with a navigational clock
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Scientific discoveries made in secret government facilities that were later revealed to have major civilian applications
+
+Here are four examples intended to follow this theme:
+1. The development of the internet, initially a secret project by the U.S. Department of Defense, which later transformed global communication and commerce.
+2. The creation of GPS technology, originally developed by the U.S. military for navigation purposes, now widely used in civilian applications such as navigation systems in cars and smartphones.
+3. The invention of the atomic clock, first developed in secret by the U.S. National Bureau of Standards, now essential for global timekeeping and telecommunications.
+4. The discovery of synthetic rubber, initially researched in secret by the U.S. government during World War II, which later became crucial for the automotive and manufacturing industries.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The discovery of penicillin, which revolutionized medicine and was developed in a university laboratory.
+6. The invention of the steam engine, which transformed industry and transportation, developed by private inventors.
+7. The development of the polio vaccine, a major medical breakthrough, researched in academic and private institutions.
+8. The creation of the World Wide Web, developed at CERN, a publicly funded European research organization.
+9. The discovery of X-rays, which transformed medical diagnostics, made in a university laboratory.
+10. The invention of the telephone, which revolutionized communication, developed by private inventors.
+11. The development of the airplane, which transformed travel, developed by private inventors.
+12. The discovery of DNA's structure, a fundamental breakthrough in biology, made in a university laboratory.
+13. The invention of the transistor, which revolutionized electronics, developed in a corporate research lab.
+14. The development of the laser, which has numerous applications, researched in academic and private institutions.
+15. The discovery of the electron, a fundamental particle, made in a university laboratory.
+16. The invention of the electric battery, which transformed energy storage, developed by private inventors.
+17. The development of the MRI scanner, which revolutionized medical imaging, researched in academic and private institutions.
+18. The discovery of radioactivity, which led to numerous applications, made in a university laboratory.
+19. The invention of the printing press, which transformed information dissemination, developed by private inventors.
+20. The development of the pacemaker, which revolutionized cardiac care, researched in academic and private institutions.
+21. The discovery of the Higgs boson, a fundamental particle, made at a publicly funded research facility.
+22. The invention of the refrigerator, which transformed food storage, developed by private inventors.
+23. The development of the artificial heart, which revolutionized cardiac care, researched in academic and private institutions.
+24. The discovery of the neutron, a fundamental particle, made in a university laboratory.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,28 @@
+pick_response_1647.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+Examples suggest: Portable/relatively small, physical object, used for astronomical calculations/timekeeping, from ancient times, potentially found in a significant context (tomb, burial site).
+
+Anti-examples suggest: Large, fixed structures (Stonehenge, medicine wheel), non-physical representations (star chart).
+
+Therefore, the specific theme seems to be: **Portable, physical astronomical/timekeeping devices from ancient civilizations, potentially with funerary associations.**
+
+Now I need to evaluate each candidate against this specific theme, avoiding the broader themes suggested by the anti-examples.
+
+1. **Islamic astrolabe:** Astrolabes are portable astronomical instruments. Islamic civilization is ancient. Likely a good match.
+2. **Aztec sun stone:** Large, fixed stone monument. Doesn't fit the portability aspect.
+3. **Medieval astronomical clock:**  While astronomical, clocks are generally larger and more complex than the examples. Medieval is later than the "ancient" feel of the examples.
+4. **Mayan codex:**  Likely a written record, not a physical device.
+5. **Babylonian star map:** Similar to the anti-example of the Chinese star chart - a representation, not a physical device.
+6. **Ancient Egyptian star chart buried with a pharaoh:**  Fits the ancient and funerary context, but is a chart, not a device.
+7. **Ancient Greek astrolabe:** Astrolabes are portable astronomical instruments. Ancient Greek fits the time period.
+8. **Stone carving of a lunar calendar:** Could be portable or fixed. The "carving" aspect suggests it might be less of a dedicated instrument than the examples.
+
+Now to assign scores, keeping the granularity and nuance in mind.<number>1</number><score>9</score>
+<number>2</number><score>2</score>
+<number>3</number><score>5</score>
+<number>4</number><score>1</score>
+<number>5</number><score>3</score>
+<number>6</number><score>7</score>
+<number>7</number><score>8</score>
+<number>8</number><score>6</score>

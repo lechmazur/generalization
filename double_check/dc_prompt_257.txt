@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient artifacts used for storing liquids, made of clay, and featuring intricate designs or inscriptions.
+
+Here are four examples intended to follow this theme:
+1. a Greek amphora with painted mythological scenes
+2. a Roman oil lamp decorated with floral patterns
+3. a Minoan pithos adorned with spiral motifs
+4. a Mesopotamian jar inscribed with cuneiform text
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a bronze statue of a warrior
+6. a stone tablet with hieroglyphs
+7. a wooden chest for storing grain
+8. a glass perfume bottle
+9. a metal goblet with gemstone inlays
+10. a ceramic figurine of a deity
+11. a woven basket for carrying fruits
+12. a marble sculpture of a lion
+13. a leather water pouch
+14. a gold coin with an emperor's portrait
+15. a papyrus scroll with ancient text
+16. a stone mortar and pestle
+17. a wooden shield with painted designs
+18. a bone comb with carved patterns
+19. a silver chalice used in rituals
+20. a clay tablet with mathematical calculations
+21. a bronze mirror with engraved symbols
+22. a stone altar for offerings
+23. a wooden sarcophagus with painted scenes
+24. a metal helmet with intricate engravings
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

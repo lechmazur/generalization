@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Representations of Arctic marine mammals carved from bone or ivory dating before 1000 CE
+
+Here are four examples intended to follow this theme:
+1. A carved walrus tusk depicting a seal, dating to 800 CE
+2. An ivory sculpture of a whale from the 7th century
+3. A bone carving of a polar bear from 900 CE
+4. An intricately carved narwhal tusk from before 1000 CE
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern sculpture of a dolphin made from wood
+6. A painting of a sea lion from the 12th century
+7. A bronze statue of a walrus from the 15th century
+8. A ceramic model of a whale from the 11th century
+9. A photograph of a polar bear taken in the 20th century
+10. A stone carving of a seal from the 13th century
+11. A wooden carving of a narwhal from the 14th century
+12. A clay figurine of a beluga whale from the 16th century
+13. A metal sculpture of an orca from the 17th century
+14. A tapestry depicting various marine mammals from the 18th century
+15. A modern ivory carving of an elephant
+16. A bone carving of a bird from the 19th century
+17. A jade sculpture of a fish from the 20th century
+18. A glass model of a penguin from the 21st century
+19. A plastic toy of a sea otter from the 20th century
+20. A digital artwork of a manatee from the 21st century
+21. A sketch of a walrus from the 19th century
+22. A mural of a polar bear from the 20th century
+23. A video of a seal from the 21st century
+24. A 3D printed model of a whale from the 21st century
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

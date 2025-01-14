@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Things that serve as a medium for conveying or manipulating information in a way that is not immediately apparent to the casual observer
+
+Here are four examples intended to follow this theme:
+1. A altered image where metadata has been subtly changed to misrepresent the time or location it was taken.
+2. A seemingly innocuous decorative item containing a hidden microphone for surveillance.
+3. A digital audio file with embedded steganographic messages.
+4. A book cipher where specific words on designated pages are used to create a coded message.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A painting with a hidden signature.
+6. A locked diary.
+7. A coded message written in invisible ink.
+8. A secret compartment in a desk.
+9. A password-protected computer file.
+10. A whispered conversation.
+11. A hand gesture used in sign language.
+12. A smoke signal.
+13. A carrier pigeon.
+14. A message in a bottle.
+15. Morse code transmitted via radio waves.
+16. A newspaper advertisement with a hidden message.
+17. A song with coded lyrics.
+18. A poem with a double meaning.
+19. A public sculpture with symbolic elements.
+20. A stage magician's illusions.
+21. A ventriloquist's dummy.
+22. A coded message written in a foreign language.
+23. A complex mathematical equation.
+24. A scientific research paper.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

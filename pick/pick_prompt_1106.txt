@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A trident-shaped satellite that controls weather patterns and symbolizes the power of the sea god.
+A cybernetic phoenix that harnesses solar energy to regenerate and power advanced technology.
+A mechanical dragonfly that uses electromagnetic fields to mimic the mythical properties of flight and transformation.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A software application that uses algorithms to predict weather patterns and is named after a weather god.
+A wind turbine painted with scenes from Greek mythology.
+A building that uses solar panels and is adorned with statues of gods and goddesses.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A wearable device that tracks fitness and is styled after a mythical amulet.
+2. A piece of furniture that uses sustainable materials and is designed to resemble a mythical tree.
+3. A virtual reality game set in a world where technology and nature coexist harmoniously.
+4. A video game where players control characters with powers derived from natural elements.
+5. A bridge that uses advanced materials and is named after a deity of travel.
+6. A bioengineered tree that communicates through a network of roots, embodying the spirit of a forest deity. <<LEFTOVER>>
+7. A drone that monitors natural disasters and is named after a god of storms.
+8. A robot designed to mimic the movements of a mythological creature.

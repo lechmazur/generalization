@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Structures built in the 1930s that are considered engineering marvels and are still in use today.
+
+Here are four examples intended to follow this theme:
+1. The Golden Gate Bridge in San Francisco
+2. The Hoover Dam on the Colorado River
+3. The Empire State Building in New York City
+4. The Sydney Harbour Bridge in Australia
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Eiffel Tower in Paris
+6. The Panama Canal
+7. The Brooklyn Bridge in New York City
+8. The Taj Mahal in India
+9. The Great Wall of China
+10. The Colosseum in Rome
+11. The Statue of Liberty in New York City
+12. The Burj Khalifa in Dubai
+13. The Channel Tunnel between England and France
+14. The Petronas Towers in Kuala Lumpur
+15. The Millennium Bridge in London
+16. The Akashi Kaikyo Bridge in Japan
+17. The Three Gorges Dam in China
+18. The Sears Tower (now Willis Tower) in Chicago
+19. The Gateway Arch in St. Louis
+20. The Space Needle in Seattle
+21. The CN Tower in Toronto
+22. The London Eye in London
+23. The Palm Jumeirah in Dubai
+24. The High Line in New York City
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

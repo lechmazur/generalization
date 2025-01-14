@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical spaces designed to facilitate a specific preparatory activity immediately preceding a main event or performance.
+
+Here are four examples intended to follow this theme:
+1. A green room in a theater
+2. A locker room in a sports stadium
+3. A backstage area in a concert venue
+4. A pit stop area in a racing circuit
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A classroom in a school
+6. A kitchen in a restaurant
+7. A waiting room in a doctor's office
+8. A conference room in an office building
+9. A gymnasium in a fitness center
+10. A rehearsal space in a dance studio
+11. A dressing room in a clothing store
+12. A lounge area in an airport
+13. A study room in a library
+14. A workshop in a factory
+15. A break room in a workplace
+16. A meditation room in a wellness center
+17. A control room in a power plant
+18. A recording studio in a music production facility
+19. A boardroom in a corporate office
+20. A laboratory in a research institute
+21. A fitting room in a tailor shop
+22. A briefing room in a police station
+23. A reading room in a public library
+24. A training room in a martial arts dojo
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

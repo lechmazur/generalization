@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The architectural designs of Buckminster Fuller, such as the geodesic dome, which are based on mathematical principles and geometric patterns.
+The poetry of the Oulipo group, such as Georges Perec's "La Disparition," which is written entirely without the letter "e," following a strict constraint.
+Serialism in the music of Arnold Schoenberg, where the composition is based on a series of tones arranged in a specific order and manipulated according to strict rules.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A jazz improvisation that follows no predetermined pattern.
+A performance art piece that relies on audience interaction and spontaneity.
+A dance performance choreographed based on the dancers' interpretations of the music.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A play with a flexible script that allows for improvisation by the actors.
+2. The visual art of Sol LeWitt, where the artwork is created from a set of instructions or algorithms, resulting in geometric patterns and structures. <<LEFTOVER>>
+3. A song written based on the songwriter's personal experiences and emotions.
+4. A film with a non-linear storyline and loose structure.
+5. A sculpture created through spontaneous artistic expression.
+6. A piece of pottery shaped by hand without the use of any specific measurements.
+7. A painting inspired by the artist's emotions and feelings.
+8. A novel with a free-flowing narrative structure.

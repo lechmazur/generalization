@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Devices designed to measure and record specific environmental factors at regular intervals for a pre-determined duration, using internal mechanisms and requiring no external power source during operation.
+
+Here are four examples intended to follow this theme:
+1. A device that logs temperature and humidity levels every hour for 30 days, powered by an internal battery.
+2. An apparatus that records air pressure changes every 15 minutes for a week, using a self-contained power source.
+3. A tool that measures and stores UV radiation intensity every 30 minutes for 2 months, operating on an internal energy cell.
+4. An instrument that captures soil moisture data every 10 minutes for 45 days, utilizing an integrated power mechanism.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather station that requires external power to operate and transmit data in real-time.
+6. A sensor that measures air quality but needs to be connected to a power outlet.
+7. A device that records noise levels but only operates when manually activated.
+8. A gadget that monitors water pH levels and requires periodic battery replacement.
+9. A system that tracks solar radiation but needs to be plugged into an electrical socket.
+10. A tool that measures wind speed and direction but must be connected to a computer for data logging.
+11. A device that logs seismic activity but requires a connection to a power grid.
+12. An instrument that records atmospheric CO2 levels but needs external power to function.
+13. A sensor that measures light intensity but only operates when connected to a power source.
+14. A device that monitors ocean salinity but requires a wired connection for data collection.
+15. A tool that tracks rainfall but needs to be manually powered.
+16. An apparatus that measures dew point but requires a solar panel for operation.
+17. A system that logs river flow rates but needs to be connected to a generator.
+18. A device that records magnetic field strength but requires periodic recharging from an external source.
+19. An instrument that measures ozone levels but needs to be plugged into a power outlet.
+20. A sensor that tracks particulate matter but requires a connection to a power grid.
+21. A tool that monitors groundwater levels but needs to be manually activated.
+22. A device that logs barometric pressure but requires a battery that must be replaced frequently.
+23. An apparatus that measures soil temperature but needs to be connected to a computer for data logging.
+24. A system that tracks humidity but requires a solar panel for operation.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

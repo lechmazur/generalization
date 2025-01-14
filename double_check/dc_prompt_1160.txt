@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or artifacts that serve both a practical and symbolic function within a specific cultural or ritualistic context.
+
+Here are four examples intended to follow this theme:
+1. prayer beads
+2. wedding rings
+3. ceremonial drums
+4. sacred masks
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. decorative vase
+6. silver spoon
+7. wall clock
+8. wooden chair
+9. gold necklace
+10. ceramic plate
+11. bronze statue
+12. leather wallet
+13. glass bottle
+14. metal key
+15. paper fan
+16. silk scarf
+17. stone sculpture
+18. copper bell
+19. ivory comb
+20. bamboo flute
+21. crystal pendant
+22. brass compass
+23. jade bracelet
+24. porcelain doll
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

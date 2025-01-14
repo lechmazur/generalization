@@ -1,0 +1,27 @@
+pick_response_370.txt
+The user has provided examples and anti-examples of a specific theme. The examples are all birch wood items specifically used in a sauna. The anti-examples are birch wood furniture items that are not typically used in a sauna. The task is to evaluate a list of candidates based on how well they fit the specific theme (birch wood sauna items) and not the broader theme (birch wood items).
+
+Here's a breakdown of how to evaluate each candidate:
+
+*   **Focus on the "sauna" aspect:**  The key differentiator is the intended use of the item. Is it something commonly found or used in a sauna?
+*   **Material is important but secondary:** While the examples are all birch wood, the anti-examples show that simply being made of birch wood is not enough.
+*   **Avoid the broader theme:**  Don't be swayed by the fact that an item is made of birch wood.
+*   **Nuanced scoring:** Use the full 0-10 scale to reflect varying degrees of similarity to the specific theme.
+
+Let's evaluate each candidate:
+
+1. **A birch wood jewelry box:**  While made of birch wood, it's not typically used in a sauna. Low score.
+2. **A birch wood lamp:**  Again, birch wood but not sauna-related. Low score.
+3. **A birch wood picture frame:**  Birch wood, but not a sauna item. Low score.
+4. **A birch wood sauna bucket:**  Made of birch wood and specifically for sauna use. High score.
+5. **A birch wood canoe paddle:**  Birch wood, but not related to saunas. Low score.
+6. **A cedar wood sauna ladle:**  Used in a sauna, but not birch wood. Moderate score, as the function aligns but the material doesn't.
+7. **A birch wood cutting board:**  Birch wood, but a kitchen item, not a sauna item. Low score.
+8. **A birch wood clock:**  Birch wood, but not sauna-related. Low score.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>9</score>
+<number>5</number><score>3</score>
+<number>6</number><score>6</score>
+<number>7</number><score>2</score>
+<number>8</number><score>1</score>

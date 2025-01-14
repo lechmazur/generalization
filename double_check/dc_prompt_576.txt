@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mathematical concepts or methods that are fundamental to statistical hypothesis testing but are rarely used directly in practical applications due to computational complexity.
+
+Here are four examples intended to follow this theme:
+1. Likelihood Ratio Test
+2. Permutation Test
+3. Bootstrap Method
+4. Bayesian Model Averaging
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. t-test
+6. ANOVA
+7. Chi-square test
+8. Linear Regression
+9. Logistic Regression
+10. Correlation Coefficient
+11. Confidence Interval
+12. p-value
+13. F-test
+14. Wilcoxon Signed-Rank Test
+15. Spearman's Rank Correlation
+16. Principal Component Analysis
+17. Factor Analysis
+18. Cluster Analysis
+19. Time Series Analysis
+20. Survival Analysis
+21. Bayesian Inference
+22. Monte Carlo Simulation
+23. Markov Chain Monte Carlo
+24. Decision Trees
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

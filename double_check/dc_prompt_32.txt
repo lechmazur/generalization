@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems that utilize cyclical processes to transform waste material into a valuable resource within a contained environment.
+
+Here are four examples intended to follow this theme:
+1. Aquaponics system that recycles fish waste to nourish plants, with water being continuously filtered and reused within the system.
+2. Anaerobic digester that converts organic waste into biogas and nutrient-rich digestate, used within a closed-loop farm system.
+3. Composting toilet system that transforms human waste into compost for use in gardening, all within a self-contained unit.
+4. Closed-loop industrial process that recycles manufacturing byproducts into raw materials for new production cycles within the same facility.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Recycling program that collects plastic bottles from households and processes them into new products.
+6. A wastewater treatment plant that cleans sewage before releasing it into a river.
+7. Landfill gas recovery system that captures methane from decomposing waste for energy production.
+8. Composting facility that processes yard waste into soil amendment, but the process is not contained within a single environment.
+9. A solar panel system that converts sunlight into electricity, with no waste transformation involved.
+10. Industrial process that uses waste heat to preheat incoming air, but does not transform the waste into a resource.
+11. A car engine that recycles exhaust gases to improve fuel efficiency, but does not transform the waste into a valuable resource.
+12. A rainwater harvesting system that collects and stores water for later use, but does not involve transformation of waste.
+13. A bioreactor that uses bacteria to break down pollutants in soil, but the process is not contained within a single environment.
+14. A wind turbine that generates electricity from wind energy, with no waste transformation involved.
+15. A recycling center that sorts and processes various materials, but the process is not contained within a single environment.
+16. A hydroelectric dam that generates electricity from water flow, with no waste transformation involved.
+17. A geothermal system that uses heat from the earth to provide heating and cooling, but does not transform waste into a resource.
+18. A municipal composting program that collects food waste from residents and processes it into compost, but the process is not contained within a single environment.
+19. An industrial process that uses catalysts to break down pollutants in exhaust gases, but does not transform the waste into a valuable resource.
+20. A tidal energy system that generates electricity from the movement of tides, with no waste transformation involved.
+21. A recycling program that collects and processes aluminum cans into new products, but the process is not contained within a single environment.
+22. A biomass power plant that burns wood chips to generate electricity, but does not involve a cyclical process within a contained environment.
+23. A graywater system that recycles water from showers and sinks for use in toilet flushing, but does not transform waste into a valuable resource.
+24. A nuclear power plant that generates electricity from nuclear reactions, with no waste transformation involved.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

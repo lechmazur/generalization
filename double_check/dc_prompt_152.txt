@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional works where a character's occupation or role becomes a mandatory societal position that all citizens must rotate through
+
+Here are four examples intended to follow this theme:
+1. In the city of Equinox, every citizen, upon reaching maturity, begins a cycle through all recognized professions, from sanitation worker to Supreme Judge, spending a year in each role regardless of aptitude or preference.
+2. The nomadic K'thali tribes believe that true understanding comes from experiencing all facets of their society.  Each member, throughout their life, rotates through roles like hunter, weaver, storyteller, and spiritual leader, ensuring a shared communal experience.
+3. On the planet Xylos, the sentient crystalline beings known as the Lumin transfer their consciousness into pre-designated host bodies every decade, experiencing life as farmers, artists, warriors, and even the planet's governing AI, ensuring a collective perspective.
+4. Within the underwater city of Aquatica, citizens are genetically modified to adapt to different roles. Every five years, a hormonal shift triggers a metamorphosis, cycling them through various necessary functions, from algae cultivators to hydrokinetic engineers.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A dystopian society where social class dictates career paths.
+6. A futuristic world where individuals are assigned jobs based on aptitude tests.
+7. A community where everyone volunteers for different tasks based on their skills.
+8. A society where individuals can choose any profession they desire.
+9. A world where people inherit their family's trade.
+10. A culture where individuals apprentice in various crafts before choosing a specialization.
+11. A nation with a mandatory military service program.
+12. A society where citizens are randomly assigned to different living districts.
+13. A world where people can swap bodies with others to experience different lives.
+14. A community where everyone shares the same basic set of skills.
+15. A society governed by a council of randomly selected citizens.
+16. A world where individuals can upload their consciousness into virtual realities to experience different professions.
+17. A culture where individuals are encouraged to try different jobs throughout their lives.
+18. A nation with a strong emphasis on vocational training.
+19. A society where individuals are assigned roles based on their birth order.
+20. A world where people can choose to live in different simulated environments with varying social structures.
+21. A community where everyone contributes to the common good through a barter system.
+22. A society where individuals are genetically engineered for specific roles but can petition for reassignment.
+23. A world where advanced technology automates all labor, freeing individuals to pursue their passions.
+24. A culture where individuals are recognized and rewarded for their unique contributions to society.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

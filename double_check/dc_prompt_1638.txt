@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Tactile writing systems created before 1900 that were officially adopted by at least one government or institution
+
+Here are four examples intended to follow this theme:
+1. Braille
+2. Moon type
+3. New York Point
+4. Boston Line Type
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Morse code
+6. Semaphore
+7. Sign language
+8. American Braille
+9. Unified English Braille
+10. Shorthand
+11. ASCII
+12. Binary code
+13. Hieroglyphics
+14. Cuneiform
+15. International Phonetic Alphabet
+16. Finger spelling
+17. Optical Character Recognition
+18. QR code
+19. Bar code
+20. SignWriting
+21. Blissymbols
+22. Haptic communication
+23. Knotted cords (Quipu)
+24. Semaphore flags
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

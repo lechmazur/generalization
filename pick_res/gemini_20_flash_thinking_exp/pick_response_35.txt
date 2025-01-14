@@ -1,0 +1,16 @@
+pick_response_35.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The examples (car exhaust pipe, vacuum cleaner hose, wind tunnel duct) suggest the theme is a hollow conduit for directing flow (likely air or gas). The anti-examples (flute, saxophone, clarinet) are all wind instruments, which are related but distinct. They produce sound through air flow, but their primary function isn't just directing it.
+
+Therefore, I need to score the candidates based on whether they primarily function as a hollow conduit for directing flow, similar to the examples, and *not* primarily as a musical instrument like the anti-examples.
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **Dryer vent tube:** This is a clear match to the theme. It's a hollow conduit for directing airflow.
+*   **Recorder, trumpet, bassoon, trombone, oboe, tuba, French horn:** These are all musical instruments. While they involve airflow, their primary function is sound production, making them more aligned with the anti-examples than the examples. I need to differentiate them based on how much their form resembles a simple conduit. Instruments with more complex shapes and mechanisms will score lower.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>2</score>
+<number>4</number><score>9</score>
+<number>5</number><score>3</score>
+<number>6</number><score>2</score>
+<number>7</number><score>3</score>
+<number>8</number><score>2</score>

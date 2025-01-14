@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional worlds or settings that prominently feature bioluminescent flora as a core part of their ecosystem and visual identity
+
+Here are four examples intended to follow this theme:
+1. Pandora from "Avatar"
+2. The world of "Nocturne" in the game "Ori and the Blind Forest"
+3. The planet of "Naboo" in the "Star Wars" universe
+4. The world of "Zanarkand" in "Final Fantasy X"
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Middle-earth from "The Lord of the Rings"
+6. Hogwarts from "Harry Potter"
+7. Westeros from "Game of Thrones"
+8. Arrakis from "Dune"
+9. Asgard from "Thor"
+10. Gotham City from "Batman"
+11. Neverland from "Peter Pan"
+12. Atlantis from "Atlantis: The Lost Empire"
+13. Oz from "The Wizard of Oz"
+14. Narnia from "The Chronicles of Narnia"
+15. Cybertron from "Transformers"
+16. Rivendell from "The Lord of the Rings"
+17. Hyrule from "The Legend of Zelda"
+18. Springfield from "The Simpsons"
+19. Metropolis from "Superman"
+20. Emerald City from "The Wizard of Oz"
+21. Elantris from "Elantris" by Brandon Sanderson
+22. Discworld from "Discworld" series
+23. Rapture from "BioShock"
+24. Sunnydale from "Buffy the Vampire Slayer"
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

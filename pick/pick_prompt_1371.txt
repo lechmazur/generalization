@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A robotic arm manipulating objects of varying weights and textures to assess a prosthetic hand's grip strength and dexterity.
+A biomechanical testing rig applying controlled forces and torques to a prosthetic joint to determine its range of motion and durability.
+A treadmill equipped with force plates and motion capture cameras to analyze the gait of an individual using a prosthetic leg.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A patient using a prosthetic limb in their daily life.
+A computer simulation modeling the movement of a prosthetic limb.
+A biofeedback system used to control a myoelectric prosthetic.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A research study investigating the psychological impact of limb loss.
+2. A virtual reality environment simulating everyday tasks like opening doors or picking up groceries to evaluate the user's control and comfort with a prosthetic arm. <<LEFTOVER>>
+3. An occupational therapist assessing a patient's ability to perform daily tasks.
+4. A software program designed to control a robotic prosthetic.
+5. A clinical trial evaluating the effectiveness of a new prosthetic design.
+6. A rehabilitation center specializing in prosthetic training.
+7. A nerve interface connecting a prosthetic to the nervous system.
+8. A pressure sensor embedded in a prosthetic socket.

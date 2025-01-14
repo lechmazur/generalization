@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed to contain or display a collection of small, naturally occurring, hard-shelled items, where the container's design is inspired by natural forms unrelated to the items contained.
+
+Here are four examples intended to follow this theme:
+1. A seashell-shaped glass bowl filled with pebbles
+2. A leaf-shaped ceramic dish displaying polished stones
+3. A pinecone-inspired wooden box holding acorns
+4. A flower petal-shaped metal tray containing seed pods
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A woven basket holding marbles
+6. A glass jar of seashells
+7. A wooden box storing buttons
+8. A plastic container of beads
+9. A metal tin holding coins
+10. A decorative bowl of artificial stones
+11. A shell-shaped soap dish
+12. A leaf-shaped serving platter
+13. A butterfly-shaped jewelry box
+14. A rock collection display case
+15. A geometric pattern bowl holding nuts
+16. A carved wooden box of dried beans
+17. A crystal dish holding candy
+18. An origami box containing paper clips
+19. A ceramic pot filled with dried corn
+20. A bamboo container holding chestnuts
+21. A porcelain dish displaying pearls
+22. A modern minimalist bowl of pebbles
+23. A traditional wooden box storing seeds
+24. A decorative glass vessel holding shells
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

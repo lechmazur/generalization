@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Photographic portraits of costumed infants interacting with miniature replicas of ancient Greek furniture or architectural elements.
+
+Here are four examples intended to follow this theme:
+1. A baby dressed as a Roman gladiator sitting on a tiny replica of a Greek klismos chair.
+2. An infant in a medieval knight costume playing with a miniature model of a Greek Ionic column.
+3. A newborn wearing a pirate outfit lying next to a small-scale replica of a Greek kline bed.
+4. A toddler in a fairy costume standing beside a miniature version of a Greek Corinthian capital.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A child in a superhero costume playing with a toy car.
+6. An adult dressed as a historical figure posing with a full-sized antique chair.
+7. A baby in a dinosaur costume interacting with a modern toy sofa.
+8. A photograph of a Greek temple without any people or costumes.
+9. An infant in a plain onesie sitting on a regular baby chair.
+10. A toddler dressed as a princess playing with a dollhouse.
+11. An adult in a Greek god costume standing next to a life-sized replica of a Roman column.
+12. A baby in a cowboy outfit playing with a toy horse.
+13. A child in a wizard costume reading a book on a regular couch.
+14. A photograph of a modern architectural model without any people or costumes.
+15. An infant in a sports jersey playing with a toy basketball hoop.
+16. A toddler in a firefighter costume interacting with a toy fire truck.
+17. An adult in a historical costume posing with a full-sized antique table.
+18. A baby in a chef outfit playing with toy kitchen utensils.
+19. A child in a space suit costume playing with a toy rocket.
+20. A photograph of a Greek statue without any people or costumes.
+21. An infant in a ballerina costume dancing on a regular stage.
+22. A toddler in a police officer costume playing with a toy police car.
+23. An adult in a Greek goddess costume standing next to a life-sized replica of a Greek temple.
+24. A baby in a construction worker outfit playing with toy building blocks.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

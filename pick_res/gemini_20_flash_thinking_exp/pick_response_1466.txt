@@ -1,0 +1,36 @@
+pick_response_1466.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they match that specific theme. The anti-examples are designed to be misleading, representing broader or related themes.
+
+Looking at the examples:
+- Inner Niger Delta
+- Peace-Athabasca Delta
+- Ili River Delta
+
+These all seem to be inland deltas, not directly emptying into an ocean.
+
+Looking at the anti-examples:
+- Okavango Basin (Inland, but a basin, not a delta)
+- Mississippi River Delta (Empties into the ocean)
+- Mekong Delta (Empties into the ocean)
+
+The specific theme seems to be "inland river deltas".
+
+Now I need to evaluate the candidates based on this theme:
+
+1. Fly River Delta - Empties into the Gulf of Papua (ocean) - Low score
+2. Yellow River Delta - Empties into the Bohai Sea (ocean) - Low score
+3. Shatt al-Arab delta - Empties into the Persian Gulf (ocean) - Low score
+4. Zambezi River Delta - Empties into the Indian Ocean - Low score
+5. Ganges Delta - Empties into the Bay of Bengal (ocean) - Low score
+6. Amazon River Delta - Empties into the Atlantic Ocean - Low score
+7. Nile Delta - Empties into the Mediterranean Sea - Low score
+8. Okavango Delta - Inland delta - High score
+
+Considering the need for granular and nuanced scores, I will adjust the scores slightly based on how "delta-like" they are, even if they are not inland.<number>1</number><score>2</score>
+<number>2</number><score>3</score>
+<number>3</number><score>2</score>
+<number>4</number><score>2</score>
+<number>5</number><score>3</score>
+<number>6</number><score>3</score>
+<number>7</number><score>3</score>
+<number>8</number><score>9</score>

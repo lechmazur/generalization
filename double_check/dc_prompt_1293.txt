@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): mechanical devices that combine precise engineering with an element of theatrical or ceremonial presentation in their operation
+
+Here are four examples intended to follow this theme:
+1. a mechanical clock with moving figurines that perform a dance at each hour
+2. a music box with a rotating ballerina that emerges when the lid is opened
+3. a kinetic sculpture that uses gears and levers to create a mesmerizing visual display
+4. a ceremonial cannon that fires confetti and plays music during celebrations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a wind-up toy car
+6. a hydraulic press
+7. a grandfather clock
+8. a steam engine
+9. a robotic arm in a factory
+10. a pocket watch
+11. a bicycle
+12. a sewing machine
+13. a typewriter
+14. a cuckoo clock without figurines
+15. a drone
+16. a 3D printer
+17. a car engine
+18. a telescope
+19. a wind turbine
+20. a roller coaster
+21. a conveyor belt
+22. a jackhammer
+23. a washing machine
+24. a calculator
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations that integrate ancient engineering principles with modern digital technology to enhance environmental sustainability.
+
+Here are four examples intended to follow this theme:
+1. A smart irrigation system that uses algorithms based on ancient qanat water management principles to optimize water distribution in modern agriculture.
+2. A building ventilation system inspired by Roman hypocaust heating that utilizes digital sensors and actuators to regulate airflow and temperature, minimizing energy consumption.
+3. A passive cooling system for urban areas that incorporates principles of windcatchers found in traditional Persian architecture, combined with digital simulations to maximize efficiency.
+4. A bio-filtration system for wastewater treatment that mimics the natural filtration processes of ancient terraced farming, enhanced with real-time monitoring and data analysis.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A solar-powered desalination plant.
+6. A wind turbine farm.
+7. A hydroelectric dam.
+8. A geothermal power plant.
+9. An electric vehicle charging station.
+10. A smart home energy management system.
+11. A green roof on a modern building.
+12. A vertical farm using hydroponics.
+13. A rainwater harvesting system.
+14. A composting toilet.
+15. A drone used for reforestation.
+16. 3D-printed houses made from sustainable materials.
+17. An app for tracking carbon footprint.
+18. Biodegradable plastic packaging.
+19. A system for recycling electronic waste.
+20. Using AI to predict weather patterns for agriculture.
+21. A mobile app for promoting sustainable living practices.
+22. A community garden project.
+23. A program for educating children about environmental conservation.
+24. Using blockchain technology for carbon trading.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Kitchen utensils made of a single piece of hammered copper with a decorative, non-functional silver inlay.
+
+Here are four examples intended to follow this theme:
+1. A ladle with a swirling silver inlay along the handle
+2. A spatula with a geometric silver inlay near the base
+3. A whisk with a floral silver inlay on the handle
+4. A tong with a linear silver inlay on one arm
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A stainless steel frying pan with a copper handle
+6. A copper pot with a silver lid
+7. A set of copper measuring spoons with engraved silver markings
+8. A copper mixing bowl with a silver-plated interior
+9. A copper colander with silver handles
+10. A copper grater with a silver frame
+11. A copper rolling pin with silver end caps
+12. A copper can opener with a silver cutting wheel
+13. A copper garlic press with silver accents
+14. A copper ice cream scoop with a silver handle
+15. A copper vegetable peeler with a silver blade
+16. A copper corkscrew with a silver spiral
+17. A copper cheese slicer with a silver wire
+18. A copper egg separator with a silver ring
+19. A copper lemon juicer with a silver reamer
+20. A copper pastry brush with silver bristles
+21. A copper bottle opener with a silver lever
+22. A copper nutcracker with silver jaws
+23. A copper pie server with a silver edge
+24. A copper kitchen shears with silver blades
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

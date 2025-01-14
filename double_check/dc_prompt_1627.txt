@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Microscopic entities that exhibit coordinated movement patterns through chemical signaling
+
+Here are four examples intended to follow this theme:
+1. Myxobacteria aggregating into fruiting bodies
+2. Neutrophils migrating towards a site of infection
+3. Dictyostelium discoideum amoebae forming slugs
+4. Quorum sensing in Vibrio fischeri leading to bioluminescence
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Fish schooling
+6. Birds flocking
+7. Ants foraging in trails
+8. Magnetic nanoparticles aligning in a magnetic field
+9. Red blood cells flowing through capillaries
+10. Plant roots growing towards water
+11. A flock of sheep moving across a field
+12. Cancer cells metastasizing
+13. Spermatozoa swimming towards an egg
+14. Kelp swaying in ocean currents
+15. Dust particles moving in air currents
+16. Iron filings forming patterns around a magnet
+17. A school of krill migrating
+18. Bacteria moving towards a food source
+19. Paramecia moving towards a light source
+20. Slime mold growing on a decaying log
+21. Pollen grains carried by the wind
+22. Leaves falling from a tree
+23. Water molecules evaporating
+24. A crowd of people moving through a city street
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

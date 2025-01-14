@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+An emergency response platform that processes real-time data from multiple sources to guide first responders' actions in the field.
+A traffic management system that adjusts signal timings based on real-time traffic flow and pedestrian interactions.
+A smart grid system that uses real-time energy consumption data and user feedback to optimize electricity distribution.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A health monitoring system that collects real-time data but does not integrate it with user interaction for decision-making.
+A smart home security system that uses real-time data to detect intrusions but does not involve user interaction for decision-making.
+A navigation app that provides real-time traffic updates but does not allow users to influence route optimization.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A financial dashboard that displays real-time market data but does not allow user interaction to influence investment decisions.
+2. A weather forecasting app that provides real-time updates but does not allow user interaction.
+3. A traffic information system that provides real-time data but does not allow user interaction to influence traffic flow management.
+4. A dynamic pricing engine for ride-sharing services that adjusts fares based on real-time demand and user behavior patterns. <<LEFTOVER>>
+5. A smart agriculture system that uses real-time data to monitor crop health but does not involve user interaction for decision-making.
+6. A remote monitoring system for industrial equipment that collects real-time data but does not involve user interaction for maintenance decisions.
+7. A smart city surveillance system that processes real-time data but does not allow user interaction to influence security measures.
+8. A fitness tracker that collects real-time data but only displays it without influencing user decisions.

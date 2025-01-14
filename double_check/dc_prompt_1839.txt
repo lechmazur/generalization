@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): large public buildings with specialized waste management systems
+
+Here are four examples intended to follow this theme:
+1. The Empire State Building
+2. Beijing National Stadium
+3. Dubai International Airport
+4. Vatican Museums
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a local library
+6. a suburban shopping mall
+7. a small town community center
+8. a neighborhood gym
+9. a rural school
+10. a city park
+11. a residential apartment complex
+12. a local grocery store
+13. a small office building
+14. a fast-food restaurant
+15. a local post office
+16. a small museum
+17. a local fire station
+18. a suburban hospital
+19. a local police station
+20. a small hotel
+21. a neighborhood church
+22. a local cinema
+23. a small factory
+24. a local zoo
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

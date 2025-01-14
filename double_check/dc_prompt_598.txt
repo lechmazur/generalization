@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artifacts created by cultures that practice traditional whaling which depict or symbolize the whale hunt.
+
+Here are four examples intended to follow this theme:
+1. A Makah ceremonial drum painted with whaling scenes
+2. An Inuit scrimshaw depicting hunters in umiaqs pursuing bowhead whales
+3. A traditional Japanese netsuke carved with whaling motifs
+4. A Faroese tapestry showing a grindadráp whale drive
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Roman mosaic of fishing boats
+6. An Inuit walrus tusk carving
+7. A Pacific Northwest totem pole with an orca
+8. A Polynesian fish hook necklace
+9. A Viking ship's wooden figurehead
+10. An ancient Greek amphora with dolphins
+11. A modern whale watching poster
+12. A Maori jade pendant of a whale tail
+13. A sailor's maritime tattoo design
+14. A scallop shell with etched sea scenes
+15. A contemporary whale conservation mural
+16. An Aboriginal rock painting of dugongs
+17. A carved wooden ship's wheel
+18. A maritime museum diorama
+19. A traditional fishing net design
+20. A coastal village painting
+21. An ivory compass rose
+22. A seal hunting scene painting
+23. A traditional boat-building diagram
+24. A carved coral sea creature
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

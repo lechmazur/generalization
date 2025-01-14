@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Philosophical works that explore the concept of existential dread through fictional narratives set in historical cities.
+
+Here are four examples intended to follow this theme:
+1. A novel set in 19th-century Vienna where the protagonist grapples with the meaninglessness of life amidst the backdrop of the city's cultural flourishing.
+2. A story unfolding in medieval Florence, where a character confronts existential despair while navigating the city's political turmoil.
+3. A narrative set in ancient Athens, exploring a philosopher's journey through existential dread as he walks the city's historic streets.
+4. A tale set in 18th-century Paris, where the protagonist's existential angst is mirrored by the revolutionary unrest of the city.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A book set in modern New York exploring themes of existentialism without a historical setting.
+6. A film set in a futuristic city where characters face existential questions but not dread.
+7. A play set in ancient Rome focusing on political intrigue without existential themes.
+8. A novel set in 20th-century London where the protagonist deals with anxiety but not existential dread.
+9. A short story set in a fictional city exploring philosophical concepts unrelated to existential dread.
+10. A documentary about historical cities without any narrative or philosophical exploration.
+11. A poem set in medieval Paris focusing on love and loss without existential themes.
+12. A graphic novel set in a dystopian future city dealing with societal collapse but not existential dread.
+13. A memoir set in 19th-century Vienna discussing personal growth without existential dread.
+14. A historical fiction novel set in ancient Athens focusing on daily life without philosophical themes.
+15. A science fiction story set in a space city exploring existential questions but not dread.
+16. A thriller set in 18th-century Paris focusing on crime and mystery without existential themes.
+17. A fantasy novel set in a mythical city where characters face existential questions but not dread.
+18. A non-fiction book about the history of Florence without any narrative or philosophical exploration.
+19. A play set in modern Tokyo exploring existentialism without a historical setting.
+20. A film set in a post-apocalyptic city where characters face survival issues but not existential dread.
+21. A novel set in 20th-century Berlin focusing on political unrest without existential themes.
+22. A short story set in a small town exploring philosophical concepts unrelated to existential dread.
+23. A documentary about the architecture of historical cities without any narrative or philosophical exploration.
+24. A poem set in ancient Rome focusing on nature and beauty without existential themes.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

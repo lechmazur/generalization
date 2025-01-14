@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic or theoretical movements that intentionally juxtapose contradictory or paradoxical elements to evoke emotional or intellectual tension.
+
+Here are four examples intended to follow this theme:
+1. Surrealism, with its dreamlike combinations of incongruous elements, such as Salvador Dalí's melting clocks.
+2. Dadaism, exemplified by Marcel Duchamp's "Fountain," which challenges the notion of art through the use of a urinal.
+3. Postmodern architecture, like the Vanna Venturi House, which combines classical and modern elements in a way that creates visual tension.
+4. The literary technique of magical realism, as seen in Gabriel García Márquez's "One Hundred Years of Solitude," where fantastical events are juxtaposed with realistic settings.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Impressionism, with its focus on capturing the effects of light and atmosphere.
+6. Abstract expressionism, known for its spontaneous, automatic, or subconscious creation.
+7. Cubism, which breaks objects and scenes into geometric shapes and reassembles them.
+8. Futurism, which celebrates speed, technology, and industrialism.
+9. Minimalism, characterized by simplicity and a focus on essential elements.
+10. Pop Art, which incorporates imagery from popular culture.
+11. Conceptual Art, where the idea or concept behind the work is more important than the finished product.
+12. Expressionism, which emphasizes the artist's inner experiences and emotions.
+13. Constructivism, which focuses on art as a practice for social purposes.
+14. Bauhaus, known for its integration of art, craft, and technology.
+15. Realism, which aims to depict subjects as they appear in everyday life.
+16. Neoclassicism, which draws inspiration from the classical art and culture of Ancient Greece and Rome.
+17. Romanticism, which emphasizes emotion and individualism.
+18. Baroque, known for its grandeur, drama, and ornate detail.
+19. Renaissance, which revived interest in classical learning and values.
+20. Gothic, characterized by its dark, mysterious, and often supernatural themes.
+21. Art Nouveau, which features organic, flowing lines and natural forms.
+22. De Stijl, known for its use of primary colors and geometric shapes.
+23. Fauvism, which uses bold, non-naturalistic colors.
+24. Op Art, which creates optical illusions through the use of patterns and color.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

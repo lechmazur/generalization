@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects traditionally crafted by indigenous peoples using natural materials for both functional and ceremonial purposes
+
+Here are four examples intended to follow this theme:
+1. A woven cedar bark basket used for gathering berries and also in ceremonial dances.
+2. A carved wooden mask representing a spirit animal, used in rituals and storytelling.
+3. A hand-built clay pot decorated with traditional motifs, used for cooking and storing food, and also as burial offerings.
+4. A beaded buckskin pouch containing sacred herbs, used in healing ceremonies and for personal adornment.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A factory-made dream catcher sold in a tourist shop.
+6. A plastic replica of a totem pole.
+7. A metal cooking pot.
+8. A glass bead necklace.
+9. A store-bought woven basket made of imported materials.
+10. A painting of a traditional ceremony on canvas.
+11. A photograph of a carved wooden mask.
+12. A digital recording of a tribal song.
+13. A book about indigenous art.
+14. A documentary film about indigenous culture.
+15. A piece of modern art inspired by indigenous designs.
+16. A mass-produced ceramic bowl with a Native American-inspired pattern.
+17. A synthetic dream catcher.
+18. A plastic totem pole.
+19. An aluminum cooking pot.
+20. A glass bead necklace made in a factory.
+21. A commercially produced woven basket.
+22. A printed reproduction of a traditional painting.
+23. A 3D-printed replica of a carved wooden mask.
+24. A remix of a traditional tribal song.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

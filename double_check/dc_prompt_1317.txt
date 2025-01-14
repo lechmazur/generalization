@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Spaces designed to evoke mystery or secrecy through deliberate use of lighting, architectural elements, or symbolic clutter, often associated with esoteric or ritualistic purposes.
+
+Here are four examples intended to follow this theme:
+1. A dimly lit chamber with flickering candlelight, ancient runes carved into the walls, and a central altar draped in black cloth.
+2. A labyrinthine library with towering shelves, obscured corners, and a single beam of light illuminating a dusty, open tome.
+3. A hidden garden enclosed by high stone walls, overgrown with ivy, and featuring a fountain with cryptic inscriptions.
+4. A subterranean vault with low ceilings, faintly glowing symbols on the floor, and scattered artifacts arranged in a circular pattern.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a brightly lit art gallery with modern sculptures
+6. a minimalist living room with neutral tones and clean lines
+7. a bustling marketplace with colorful stalls and loud vendors
+8. a children's playground with swings and slides
+9. a sunny beach with umbrellas and sandcastles
+10. a corporate office with cubicles and fluorescent lighting
+11. a fast-food restaurant with neon signs and plastic seating
+12. a sports stadium with floodlights and cheering crowds
+13. a hospital room with white walls and medical equipment
+14. a shopping mall with glass elevators and escalators
+15. a classroom with a chalkboard and rows of desks
+16. a train station with timetables and commuters
+17. a movie theater with red velvet seats and a large screen
+18. a coffee shop with cozy armchairs and latte art
+19. a public park with jogging paths and picnic tables
+20. a gym with treadmills and weight machines
+21. a concert hall with a grand piano and chandeliers
+22. a hotel lobby with a reception desk and potted plants
+23. a science lab with beakers and microscopes
+24. a zoo enclosure with animals and informational signs
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,24 @@
+pick_response_1360.txt
+The user wants me to identify a specific theme from the provided examples and anti-examples.
+
+The examples all involve a visual representation of items moving through distinct stages of a process. The anti-examples involve tracking information or dependencies but not necessarily the visual movement of items through stages.
+
+Therefore, the specific theme is the visual tracking of items progressing through defined stages of a process using a board-like structure.
+
+Now I need to evaluate each candidate based on how well it fits this specific theme, avoiding the broader themes suggested by the anti-examples.
+
+1. **Dashboard displaying KPIs:** This is about displaying information, not necessarily tracking items through stages. Low score.
+2. **Kanban board:** This directly matches the theme. High score.
+3. **Network diagram:** This shows dependencies, not the movement of items through stages. Low score.
+4. **Bug tracking system:** This tracks the status of bugs, which could be seen as stages, but it's not necessarily visual or board-based in the same way. Medium score.
+5. **Flowchart:** This illustrates a process but doesn't necessarily involve the visual tracking of individual items moving through stages. Medium score.
+6. **Queue management system:** This tracks the order of items in a queue, which can be seen as stages. It's visual and tracks movement. High score.
+7. **CRM system:** This manages customer relationships, which can involve stages, but it's not primarily a visual board for tracking movement. Medium score.
+8. **Database of customer information:** This is about storing information, not tracking movement through stages. Low score.<number>1</number><score>2</score>
+<number>2</number><score>9</score>
+<number>3</number><score>1</score>
+<number>4</number><score>6</score>
+<number>5</number><score>4</score>
+<number>6</number><score>8</score>
+<number>7</number><score>5</score>
+<number>8</number><score>1</score>

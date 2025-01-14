@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient artifacts or relics that were discovered underwater and are directly associated with a known historical ruler
+
+Here are four examples intended to follow this theme:
+1. The Antikythera Mechanism, discovered off the coast of Greece, associated with the Roman Republic era under Julius Caesar
+2. The Marsala Punic Ship, found near Sicily, linked to the Carthaginian general Hamilcar Barca
+3. The Bremen Cog, a medieval ship discovered in Germany, connected to King Valdemar IV of Denmark
+4. The Mary Rose, Henry VIII's flagship, discovered in the Solent, England
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ancient pottery found in a terrestrial archaeological site
+6. A shipwreck from the 18th century with no known historical figure association
+7. A Viking sword discovered on land
+8. Ancient coins found in a river, not linked to a specific ruler
+9. A medieval manuscript discovered in a monastery
+10. A statue of a pharaoh found in a desert
+11. A Roman mosaic unearthed in a city
+12. A Neolithic tool found in a cave
+13. Ancient jewelry discovered in a tomb
+14. A Byzantine icon found in a church
+15. A Celtic brooch found in a field
+16. An Egyptian papyrus discovered in a library
+17. A Maya stela found in a jungle
+18. A Chinese bronze vessel found in a palace
+19. An Incan artifact found in a mountain
+20. A Greek amphora found in a museum collection
+21. A medieval tapestry found in a castle
+22. An ancient tool found in an excavation site
+23. A Roman aqueduct discovered on land
+24. An ancient wall painting found in a ruin
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

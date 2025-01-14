@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects that use internal lattice structures to provide strength while minimizing material usage
+
+Here are four examples intended to follow this theme:
+1. 3D printed titanium bicycle frame
+2. Aerospace component made with selective laser melting
+3. Custom orthopedic implant designed with additive manufacturing
+4. Heat exchanger with optimized internal structure
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Carbon fiber reinforced polymer
+6. Honeycomb structure in a beehive
+7. Truss bridge design
+8. Geodesic dome
+9. Foam core sandwich panel
+10. Corrugated cardboard
+11. Reinforced concrete beam
+12. Steel I-beam
+13. Wooden truss
+14. Spider web
+15. Bird bone structure
+16. Plant stem
+17. Coral skeleton
+18. Fish scale
+19. Leaf vein pattern
+20. Human bone structure
+21. Automotive chassis
+22. Aircraft wing spar
+23. Wind turbine blade
+24. Ship hull
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

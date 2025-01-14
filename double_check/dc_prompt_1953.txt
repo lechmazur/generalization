@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Buildings constructed primarily from tuff stone that incorporate elements of Chinese feng shui in their design.
+
+Here are four examples intended to follow this theme:
+1. A hillside mansion in Nevada built with ochre-colored tuff, featuring a curved roofline and a koi pond positioned according to the bagua map.
+2. A boutique hotel in Cappadocia, Turkey, carved into the tuff cliffs, with interior spaces arranged to maximize natural light and air flow, reflecting feng shui principles.
+3. A modern art museum in Armenia constructed from pink tuff, incorporating a central courtyard with a water feature and strategically placed sculptures to enhance the flow of qi.
+4. A private residence in New Mexico built with locally sourced tuff, featuring a southwest-facing entrance and an open floor plan designed to promote harmony and balance, in line with feng shui philosophy.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A granite skyscraper with a feng shui-inspired lobby.
+6. A limestone temple with a bagua-shaped garden.
+7. A sandstone house with a red front door.
+8. A brick building with a curved roof.
+9. A concrete office building with a water feature.
+10. A wooden cabin with a north-facing entrance.
+11. A yurt with a circular floor plan.
+12. A mud-brick house with strategically placed windows.
+13. An adobe structure with a courtyard.
+14. A marble palace with a grand staircase.
+15. A cave dwelling with natural ventilation.
+16. A bamboo house with an open floor plan.
+17. A glass skyscraper with a wind chime.
+18. A steel bridge with a curved design.
+19. A rammed earth house with a south-facing garden.
+20. A cob house with a green roof.
+21. A straw bale house with a circular driveway.
+22. An ice hotel with a minimalist design.
+23. A log cabin with a fireplace in the center.
+24. A treehouse with a view of the forest.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

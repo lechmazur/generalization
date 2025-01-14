@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A wall clock with a hidden compartment behind the clock face, opened by rotating the minute hand to a specific position.
+A walking stick with a concealed compartment in the handle, accessed by twisting the handle's base.
+A hollowed-out book with a false spine, designed to hold valuables on a bookshelf.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+A hollowed-out tree stump
+A hollowed-out rock in a garden
+A hollowed-out statue
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A painting concealing a safe
+2. A money belt
+3. A hidden pocket in a jacket
+4. A false-bottom drawer
+5. A decoy safe
+6. A compartment under a loose floorboard
+7. A secret compartment in a car
+8. A hairbrush with a removable top section concealing a small cavity for storing jewelry. <<LEFTOVER>>

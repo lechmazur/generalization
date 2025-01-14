@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects that were historically used to record information but required specialized knowledge or tools to decode their contents
+
+Here are four examples intended to follow this theme:
+1. Quipu
+2. Cipher disk
+3. Punched card
+4. Wax tablet
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A diary
+6. A letter
+7. A newspaper
+8. A book
+9. A photograph
+10. A painting
+11. A sculpture
+12. A film reel
+13. A cassette tape
+14. A vinyl record
+15. A floppy disk
+16. A CD
+17. A USB drive
+18. A hard drive
+19. Cave paintings
+20. Hieroglyphics
+21. Runes
+22. Morse code
+23. Semaphore flags
+24. Smoke signals
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

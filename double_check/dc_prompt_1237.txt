@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural or natural phenomena that involve the use of fire or light as a central element in rituals, celebrations, or symbolic representations within specific geographic or cultural contexts.
+
+Here are four examples intended to follow this theme:
+1. The Diwali festival in India, where rows of clay lamps are lit to symbolize the victory of light over darkness.
+2. The Bonfire Night in the United Kingdom, commemorating the failed Gunpowder Plot of 1605 with large bonfires and fireworks.
+3. The Lantern Festival in Taiwan, where thousands of lanterns are released into the sky to symbolize letting go of the past.
+4. The Inti Raymi festival in Peru, where a ceremonial fire is used to honor the Incan sun god.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The use of candles in a romantic dinner setting.
+6. A campfire used for cooking during a camping trip.
+7. The Northern Lights, a natural light display in the Earth's sky.
+8. A torch used in the Olympic Games to symbolize the passing of the flame from one athlete to another.
+9. The use of flashlights in a search and rescue operation.
+10. A light bulb used in a household lamp for everyday lighting.
+11. The use of fireworks at a New Year's Eve celebration.
+12. A bonfire used for warmth during a winter gathering.
+13. The use of a laser pointer in a business presentation.
+14. A candlelit vigil held in memory of a deceased person.
+15. The use of stage lighting in a theater production.
+16. A flare used as a distress signal at sea.
+17. The use of a match to light a cigarette.
+18. A light show projected onto a building during a cultural event.
+19. The use of a flashlight in a haunted house attraction.
+20. A candle used in a religious ceremony in a church.
+21. The use of a sparkler at a birthday party.
+22. A light installation in a modern art museum.
+23. The use of a headlamp while hiking at night.
+24. A fire used for cremation in a funeral ritual.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

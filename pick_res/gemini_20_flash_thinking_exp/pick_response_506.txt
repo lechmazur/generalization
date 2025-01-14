@@ -1,0 +1,31 @@
+pick_response_506.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme.
+
+The examples are all extinct animals that went extinct relatively recently (within the last few centuries).
+The anti-examples are also extinct animals, but they seem to have gone extinct more recently than the examples. This is the misleading part, as a broader theme could be "recently extinct animals".
+
+The specific theme seems to be "animals that went extinct due to human activity in a specific historical period, possibly earlier than the anti-examples".
+
+Let's evaluate each candidate based on this specific theme:
+
+1. **Japanese Sea Lion:** Extinct due to overhunting and habitat destruction. Seems to fit the specific theme.
+2. **Caribbean Monk Seal:** Extinct due to overhunting and habitat destruction. Seems to fit the specific theme.
+3. **Quagga:** Extinct due to overhunting. Seems to fit the specific theme.
+4. **Heath Hen:** Extinct due to habitat loss and overhunting. Seems to fit the specific theme.
+5. **Tasmanian Tiger:** Extinct due to hunting and habitat destruction. Seems to fit the specific theme.
+6. **Baiji Dolphin:** Extinct due to human activity (pollution, overfishing, boat traffic). Seems to fit the specific theme, but perhaps more recent than the others.
+7. **Atlas Bear:** Extinct due to hunting and possibly habitat loss. Seems to fit the specific theme.
+8. **Carolina Parakeet:** Extinct due to habitat loss and hunting. Seems to fit the specific theme.
+
+Now, let's assign scores, considering the nuance and avoiding polarization. The anti-examples seem to represent extinctions that occurred very recently, possibly in the late 20th or early 21st century. The examples seem to be extinctions from the 19th or early 20th century.
+
+*   Candidates that went extinct around the same time as the examples should get higher scores.
+*   Candidates that went extinct earlier or later, but still due to human activity, should get moderate scores.
+*   Candidates where the extinction cause is less clear or much more recent should get lower scores.<number>1</number><score>8</score>
+<number>2</number><score>9</score>
+<number>3</number><score>10</score>
+<number>4</number><score>9</score>
+<number>5</number><score>8</score>
+<number>6</number><score>6</score>
+<number>7</number><score>7</score>
+<number>8</number><score>10</score>

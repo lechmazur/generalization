@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed to evoke emotional responses through minimalistic design and monochromatic color schemes
+
+Here are four examples intended to follow this theme:
+1. a black-and-white photograph of a lone tree in a foggy landscape
+2. a sleek, matte black vase with a single white flower
+3. a minimalist poster featuring a single tear drop in grayscale
+4. a monochromatic sculpture of a human figure with exaggerated, abstract features
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a brightly colored abstract painting with chaotic brushstrokes
+6. a rainbow-colored mosaic tile wall
+7. a detailed, multicolored tapestry depicting a historical scene
+8. a vibrant, patterned quilt with intricate stitching
+9. a neon sign displaying a cheerful message
+10. a colorful children's toy with multiple interactive features
+11. a richly decorated, gold-gilded picture frame
+12. a detailed, colorful mural of a bustling cityscape
+13. a brightly lit, multicolored LED installation
+14. a patterned, floral-printed dress with bold colors
+15. a detailed, colorful stained glass window
+16. a vibrant, multicolored abstract sculpture
+17. a brightly painted, whimsical garden gnome
+18. a colorful, patterned ceramic bowl
+19. a detailed, multicolored illustration of a fantasy creature
+20. a brightly colored, patterned rug with intricate designs
+21. a vibrant, multicolored graffiti wall
+22. a detailed, colorful diorama of a natural landscape
+23. a brightly lit, multicolored fireworks display
+24. a colorful, patterned mosaic tabletop
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

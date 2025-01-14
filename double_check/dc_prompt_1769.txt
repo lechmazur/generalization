@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Systems or processes that involve the interaction of two or more components leading to pattern formation or modification.
+
+Here are four examples intended to follow this theme:
+1. Neural networks in the brain forming and modifying memory patterns through the interaction of neurons.
+2. Ecosystem dynamics where predator-prey relationships lead to population fluctuations and patterns.
+3. Chemical reactions in a Belousov-Zhabotinsky reaction creating oscillating patterns due to interacting chemical species.
+4. Weather systems where the interaction of air masses leads to the formation of weather patterns like cyclones.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A single gear in a mechanical clock.
+6. The process of photosynthesis in a single plant cell.
+7. A solitary ant moving in a straight line.
+8. A single musical note played on a piano.
+9. The growth of a single crystal in a solution.
+10. A lone planet orbiting a star.
+11. A single bacterium dividing in a petri dish.
+12. The flow of water in a straight pipe.
+13. A single electron moving in a vacuum.
+14. The color change of a single chameleon.
+15. A single seed germinating in soil.
+16. The beating of a single heart in isolation.
+17. A single cloud drifting in the sky.
+18. The movement of a single sand dune.
+19. A single firefly flashing its light.
+20. The ripening of a single fruit on a tree.
+21. A single snowflake falling from the sky.
+22. The vibration of a single guitar string.
+23. A single wave in the ocean.
+24. The expansion of a single balloon.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

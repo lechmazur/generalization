@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Organisms or cultural artifacts that have adapted to thrive in arid or semi-arid environments through specialized physiological or structural features.
+
+Here are four examples intended to follow this theme:
+1. The barrel cactus, with its ability to store water in its thick stem, allowing it to survive in desert conditions.
+2. The fennec fox, with its large ears that help dissipate heat and its thick fur that insulates against cold desert nights.
+3. The Australian spinifex grass, with its tightly rolled leaves that minimize water loss in arid environments.
+4. The traditional Bedouin tent, designed with materials and shapes that provide ventilation and shade in the desert.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A polar bear, adapted to cold environments with its thick fur and layer of blubber.
+6. A submarine, designed to withstand the pressure of deep ocean environments.
+7. A skyscraper, engineered to withstand high winds and earthquakes.
+8. A rainforest orchid, with adaptations for high humidity and frequent rainfall.
+9. A snowshoe hare, with its white winter coat for camouflage in snowy environments.
+10. A deep-sea anglerfish, with bioluminescent lure to attract prey in the dark ocean depths.
+11. A high-altitude mountaineering tent, designed to withstand strong winds and low temperatures.
+12. A mangrove tree, with roots that can filter salt from brackish water.
+13. A space suit, designed to protect astronauts from the vacuum and temperature extremes of space.
+14. A tropical fish, with bright colors for communication and mating in coral reef environments.
+15. A penguin, with its streamlined body for swimming in cold ocean waters.
+16. A treehouse, built to provide shelter and a unique living experience in forested areas.
+17. A camel, known for its ability to go long periods without water, but not specified as an example here.
+18. A hydroelectric dam, engineered to harness the power of flowing water.
+19. A snowmobile, designed for transportation over snow and ice.
+20. A greenhouse, built to create a controlled environment for plant growth.
+21. A deep-sea submersible, designed to explore the ocean floor.
+22. A solar panel, engineered to convert sunlight into electricity.
+23. A wind turbine, designed to harness wind energy.
+24. A raincoat, designed to keep the wearer dry in wet conditions.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

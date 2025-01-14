@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional blessing rituals that incorporate both physical objects and spoken words in a specific sequence while requiring the participant to face a cardinal direction
+
+Here are four examples intended to follow this theme:
+1. A Navajo house blessing ceremony involving sprinkling corn pollen in the four cardinal directions while reciting specific prayers.
+2. A traditional Chinese house blessing involving placing symbolic objects (coins, rice, etc.) in specific locations within the house while chanting auspicious phrases facing east.
+3. A Vedic fire ritual (havan) where offerings of ghee and herbs are made into a consecrated fire while Sanskrit mantras are recited facing east.
+4. A Native American rain dance where participants move in a circular pattern, scattering sacred cornmeal while chanting prayers to the spirits of the four directions.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Clapping hands during a prayer.
+6. Lighting a candle for a deceased loved one.
+7. Bowing one's head in prayer.
+8. Making the sign of the cross.
+9. Chanting "Om".
+10. Walking a labyrinth.
+11. Burning incense.
+12. Ringing a bell in a temple.
+13. Throwing coins into a fountain.
+14. Tying a prayer ribbon to a tree.
+15. Knocking on wood.
+16. Saying grace before a meal.
+17. Meditating facing the sun.
+18. Performing yoga sun salutations.
+19. Singing hymns in church.
+20. Reading scripture aloud.
+21. Circumambulating a sacred site.
+22. Offering flowers to a deity.
+23. Fasting for religious purposes.
+24. Giving alms to the poor.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

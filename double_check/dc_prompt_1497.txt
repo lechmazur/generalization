@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Protest movements that led to rule changes in professional sports leagues within 2 years of the initial protest
+
+Here are four examples intended to follow this theme:
+1. The protest by NFL players kneeling during the national anthem, which led to changes in the league's policy on anthem conduct within two years.
+2. The NBA players' protest in the 2020 playoffs, which resulted in the league agreeing to establish a social justice coalition and other initiatives within two years.
+3. The WNBA players' protest in 2016 over racial injustice, which led to the league's increased support for social justice initiatives within two years.
+4. The protest by MLB players in 2020, which led to the league committing to increased efforts in addressing racial inequality within two years.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The 1968 Olympics Black Power salute
+6. The 1995 Rugby World Cup protest against apartheid
+7. The 1980 Moscow Olympics boycott
+8. The 1972 Munich Olympics protest
+9. The 1964 Tokyo Olympics protest for South African inclusion
+10. The 1992 Barcelona Olympics protest for Basque independence
+11. The 2008 Beijing Olympics protest for Tibetan independence
+12. The 2014 Sochi Olympics protest against anti-LGBT laws
+13. The 2016 Rio Olympics protest against Brazilian government corruption
+14. The 1976 Montreal Olympics protest over New Zealand's rugby tour of apartheid South Africa
+15. The 1984 Los Angeles Olympics boycott by Eastern Bloc countries
+16. The 1996 Atlanta Olympics protest for civil rights
+17. The 2000 Sydney Olympics protest for Aboriginal rights
+18. The 2012 London Olympics protest against corporate sponsorship
+19. The 2018 Winter Olympics protest against North Korea's participation
+20. The 2021 Tokyo Olympics protest against COVID-19 restrictions
+21. The 1970s protests against the Vietnam War affecting sports events
+22. The 1990s protests against Nike's labor practices
+23. The 2000s protests against the Iraq War affecting sports events
+24. The 2010s protests against climate change affecting sports events
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Automated systems that use temperature sensors to trigger emergency shutdown procedures
+
+Here are four examples intended to follow this theme:
+1. An industrial furnace that shuts down when internal temperatures exceed 1200°C.
+2. A nuclear reactor cooling system that activates an emergency stop if coolant temperatures rise above 300°C.
+3. A data center cooling unit that powers off servers if ambient temperatures surpass 40°C.
+4. A vehicle engine management system that halts operation if the engine block temperature reaches 150°C.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smoke detector that triggers an alarm when smoke is detected.
+6. A motion sensor that activates lights when movement is detected.
+7. A pressure valve that releases steam when pressure exceeds a set limit.
+8. A flood sensor that shuts off water supply when water levels rise.
+9. A security system that locks doors when unauthorized access is detected.
+10. A gas leak detector that shuts off gas lines when methane is detected.
+11. A wind turbine that stops spinning when wind speeds exceed 100 km/h.
+12. A fire suppression system that releases foam when flames are detected.
+13. A humidity sensor that activates a dehumidifier when moisture levels rise.
+14. A light sensor that adjusts brightness based on ambient light levels.
+15. A carbon monoxide detector that sounds an alarm when CO levels are high.
+16. A vibration sensor that shuts down machinery when excessive vibrations occur.
+17. A water heater that turns off when water reaches boiling point.
+18. A speed limiter that reduces engine power when a vehicle exceeds 120 km/h.
+19. A battery management system that stops charging when the battery is full.
+20. A doorbell that rings when someone approaches the door.
+21. A thermostat that adjusts heating based on room temperature.
+22. A UV sensor that closes blinds when sunlight intensity is too high.
+23. A weight sensor that stops a conveyor belt when a load exceeds capacity.
+24. A proximity sensor that locks a door when no one is nearby.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

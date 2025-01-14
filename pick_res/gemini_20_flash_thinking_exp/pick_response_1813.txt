@@ -1,0 +1,25 @@
+pick_response_1813.txt
+The user wants me to identify a specific theme from the examples and anti-examples and then score the candidates based on how well they fit that specific theme.
+
+The examples are all about animal shelters/houses made from reclaimed/discarded materials.
+The anti-examples are about other pet items made from recycled materials.
+
+Therefore, the specific theme is "animal shelters/houses made from reclaimed/discarded materials". The broader theme is "pet items made from recycled materials".
+
+I need to score each candidate based on how well it fits the specific theme, avoiding being misled by the broader theme.
+
+Candidate 1: A dog collar made from recycled rubber -  This is a pet item made from recycled material, but not a shelter/house. Low score.
+Candidate 2: A fish tank made from recycled glass - This is a shelter/house for a pet made from recycled material. High score.
+Candidate 3: A birdhouse crafted from used plastic bottles - This is a shelter/house for a pet made from recycled material. High score.
+Candidate 4: A cat toy made from recycled yarn - This is a pet item made from recycled material, but not a shelter/house. Low score.
+Candidate 5: A dog leash made from repurposed materials - This is a pet item made from recycled material, but not a shelter/house. Low score.
+Candidate 6: A birdhouse made from new wood - This is a shelter/house for a pet, but not made from *reclaimed/discarded* materials. Medium score.
+Candidate 7: A rabbit feeder made from recycled materials - This is a pet item made from recycled material, but not a shelter/house. Low score.
+Candidate 8: A cat litter box made from recycled plastic - This is a pet item made from recycled material, but not a shelter/house. Low score.<number>1</number><score>2</score>
+<number>2</number><score>9</score>
+<number>3</number><score>10</score>
+<number>4</number><score>1</score>
+<number>5</number><score>3</score>
+<number>6</number><score>6</score>
+<number>7</number><score>4</score>
+<number>8</number><score>2</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional characters who serve as double agents within a magical or supernatural organization
+
+Here are four examples intended to follow this theme:
+1. a spy who infiltrates a coven of witches while secretly working for a rival magical faction
+2. a shapeshifter who poses as a loyal member of a supernatural council but reports to an ancient dragon
+3. a mage who joins a secret society of sorcerers while secretly aiding a rogue demon
+4. a vampire who infiltrates a werewolf pack's inner circle while secretly serving a shadowy necromancer
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a detective solving supernatural crimes
+6. a wizard who trains young apprentices
+7. a ghost haunting a magical library
+8. a werewolf leading a pack in the wilderness
+9. a fairy granting wishes to humans
+10. a dragon guarding a treasure hoard
+11. a witch brewing potions in a hidden cottage
+12. a vampire hunter tracking down rogue vampires
+13. a necromancer raising an army of undead
+14. a time traveler altering magical history
+15. a cursed pirate sailing supernatural seas
+16. a magical artifact collector searching for rare items
+17. a shapeshifter living in disguise among humans
+18. a sorcerer battling a rival in a magical duel
+19. a demon bound to serve a mortal master
+20. a prophet foreseeing magical disasters
+21. a guardian spirit protecting a sacred forest
+22. a rogue mage evading magical authorities
+23. a cursed knight seeking redemption
+24. a magical creature hiding in a human city
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed to be worn that incorporate elements of quantum physics in their aesthetic or functional design.
+
+Here are four examples intended to follow this theme:
+1. A pendant necklace with a charm resembling a particle accelerator, where the charm lights up to represent particle collisions.
+2. A wristwatch with a dial that displays quantum entanglement symbols, and the hands move in a non-linear, quantum-inspired pattern.
+3. A pair of earrings featuring miniature models of quantum computers, with tiny LED lights that mimic quantum bit operations.
+4. A brooch designed as a stylized atom with orbiting electrons, where the electrons' paths are illuminated by quantum-inspired light patterns.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smartwatch with fitness tracking features.
+6. A necklace with a pendant shaped like a traditional atom model.
+7. A ring with a simple LED light that changes colors.
+8. A bracelet with charms representing different planets in the solar system.
+9. A pair of sunglasses with polarized lenses.
+10. A belt buckle featuring a design of interlocking gears.
+11. A hat with a built-in solar panel to charge electronic devices.
+12. A scarf with a pattern inspired by traditional physics equations.
+13. A pair of shoes with LED lights that activate with movement.
+14. A tie clip designed to look like a traditional microscope.
+15. A backpack with a built-in USB charging port.
+16. A watch with a traditional mechanical movement.
+17. A necklace with a pendant shaped like a DNA helix.
+18. A pair of gloves with touchscreen-compatible fingertips.
+19. A belt with a buckle featuring a simple geometric pattern.
+20. A hat with a design inspired by traditional astronomical charts.
+21. A pair of earrings with charms shaped like traditional molecules.
+22. A bracelet with a clasp designed to look like a traditional lock and key.
+23. A ring with a gemstone that changes color based on temperature.
+24. A watch with a face that displays traditional time zones.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

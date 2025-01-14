@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Sculptures of Roman generals or emperors carved from a single block of dark-colored igneous rock.
+
+Here are four examples intended to follow this theme:
+1. Statue of Emperor Augustus carved from a single block of basalt
+2. Bust of General Marcus Agrippa sculpted from a single piece of gabbro
+3. Figure of Emperor Hadrian hewn from a single block of diorite
+4. Portrait of General Lucius Verus crafted from a single piece of andesite
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Statue of Emperor Augustus carved from marble
+6. Bust of General Marcus Agrippa sculpted from limestone
+7. Figure of Emperor Hadrian hewn from granite
+8. Portrait of General Lucius Verus crafted from sandstone
+9. Statue of Emperor Nero made from bronze
+10. Bust of General Julius Caesar sculpted from alabaster
+11. Figure of Emperor Trajan carved from a single block of marble
+12. Portrait of General Pompey crafted from terracotta
+13. Statue of Emperor Caligula made from wood
+14. Bust of General Scipio Africanus sculpted from clay
+15. Figure of Emperor Vespasian hewn from a single block of limestone
+16. Portrait of General Germanicus crafted from a single piece of marble
+17. Statue of Emperor Tiberius carved from a single block of granite
+18. Bust of General Sulla sculpted from a single piece of sandstone
+19. Figure of Emperor Claudius made from a single block of marble
+20. Portrait of General Marius crafted from a single piece of limestone
+21. Statue of Emperor Domitian made from a single block of marble
+22. Bust of General Crassus sculpted from a single piece of alabaster
+23. Figure of Emperor Antoninus Pius hewn from a single block of marble
+24. Portrait of General Cato crafted from a single piece of clay
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

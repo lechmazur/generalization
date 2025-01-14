@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer electronics devices that measure and display a user's galvanic skin response.
+
+Here are four examples intended to follow this theme:
+1. A device that tracks stress levels through skin conductivity and displays the data on a wristband.
+2. A portable gadget that measures emotional arousal via skin response and shows results on an integrated screen.
+3. An electronic tool worn on the finger that monitors skin conductance to gauge relaxation and displays it on a small LCD.
+4. A handheld unit that assesses skin's electrical properties to indicate stress and features a digital readout.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smartwatch that tracks heart rate and displays it on the screen.
+6. A fitness tracker that monitors steps and shows them on a device.
+7. A blood pressure monitor that displays readings on a digital screen.
+8. A thermometer that measures body temperature and shows it on an LCD.
+9. A sleep tracker that analyzes sleep patterns and displays data on a smartphone app.
+10. A pulse oximeter that measures blood oxygen levels and shows them on a screen.
+11. A glucose meter that displays blood sugar levels on a digital display.
+12. A pedometer that counts steps and shows the total on an electronic screen.
+13. A smartwatch that measures calories burned and displays the information.
+14. A device that tracks hydration levels and displays them on a wristband.
+15. A fitness band that monitors workout intensity and shows it on a screen.
+16. A heart rate variability monitor that displays data on a mobile app.
+17. A device that measures respiratory rate and shows it on a digital display.
+18. A smartwatch that tracks sleep stages and displays them on the device.
+19. A fitness tracker that monitors UV exposure and shows it on a screen.
+20. A device that measures body fat percentage and displays it on an electronic screen.
+21. A smartwatch that tracks daily activity and displays it on the device.
+22. A device that monitors blood alcohol levels and shows them on a digital display.
+23. A fitness tracker that measures altitude and displays it on a screen.
+24. A smartwatch that tracks menstrual cycles and displays them on the device.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

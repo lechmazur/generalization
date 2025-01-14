@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Fictional characters who use precise, rule-based systems or knowledge to solve problems or achieve goals, often in high-stakes or supernatural contexts.
+
+Here are four examples intended to follow this theme:
+1. Sherlock Holmes using deductive reasoning to solve mysteries
+2. Light Yagami using the Death Note's rules to achieve his goals
+3. Hermione Granger using her extensive knowledge of spells and magical creatures to navigate challenges
+4. Ender Wiggin using strategic military tactics to win battles
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Harry Potter using bravery and friendship to defeat Voldemort
+6. Frodo Baggins relying on courage and perseverance to destroy the One Ring
+7. Katniss Everdeen using survival skills and archery in the Hunger Games
+8. Bilbo Baggins using cleverness and luck to outwit Smaug
+9. Indiana Jones using physical prowess and quick thinking to recover artifacts
+10. Luke Skywalker using the Force to defeat the Empire
+11. James Bond using gadgets and combat skills to complete missions
+12. Superman using his superpowers to save the world
+13. Batman using his wealth and technology to fight crime
+14. Wonder Woman using her strength and combat skills to protect humanity
+15. Spider-Man using his agility and spider-sense to fight villains
+16. Hercule Poirot using his "little grey cells" to solve crimes
+17. Samwise Gamgee using loyalty and determination to support Frodo
+18. Neo using his abilities as "The One" to fight against the Matrix
+19. Buffy Summers using her Slayer powers to fight vampires
+20. Rick Grimes using leadership and survival skills in a post-apocalyptic world
+21. Jon Snow using honor and leadership to unite the North
+22. Daenerys Targaryen using her dragons and political acumen to claim the Iron Throne
+23. Jack Sparrow using cunning and charm to navigate pirate adventures
+24. Aragorn using his heritage and leadership to reclaim the throne of Gondor
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

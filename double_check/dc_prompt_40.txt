@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Cultural products that explicitly reference or incorporate elements of Reformed Epistemology in their core narrative or thematic structure.
+
+Here are four examples intended to follow this theme:
+1. A novel where the protagonist's journey to faith is portrayed as a basic, non-inferential belief, central to the plot.
+2. A film that explores the concept of religious belief as properly basic, with characters debating the nature of faith without empirical evidence.
+3. A play where the main conflict revolves around characters accepting religious beliefs as foundational and not requiring justification through reason.
+4. A television series where the narrative arc focuses on the acceptance of religious beliefs as rational without needing evidential support, influencing character development.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A book that discusses the philosophy of religion in general terms.
+6. A movie that explores the concept of faith but does not specifically address Reformed Epistemology.
+7. A documentary about different religious practices around the world.
+8. A podcast series on the history of Christian theology.
+9. A novel where characters debate the existence of God using traditional arguments.
+10. A film that focuses on the personal journey of faith without referencing any specific epistemological framework.
+11. A play that examines the role of faith in society but does not delve into epistemological theories.
+12. A television show that portrays various religious beliefs but does not focus on the rationality of belief without evidence.
+13. A book that explores the concept of belief in general, without specific reference to Reformed Epistemology.
+14. A movie that deals with the conflict between science and religion but does not mention Reformed Epistemology.
+15. A documentary on the impact of religion on culture and society.
+16. A podcast discussing the psychological aspects of belief.
+17. A novel where characters struggle with their faith but do not discuss it in terms of Reformed Epistemology.
+18. A film that portrays the journey of a character converting to a new religion without addressing epistemological issues.
+19. A play that uses religious themes as a backdrop but does not focus on the rationality of belief.
+20. A television series that explores different world religions but does not delve into specific epistemological theories.
+21. A book that discusses the role of faith in personal development without referencing Reformed Epistemology.
+22. A movie that examines the impact of religious beliefs on family dynamics.
+23. A documentary on the history of religious conflicts.
+24. A podcast that interviews people about their personal faith journeys without discussing epistemological frameworks.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

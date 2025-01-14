@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Japanese yokai that transform into or mimic everyday household objects when attacking humans
+
+Here are four examples intended to follow this theme:
+1. a teapot that suddenly sprouts limbs and chases its owner
+2. a folding fan that unfurls into a monstrous creature
+3. a lantern that reveals a sinister face and floats menacingly
+4. a futon that wraps around and suffocates its sleeper
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a kappa lurking near a river
+6. a kitsune transforming into a human
+7. a tengu perched on a mountain
+8. a oni wielding a giant club
+9. a nekomata with a forked tail
+10. a rokurokubi stretching its neck
+11. a nurikabe blocking a path
+12. a tsuchinoko slithering through grass
+13. a yuki-onna appearing in a snowstorm
+14. a kasa-obake hopping on one leg
+15. a zashiki-warashi playing pranks
+16. a umibozu rising from the sea
+17. a shirime exposing its eye
+18. a bake-danuki shapeshifting into a tree
+19. a hitotsume-kozo with a single eye
+20. a kamaitachi slicing through the air
+21. a gashadokuro towering over villages
+22. a mokumokuren watching from walls
+23. a wanyudo rolling as a flaming wheel
+24. a kudan predicting disasters
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

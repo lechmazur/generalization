@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or documents that contain detailed technical instructions for navigating through three-dimensional space
+
+Here are four examples intended to follow this theme:
+1. a flight manual for a drone
+2. a spacecraft navigation guide
+3. a submarine sonar operation manual
+4. a virtual reality headset user guide
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a map of a city
+6. a recipe book
+7. a car owner's manual
+8. a hiking trail guide
+9. a GPS device
+10. a compass
+11. a blueprint for a building
+12. a train schedule
+13. a weather forecast chart
+14. a telescope instruction manual
+15. a bicycle assembly guide
+16. a video game controller manual
+17. a fitness tracker user guide
+18. a sewing pattern
+19. a smartphone user manual
+20. a camera lens guide
+21. a musical instrument tuning guide
+22. a gardening tool manual
+23. a first aid kit instruction sheet
+24. a board game rulebook
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

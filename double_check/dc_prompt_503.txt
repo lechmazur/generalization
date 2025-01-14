@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Man-made structures built primarily to facilitate the loading and unloading of cargo from ships, located on islands accessible only by bridge or tunnel.
+
+Here are four examples intended to follow this theme:
+1. Red Hook Container Terminal on Governors Island
+2. Port of Alameda on Alameda Island
+3. Howland Hook Marine Terminal on Staten Island
+4. Port of Coronado on Coronado Island
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Port of Los Angeles
+6. Port of Singapore
+7. Ferry terminal on Ellis Island
+8. Navy Pier in Chicago
+9. Port of Hong Kong
+10. Port of Seattle
+11. Fisherman's Wharf in San Francisco
+12. Port of Rotterdam
+13. Venice Cruise Terminal
+14. Sydney Harbour Port
+15. Key West Seaport
+16. Port of Miami
+17. Port of New Orleans
+18. Pier 39 in San Francisco
+19. Port of Vancouver
+20. Port of Charleston
+21. Port of Savannah
+22. Port of Oakland
+23. Port of Baltimore
+24. Port of Long Beach
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Residential buildings designed around a central courtyard that were constructed between 1920-1940 in colonial port cities of South and Southeast Asia
+
+Here are four examples intended to follow this theme:
+1. The Chettinad-style courtyard houses of Georgetown, Penang, built in the 1930s.
+2. A Peranakan shophouse with an internal air well in Melaka, Malaysia, constructed in 1925.
+3. A colonial-era villa with a central courtyard garden in Pondicherry, India, dating back to 1938.
+4. A row of terraced houses in Singapore, each with a small private courtyard, built in the late 1920s.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A French colonial administrative building in Hanoi, Vietnam, built in 1935.
+6. A traditional Malay kampung house on stilts in Kuala Lumpur, built in 1922.
+7. A Buddhist temple complex in Yangon, Myanmar, constructed in the 1930s.
+8. An Art Deco cinema in Mumbai, India, dating back to 1937.
+9. A British military barracks in Colombo, Sri Lanka, built in 1928.
+10. A Chinese clan house in Singapore, constructed in the early 1920s.
+11. A market hall in Jakarta, Indonesia, built in 1931.
+12. A Portuguese-style church in Goa, India, dating back to 1939.
+13. A traditional Thai house in Bangkok, built in 1924.
+14. A hospital in Ho Chi Minh City, Vietnam, constructed in the late 1930s.
+15. A school building in Manila, Philippines, built in 1926.
+16. A railway station in Kolkata, India, dating back to 1932.
+17. A post office in Phnom Penh, Cambodia, constructed in the early 1920s.
+18. A public library in Rangoon, Burma, built in 1935.
+19. A mosque in Kuala Lumpur, Malaysia, dating back to 1938.
+20. A Hindu temple in Chennai, India, constructed in the late 1920s.
+21. A traditional Vietnamese house in Hue, built in 1929.
+22. A shopfront in Hong Kong, built in 1934.
+23. A government office building in Singapore, dating back to 1936.
+24. A residential apartment block in Mumbai, India, constructed in the 1930s.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

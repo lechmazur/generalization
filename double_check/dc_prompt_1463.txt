@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or collections kept by nobility that were believed to capture or contain supernatural phenomena prior to 1900
+
+Here are four examples intended to follow this theme:
+1. A bezoar purported to protect against poison
+2. A grimoire owned by a royal sorcerer
+3. A saint's relic said to grant miracles
+4. A unicorn horn believed to purify water
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A first edition of Shakespeare's Hamlet
+6. A collection of ancient Roman coins
+7. A jeweled scepter symbolizing royal authority
+8. A portrait of a deceased monarch
+9. An ornate suit of armor
+10. A menagerie of exotic animals
+11. A botanical garden with rare plants
+12. A library of illuminated manuscripts
+13. A collection of antique clocks
+14. A cabinet of curiosities containing natural specimens
+15. A mummified cat from ancient Egypt
+16. A piece of the True Cross
+17. A lock of hair from a beloved relative
+18. A shrunken head from a tribal culture
+19. A medieval torture device
+20. A map claiming to show the location of El Dorado
+21. An automaton that mimics human movement
+22. A crystal ball used for scrying
+23. A tarot deck used for divination
+24. A signed photograph of a famous opera singer
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

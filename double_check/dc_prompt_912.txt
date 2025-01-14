@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Products or systems that integrate humor as a core component to enhance user engagement and functionality.
+
+Here are four examples intended to follow this theme:
+1. a smartphone app that uses witty error messages to make troubleshooting enjoyable
+2. a voice assistant that responds to user queries with playful jokes and puns
+3. a fitness tracker that rewards users with humorous animations for meeting goals
+4. a board game where the rules and mechanics are designed to create comedic situations
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a calculator with a minimalist design
+6. a GPS navigation system with a monotone voice
+7. a plain white coffee mug
+8. a standard office chair
+9. a textbook with no illustrations
+10. a basic alarm clock with no snooze button
+11. a pair of noise-canceling headphones
+12. a traditional wristwatch with no additional features
+13. a straightforward recipe app
+14. a plain wooden desk
+15. a standard stapler
+16. a basic flashlight
+17. a simple umbrella
+18. a regular toothbrush
+19. a standard bicycle
+20. a plain notebook
+21. a basic toaster
+22. a traditional wall calendar
+23. a standard pair of scissors
+24. a simple keychain
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

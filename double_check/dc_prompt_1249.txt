@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural or engineered systems that utilize specialized anchoring mechanisms to stabilize or secure themselves in dynamic environments.
+
+Here are four examples intended to follow this theme:
+1. Mangrove roots that anchor into coastal sediments to withstand tidal forces.
+2. Climbing plants using tendrils to secure themselves to structures for support.
+3. Ship anchors designed to hold vessels in place against currents and winds.
+4. Gecko feet utilizing van der Waals forces to adhere to surfaces for climbing.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A tree's root system spreading out for stability.
+6. A skyscraper's foundation designed to withstand earthquakes.
+7. A satellite's orbit maintained by gravitational forces.
+8. A car's seatbelt system for passenger safety.
+9. A magnet attaching to a refrigerator door.
+10. A spider web's silk threads for capturing prey.
+11. A bridge's suspension cables for structural support.
+12. A suction cup used to hang objects on smooth surfaces.
+13. A climber's harness and rope system for safety.
+14. A kite's string used to control its flight.
+15. A barnacle's attachment to a whale's skin.
+16. A Velcro fastening system on clothing.
+17. A dam's structure to control water flow.
+18. A bird's nest built in the fork of a tree.
+19. A screw's threads for securing into wood.
+20. A leech's ability to attach to a host.
+21. A mountain climber's ice axe for stability on ice.
+22. A balloon's string to keep it from floating away.
+23. A lizard's ability to cling to walls.
+24. A hook and loop fastener on a shoe.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Dictators who wrote books on their political ideologies while in prison.
+
+Here are four examples intended to follow this theme:
+1. Mein Kampf by Adolf Hitler
+2. The Green Book by Muammar Gaddafi
+3. Prison Diary by Jawaharlal Nehru
+4. The Doctrine of Fascism by Benito Mussolini
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Prince by Niccolò Machiavelli
+6. Das Kapital by Karl Marx
+7. The Art of War by Sun Tzu
+8. Common Sense by Thomas Paine
+9. The Communist Manifesto by Karl Marx and Friedrich Engels
+10. 1984 by George Orwell
+11. Animal Farm by George Orwell
+12. The Republic by Plato
+13. Leviathan by Thomas Hobbes
+14. The Social Contract by Jean-Jacques Rousseau
+15. On Liberty by John Stuart Mill
+16. The Wealth of Nations by Adam Smith
+17. Democracy in America by Alexis de Tocqueville
+18. The Federalist Papers by Alexander Hamilton, James Madison, and John Jay
+19. Brave New World by Aldous Huxley
+20. The Road to Serfdom by Friedrich Hayek
+21. Capital in the Twenty-First Century by Thomas Piketty
+22. The Second Sex by Simone de Beauvoir
+23. Orientalism by Edward Said
+24. The Clash of Civilizations by Samuel P. Huntington
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

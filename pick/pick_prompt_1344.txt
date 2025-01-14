@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+The synthesis of heat-shock proteins by thermophilic bacteria living in hot springs to protect their cellular machinery from thermal denaturation.
+The evolution of specialized rhodopsins in deep-sea hydrothermal vent tube worms to detect faint infrared light emitted from the vents.
+The production of antifreeze proteins in the blood of Antarctic icefish to prevent freezing in subzero waters.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Hibernation of bears during winter.
+Desert animals being nocturnal to avoid the heat.
+The development of antibiotic resistance in bacteria.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. Deciduous trees shedding their leaves in autumn.
+2. Migration of birds to warmer climates during winter.
+3. The venom of snakes.
+4. The development of DNA repair mechanisms in Deinococcus radiodurans that allow it to withstand extreme levels of radiation. <<LEFTOVER>>
+5. The thick fur of arctic foxes.
+6. The large ears of desert foxes for heat dissipation.
+7. Succulents storing water in their leaves.
+8. The evolution of pesticide resistance in insects.

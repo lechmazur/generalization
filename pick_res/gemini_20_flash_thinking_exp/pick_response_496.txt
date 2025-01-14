@@ -1,0 +1,25 @@
+pick_response_496.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme.
+
+The examples are all devices that use the Earth's magnetic field to determine direction.
+The anti-examples are devices that determine position or time using other methods (satellites, celestial bodies, the sun).
+
+Therefore, the specific theme is "devices that use the Earth's magnetic field to determine direction".
+
+I need to evaluate each candidate based on this specific theme and assign a score from 0 to 10.
+
+1. **a satellite dish**:  Receives signals from satellites, not related to Earth's magnetic field for direction. Score: 0-1
+2. **a sonar device**: Uses sound waves to detect objects underwater, not related to Earth's magnetic field for direction. Score: 0-1
+3. **a geomagnetic sensor**: Directly measures the Earth's magnetic field. This is a strong match. Score: 8-10
+4. **a radar system**: Uses radio waves to detect objects, not related to Earth's magnetic field for direction. Score: 0-1
+5. **a weather vane**: Indicates wind direction, not related to Earth's magnetic field. Score: 0-2 (slight conceptual link to direction, but not magnetic)
+6. **a gyroscope**:  Used for maintaining orientation, often independent of external references like the magnetic field. Score: 2-4 (can be used in navigation, but doesn't directly use the magnetic field)
+7. **a altimeter**: Measures altitude, not related to Earth's magnetic field for direction. Score: 0-1
+8. **a chronometer**: Measures time, not related to Earth's magnetic field for direction. Score: 0-1<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>9</score>
+<number>4</number><score>1</score>
+<number>5</number><score>2</score>
+<number>6</number><score>3</score>
+<number>7</number><score>1</score>
+<number>8</number><score>1</score>

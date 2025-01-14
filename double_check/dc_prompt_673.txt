@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations in the early 20th century that significantly influenced fashion design and are named after their creators.
+
+Here are four examples intended to follow this theme:
+1. Fortuny pleats
+2. Poiret belly-dancer silhouette
+3. Chanel suit
+4. Vionnet bias cut
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Art Deco architecture
+6. Cubism
+7. T-shirt
+8. Zipper
+9. Synthetic dyes
+10. Flapper dresses
+11. A-line skirt
+12. Pencil skirt
+13. Little black dress
+14. Trench coat
+15. Rayon
+16. Nylon
+17. Bakelite jewelry
+18. Cloche hat
+19. Mary Janes
+20. Oxford shoes
+21. Surrealism
+22. Bauhaus
+23. Ready-to-wear clothing
+24. Mass production of clothing
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

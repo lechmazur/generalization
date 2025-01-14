@@ -1,0 +1,32 @@
+pick_response_1371.txt
+The user wants me to score candidates based on how well they match a specific theme, as exemplified by the provided examples, while explicitly avoiding broader, related themes illustrated by the anti-examples.
+
+The core of the specific theme seems to be the **controlled, experimental evaluation of prosthetic devices in a laboratory or testing setting**. The examples involve:
+- Robotic arm manipulating objects to test grip strength.
+- Biomechanical rig applying forces to test joint mechanics.
+- Treadmill with sensors analyzing gait with a prosthetic leg.
+
+The anti-examples, representing broader themes, involve:
+- Real-world use of a prosthetic.
+- Computer modeling of a prosthetic.
+- Biofeedback control of a prosthetic.
+
+I need to evaluate each candidate based on its alignment with the controlled, experimental evaluation aspect, and penalize those that lean towards real-world use, design, or control aspects.
+
+Here's a breakdown of how I'll score each candidate:
+
+1. **Psychological impact of limb loss:** This is about the user, not the device's performance in a controlled setting. Low score.
+2. **VR environment for task evaluation:** This involves a simulated environment for evaluating user control, which aligns with the controlled evaluation aspect. High score.
+3. **Occupational therapist assessing daily tasks:** This is about real-world functionality and patient ability, not controlled device testing. Low score.
+4. **Software program to control a prosthetic:** This focuses on the control mechanism, not the experimental evaluation of the device itself. Medium-low score.
+5. **Clinical trial evaluating a new design:** While it involves evaluation, it's in a clinical setting with real users, not a controlled lab environment. Medium score.
+6. **Rehabilitation center specializing in training:** This is about user training and adaptation, not controlled device testing. Low score.
+7. **Nerve interface connecting a prosthetic:** This is about the technology enabling control, not the experimental evaluation of the prosthetic's performance. Medium-low score.
+8. **Pressure sensor embedded in a socket:** This is a component of the prosthetic itself, potentially used for feedback or control, but not directly about controlled experimental evaluation. Medium score.<number>1</number><score>1</score>
+<number>2</number><score>9</score>
+<number>3</number><score>2</score>
+<number>4</number><score>4</score>
+<number>5</number><score>6</score>
+<number>6</number><score>3</score>
+<number>7</number><score>5</score>
+<number>8</number><score>7</score>

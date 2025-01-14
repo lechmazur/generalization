@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Decorative items featuring animal-inspired motifs made from semi-precious stones
+
+Here are four examples intended to follow this theme:
+1. A malachite frog figurine with emerald eyes
+2. A carved lapis lazuli elephant pendant with ruby accents
+3. A rose quartz butterfly brooch inlaid with tiny diamonds
+4. An amethyst owl sculpture perched on a jasper branch
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A ceramic cat statue
+6. A wooden horse carving
+7. A gold lion pendant
+8. A silver dolphin bracelet
+9. A glass hummingbird figurine
+10. A plastic turtle keychain
+11. A diamond ring
+12. A pearl necklace
+13. An emerald earrings
+14. A ruby pendant
+15. A sapphire bracelet
+16. A painting of a tiger
+17. A photograph of a bird
+18. A drawing of a fish
+19. A stuffed animal bear
+20. A taxidermied deer head
+21. A fossil of a dinosaur
+22. A seashell collection
+23. A feather pen
+24. An insect preserved in amber
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

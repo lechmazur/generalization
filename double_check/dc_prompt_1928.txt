@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects used in traditional rituals that are made from natural materials and have a specific color associated with their use.
+
+Here are four examples intended to follow this theme:
+1. white sage smudge bundle
+2. red ochre powder bowl
+3. black obsidian ceremonial knife
+4. green jade prayer beads
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. silver chalice
+6. brass bell
+7. wooden cross
+8. glass prayer beads
+9. ceramic incense holder
+10. metal singing bowl
+11. plastic prayer wheel
+12. synthetic drum
+13. steel ritual sword
+14. crystal ball
+15. painted wooden mask
+16. gold offering plate
+17. bronze ritual vessel
+18. copper meditation bowl
+19. silk prayer flags
+20. clay ritual pot
+21. stone altar
+22. bamboo flute
+23. leather drum
+24. cotton prayer rug
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,37 @@
+pick_response_360.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score a list of candidates based on how well they fit that specific theme. The examples are viola, violin, and double bass. The anti-examples are lute, oud, and bouzouki.
+
+The examples are all bowed string instruments of the violin family. The anti-examples are plucked string instruments with rounded backs.
+
+Therefore, the specific theme is likely "bowed string instruments of the violin family". The broader theme could be "string instruments".
+
+I need to evaluate each candidate based on how well it fits the "bowed string instruments of the violin family" theme, and not just the broader "string instruments" theme.
+
+Here's a breakdown of each candidate:
+
+1. **charango**: Small South American lute-like instrument, typically plucked. Doesn't fit the specific theme.
+2. **sitar**:  Indian plucked string instrument with a long neck and gourd resonator. Doesn't fit the specific theme.
+3. **cello**: Bowed string instrument of the violin family. Fits the specific theme.
+4. **guitar**: Typically plucked string instrument. Doesn't fit the specific theme.
+5. **mandolin**:  Plucked string instrument with a rounded back. Doesn't fit the specific theme.
+6. **ukulele**: Small plucked string instrument, typically with four strings. Doesn't fit the specific theme.
+7. **erhu**: Chinese bowed string instrument, but not of the violin family (cylindrical body, snakeskin soundboard). Doesn't fit the specific theme perfectly, but is bowed.
+8. **balalaika**: Russian plucked string instrument with a triangular body. Doesn't fit the specific theme.
+
+Now I need to assign scores from 0 to 10, ensuring granularity and avoiding polarization.
+
+* **1. charango**: Clearly not a match. Score: 1
+* **2. sitar**: Clearly not a match. Score: 0
+* **3. cello**: A very good match. Score: 9
+* **4. guitar**: Not a match. Score: 2 (Slightly higher than sitar because it's more common in Western music)
+* **5. mandolin**: Not a match. Score: 1 (Similar to charango in being plucked)
+* **6. ukulele**: Not a match. Score: 1 (Similar to mandolin and charango)
+* **7. erhu**: Bowed, but not of the violin family. A partial match. Score: 6
+* **8. balalaika**: Not a match. Score: 0<number>1</number><score>1</score>
+<number>2</number><score>0</score>
+<number>3</number><score>9</score>
+<number>4</number><score>2</score>
+<number>5</number><score>1</score>
+<number>6</number><score>1</score>
+<number>7</number><score>6</score>
+<number>8</number><score>0</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Automated vehicles or robots that are primarily designed to physically restrain or capture targets while operating on land
+
+Here are four examples intended to follow this theme:
+1. A robotic arm used in law enforcement to detain suspects by physically restraining them on the ground.
+2. An autonomous vehicle equipped with a net-launching system designed to capture and immobilize fleeing suspects on land.
+3. A robot designed for wildlife management that uses a cage mechanism to trap and contain invasive species on land.
+4. An automated security robot that uses mechanical arms to physically restrain and hold intruders until human security arrives.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A drone used for surveillance in urban areas.
+6. An autonomous vehicle designed for transporting goods in a warehouse.
+7. A robot used for cleaning floors in commercial buildings.
+8. A self-driving car designed for passenger transportation.
+9. A robotic arm used in manufacturing to assemble products.
+10. An autonomous underwater vehicle used for oceanographic research.
+11. A robot designed to assist the elderly in their homes.
+12. A drone equipped with cameras for aerial photography.
+13. An automated lawn mower that operates without human intervention.
+14. A robot used in agriculture for planting seeds.
+15. An autonomous vehicle designed for military reconnaissance.
+16. A robotic system used in hospitals for delivering medication.
+17. A self-driving truck used for long-haul freight transport.
+18. A robot designed for space exploration on other planets.
+19. An automated system for sorting and processing mail.
+20. A robotic arm used in surgery to assist doctors.
+21. An autonomous vehicle used for mapping and surveying land.
+22. A robot designed for entertainment, such as dancing or performing.
+23. An automated system for monitoring and controlling traffic flow.
+24. A robotic device used for inspecting pipelines and infrastructure.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

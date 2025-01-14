@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Art installations that incorporate interactive technology to simulate natural phenomena in remote locations
+
+Here are four examples intended to follow this theme:
+1. An installation where visitors can interact with a digital projection of the Aurora Borealis, using motion sensors to influence the colors and patterns of the display.
+2. A virtual reality experience that allows users to explore and interact with a simulated coral reef, complete with dynamic water currents and marine life.
+3. An interactive exhibit featuring a large screen that displays a thunderstorm simulation, where visitors can use touch interfaces to control the intensity and movement of the storm.
+4. A sound and light installation that recreates the experience of a rainforest at night, with interactive elements allowing visitors to trigger different animal sounds and light patterns.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. An art installation that uses augmented reality to enhance traditional paintings.
+6. A sculpture that changes color based on the time of day.
+7. An interactive exhibit that simulates the experience of being in space.
+8. A digital art piece that responds to the emotions of the viewer through facial recognition technology.
+9. An installation that uses sound waves to create visible patterns in sand.
+10. A virtual reality game that allows players to explore a fantasy world.
+11. An interactive mural that changes based on the number of people in front of it.
+12. A kinetic sculpture that moves in response to wind patterns.
+13. An art piece that uses heat-sensitive materials to change appearance when touched.
+14. A digital installation that recreates historical events in a museum setting.
+15. An interactive exhibit that teaches visitors about the physics of sound through hands-on experiments.
+16. A sculpture garden that uses light projections to create different atmospheres throughout the day.
+17. An art installation that uses robotics to create dynamic sculptures.
+18. A virtual reality experience that simulates the experience of climbing a mountain.
+19. An interactive exhibit that allows visitors to create their own music using digital instruments.
+20. A digital art piece that uses algorithms to generate abstract patterns.
+21. An installation that uses mirrors and light to create an immersive environment.
+22. A sculpture that changes shape based on the temperature of the room.
+23. An interactive exhibit that simulates the experience of being underwater without using natural phenomena.
+24. A digital art piece that uses touch screens to allow visitors to manipulate images.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

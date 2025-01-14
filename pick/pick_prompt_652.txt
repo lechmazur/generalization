@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+A Navajo wedding basket woven with specific geometric patterns symbolizing prosperity and harmony, presented to the bride.
+A Kente cloth woven with Adinkra symbols representing concepts like wisdom and leadership, worn during chieftaincy installations in Ghana.
+A Bolivian Aguayo textile featuring vibrant colors and stylized depictions of animals and deities, used in rituals honoring Pachamama (Mother Earth).
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+Flags used in national celebrations.
+Theater costumes for a historical play.
+A feathered headdress worn for decorative purposes.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. A batik scarf with floral motifs.
+2. A woven rug with abstract designs.
+3. An intricately embroidered Hmong story cloth depicting the group's migration journey, used in wedding ceremonies. <<LEFTOVER>>
+4. A crocheted blanket.
+5. A quilt with a geometric pattern.
+6. A tapestry depicting a landscape.
+7. A hand-painted silk fan.
+8. A macrame wall hanging.

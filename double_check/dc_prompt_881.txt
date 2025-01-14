@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Traditional cultural practices that incorporate the use of reflective materials for ceremonial or artistic purposes
+
+Here are four examples intended to follow this theme:
+1. The use of mirrored tiles in the construction of a traditional Indian rangoli design during Diwali celebrations.
+2. The incorporation of polished metal surfaces in the ceremonial masks used by the Dogon people of Mali during the Dama dance.
+3. The application of reflective glass beads in the creation of traditional Ojibwe floral beadwork patterns for ceremonial garments.
+4. The use of shiny, lacquered surfaces on traditional Japanese hagoita paddles displayed during the New Year's festival.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The use of vibrant colors in traditional Mexican papel picado banners during Day of the Dead celebrations.
+6. The incorporation of feathers in the headdresses worn by participants in the Brazilian Carnival.
+7. The use of intricate embroidery on traditional Chinese qipao dresses for special occasions.
+8. The application of henna designs on the hands and feet of brides during Indian weddings.
+9. The use of carved wooden masks in traditional Balinese dance performances.
+10. The incorporation of seashells in the creation of traditional Hawaiian leis for welcoming ceremonies.
+11. The use of silk fabrics in the making of traditional Korean hanbok worn during Seollal celebrations.
+12. The application of gold leaf in the decoration of traditional Thai temple murals.
+13. The use of clay in the creation of traditional Hopi pottery for ceremonial purposes.
+14. The incorporation of beads in the making of traditional Maasai jewelry worn during rites of passage.
+15. The use of woven palm leaves in the construction of traditional Filipino parols for Christmas celebrations.
+16. The application of intricate patterns on traditional Moroccan zellige tiles used in architectural decoration.
+17. The use of animal hides in the creation of traditional Inuit parkas for hunting ceremonies.
+18. The incorporation of cowrie shells in the adornment of traditional Yoruba gele headwraps for special occasions.
+19. The use of bark cloth in the making of traditional Ugandan ceremonial garments.
+20. The application of indigo dye in the creation of traditional Japanese shibori textiles for kimono.
+21. The use of carved bone in the creation of traditional Maori weapons for ceremonial displays.
+22. The incorporation of turquoise stones in the jewelry worn by traditional Navajo during healing ceremonies.
+23. The use of woven grass in the construction of traditional Samoan fale houses for community gatherings.
+24. The application of ochre paint in the body art of traditional Australian Aboriginal rituals.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

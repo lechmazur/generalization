@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovations designed to facilitate decomposition in extreme environments
+
+Here are four examples intended to follow this theme:
+1. A genetically engineered psychrophilic fungus designed to break down plastics in Antarctic ice.
+2. A self-contained, solar-powered bioreactor utilizing extremophile bacteria to decompose organic waste in desert conditions.
+3. A specialized enzyme cocktail developed for hydrolyzing cellulose in the highly alkaline environment of a soda lake.
+4. A bioaugmentation strategy employing radiation-resistant microbes to remediate radioactive waste in a deep geological repository.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Composting food scraps in a backyard bin.
+6. Using worms to create vermicompost.
+7. Anaerobic digestion of manure in a biogas digester.
+8. A landfill designed to capture methane gas.
+9. Bioremediation of oil spills in the ocean.
+10. Using bacteria to leach metals from ore.
+11. Developing drought-resistant crops.
+12. Creating biodegradable plastics from plant-based materials.
+13. Recycling paper and cardboard.
+14. Treating wastewater in a sewage treatment plant.
+15. Developing new methods for carbon capture.
+16. Using enzymes in laundry detergent.
+17. Genetically modifying bacteria to produce insulin.
+18. Developing vaccines for infectious diseases.
+19. Creating artificial organs for transplantation.
+20. Developing new cancer treatments.
+21. Exploring the use of CRISPR technology for gene editing.
+22. Developing new materials for 3D printing.
+23. Creating sustainable energy sources.
+24. Developing new methods for water purification.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

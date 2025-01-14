@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Historical figures known for their erratic behavior and controversial leadership that led to significant societal or political upheaval
+
+Here are four examples intended to follow this theme:
+1. Caligula
+2. Ivan the Terrible
+3. Maximilien Robespierre
+4. Mao Zedong
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Genghis Khan
+6. Adolf Hitler
+7. Joseph Stalin
+8. Nero
+9. Vlad the Impaler
+10. Elizabeth I
+11. Napoleon Bonaparte
+12. Alexander the Great
+13. Julius Caesar
+14. Winston Churchill
+15. Abraham Lincoln
+16. Margaret Thatcher
+17. Franklin D. Roosevelt
+18. Queen Victoria
+19. Martin Luther King Jr.
+20. Nelson Mandela
+21. Mahatma Gandhi
+22. Joan of Arc
+23. Che Guevara
+24. Vladimir Lenin
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

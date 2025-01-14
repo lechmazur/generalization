@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Depictions of confections in 20th-century Pop Art that include visible bite marks.
+
+Here are four examples intended to follow this theme:
+1. Andy Warhol's "Bite into Candy" featuring a bitten chocolate bar
+2. Roy Lichtenstein's "Sweet Bite" showing a bitten lollipop
+3. Claes Oldenburg's "Bitten Ice Cream" sculpture of a partially eaten ice cream cone
+4. Tom Wesselmann's "Mouthful of Candy" depicting a bitten gummy bear
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Andy Warhol's "Campbell's Soup Cans"
+6. Roy Lichtenstein's "Whaam!"
+7. Claes Oldenburg's "Giant Three-Way Plug"
+8. Tom Wesselmann's "Still Life #35"
+9. A photograph of a bitten apple
+10. A painting of a whole candy bar
+11. A sculpture of a bitten sandwich
+12. A drawing of a bitten cookie
+13. A 19th-century painting of a dessert
+14. A modern art piece featuring a bitten fruit
+15. A pop art depiction of a whole lollipop
+16. A graphic design of a bitten pizza
+17. A photograph of a bitten doughnut
+18. A painting of a bitten piece of bread
+19. A sculpture of a whole ice cream cone
+20. A pop art image of a bitten burger
+21. A 21st-century artwork of a bitten cake
+22. A drawing of a bitten croissant
+23. A pop art piece of a whole chocolate bar
+24. A painting of a bitten baguette
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

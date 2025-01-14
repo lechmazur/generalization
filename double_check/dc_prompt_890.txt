@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that incorporate a dome designed by a renowned architect who was primarily known for their work in a different artistic field.
+
+Here are four examples intended to follow this theme:
+1. Palazzo della Civiltà Italiana, designed by Giorgio de Chirico
+2. Philharmonie de Paris, designed by Jean Nouvel
+3. Heydar Aliyev Center, designed by Zaha Hadid
+4. Tempio Malatestiano, designed by Leon Battista Alberti
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. St. Peter's Basilica, designed by Michelangelo
+6. Florence Cathedral, designed by Filippo Brunelleschi
+7. United States Capitol, designed by William Thornton
+8. Taj Mahal, designed by Ustad Ahmad Lahauri
+9. Hagia Sophia, designed by Isidore of Miletus and Anthemius of Tralles
+10. St. Paul's Cathedral, designed by Christopher Wren
+11. Berlin Cathedral, designed by Julius Carl Raschdorff
+12. Santa Maria del Fiore, designed by Arnolfo di Cambio
+13. Les Invalides, designed by Jules Hardouin-Mansart
+14. Rockefeller Center, designed by Raymond Hood
+15. Guggenheim Museum Bilbao, designed by Frank Gehry
+16. Lotus Temple, designed by Fariborz Sahba
+17. Reichstag Building, designed by Norman Foster
+18. Royal Albert Hall, designed by Francis Fowke and Henry Young Darracott Scott
+19. British Museum, designed by Robert Smirke
+20. St. Basil's Cathedral, designed by Postnik Yakovlev
+21. Duomo di Milano, designed by Simone da Orsenigo
+22. Panthéon, designed by Jacques-Germain Soufflot
+23. Capitol Records Building, designed by Welton Becket
+24. Notre-Dame de Paris, designed by Maurice de Sully
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

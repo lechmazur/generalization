@@ -1,0 +1,36 @@
+pick_response_1347.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit the specific theme, not broader related themes.
+
+The examples are all phase changes of water.
+The anti-examples are broader Earth system processes.
+
+Therefore, the specific theme is **phase changes of water**.
+
+I need to evaluate each candidate based on whether it represents a phase change of water.
+
+1. Soil formation: Not a phase change of water.
+2. Volcanic eruption: Not a phase change of water.
+3. Ocean currents: Movement of liquid water, not a phase change.
+4. Sublimation of dry ice: Phase change, but of carbon dioxide, not water.
+5. Glacial movement: Movement of solid water (ice), not a phase change.
+6. Decomposition of organic matter: Not a phase change of water.
+7. Wind erosion: Movement of materials by wind, not a phase change of water.
+8. Rock erosion by wind: Movement of rock by wind, not a phase change of water.
+
+Let's assign scores based on how close they are to the specific theme, even if they don't perfectly match.
+
+1. Soil formation: Very distant. Score: 1
+2. Volcanic eruption: Very distant. Score: 0
+3. Ocean currents: Involves water, but not a phase change. Score: 2
+4. Sublimation of dry ice: Is a phase change, but of a different substance. Relatively close in concept. Score: 6
+5. Glacial movement: Involves water in solid form, but not a phase change. Score: 3
+6. Decomposition of organic matter: Very distant. Score: 1
+7. Wind erosion: Distant. Score: 1
+8. Rock erosion by wind: Distant. Score: 1<number>1</number><score>1</score>
+<number>2</number><score>0</score>
+<number>3</number><score>2</score>
+<number>4</number><score>6</score>
+<number>5</number><score>3</score>
+<number>6</number><score>1</score>
+<number>7</number><score>1</score>
+<number>8</number><score>1</score>

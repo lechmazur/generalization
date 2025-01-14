@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Places where traditional seasonal festivals are held in working agricultural spaces that still actively produce food or materials
+
+Here are four examples intended to follow this theme:
+1. Oktoberfest in a Bavarian hop farm
+2. Cherry Blossom Festival in a Japanese tea plantation
+3. Lavender Festival in a French lavender field
+4. Harvest Festival in a working vineyard in Tuscany
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. New Year's Eve in Times Square
+6. Mardi Gras in New Orleans
+7. Diwali in a city square
+8. Chinese New Year in a metropolitan Chinatown
+9. St. Patrick's Day Parade in Dublin
+10. Rio Carnival in Brazil
+11. Thanksgiving Parade in New York City
+12. Burning Man in the Nevada desert
+13. Edinburgh Festival Fringe in Scotland
+14. Venice Carnival in Italy
+15. Coachella Music Festival in California
+16. Glastonbury Festival in England
+17. Running of the Bulls in Pamplona
+18. Holi Festival in a city park
+19. Oktoberfest in a city beer hall
+20. Christmas Market in a town square
+21. Summer Solstice at Stonehenge
+22. Day of the Dead in a Mexican cemetery
+23. Lantern Festival in a city center
+24. Film Festival in Cannes
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

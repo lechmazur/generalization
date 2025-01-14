@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural phenomena or behaviors that involve temporary structures formed for the purpose of attraction or display
+
+Here are four examples intended to follow this theme:
+1. The elaborate courtship dance of the bowerbird, where males construct and decorate a bower to attract females.
+2. The vibrant, temporary display of colors produced by the Aurora Borealis to attract viewers.
+3. The intricate sand structures created by male fiddler crabs to attract mates during mating season.
+4. The ephemeral, glowing patterns formed by fireflies during their mating displays.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The permanent nest of a bird used for raising offspring.
+6. The migratory patterns of monarch butterflies.
+7. The structural integrity of a beaver dam.
+8. The daily opening and closing of a flower.
+9. The territorial markings of a lion.
+10. The hibernation behavior of bears.
+11. The permanent web of a spider used for catching prey.
+12. The annual migration of wildebeest.
+13. The chemical signals used by ants to communicate.
+14. The permanent burrow of a rabbit.
+15. The seasonal camouflage of the arctic fox.
+16. The vocalization patterns of whales.
+17. The permanent hive structure of bees.
+18. The feeding behavior of hummingbirds.
+19. The social hierarchy within a wolf pack.
+20. The permanent den of a fox.
+21. The echolocation used by bats.
+22. The molting process of a snake.
+23. The permanent coral reef structures.
+24. The photosynthesis process in plants.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

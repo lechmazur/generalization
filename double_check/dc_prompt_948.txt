@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Events or objects that have a significant historical impact and are associated with a specific date or period in the late 18th century
+
+Here are four examples intended to follow this theme:
+1. The storming of the Bastille on July 14, 1789
+2. The publication of Mary Wollstonecraft's "A Vindication of the Rights of Woman" in 1792
+3. The invention of the cotton gin by Eli Whitney in 1793
+4. The execution of Louis XVI of France on January 21, 1793
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The American Civil War
+6. The invention of the printing press
+7. The discovery of penicillin
+8. The first moon landing
+9. The sinking of the Titanic
+10. The assassination of Archduke Franz Ferdinand
+11. The fall of the Roman Empire
+12. The Black Death
+13. The birth of Jesus Christ
+14. The invention of the internet
+15. The construction of the Great Pyramid of Giza
+16. The Renaissance
+17. The Protestant Reformation
+18. The French and Indian War
+19. The signing of the Declaration of Independence in 1776
+20. The United States Constitution
+21. The reign of Queen Victoria
+22. World War I
+23. The Industrial Revolution
+24. The development of the steam engine
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Significant historical events that occurred on December 17th and led to the creation of new fields or industries
+
+Here are four examples intended to follow this theme:
+1. Wright brothers' first powered flight at Kitty Hawk in 1903
+2. First successful test of plutonium fission at Los Alamos in 1944
+3. Launch of ATLAS-1 computer at IBM in 1962
+4. First Bitcoin transaction in 2009
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Signing of the Bill of Rights in 1791
+6. Louisiana Purchase agreement in 1803
+7. Battle of Waterloo in 1815
+8. Opening of the Suez Canal in 1869
+9. First light bulb demonstration in 1879
+10. Completion of the Eiffel Tower in 1889
+11. First radio transmission across Atlantic in 1901
+12. Model T Ford introduction in 1908
+13. Opening of Panama Canal in 1914
+14. Russian Revolution in 1917
+15. Discovery of penicillin in 1928
+16. Pearl Harbor attack in 1941
+17. First television broadcast in 1936
+18. First nuclear test in 1945
+19. Launch of Sputnik in 1957
+20. Moon landing in 1969
+21. First email sent in 1971
+22. Fall of Berlin Wall in 1989
+23. Launch of World Wide Web in 1990
+24. Human Genome Project completion in 2003
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

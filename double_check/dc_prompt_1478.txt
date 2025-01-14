@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Digital systems that translate continuous analog signals into discrete numerical values while deliberately preserving some of the original signal's natural variations or imperfections
+
+Here are four examples intended to follow this theme:
+1. Audio processing software that applies dithering to maintain the warmth of analog recordings during digital conversion
+2. A digital camera that uses film grain emulation to preserve the aesthetic of traditional photography
+3. A vinyl record digitization tool that intentionally retains some surface noise to mimic the original listening experience
+4. A medical imaging system that keeps minor fluctuations in signal intensity to reflect biological variability
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A digital thermometer that converts temperature readings into numerical values
+6. A smartphone app that converts voice recordings into text
+7. A digital audio workstation that removes all background noise from recordings
+8. A scanner that converts printed text into editable digital text
+9. A digital oscilloscope that displays electrical signals in real-time
+10. A software that converts analog video to digital format without any intentional imperfections
+11. A digital signal processor that filters out all unwanted frequencies from an audio signal
+12. A barcode scanner that reads and converts barcodes into digital data
+13. A digital converter that transforms analog TV signals into digital signals for modern televisions
+14. A pressure sensor that converts physical pressure into digital readings
+15. A digital audio interface that converts analog audio signals into digital audio files
+16. A software that converts handwritten notes into digital text
+17. A digital multimeter that measures and displays electrical values
+18. A system that converts analog sensor data into digital data for analysis
+19. A digital converter that transforms analog radio signals into digital signals
+20. A software that converts analog drawings into digital vector graphics
+21. A digital converter that changes analog voltage signals into digital values
+22. A system that converts analog seismic data into digital data for geological analysis
+23. A digital converter that transforms analog light signals into digital data for fiber optic communication
+24. A software that converts analog weather data into digital data for meteorological analysis
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

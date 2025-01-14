@@ -1,0 +1,31 @@
+pick_response_650.txt
+The user wants me to identify a specific theme from three examples and then score eight candidates based on how well they fit that specific theme, while explicitly avoiding broader related themes.
+
+The three examples all involve:
+- High-level government officials (President, Minister)
+- Scandals that shook the government/political system
+- Issues of ethics, legality, and abuse of power
+- Questions about the functioning of democracy and the rule of law
+
+The anti-examples involve:
+- More general issues of corruption and abuse of power, not necessarily at the highest levels of government or involving a major political scandal.
+
+Therefore, the specific theme seems to be **major political scandals involving high-level government officials that raise fundamental questions about the integrity of the political system and the rule of law.**
+
+Now I need to score each candidate based on this specific theme:
+
+1. **Lobbying scandals:** Can be significant, but doesn't always involve the highest levels or shake the entire system. Likely a lower score.
+2. **Campaign finance violations:**  Important, but often more about legal technicalities than fundamental systemic issues. Likely a lower score.
+3. **The Profumo Affair:**  Fits the theme well - high-level official, deception, undermined public trust, shook the government. Likely a high score.
+4. **Spread of misinformation and propaganda:**  Can be a tool in scandals, but not necessarily a scandal itself involving high-level officials. Likely a medium score.
+5. **Bribery of public officials:**  Can be part of a larger scandal, but not always a system-shaking event. Likely a medium score.
+6. **Gerrymandering for political advantage:**  Raises questions about fairness, but not necessarily a scandal involving individual high-level misconduct. Likely a lower score.
+7. **Election fraud and voter suppression:**  Serious issues, but the examples focus more on misconduct *within* the government. Likely a medium score.
+8. **Conflicts of interest in government contracts:**  Can be a component of a scandal, but not always a major, system-shaking event. Likely a medium score.<number>1</number><score>4</score>
+<number>2</number><score>3</score>
+<number>3</number><score>9</score>
+<number>4</number><score>5</score>
+<number>5</number><score>6</score>
+<number>6</number><score>2</score>
+<number>7</number><score>5</score>
+<number>8</number><score>6</score>

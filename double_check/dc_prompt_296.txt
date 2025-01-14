@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects that have been struck by documented hail larger than 4 inches in diameter.
+
+Here are four examples intended to follow this theme:
+1. 1965 Ford Mustang in Fort Worth, Texas
+2. greenhouse at Johnson Family Farm in Aurora, Nebraska
+3. metal storage shed in Moore, Oklahoma
+4. Walmart shopping cart in Vivian, South Dakota
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. dented mailbox in Kansas City
+6. cracked windshield in Denver
+7. broken solar panel in Phoenix
+8. damaged roof in Dallas
+9. bent street sign in Chicago
+10. shattered window in Houston
+11. crushed trash can in Miami
+12. broken garden gnome in Seattle
+13. dented car hood in Minneapolis
+14. damaged satellite dish in Atlanta
+15. broken flower pot in Portland
+16. cracked bird bath in Boston
+17. damaged lawn furniture in Detroit
+18. broken outdoor light in Sacramento
+19. dented garbage bin in Austin
+20. damaged pool cover in Tampa
+21. broken weather vane in Nashville
+22. cracked skylight in San Diego
+23. damaged air conditioner unit in Memphis
+24. broken patio umbrella in Cleveland
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

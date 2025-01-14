@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Coastal villages located at the base of volcanic formations that have inspired geometric patterns used in traditional crafts
+
+Here are four examples intended to follow this theme:
+1. A village in Sicily where the hexagonal patterns of Mount Etna's lava flows are reflected in the intricate tile work of local pottery.
+2. A settlement in Japan where the diamond-shaped patterns of Mount Fuji's volcanic rocks inspire the designs on traditional kimonos.
+3. A community in Indonesia where the triangular formations of the nearby volcano are mirrored in the woven patterns of their traditional baskets.
+4. A town in Hawaii where the circular patterns of Kilauea's volcanic formations are used in the designs of local quilts.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A village known for its traditional fishing nets.
+6. A town famous for its annual seafood festival.
+7. A coastal settlement with a lighthouse built on a rocky outcrop.
+8. A community where traditional dances are inspired by the ocean waves.
+9. A village where the local architecture is influenced by colonial styles.
+10. A town where the primary industry is tourism due to its beautiful beaches.
+11. A settlement known for its vibrant coral reefs and diving spots.
+12. A community where traditional music is influenced by the rhythms of the sea.
+13. A village where the local cuisine is heavily based on seafood.
+14. A town with a museum dedicated to maritime history.
+15. A coastal area known for its surfing culture.
+16. A settlement where the local crafts are inspired by marine life.
+17. A village where the traditional clothing is influenced by neighboring cultures.
+18. A town where the local economy is driven by shipbuilding.
+19. A community with a harbor that serves as a hub for trade.
+20. A village where the local folklore is rich with stories of the sea.
+21. A town known for its annual boat race festival.
+22. A settlement where the architecture is designed to withstand frequent storms.
+23. A community where the local art is inspired by the colors of the sunset over the ocean.
+24. A village where the traditional crafts are influenced by the patterns of the local flora.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Art forms or practices that involve a single performer using a traditional, handheld instrument to narrate or express cultural or historical stories through music or poetry.
+
+Here are four examples intended to follow this theme:
+1. a Japanese koto player performing a traditional epic ballad
+2. a West African griot playing the kora while recounting ancestral tales
+3. a Scottish bard reciting poetry accompanied by a clàrsach
+4. a Rajasthani musician singing folk stories with a sarangi
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a symphony orchestra performing Beethoven's Fifth
+6. a modern dance troupe interpreting a historical event
+7. a painter creating a mural depicting cultural heritage
+8. a film director producing a documentary about ancient civilizations
+9. a theater group performing a Shakespearean play
+10. a choir singing traditional hymns
+11. a DJ mixing electronic music at a festival
+12. a sculptor carving a statue of a historical figure
+13. a novelist writing a book about a cultural legend
+14. a photographer capturing images of traditional ceremonies
+15. a street artist painting graffiti inspired by folklore
+16. a puppeteer performing a traditional shadow play
+17. a jazz band improvising on a classic tune
+18. a ballet dancer performing a solo piece
+19. a poet reciting modern free verse without music
+20. a digital artist creating an animated short about history
+21. a calligrapher writing ancient texts in a traditional style
+22. a potter crafting traditional clay vessels
+23. a fashion designer creating garments inspired by cultural motifs
+24. a chef preparing a dish based on historical recipes
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

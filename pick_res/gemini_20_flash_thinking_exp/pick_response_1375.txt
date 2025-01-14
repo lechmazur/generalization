@@ -1,0 +1,33 @@
+pick_response_1375.txt
+The user wants me to score how well each candidate matches the specific theme defined by the examples, while explicitly avoiding broader interpretations suggested by the anti-examples.
+
+The core of the specific theme seems to be **physical weathering of rocks driven by ice or freeze-thaw cycles**.
+
+Let's analyze each candidate against this specific theme:
+
+*   **Candidate 1: frost shattering of canyon walls:** This directly involves ice and the breaking of rocks, aligning perfectly with the theme.
+*   **Candidate 2: oxidation of iron-rich rocks:** This is a chemical process, explicitly excluded by the anti-examples (chemical weathering).
+*   **Candidate 3: mechanical weathering from temperature changes:** While related, it's broader than just ice. It could include thermal expansion and contraction without ice.
+*   **Candidate 4: salt crystallization in desert rocks:** This is a form of physical weathering, but the driving force is salt, not ice.
+*   **Candidate 5: biological weathering from lichens:** This is a biological process, not physical weathering driven by ice.
+*   **Candidate 6: hydrothermal alteration of rocks:** This involves chemical changes due to hot water, not ice.
+*   **Candidate 7: wind erosion of desert formations:** This is physical weathering, but the agent is wind, not ice.
+*   **Candidate 8: sand blasting of rock formations:** This is physical weathering by wind-blown particles, not ice.
+
+Now, let's assign scores based on the degree of match to the specific theme:
+
+*   Candidate 1: Strong match (ice-driven physical weathering)
+*   Candidate 2: No match (chemical weathering)
+*   Candidate 3: Partial match (physical weathering, but not specifically ice)
+*   Candidate 4: Weak match (physical weathering, different agent)
+*   Candidate 5: No match (biological weathering)
+*   Candidate 6: No match (chemical weathering by water)
+*   Candidate 7: Weak match (physical weathering, different agent)
+*   Candidate 8: Weak match (physical weathering, different agent)<number>1</number><score>9</score>
+<number>2</number><score>1</score>
+<number>3</number><score>5</score>
+<number>4</number><score>3</score>
+<number>5</number><score>0</score>
+<number>6</number><score>0</score>
+<number>7</number><score>2</score>
+<number>8</number><score>3</score>

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Inventions or innovations that were initially dismissed or misunderstood but later revolutionized communication or information organization.
+
+Here are four examples intended to follow this theme:
+1. The telephone
+2. The World Wide Web
+3. The printing press
+4. The personal computer
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The steam engine
+6. The light bulb
+7. The airplane
+8. The internal combustion engine
+9. The refrigerator
+10. The sewing machine
+11. The electric motor
+12. The washing machine
+13. The microwave oven
+14. The phonograph
+15. The bicycle
+16. The camera
+17. The television
+18. The automobile
+19. The typewriter
+20. The radio
+21. The elevator
+22. The vacuum cleaner
+23. The air conditioner
+24. The dishwasher
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

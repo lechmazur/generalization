@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects containing a concealed mechanism that activates a surprising or unexpected sensory effect.
+
+Here are four examples intended to follow this theme:
+1. A seemingly ordinary book that, when opened, emits a pleasant fragrance.
+2. A decorative vase that, when touched, plays a soft melody.
+3. A picture frame that, when tilted, projects a hidden image onto the wall.
+4. A coffee mug that, when filled with hot liquid, changes its exterior color pattern.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A remote-controlled car
+6. A smartphone with touch screen
+7. A flashlight that turns on with a button
+8. A wind-up toy
+9. A musical instrument
+10. A door with a lock
+11. A television remote
+12. A car alarm system
+13. A motion sensor light
+14. A pressure cooker
+15. A blender with multiple speed settings
+16. A digital thermometer
+17. A smoke detector
+18. A vending machine
+19. A camera with a flash
+20. A laptop with a touchpad
+21. A sprinkler system
+22. A garage door opener
+23. A wristwatch with an alarm
+24. A game console controller
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

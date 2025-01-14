@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Underground cooking methods that use heated stones or rocks as the primary heat source
+
+Here are four examples intended to follow this theme:
+1. a traditional Hawaiian imu pit
+2. a Māori hāngī earth oven
+3. a Native American clambake using heated stones
+4. a Scandinavian ground oven for cooking lamb
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a gas stove
+6. a charcoal grill
+7. a solar oven
+8. a microwave
+9. a tandoor oven
+10. a wood-fired pizza oven
+11. a campfire
+12. a sous-vide machine
+13. a pressure cooker
+14. a Dutch oven
+15. a rice cooker
+16. a toaster oven
+17. a hot plate
+18. a smoker
+19. a rotisserie
+20. a slow cooker
+21. a hibachi grill
+22. a convection oven
+23. a steam cooker
+24. a fondue pot
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

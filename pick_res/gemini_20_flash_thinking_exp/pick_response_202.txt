@@ -1,0 +1,32 @@
+pick_response_202.txt
+The user wants me to identify a specific theme from the provided examples and then score a list of candidates based on how well they fit that specific theme, while explicitly avoiding broader interpretations suggested by the anti-examples.
+
+The examples all involve:
+- Indigenous North American cultures (Hopi, Iroquois, Tlingit)
+- Ceremonial dances
+- With a specific purpose (rain/fertility, healing/well-being, honoring ancestors)
+- Often involving specific regalia (masks)
+
+The anti-examples involve:
+- Broader movements or practices (Ghost Dance, Powwows)
+- Ritualistic substance use (peyote)
+
+Therefore, the specific theme seems to be: **Ceremonial dances within specific Indigenous North American cultures performed for a specific purpose, often involving distinctive regalia.**
+
+Now I need to evaluate each candidate against this specific theme:
+
+1. **The role of the shaman in indigenous cultures:** This is too broad. While shamans might be involved in the dances, the theme is about the dances themselves. Low score.
+2. **The use of sweat lodges for purification:** This is a ritualistic practice but not a dance. Low score.
+3. **Whirling Dervishes in Sufism:** This is a ceremonial dance, but it's not within Indigenous North American cultures. Low score.
+4. **The Lakota Sun Dance, a ceremony of renewal and sacrifice involving physical endurance:** This is a ceremonial dance within an Indigenous North American culture (Lakota) with a specific purpose. It fits the theme well. High score.
+5. **The Green Corn Ceremony:** This is a known ceremonial practice among Southeastern Indigenous North American tribes, often involving dances and focused on renewal and harvest. It fits the theme well. High score.
+6. **Vision quests:** This is a ritualistic practice, often involving solitude and seeking spiritual guidance, but not necessarily a dance. Medium-low score.
+7. **Rain dances performed by farmers in ancient Egypt:** This is a ceremonial dance with a specific purpose (rain), but it's not within Indigenous North American cultures. Low score.
+8. **Sand painting in Navajo healing rituals:** This is a healing ritual, but it's not a dance. Medium-low score.<number>1</number><score>2</score>
+<number>2</number><score>1</score>
+<number>3</number><score>3</score>
+<number>4</number><score>9</score>
+<number>5</number><score>8</score>
+<number>6</number><score>4</score>
+<number>7</number><score>3</score>
+<number>8</number><score>5</score>

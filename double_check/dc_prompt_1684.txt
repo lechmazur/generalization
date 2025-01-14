@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient religious practices that were adapted into modern automated systems or industrial processes while maintaining their original symbolic meaning
+
+Here are four examples intended to follow this theme:
+1. Automated crop rotation systems mirroring ancient agricultural rituals tied to celestial cycles and deities, where specific crops are planted and harvested according to algorithms based on historical planting calendars.
+2. Algorithms used in modern logistics and supply chain management that incorporate principles of ancient Mesopotamian divination practices, where the movement and distribution of goods are determined by patterns derived from the observation of natural phenomena.
+3. Automated brewing processes in modern breweries that replicate ancient Egyptian brewing rituals, where specific ingredients and timings are dictated by algorithms based on hieroglyphic instructions and symbolic representations of the brewing process.
+4. Modern architectural design software that incorporates principles of ancient Roman augury, where the placement and orientation of buildings are determined by algorithms that analyze environmental factors and simulate the flight patterns of birds.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Celebrating the winter solstice with electric lights.
+6. Using computer models to predict weather patterns.
+7. Modern interpretations of ancient myths in movies.
+8. The use of natural dyes in modern textile production.
+9. Yoga studios offering online classes.
+10. The study of ancient languages using digital tools.
+11. Museums using virtual reality to recreate historical sites.
+12. 3D printing replicas of ancient artifacts.
+13. Using renewable energy sources like solar and wind power.
+14. The practice of mindfulness meditation using mobile apps.
+15. Archeological excavations using ground-penetrating radar.
+16. The use of herbal remedies in modern medicine.
+17. Modern pagan rituals performed in natural settings.
+18. The incorporation of feng shui principles in interior design.
+19. The use of drones for aerial photography of ancient ruins.
+20. Digital reconstruction of damaged ancient texts.
+21. The study of ancient astronomical observations using modern telescopes.
+22. The use of ancient building techniques in modern construction.
+23. The revival of traditional crafts using modern tools.
+24. The use of social media to connect people with shared spiritual beliefs.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Materials or systems that facilitate the transmission of information through structured, non-linear pathways
+
+Here are four examples intended to follow this theme:
+1. Hypertext Markup Language (HTML) used in web pages
+2. Graph databases that manage and query connected data
+3. Neural networks in artificial intelligence that process information
+4. Blockchain technology for secure, distributed data transactions
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A traditional printed book
+6. A linear television broadcast
+7. A radio signal transmission
+8. A postal service delivering letters
+9. A telephone conversation
+10. A fiber optic cable
+11. A satellite communication system
+12. A Morse code transmission
+13. A newspaper article
+14. A public speech
+15. A streaming music service
+16. A live sports event broadcast
+17. A walkie-talkie communication
+18. A fax machine transmission
+19. A podcast episode
+20. A video conference call
+21. A digital billboard advertisement
+22. A printed magazine
+23. A traditional classroom lecture
+24. A cinema movie screening
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

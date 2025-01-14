@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Atmospheric phenomena that have inspired the names of luxury fashion collections from major design houses since 2010
+
+Here are four examples intended to follow this theme:
+1. Chanel's "Métiers d'Art" Pre-Fall 2017 collection, with its celestial motifs and starry embellishments.
+2. Dior's Autumn/Winter 2014 Couture collection, featuring cloud-like tulle gowns and ethereal silhouettes.
+3. Valentino's Spring/Summer 2015 Haute Couture collection, inspired by the aurora borealis and its iridescent colours.
+4. Alexander McQueen's Spring/Summer 2010 collection, showcasing storm-inspired prints and dramatic, windswept silhouettes.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A dress made of sustainable materials
+6. A handbag shaped like a seashell
+7. A collection inspired by ancient Egyptian art
+8. Shoes with floral embellishments
+9. A line of jewelry featuring gemstones
+10. A menswear collection inspired by military uniforms
+11. A collection of minimalist, monochromatic clothing
+12. A line of activewear designed for yoga
+13. A collection of children's clothing inspired by fairy tales
+14. A collection of home goods featuring geometric patterns
+15. A fragrance with notes of sandalwood and vanilla
+16. A lipstick in a vibrant red shade
+17. A collection inspired by the Roaring Twenties
+18. A line of sunglasses with mirrored lenses
+19. A collection of leather goods with embossed designs
+20. A line of watches with intricate mechanical movements
+21. A collection inspired by Japanese street style
+22. A line of denim with distressed finishes
+23. A collection of knitwear with cable-knit patterns
+24. A collection inspired by the art of Pablo Picasso
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

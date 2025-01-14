@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artificial lakes in European royal gardens that were designed to reflect architectural features and create optical illusions
+
+Here are four examples intended to follow this theme:
+1. The Grand Canal at the Palace of Versailles, France
+2. The Neptune Fountain at the Royal Palace of La Granja de San Ildefonso, Spain
+3. The Mirror Lake at Schönbrunn Palace, Austria
+4. The Water Parterre at Herrenhausen Gardens, Germany
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Serpentine in Hyde Park, London
+6. The Lake at Blenheim Palace, England
+7. The Round Pond in Kensington Gardens, London
+8. The Lake at Kew Gardens, London
+9. The Lake at Stourhead, England
+10. The Lake at Chatsworth House, England
+11. The Lake at Castle Howard, England
+12. The Lake at Powerscourt Estate, Ireland
+13. The Lake at Villa d'Este, Italy
+14. The Lake at Villa Lante, Italy
+15. The Lake at Peterhof Palace, Russia
+16. The Lake at Drottningholm Palace, Sweden
+17. The Lake at Frederiksborg Castle, Denmark
+18. The Lake at Het Loo Palace, Netherlands
+19. The Lake at Amalienborg Palace, Denmark
+20. The Lake at Neuschwanstein Castle, Germany
+21. The Lake at Montjuïc Park, Spain
+22. The Lake at Parc de la Tête d'Or, France
+23. The Lake at Tivoli Gardens, Denmark
+24. The Lake at Parc des Buttes-Chaumont, France
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

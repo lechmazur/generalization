@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient infrastructure projects that were later repurposed into modern transportation or utility corridors
+
+Here are four examples intended to follow this theme:
+1. The ancient Roman road, Via Appia, sections of which are now used as modern roads and bike paths.
+2. The Erie Canal towpath, now part of the Empire State Trail for recreational use.
+3. The ancient Persian Royal Road, parts of which are integrated into modern highways in Iran.
+4. The ancient aqueducts of Segovia, Spain, some of which have been converted into pedestrian walkways.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ancient ruins converted into museums.
+6. Modern highways built over ancient battlefields.
+7. Historical sites used for film locations.
+8. Ancient city walls turned into tourist attractions.
+9. Old railway tracks converted into hiking trails.
+10. Medieval castles repurposed as hotels.
+11. Ancient temples used for religious ceremonies.
+12. Historical forts used for military reenactments.
+13. Old factories converted into residential lofts.
+14. Ancient irrigation systems studied for archaeological research.
+15. Historical bridges maintained as heritage sites.
+16. Old mining tunnels used for tourism.
+17. Ancient amphitheaters used for modern performances.
+18. Historical lighthouses converted into museums.
+19. Old school buildings repurposed as community centers.
+20. Ancient burial sites used for educational tours.
+21. Historical prisons turned into tourist attractions.
+22. Old churches converted into concert venues.
+23. Ancient marketplaces used for modern commerce.
+24. Historical ships turned into floating museums.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

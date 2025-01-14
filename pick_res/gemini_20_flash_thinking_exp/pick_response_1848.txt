@@ -1,0 +1,31 @@
+pick_response_1848.txt
+The user wants me to evaluate how well each candidate matches the specific theme defined by the examples, and explicitly *not* the broader themes suggested by the anti-examples.
+
+The specific theme seems to be software solutions for *local retail businesses*. Key elements are:
+- **Software solution:**  All examples are software.
+- **For retail businesses:**  All examples are for businesses selling goods directly to consumers.
+- **Local/Small to Medium sized:** The examples mention "local retail businesses", "small grocery shops", and "medium-sized retail outlets". This suggests a focus on smaller scale operations.
+
+The anti-examples highlight what the theme is *not*:
+- **Not for e-commerce only:** Marketing automation for e-commerce.
+- **Not for service-based businesses:** Restaurant management.
+- **Not for individual use:** Accounting software for freelancers.
+- **Not necessarily large-scale enterprises:**  The examples are more focused on smaller businesses.
+
+Now I need to evaluate each candidate against this specific theme, using a scale of 0 to 10.
+
+Candidate 1: Event management software for conference organizers -  Not retail, not local. Score: Low.
+Candidate 2: Human resources management system for multinational companies - Not retail, not local. Score: Very low.
+Candidate 3: Project management tool for software development teams - Not retail. Score: Very low.
+Candidate 4: Inventory management software tailored for boutique stores -  Retail, and "boutique stores" fits the local/small scale. Score: High.
+Candidate 5: Enterprise resource planning system for large corporations -  Could be used by retail, but "large corporations" goes against the local/small scale. Score: Medium-low.
+Candidate 6: Supply chain management platform for manufacturing industries - Not retail. Score: Very low.
+Candidate 7: Social media management tool for influencers - Not retail. Score: Very low.
+Candidate 8: Cloud storage service for personal use - Not for businesses. Score: Very low.<number>1</number><score>1</score>
+<number>2</number><score>0</score>
+<number>3</number><score>1</score>
+<number>4</number><score>8</score>
+<number>5</number><score>3</score>
+<number>6</number><score>2</score>
+<number>7</number><score>1</score>
+<number>8</number><score>0</score>

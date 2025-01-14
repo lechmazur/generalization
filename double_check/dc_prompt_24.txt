@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or practices developed in the 15th to 16th centuries that were influenced by religious or spiritual beliefs and aimed to enhance safety or ritualistic experience.
+
+Here are four examples intended to follow this theme:
+1. Hamsa amulets worn for protection from the evil eye.
+2. Elaborate reliquaries designed to house sacred relics and enhance veneration.
+3. The printing press used to disseminate religious texts like the Bible, increasing access to spiritual teachings.
+4. Apothecary gardens cultivated by monastic orders for medicinal purposes and spiritual contemplation.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Telescope
+6. Flush toilet
+7. Matchlock musket
+8. Caravel ship
+9. Oil painting on canvas
+10. Perspective in art
+11. Sonnet form in poetry
+12. Madrigal music
+13. Globe
+14. Compass
+15. Astrolabe
+16. Crossbow
+17. Plate armor
+18. Spinning wheel
+19. Printing press used for scientific texts
+20. Herbal remedies developed through secular observation
+21. Fortified castles
+22. Cathedrals built for displaying wealth and power
+23. Secular portraiture
+24. Opera
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

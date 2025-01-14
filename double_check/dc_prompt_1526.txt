@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Mechanical systems that use spring-loaded sequential feeding mechanisms to automatically advance discrete items one at a time
+
+Here are four examples intended to follow this theme:
+1. a Pez dispenser
+2. a stapler with a spring-loaded staple magazine
+3. a mechanical pencil with a spring-loaded lead advance
+4. a gumball machine with a spring-loaded dispensing mechanism
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a conveyor belt system
+6. a vending machine with a rotating coil
+7. a manual typewriter
+8. a clock with a pendulum
+9. a bicycle gear shifter
+10. a ballpoint pen
+11. a wind-up toy
+12. a cuckoo clock
+13. a sewing machine
+14. a music box
+15. a slot machine
+16. a photocopier paper tray
+17. a rotary dial telephone
+18. a fishing reel
+19. a toaster
+20. a cash register
+21. a film camera
+22. a grandfather clock
+23. a mechanical watch
+24. a turntable
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

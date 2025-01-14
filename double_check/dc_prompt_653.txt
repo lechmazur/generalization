@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological systems designed to simulate or replicate celestial navigation techniques used by ancient civilizations
+
+Here are four examples intended to follow this theme:
+1. A software program that uses algorithms to mimic the star patterns used by Polynesian navigators for wayfinding.
+2. A virtual reality system that recreates the night sky as seen by ancient Egyptian priests for astrological purposes.
+3. An app that simulates the use of the astrolabe, a tool used by ancient Greek sailors for celestial navigation.
+4. A digital platform that replicates the methods used by the Maya civilization to predict agricultural cycles based on celestial observations.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A modern GPS navigation system used in cars.
+6. A smartphone app that provides real-time satellite imagery.
+7. A computer program that calculates the position of planets for astronomical research.
+8. A virtual planetarium that displays current night sky conditions.
+9. A navigation system used by modern ships that relies on satellite data.
+10. A software tool for designing and simulating satellite orbits.
+11. An app that tracks the International Space Station's position in real-time.
+12. A digital tool for mapping constellations visible from different parts of the world.
+13. A program that simulates the movement of stars and planets for educational purposes.
+14. A navigation app that uses augmented reality to guide users through urban environments.
+15. A system that uses machine learning to predict weather patterns based on historical data.
+16. A virtual reality experience that allows users to explore the solar system.
+17. A software that calculates the best routes for drones based on wind and weather conditions.
+18. An app that helps users identify stars and planets visible in the night sky.
+19. A digital tool for tracking the phases of the moon for planning purposes.
+20. A system that uses satellite data to monitor and predict natural disasters.
+21. A program that simulates the effects of gravity on celestial bodies for physics education.
+22. A navigation system for autonomous vehicles that uses lidar and radar technology.
+23. A software that models the impact of solar flares on Earth's atmosphere.
+24. An app that uses AI to predict the best times for stargazing based on local weather conditions.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

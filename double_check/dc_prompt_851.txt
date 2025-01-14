@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technologies that incorporate biometric data for identity verification and are regulated by international standards
+
+Here are four examples intended to follow this theme:
+1. ICAO-compliant electronic passport with facial recognition
+2. ISO/IEC standardized fingerprint scanning ATM system
+3. IEC-certified iris recognition border control gate
+4. ISO-regulated voice authentication banking system
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Apple Face ID
+6. Google reCAPTCHA
+7. Building security keycard
+8. Smartphone fingerprint unlock
+9. Digital signature pad
+10. Password manager software
+11. DNA testing kit
+12. Employee time clock
+13. Car key fob
+14. Two-factor authentication app
+15. Security camera system
+16. Handwriting recognition software
+17. Facial detection photo software
+18. Heart rate monitor
+19. Digital door lock
+20. Police fingerprint database
+21. Medical record system
+22. Student ID card
+23. Gym membership scanner
+24. Social media facial tagging
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

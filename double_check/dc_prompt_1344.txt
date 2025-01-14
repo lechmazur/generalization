@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): biological adaptations in extreme environments that involve unique molecular or structural modifications
+
+Here are four examples intended to follow this theme:
+1. The production of antifreeze proteins in the blood of Antarctic icefish to prevent freezing in subzero waters.
+2. The evolution of specialized rhodopsins in deep-sea hydrothermal vent tube worms to detect faint infrared light emitted from the vents.
+3. The synthesis of heat-shock proteins by thermophilic bacteria living in hot springs to protect their cellular machinery from thermal denaturation.
+4. The development of DNA repair mechanisms in Deinococcus radiodurans that allow it to withstand extreme levels of radiation.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Migration of birds to warmer climates during winter.
+6. Hibernation of bears during winter.
+7. Desert animals being nocturnal to avoid the heat.
+8. Camouflage of animals in their environment.
+9. A plant growing towards sunlight.
+10. The thick fur of arctic foxes.
+11. The large ears of desert foxes for heat dissipation.
+12. Webbed feet of ducks for swimming.
+13. Echolocation in bats.
+14. The streamlined body shape of dolphins.
+15. The sharp claws of eagles.
+16. The long neck of giraffes.
+17. The prehensile tail of monkeys.
+18. The venom of snakes.
+19. The bright colors of poison dart frogs.
+20. The mimicry of viceroy butterflies.
+21. The development of antibiotic resistance in bacteria.
+22. The evolution of pesticide resistance in insects.
+23. Succulents storing water in their leaves.
+24. Deciduous trees shedding their leaves in autumn.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

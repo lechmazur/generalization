@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Annual festivals or celebrations that prominently feature paper decorations hung from above to represent celestial objects
+
+Here are four examples intended to follow this theme:
+1. Mid-Autumn Festival lanterns in Singapore
+2. Tanabata paper stars in Japan
+3. Mexican Christmas Las Posadas paper star piñatas
+4. Taiwan Lantern Festival sky lanterns
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Diwali oil lamps
+6. Chinese New Year door decorations
+7. Valentine's Day paper hearts on walls
+8. Mardi Gras beaded necklaces
+9. Christmas tree ornaments
+10. Halloween paper ghosts
+11. Easter egg trees
+12. Fourth of July bunting
+13. Cinco de Mayo papel picado
+14. New Year's Eve confetti
+15. Birthday party streamers
+16. Wedding paper flower walls
+17. Carnival masks
+18. Holi powder throws
+19. Day of the Dead paper flags
+20. Oktoberfest garlands
+21. St. Patrick's Day shamrock decorations
+22. Lunar New Year red envelopes
+23. Ramadan crescents
+24. Festival of Lights floating candles
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

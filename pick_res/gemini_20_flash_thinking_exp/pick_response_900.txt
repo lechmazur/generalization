@@ -1,0 +1,32 @@
+pick_response_900.txt
+The user has provided examples and anti-examples of a specific theme. I need to identify the specific theme and then evaluate a list of candidates based on how well they fit that specific theme, avoiding broader interpretations.
+
+The examples are:
+- polyethylene micrometer
+- nylon caliper
+- plastic tape measure
+
+The anti-examples are:
+- wooden yardstick
+- metal protractor
+- steel ruler
+
+The specific theme seems to be measuring instruments made primarily of plastic or synthetic polymer. The anti-examples are measuring instruments made of other materials (wood, metal) or instruments that measure angles rather than linear dimensions.
+
+Now I need to evaluate the candidates based on this specific theme:
+
+1. a glass thermometer - Measures temperature, not linear dimensions, and is made of glass. Score: 1
+2. a polycarbonate ruler - Measures linear dimensions and is made of plastic. Score: 9
+3. a rubber level - Measures level, not linear dimensions, and is made of rubber. Score: 2
+4. a multi-material vernier caliper - Measures linear dimensions but is multi-material, likely including metal parts. Score: 6
+5. a brass micrometer - Measures linear dimensions but is made of metal. Score: 3
+6. a leather measuring tape - Measures linear dimensions but is made of leather. Score: 4
+7. a fabric tape measure - Measures linear dimensions and is made of fabric (a flexible material, but not plastic). Score: 7
+8. a ceramic caliper - Measures linear dimensions but is made of ceramic. Score: 3<number>1</number><score>1</score>
+<number>2</number><score>9</score>
+<number>3</number><score>2</score>
+<number>4</number><score>6</score>
+<number>5</number><score>3</score>
+<number>6</number><score>4</score>
+<number>7</number><score>7</score>
+<number>8</number><score>3</score>

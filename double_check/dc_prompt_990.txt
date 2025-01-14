@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that represent a fusion of historical significance and mathematical symmetry, where each element embodies a transformative shift in its respective field.
+
+Here are four examples intended to follow this theme:
+1. The Antikythera mechanism
+2. The Fibonacci spiral
+3. The Platonic solids
+4. The Golden Rectangle
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Rosetta Stone
+6. The abacus
+7. The compass
+8. The sundial
+9. The pyramids
+10. Pascal's triangle
+11. The astrolabe
+12. The printing press
+13. The wheel
+14. The pendulum
+15. The telescope
+16. The double helix
+17. The periodic table
+18. The binary system
+19. The steam engine
+20. The microscope
+21. The Roman arch
+22. The calendar
+23. The number zero
+24. The magnetic compass
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

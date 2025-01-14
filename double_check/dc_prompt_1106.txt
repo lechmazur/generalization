@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or concepts that combine elements of mythology, technology, and natural phenomena to create symbolic or functional hybrids.
+
+Here are four examples intended to follow this theme:
+1. A cybernetic phoenix that harnesses solar energy to regenerate and power advanced technology.
+2. A trident-shaped satellite that controls weather patterns and symbolizes the power of the sea god.
+3. A bioengineered tree that communicates through a network of roots, embodying the spirit of a forest deity.
+4. A mechanical dragonfly that uses electromagnetic fields to mimic the mythical properties of flight and transformation.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A smartphone with a sleek design inspired by ancient Egyptian hieroglyphs.
+6. A wind turbine painted with scenes from Greek mythology.
+7. A genetically modified flower that changes color based on environmental conditions.
+8. A robot designed to mimic the movements of a mythological creature.
+9. A virtual reality game set in a world where technology and nature coexist harmoniously.
+10. A sculpture that combines elements of modern architecture and ancient ruins.
+11. A drone that monitors natural disasters and is named after a god of storms.
+12. A wearable device that tracks fitness and is styled after a mythical amulet.
+13. A painting that depicts a futuristic cityscape with elements of folklore.
+14. A genetically engineered animal that glows in the dark, inspired by bioluminescent creatures.
+15. A musical instrument that uses technology to replicate the sounds of nature.
+16. A piece of jewelry that incorporates microchips and is designed to resemble a mythical creature.
+17. A building that uses solar panels and is adorned with statues of gods and goddesses.
+18. A video game where players control characters with powers derived from natural elements.
+19. A car designed with aerodynamic shapes inspired by mythological birds.
+20. A fashion line that combines traditional fabrics with modern technology.
+21. A bridge that uses advanced materials and is named after a deity of travel.
+22. A film that explores the relationship between technology and the natural world.
+23. A piece of furniture that uses sustainable materials and is designed to resemble a mythical tree.
+24. A software application that uses algorithms to predict weather patterns and is named after a weather god.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

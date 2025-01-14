@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Architectural structures that incorporate both avant-garde design principles and functional elements inspired by speculative fiction genres.
+
+Here are four examples intended to follow this theme:
+1. A building with fluid, organic curves resembling a spaceship, featuring solar panel arrays shaped like alien wings.
+2. A skyscraper with a gravity-defying cantilevered design, incorporating holographic displays and AI-driven environmental controls.
+3. A museum with a fractal-like exterior and interior spaces that simulate zero-gravity environments for immersive art installations.
+4. A residential complex with modular, transformable units inspired by futuristic habitats, blending seamlessly with augmented reality interfaces.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A Gothic cathedral with intricate stained glass windows.
+6. A traditional Japanese tea house with sliding paper doors.
+7. A Roman aqueduct with stone arches.
+8. A modern glass office building with open floor plans.
+9. A medieval castle with turrets and a moat.
+10. A geodesic dome used as a greenhouse.
+11. A Brutalist concrete apartment complex.
+12. A Victorian-era mansion with ornate woodwork.
+13. A minimalist Scandinavian cabin with wooden interiors.
+14. A neoclassical government building with columns and a dome.
+15. A postmodern art museum with asymmetrical shapes.
+16. A colonial-style house with a wrap-around porch.
+17. A high-tech research facility with cleanroom environments.
+18. A Renaissance palace with frescoed ceilings.
+19. A prefabricated modular home with eco-friendly materials.
+20. A futuristic-looking airport terminal with sweeping curves.
+21. A traditional adobe house in the Southwest.
+22. A steel-framed skyscraper with a glass curtain wall.
+23. A log cabin in a forest setting.
+24. A contemporary art gallery with white walls and track lighting.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

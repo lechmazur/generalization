@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects designed for personal use that incorporate a hidden compartment accessible only through manipulation of a seemingly innocuous feature.
+
+Here are four examples intended to follow this theme:
+1. A hairbrush with a removable top section concealing a small cavity for storing jewelry.
+2. A hollowed-out book with a false spine, designed to hold valuables on a bookshelf.
+3. A walking stick with a concealed compartment in the handle, accessed by twisting the handle's base.
+4. A wall clock with a hidden compartment behind the clock face, opened by rotating the minute hand to a specific position.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A decoy safe
+6. A hollowed-out rock in a garden
+7. A false-bottom drawer
+8. A hidden room behind a bookcase
+9. A floor safe covered by a rug
+10. A compartment under a loose floorboard
+11. A secret passage behind a fireplace
+12. A hollowed-out statue
+13. A painting concealing a safe
+14. A false wall in a basement
+15. A lockbox
+16. A bank vault
+17. A safety deposit box
+18. A buried treasure chest
+19. A hollowed-out tree stump
+20. A secret compartment in a car
+21. A hidden pocket in a jacket
+22. A money belt
+23. A zippered compartment in a suitcase
+24. A locked diary
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

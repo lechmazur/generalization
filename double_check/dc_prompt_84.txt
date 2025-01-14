@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Ancient manuscripts that incorporate both pictographic and phonetic writing systems to convey historical narratives.
+
+Here are four examples intended to follow this theme:
+1. The Dresden Codex, a Mayan manuscript that uses both glyphs and phonetic elements to record astronomical and historical events.
+2. The Oracle Bone Script from ancient China, which combines pictographs with phonetic characters to document divinations and historical records.
+3. The Egyptian Book of the Dead, utilizing hieroglyphs that include both pictographic and phonetic elements to narrate the journey of the soul after death.
+4. The Voynich Manuscript, which some theories suggest uses a combination of pictographic and phonetic symbols to convey historical or alchemical narratives.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Ancient Greek pottery with only pictorial scenes depicting myths.
+6. The Dead Sea Scrolls, written in Hebrew and Aramaic scripts without pictographic elements.
+7. The Rosetta Stone, featuring three scripts but not specifically used for historical narratives.
+8. Medieval illuminated manuscripts with illustrations and Latin text.
+9. The Epic of Gilgamesh, written in cuneiform script without pictographic elements.
+10. The Codex Atlanticus by Leonardo da Vinci, containing sketches and notes in mirror writing.
+11. The Beowulf manuscript, written in Old English without pictographic elements.
+12. The Book of Kells, an illuminated manuscript with Latin text and decorative elements.
+13. The Magna Carta, a legal document written in Latin without pictographic elements.
+14. The Domesday Book, a survey of England written in Latin without pictographic elements.
+15. The Lindisfarne Gospels, featuring Latin text with decorative elements but no pictographs.
+16. The Codex Sinaiticus, a Greek manuscript of the Christian Bible without pictographic elements.
+17. The Diamond Sutra, a Chinese Buddhist text printed in 868 CE without pictographic elements.
+18. The Codex Borgia, an Aztec manuscript with pictorial elements but no phonetic writing.
+19. The Vinland Map, a controversial document with Latin text and a map but no pictographs.
+20. The Codex Leicester, a scientific manuscript by Leonardo da Vinci with sketches and notes.
+21. The Codex Mendoza, an Aztec manuscript with pictorial elements but primarily used for administrative purposes.
+22. The Nag Hammadi library, a collection of early Christian and Gnostic texts without pictographic elements.
+23. The Codex Telleriano-Remensis, an Aztec manuscript with pictorial elements but no phonetic writing.
+24. The Shahnameh, a Persian epic poem with illustrations but written in Arabic script without pictographs.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

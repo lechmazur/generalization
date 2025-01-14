@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Concepts or places that embody paradoxical or contradictory characteristics, yet maintain a coherent identity or function.
+
+Here are four examples intended to follow this theme:
+1. The city of Las Vegas, known for its vibrant nightlife and strict gambling laws
+2. A monastery that serves as both a place of solitude and a bustling tourist attraction
+3. A museum dedicated to the history of war that promotes peace and reconciliation
+4. A national park that is both a protected wilderness and a popular recreational area
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A hybrid car that runs on both electricity and gasoline
+6. A restaurant that serves both vegan and non-vegan dishes
+7. A book that is both a novel and a historical account
+8. A building that serves as both a school and a community center
+9. A festival that celebrates both music and art
+10. A company that produces both consumer electronics and industrial equipment
+11. A person who is both an athlete and a scholar
+12. A film that is both a comedy and a drama
+13. A park that is both a place for relaxation and exercise
+14. A store that sells both new and used items
+15. A magazine that covers both fashion and politics
+16. A device that functions as both a phone and a camera
+17. A course that teaches both theory and practical skills
+18. A meal that is both healthy and indulgent
+19. A city known for both its historical landmarks and modern architecture
+20. A software that is both free and premium
+21. A beach that is both a public space and a private resort
+22. A play that is both a tragedy and a comedy
+23. A garden that is both a place for cultivation and relaxation
+24. A conference that focuses on both technology and business
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Items worn by professionals that display visible signs of their trade's typical wear and tear
+
+Here are four examples intended to follow this theme:
+1. A chef's white coat stained with tomato sauce and grease
+2. A carpenter's worn-out tool belt with frayed edges and sawdust embedded in the fabric
+3. A painter's overalls splattered with various colors of paint
+4. A gardener's well-worn boots caked with mud and dirt
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A doctor's stethoscope
+6. A lawyer's briefcase
+7. A firefighter's helmet
+8. A police officer's badge
+9. A nurse's scrubs (clean)
+10. A teacher's textbook
+11. A musician's instrument
+12. An athlete's jersey
+13. A scientist's lab coat (clean)
+14. A writer's pen
+15. A programmer's keyboard
+16. An architect's blueprints
+17. An engineer's hard hat
+18. A pilot's uniform
+19. A flight attendant's scarf
+20. A cashier's name tag
+21. A librarian's glasses
+22. A chef's knife
+23. A mechanic's wrench
+24. A construction worker's safety vest
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

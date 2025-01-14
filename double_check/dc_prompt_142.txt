@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Objects or structures that were deliberately designed to be temporary homes for wandering populations but ended up becoming permanent settlements
+
+Here are four examples intended to follow this theme:
+1. Refugee camps established after World War II, some of which still exist today
+2. Mining towns initially built with temporary housing that transitioned into permanent communities
+3. Military outposts in frontier regions that evolved into settled towns and cities
+4. Labor camps for large construction projects, like dams or railroads, that later became established settlements
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A nomadic yurt
+6. A recreational vehicle (RV)
+7. A cruise ship
+8. A hotel
+9. A summer cottage
+10. A medieval castle
+11. A college dormitory
+12. A prison
+13. A hospital
+14. An embassy
+15. A tent used for camping
+16. A shanty town built without planning permission
+17. A planned city built from scratch
+18. A ghost town abandoned after a gold rush
+19. A seasonal ski resort
+20. A research station in Antarctica
+21. An oil rig
+22. A traveling circus
+23. A pop-up shop
+24. A temporary art installation
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

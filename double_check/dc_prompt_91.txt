@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Artistic expressions that caused significant public controversy or backlash at their initial presentation
+
+Here are four examples intended to follow this theme:
+1. Sergei Eisenstein's film "Battleship Potemkin" (1925)
+2. Andres Serrano's photograph "Piss Christ" (1987)
+3. Chris Ofili's painting "The Holy Virgin Mary" (1996)
+4. Dennis Cooper's novel "Frisk" (1991)
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. The Beatles' album "Sgt. Pepper's Lonely Hearts Club Band" (1967)
+6. Picasso's painting "Les Demoiselles d'Avignon" (1907)
+7. James Joyce's novel "Ulysses" (1922)
+8. Salvador Dalí's painting "The Persistence of Memory" (1931)
+9. Bob Dylan's electric performance at the Newport Folk Festival (1965)
+10. Marcel Duchamp's "Fountain" (1917)
+11. Stravinsky's ballet "The Rite of Spring" (1913)
+12. Beethoven's Symphony No. 9 (1824)
+13. Jackson Pollock's drip paintings (1940s-1950s)
+14. Elvis Presley's performance on The Ed Sullivan Show (1956)
+15. The Sex Pistols' single "God Save the Queen" (1977)
+16. Andy Warhol's Campbell's Soup Cans (1962)
+17. The film "The Exorcist" (1973)
+18. The musical "Hair" (1967)
+19. The film "A Clockwork Orange" (1971)
+20. The novel "Lolita" by Vladimir Nabokov (1955)
+21. The film "The Last Temptation of Christ" (1988)
+22. The play "Angels in America" by Tony Kushner (1991)
+23. The film "Brokeback Mountain" (2005)
+24. The television show "All in the Family" (1971-1979)
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

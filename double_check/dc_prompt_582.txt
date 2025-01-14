@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Physical objects given as diplomatic gifts between heads of state documented before 1800 CE.
+
+Here are four examples intended to follow this theme:
+1. A mechanical clock gifted by Louis XIV of France to the Siamese King Narai in 1686.
+2. A silver nef, or ship, given by the Republic of Venice to Charles VI of France in 1381.
+3. A pair of falcons sent by the Sultan of Egypt to Frederick II, Holy Roman Emperor, in 1229.
+4. A bejeweled sword presented by Shah Abbas I of Persia to Tsar Boris Godunov of Russia in 1605.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A peace treaty signed between two nations.
+6. A portrait of a monarch.
+7. A letter of diplomatic correspondence.
+8. A royal marriage arranged between two ruling families.
+9. Land ceded in a treaty.
+10. Military support offered in times of war.
+11. A trade agreement established between two countries.
+12. An ambassador appointed to a foreign court.
+13. A cultural exchange program between two nations.
+14. A state visit by a head of state.
+15. A gift given between private citizens of different countries.
+16. A donation to a foreign charity.
+17. A book written about international relations.
+18. A piece of art commissioned by a foreign government.
+19. A scientific discovery shared between researchers of different nationalities.
+20. A musical performance given for a visiting dignitary.
+21. A sporting event hosted by a foreign nation.
+22. A religious relic gifted to a church in another country.
+23. A rare plant specimen given to a botanical garden.
+24. A livestock animal given as a tribute.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

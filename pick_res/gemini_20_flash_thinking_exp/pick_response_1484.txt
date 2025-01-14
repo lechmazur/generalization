@@ -1,0 +1,35 @@
+pick_response_1484.txt
+The user has provided examples and anti-examples of a specific theme related to lakes. The examples are Lake Powell, Lake Mead, and Lake Volta. The anti-examples are Lake Victoria, Lake Tanganyika, and Lake Malawi. The task is to score a list of candidate lakes based on how well they fit the specific theme, avoiding broader interpretations.
+
+The examples are all artificial reservoirs created by dams. The anti-examples are all large, natural lakes, primarily in Africa.
+
+Therefore, the specific theme is "artificial reservoirs created by dams".
+
+Now, I need to evaluate each candidate lake based on this specific theme and assign a score from 0 to 10.
+
+*   **Lake Baikal:**  A very large, ancient, natural lake. Score: 0
+*   **Lake Nasser:** Created by the Aswan High Dam. Score: 10
+*   **Lake Huron:** One of the Great Lakes, a large natural lake. Score: 1
+*   **Lake Erie:** One of the Great Lakes, a large natural lake. Score: 1
+*   **Lake Michigan:** One of the Great Lakes, a large natural lake. Score: 1
+*   **Lake Ontario:** One of the Great Lakes, a large natural lake. Score: 1
+*   **Lake Superior:** One of the Great Lakes, a large natural lake. Score: 1
+*   **Lake Titicaca:** A large, natural lake in the Andes. Score: 0
+
+Re-evaluating to ensure granularity and avoid polarization. While the Great Lakes are natural, their water levels are somewhat managed by control structures. This might warrant a slightly higher score than a purely natural lake like Baikal or Titicaca.
+
+*   **Lake Baikal:**  Natural, ancient. Score: 0
+*   **Lake Nasser:** Artificial reservoir. Score: 10
+*   **Lake Huron:** Natural, but with some level of water level management. Score: 2
+*   **Lake Erie:** Natural, but with some level of water level management. Score: 2
+*   **Lake Michigan:** Natural, but with some level of water level management. Score: 2
+*   **Lake Ontario:** Natural, but with some level of water level management. Score: 2
+*   **Lake Superior:** Natural, but with some level of water level management. Score: 2
+*   **Lake Titicaca:** Natural, high altitude. Score: 0<number>1</number><score>0</score>
+<number>2</number><score>10</score>
+<number>3</number><score>1</score>
+<number>4</number><score>1</score>
+<number>5</number><score>1</score>
+<number>6</number><score>1</score>
+<number>7</number><score>1</score>
+<number>8</number><score>0</score>

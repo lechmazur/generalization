@@ -1,0 +1,27 @@
+Here are three examples of a specific theme, rule, category, or criterion (referred to as "theme"):
+In "The Phenomenological Detective," a private investigator uses the concept of intentionality to understand the motives behind a series of art thefts, constantly reflecting on how the thieves perceive the value of the stolen pieces.
+In "The Husserlian Inquiry," an amateur sleuth delves into a missing person case, employing Husserl's phenomenological reduction to strip away assumptions and focus on the pure experience of the disappearance.
+"The Existential Enigma" features a detective who uses Sartre's existential phenomenology to investigate a corporate espionage case, exploring how the suspects' sense of freedom and responsibility shapes their actions.
+
+Here are three anti-examples that do not match this specific theme but can match a broader theme. They could follow various more general versions of this theme, or of themes that are connected, linked, associated with the specific theme BUT they are not examples of the exact theme. They are purposefully chosen to be misleading:
+In "The Psychological Profile," a detective uses Freudian psychoanalysis to understand a criminal's mind.
+In "The Ethical Dilemma," a detective grapples with moral philosophy while solving a case.
+"The Rational Detective" follows a logician who applies deductive reasoning to solve a murder mystery.
+
+Your task is to evaluate the candidates below on a scale of 0 (worst match) to 10 (best match) based on how well they match just the specific theme identified from the examples but not with the broader, related, or general theme based on the anti-examples. For each candidate, output its score as an integer. These scores will be used for rankings, so ensure they are granual, nuanced, graded, continuous and not polarized (so not just 0s and 10s). Use the full range of possible scores (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), not a limited range (e.g. nothing but 0s or 1s). Follow this format:
+<number>1</number><score>3</score>
+<number>2</number><score>7</score>
+...
+<number>8</number><score>4</score>
+
+No additional comments are needed. Do not output the theme itself. Output English ONLY. You must use the specified tags.
+
+Candidates:
+1. In "The Artistic Mystery," a detective solves a crime involving stolen artworks but does not engage with phenomenology.
+2. In "The Behavioral Sleuth," a profiler uses behavioral analysis to track down a serial killer.
+3. "The Sociological Sleuth" involves a sociologist who investigates a crime by studying social structures.
+4. In "The Mind's Eye," a psychologist uses cognitive theories to solve a series of psychological crimes.
+5. In "The Linguistic Puzzle," a linguist helps solve a kidnapping case by analyzing the language used in ransom notes.
+6. "The Psychological Thriller" follows a detective who uses psychological tactics to catch a criminal, but not phenomenology.
+7. "The Case of the Embodied Mind" follows a retired police detective who applies Merleau-Ponty's theories of embodiment to solve a murder, focusing on how the physical environment influenced the killer's actions. <<LEFTOVER>>
+8. In "The Political Plot," a detective uncovers a political conspiracy without referencing phenomenology.

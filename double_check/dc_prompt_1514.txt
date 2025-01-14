@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Transparent or translucent organisms that create shifting patterns of colored light through their natural movements
+
+Here are four examples intended to follow this theme:
+1. Certain species of jellyfish that display iridescent colors when they move through the water
+2. Some types of squid that change colors and create light patterns as they swim
+3. Certain comb jellies that refract light into rainbow patterns as they move
+4. Some species of deep-sea fish that have bioluminescent organs creating shifting light patterns
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Stained glass windows that change color with the movement of the sun
+6. Disco balls that reflect and scatter light in various directions
+7. Chameleons that change color based on their environment and mood
+8. Iridescent beetle wings that shimmer in the light
+9. Soap bubbles that create rainbow patterns when they move
+10. Peacock feathers that display vibrant colors when the bird moves
+11. Oil slicks on water that create shifting patterns of color
+12. Holographic stickers that change appearance with angle of view
+13. Light shows at concerts that create dynamic patterns of color
+14. Auroras that display shifting patterns of light in the sky
+15. Fireworks that create colorful, moving patterns in the night sky
+16. Laser light shows that project moving patterns of color
+17. LED screens that display changing patterns of light and color
+18. Prism glasses that split light into colorful patterns
+19. Kaleidoscopes that create shifting patterns of color when turned
+20. Iridescent fabrics that change color with movement
+21. Opal gemstones that display shifting colors with movement
+22. Butterfly wings that shimmer and change color in flight
+23. Car paint with color-shifting properties that change with angle
+24. Rainbows that appear to shift and move with the observer's position
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

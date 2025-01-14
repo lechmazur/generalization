@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Automated systems that collect and process data about natural disasters to predict future occurrences
+
+Here are four examples intended to follow this theme:
+1. A system using satellite imagery and weather patterns to forecast hurricane landfalls.
+2. A network of seismic sensors analyzing ground vibrations to predict earthquake aftershocks.
+3. An AI model processing social media data and news reports to identify early signs of wildfires.
+4. A platform integrating river level data and rainfall measurements to anticipate flood events.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A weather app displaying current temperature and wind speed.
+6. A seismograph recording ground motion.
+7. A news report about a recent hurricane.
+8. A social media post about a wildfire evacuation.
+9. A database of historical flood events.
+10. A scientist studying the effects of climate change.
+11. A government agency providing disaster relief.
+12. A software program simulating tsunami propagation.
+13. A research paper on earthquake prediction methods.
+14. A documentary about volcanic eruptions.
+15. A website tracking asteroid trajectories.
+16. A mobile app for reporting storm damage.
+17. A sensor network monitoring air quality.
+18. A computer model predicting landslide susceptibility.
+19. A satellite measuring sea surface temperatures.
+20. A buoy collecting ocean current data.
+21. A weather balloon measuring atmospheric pressure.
+22. A radar system tracking storm clouds.
+23. A drone surveying a flood-affected area.
+24. A geologist studying rock formations.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

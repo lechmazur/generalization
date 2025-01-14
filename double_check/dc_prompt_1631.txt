@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Naturally occurring phenomena that create sustained, audible frequencies below 20 Hz while maintaining a consistent rhythm
+
+Here are four examples intended to follow this theme:
+1. ocean waves breaking on a beach
+2. volcanic tremors
+3. glacier movement
+4. wind through mountain passes
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. thunder
+6. whale songs
+7. waterfall sounds
+8. earthquake vibrations
+9. wind chimes
+10. tree branches creaking
+11. subway rumbling
+12. helicopter blades
+13. diesel engine idling
+14. church bells
+15. avalanche
+16. rain on a roof
+17. geysers erupting
+18. rock slides
+19. cave echoes
+20. tectonic plate movement
+21. meteor entry sounds
+22. aurora sounds
+23. forest fire roaring
+24. ice cracking
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

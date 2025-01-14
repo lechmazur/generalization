@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Innovative architectural designs that integrate both functional and artistic elements to address social issues
+
+Here are four examples intended to follow this theme:
+1. A building designed with integrated vertical gardens to combat urban heat islands and promote community interaction.
+2. A multi-use structure that serves as both a homeless shelter and an art gallery, using recycled materials to highlight sustainability and social issues.
+3. An architectural design featuring movable walls that transform public spaces into emergency shelters during natural disasters, also serving as a community hub for cultural events.
+4. A school building with an innovative layout that encourages collaborative learning and includes public spaces for community education on social issues like health and environmental awareness.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. A skyscraper with a unique glass facade that reflects the surrounding environment.
+6. A bridge designed with aesthetic lighting to enhance its visual appeal at night.
+7. A museum dedicated to modern art with a focus on interactive exhibits.
+8. A residential complex with energy-efficient features like solar panels.
+9. A public park designed with sculptures that serve as play structures for children.
+10. A community center that hosts workshops on various topics including art and technology.
+11. A library with an open floor plan to encourage social interaction among visitors.
+12. A shopping mall with a central atrium that hosts seasonal events and performances.
+13. A sports stadium with retractable roofs to adapt to different weather conditions.
+14. A hotel with rooms designed to maximize natural light and views of the city.
+15. A concert hall with acoustics designed to enhance the musical experience.
+16. A corporate office building with ergonomic workspaces to improve employee productivity.
+17. A university campus with buildings designed to blend with the natural landscape.
+18. A hospital with patient rooms that have calming color schemes to promote healing.
+19. A restaurant with an open kitchen concept to engage diners in the cooking process.
+20. A theater with a flexible seating arrangement to accommodate different types of performances.
+21. A public transportation hub with digital displays for real-time travel information.
+22. A residential tower with a rooftop garden for residents to enjoy outdoor space.
+23. A convention center with modular walls to adapt to different event sizes and layouts.
+24. A government building with a design that symbolizes transparency and accessibility to the public.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

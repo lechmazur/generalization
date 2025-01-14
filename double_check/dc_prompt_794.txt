@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Technological innovations that were initially developed for military purposes but later found significant applications in civilian life.
+
+Here are four examples intended to follow this theme:
+1. The technology behind the internet was initially developed by the U.S. Department of Defense.
+2. Global Positioning System (GPS) technology was originally developed for military navigation.
+3. The development of duct tape was spurred by the needs of the U.S. military during World War II.
+4. Microwave ovens were an accidental discovery during radar-related research for the military.
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Inventions that were created for space exploration and later used in everyday life.
+6. Technologies developed for medical purposes that found applications in other fields.
+7. Consumer products that were inspired by science fiction.
+8. Technological advancements that were initially developed for industrial use and later adapted for home use.
+9. Innovations that were created for environmental monitoring and later used in other sectors.
+10. Technologies developed for educational purposes that found applications in the entertainment industry.
+11. Products that were initially designed for professional athletes and later became popular among amateurs.
+12. Inventions that were created for agricultural purposes and later used in other industries.
+13. Technologies developed for automotive safety that found applications in other vehicles.
+14. Innovations that were initially developed for the energy sector and later used in consumer products.
+15. Technologies that were created for telecommunications and later adapted for other uses.
+16. Products that were initially designed for the hospitality industry and later used in homes.
+17. Inventions that were created for the fashion industry and later found applications in other fields.
+18. Technologies developed for the entertainment industry that found applications in education.
+19. Innovations that were initially developed for the construction industry and later used in other sectors.
+20. Products that were created for the aviation industry and later adapted for other uses.
+21. Technologies that were developed for the maritime industry and later found applications in other fields.
+22. Inventions that were created for the mining industry and later used in other sectors.
+23. Technologies developed for the food industry that found applications in other areas.
+24. Innovations that were initially developed for the transportation industry and later used in consumer products.
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

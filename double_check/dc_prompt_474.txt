@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Consumer electronics whose primary input mechanism is a circular rotating dial with discrete detents.
+
+Here are four examples intended to follow this theme:
+1. Apple iPod Classic
+2. Logitech diNovo Mini
+3. Griffin Technology's iTrip
+4. Behringer DJX750
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. Smartphone with touchscreen
+6. Laptop with trackpad
+7. Tablet with stylus
+8. Game console with joystick
+9. Digital camera with zoom lever
+10. Smartwatch with touch interface
+11. Television with remote control
+12. Headphones with volume knob
+13. Keyboard with scroll wheel
+14. Mouse with scroll wheel
+15. E-reader with page turn buttons
+16. Portable speaker with dial volume control
+17. Car stereo with rotary knob
+18. Home theater system with remote
+19. Drone with joystick controller
+20. Virtual reality headset with hand controllers
+21. Smart home hub with voice control
+22. Fitness tracker with button interface
+23. Wireless router with reset button
+24. Printer with touch screen panel
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

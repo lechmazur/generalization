@@ -1,0 +1,45 @@
+Theme, rule, criterion, or category (referred to as "theme"): Natural rock formations that create the illusion of a manufactured structure or architectural element when viewed from a distance
+
+Here are four examples intended to follow this theme:
+1. a rock formation resembling a castle turret
+2. a cliff face that looks like a giant staircase
+3. a natural arch that appears to be a bridge
+4. a stone pillar that mimics a carved statue
+
+Your first task is to evaluate the examples above on a scale of scores 0 (least), 1, 2, 3... to 10 (most) based on how well they align with the theme and whether they don't too obviously reveal the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>6</score>
+<number>2</number><score>9</score>
+<number>3</number><score>0</score>
+<number>4</number><score>4</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+5. a sand dune shaped by wind
+6. a stalactite in a cave
+7. a glacier with crevasses
+8. a volcanic crater
+9. a coral reef formation
+10. a canyon with layered rock
+11. a geyser erupting
+12. a waterfall cascading over rocks
+13. a boulder field
+14. a limestone cave with stalagmites
+15. a mountain peak
+16. a river delta
+17. a lava flow
+18. a sinkhole
+19. a fjord
+20. a sea stack
+21. a hot spring
+22. a mud volcano
+23. a rock pool
+24. a desert butte
+
+Your second task is to evaluate candidates listed above. This time, the candidates are "anti-examples" that not meant to exemplify the specific theme but rather a theme that is more general or similar. They could be misleading the user into confusion. Anti-examples could be examples of things connected, linked, or associated to the specific theme BUT NOT examples of this specific theme (unlike earlier). Evaluate them on a scale of 0 (least), 1, 2, 3... to 10 (most) based on how well they represent this specification of not matching the specific theme but matching something broader or connected. Use the same format as before. Example:
+
+<number>5</number><score>2</score>
+<number>6</number><score>8</score>
+...
+<number>24</number><score>3</score>
+
+Do not output anything else.

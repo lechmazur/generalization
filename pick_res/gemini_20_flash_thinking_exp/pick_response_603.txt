@@ -1,0 +1,28 @@
+pick_response_603.txt
+The user has provided examples and anti-examples of a specific theme and wants me to score candidates based on how well they fit that specific theme.
+
+The examples highlight automated or semi-automated systems for handling delicate fruits, focusing on sorting, packaging, and gentle handling. Key features are automation, handling delicate produce, and often involving packaging or sorting.
+
+The anti-examples are manual tools for processing fruits or related items. This helps to distinguish the specific theme from broader themes related to fruit processing.
+
+Therefore, the specific theme is likely "automated or semi-automated systems for handling and processing delicate fruits, often involving sorting or packaging".
+
+I need to evaluate each candidate based on this specific theme, avoiding the broader theme of general fruit/food processing.
+
+Here's a breakdown of how I'll score each candidate:
+
+*   **Handheld nutcracker:**  Manual, not for delicate fruit. Score: Low.
+*   **Handheld vegetable peeler:** Manual, not for fruit. Score: Low.
+*   **Handheld herb grinder:** Manual, not for fruit. Score: Low.
+*   **Manual cheese slicer:** Manual, not for fruit. Score: Low.
+*   **High-speed wrapping device for protecting delicate peaches in foam nets:** Automated, handles delicate fruit, involves packaging. Score: High.
+*   **Handheld garlic press:** Manual, not for fruit. Score: Low.
+*   **Manual apple corer:** Manual, for fruit but not automated or involving packaging/sorting in the same way as the examples. Score: Low-Mid.
+*   **Handheld citrus squeezer:** Manual, for fruit but not automated or involving packaging/sorting in the same way as the examples. Score: Low-Mid.<number>1</number><score>1</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>1</score>
+<number>5</number><score>9</score>
+<number>6</number><score>1</score>
+<number>7</number><score>2</score>
+<number>8</number><score>2</score>
