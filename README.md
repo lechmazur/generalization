@@ -6,17 +6,21 @@ This benchmark measures how effectively various LLMs can infer a narrow or speci
 ## Visualizations
 
 ### 1. **Average Rank of the Correct Example** 
+![04_model_bar_correct_rank](https://github.com/user-attachments/assets/ec87a6f8-9ca4-44f3-be9f-d5944e829d2a)
 This bar chart displays, for each model, the **average rank** that model assigns to the true example (when placed among seven distractors). Ranks range from 1 (top score) to 8 (lowest).  
 - **Smaller bars** indicate **better** performance, because it means the correct example is consistently placed near the top.  
 - A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
 
 ### 2. **Distribution of Ranks**
+![05_model_rank_distribution](https://github.com/user-attachments/assets/656283d1-56cc-46ef-b96b-cc7e5f7c6f04)
 A more granular view of the ranks each model assigns to the leftover correct example per file, showing how stable or varied those ranks are across different themes. 
 
 ### 3. **Model–Model Correlation**
+![06_models_correlation](https://github.com/user-attachments/assets/087b8dbf-9c61-4721-892d-768352e51714)
 A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
 
 ### 4. **How Often the Correct Example is the Highest Score**
+![02_model_bar_correct_highest](https://github.com/user-attachments/assets/123c8014-e119-4518-8b5a-96ec818072de)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
 
 ## Leaderboard
@@ -41,8 +45,6 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |16|Claude 3.5 Haiku|2.25|0/810|
 |17|GPT-4o mini|2.30|0/810|
 |18|Gemma 2 27B|2.60|0/810|
-
-In the table:
 - Avg Rank is the mean ranking assigned to the correct example across 810 test files.
 - Skipped indicates how many outputs failed to parse or didn’t follow the required output format (e.g., missing <number> and <score> tags).
 
@@ -54,7 +56,7 @@ In the table:
 
 2. **Gather Examples & Anti-Examples**
 
-   For each theme, we then request four `<example>` entries that specifically fit it, plus **twenty** `<anti_example>` entries that could belong to a broader or partially overlapping category but do **not** fit the exact theme. 
+   For each theme, we then request four `<example>` entries that specifically fit it, plus 20 `<anti_example>` entries that could belong to a broader or partially overlapping category but do **not** fit the exact theme. 
 
 3. **Quality Check (“Double Check”)**  
    - We create specialized prompts that ask LLMs to *score* how well each of the **four real examples** (#1–4) matches the theme, and how well each of the **twenty anti-examples** (#5–24) fits the notion of being “broader or related but *not* the theme.”  
@@ -74,11 +76,11 @@ In the table:
 
 ### 862
 
-Examples: mathematical models, decision trees, flowcharts
+**Examples:** mathematical models, decision trees, flowcharts
 
-Anti-examples: diagrams, maps, blueprints
+**Anti-examples:** diagrams, maps, blueprints
 
-Candidates:
+**Candidates:**
 1. checklists
 2. spreadsheets
 3. weather forecasts
@@ -88,15 +90,15 @@ Candidates:
 7. summaries
 8. outlines
 
-Theme: "Concepts or systems that involve solving complex problems through simplification or abstraction"
+**Theme:** "Concepts or systems that involve solving complex problems through simplification or abstraction"
 
 ### 376
 
-Examples: clay pot, bamboo sieve, calabash gourd spoon
+**Examples:** clay pot, bamboo sieve, calabash gourd spoon
 
-Anti-examples: plastic serving spoon, rubber spatula, plastic strainer
+**Anti-examples:** plastic serving spoon, rubber spatula, plastic strainer
 
-Candidates:
+**Candidates:**
 1. cast iron skillet
 2. **wooden mortar** <- correct pick
 3. nylon cooking utensils
@@ -106,7 +108,7 @@ Candidates:
 7. silicone baking mat
 8. bamboo steamer basket
 
-Theme: "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
+**Theme:** "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
 
 
 ## Updates and Other Benchmarks
