@@ -112,5 +112,5 @@ A stacked bar chart indicating how frequently each model places the real leftove
 
 
 ## Updates and Other Benchmarks
-- Also check out the [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [LLM Deception Benchmark](https://github.com/lechmazur/deception), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), and [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent).
+- Also check out the [LLM Step Game](https://github.com/lechmazur/step_game), [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [LLM Deception Benchmark](https://github.com/lechmazur/deception), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), and [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent).
 - Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for other upcoming benchmarks and more.
