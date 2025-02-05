@@ -12,7 +12,7 @@ This chart displays, for each model, the **average rank** that model assigns to 
 - A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
 
 ### 2. **Distribution of Ranks**
-![05_model_rank_distribution](https://github.com/user-attachments/assets/2699d62b-1554-4253-a3fc-fe4726d7f621)
+![05_model_rank_distribution](https://github.com/user-attachments/assets/01b66538-5b0e-4e39-90b8-94cdef6caa95)
 A more granular view of the ranks each model assigns to the leftover correct example per file, showing how stable or varied those ranks are across different themes. 
 
 ### 3. **Model–Model Correlation**
@@ -20,7 +20,7 @@ A more granular view of the ranks each model assigns to the leftover correct exa
 A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
 
 ### 4. **How Often the Correct Example is the Highest Score**
-![02_model_bar_correct_highest](https://github.com/user-attachments/assets/cc5e3bf4-514c-4e1b-bba7-9f6e661d5f3e)
+![02_model_bar_correct_highest](https://github.com/user-attachments/assets/d0e22c53-6e92-4ce0-98bf-82f81852ffe6)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
 
 ## Leaderboard
