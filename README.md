@@ -119,6 +119,12 @@ A stacked bar chart indicating how frequently each model places the real leftove
 
 **Theme:** "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
 
+## Note
+Note that in general "verification vs. generation complexity asymmetry notions continue to hold empirically when replacing tailored algorithms with Language Models (LMs)" (https://arxiv.org/abs/2407.16831v1). "An LLM may be able to perform individual steps in a task, e.g. evidence verification, more accurately than the LLM can perform an entire task" (https://arxiv.org/abs/2306.00024). Verification tends to require fewer resources or simpler reasoning, so even very complex AI-generated benchmark items can be checked for correctness by another model with relative ease. 
+
+In our benchmark, it's trivial for top LLMs to see if an example or counterexample fits a known theme. But hide the theme, and generalizing from a few examples to one underlying concept, then picking among adversarial alternatives, gets way harder. This asymmetry lets us use LLMs for both creating and evaluating benchmark items.
+
+We also checked for self-grading bias. None detected.
 
 ## Updates and Other Benchmarks
 - Feb 4, 2025: DeepSeek R1, o3-mini (medium reasoning effort), Gemini 2.0 Flash Thinking Exp 01-21, Qwen 2.5 Max, Microsoft Phi-4, Amazon Nova Pro, Mistral Small 3, MiniMax-Text-01 added.
