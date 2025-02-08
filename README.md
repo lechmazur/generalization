@@ -6,7 +6,7 @@ This benchmark measures how effectively various LLMs can infer a narrow or speci
 ## Visualizations
 
 ### 1. **Average Rank of the Correct Example** 
-![04_model_bar_correct_rank](https://github.com/user-attachments/assets/ee916080-b643-4047-8d41-9931ea2806da)
+![04_model_bar_correct_rank](https://github.com/user-attachments/assets/537bc229-c9c1-4aab-9819-ecc2607eba05)
 This chart displays, for each model, the **average rank** that model assigns to the true example (when placed among seven distractors). Ranks range from 1 (top score) to 8 (lowest).  
 - **Smaller values** indicate **better** performance, because it means the correct example is consistently placed near the top.  
 - A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
