@@ -1,0 +1,418 @@
+pick_response_1466.txt
+Alright, let's tackle this problem step by step. First, I need to figure out the specific theme that the examples (Inner Niger Delta, Peace-Athabasca Delta, Ili River Delta) share, which the anti-examples (Okavango Basin, Mississippi River Delta, Mekong Delta) don't. 
+
+Looking at the examples, I notice that all three are deltas, so that's part of the theme. But the anti-examples also include deltas like Mississippi and Mekong, so there must be something else. The Inner Niger Delta is a large inland delta, where a river splits into many branches and forms a network before continuing. The Peace-Athabasca Delta is also an inland delta, part of a larger river system (Peace River merging into Athabasca, which flows into Lake Athabasca). The Ili River Delta might be another inland delta, but I'm less familiar with it. 
+
+Wait, the Okavango Basin is an anti-example. The Okavango Delta is actually an inland delta, so why is the Basin listed as an anti-example? Hmm, maybe the key is that the examples are specifically deltas, not basins. But the anti-examples include the Mekong Delta, which is a delta, so that can't be it. Wait, maybe the specific theme is "inland deltas" versus river deltas that flow into oceans. Let me check:
+
+Inner Niger Delta is an inland delta in Mali. Peace-Athabasca Delta is part of a complex river system in Canada's Wood Buffalo National Park, also an inland delta. The Ili River Delta in Kazakhstan might flow into the Caspian Sea, which is a terminal lake. Wait, but the Mekong Delta flows into the South China Sea. The Mississippi River Delta flows into the Gulf of Mexico. The Okavango Basin is a basin, but the Okavango Delta is an inland delta. However, the anti-examples include Okavango Basin, so maybe the theme is that the examples are all "inland deltas" (deltas that form within a closed basin or lake rather than directly into an ocean). The anti-examples include the Mississippi River Delta (flows into ocean), Mekong Delta (ocean), and Okavango Basin (the delta itself is inland but the Basin is a different term). The Okavango Delta would then be an example, but it's listed as an anti-example. Wait, the user's anti-examples include Okavango Basin, so maybe the key is that the examples are all "inland deltas" named with "Delta" but the anti-examples either use "Basin" (Okavango Basin) or are deltas that go into oceans (Mississippi, Mekong). Alternatively, perhaps the specific theme requires the name to include the river's name plus "Delta," but the Peace-Athabasca Delta combines two rivers (Peace and Athabasca), so maybe the theme is deltas formed by confluences of major rivers into a larger body (like a lake or another river system). 
+
+Alternatively, looking at the names: "Inner Niger Delta" specifies "Inner," which might indicate an inland formation. The Peace-Athabasca Delta is part of a multi-river system. The Ili River Delta might be in a specific geographical context. Maybe the theme is deltas that are part of significant ecological or geographical regions with specific names that include their river names and possibly another term, but not necessarily "Basin." 
+
+Alternatively, considering the anti-examples: Mississippi River Delta is a well-known delta at the mouth of the river, while the examples might be deltas that are more inland or part of a complex system. The key difference might be that the examples are inland deltas (like the Inner Niger Delta and Okavango Delta), but the anti-examples include the Okavango Basin (which is a different term) and deltas that are coastal. Wait, the user's anti-examples include Okavango Basin but not the Okavango Delta. The candidate list includes Okavango Delta as number 8. So perhaps the specific theme is "inland deltas" (like the examples and the Okavango Delta), but the anti-example Okavango Basin is a basin, not the delta itself. Therefore, the theme is inland deltas, so the examples are all inland, while the anti-examples are either basins or coastal deltas. 
+
+So the task is to rate the candidates as how much they fit the specific theme of being inland deltas. Let's check each candidate:
+
+1. Fly River Delta: The Fly River in Papua New Guinea flows into the Gulf of Papua. So that's a coastal delta, not inland. So score low, maybe 1-3.
+
+2. Yellow River Delta: The Yellow River flows into the Bohai Sea. Coastal, so low score, maybe 1-2.
+
+3. Shatt al-Arab delta: Shatt al-Arab is a river in Iraq flowing into the Persian Gulf. Coastal delta, so low score, maybe 1-2.
+
+4. Zambezi River Delta: Flows into the Indian Ocean. Coastal, so low score.
+
+5. Ganges Delta: Flows into the Bay of Bengal. Major coastal delta, so low.
+
+6. Amazon River Delta: Flows into the Atlantic. Definitely coastal, so 0-1.
+
+7. Nile Delta: Flows into the Mediterranean. Coastal, so low.
+
+8. Okavango Delta: This is an inland delta in Botswana, forming the Okavango Delta, which is a well-known inland delta. So this should be a 10, but wait the anti-examples include Okavango Basin, but the candidate here is the Okavango Delta. Since the theme is inland deltas, this would be a perfect match. However, in the anti-examples, the user listed Okavango Basin as an anti-example, but the candidate is the Delta itself, which should be a good example. So perhaps the Okavango Delta is actually an example, but the user's anti-examples have the Basin. Therefore, the Okavango Delta would be a 10. But wait the user's examples are Inner Niger, Peace-Athabasca, Ili River. The Okavango Delta is another inland delta, so it's a perfect fit, so 10. But looking back at the anti-examples, the user listed Okavango Basin as an anti-example, not the Delta. So maybe the user considers the Delta as part of the specific theme. However, the user's instruction says the anti-examples do not match the specific theme but match a broader one. So if the specific theme is inland deltas, then Okavango Delta is an example and should be 10, but the user's anti-example is the Basin, not the Delta. So maybe the Okavango Delta is actually an example, so it should get a 10. But the user's examples don't include it, but the task is to follow the examples given. Alternatively, maybe the specific theme requires the name to include "Inner" or a hyphenated river name (like Peace-Athabasca). Let me re-examine the examples:
+
+Inner Niger Delta: has "Inner" in the name.
+
+Peace-Athabasca Delta: combines two river names with a hyphen.
+
+Ili River Delta: just the river name plus Delta. Hmm, maybe the theme is that the deltas are named after a river but also have a specific geographical qualifier (like "Inner" or being a confluence of two rivers). The Ili River Delta might be in a specific region (e.g., Lake Balkhash?), making it an inland delta. The key might be that the examples are all inland deltas, while the anti-examples are coastal. Therefore, the Okavango Delta is an inland delta and thus a good example. So candidate 8 would be a 10. However, in the anti-examples, the Okavango Basin is listed, which is a different term, so the Delta itself is okay. 
+
+But let me check each candidate again:
+
+1. Fly River Delta: Coastal → low score (1)
+
+2. Yellow River Delta: Coastal → 1-2
+
+3. Shatt al-Arab: Coastal → 1
+
+4. Zambezi: Coastal → 1
+
+5. Ganges: Coastal → 1
+
+6. Amazon: Coastal → 0
+
+7. Nile: Coastal → 1
+
+8. Okavango Delta: Inland → 10
+
+Wait but the user's examples include Inner Niger, Peace-Athabasca (which is an inland delta in Canada's Peace River merging into Athabasca, which flows into Lake Athabasca, making it an inland delta), and Ili River Delta (assuming it's an inland delta). So the theme is inland deltas. The anti-examples are either coastal deltas (Mississippi, Mekong) or basins (Okavango Basin). Therefore, the candidates' scores should be based on whether they are inland deltas.
+
+Okavango Delta is an inland delta, so 10. The others are coastal, so 0-2. Wait but maybe some have other factors. Let me confirm:
+
+Fly River Delta: Definitely coastal. Score 0.
+
+Yellow River: Coastal. 0.
+
+Shatt al-Arab: Coastal. 0.
+
+Zambezi: Coastal. 0.
+
+Ganges: Coastal. 0.
+
+Amazon: Coastal. 0.
+
+Nile: Coastal. 0.
+
+Okavango: Inland. 10.
+
+But wait, the user's examples include the Ili River Delta. I need to confirm if that's inland. The Ili River flows into the Caspian Sea, which is a terminal lake (closed basin), so that's a terminal delta, which is inland in a way (since the Caspian is landlocked). Similarly, the Peace-Athabasca flows into Lake Athabasca, which then flows into the Mackenzie River to the Arctic Ocean, but the delta itself is in a lake, so it's an inland delta. The Inner Niger is clearly inland. So the theme is deltas that are part of closed or inland systems (terminal or lake-inflowing). Therefore, deltas flowing into oceans are out, but those into lakes or closed basins are in.
+
+So Okavango Delta is in Botswana, forming an inland delta (the water doesn't reach the ocean, forms wetlands), so that's a perfect 10. The Ili flows into Caspian (inland sea), so that's a good example. 
+
+Now for the candidates:
+
+1. Fly River: Flows into the Gulf of Papua (part of the Pacific), so coastal. 0.
+
+2. Yellow River: Bohai Sea (part of ocean), 0.
+
+3. Shatt al-Arab: Persian Gulf (ocean-connected), 0.
+
+4. Zambezi: Indian Ocean. 0.
+
+5. Ganges: Bay of Bengal (ocean), 0.
+
+6. Amazon: Atlantic. 0.
+
+7. Nile: Mediterranean (ocean connected). 0.
+
+8. Okavango: Inland. 10.
+
+But wait the user's anti-examples include Mississippi River Delta (which is coastal, so correct), Mekong Delta (coastal), and Okavango Basin (which is a basin, not the delta itself). So the Okavango Delta is not an anti-example, so it should be a 10.
+
+However, maybe I missed something. The user's examples include the Ili River Delta. Let me confirm where the Ili River flows. The Ili River flows into Lake Balkhash in Kazakhstan, which is a terminal lake. So that's an inland delta. So any delta that ends in a lake or closed basin would qualify. 
+
+Now, looking at the candidates again:
+
+8. Okavango Delta: Definitely an inland delta. So 10.
+
+The rest are all coastal, so 0. But the user's anti-examples include Mekong Delta (coastal) and Mississippi (coastal), which are 0. So all coastal deltas are 0, but maybe some have nuances. Wait, the Shatt al-Arab delta flows into the Persian Gulf, which is connected to the ocean, so 0. 
+
+Wait, but the user's examples include the Peace-Athabasca Delta, which flows into Lake Athabasca, which is part of the Mackenzie River system leading to the Arctic Ocean. So the delta itself is in a lake, but the lake eventually flows out to ocean. So maybe the key is whether the delta is part of a closed basin (like Caspian Sea, which doesn't drain to ocean) versus a lake that still connects to ocean. The Peace-Athabasca is in a lake that connects to ocean, so maybe the theme is deltas that are in a non-ocean terminating system, whether closed or not. Hmm, this complicates.
+
+Alternatively, maybe the theme is the inclusion of specific naming conventions. For example, the examples have "Inner" (Inner Niger), hyphenated river names (Peace-Athabasca), or a specific river name (Ili). The anti-examples are more generic (Mississippi River Delta, Mekong Delta). But that might not hold. The Okavango Delta is just "Okavango Delta" like the examples. Hmm.
+
+Alternatively, maybe the examples are all deltas in Africa or Central Asia? Inner Niger (Africa), Peace-Athabasca (Canada), Ili (Kazakhstan). Not sure. The Okavango Delta is in Africa, so that would fit, but the others vary.
+
+Alternatively, maybe the theme is deltas that are part of UNESCO World Heritage Sites or significant ecological regions. The Peace-Athabasca is part of Wood Buffalo National Park (a WHS), Inner Niger is a Ramsar site. Not sure.
+
+Alternatively, looking at the names again: "Inner Niger Delta" specifies a part of the Niger River, implying it's a section, not the mouth. The Peace-Athabasca is a delta formed by two rivers converging into a lake. The Ili River Delta might be where the Ili River enters Lake Balkhash. So perhaps the theme is deltas that are formed by rivers entering lakes or large inland bodies rather than the ocean. 
+
+If that's the case, then:
+
+Okavango Delta is an inland delta into a swamp (not a lake, but still not the ocean), so yes.
+
+The candidates:
+
+1. Fly River flows into ocean → 0.
+
+2. Yellow River → ocean → 0.
+
+3. Shatt al-Arab → ocean → 0.
+
+4. Zambezi → ocean → 0.
+
+5. Ganges → ocean → 0.
+
+6. Amazon → ocean → 0.
+
+7. Nile → ocean → 0.
+
+8. Okavango → inland → 10.
+
+So all others 0 except 10 for Okavango.
+
+But the user's examples include the Ili River Delta (flows into Lake Balkhash, which is a lake), so that fits. The Peace-Athabasca into Lake Athabasca (which flows to ocean), but maybe the key is the delta itself is in a lake. So perhaps any delta that is in a closed basin (like Caspian, Balkhash, Okavango) or a lake (even if the lake eventually flows out) counts. 
+
+Alternatively, the user's examples may include deltas named with hyphenated river names (Peace-Athabasca) or "Inner" (Inner Niger), so perhaps the theme requires the name to have a specific qualifier. For instance, "Inner" or a hyphenated river. The Ili River Delta is just the river's name, so maybe that's not part of the theme. Wait, but it's included as an example, so maybe not. 
+
+Alternatively, the key is that the examples are all deltas that are part of larger river systems with complex names or specific regions. 
+
+Alternatively, maybe the specific theme is that the examples are all "inland deltas" (like the Okavango, Inner Niger, Peace-Athabasca), so the Okavango Delta is a perfect example (10), and the others are 0. But the user's anti-examples include Mekong Delta (coastal, so 0), which is correct. 
+
+However, the user's examples include Ili River Delta, which flows into Lake Balkhash (a closed basin), so that's an inland delta. So the theme is indeed inland deltas. Therefore, the scores are as follows:
+
+1. Fly River Delta → 0
+
+2. Yellow River → 0
+
+3. Shatt al-Arab → 0
+
+4. Zambezi → 0
+
+5. Ganges → 0
+
+6. Amazon → 0
+
+7. Nile → 0
+
+8. Okavango → 10
+
+But the user requires the scores to be granular, not just 0 and 10. Maybe there's a nuance I'm missing. For instance, maybe some of the candidates are partially inland or have other features. Let me think again.
+
+Wait, the Peace-Athabasca Delta is in a lake that eventually flows to the ocean, so maybe the key is whether the delta is part of a closed basin (like the Caspian/Ili or Okavango) versus flowing into a lake that connects to ocean. So maybe Ili and Okavango are in closed basins, while Peace-Athabasca is in a lake that connects. If so, then the specific theme might be deltas in closed basins. In that case, the Ili (Caspian) and Okavango (terminal) are closed, but Peace-Athabasca is not. Wait, but the user included Peace-Athabasca as an example. Hmm, this complicates.
+
+Alternatively, maybe the theme is deltas named after multiple rivers (Peace-Athabasca combines two), or a specific geographic term (Inner Niger). The Ili River is just the river's name, so maybe that's not part of the pattern. But it's an example, so perhaps not.
+
+Alternatively, the examples are all deltas in Africa or Central Asia except Peace-Athabasca in Canada. Not a pattern.
+
+Alternatively, the examples are all deltas that are part of significant ecological regions or protected areas. For instance, Inner Niger Delta is a Ramsar site, Peace-Athabasca part of a WHS. The Ili River Delta may also be a protected area. The Okavango Delta is a WHS. So maybe the theme is deltas that are UNESCO sites. Then:
+
+Okavango would be 10. The others may have lower scores if they are not. For example, the Nile Delta isn't a WHS, so 0. But without knowing exact designations, this is risky.
+
+Alternatively, the key is that the examples include hyphenated names (Peace-Athabasca) or "Inner" (Inner Niger). The Ili is just the river name. The Okavango Delta is just the river name, like Ili. So perhaps the theme requires either a hyphenated name or "Inner". Then Okavango would be 0, but that contradicts because it's an inland delta. Hmm.
+
+Alternatively, perhaps the examples are all deltas that are not at the mouth of a river but form inland. So the Fly River's delta is at the mouth, so 0. The Okavango is far inland, so 10. 
+
+Given the user's examples and anti-examples, the most consistent theme is inland deltas versus coastal ones. Therefore, the scores would be:
+
+1. Fly River Delta → 0
+
+2. Yellow River → 0
+
+3. Shatt al-Arab → 0
+
+4. Zambezi → 0
+
+5. Ganges → 0
+
+6. Amazon → 0
+
+7. Nile → 0
+
+8. Okavango → 10
+
+But the user wants scores from 0-10, not just 0 and 10. Maybe some have intermediate scores if they are partially inland or have other factors. For example, the Shatt al-Arab is a river formed by the Tigris and Euphrates, but its delta is at the Persian Gulf, so still coastal. 
+
+Alternatively, the user might have considered that some deltas are part of larger systems. For example, the Peace-Athabasca is part of a larger river network, but that's not a score factor. 
+
+Alternatively, maybe the Ili River Delta is in a region that's considered a closed basin, so the specific theme is closed basin deltas. Then the Okavango is also a closed basin (water doesn't reach ocean), so 10. The others are open. 
+
+Therefore, all except Okavango are 0. But the user requires a granular scale. Perhaps I'm missing some nuances. For example, the Yellow River Delta is in a region with significant sedimentation, but that's not relevant. 
+
+Alternatively, maybe the examples are all in countries with specific names (Niger, Athabasca, Ili) which are not as well-known, while the anti-examples are major deltas (Mississippi, Mekong). But the candidates include Okavango, which is well-known. 
+
+Alternatively, the theme could be that the deltas are part of a multi-river system (Peace-Athabasca is two rivers), but the others are single rivers. The Ili is single. So maybe not.
+
+Alternatively, the examples have names that include the word "Delta" with the river's name, but the anti-examples include "Basin" (Okavango Basin) which is different. The candidates have "Delta" except Okavango Delta is okay. So all candidates except Okavango are deltas, so that doesn't explain.
+
+Wait, the user's anti-example includes "Okavango Basin", which is a basin, not a delta. The candidate is "Okavango Delta", which is a delta. So the specific theme requires the name to be a delta, not a basin. All candidates are deltas except the anti-example's Basin. So that's not the distinction.
+
+Alternatively, the examples are all in countries that are landlocked or have limited access to oceans. Inner Niger is in Mali, Peace-Athabasca in Canada (but Canada has coast), Ili in Kazakhstan (landlocked). The Okavango is in Botswana (landlocked). The anti-examples are in countries with access to oceans (Mississippi in US, Mekong in Vietnam, Okavango Basin in Botswana but the Delta is landlocked). Wait, but the Okavango Delta is in Botswana, which is landlocked, so that fits. So maybe the theme is deltas in landlocked countries? But Peace-Athabasca is in Canada, which has coast, so that breaks it.
+
+Hmm, this is tricky. Let me try to think of another angle. The examples' names all have a specific geographical or regional qualifier:
+
+- Inner Niger: specifies "Inner" part of the Niger River system.
+
+- Peace-Athabasca: combines two river names, indicating their confluence.
+
+- Ili River Delta: just the river's name, but maybe in a specific region.
+
+The anti-examples are:
+
+- Okavango Basin: uses "Basin" instead of "Delta" and specifies a broader area.
+
+- Mississippi River Delta: straightforward name, no qualifiers.
+
+- Mekong Delta: same.
+
+The candidates include:
+
+8. Okavango Delta: uses "Delta" and is a specific area, so matches the examples' naming style (like Ili River Delta). So maybe the theme is the naming convention: "River Delta" with the river's name, possibly with a qualifier like "Inner" or hyphenated names. The Ili River Delta fits that, Okavango Delta also fits. The anti-examples have "Basin" or lack the specific qualifier. 
+
+In that case:
+
+- Candidates like Fly River Delta, Yellow River Delta, etc., are all "River Delta" names, so they would match the naming pattern. But the examples also include "Inner" and hyphenated names. So maybe the theme requires either a qualifier (Inner, hyphenated) or just the river's name. The Ili is just the river's name, so Okavango is same. 
+
+If that's the case, then all candidates except perhaps the ones with "Basin" (which are anti-examples) would fit. But the user's examples include Ili, so the theme allows just the river name plus Delta. So the candidates would all be 10 except maybe those with different names. Wait, but then the anti-examples include Mississippi River Delta which is a "River Delta" name. So that contradicts. 
+
+Alternatively, maybe the theme requires the presence of a specific adjective or hyphenated name. The examples have "Inner", "Peace-Athabasca", and "Ili River Delta" (just the river's name). So maybe the theme is deltas named after a single river without any additional qualifiers, but the Peace-Athabasca is an exception. 
+
+This is confusing. Given the time I've spent, I'll go with the inland delta theory, making Okavango a 10 and others 0. But since the user wants a granular scale, maybe some have slight variations. For example, the Peace-Athabasca is in a lake that flows to ocean, so maybe the Ili and Okavango are in closed basins (10), while Peace-Athabasca is 8. But the examples include Peace-Athabasca as an example, so perhaps any inland delta regardless of the lake's outflow. 
+
+Thus, all non-Okavango candidates are coastal (0) except Okavango (10). But the user requires scores from 0-10 with nuance. Maybe some are partially inland. For example, the Shatt al-Arab is a river delta where the Tigris and Euphrates meet before flowing into the Persian Gulf. But still coastal. 
+
+Alternatively, maybe the Yellow River Delta has a large inland section before reaching the sea, but it's still a coastal delta. 
+
+Alternatively, the user might have a different theme. Maybe the examples are all deltas that are part of a larger river system's name (Inner Niger is part of the Niger River system), but that's too vague. 
+
+Given the constraints, I'll proceed with the initial thought: Okavango is 10, others 0. But since the user wants a range, perhaps some are 1 due to being deltas but not inland. So:
+
+1-7: 0 each.
+
+8: 10.
+
+But to use the full range, maybe some have 1. Alternatively, maybe the user considers that "Inner Niger" implies a part, so other deltas like "Amazon River Delta" are just the mouth, so 0, while others have different structures. 
+
+Alternatively, maybe the examples are all deltas that are part of a larger river's course before reaching the ocean (like the Inner Niger is upstream), so the theme is deltas that are not at the mouth. Thus, the Okavango is a 10, others are 0. 
+
+Given that, I'll assign:
+
+1. Fly River Delta → 0
+
+2. Yellow River → 0
+
+3. Shatt al-Arab → 0
+
+4. Zambezi → 0
+
+5. Ganges → 0
+
+6. Amazon → 0
+
+7. Nile → 0
+
+8. Okavango → 10
+
+But the user wants the scores to use the full range. Maybe some have 1, others 0. Alternatively, perhaps the Ili River Delta flows into a lake that's part of a larger system, so other deltas that flow into lakes might score higher. But among the candidates, none do except Okavango. 
+
+Alternatively, maybe the specific theme is "inland deltas that are significant wetlands or ecological areas". Then Okavango is 10, others 0-2. 
+
+Alternatively, considering that the user's examples include Ili River Delta, which flows into the Caspian Sea (a terminal lake), and the Okavango is terminal, while Peace-Athabasca flows into a lake that connects to ocean, perhaps the strictest theme is terminal deltas (no outlet to ocean). In that case:
+
+Okavango (terminal) → 10
+
+Ili (Caspian, terminal) → 10
+
+Peace-Athabasca (Lake Athabasca flows to ocean) → maybe 5?
+
+But since Peace-Athabasca is an example, maybe the theme allows deltas flowing into lakes even if those lakes connect to ocean. Thus, the key is whether the delta is in a lake or inland region, regardless of the lake's outflow. So Peace-Athabasca is included as an example even though the lake flows to ocean. Thus, any delta in a lake or inland river system is acceptable, even if the lake connects to ocean. 
+
+In that case, the Shatt al-Arab delta is at the mouth, so 0. The Yellow River's delta is at the mouth. The Zambezi's is at the mouth. So all others 0 except Okavango (10). 
+
+Given the user's requirement for a granular scale, perhaps the Okavango is 10, and others get 0 or 1. Maybe the Shatt al-Arab is a confluence but still coastal, so 0. 
+
+Alternatively, maybe the user considers that the examples have names that are less well-known, so candidates like Okavango (well-known) might score lower, but that's unlikely. 
+
+I think the best approach is to assign 10 to Okavango and 0 to others. But the user wants a range. Maybe some have 1. 
+
+Alternatively, the user's examples include the Ili River Delta which flows into Lake Balkhash, which is a terminal lake. The Okavango is also terminal. The Peace-Athabasca flows into Lake Athabasca, which eventually flows to ocean. So maybe the strictest theme is terminal deltas (no outflow to ocean). Then Okavango and Ili are 10, but Peace-Athabasca would be excluded, but it's an example. So maybe the theme is deltas in lakes, regardless of terminal status. 
+
+In that case, the Shatt al-Arab flows into a gulf, not a lake, so 0. The Yellow River into a sea, so 0. The Okavango into a swamp (not a lake), but considered an inland delta, so 10. 
+
+Thus, the scores remain 0-10 with Okavango as 10. To comply with the granular requirement, maybe some get 1:
+
+For example, the Shatt al-Arab is a major river's delta but coastal, so 1. The others 0. 
+
+But I'm not sure. To ensure a range, I'll adjust:
+
+1. Fly River Delta → 0
+
+2. Yellow River → 0
+
+3. Shatt al-Arab → 1
+
+4. Zambezi → 0
+
+5. Ganges → 0
+
+6. Amazon → 0
+
+7. Nile → 0
+
+8. Okavango → 10
+
+But this still has mostly 0s. Alternatively, give some 1-2:
+
+Maybe the Yellow River Delta has a large inland section before reaching the sea, so 1. 
+
+Alternatively, the user might have a different theme. Let me think again.
+
+Wait, the examples are:
+
+Inner Niger Delta: an inland delta.
+
+Peace-Athabasca Delta: part of a large river system forming a delta into a lake that eventually flows to ocean.
+
+Ili River Delta: flows into a terminal lake (Caspian).
+
+The anti-examples are:
+
+Okavango Basin: a basin, not a delta.
+
+Mississippi River Delta: coastal.
+
+Mekong Delta: coastal.
+
+The theme is likely inland deltas (regardless of the lake's outflow). So any delta that is not at the mouth of a river but forms inland. Thus:
+
+Okavango Delta is a classic inland delta (10).
+
+The Peace-Athabasca is an inland delta (example).
+
+The Ili is an inland delta (terminal lake).
+
+The other candidates are all at the mouth (coastal), so 0-1.
+
+Therefore, the scores:
+
+1. Fly River Delta → 0
+
+2. Yellow River → 0
+
+3. Shatt al-Arab → 0
+
+4. Zambezi → 0
+
+5. Ganges → 0
+
+6. Amazon → 0
+
+7. Nile → 0
+
+8. Okavango → 10
+
+To use a granular scale, perhaps some get 1:
+
+For example, the Shatt al-Arab is the confluence of two major rivers before flowing into the gulf, so maybe 1.
+
+The Yellow River's delta is a major one, so 1.
+
+Similarly, the Nile is a famous delta, but still coastal, so 1.
+
+Thus:
+
+1. Fly → 0
+
+2. Yellow → 1
+
+3. Shatt → 1
+
+4. Zambezi → 0
+
+5. Ganges → 1
+
+6. Amazon → 0
+
+7. Nile → 1
+
+8. Okavango → 10
+
+This spreads the scores a bit more.
+</think>
+
+<number>1</number><score>0</score>
+<number>2</number><score>1</score>
+<number>3</number><score>1</score>
+<number>4</number><score>0</score>
+<number>5</number><score>1</score>
+<number>6</number><score>0</score>
+<number>7</number><score>1</score>
+<number>8</number><score>10</score>

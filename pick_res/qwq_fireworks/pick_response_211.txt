@@ -1,0 +1,742 @@
+pick_response_211.txt
+Alright, let's tackle this problem step by step. The user provided three examples: Dakar, Accra, Luanda, and three anti-examples: Freetown, Conakry, Monrovia. The task is to determine the specific theme these examples share and then score the candidate cities based on how well they fit that theme, avoiding the broader or related themes that the anti-examples might represent.
+
+First, I need to figure out the common theme among the examples. Let's list them out:
+
+Examples:
+- Dakar: The capital of Senegal.
+- Accra: The capital of Ghana.
+- Luanda: The capital of Angola.
+
+Anti-examples:
+- Freetown: Capital of Sierra Leone.
+- Conakry: Capital of Guinea.
+- Monrovia: Capital of Liberia.
+
+Hmm, all the examples and anti-examples are capitals of African countries. But the anti-examples are not part of the specific theme. So the theme must be a more specific category than just "African capitals." Let me think of other possible commonalities.
+
+Looking at the examples again: Dakar, Accra, Luanda. Let me recall their geographical locations. 
+
+Dakar is in Senegal, which is in West Africa. Accra is in Ghana, also West Africa. Luanda is in Angola, which is in Southern Africa. Wait, maybe the theme is capitals of countries along the Atlantic coast of Africa? Let me check:
+
+- Dakar is on the Atlantic coast of Senegal.
+- Accra is on the Gulf of Guinea, which is part of the Atlantic.
+- Luanda is on the Atlantic coast of Angola.
+
+The anti-examples: Freetown (Sierra Leone) is on the Atlantic, Conakry (Guinea) also on the Atlantic, Monrovia (Liberia) as well. Wait, that can't be the theme because the anti-examples are also Atlantic coastal capitals. Hmm, so maybe that's not it.
+
+Another angle: Maybe the capitals are not the current capitals but former colonial capitals? Let's see:
+
+Senegal was a French colony, Ghana was British, Angola was Portuguese. Not sure if that's a common thread.
+
+Alternatively, perhaps the capitals are the largest cities in their countries but not the current administrative capitals? Wait, Dakar is the capital of Senegal. Accra is the capital of Ghana. Luanda is the capital of Angola. So that's not it.
+
+Wait, maybe the capitals are in countries that are members of a specific organization? Like the African Union? But all are part of the AU. Not helpful.
+
+Alternatively, looking at the names: Dakar, Accra, Luanda. Maybe they are capitals that were established as major ports? Or perhaps they are capitals that were originally founded by colonial powers?
+
+Alternatively, maybe the theme is capitals of countries that are located along the western coast of Africa but not in the Gulf of Guinea? Wait, Dakar is in West Africa, Accra in West, Luanda in Southern. Maybe the theme is capitals of countries that gained independence in a certain period? Let me check:
+
+Senegal gained independence in 1960, Ghana in 1957, Angola in 1975. Not a clear pattern.
+
+Wait another thought: The examples might be capitals that are not the original historical capitals but were moved later? For example, Dodoma is the capital of Tanzania, but the de facto capital is Dar es Salaam. Wait, but Dodoma is one of the candidates here. Wait, the user's anti-examples include Freetown, which is the actual capital. Hmm.
+
+Alternatively, perhaps the theme is capitals that are also the most populous cities in their countries? Let me check:
+
+- Dakar is the largest city in Senegal.
+- Accra is the largest city in Ghana.
+- Luanda is the largest city in Angola.
+
+But Freetown is also the largest city in Sierra Leone. Conakry in Guinea is the largest city. Monrovia is the largest in Liberia. So that might not be the differentiator.
+
+Wait, maybe the theme is capitals that are located in countries that border the Atlantic Ocean but are not part of the Gulf of Guinea? Wait, Senegal and Angola are on the Atlantic, but so are the anti-examples. Hmm.
+
+Another angle: The examples are capitals of countries that were former colonies of Portugal or France, while the anti-examples are former British colonies? Let's see:
+
+Senegal was French, Ghana was British, Angola was Portuguese. So the examples include both French and Portuguese colonies. The anti-examples: Sierra Leone (British), Guinea (French), Liberia (not a colony, but founded by freed slaves from the US). So that might not fit.
+
+Alternatively, maybe the capitals are in countries that are members of the Economic Community of West African States (ECOWAS) plus Angola? But Angola is in SADC (Southern African Development Community). ECOWAS includes countries like Senegal, Ghana, but not Angola. So that might not be.
+
+Wait, perhaps the theme is capitals that are in countries with a coastline on the Atlantic Ocean, but not on the Gulf of Guinea? Wait, the Gulf of Guinea is part of the Atlantic. Let me think of their regions again.
+
+Dakar (Senegal) is in West Africa, on the Atlantic. Accra (Ghana) same region. Luanda (Angola) is in Southern Africa, also on the Atlantic. The anti-examples: Freetown (Sierra Leone, West), Conakry (Guinea, West), Monrovia (Liberia, West). So the difference might be that the examples include a mix of West and Southern, while the anti-examples are all West. But that might not be the key.
+
+Alternatively, maybe the theme is capitals that are in countries where the official language is Portuguese or French? Let's see:
+
+- Senegal: French (former colony)
+- Ghana: English (British)
+- Angola: Portuguese (former colony)
+
+So the examples include French, English, and Portuguese. The anti-examples:
+
+- Freetown (Sierra Leone): English
+- Conakry (Guinea): French
+- Monrovia (Liberia): English
+
+Hmm, so that might not be the distinction.
+
+Wait another angle: The examples might be capitals that are also the largest cities by population. Let me check:
+
+- Dakar is the largest city in Senegal.
+- Accra is the largest in Ghana.
+- Luanda is the largest in Angola.
+
+The anti-examples:
+
+- Freetown is the largest in Sierra Leone.
+- Conakry in Guinea.
+- Monrovia in Liberia.
+
+So that's the same as the examples. So that can't be.
+
+Hmm, maybe the theme is capitals that are located in countries that are former Portuguese colonies? But Senegal (French) and Ghana (British) aren't. Only Angola is Portuguese. So that's not it.
+
+Wait, perhaps the theme is capitals that are in countries that are part of the African Union's "Group of 15" or some other grouping? Not sure.
+
+Alternatively, looking at the names of the cities themselves: Dakar, Accra, Luanda. Maybe they are capitals that have names of Bantu origin? Or from local languages?
+
+Alternatively, perhaps the theme is capitals that are located in countries that are part of the Southern African Development Community (SADC) or another regional bloc. Let's see:
+
+- Senegal is in ECOWAS (West Africa)
+- Ghana is ECOWAS
+- Angola is in SADC (Southern Africa)
+
+So the examples are from two different regions. Not helpful.
+
+Wait, another thought: Maybe the examples are capitals that are not the historical capitals but were moved later? Let's see:
+
+- Dakar has been the capital of Senegal since independence in 1960.
+- Accra has been the capital of Ghana since independence in 1957.
+- Luanda was the capital of Angola during Portuguese rule and remains so.
+
+The anti-examples:
+
+- Freetown has been the capital of Sierra Leone since independence.
+- Conakry has been Guinea's capital since independence.
+- Monrovia has been Liberia's capital since 1847.
+
+Hmm, so that might not be the case.
+
+Wait, maybe the theme is capitals that are in countries that are part of the CFA Franc monetary zone? Let's check:
+
+- Senegal uses CFA Franc (West African CFA)
+- Ghana uses the cedi (not CFA)
+- Angola uses the kwanza (they used to use the escudo, now kwanza, not CFA)
+
+Hmm, so that doesn't fit.
+
+Alternatively, maybe the examples are capitals that are located in countries that have a coastline on the Atlantic but not on the Gulf of Guinea? Wait, the Gulf of Guinea is part of the Atlantic, so that might not help.
+
+Wait, let's think of the anti-examples again: Freetown, Conakry, Monrovia. What do they have in common? They are all capitals in West Africa, on the Atlantic coast, and in countries that were former British or French colonies except Liberia (which was founded by freed slaves from the US). The examples include Dakar (Senegal, French), Accra (Ghana, British), and Luanda (Angola, Portuguese). The difference is that the anti-examples are all in West Africa, while the examples include one from Southern Africa (Luanda). So maybe the theme is "Capitals of countries that are either in West Africa or Southern Africa but excluding certain countries?" Not sure.
+
+Alternatively, perhaps the theme is capitals that are in countries that have a coastline on the Atlantic but do not border the Gulf of Guinea? Wait, the Gulf of Guinea is part of the Atlantic, so that's confusing.
+
+Wait, let me think of another approach. The user mentioned that the anti-examples follow a broader or related theme but are not the exact theme. So the key is to find a specific theme that the examples share which the anti-examples do not.
+
+Another possibility: The examples are capitals that are in countries that are members of the Community of Portuguese Language Countries (CPLP) or similar. But only Angola is Portuguese, so that's not it.
+
+Wait, maybe the theme is capitals that are in countries that were part of the Portuguese Empire? No, because Senegal and Ghana were not.
+
+Alternatively, the capitals are in countries that have a significant Muslim population? Not sure.
+
+Wait, another thought: The examples might all be capitals that are in countries that are located in the tropics. All of them are in the tropics, but the anti-examples are also in the tropics. Not helpful.
+
+Hmm, maybe the theme is capitals that are in countries that are part of the African Continental Free Trade Area (AfCFTA) but that's too broad.
+
+Alternatively, perhaps the theme is capitals that are in countries that have a coastline on the Atlantic Ocean and are part of the African Union's "Group of 24" or something else? Not sure.
+
+Wait, let's think of the names again: Dakar, Accra, Luanda. Maybe they are capitals that are also major economic hubs or have a certain type of economy? Not sure.
+
+Alternatively, maybe the theme is capitals that are in countries that are members of the UN Security Council? No, none of them are.
+
+Wait, perhaps the theme is capitals that are in countries that have a coastline on the Atlantic but are not part of the Gulf of Guinea? Let me check:
+
+- Senegal's coast is on the Atlantic, but the Gulf of Guinea is part of the Atlantic. So maybe the countries are in regions beyond the Gulf? For example, Senegal is north of the Gulf, while Angola is south. The Gulf of Guinea is between Senegal and Angola. The anti-examples (Freetown, Conakry, Monrovia) are within the Gulf of Guinea region. So perhaps the theme is capitals of countries located on the Atlantic coast but outside the Gulf of Guinea? That could be it.
+
+Let me confirm:
+
+- Senegal is in West Africa, north of the Gulf of Guinea. Its coastline is part of the Atlantic but not the Gulf.
+
+- Ghana is in the Gulf of Guinea. Wait, but Accra is in Ghana, which is part of the Gulf of Guinea. Hmm, so this contradicts. Because if the theme was outside the Gulf, then Accra wouldn't fit. So that idea is invalid.
+
+Hmm, this is tricky. Let me think again.
+
+Wait, perhaps the examples are capitals that are in countries that are former French colonies? But Accra (Ghana) was British, so that can't be.
+
+Alternatively, the theme is capitals that are in countries where the capital is also the largest city. But that applies to both examples and anti-examples, so that's not it.
+
+Wait, maybe the theme is capitals that are in countries that are part of the "Group of 15" (G15) or another grouping? Not sure.
+
+Alternatively, maybe the theme is capitals that are in countries that have a significant population of a particular ethnic group? Not sure.
+
+Wait, another angle: The examples could be capitals that are in countries that are located in regions with a particular type of climate? Like arid vs tropical? Not sure.
+
+Alternatively, perhaps the theme is capitals that are in countries that are part of the Southern African Development Community (SADC) or Economic Community of West African States (ECOWAS), but the examples include both. Senegal and Ghana are in ECOWAS, Angola is in SADC. The anti-examples are all ECOWAS countries except maybe Liberia? Wait, Liberia is in ECOWAS too. So that might not work.
+
+Wait, maybe the theme is capitals that are in countries that have a coastline on the Atlantic and are not part of the Economic Community of West African States (ECOWAS). So:
+
+- Senegal is in ECOWAS, so that would exclude it. Hmm, no.
+
+Alternatively, maybe the theme is capitals of countries that are part of the "Group of 24" or some other group. Not helpful.
+
+Wait, another thought: The examples are capitals that are in countries that have a coastline on the Atlantic Ocean and are in the southern hemisphere? Let's check:
+
+- Senegal is north of the equator.
+
+- Ghana is north.
+
+- Angola is south of the equator (Luanda is just north, but the country extends south). Wait, Luanda is at about 8°S, so technically in the southern hemisphere. Wait, actually, Luanda is in the southern hemisphere? Let me check coordinates. Luanda is at 8°50′S, so yes, it's in the southern hemisphere. Dakar is at 14°40′N, Accra is 5°35′N. So only Luanda is in the southern hemisphere. That can't be the common theme.
+
+Hmm, maybe the theme is capitals that are in countries that have a certain type of government? Like republics? But all are republics.
+
+Alternatively, maybe the theme is capitals that are in countries that are part of the African Union's "Group of 15" or something else. Not sure.
+
+Wait, perhaps the examples are capitals that are in countries that are members of the CFA Franc Zone. Let's see:
+
+- Senegal uses the West African CFA franc.
+
+- Ghana uses the cedi (not CFA).
+
+- Angola uses the kwanza (formerly the escudo, now kwanza).
+
+So only Senegal is in the CFA zone. Doesn't fit.
+
+Alternatively, maybe the theme is capitals that are in countries that are part of the "Group of 20" in Africa? Not sure.
+
+Wait, another approach: Let me look at the anti-examples again. Freetown, Conakry, Monrovia. What do they have in common that the examples don't? They are all capitals in West Africa, in countries that were former British or French colonies except Liberia (which was founded by freed American slaves). The examples include Senegal (French), Ghana (British), and Angola (Portuguese). The difference might be that the examples include a Portuguese colony (Angola), while the anti-examples are all British/French except Liberia. Wait, but Liberia is an anti-example and not a colony. Hmm.
+
+Alternatively, maybe the theme is capitals that are in countries that have a coastline on the Atlantic and are in either West or Southern Africa, but the anti-examples are only West Africa. That could be a possible theme. So the examples include both West (Dakar, Accra) and Southern (Luanda), while the anti-examples are only West. But then, how to score the candidates?
+
+Looking at the candidates:
+
+1. Asmara: Eritrea's capital. Eritrea is in the Horn of Africa (East Africa). Not on the Atlantic, so probably a low score.
+
+2. Dodoma: Tanzania's capital. Tanzania is on the Indian Ocean, not Atlantic. Low score.
+
+3. Harare: Zimbabwe's capital. Landlocked, so no Atlantic. Low score.
+
+4. Windhoek: Namibia's capital. Namibia has an Atlantic coastline. So Windhoek is in a country with Atlantic coast. But Windhoek itself is inland. Hmm, but maybe the country's coast matters?
+
+5. Gaborone: Botswana's capital. Landlocked. No.
+
+6. Moroni: Comoros' capital. Comoros is in the Indian Ocean. Not Atlantic.
+
+7. Ouagadougou: Burkina Faso's capital. Landlocked in West Africa. Not on Atlantic.
+
+8. Maputo: Mozambique's capital. Mozambique has an Indian Ocean coast. Not Atlantic.
+
+Wait, if the theme is capitals in countries with Atlantic coastline, then:
+
+Examples:
+
+- Dakar (Senegal, Atlantic)
+
+- Accra (Ghana, Atlantic)
+
+- Luanda (Angola, Atlantic)
+
+Anti-examples are also on the Atlantic (Freetown, Conakry, Monrovia). So that can't be the theme.
+
+Hmm, maybe the theme is capitals that are in countries that are former Portuguese colonies? Then only Luanda (Angola) fits. Not the others. So that's not it.
+
+Alternatively, maybe the theme is capitals that are in countries that are part of the Southern African Development Community (SADC). Let's see:
+
+- Senegal is in ECOWAS (West Africa)
+
+- Ghana in ECOWAS
+
+- Angola is in SADC.
+
+So only Luanda would fit SADC. Not all examples. Not the theme.
+
+Wait, another thought: The examples are capitals that are in countries that have a coastline on the Atlantic and are part of the African Union's "Group of 15" (G15). Not sure.
+
+Alternatively, maybe the theme is capitals that are in countries that have a certain type of economic system? Not sure.
+
+Wait, perhaps the examples are capitals that are in countries that are part of the "Group of 24" (G24) in terms of economy. Not helpful.
+
+Alternatively, maybe the theme is capitals that are in countries that are members of the OPEC? No, none of them are oil-producing countries except maybe Angola, but others aren't.
+
+Wait, let's think differently. The user said the anti-examples follow a broader or related theme. So the examples must have a very specific commonality that the anti-examples lack, but the anti-examples have a broader version or related but different.
+
+Looking at the examples again: Dakar, Accra, Luanda. Let me think of their languages:
+
+- Dakar: French is official in Senegal.
+
+- Accra: English in Ghana.
+
+- Luanda: Portuguese in Angola.
+
+The anti-examples:
+
+- Freetown: English.
+
+- Conakry: French.
+
+- Monrovia: English.
+
+So the examples include Portuguese, French, and English. The anti-examples are French and English. The difference might be that one of the examples is Portuguese, but that doesn't form a common theme for all three.
+
+Alternatively, maybe the theme is capitals that are in countries that have a significant population of a particular ethnic group, like the Bantu people. Let me see:
+
+- Senegal: Wolof, Fulani, etc. (Bantu not dominant)
+
+- Ghana: Akan, etc. (Bantu presence but not majority)
+
+- Angola: Bantu languages are dominant there.
+
+Hmm, maybe not.
+
+Wait, perhaps the theme is capitals that are in countries that have a coastline on the Atlantic and are in either West Africa or Southern Africa. The anti-examples are all in West Africa. So the examples include both regions, while the anti-examples are only West. But how does that help with scoring?
+
+If that's the case, then candidates from Southern Africa with Atlantic coasts would score higher. For example:
+
+Windhoek, Namibia (has Atlantic coast, so country qualifies, but Windhoek is inland)
+
+Maputo, Mozambique (Indian Ocean, so no)
+
+Gaborone (landlocked)
+
+Asmara (Red Sea area)
+
+Harare (landlocked)
+
+Dodoma (Indian Ocean coast, but Tanzania's coast is Indian, so no)
+
+Moroni (Indian Ocean)
+
+Ouagadougou (landlocked)
+
+So Windhoek might score higher, but others low.
+
+Alternatively, maybe the theme is capitals that are in countries that are former colonies of Portugal or France, but not Britain. But Ghana was British, so that's out.
+
+Wait, perhaps the theme is capitals that are in countries that were part of the Portuguese Empire or French, but not British. Then:
+
+- Senegal (French), Angola (Portuguese), but Ghana (British) would not fit. So that's not it.
+
+Hmm, I'm stuck. Maybe I need to look at the anti-examples again. The anti-examples are Freetown, Conakry, Monrovia. What's common among them that the examples don't have?
+
+Freetown is the capital of Sierra Leone, which is a former British colony. Conakry is Guinea's capital, former French colony. Monrovia is Liberia's capital, founded by freed American slaves. So maybe the anti-examples are capitals of countries that were former British or French colonies, except Liberia. The examples include Senegal (French), Ghana (British), Angola (Portuguese). So the difference might be that the examples include a Portuguese colony, while the anti-examples are only British/French. But that would mean the theme is including Portuguese colonies, but only Angola is, so that's not a common theme for all three.
+
+Alternatively, perhaps the theme is capitals that are in countries that have a coastline on the Atlantic and are part of the "Group of 15" (G15) in terms of economic development? Not sure.
+
+Wait, maybe the theme is capitals that are in countries that have a significant oil production? Let's see:
+
+- Angola has oil.
+
+- Senegal and Ghana have some oil, but not sure if that's the commonality.
+
+Anti-examples: Sierra Leone, Guinea, Liberia—maybe less oil? But this is speculative.
+
+Alternatively, the examples are capitals that are in countries that are part of the African Union's "Group of 15" (G15) which are middle-income countries. Not sure.
+
+Alternatively, perhaps the theme is capitals that are in countries that have a certain type of political system, like presidential republics? All are, so that's not it.
+
+Hmm, maybe I need to think of the names again. The examples are Dakar, Accra, Luanda. The anti-examples are Freetown, Conakry, Monrovia. What's the difference in the names? Maybe the examples are derived from local languages, while the anti-examples are named after people or events. Let's see:
+
+- Dakar: From Wolof "Dakhar," meaning "land's end."
+
+- Accra: From the Ga language, meaning "Friday" (the day it was founded).
+
+- Luanda: Named after the Kingdom of Ndongo, from "Lua Ndongo."
+
+Anti-examples:
+
+- Freetown: Named by British abolitionists.
+
+- Conakry: From the indigenous name "Conakry," meaning "where the Barracuda is."
+
+- Monrovia: Named after James Monroe, 5th U.S. President.
+
+Hmm, so Freetown and Monrovia are named after people or events (Monrovia after Monroe, Freetown as a reference to freed slaves), while Conakry is local. The examples all have local origins. So maybe the theme is capitals with names of local origin rather than European or English names?
+
+If that's the case, then the examples (Dakar, Accra, Luanda) have local names, while anti-examples include Freetown (English) and Monrovia (named after an American president). Conakry's name is local, so it might be an exception. But since Conakry is an anti-example, perhaps the theme is "capitals with names of indigenous/local origin excluding those named after European figures or events."
+
+If that's the case, then the candidates:
+
+1. Asmara: Eritrea's capital. Asmara comes from the Tigrinya language, meaning "market." So local origin. This would fit the theme.
+
+2. Dodoma: Tanzania's capital. From the Swahili "dodomo," meaning "calabash." Local, so fits.
+
+3. Harare: Zimbabwe's capital. Named after a Shona leader, but previously called Salisbury (British name). The current name is local, so fits.
+
+4. Windhoek: Namibia's capital. From the Afrikaans "Windhoek," meaning "windy corner," possibly from German colonial times. So European origin? Hmm, Windhoek was named by German settlers, so maybe not local. So might not fit.
+
+5. Gaborone: Botswana's capital. Named after Chief Gaborone, a Tswana leader. Local, so fits.
+
+6. Moroni: Comoros' capital. From the Comorian language, meaning "moon" or "light." Local, so fits.
+
+7. Ouagadougou: Burkina Faso's capital. From the Mossi language, meaning "where the prince is." Local, so fits.
+
+8. Maputo: Mozambique's capital. Formerly Lourenço Marques, a Portuguese name. The current name "Maputo" is from the local language, meaning "place of the flattop tree." So local origin, fits.
+
+Wait, but the anti-example Conakry has a local name, yet it's an anti-example. So maybe the key is that the examples are capitals that have names of local origin AND are in countries that were former Portuguese or French colonies? Not sure.
+
+Alternatively, maybe the theme is capitals with local names that are not named after European figures or colonial names. In that case:
+
+Anti-examples include Freetown (named by British), Monrovia (after an American), Conakry (local, so maybe an exception, but it's an anti-example so perhaps the theme excludes some local names? Not sure.
+
+Alternatively, maybe the theme is capitals that are in countries where the capital's name is of local origin and the country is in either West or Southern Africa, excluding certain regions. Not sure.
+
+Alternatively, perhaps the theme is capitals that are in countries that are former Portuguese colonies (Angola), French (Senegal), or British (Ghana), but that's too broad.
+
+This is getting too convoluted. Maybe I should consider that the examples are capitals that are in countries that are members of the African Union's "Group of 15" (G15), which are middle-income countries. Let me check:
+
+Ghana is a lower-middle income country. Senegal is lower-middle. Angola is upper-middle. The G15 includes countries like Nigeria, South Africa, Egypt, etc. Not sure if these qualify.
+
+Alternatively, maybe the theme is capitals that are in countries that are part of the "C-12" group, which includes countries in West and Central Africa. But not sure.
+
+Wait, perhaps the examples are capitals that are in countries that have a coastline on the Atlantic Ocean and are part of the African Union's "Group of 24" (G24). Not sure.
+
+Alternatively, the key is that the examples are capitals that are in countries that are part of the Economic Community of Central African States (ECCAS)? No, Senegal and Ghana are not.
+
+Wait, I'm really stuck here. Maybe I need to think of another angle. The user said that the anti-examples follow a broader theme. So perhaps the specific theme is "capitals of countries in West Africa and Southern Africa that have a coastline on the Atlantic Ocean", while the anti-examples are also on the Atlantic but only in West Africa. So the examples include both regions, making the broader theme just "Atlantic coast capitals in West Africa".
+
+If that's the case, then the candidates that are in Southern Africa with Atlantic coasts would score higher. For example:
+
+Windhoek, Namibia (Atlantic coast country, so high score)
+
+Luanda is in Angola (Southern with Atlantic), so part of the examples.
+
+The candidates:
+
+1. Asmara (Eritrea, Red Sea coast) – 0
+
+2. Dodoma (Tanzania, Indian Ocean) – 0
+
+3. Harare (landlocked) – 0
+
+4. Windhoek (Namibia, Atlantic) – 10
+
+5. Gaborone (landlocked) – 0
+
+6. Moroni (Indian Ocean) – 0
+
+7. Ouagadougou (landlocked) – 0
+
+8. Maputo (Indian Ocean) – 0
+
+But the problem is that the anti-examples (Freetown, Conakry, Monrovia) are also on the Atlantic but in West Africa, so if the theme is "Atlantic coast capitals in either West or Southern Africa", then the anti-examples would still be part of the broader theme. The specific theme might be "Southern Atlantic African capitals plus a few West", but that's not precise.
+
+Alternatively, maybe the specific theme is "capitals of countries that have a coastline on the Atlantic and are in the Southern Hemisphere". Only Luanda is in the southern hemisphere (just barely), but Dakar and Accra are in the north. So that can't be.
+
+Hmm, perhaps the answer is simpler. The examples are all capitals of countries that are part of the African Union's "Group of 15" (G15), which are middle-income countries. Let me check:
+
+- Senegal: lower-middle income.
+
+- Ghana: lower-middle.
+
+- Angola: upper-middle.
+
+The G15 includes countries like Nigeria, South Africa, but maybe these qualify. Anti-examples:
+
+- Sierra Leone (low income), Guinea (low), Liberia (low). So the theme could be "capitals of countries with middle-income status". That might fit, but I'm not sure about the exact income classifications.
+
+Alternatively, maybe the theme is capitals that are in countries that have a population over 10 million? Let me see:
+
+- Senegal: ~17 million.
+
+- Ghana: ~32 million.
+
+- Angola: ~34 million.
+
+Anti-examples:
+
+- Sierra Leone: ~8 million.
+
+- Guinea: ~13 million (close).
+
+- Liberia: ~5 million.
+
+So maybe the threshold is over 10 million. Then Guinea might be borderline. If that's the case, then the candidates:
+
+1. Asmara (Eritrea: ~4 million) – 0
+
+2. Dodoma (Tanzania: ~62 million – yes, but Dodoma is not the main city) – Wait, Tanzania's population is over 60 million. So Dodoma's country qualifies. But the capital's status might not matter.
+
+Wait, the theme is about the country's population? If so, then:
+
+Windhoek (Namibia: ~3 million) – no.
+
+Gaborone (Botswana: ~2.5 million) – no.
+
+Harare (Zimbabwe: ~16 million – yes).
+
+Maputo (Mozambique: ~33 million – yes).
+
+Ouagadougou (Burkina Faso: ~22 million – yes).
+
+Moroni (Comoros: ~0.9 million – no).
+
+So maybe Harare, Maputo, Ouagadougou would score higher. But this is speculative.
+
+Alternatively, perhaps the theme is capitals that are in countries that are part of the African Union's "Group of 24" (G24), which includes countries with significant economic potential. Not sure.
+
+This is really challenging. Maybe I should consider that the examples are capitals that are in countries that are members of the African Union's "Group of 15" (G15), but I can't confirm.
+
+Alternatively, I'll try to consider that the specific theme is "capitals of countries in West Africa and Southern Africa that are on the Atlantic coast, excluding those in the Gulf of Guinea." But I'm not sure.
+
+Alternatively, the examples might be capitals that are in countries that have a coastline on the Atlantic and are in the southern hemisphere or equatorial regions. Not sure.
+
+Given that I'm stuck, perhaps I should look for another angle. Let me think of the names again:
+
+Dakar, Accra, Luanda – all are capitals that are major ports or have significant port cities. Dakar is a major port, Accra's port is important, Luanda's port is key for Angola's oil. The anti-examples:
+
+Freetown has a port, Conakry is a port city, Monrovia is a port. So that's not the differentiator.
+
+Hmm. Maybe the examples are capitals that are in countries that are part of the African Union's "Group of 24" (G24) which are oil-producing countries. Angola produces oil, Senegal and Ghana have offshore oil. The anti-examples are less so. Maybe that's the theme. If that's the case, then:
+
+Candidates:
+
+1. Asmara: Eritrea has some oil but not major – maybe low.
+
+2. Dodoma: Tanzania has some oil but minor.
+
+3. Harare: Zimbabwe has some but not major.
+
+4. Windhoek: Namibia has uranium and some resources.
+
+5. Gaborone: Botswana has diamonds.
+
+6. Moroni: Comoros has little.
+
+7. Ouagadougou: Burkina Faso is mineral-rich.
+
+8. Maputo: Mozambique has offshore gas.
+
+This is too vague.
+
+Alternatively, perhaps the theme is capitals that are in countries that are former colonies of Portugal or France, excluding British. But that excludes Ghana (British), so no.
+
+Wait, another thought: The examples are capitals that are in countries that are part of the African Union's "Group of 15" (G15) – which are middle-income countries. Let me check:
+
+- Senegal is lower-middle income.
+
+- Ghana is lower-middle.
+
+- Angola is upper-middle.
+
+The anti-examples:
+
+- Sierra Leone (low), Guinea (low), Liberia (low). So the theme might be "capitals of countries with middle or upper-middle income status". Then the candidates:
+
+1. Asmara (Eritrea: low) – 0
+
+2. Dodoma (Tanzania: lower-middle) – maybe 5?
+
+3. Harare (Zimbabwe: lower-middle) – 5
+
+4. Windhoek (Namibia: upper-middle) – 8?
+
+5. Gaborone (Botswana: upper-middle) – 8?
+
+6. Moroni (low) – 0
+
+7. Ouagadougou (Burkina Faso: low) – 0
+
+8. Maputo (Mozambique: lower-middle) – 5
+
+But I'm not sure about the exact income classifications. This is speculative.
+
+Alternatively, the examples might be capitals that are in countries that are members of the African Union's "Group of 24" (G24), but I can't confirm.
+
+Given that I'm struggling, perhaps I should look for another angle. The examples are Dakar, Accra, Luanda. The anti-examples are Freetown, Conakry, Monrovia. What's different between the two groups?
+
+Looking at the countries:
+
+Examples' countries:
+
+- Senegal (West Africa, French-speaking)
+
+- Ghana (West Africa, English-speaking)
+
+- Angola (Southern Africa, Portuguese-speaking)
+
+Anti-examples' countries:
+
+- Sierra Leone (West Africa, English)
+
+- Guinea (West Africa, French)
+
+- Liberia (West Africa, English)
+
+So the difference is that the examples include a country from Southern Africa (Angola), while the anti-examples are all in West Africa. The theme might be "capitals of countries in West Africa and Southern Africa" excluding other regions. Thus, the candidates from Southern Africa (like Windhoek, Namibia) would score higher, while others not in those regions score lower.
+
+Applying this:
+
+1. Asmara (Eritrea: East Africa) → 0
+
+2. Dodoma (Tanzania: East Africa) → 0
+
+3. Harare (Zimbabwe: Southern Africa) → 10?
+
+Wait, Zimbabwe is in Southern Africa. So Harare would be a good match.
+
+4. Windhoek (Namibia: Southern Africa) → 10
+
+5. Gaborone (Botswana: Southern Africa) → 10
+
+6. Moroni (Comoros: East Africa) → 0
+
+7. Ouagadougou (West Africa) → since the examples include West Africa, maybe 7?
+
+Wait, but the anti-examples are also all West Africa. The specific theme is West and Southern, while the anti-examples are only West. So the specific theme might be "West Africa and Southern Africa capitals", but the anti-examples are only West, so they follow a broader theme of just West. Thus, candidates in Southern Africa would score higher than those in West Africa.
+
+But Ouagadougou is in West Africa, so it might get a moderate score, but lower than Southern ones.
+
+Let's try this approach:
+
+Score based on whether the candidate is in Southern Africa (high scores) or West Africa (moderate), and others low.
+
+Candidates:
+
+1. Asmara (East Africa) → 0
+
+2. Dodoma (East Africa) → 0
+
+3. Harare (Southern Africa) → 10
+
+4. Windhoek (Southern Africa) → 10
+
+5. Gaborone (Southern Africa) → 10
+
+6. Moroni (East Africa) → 0
+
+7. Ouagadougou (West Africa) → 5 (since West is part of the theme but anti-examples are also West, so it's in the broader theme, so lower score)
+
+8. Maputo (Southern Africa, Mozambique is often considered Southern or East, but Mozambique is sometimes classified as Southern) → 10
+
+Wait, but the user said the anti-examples follow a broader theme, so the specific theme is the combination of West and Southern, but the anti-examples are only West. So a city in West Africa (like Ouagadougou) would still be part of the broader theme but not the specific one, hence lower score. Wait, but the examples include Accra and Dakar (West), so maybe West is included in the specific theme. Then why are the anti-examples also West?
+
+Ah, perhaps the specific theme is "West African capitals excluding those in certain countries (like Sierra Leone, Guinea, Liberia)" but that's too vague.
+
+Alternatively, maybe the specific theme is "capitals of countries in the Economic Community of West African States (ECOWAS) plus Angola (Southern)". The anti-examples are ECOWAS countries (Freetown, Conakry, Monrovia), so the specific theme includes ECOWAS plus Angola. Thus, the broader theme would be ECOWAS alone. So candidates in ECOWAS would score lower, while those in Southern (like Angola) or ECOWAS would vary.
+
+But this is getting too complex. Given time constraints, I'll proceed with the assumption that the specific theme is "capitals in West and Southern Africa", with anti-examples being only West. Thus:
+
+1. Asmara (East Africa) → 0
+
+2. Dodoma (East Africa) → 0
+
+3. Harare (Southern) → 10
+
+4. Windhoek (Southern) → 10
+
+5. Gaborone (Southern) → 10
+
+6. Moroni (East) → 0
+
+7. Ouagadougou (West) → 5 (since part of broader theme but not specific)
+
+8. Maputo (Southern or East? Mozambique is often considered Southern) → 10
+
+But the examples include Luanda (Southern), so Maputo (Mozambique) would be similar. However, some might consider Mozambique as Eastern, but it's often grouped with Southern. So maybe 8.
+
+Alternatively, let's assign scores:
+
+1. Asmara: 0 (East Africa, not in regions)
+
+2. Dodoma: 0 (East)
+
+3. Harare: 10 (Southern)
+
+4. Windhoek: 10 (Southern)
+
+5. Gaborone: 10 (Southern)
+
+6. Moroni: 0 (East)
+
+7. Ouagadougou: 5 (West, but part of broader theme)
+
+8. Maputo: 10 (Southern)
+
+But the user said to use the full range, so maybe adjust:
+
+Harare, Windhoek, Gaborone, Maputo: 10
+
+Ouagadougou: 5
+
+Others: 0 or lower.
+
+But since the user wants nuanced scores, maybe:
+
+1. Asmara: 0
+
+2. Dodoma: 0
+
+3. Harare: 10
+
+4. Windhoek: 10
+
+5. Gaborone: 10
+
+6. Moroni: 0
+
+7. Ouagadougou: 5
+
+8. Maputo: 10
+
+But need to spread scores more. Maybe some Southern capitals are more aligned than others. For example, Gaborone is in Southern Africa but Botswana is landlocked. Windhoek and Luanda are coastal. Not sure.
+
+Alternatively, considering that Luanda is in Angola (Southern Atlantic), Windhoek is in Namibia (Southern Atlantic), so they are coastal, hence higher. Harare and Gaborone are landlocked but in Southern Africa, so slightly lower.
+
+Thus:
+
+Harare: 8
+
+Gaborone: 8
+
+Windhoek: 10
+
+Maputo: 9 (if considered Southern)
+
+Ouagadougou: 5
+
+This way, scores vary. Let me assign:
+
+1. Asmara: 0
+
+2. Dodoma: 0
+
+3. Harare: 8
+
+4. Windhoek: 10
+
+5. Gaborone: 8
+
+6. Moroni: 0
+
+7. Ouagadougou: 5
+
+8. Maputo: 9 (if Southern)
+
+Alternatively, if Maputo is in East Africa, then 0, but I think Mozambique is often considered Southern. So 9.
+
+Final scores:
+
+<number>1</number><score>0</score>
+
+<number>2</number><score>0</score>
+
+<number>3</number><score>8</score>
+
+<number>4</number><score>10</score>
+
+<number>5</number><score>8</score>
+
+<number>6</number><score>0</score>
+
+<number>7</number><score>5</score>
+
+<number>8</number><score>9</score>
+</think>
+
+<number>1</number><score>0</score>
+<number>2</number><score>0</score>
+<number>3</number><score>8</score>
+<number>4</number><score>10</score>
+<number>5</number><score>8</score>
+<number>6</number><score>0</score>
+<number>7</number><score>5</score>
+<number>8</number><score>9</score>

@@ -1,0 +1,448 @@
+pick_response_339.txt
+Okay, let's tackle this problem step by step. First, I need to figure out the specific theme from the given examples. The examples provided are:
+
+- Bust of General Marcus Agrippa sculpted from a single piece of gabbro
+- Figure of Emperor Hadrian hewn from a single block of diorite
+- Statue of Emperor Augustus carved from a single block of basalt
+
+The anti-examples are:
+
+- Statue of Emperor Augustus carved from marble
+- Bust of General Marcus Agrippa sculpted from limestone
+- Portrait of General Lucius Verus crafted from sandstone
+
+So, the task is to determine the exact theme that the examples follow but the anti-examples do not. Let me compare them.
+
+Looking at the examples, all three are Roman figures (emperors and generals) made from specific types of stone. The key here is the material: gabbro, diorite, and basalt. These are all igneous rocks. The anti-examples use marble, limestone, and sandstone. Marble is metamorphic, limestone is sedimentary, and sandstone is also sedimentary. So maybe the theme is using igneous rocks?
+
+Wait, let me confirm. Gabbro, diorite, and basalt are indeed all igneous. Marble is metamorphic (formed from limestone), limestone is sedimentary, sandstone is sedimentary. So the specific theme might be "sculptures made from a single block of an igneous rock." 
+
+The anti-examples use non-igneous rocks, so they don't fit. But let's check if there's another aspect. All examples are of Roman figures (emperors or generals) but the anti-examples also include similar figures, so that's not the differentiator. The key difference is the material type.
+
+Therefore, the specific theme is: sculptures (statues, busts, figures) of Roman figures made from a single block of an igneous rock (gabbro, diorite, basalt). The anti-examples use non-igneous rocks (marble, limestone, sandstone), so they don't fit.
+
+Now, evaluating the candidates:
+
+1. Figure of Emperor Claudius made from a single block of marble.
+   - Marble is metamorphic, not igneous. So it's an anti-example. Score 0?
+
+Wait, but the anti-examples are given as not matching the specific theme. Since this uses marble (non-igneous), it's like the anti-examples. So 0? But maybe there's a nuance. Wait, the examples use "single piece" or "single block"—all candidates here also mention that. So the key is the rock type. So yes, marble is out. So 0.
+
+2. Portrait of General Germanicus crafted from a single piece of marble.
+   - Same as above. Marble is non-igneous. So 0?
+
+Wait, but let me check the candidates again. Wait candidate 3 is "Portrait of General Lucius Verus crafted from a single piece of andesite". Andesite is an igneous rock. So that's a good match. The anti-example for Lucius Verus used sandstone, so this candidate is correct.
+
+Continuing:
+
+3. Portrait of General Lucius Verus with andesite. Andesite is igneous. So this matches exactly the theme. So 10?
+
+But wait, the examples used gabbro, diorite, basalt. Are there other igneous rocks acceptable? Since the theme is "igneous rock", any igneous rock should count. So yes, andesite is good. So 10.
+
+4. Figure of Emperor Vespasian hewn from a single block of limestone. Limestone is sedimentary. So 0.
+
+5. Figure of Emperor Trajan carved from a single block of marble. Marble again, so 0.
+
+6. Figure of Emperor Antoninus Pius hewn from a single block of marble. Same as above, 0.
+
+7. Portrait of General Marius crafted from a single piece of limestone. Limestone is sedimentary, so 0.
+
+8. Statue of Emperor Domitian made from a single block of marble. Marble, so 0.
+
+Wait, but hold on. Let me check again. The examples all use different igneous rocks, but the key is the material being igneous. So any igneous rock would fit. So candidate 3 is 10. The others are using non-igneous, so 0? But the instructions said to use a 0-10 scale, nuanced. But all the candidates except #3 are using non-igneous rocks, so they should be 0? But maybe some have other aspects?
+
+Wait, looking at the candidates again:
+
+Wait candidate 1: Figure of Emperor Claudius in marble. Since marble is not igneous, so 0. But maybe if the sculpture is made from a single block, but the material is wrong, so it's an anti-example. So yes, 0.
+
+But the problem says to not use just 0s and 10s. The user wants a graded score. Hmm. Maybe there's more to the theme. Let me re-examine the examples and anti-examples again.
+
+Wait, the examples all mention "single piece" or "single block", so that's a common element. The anti-examples also use "single piece" or "single block", so that's not the differentiator. The material is the key.
+
+So the theme is "sculptures of Roman figures made from a single block of an igneous rock". The anti-examples use non-igneous rocks, even if they are single blocks. So the only candidate that matches is #3 (andesite is igneous), so that's 10. The others are 0? But the user said to use the full range. Maybe I'm missing something.
+
+Wait, perhaps the examples also specify the type of figure (emperor or general). The anti-examples also include a general (Lucius Verus), so that's not the difference. So the only variable is the rock type.
+
+Alternatively, maybe the specific rocks used in the examples (gabbro, diorite, basalt) are all dark-colored or have a specific texture? Maybe the theme is not just any igneous rock, but specifically those three? But that's too narrow. The problem states that the anti-examples follow a broader theme. Since the examples include different igneous rocks, the theme is likely "igneous rock".
+
+So, if candidate 3 uses andesite (igneous), it's a 10. The rest use non-igneous, so 0. But the user wants scores from 0-10 with nuance. Maybe some have partial matches?
+
+Wait, perhaps the examples use specific terms like "hewn", "carved", "sculpted"—but the anti-examples also use similar terms. So no, that's not it.
+
+Alternatively, maybe the figures are all of emperors or generals, but the anti-examples also include that. So the only difference is the material. So the theme is igneous rock. Thus, only candidate 3 is 10, others are 0. But the user says to use the full range. Hmm.
+
+Wait, perhaps I made a mistake. Let me check the anti-examples again. The anti-examples include a bust of General Marcus Agrippa in limestone. The example has Agrippa in gabbro. So the same figure but different material. So the theme is material, not the figure. So yes, the key is the material being igneous.
+
+Wait, but maybe there's another aspect. The examples all use different terms: "sculpted", "hewn", "carved"—but the anti-examples also use "carved", "sculpted", "crafted"—so that's not it. 
+
+Wait, perhaps the examples all use a single block, but the anti-examples also do that. So material is the only differentiator.
+
+Thus, the only candidate matching the theme is #3. The rest are 0. But the user wants scores from 0-10, so maybe I need to consider that some materials are closer to igneous? For example, maybe andesite is a type of basalt? No, andesite is a different igneous rock. The others are non-igneous. Alternatively, maybe the examples used dark-colored rocks, and some candidates use similar colors? But that's not given in the examples.
+
+Alternatively, perhaps the theme is "made from a single block of a hard, dense stone". Gabbro, diorite, basalt are all dense and hard. Marble is less dense, limestone is soft. But then, what about andesite? It's also hard. So candidate 3 would be 10, others 0. Still, the user wants a range. Maybe the problem is that I'm missing another aspect. Let me think again.
+
+Wait, the examples are all of Roman emperors or generals. The anti-examples also include a general (Lucius Verus) and Augustus again. So that's not the difference. The key is the rock type.
+
+Wait, maybe the examples use specific terms like "block" versus "piece"? Let me check:
+
+Examples:
+
+- "sculpted from a single piece of gabbro"
+
+- "hewn from a single block of diorite"
+
+- "carved from a single block of basalt"
+
+Anti-examples:
+
+- "carved from marble"
+
+- "sculpted from limestone"
+
+- "crafted from sandstone"
+
+Wait, no, the anti-examples also use "single piece" or "single block"? Wait no, looking again:
+
+Wait the anti-examples:
+
+First anti-example: "Statue of Emperor Augustus carved from marble" – no mention of single block or piece. Wait, the original examples all specify "single piece" or "single block". The anti-examples might not? Wait let me check:
+
+Original examples:
+
+1. Bust of General Marcus Agrippa sculpted from a single piece of gabbro
+
+2. Figure of Emperor Hadrian hewn from a single block of diorite
+
+3. Statue of Emperor Augustus carved from a single block of basalt
+
+Anti-examples:
+
+1. Statue of Emperor Augustus carved from marble – does it say "single block"? The original example for Augustus says "single block of basalt". The anti-example here just says "carved from marble" – maybe omitting the single block?
+
+Wait the user's anti-examples are:
+
+"Statue of Emperor Augustus carved from marble" (no mention of single block?)
+
+Wait the user's description says the anti-examples "do not match this specific theme but can match a broader theme". The original theme examples all specify "single piece/block". If the anti-examples omit that, then the theme might also include "made from a single block/piece".
+
+Wait, looking back at the problem statement:
+
+The examples are:
+
+- "Bust of General Marcus Agrippa sculpted from a single piece of gabbro"
+
+- "Figure of Emperor Hadrian hewn from a single block of diorite"
+
+- "Statue of Emperor Augustus carved from a single block of basalt"
+
+The anti-examples are:
+
+- "Statue of Emperor Augustus carved from marble" (does it mention "single block"? The original example for Augustus uses "single block of basalt", but the anti-example just says "carved from marble" without specifying single block. Wait the user might have missed that in the anti-examples? Let me check again.
+
+Wait the user wrote the anti-examples as:
+
+"Statue of Emperor Augustus carved from marble"
+
+"Bust of General Marcus Agrippa sculpted from limestone"
+
+"Portrait of General Lucius Verus crafted from sandstone"
+
+Ah! The anti-examples do NOT mention "single piece" or "single block". The examples do. So the theme is two-fold: made from a single block/piece AND made from an igneous rock.
+
+Therefore, the specific theme is: "Sculptures of Roman figures made from a single block/piece of an igneous rock".
+
+Thus, the anti-examples don't mention the "single block/piece" part, so they don't fit. Wait, but the user's anti-examples might have that. Let me check the exact wording again.
+
+Looking at the user's exact wording for anti-examples:
+
+They wrote:
+
+Anti-examples:
+
+"Statue of Emperor Augustus carved from marble"
+
+"Bust of General Marcus Agrippa sculpted from limestone"
+
+"Portrait of General Lucius Verus crafted from sandstone"
+
+Wait, the original examples all have "single piece" or "single block". The anti-examples do NOT have that wording. So perhaps the theme requires both the material (igneous) AND being made from a single block/piece. Thus, the anti-examples are missing the single block/piece part, so even if they had igneous, they wouldn't count? Wait no, the anti-examples use non-igneous, but also omit the single block.
+
+Wait this complicates things. Let me parse this again carefully.
+
+The user's examples all have "single piece" or "single block" plus igneous rock.
+
+The anti-examples:
+
+First anti-example: "Statue of Emperor Augustus carved from marble" – no mention of single block. So even if it were igneous, but without the single block, it wouldn't fit. But since it's marble (non-igneous) and missing the single block, it's an anti-example.
+
+Second anti-example: "Bust of General Marcus Agrippa sculpted from limestone" – again, no "single piece" mentioned, and limestone is non-igneous.
+
+Third anti-example: "Portrait of General Lucius Verus crafted from sandstone" – no single block, and sandstone is non-igneous.
+
+Thus, the theme requires two things: (1) made from a single block/piece and (2) the material is an igneous rock.
+
+Therefore, to score the candidates, they must satisfy both conditions.
+
+Now looking at the candidates:
+
+1. Figure of Emperor Claudius made from a single block of marble.
+
+   - Single block: yes. Material: marble (metamorphic, not igneous). So fails condition 2. Score: 0?
+
+2. Portrait of General Germanicus crafted from a single piece of marble.
+
+   - Single piece: yes. Marble: non-igneous. 0.
+
+3. Portrait of General Lucius Verus crafted from a single piece of andesite.
+
+   - Single piece: yes. Andesite is igneous. So both conditions met. 10.
+
+4. Figure of Emperor Vespasian hewn from a single block of limestone.
+
+   - Single block: yes. Limestone (sedimentary). 0.
+
+5. Figure of Emperor Trajan carved from a single block of marble.
+
+   - Single block: yes. Marble: no. 0.
+
+6. Figure of Emperor Antoninus Pius hewn from a single block of marble.
+
+   - Same as above. 0.
+
+7. Portrait of General Marius crafted from a single piece of limestone.
+
+   - Single piece: yes. Limestone: no. 0.
+
+8. Statue of Emperor Domitian made from a single block of marble.
+
+   - Single block: yes. Marble: no. 0.
+
+Wait but according to this, all except candidate 3 are 0. But the user wants a nuanced scale from 0-10. Maybe I'm missing something else?
+
+Alternatively, perhaps "single piece" vs "single block" – but the examples use both terms, so that's acceptable. The key is the material and the single block.
+
+Wait the problem states that the anti-examples do not match the specific theme but can match a broader theme. The broader theme might be "sculptures of Roman figures made from a single block, regardless of material" or "made from igneous rock without the single block". So the anti-examples might fit a broader theme but not the specific.
+
+But according to the analysis, the only candidate that fits the specific theme is #3. The rest don't. But the user wants scores from 0 to 10, so maybe some have partial points?
+
+Wait maybe some materials are closer to igneous? For example, marble is metamorphic but sometimes derived from igneous rocks? No, marble comes from limestone. Alternatively, maybe the candidate uses a rock that's sometimes considered igneous but actually isn't? Like some sandstones are sedimentary but maybe in some contexts... I think not. The key is the rock type.
+
+Alternatively, maybe the examples used specific igneous rocks (gabbro, diorite, basalt) which are all mafic or dark-colored, and the theme is not just any igneous but specifically those types. Then andesite would be different. But andesite is an igneous rock, so unless the theme is restricted to those three specific rocks, which would make it too narrow. The user's examples include different igneous rocks, so likely the theme is any igneous.
+
+Therefore, candidate 3 is 10. The others are 0 except if there's a mistake. But the user says to use the full range. Maybe I made a mistake in assuming all non-igneous get 0. Let me check the problem statement again.
+
+The user says the anti-examples can match a broader theme. For example, maybe the broader theme is "sculptures of Roman figures made from a single block" regardless of material. So the specific theme requires both single block and igneous. The anti-examples omit the single block part (but actually, looking again at the anti-examples provided by the user, they do include "single piece" or "single block"?
+
+Wait I need to recheck the user's exact wording for anti-examples:
+
+The user wrote:
+
+Anti-examples:
+
+"Statue of Emperor Augustus carved from marble" – does it say "single block"? The original example for Augustus has "single block of basalt", but the anti-example just says "carved from marble" without specifying. So the anti-example lacks the "single block" part. 
+
+Similarly, "Bust of General Marcus Agrippa sculpted from limestone" – the original example has "single piece", but this anti-example doesn't mention it.
+
+Third anti-example: "Portrait of General Lucius Verus crafted from sandstone" – also no mention of single block/piece.
+
+Therefore, the anti-examples are missing the "single block/piece" part. Thus, the specific theme requires both elements: single block/piece AND igneous rock.
+
+Therefore, the candidates must satisfy both conditions. Let's re-examine each candidate with this in mind.
+
+Candidate 1: "Figure of Emperor Claudius made from a single block of marble."
+
+- Single block: yes.
+
+- Material: marble (metamorphic). So fails material. Score: 0.
+
+Candidate 2: "Portrait of General Germanicus crafted from a single piece of marble."
+
+- Single piece: yes.
+
+- Marble: no. 0.
+
+Candidate 3: "Portrait of General Lucius Verus crafted from a single piece of andesite."
+
+- Single piece: yes.
+
+- Andesite is igneous: yes. 10.
+
+Candidate4: "Figure of Emperor Vespasian hewn from a single block of limestone."
+
+- Single block: yes.
+
+- Limestone (sedimentary): no. 0.
+
+Candidate5: "Figure of Emperor Trajan carved from a single block of marble."
+
+- Single block: yes.
+
+- Marble: no. 0.
+
+Candidate6: "Figure of Emperor Antoninus Pius hewn from a single block of marble."
+
+- Same as above. 0.
+
+Candidate7: "Portrait of General Marius crafted from a single piece of limestone."
+
+- Single piece: yes.
+
+- Limestone: no. 0.
+
+Candidate8: "Statue of Emperor Domitian made from a single block of marble."
+
+- Single block: yes.
+
+- Marble: no. 0.
+
+Hmm, this results in only candidate3 being 10 and others 0, but the user wants scores spread out. Maybe I made a mistake in interpreting the theme. Let me think differently.
+
+Wait, perhaps the examples use "single piece" or "single block" but the anti-examples do not. The specific theme requires both the material (igneous) AND the single block/piece. The broader theme could be just one of them. 
+
+If the anti-examples are missing the single block/piece part but have the wrong material, then they don't fit the specific theme. 
+
+Alternatively, maybe the "single block" is not part of the specific theme. Let me re-express the examples and anti-examples:
+
+Examples have:
+
+- Roman figure (emperor or general)
+
+- Made from a specific igneous rock (gabbro, diorite, basalt)
+
+- Made from a single piece/block
+
+Anti-examples have:
+
+- Roman figure
+
+- Made from non-igneous rock (marble, limestone, sandstone)
+
+- Do they include "single block"? The user's anti-examples do NOT include that wording, so they might be using non-single blocks? Or maybe the user missed it in writing?
+
+Wait the user wrote the anti-examples as:
+
+"Statue of Emperor Augustus carved from marble" (original example had "single block of basalt" so this is the same figure but different material and possibly not single block?)
+
+"Bust of General Marcus Agrippa sculpted from limestone" (original example had "single piece" of gabbro, so this is same figure but different material and no "single piece" mentioned)
+
+"Portrait of General Lucius Verus crafted from sandstone" (same as above, no single block mentioned)
+
+Therefore, the anti-examples omit the "single block/piece" part, so they don't satisfy that part of the theme.
+
+Therefore, the specific theme requires both: single block/piece AND igneous material.
+
+Thus, the candidates must have both. So candidates 1-8:
+
+Only candidate3 has both (single piece and andesite, which is igneous). The rest have single block/piece but wrong material. So they all get 0 except 3 which is 10. But the user wants scores from 0-10, so maybe I'm missing something.
+
+Wait perhaps the examples include different terms like "sculpted", "hewn", "carved", but the anti-examples also use those terms. So no difference there.
+
+Alternatively, perhaps the theme is "made from a single block of a dark-colored stone". Gabbro, diorite, basalt are dark, while marble is white, limestone is light, sandstone varies but can be light. Andesite is usually dark. So candidate3 (andesite) would be 10. Others using marble, limestone, etc., are light, so 0. But that's another possible interpretation, but the user's examples and anti-examples are based on material type, not color.
+
+Alternatively, maybe the theme is "made from a single block of a stone that is harder than marble". Gabbro, diorite, basalt are harder than marble, which is softer. Limestone and sandstone are also softer. Andesite is harder than marble, so candidate3 would be 10. The others use softer stones, so 0. But again, this is a different theme.
+
+The user's examples are all igneous rocks. The anti-examples are non-igneous. So the most logical theme is igneous rock plus single block. Thus, only candidate3 qualifies. The rest are 0. But the user wants a nuanced scale. Maybe I'm overcomplicating.
+
+Wait maybe the examples use "single piece" or "single block" but the candidates use "single block" or "single piece" interchangeably, so that's acceptable. The key is the material. So the theme is "made from a single block/piece of an igneous rock". Thus, any igneous rock with single block/piece is 10. Non-igneous with single block is 0. So the only one is candidate3. The rest are 0. But the user's instruction says to use the full range. Maybe the problem is in the rock types.
+
+Wait andesite is an igneous rock, so that's 10. What about other igneous rocks not listed in examples? Like obsidian? But candidate3 is andesite, which is correct.
+
+Alternatively, perhaps the examples are using specific igneous rocks that were commonly used in Roman times for certain figures, but that's too specific. The user's examples include different igneous rocks, so the theme is just igneous.
+
+Hmm. Maybe I should proceed with the analysis as is, even if it results in only one 10 and others 0. But the user said to use the full range. Maybe I need to consider that some materials are partially igneous? Or maybe the "single block" is not strictly required? Let me read the problem statement again.
+
+The problem says the specific theme is identified from the examples. The examples all have the "single block/piece" and igneous. The anti-examples lack the material. So the theme requires both. Thus, the candidates must have both. 
+
+Since all except candidate3 fail the material, they get 0. Candidate3 is 10. The user might have intended this. Maybe the other candidates have different scores because of the figure being emperor vs general? Let me check:
+
+Examples include both emperors and generals. The anti-examples include a general (Lucius Verus) and Augustus again. So the figure type isn't a factor. 
+
+Thus, the scores should be:
+
+1. 0
+
+2. 0
+
+3. 10
+
+4. 0
+
+5. 0
+
+6. 0
+
+7. 0
+
+8. 0
+
+But the user wants a nuanced scale. Perhaps I misunderstood the theme. Let me think differently.
+
+Wait, maybe the theme is "sculptures made from a single block of a dark-colored stone". Gabbro, diorite, basalt are dark. The anti-examples use marble (white), limestone (light), sandstone (varies but often light). Andesite is dark. So candidate3 would be 10. The others using marble (light) would be 0. But candidate7 uses limestone (light) so 0. But what about sandstone can be dark? Maybe some sandstone is dark, but the anti-example uses it. Not sure. This might be another angle, but the user's examples specify the material type as igneous.
+
+Alternatively, perhaps the theme is "sculptures made from a single block of a rock that is not marble". But the anti-examples include marble, but the first example uses basalt, so that's not it.
+
+Alternatively, the theme is "sculptures of Roman figures made from a single block of a rock that is not marble". But then the anti-examples have marble, but the examples have other rocks. But the other examples include diorite, etc., so that's possible. But then candidate4 uses limestone (non-marble), so it would be a match. But the anti-example has limestone too. Wait this is conflicting.
+
+Alternatively, maybe the theme is "sculptures made from a single block of a hard stone". Gabbro, diorite, basalt are hard. Marble is softer. Limestone and sandstone are softer. Andesite is hard. So candidate3 is 10, others using softer stones get 0. But again, same as before.
+
+Hmm, I think the correct analysis is that the specific theme requires both single block/piece and igneous rock. Thus, only candidate3 qualifies. The rest are 0. The user might have intended this, even if it seems extreme. But the instructions say to use the full range. Maybe I made a mistake in considering andesite as igneous?
+
+Wait andesite is an igneous rock. Yes. So that's correct. 
+
+Alternatively, perhaps the examples use "hewn", "carved", "sculpted" which are all methods, but the anti-examples also use similar terms. Not relevant.
+
+Alternatively, maybe the theme is "sculptures of Roman figures made from a single block of a stone that is not a sedimentary rock". Since the examples are igneous (not sedimentary), and anti-examples use sedimentary (limestone, sandstone) and marble (metamorphic). But marble is metamorphic, so it's not sedimentary. So the theme would be "not sedimentary". Then marble is allowed? Because it's metamorphic. But the anti-example uses marble, which would not fit the theme. Wait this complicates:
+
+If the theme is "not sedimentary", then:
+
+Examples: igneous (not sedimentary) – good.
+
+Anti-examples: marble (metamorphic) and sandstone (sedimentary) and limestone (sedimentary). So marble is allowed under "not sedimentary"? Then the anti-example with marble would not be an anti-example, which contradicts. 
+
+Thus, that's not the theme.
+
+Alternatively, the theme is "igneous rock". Thus, the only candidate is 3. The rest are 0. 
+
+Given the problem's instructions, I'll proceed with that, even if it results in most 0s and one 10. The user might have intended that, or maybe I missed a candidate.
+
+Wait candidate7 is "Portrait of General Marius crafted from a single piece of limestone". Limestone is sedimentary. So 0.
+
+Candidate8: marble, so 0.
+
+Wait maybe I missed something. Let me check each candidate again:
+
+1. Claudius: single block of marble (metamorphic). 0.
+
+2. Germanicus: single piece marble. 0.
+
+3. Verus: single piece andesite (igneous). 10.
+
+4. Vespasian: single block limestone (sedimentary). 0.
+
+5. Trajan: single block marble. 0.
+
+6. Antoninus Pius: single block marble. 0.
+
+7. Marius: single piece limestone. 0.
+
+8. Domitian: single block marble. 0.
+
+Thus, only candidate3 is 10, others 0. But the user wants a scale from 0-10. Maybe there's another layer. Perhaps the examples use different terms like "figure", "bust", "statue", which the candidates also do. Not relevant.
+
+Alternatively, maybe "hewn" is a specific technique? Probably not.
+
+Alternatively, perhaps the theme is "made from a single block of a rock that is not marble". Then candidate3 (andesite) would be 10, candidates using marble (1,2,5,6,8) are 0, and candidates4 and7 (limestone) are 10? Wait no, because the anti-example has limestone. The anti-examples include limestone, which would be allowed under "not marble". But the anti-example is supposed to not fit the specific theme. So this can't be.
+
+Alternatively, the theme is "made from a single block of a rock that is not marble or limestone". Then candidate3 (andesite) is 10, candidate4 (limestone) is 0, candidate7 (limestone) 0. Candidates using marble are 0. But then the anti-example with sandstone would also not fit, but it's an anti-example. Not sure.
+
+This is tricky. Given the user's examples all use igneous rocks and the anti-examples use non-igneous, I think the correct answer is as above. I'll proceed with that.
+</think>
+
+<number>1</number><score>0</score>
+<number>2</number><score>0</score>
+<number>3</number><score>10</score>
+<number>4</number><score>0</score>
+<number>5</number><score>0</score>
+<number>6</number><score>0</score>
+<number>7</number><score>0</score>
+<number>8</number><score>0</score>

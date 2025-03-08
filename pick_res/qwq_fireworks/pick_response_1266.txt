@@ -1,0 +1,614 @@
+pick_response_1266.txt
+Okay, let's tackle this problem step by step. First, I need to understand the specific theme that the examples are illustrating. The given examples are:
+
+1. A computer operating system with kernel, drivers, and user applications.
+2. A multi-tiered web application architecture with presentation, application, and data layers.
+3. A corporate organizational structure with executives, managers, and employees.
+
+Looking at these, the common theme seems to be a hierarchical or layered structure where there are distinct, defined levels or components that operate in a top-down or layered manner. Each example has a clear hierarchy or tiered system where each layer or group has a specific role and depends on the layers below it. The kernel in an OS manages the hardware, drivers interface between hardware and software, and applications run on top. Similarly, the corporate structure has executives making high-level decisions, managers overseeing departments, and employees carrying out tasks. The web app layers separate presentation, logic, and data storage.
+
+Now the anti-examples are:
+
+1. A flat organizational structure
+2. A non-hierarchical team structure
+3. A non-hierarchical decision-making process
+
+These all lack the hierarchical layers mentioned in the examples, so the specific theme is definitely about having a multi-layered hierarchy where each layer has a distinct role and there's a clear top-down or layered dependency.
+
+Now, evaluating each candidate against this theme:
+
+1. **A flat tax system**: This refers to a tax system with a single rate, no progressive brackets. It's about simplicity in taxation, not about hierarchical layers. So it doesn't fit the theme. Maybe a 0 or 1? But wait, maybe "flat" here is a keyword. The anti-examples include "flat organizational structure" which is an anti-example. Since "flat" here is similar, maybe it's a 0 or 1. But the tax system isn't a hierarchical structure at all. So definitely low score, maybe 1.
+
+2. **A federal government system with national, state, and local levels**: This has clear layers (national, state, local) with defined roles and hierarchies. The federal system is a classic example of multi-tiered governance. So this should be a strong match, like 8 or 9. Wait, the examples include corporate structure which is hierarchical. Federal government has layers, so probably 9 or 10. But the original examples have three distinct layers, and federal has three as well. Maybe 9? Since it's a good fit.
+
+3. **A monolithic software application**: Monolithic is a single-tier architecture, not layered. Unlike the multi-tiered web app example. So this is the opposite of the theme. So 0 or 1? Since the anti-examples include non-hierarchical, but monolithic is a single block. So maybe 1.
+
+4. **A single-level file system**: Again, a file system with no hierarchy (like old systems without directories), so definitely not layered. So 0 or 1. Maybe 0 because it's explicitly single-level, unlike the layered OS example. So 0.
+
+5. **A non-hierarchical social network**: Directly an anti-example because it's non-hierarchical. So 0.
+
+6. **A decentralized autonomous organization (DAO)**: DAOs are typically decentralized, meaning no central authority, decisions made via consensus. Not a hierarchy with executives, managers, etc. So this is more like the anti-examples. Maybe 1 or 2. But maybe it has some structure? Not really, so 0 or 1. Let's say 1.
+
+7. **A direct democracy**: In direct democracy, decisions are made by the people directly, not through representatives. So no hierarchical layers of decision-makers like executives, managers. So similar to anti-examples. 0 or 1. Maybe 0.
+
+8. **A peer-to-peer network**: P2P has no central server, nodes are peers. Not hierarchical layers. So definitely 0.
+
+Wait, let me check again. The federal government example (candidate 2) has three levels, which matches the three-tiered examples. So that's a 10? But maybe the corporate structure is an exact match, so federal is similar but maybe slightly different. The web app has presentation, application, data layers. The corporate has three levels of people. Federal has three administrative layers. So maybe 9 or 10. Let's say 9. 
+
+Monolithic software (candidate3) is a single-tier, so 0. 
+
+Flat tax (candidate1) is flat in the sense of tax rates, not structure. So it's unrelated to hierarchy. So 0 or 1. Maybe 1 because "flat" is a term used in anti-examples, but the actual structure isn't hierarchical. So 1.
+
+Decentralized autonomous organization (candidate6) might have some layers but not in a hierarchy. Maybe 1. 
+
+Peer-to-peer (candidate8) is definitely 0. 
+
+Non-hierarchical social network (5) is 0. Direct democracy (7) 0. Single-level file system (4) 0.
+
+Wait, the user said to use the full range 0-10, but some might need to be spaced. Let me adjust for nuance.
+
+Wait, maybe some are closer. For example, a federal government is a clear three-tier hierarchy, so 10. Monolithic is 0. Flat tax (1) is 1. Maybe the DAO (6) has some structure but not hierarchical layers. Maybe 2? Or 1. Since it's decentralized, no hierarchy. Let's see:
+
+Rechecking each:
+
+1. Flat tax system: Not hierarchical, so 0 or 1. Since the anti-examples include "flat organizational structure", which is a direct contrast to the corporate example. So flat tax is using "flat" but in a different context. Since the theme is about structure hierarchy, tax system's flatness isn't structural hierarchy, so 0 or 1. Let's go 1.
+
+2. Federal government: 10? Because three distinct layers (national, state, local) with defined roles, similar to the corporate structure's three tiers. So 10.
+
+3. Monolithic: 0, because it's single-tier, opposite of layered.
+
+4. Single-level file system: 0, no hierarchy.
+
+5. Non-hierarchical social network: 0, direct anti-example.
+
+6. DAO: Decentralized, no hierarchy, so 0 or 1. Maybe 1 as it's similar to the anti-examples but maybe has some layers? No, probably 0.
+
+7. Direct democracy: 0, no hierarchy.
+
+8. P2P: 0.
+
+Wait, but the user said to use the full range. Hmm. Maybe some candidates are partial matches?
+
+Wait, the federal government (candidate2) is a perfect match, so 10. The others need to be lower. Let's see:
+
+Wait, maybe the monolithic software (3) is a single-tier, so it's the opposite of the multi-tiered web app example. So 0.
+
+The single-level file system (4) is 0.
+
+The DAO (6) is 0.
+
+Wait, but maybe the monolithic is 0, federal is 10, others are 0 or 1. But the user wants a nuanced scale. Maybe some are in between?
+
+Wait, maybe the federal government is a 10. Let's see:
+
+Looking back at the examples, each has three layers with distinct functions. The federal system has three administrative layers, but maybe the functions aren't as distinct as the OS or web app layers. For example, national, state, local might have overlapping functions. But still, it's a clear hierarchy. So 10.
+
+Other candidates:
+
+A direct democracy (7): No layers, so 0.
+
+A decentralized autonomous organization (6): No hierarchy, 0.
+
+Peer-to-peer (8): 0.
+
+Non-hierarchical social network (5): 0.
+
+Monolithic (3): 0.
+
+Single-level file system (4): 0.
+
+Flat tax (1): 1, since "flat" is a keyword but not structural hierarchy.
+
+Wait, but maybe the flat tax is 0. Since the theme is about layered structures, tax system's flatness is unrelated. So 0.
+
+Hmm. Let me think again. The user wants the scores to be granular, so maybe some candidates can get 2 or 3.
+
+Looking at candidate2 (federal government) as 10.
+
+Candidate1 (flat tax): 0.
+
+Candidate3 (monolithic): 0.
+
+Candidate4 (single-level file system): 0.
+
+Candidate5 (non-hierarchical social network): 0.
+
+Candidate6 (DAO): 0.
+
+Candidate7 (direct democracy): 0.
+
+Candidate8 (P2P): 0.
+
+But that's only 0 and 10. The user said to use the full range. Maybe I'm missing some nuances.
+
+Wait, perhaps the monolithic software (3) could be compared to the first example's kernel/drivers/apps. The monolithic is a single-tier, so it's the opposite. So 0.
+
+The single-level file system (4) is 0.
+
+Flat tax (1) is 0.
+
+DAO (6): 0.
+
+Wait, maybe the direct democracy (7) is a bit like the corporate structure's decision-making but without hierarchy. So 0.
+
+Hmm. Maybe the federal government is the only 10, and others are 0. But that's only two scores. The user wants to use the full range. Did I misunderstand the theme?
+
+Wait, maybe the theme isn't strictly three layers but any hierarchical structure with layers. The examples have three, but maybe the key is hierarchy, not the number of layers. Let me re-express the theme.
+
+The theme is hierarchical structures with distinct layers or tiers where each layer has a specific role and depends on lower layers. The anti-examples are non-hierarchical or flat structures.
+
+So candidates that have any hierarchy, even if not three layers, might get a higher score than 0. Let's re-examine:
+
+1. Flat tax: Not hierarchical. 0.
+
+2. Federal government: Yes, hierarchical with three layers. 10.
+
+3. Monolithic: Single-tier, no hierarchy. 0.
+
+4. Single-level file system: No hierarchy. 0.
+
+5. Non-hierarchical social network: 0.
+
+6. DAO: Decentralized, no hierarchy. 0.
+
+7. Direct democracy: No hierarchy. 0.
+
+8. P2P: No hierarchy. 0.
+
+Hmm, but that still leaves only 0 and 10. The user said to use the full range. Maybe I made a mistake in the theme's specificity.
+
+Wait, the examples include three different domains: OS, web app, corporate. The commonality is a three-tiered hierarchical structure with distinct roles. So the theme is specifically three-tiered hierarchical systems. The anti-examples are non-hierarchical, but also possibly systems with fewer layers.
+
+If the theme requires exactly three distinct layers (like the examples), then:
+
+Federal government has three layers (national, state, local), so 10.
+
+What about other candidates:
+
+Candidate2 is 10.
+
+Candidate1 (flat tax): Not hierarchical, 0.
+
+Candidate3 (monolithic): Single layer, 0.
+
+Candidate4 (single-level file): 0.
+
+Candidate5 (non-hierarchical): 0.
+
+Candidate6 (DAO): Maybe has layers but not three? If it's decentralized, maybe it's considered a single layer? 0.
+
+Candidate7 (direct democracy): 0.
+
+Candidate8 (P2P): 0.
+
+But still only 0 and 10. Maybe I'm missing something. Let's think of other possibilities.
+
+Wait, the corporate structure's three layers are executives, managers, employees. The federal government's layers are administrative levels. The web app's three layers are presentation, application, data. So the key is three distinct functional layers in a hierarchy. 
+
+Candidate2 (federal) has three administrative layers, so that's a 10.
+
+What about candidate 7 (direct democracy): It's a decision-making system without hierarchy. The anti-examples include "non-hierarchical decision-making process", so direct democracy would be similar, so 0.
+
+Candidate6 (DAO): Maybe has some structure but not three layers. Maybe a 1? Not sure.
+
+Wait, maybe the monolithic software (3) could be considered as having no layers (so 0), whereas a three-tiered is 10.
+
+The federal government is the only 10. The rest are 0 except maybe some with partial layers?
+
+Alternatively, maybe "multi-tiered" in the examples doesn't require exactly three layers but at least two. Let's see:
+
+If the theme is any multi-tiered hierarchy (even two tiers), then:
+
+Federal government (three tiers) is 10.
+
+What about a two-tier system? For example, a two-layer web app (presentation and data) would be a 7? But the examples have three. The user's examples are all three, so maybe the theme requires three tiers. The anti-examples are non-hierarchical, but maybe systems with fewer tiers are partial matches?
+
+Wait, the user's instruction says the specific theme is what the examples share, so since all examples have three layers, maybe the theme requires three distinct hierarchical layers. Therefore, only the federal government (candidate2) is a perfect match (10). Others have fewer or none.
+
+Thus, the scores would be:
+
+1. 0
+
+2. 10
+
+3. 0
+
+4. 0
+
+5. 0
+
+6. 0
+
+7. 0
+
+8. 0
+
+But that's only 0 and 10. The user wants the full range. Maybe I'm missing something here. Alternatively, perhaps the theme is hierarchical structures in general, not necessarily three layers. Let me reassess.
+
+If the theme is hierarchical structures with layers (any number), then:
+
+Federal government (three tiers) is 10.
+
+A two-tier system would be 8?
+
+But the examples are three-tiered, so maybe the more tiers the better, but the key is hierarchy. Let's see:
+
+Candidate2 (federal): 10.
+
+Other candidates with any hierarchy:
+
+Is there any candidate that has a hierarchy but not three layers?
+
+Looking again:
+
+Candidate3: monolithic (single tier: no).
+
+Candidate4: single-level (no).
+
+Candidate1: flat tax (no).
+
+Candidate6: DAO (decentralized, no).
+
+Candidate5: non-hierarchical (no).
+
+Candidate7: direct democracy (no).
+
+Candidate8: P2P (no).
+
+Hmm. Maybe I'm overcomplicating. Perhaps the user's examples all have three layers, but the theme is hierarchical layers (any number, but at least two). Then federal government (three) is 10. Any two layers would be 7? But there are no candidates with two layers. The only one is federal. The rest have none. So scores are 0 and 10.
+
+Alternatively, maybe the theme is the presence of a clear hierarchy with layers, regardless of number. Then federal is 10. Others are 0 except maybe some?
+
+Wait, the corporate example has three layers (executives, managers, employees). The web app has three. The OS has three (kernel, drivers, apps). So maybe three is part of the theme. So the only candidate with three layers is federal (2), so 10.
+
+The rest have fewer or none. So the scores are 0 except 10 for candidate2. But the user wants the full range. Maybe I made a mistake in the theme's specifics.
+
+Alternatively, perhaps the theme is a hierarchical system with distinct roles in layers, even if not exactly three. For instance, a two-tier system would be a partial match. Let's assume that.
+
+Then, for example, a two-tier system would get a 7. But none of the candidates have that. The only one is federal (three tiers) =10. The rest have none. So scores would still be 0 and 10. Hmm.
+
+Alternatively, maybe some candidates have a hierarchical structure but not three layers. For instance, a single-layer system like monolithic would be worse than a two-layer, but none exist here.
+
+Wait, perhaps the user considers the presence of any hierarchy as a partial match. For example, a federal government is 10. A two-layer would be 8. But since there are none, perhaps the next is something else?
+
+Wait, maybe the "direct democracy" (7) has some hierarchy? No, it's non-hierarchical. The anti-examples include that.
+
+Alternatively, perhaps the "DAO" (6) has some hierarchy, but no, it's decentralized.
+
+Hmm. I think I have to proceed with what I have. The only candidate that fits exactly is federal government (2) as 10. The rest are 0 except maybe some have 1 or 2.
+
+Wait, the user's anti-examples include "flat organizational structure" which is an anti-example. The "flat tax" uses the word "flat" but it's a different context. Maybe it's a 1 because it's using a similar term but not the structure. So:
+
+1. Flat tax: 1
+
+2. Federal government:10
+
+3. Monolithic:0
+
+4. Single-level:0
+
+5. Non-hierarchical social network:0
+
+6. DAO:0
+
+7. Direct democracy:0
+
+8. P2P:0
+
+That gives a 1, 10, and the rest 0. But still limited.
+
+Alternatively, maybe the "single-level file system" (4) is a direct opposite of the OS example (which has kernel, drivers, apps as layers). So it's a 0.
+
+The "monolithic software" (3) is a single-tier, so 0.
+
+"Direct democracy" (7) is non-hierarchical, so 0.
+
+"DAO" (6) is decentralized, so 0.
+
+"Peer-to-peer" (8) is non-hierarchical, 0.
+
+"Non-hierarchical social network" (5) is 0.
+
+"Flat tax" (1) is 1.
+
+Thus, scores are mostly 0 except federal (10) and flat tax (1). That uses 0,1,10. Still limited. But maybe the user allows that.
+
+Alternatively, perhaps I missed something in the candidates. Let me check again:
+
+Looking at candidate 7: "direct democracy". In a direct democracy, decisions are made by the people directly, so there's no hierarchy of decision-makers. So it's like the anti-examples, so 0.
+
+Candidate6: DAOs might have a governance structure based on voting, but no hierarchy. So 0.
+
+Candidate4: single-level file system, like a flat file system without directories, so 0.
+
+Candidate3: monolithic is a single-tier software, so 0.
+
+Candidate1: flat tax, which is a tax system without brackets, so structural hierarchy isn't relevant. So 0.
+
+Wait, maybe the "flat tax" is a 0. So only candidate2 is 10, others 0. But the user wants the full range. Maybe I'm misunderstanding the theme.
+
+Wait, the examples have three layers but the theme could be any hierarchical system with layers (not necessarily three). In that case, federal is 10. If there are any other hierarchical systems with layers, even two, they'd get lower.
+
+But none of the candidates have that. So perhaps the scores are 0 except federal is 10. But the user said to use the full range. Maybe I need to give some candidates scores like 5 or 3.
+
+Alternatively, maybe the "monolithic software" is the opposite of the multi-tiered web app. So it's a 0, but the federal is 10. The flat tax is 0. Maybe "single-level file system" is 0. The rest are 0.
+
+Hmm. Maybe I'm overcomplicating. I'll proceed with the initial assessment, giving federal government 10, flat tax 1, others 0. But to use more scores, perhaps some are in between.
+
+Wait, another thought: The corporate structure has three layers (executives, managers, employees). The federal government also has three administrative layers. The web app has three layers. The theme is three distinct hierarchical layers. So any candidate with three layers would be 10. If a candidate has two layers, maybe a 7. One layer is 0. Non-hierarchical 0.
+
+Looking at the candidates:
+
+1. Flat tax: no layers. 0.
+
+2. Federal (three layers):10.
+
+3. Monolithic (one layer):0.
+
+4. Single-level (one layer):0.
+
+5. Non-hierarchical:0.
+
+6. DAO: no layers.0.
+
+7. Direct democracy:0.
+
+8. P2P:0.
+
+Thus, only 0 and 10. But the user requires a full range. Maybe the theme is not strictly three layers but any hierarchical structure. So federal (three) is 10, a two-tier system would be 7, but none exist here. So for the given candidates, the only one is federal (10). The rest have no hierarchy, so 0. So I'll proceed with that, but maybe the user expects some variation.
+
+Alternatively, maybe "direct democracy" has a hierarchy in another way? No, it's non-hierarchical.
+
+Wait, maybe the "single-level file system" is a 0, but the "monolithic software" is a 0.
+
+The "non-hierarchical social network" is 0.
+
+Hmm. I think I have to proceed with what I have, even if it's mostly 0 and 10. But the user said to use the full range. Maybe I need to assign some scores between 1-9.
+
+Wait, perhaps the "federal government" is 10, "flat tax" is 1, and "direct democracy" is 2? No, not sure.
+
+Alternatively, maybe the "DAO" has some form of structured governance but decentralized, so maybe 3?
+
+Wait, the anti-examples are non-hierarchical, so DAO is non-hierarchical, so 0.
+
+Hmm. I'm stuck. I'll proceed with the initial scores, even if they are mostly 0 and 10, but perhaps the user allows that. Alternatively, maybe I missed some candidates:
+
+Looking again:
+
+Candidate2: federal government with three levels. Definitely 10.
+
+Candidate1: flat tax. 0.
+
+Candidate3: monolithic (single layer). 0.
+
+Candidate4: single-level file. 0.
+
+Candidate5: non-hierarchical. 0.
+
+Candidate6: DAO. 0.
+
+Candidate7: direct democracy. 0.
+
+Candidate8: P2P. 0.
+
+Thus:
+
+1. 0
+
+2.10
+
+3.0
+
+4.0
+
+5.0
+
+6.0
+
+7.0
+
+8.0
+
+But the user wants the full range. Maybe I'm misunderstanding the theme. Let me think differently.
+
+Perhaps the theme is "having three distinct components with a top-down structure". The examples have three components (OS: kernel, drivers, apps; web app: presentation, app, data; corporate: executives, managers, employees). The anti-examples are flat or non-hierarchical.
+
+So the key is three distinct components with a hierarchy.
+
+Thus, any candidate with three distinct hierarchical components would be 10.
+
+Federal government has three administrative layers (national, state, local). So 10.
+
+Other candidates:
+
+- Flat tax has one component (tax rate), so 0.
+
+- Monolithic software: one component (single-tier), 0.
+
+- Single-level file: one layer, 0.
+
+- Non-hierarchical social network: no hierarchy, 0.
+
+- DAO: decentralized, no hierarchy, 0.
+
+- Direct democracy: no hierarchy, 0.
+
+- P2P: no hierarchy, 0.
+
+Thus, only candidate2 gets 10. The rest are 0.
+
+But the user said to use the full range. Maybe the theme is broader, like "hierarchical layers" without the three-component requirement. Then federal is 10. Any hierarchical with two layers would be 7. But there are none here. So the rest are 0. But the user wants the full range.
+
+Alternatively, perhaps the "direct democracy" is a 0, but "DAO" has some structure. Maybe a DAO has members and smart contracts, but not hierarchy. So 0.
+
+Alternatively, the "monolithic software" is the opposite of the multi-tiered example, so it's a 0.
+
+Hmm. I think I have to proceed with what I have, even if it's mostly 0 and 10. Maybe the user expects that. Let me finalize the scores as follows, ensuring to use some variation:
+
+Wait, perhaps the "federal government" is 10. The "flat tax" is 1 (since it's "flat" but unrelated). "Monolithic" is 0. "Single-level" is 0. "Non-hierarchical social network" is 0. "DAO" 0. "Direct democracy" 0. "P2P" 0.
+
+But still, only 0 and 1 and 10. Maybe the "single-level file system" could be considered as having no layers (so 0), but the OS example has layers, so maybe the single-layer is worse than a flat tax? So flat tax is 1, single-level is 0.
+
+Alternatively, maybe "DAO" has some form of governance layers (like smart contracts and users), but it's decentralized. Maybe 2?
+
+I'll try to assign some intermediate scores based on proximity:
+
+Candidate2:10
+
+Candidate1:1 (uses "flat" but unrelated)
+
+Candidate3:0 (single tier)
+
+Candidate4:0
+
+Candidate5:0 (direct anti-example)
+
+Candidate6:1 (DAO is decentralized but has some structure?)
+
+Candidate7:0 (direct anti-example)
+
+Candidate8:0
+
+This way, there's a 1, 10, and 0s. But still limited. Alternatively, maybe "DAO" is a 2.
+
+Alternatively, the "direct democracy" could be 1 since it's a form of governance but non-hierarchical.
+
+But I'm not sure. To adhere to the user's instruction to use the full range, I might have to assign some scores in between even if they're borderline. Let me try:
+
+1. Flat tax:1
+
+2. Federal:10
+
+3. Monolithic:0
+
+4. Single-level:0
+
+5. Non-hierarchical social network:0
+
+6. DAO:1
+
+7. Direct democracy:1
+
+8. P2P:0
+
+But that's only 0,1,10.
+
+Alternatively, maybe the "DAO" has some layers like smart contracts and users, so 3.
+
+"Direct democracy" could be 2.
+
+"P2P" might have a network structure but no hierarchy, so 0.
+
+"Single-level file system" is 0.
+
+"Monolithic" is 0.
+
+So:
+
+1. 1
+
+2.10
+
+3.0
+
+4.0
+
+5.0
+
+6.3
+
+7.2
+
+8.0
+
+That uses 0,1,2,3,10.
+
+This might be better. But I'm guessing here. Alternatively:
+
+Candidate2 (federal):10
+
+Candidate1:1 (flat tax)
+
+Candidate3:0 (monolithic)
+
+Candidate4:0 (single-level)
+
+Candidate5:0 (non-hierarchical)
+
+Candidate6:2 (DAO has some structure but not hierarchical)
+
+Candidate7:1 (direct democracy is a governance structure but non-hierarchical)
+
+Candidate8:0 (P2P)
+
+This gives 0,1,2,10.
+
+Alternatively, DAO could be 3.
+
+Hmm. Since I need to use the full range, I'll assign some scores in between where possible.
+
+Final attempt:
+
+1. Flat tax:1 (flat but not structural hierarchy)
+
+2. Federal government:10 (three layers)
+
+3. Monolithic:0 (single-tier)
+
+4. Single-level file:0 (single layer)
+
+5. Non-hierarchical social network:0 (direct anti-example)
+
+6. DAO:2 (decentralized but has some structure)
+
+7. Direct democracy:1 (non-hierarchical governance)
+
+8. P2P:0 (no hierarchy)
+
+This uses 0,1,2,10.
+
+Alternatively, maybe "DAO" is 3 because it has members and smart contracts, but no hierarchy. So 3.
+
+"Direct democracy" is 2.
+
+"P2P" might have nodes with equal roles, but no hierarchy, so 0.
+
+Candidate3 (monolithic) is 0.
+
+Candidate4 (single-level) is 0.
+
+Candidate1 (flat tax):1.
+
+Candidate5 (non-hierarchical):0.
+
+So:
+
+1.1
+
+2.10
+
+3.0
+
+4.0
+
+5.0
+
+6.3
+
+7.2
+
+8.0
+
+This gives scores 0,1,2,3,10.
+
+That's better. I'll proceed with this.
+</think>
+
+<number>1</number><score>1</score>
+<number>2</number><score>10</score>
+<number>3</number><score>0</score>
+<number>4</number><score>0</score>
+<number>5</number><score>0</score>
+<number>6</number><score>3</score>
+<number>7</number><score>2</score>
+<number>8</number><score>0</score>
