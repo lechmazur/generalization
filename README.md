@@ -6,21 +6,21 @@ This benchmark measures how effectively various LLMs can infer a narrow or speci
 ## Visualizations
 
 ### 1. **Average Rank of the Correct Example** 
-![04_model_bar_correct_rank](https://github.com/user-attachments/assets/2a10aef8-2b88-49ea-93a5-f2eb00a0a646)
+![04_model_bar_correct_rank](https://github.com/user-attachments/assets/b0b65073-5000-4e62-aaa6-9e6997279e5c)
 This chart displays, for each model, the **average rank** that model assigns to the true example (when placed among seven distractors). Ranks range from 1 (top score) to 8 (lowest).  
 - **Smaller values** indicate **better** performance, because it means the correct example is consistently placed near the top.  
 - A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
 
 ### 2. **Distribution of Ranks**
-![05_model_rank_distribution](https://github.com/user-attachments/assets/0b9ab262-83b4-4f99-a899-ff64fd753709)
+![05_model_rank_distribution](https://github.com/user-attachments/assets/f0573970-1bef-448c-b8ef-995e050771b2)
 A more granular view of the ranks each model assigns to the leftover correct example per file, showing how stable or varied those ranks are across different themes. 
 
 ### 3. **Model–Model Correlation**
-![06_models_correlation](https://github.com/user-attachments/assets/095665a9-3e88-4b17-a76c-492ea252b3c8)
+![06_models_correlation](https://github.com/user-attachments/assets/1b4fbcf9-4ef8-4498-80c5-d7936017fd44)
 A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
 
 ### 4. **How Often the Correct Example is the Highest Score**
-![02_model_bar_correct_highest](https://github.com/user-attachments/assets/b4ec57b6-114f-4a86-956f-bd349482e4d9)
+![02_model_bar_correct_highest](https://github.com/user-attachments/assets/9834cf77-a23d-4328-b97e-1dbaeb18f2e4)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
 
 ## Leaderboard
@@ -52,13 +52,14 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |23|Amazon Nova Pro|2.11|0/810|
 |24|Llama 3.3 70B|2.12|0/810|
 |25|Gemini 1.5 Pro (Sept)|2.13|0/810|
-|26|Grok 2 12-12|2.21|0/810|
-|27|Qwen 2.5 72B|2.21|0/810|
-|28|Claude 3.5 Haiku|2.25|0/810|
-|29|Mistral Small 3|2.25|0/810|
-|30|MiniMax-Text-01|2.28|0/810|
-|31|GPT-4o mini|2.30|0/810|
-|32|Gemma 2 27B|2.60|0/810|
+|26|Gemma 3 27B|2.21|0/810|
+|27|Grok 2 12-12|2.21|0/810|
+|28|Qwen 2.5 72B|2.21|0/810|
+|29|Claude 3.5 Haiku|2.25|0/810|
+|30|Mistral Small 3|2.25|0/810|
+|31|MiniMax-Text-01|2.28|0/810|
+|32|GPT-4o mini|2.30|0/810|
+|33|Gemma 2 27B|2.60|0/810|
 
 
 
@@ -135,6 +136,7 @@ In our benchmark, it's trivial for top LLMs to see if an example or counterexamp
 We also checked for self-grading bias. None detected.
 
 ## Updates and Other Benchmarks
+- Mar 14, 2025: Gemma 3 27B added.
 - Mar 8, 2025: Qwen QwQ-32B added.
 - Feb 27, 2025: GPT-4.5 Preview added.
 - Feb 25, 2025: Claude 3.7 Sonnet Thinking, Claude 3.7 Sonnet, GPT-4o Feb 2025, Gemini 2.0 Pro Exp 02-05, Gemini 2.0 Flash added.
