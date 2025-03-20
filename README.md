@@ -2,6 +2,7 @@
 
 This benchmark measures how effectively various LLMs can infer a narrow or specific "theme" (category/rule) from a small set of examples and anti-examples, then detect which item truly fits that theme among a collection of misleading candidates. The overall process involves generating themes, creating examples and anti-examples, filtering out low-quality data via a "double-check" step, and finally prompting LLMs to score the real example among several distractors.
 
+---
 
 ## Visualizations
 
@@ -22,6 +23,8 @@ A correlation matrix based on how similarly two models assign a “difference sc
 ### 4. **How Often the Correct Example is the Highest Score**
 ![02_model_bar_correct_highest](https://github.com/user-attachments/assets/9834cf77-a23d-4328-b97e-1dbaeb18f2e4)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
+
+---
 
 ## Leaderboard
 
@@ -66,6 +69,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 - Avg Rank is the mean ranking assigned to the correct example across 810 test files.
 - Skipped indicates how many outputs failed to parse or didn’t follow the required output format (e.g., missing <number> and <score> tags).
 
+---
+
 ## Benchmark Method in Detail
 
 1. **Theme & Example Creation**
@@ -89,6 +94,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 5. **Result Analysis**
    - If a model consistently places the real leftover example at or near the top, it implies strong thematic generalization.
    - We compile the results into multiple stats, including average rank, difference vs. the anti-example average, fraction of times the real item is top, etc.
+
+---
 
 ## Examples
 
@@ -128,6 +135,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 
 **Theme:** "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
 
+---
+
 ## Note
 Note that in general "verification vs. generation complexity asymmetry notions continue to hold empirically when replacing tailored algorithms with Language Models (LMs)" (https://arxiv.org/abs/2407.16831v1). "An LLM may be able to perform individual steps in a task, e.g. evidence verification, more accurately than the LLM can perform an entire task" (https://arxiv.org/abs/2306.00024). Verification tends to require fewer resources or simpler reasoning, so even very complex AI-generated benchmark items can be checked for correctness by another model with relative ease. 
 
@@ -135,11 +144,25 @@ In our benchmark, it's trivial for top LLMs to see if an example or counterexamp
 
 We also checked for self-grading bias. None detected.
 
-## Updates and Other Benchmarks
+---
+## Other multi-agent benchmarks
+- [Public Goods Game (PGG) Benchmark: Contribute & Punish](https://github.com/lechmazur/pgg_bench/)
+- [Elimination Game: Social Reasoning and Deception in Multi-Agent LLMs](https://github.com/lechmazur/elimination_game/)
+- [Step Race: Collaboration vs. Misdirection Under Pressure](https://github.com/lechmazur/step_game/)
+
+## Other benchmarks
+- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/)
+- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/)
+- [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/)
+- [LLM Deceptiveness and Gullibility](https://github.com/lechmazur/deception/)
+- [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent/)
+
+---
+
+## Updates
 - Mar 14, 2025: Gemma 3 27B added.
 - Mar 8, 2025: Qwen QwQ-32B added.
 - Feb 27, 2025: GPT-4.5 Preview added.
 - Feb 25, 2025: Claude 3.7 Sonnet Thinking, Claude 3.7 Sonnet, GPT-4o Feb 2025, Gemini 2.0 Pro Exp 02-05, Gemini 2.0 Flash added.
 - Feb 4, 2025: DeepSeek R1, o3-mini (medium reasoning effort), Gemini 2.0 Flash Thinking Exp 01-21, Qwen 2.5 Max, Microsoft Phi-4, Amazon Nova Pro, Mistral Small 3, MiniMax-Text-01 added.
-- Also check out [Multi-Agent Elimination Game LLM Benchmark](https://github.com/lechmazur/elimination_game/), [LLM Public Goods Game](https://github.com/lechmazur/goods), [LLM Step Game](https://github.com/lechmazur/step_game), [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [LLM Deception Benchmark](https://github.com/lechmazur/deception), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), and [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent).
 - Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for other upcoming benchmarks and more.
