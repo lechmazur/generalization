@@ -146,7 +146,23 @@ In our benchmark, it's trivial for top LLMs to see if an example or counterexamp
 
 We also checked for self-grading bias. None detected.
 
-## Updates and Other Benchmarks
+---
+## Other multi-agent benchmarks
+- [Public Goods Game (PGG) Benchmark: Contribute & Punish](https://github.com/lechmazur/pgg_bench/)
+- [Elimination Game: Social Reasoning and Deception in Multi-Agent LLMs](https://github.com/lechmazur/elimination_game/)
+- [Step Race: Collaboration vs. Misdirection Under Pressure](https://github.com/lechmazur/step_game/)
+
+## Other benchmarks
+- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/)
+- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/)
+- [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/)
+- [LLM Deceptiveness and Gullibility](https://github.com/lechmazur/deception/)
+- [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent/)
+
+---
+
+## Updates
+- Mar 26, 2025: Gemini 2.5 Pro Exp 03-25, DeepSeek V3-0324, o3-mini-high added.
 - Mar 14, 2025: Gemma 3 27B added.
 - Mar 8, 2025: Qwen QwQ-32B added.
 - Feb 27, 2025: GPT-4.5 Preview added.
