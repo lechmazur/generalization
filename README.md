@@ -2,69 +2,76 @@
 
 This benchmark measures how effectively various LLMs can infer a narrow or specific "theme" (category/rule) from a small set of examples and anti-examples, then detect which item truly fits that theme among a collection of misleading candidates. The overall process involves generating themes, creating examples and anti-examples, filtering out low-quality data via a "double-check" step, and finally prompting LLMs to score the real example among several distractors.
 
+---
 
 ## Visualizations
 
 ### 1. **Average Rank of the Correct Example** 
-![04_model_bar_correct_rank](https://github.com/user-attachments/assets/b0b65073-5000-4e62-aaa6-9e6997279e5c)
+![Correct rank](/images/04_model_bar_correct_rank.png)
 This chart displays, for each model, the **average rank** that model assigns to the true example (when placed among seven distractors). Ranks range from 1 (top score) to 8 (lowest).  
 - **Smaller values** indicate **better** performance, because it means the correct example is consistently placed near the top.  
 - A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
 
 ### 2. **Distribution of Ranks**
-![05_model_rank_distribution](https://github.com/user-attachments/assets/f0573970-1bef-448c-b8ef-995e050771b2)
+![Model Rank Distribution](/images/05_model_rank_distribution.png)
 A more granular view of the ranks each model assigns to the leftover correct example per file, showing how stable or varied those ranks are across different themes. 
 
 ### 3. **Model–Model Correlation**
-![06_models_correlation](https://github.com/user-attachments/assets/1b4fbcf9-4ef8-4498-80c5-d7936017fd44)
+![Model–Model Correlation](/images/06_models_correlation.png)
 A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
 
 ### 4. **How Often the Correct Example is the Highest Score**
-![02_model_bar_correct_highest](https://github.com/user-attachments/assets/9834cf77-a23d-4328-b97e-1dbaeb18f2e4)
+![Correct Highest](/images/02_model_bar_correct_highest)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
+
+---
 
 ## Leaderboard
 
 |Rank|Model|Avg Rank|Skipped/Total|
 |----:|-----|-------:|------------:|
 |1|Claude 3.7 Sonnet Thinking 16K|1.73|0/810|
-|2|o1 (medium reasoning)|1.80|0/810|
-|3|DeepSeek R1|1.80|0/810|
-|4|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
-|5|o3-mini (medium reasoning)|1.85|0/810|
-|6|Claude 3.7 Sonnet|1.88|0/810|
-|7|Gemini 2.0 Pro Exp 02-05|1.89|0/810|
-|8|Gemini 2.0 Flash Think Exp Old|1.90|0/810|
-|9|Qwen QwQ-32B 16K|1.92|0/810|
-|10|GPT-4.5 Preview|1.93|0/810|
-|11|Claude 3.5 Sonnet 2024-10-22|1.93|0/810|
-|12|o1-mini|1.95|0/810|
-|13|GPT-4o 2024-08-06|1.96|0/810|
-|14|GPT-4o Feb 2025|2.00|0/810|
-|15|Gemini 2.0 Flash|2.00|0/810|
-|16|Gemini 2.0 Flash Exp|2.00|0/810|
-|17|DeepSeek-V3|2.03|0/810|
-|18|Qwen QwQ Preview*|2.05|280/810|
-|19|Llama 3.1 405B|2.08|0/810|
-|20|Qwen 2.5 Max|2.08|2/810|
-|21|Microsoft Phi-4|2.10|0/810|
-|22|Mistral Large 2|2.11|0/810|
-|23|Amazon Nova Pro|2.11|0/810|
-|24|Llama 3.3 70B|2.12|0/810|
-|25|Gemini 1.5 Pro (Sept)|2.13|0/810|
-|26|Gemma 3 27B|2.21|0/810|
-|27|Grok 2 12-12|2.21|0/810|
-|28|Qwen 2.5 72B|2.21|0/810|
-|29|Claude 3.5 Haiku|2.25|0/810|
-|30|Mistral Small 3|2.25|0/810|
-|31|MiniMax-Text-01|2.28|0/810|
-|32|GPT-4o mini|2.30|0/810|
-|33|Gemma 2 27B|2.60|0/810|
-
+|2|Gemini 2.5 Pro Exp 03-25|1.74|2/810|
+|3|o1 (medium reasoning)|1.80|0/810|
+|4|DeepSeek R1|1.80|0/810|
+|5|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
+|6|o3-mini-high|1.84|0/810|
+|7|o3-mini (medium reasoning)|1.85|0/810|
+|8|Claude 3.7 Sonnet|1.88|0/810|
+|9|Gemini 2.0 Pro Exp 02-05|1.89|0/810|
+|10|Gemini 2.0 Flash Think Exp Old|1.90|0/810|
+|11|Qwen QwQ-32B 16K|1.92|0/810|
+|12|GPT-4.5 Preview|1.93|0/810|
+|13|Claude 3.5 Sonnet 2024-10-22|1.93|0/810|
+|14|DeepSeek V3-0324|1.95|0/810|
+|15|o1-mini|1.95|0/810|
+|16|GPT-4o 2024-08-06|1.96|0/810|
+|17|GPT-4o Feb 2025|2.00|0/810|
+|18|Gemini 2.0 Flash|2.00|0/810|
+|19|Gemini 2.0 Flash Exp|2.00|0/810|
+|20|DeepSeek-V3|2.03|0/810|
+|21|Qwen QwQ Preview*|2.05|280/810|
+|22|Llama 3.1 405B|2.08|0/810|
+|23|Qwen 2.5 Max|2.08|2/810|
+|24|Microsoft Phi-4|2.10|0/810|
+|25|Mistral Large 2|2.11|0/810|
+|26|Amazon Nova Pro|2.11|0/810|
+|27|Llama 3.3 70B|2.12|0/810|
+|28|Gemini 1.5 Pro (Sept)|2.13|0/810|
+|29|Gemma 3 27B|2.21|0/810|
+|30|Grok 2 12-12|2.21|0/810|
+|31|Qwen 2.5 72B|2.21|0/810|
+|32|Claude 3.5 Haiku|2.25|0/810|
+|33|Mistral Small 3|2.25|0/810|
+|34|MiniMax-Text-01|2.28|0/810|
+|35|GPT-4o mini|2.30|0/810|
+|36|Gemma 2 27B|2.60|0/810|
 
 
 - Avg Rank is the mean ranking assigned to the correct example across 810 test files.
 - Skipped indicates how many outputs failed to parse or didn’t follow the required output format (e.g., missing <number> and <score> tags).
+
+---
 
 ## Benchmark Method in Detail
 
@@ -89,6 +96,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 5. **Result Analysis**
    - If a model consistently places the real leftover example at or near the top, it implies strong thematic generalization.
    - We compile the results into multiple stats, including average rank, difference vs. the anti-example average, fraction of times the real item is top, etc.
+
+---
 
 ## Examples
 
@@ -128,6 +137,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 
 **Theme:** "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
 
+---
+
 ## Note
 Note that in general "verification vs. generation complexity asymmetry notions continue to hold empirically when replacing tailored algorithms with Language Models (LMs)" (https://arxiv.org/abs/2407.16831v1). "An LLM may be able to perform individual steps in a task, e.g. evidence verification, more accurately than the LLM can perform an entire task" (https://arxiv.org/abs/2306.00024). Verification tends to require fewer resources or simpler reasoning, so even very complex AI-generated benchmark items can be checked for correctness by another model with relative ease. 
 
@@ -135,11 +146,26 @@ In our benchmark, it's trivial for top LLMs to see if an example or counterexamp
 
 We also checked for self-grading bias. None detected.
 
-## Updates and Other Benchmarks
+---
+## Other multi-agent benchmarks
+- [Public Goods Game (PGG) Benchmark: Contribute & Punish](https://github.com/lechmazur/pgg_bench/)
+- [Elimination Game: Social Reasoning and Deception in Multi-Agent LLMs](https://github.com/lechmazur/elimination_game/)
+- [Step Race: Collaboration vs. Misdirection Under Pressure](https://github.com/lechmazur/step_game/)
+
+## Other benchmarks
+- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/)
+- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/)
+- [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/)
+- [LLM Deceptiveness and Gullibility](https://github.com/lechmazur/deception/)
+- [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent/)
+
+---
+
+## Updates
+- Mar 26, 2025: Gemini 2.5 Pro Exp 03-25, DeepSeek V3-0324, o3-mini-high added.
 - Mar 14, 2025: Gemma 3 27B added.
 - Mar 8, 2025: Qwen QwQ-32B added.
 - Feb 27, 2025: GPT-4.5 Preview added.
 - Feb 25, 2025: Claude 3.7 Sonnet Thinking, Claude 3.7 Sonnet, GPT-4o Feb 2025, Gemini 2.0 Pro Exp 02-05, Gemini 2.0 Flash added.
 - Feb 4, 2025: DeepSeek R1, o3-mini (medium reasoning effort), Gemini 2.0 Flash Thinking Exp 01-21, Qwen 2.5 Max, Microsoft Phi-4, Amazon Nova Pro, Mistral Small 3, MiniMax-Text-01 added.
-- Also check out [Multi-Agent Elimination Game LLM Benchmark](https://github.com/lechmazur/elimination_game/), [LLM Public Goods Game](https://github.com/lechmazur/goods), [LLM Step Game](https://github.com/lechmazur/step_game), [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [LLM Deception Benchmark](https://github.com/lechmazur/deception), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), and [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent).
 - Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for other upcoming benchmarks and more.
