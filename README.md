@@ -21,7 +21,7 @@ A more granular view of the ranks each model assigns to the leftover correct exa
 A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
 
 ### 4. **How Often the Correct Example is the Highest Score**
-![Correct Highest](/images/02_model_bar_correct_highest)
+![Correct Highest](/images/02_model_bar_correct_highest.png)
 A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
 
 ---
