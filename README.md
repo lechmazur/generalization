@@ -31,7 +31,7 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |Rank|Model|Avg Rank|Skipped/Total|
 |----:|-----|-------:|------------:|
 |1|Claude 3.7 Sonnet Thinking 16K|1.73|0/810|
-|2|Gemini 2.5 Pro Exp 03-25|1.74|2/810|
+|2|Gemini 2.5 Pro Exp 03-25|1.74|0/810|
 |3|o1 (medium reasoning)|1.80|0/810|
 |4|DeepSeek R1|1.80|0/810|
 |5|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
@@ -46,26 +46,27 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |14|DeepSeek V3-0324|1.95|0/810|
 |15|o1-mini|1.95|0/810|
 |16|GPT-4o 2024-08-06|1.96|0/810|
-|17|GPT-4o Feb 2025|2.00|0/810|
-|18|Gemini 2.0 Flash|2.00|0/810|
-|19|Gemini 2.0 Flash Exp|2.00|0/810|
-|20|DeepSeek-V3|2.03|0/810|
-|21|Qwen QwQ Preview*|2.05|280/810|
-|22|Llama 3.1 405B|2.08|0/810|
-|23|Qwen 2.5 Max|2.08|2/810|
-|24|Microsoft Phi-4|2.10|0/810|
-|25|Mistral Large 2|2.11|0/810|
-|26|Amazon Nova Pro|2.11|0/810|
-|27|Llama 3.3 70B|2.12|0/810|
-|28|Gemini 1.5 Pro (Sept)|2.13|0/810|
-|29|Gemma 3 27B|2.21|0/810|
-|30|Grok 2 12-12|2.21|0/810|
-|31|Qwen 2.5 72B|2.21|0/810|
-|32|Claude 3.5 Haiku|2.25|0/810|
-|33|Mistral Small 3|2.25|0/810|
-|34|MiniMax-Text-01|2.28|0/810|
-|35|GPT-4o mini|2.30|0/810|
-|36|Gemma 2 27B|2.60|0/810|
+|17|GPT-4o Mar 2025|1.97|0/810|
+|18|GPT-4o Feb 2025|2.00|0/810|
+|19|Gemini 2.0 Flash|2.00|0/810|
+|20|Gemini 2.0 Flash Exp|2.00|0/810|
+|21|DeepSeek-V3|2.03|0/810|
+|22|Qwen QwQ Preview*|2.05|280/810|
+|23|Llama 3.1 405B|2.08|0/810|
+|24|Qwen 2.5 Max|2.08|2/810|
+|25|Microsoft Phi-4|2.10|0/810|
+|26|Mistral Large 2|2.11|0/810|
+|27|Amazon Nova Pro|2.11|0/810|
+|28|Llama 3.3 70B|2.12|0/810|
+|29|Gemini 1.5 Pro (Sept)|2.13|0/810|
+|30|Gemma 3 27B|2.21|0/810|
+|31|Grok 2 12-12|2.21|0/810|
+|32|Qwen 2.5 72B|2.21|0/810|
+|33|Claude 3.5 Haiku|2.25|0/810|
+|34|Mistral Small 3|2.25|0/810|
+|35|MiniMax-Text-01|2.28|0/810|
+|36|GPT-4o mini|2.30|0/810|
+|37|Gemma 2 27B|2.60|0/810|
 
 
 - Avg Rank is the mean ranking assigned to the correct example across 810 test files.
@@ -162,6 +163,7 @@ We also checked for self-grading bias. None detected.
 ---
 
 ## Updates
+- Mar 28, 2025: GPT-4o March 2025 added.
 - Mar 26, 2025: Gemini 2.5 Pro Exp 03-25, DeepSeek V3-0324, o3-mini-high added.
 - Mar 14, 2025: Gemma 3 27B added.
 - Mar 8, 2025: Qwen QwQ-32B added.
