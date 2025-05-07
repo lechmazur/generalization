@@ -59,18 +59,18 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |27|GPT-4o Feb 2025|2.00|0/810|
 |28|Gemini 2.0 Flash|2.00|0/810|
 |29|Gemini 2.0 Flash Exp|2.00|0/810|
-|30|Mistral Medium 3|2.02|0/266|
-|31|DeepSeek V3|2.03|0/810|
-|32|Llama 4 Maverick|2.04|0/810|
-|33|Qwen QwQ-32B Preview|2.05|280/810|
-|34|Grok 3 Beta (no reasoning)|2.07|0/810|
-|35|Llama 3.1 405B|2.08|0/810|
-|36|Qwen 2.5 Max|2.08|2/810|
-|37|Qwen 3 30B A3B|2.09|0/810|
-|38|Microsoft Phi-4|2.10|0/810|
-|39|Mistral Large 2|2.11|0/810|
-|40|Amazon Nova Pro|2.11|0/810|
-|41|Llama 3.3 70B|2.12|0/810|
+|30|DeepSeek V3|2.03|0/810|
+|31|Llama 4 Maverick|2.04|0/810|
+|32|Qwen QwQ-32B Preview|2.05|280/810|
+|33|Grok 3 Beta (no reasoning)|2.07|0/810|
+|34|Llama 3.1 405B|2.08|0/810|
+|35|Qwen 2.5 Max|2.08|2/810|
+|36|Qwen 3 30B A3B|2.09|0/810|
+|37|Microsoft Phi-4|2.10|0/810|
+|38|Mistral Large 2|2.11|0/810|
+|39|Amazon Nova Pro|2.11|0/810|
+|40|Llama 3.3 70B|2.12|0/810|
+|41|Mistral Medium 3|2.12|0/810|
 |42|Gemini 1.5 Pro (Sept)|2.13|0/810|
 |43|Gemma 3 27B|2.21|0/810|
 |44|Grok 2 12-12|2.21|0/810|
@@ -176,7 +176,7 @@ We also checked for self-grading bias. None detected.
 ---
 
 ## Updates
-- May 7, 2025: 
+- May 7, 2025: Gemini 2.5 Pro Preview 05-06 and Mistral Medium 3 added.
 - Apr 30, 2025: Qwen 3 added.
 - Apr 18, 2025: o3, o4-mini, Gemini 2.5 Flash added.
 - Apr 11, 2025: Grok 3 added.
