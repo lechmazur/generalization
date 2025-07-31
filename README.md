@@ -39,60 +39,62 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |7|DeepSeek R1 05/28|1.74|0/810|
 |8|Gemini 2.5 Pro Preview 05-06|1.75|0/810|
 |9|Gemini 2.5 Pro|1.79|0/810|
-|10|o1 (medium reasoning)|1.80|0/810|
-|11|o4-mini (medium reasoning)|1.80|0/810|
-|12|DeepSeek R1|1.80|0/810|
-|13|Gemini 2.5 Flash Preview 24K|1.81|0/810|
-|14|o3 (high reasoning)|1.82|0/810|
-|15|o3-pro (medium reasoning)|1.82|0/810|
-|16|o4-mini (high reasoning)|1.82|0/810|
-|17|o3 (medium reasoning)|1.83|0/810|
-|18|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
-|19|o3-mini (high reasoning)|1.84|0/810|
-|20|o3-mini (medium reasoning)|1.85|0/810|
-|21|Claude 3.7 Sonnet|1.88|0/810|
-|22|Grok 4|1.88|0/810|
-|23|Claude Sonnet 4 (no reasoning)|1.89|0/810|
-|24|Gemini 2.0 Pro Exp 02-05|1.89|0/810|
-|25|Grok 3 Mini Beta (high reasoning)|1.89|0/810|
-|26|Gemini 2.0 Flash Thinking Exp Old|1.90|0/810|
-|27|Grok 3 Mini Beta (low)|1.90|0/810|
-|28|Qwen 3 235B A22B|1.90|0/810|
-|29|GPT-4.5 Preview|1.93|0/810|
-|30|Qwen QwQ-32B 16K|1.93|8/810|
-|31|Claude 3.5 Sonnet 2024-10-22|1.93|0/810|
-|32|Kimi K2|1.94|0/810|
-|33|DeepSeek V3-0324|1.95|0/810|
-|34|o1-mini|1.95|0/810|
-|35|GPT-4o 2024-08-06|1.96|0/810|
-|36|GPT-4o Mar 2025|1.97|0/810|
-|37|GPT-4o Feb 2025|2.00|0/810|
-|38|Gemini 2.0 Flash|2.00|0/810|
-|39|Gemini 2.0 Flash Exp|2.00|0/810|
-|40|DeepSeek V3|2.03|0/810|
-|41|Llama 4 Maverick|2.04|0/810|
-|42|Qwen QwQ-32B Preview|2.05|280/810|
-|43|Grok 3 Beta (no reasoning)|2.07|0/810|
-|44|Llama 3.1 405B|2.08|0/810|
-|45|Qwen 2.5 Max|2.08|2/810|
-|46|Qwen 3 30B A3B|2.09|0/810|
-|47|Microsoft Phi-4|2.10|0/810|
-|48|Mistral Large 2|2.11|0/810|
-|49|Amazon Nova Pro|2.11|0/810|
-|50|Llama 3.3 70B|2.12|0/810|
-|51|Mistral Medium 3|2.12|0/810|
-|52|Gemini 1.5 Pro (Sept)|2.13|0/810|
-|53|Mistral Small 3.2|2.14|0/810|
-|54|Baidu Ernie 4.5 300B A47B|2.15|0/810|
-|55|Gemma 3 27B|2.21|0/810|
-|56|Grok 2 12-12|2.21|0/810|
-|57|Qwen 2.5 72B|2.21|0/810|
-|58|Claude 3.5 Haiku|2.25|0/810|
-|59|Mistral Small 3|2.25|0/810|
-|60|MiniMax-Text-01|2.28|0/810|
-|61|GPT-4o mini|2.30|0/810|
-|62|GLM4-32B-0414|2.35|0/810|
-|63|Gemma 2 27B|2.60|0/810|
+|10|GLM-4.5|1.80|0/810|
+|11|o1 (medium reasoning)|1.80|0/810|
+|12|o4-mini (medium reasoning)|1.80|0/810|
+|13|DeepSeek R1|1.80|0/810|
+|14|Gemini 2.5 Flash Preview 24K|1.81|0/810|
+|15|o3 (high reasoning)|1.82|0/810|
+|16|o3-pro (medium reasoning)|1.82|0/810|
+|17|o4-mini (high reasoning)|1.82|0/810|
+|18|o3 (medium reasoning)|1.83|0/810|
+|19|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
+|20|o3-mini (high reasoning)|1.84|0/810|
+|21|Qwen 3 235B A22B 25-07 Think|1.84|0/810|
+|22|o3-mini (medium reasoning)|1.85|0/810|
+|23|Claude 3.7 Sonnet|1.88|0/810|
+|24|Grok 4|1.88|0/810|
+|25|Claude Sonnet 4 (no reasoning)|1.89|0/810|
+|26|Gemini 2.0 Pro Exp 02-05|1.89|0/810|
+|27|Grok 3 Mini Beta (high reasoning)|1.89|0/810|
+|28|Gemini 2.0 Flash Thinking Exp Old|1.90|0/810|
+|29|Grok 3 Mini Beta (low)|1.90|0/810|
+|30|Qwen 3 235B A22B|1.90|0/810|
+|31|GPT-4.5 Preview|1.93|0/810|
+|32|Qwen QwQ-32B 16K|1.93|8/810|
+|33|Claude 3.5 Sonnet 2024-10-22|1.93|0/810|
+|34|Kimi K2|1.94|0/810|
+|35|DeepSeek V3-0324|1.95|0/810|
+|36|o1-mini|1.95|0/810|
+|37|GPT-4o 2024-08-06|1.96|0/810|
+|38|GPT-4o Mar 2025|1.97|0/810|
+|39|GPT-4o Feb 2025|2.00|0/810|
+|40|Gemini 2.0 Flash|2.00|0/810|
+|41|Gemini 2.0 Flash Exp|2.00|0/810|
+|42|DeepSeek V3|2.03|0/810|
+|43|Llama 4 Maverick|2.04|0/810|
+|44|Qwen QwQ-32B Preview|2.05|280/810|
+|45|Grok 3 Beta (no reasoning)|2.07|0/810|
+|46|Llama 3.1 405B|2.08|0/810|
+|47|Qwen 2.5 Max|2.08|2/810|
+|48|Qwen 3 30B A3B|2.09|0/810|
+|49|Microsoft Phi-4|2.10|0/810|
+|50|Mistral Large 2|2.11|0/810|
+|51|Amazon Nova Pro|2.11|0/810|
+|52|Llama 3.3 70B|2.12|0/810|
+|53|Mistral Medium 3|2.12|0/810|
+|54|Gemini 1.5 Pro (Sept)|2.13|0/810|
+|55|Mistral Small 3.2|2.14|0/810|
+|56|Baidu Ernie 4.5 300B A47B|2.15|0/810|
+|57|Gemma 3 27B|2.21|0/810|
+|58|Grok 2 12-12|2.21|0/810|
+|59|Qwen 2.5 72B|2.21|0/810|
+|60|Claude 3.5 Haiku|2.25|0/810|
+|61|Mistral Small 3|2.25|0/810|
+|62|MiniMax-Text-01|2.28|0/810|
+|63|GPT-4o mini|2.30|0/810|
+|64|GLM4-32B-0414|2.35|0/810|
+|65|Gemma 2 27B|2.60|0/810|
 
 
 - Avg Rank is the mean ranking assigned to the correct example across 810 test files.
@@ -189,6 +191,7 @@ We also checked for self-grading bias. None detected.
 ---
 
 ## Updates
+- July 31, 2025: Qwen 3 235B A22B 25-07 Thinking, GLM-4.5 added.
 - July 14, 2024: Kimi K2 added.
 - July 10, 2025: Grok 4, GLM4-32B-0414, Baidu Ernie 4.5 300B A47B, Mistral Small 3.2 added.
 - June 11, 2025: o3-pro added.
