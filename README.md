@@ -41,8 +41,8 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |9|DeepSeek R1 05/28|1.74|0/810|
 |10|Gemini 2.5 Pro Preview 05-06|1.75|0/810|
 |11|Gemini 2.5 Pro|1.79|0/810|
-|12|GLM-4.5|1.80|0/810|
-|13|GPT-5 (medium reasoning)|1.80|19/810|
+|12|GPT-5 (medium reasoning)|1.79|0/810|
+|13|GLM-4.5|1.80|0/810|
 |14|o1 (medium reasoning)|1.80|0/810|
 |15|o4-mini (medium reasoning)|1.80|0/810|
 |16|DeepSeek R1|1.80|0/810|
@@ -91,7 +91,7 @@ A stacked bar chart indicating how frequently each model places the real leftove
 |59|Gemini 1.5 Pro (Sept)|2.13|0/810|
 |60|Mistral Small 3.2|2.14|0/810|
 |61|Baidu Ernie 4.5 300B A47B|2.15|0/810|
-|62|GPT-OSS-20B|2.19|5/810|
+|62|GPT-OSS-20B|2.18|0/810|
 |63|Gemma 3 27B|2.21|0/810|
 |64|Grok 2 12-12|2.21|0/810|
 |65|Qwen 2.5 72B|2.21|0/810|
