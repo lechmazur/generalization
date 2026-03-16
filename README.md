@@ -48,7 +48,7 @@ The subset contains **623** items where at least **two distinct full-coverage mo
 | 19 | Mistral Medium 3.1 | 33.5% | 19.6 | 623 |
 
 Main takeaway:
-- the frontier cluster is  tight
+- the frontier cluster is tight
 - weaker non-reasoning systems fall off sharply
 
 ---
