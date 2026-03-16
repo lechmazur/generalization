@@ -1,0 +1,12 @@
+Theme, rule, criterion, or category (referred to as "theme"): {theme}
+
+Below are 8 candidates. Your task is to evaluate each candidate on a scale of 0 (worst match) to 100 (best match) based on how well it matches the specific theme above. For each candidate, output its number and score using these tags:
+<number>1</number><score>25</score>
+<number>2</number><score>72</score>
+...
+<number>8</number><score>43</score>
+
+These scores will be used for rankings, so ensure they are granular, nuanced, graded, continuous and not polarized (so not just 0s and 100s). Use the full range of possible scores (0 to 100), not a limited range (e.g. nothing but 0s or 10s or multiples of 10). No additional comments are needed. Output English ONLY. You must use the specified tags.
+
+Candidates:
+{candidates}

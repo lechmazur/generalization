@@ -1,0 +1,21 @@
+Theme, rule, criterion, or category (referred to as "theme"): {rule}
+
+This task is to create a quiz questions, so avoid providing clear clues that would reveal the theme based on the examples you create. Each example must clearly satisfy the theme, but choose non-obvious or less prototypical instances drawn from different domains or contexts. The examples should be individually ambiguous — each could plausibly belong to several different themes — but collectively they should narrow down to the specific theme. Avoid examples that share surface-level similarities (e.g., all from the same domain, all the same type of object) since that makes the theme too easy to guess.
+
+List four specific, varied, illustrative examples that follow this theme. Enclose each in the tag <example></example>. Do not number them. Do no add comments. If you are unable to create an example that follows this specification, write "N/A" in place of the example. E.g.:
+a soccer ball
+a basketball
+a tennis ball
+a volleyball
+
+List 20 varied misleading examples. hese must NOT satisfy the specific theme but should be plausible distractors. 
+They could be examples that follow various more general versions of this theme, examples of connected, linked, or associated themes BUT they may not be examples of this exact theme as written. 
+They could satisfy a broader or more general version of the theme, belong to an adjacent or related theme but fail the specific criterion, be superficially similar (same domain, same look/feel) but don't actually meet the rule, a person might mistakenly associate them with the theme due to common misconceptions or loose reasoning, etc.
+Number them 1 to 20. Enclose each of them in the tag <anti_example></anti_example>. E.g.:
+
+1 <anti_example>a football</anti_example>
+2 <anti_example>a shuttlecock</anti_example>
+...
+20 <anti_example>a puck</anti_example>
+
+Do not add any comments or explanations. You must list exactly 4 examples and 20 anti-examples.

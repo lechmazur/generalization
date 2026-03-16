@@ -1,234 +1,192 @@
-# LLM Thematic Generalization Benchmark
+# LLM Thematic Generalization Benchmark V2
 
-This benchmark measures how effectively various LLMs can infer a narrow or specific "theme" (category/rule) from a small set of examples and anti-examples, then detect which item truly fits that theme among a collection of misleading candidates. The overall process involves generating themes, creating examples and anti-examples, filtering out low-quality data via a "double-check" step, and finally prompting LLMs to score the real example among several distractors.
+This benchmark tests whether large language models can infer a **specific latent theme** from a few examples, use anti-examples to reject the broader but wrong pattern, and then identify the **one true match** among close distractors.
 
----
+Each item gives the model:
+- **3 positive examples**
+- **3 anti-examples** that fit a broader or adjacent pattern but not the exact one
+- **8 candidates**, with exactly **1** hidden true match
 
-## Visualizations
+Models score all 8 candidates. We then measure whether the correct candidate is ranked first, and how highly it tends to be ranked overall.
 
-### 1. **Average Rank of the Correct Example** 
-![Correct rank](/images/04_model_bar_correct_rank.png)
-This chart displays, for each model, the **average rank** that model assigns to the true example (when placed among seven distractors). Ranks range from 1 (top score) to 8 (lowest).  
-- **Smaller values** indicate **better** performance, because it means the correct example is consistently placed near the top.  
-- A bar height of 2.0 would mean that on average, the leftover correct item was the second-highest-scored candidate.
-
-### 2. **Distribution of Ranks**
-![Model Rank Distribution](/images/05_model_rank_distribution.png)
-A more granular view of the ranks each model assigns to the leftover correct example per file, showing how stable or varied those ranks are across different themes. 
-
-### 3. **Model–Model Correlation**
-![Model–Model Correlation](/images/06_models_correlation.png)
-A correlation matrix based on how similarly two models assign a “difference score” to the correct vs. anti-examples. It highlights which LLMs behave similarly or deviate significantly.
-
-### 4. **How Often the Correct Example is the Highest Score**
-![Correct Highest](/images/02_model_bar_correct_highest.png)
-A stacked bar chart indicating how frequently each model places the real leftover example strictly at the top (or tied for top). This quickly shows which LLMs are best at ensuring the real item is #1 vs. merely near the top.
+V2 uses **1,247 validated prompts** and adds stricter ambiguity filtering plus harder evaluation slices. The previous published release is being archived as V1.
 
 ---
 
-## Leaderboard
+## Headline Result: Cross-Family Hard Subset
 
-|Rank|Model|Avg Rank|Skipped/Total|
-|----:|-----|-------:|------------:|
-|1|Claude Opus 4.1 (no reasoning)|1.69|0/810|
-|2|Claude Opus 4 Thinking 16K|1.69|0/810|
-|3|Claude Sonnet 4 Thinking 16K|1.69|0/810|
-|4|Claude Opus 4.1 Thinking 16K|1.70|0/810|
-|5|Claude Opus 4 (no reasoning)|1.70|0/810|
-|6|Claude 3.7 Sonnet Thinking 16K|1.73|0/810|
-|7|Claude Sonnet 4 Thinking 64K|1.74|0/810|
-|8|Gemini 2.5 Pro|1.74|0/810|
-|9|DeepSeek R1 05/28|1.74|0/810|
-|10|DeepSeek V3.1 Non-Think|1.75|0/810|
-|11|Gemini 2.5 Pro Preview 05-06|1.75|0/810|
-|12|Sonoma Sky Alpha|1.77|0/810|
-|13|Gemini 2.5 Pro|1.79|0/810|
-|14|GPT-5 (medium reasoning)|1.79|0/810|
-|15|Grok 4 Fast Reasoning|1.79|0/810|
-|16|DeepSeek V3.1 Reasoner|1.80|0/810|
-|17|GLM-4.5|1.80|0/810|
-|18|o1 (medium reasoning)|1.80|0/810|
-|19|o4-mini (medium reasoning)|1.80|0/810|
-|20|DeepSeek R1|1.80|0/810|
-|21|Gemini 2.5 Flash Preview 24K|1.81|0/810|
-|22|o3 (high reasoning)|1.82|0/810|
-|23|o3-pro (medium reasoning)|1.82|0/810|
-|24|o4-mini (high reasoning)|1.82|0/810|
-|25|o3 (medium reasoning)|1.83|0/810|
-|26|Gemini 2.0 Flash Think Exp 01-21|1.84|0/810|
-|27|o3-mini (high reasoning)|1.84|0/810|
-|28|Qwen 3 235B A22B 25-07 Think|1.84|0/810|
-|29|o3-mini (medium reasoning)|1.85|0/810|
-|30|GPT-OSS-120B|1.87|0/810|
-|31|Claude 3.7 Sonnet|1.88|0/810|
-|32|Grok 4|1.88|0/810|
-|33|Claude Sonnet 4 (no reasoning)|1.89|0/810|
-|34|Gemini 2.0 Pro Exp 02-05|1.89|0/810|
-|35|Grok 3 Mini Beta (high reasoning)|1.89|0/810|
-|36|Gemini 2.0 Flash Thinking Exp Old|1.90|0/810|
-|37|GPT-5 mini (medium reasoning)|1.90|0/810|
-|38|Grok 3 Mini Beta (low)|1.90|0/810|
-|39|Qwen 3 235B A22B|1.90|0/810|
-|40|GPT-4.5 Preview|1.93|0/810|
-|41|Qwen QwQ-32B 16K|1.93|8/810|
-|42|Claude 3.5 Sonnet 2024-10-22|1.93|0/810|
-|43|Kimi K2|1.94|0/810|
-|44|DeepSeek V3-0324|1.95|0/810|
-|45|o1-mini|1.95|0/810|
-|46|GPT-4o 2024-08-06|1.96|0/810|
-|47|GPT-4o Mar 2025|1.97|0/810|
-|48|Qwen 3 235B A22B 25-07 Instruct|1.97|1/810|
-|49|GPT-4o Feb 2025|2.00|0/810|
-|50|Gemini 2.0 Flash|2.00|0/810|
-|51|Gemini 2.0 Flash Exp|2.00|0/810|
-|52|Qwen 3 Next 80B A3B Thinking|2.01|13/810|
-|53|Grok 4 Fast Non-Reasoning|2.02|6/810|
-|54|Kimi K2-0905|2.02|0/810|
-|55|LongCat Flash Chat|2.02|6/810|
-|56|DeepSeek V3|2.03|0/810|
-|57|Sonoma Dusk Alpha|2.03|0/810|
-|58|Llama 4 Maverick|2.04|0/810|
-|59|Qwen 3 Max Preview|2.04|0/810|
-|60|Qwen QwQ-32B Preview|2.05|280/810|
-|61|Grok 3 Beta (no reasoning)|2.07|0/810|
-|62|Llama 3.1 405B|2.08|0/810|
-|63|Qwen 2.5 Max|2.08|2/810|
-|64|Qwen 3 30B A3B|2.09|0/810|
-|65|Microsoft Phi-4|2.10|0/810|
-|66|Mistral Large 2|2.11|0/810|
-|67|Amazon Nova Pro|2.11|0/810|
-|68|Llama 3.3 70B|2.12|0/810|
-|69|Mistral Medium 3|2.12|0/810|
-|70|Gemini 1.5 Pro (Sept)|2.13|0/810|
-|71|Mistral Small 3.2|2.14|0/810|
-|72|Baidu Ernie 4.5 300B A47B|2.15|0/810|
-|73|GPT-OSS-20B|2.18|0/810|
-|74|Gemma 3 27B|2.21|0/810|
-|75|Grok 2 12-12|2.21|0/810|
-|76|Qwen 2.5 72B|2.21|0/810|
-|77|Claude 3.5 Haiku|2.25|0/810|
-|78|Mistral Small 3|2.25|0/810|
-|79|MiniMax-Text-01|2.28|0/810|
-|80|GPT-4o mini|2.30|0/810|
-|81|GLM4-32B-0414|2.35|0/810|
-|82|Gemma 2 27B|2.60|0/810|
+![Cross-family hard subset inverse-rank leaderboard](images/04_model_bar_correct_rank_hard_subset_two_plus_wrong.png)
 
+This is the main result.
 
+The chart uses **inverse-rank score**, a higher-is-better transformation of the average rank assigned to the correct answer. It is easier to interpret than raw average rank and avoids the old problem where a random model would sit around the middle of the scale.
 
-- Avg Rank is the mean ranking assigned to the correct example across 810 test files.
-- Skipped indicates how many outputs failed to parse or didn’t follow the required output format (e.g., missing <number> and <score> tags).
+The subset contains **623** items where at least **two distinct full-coverage model buckets** miss the item. A case does not enter this subset just because two nearby variants from the same family fail; it needs broader model disagreement.
+
+### Cross-family hard-subset leaderboard
+
+| Rank | Model | Top-1 Accuracy | Inverse-Rank Score | Cases |
+|---:|---|---:|---:|---:|
+| 1 | Claude Opus 4.6 (high reasoning) | 88.9% | 78.7 | 623 |
+| 2 | GPT-5.4 (extra high reasoning) | 89.9% | 78.2 | 623 |
+| 3 | Gemini 3.1 Pro Preview | 90.4% | 77.2 | 623 |
+| 4 | Claude Sonnet 4.6 (high reasoning) | 87.2% | 74.2 | 623 |
+| 5 | GPT-5.4 (medium reasoning) | 86.8% | 72.8 | 623 |
+| 6 | Kimi K2.5 Thinking | 82.8% | 66.6 | 623 |
+| 7 | Claude Opus 4.6 (no reasoning) | 82.5% | 66.3 | 623 |
+| 8 | Claude Sonnet 4.6 (no reasoning) | 80.4% | 65.8 | 623 |
+| 9 | Qwen3.5-397B-A17B | 80.7% | 63.1 | 623 |
+| 10 | Deepseek V3.2 | 79.6% | 62.1 | 623 |
+| 11 | Grok 4.20 Beta 0309 Reasoning | 79.6% | 61.6 | 623 |
+| 12 | Gemini 3.1 Flash-Lite Preview | 80.4% | 60.9 | 623 |
+| 13 | ByteDance Seed2.0 Pro | 74.2% | 53.8 | 623 |
+| 14 | GLM-5 | 73.2% | 46.2 | 623 |
+| 15 | Baidu Ernie 5.0 | 58.3% | 35.4 | 623 |
+| 16 | GPT-5.4 (no reasoning) | 39.0% | 24.6 | 623 |
+| 17 | Mistral Large 3 | 28.1% | 20.5 | 623 |
+| 18 | Grok 4.20 Beta 0309 Non-Reasoning | 29.2% | 20.0 | 623 |
+| 19 | Mistral Medium 3.1 | 33.5% | 19.6 | 623 |
+
+Main takeaway:
+- the frontier cluster is still tight
+- the subset is much more separating than the full benchmark
+- weaker non-reasoning systems fall off much more sharply here
+
+Under bootstrap confidence analysis, the current top statistical cluster on this hard subset is:
+- Claude Opus 4.6 (high reasoning)
+- GPT-5.4 (extra high reasoning)
+- Gemini 3.1 Pro Preview
+- Claude Sonnet 4.6 (high reasoning)
+- GPT-5.4 (medium reasoning)
 
 ---
 
-## Benchmark Method in Detail
+## Model-Behavior Correlation
 
-1. **Theme & Example Creation**
+![Hard subset model correlation heatmap](images/06_models_correlation_hard_subset_two_plus_wrong.png)
 
-   We prompt high-quality LLMs (Claude 3.5 Sonnet, Grok 2, Gemini 1.5 Pro, GPT-4o, DeepSeek-V3) to generate **2,000** unique, succinct “themes” that foucs on a narrow concept. Each is based on a random trio of starting points, ensuring novelty.  
+This heatmap compares model behavior at the item level on the same hard subset.
 
-2. **Gather Examples & Anti-Examples**
-
-   For each theme, we then request four `<example>` entries that specifically fit it, plus 20 `<anti_example>` entries that could belong to a broader or partially overlapping category but do **not** fit the exact theme. 
-
-3. **Quality Check (“Double Check”)**  
-   - We create specialized prompts that ask LLMs to *score* how well each of the **four real examples** (#1–4) matches the theme, and how well each of the **twenty anti-examples** (#5–24) fits the notion of being “broader or related but *not* the theme.”  
-   - We parse these 24 numeric scores (per file, per LLM), computing standardized z-scores. If a real example scores poorly (z < -2.5) or if the top anti-examples fail to show sufficiently high “anti-example” scores, that file is discarded.  
-   - From the initial 2,000 sets, we end up **retaining 810** sets (themes + examples + anti-examples).
-
-4. **Final “Pick” Challenge**  
-   - From each of the 810 validated sets, the final prompt includes 3 real examples + 3 anti-examples as context.
-   - The *fourth* real example is hidden among 7 top "misleading" anti-examples (8 total)
-   - We then prompt **26 different LLMs** to assign a 0–10 score to each of these 8 candidates. A perfect approach would always rank the correct example #1.
-
-5. **Result Analysis**
-   - If a model consistently places the real leftover example at or near the top, it implies strong thematic generalization.
-   - We compile the results into multiple stats, including average rank, difference vs. the anti-example average, fraction of times the real item is top, etc.
+Models that tend to score the same prompts similarly cluster together, while more unusual models sit further away from the pack. This is useful because raw leaderboard position is only part of the story: two models can have similar overall scores while making different kinds of mistakes.
 
 ---
 
-## Examples
+## Full Benchmark Context
 
-### 862
+Although the hard subset is the headline view, the full benchmark is still useful as a broad thematic-generalization test.
 
-**Examples:** mathematical models, decision trees, flowcharts
+- **Items:** 1,247
+- **Full-coverage models:** 17
+- **Conservative hard subset:** 811 items
+- **Cross-family hard subset:** 623 items
 
-**Anti-examples:** diagrams, maps, blueprints
+### Full benchmark leaderboard
 
-**Candidates:**
-1. checklists
-2. spreadsheets
-3. weather forecasts
-4. **mind mapping** <- correct pick
-5. road signs
-6. instruction manuals
-7. summaries
-8. outlines
+| Rank | Model | Top-1 Accuracy | Inverse-Rank Score | Cases |
+|---:|---|---:|---:|---:|
+| 1 | GPT-5.4 (extra high reasoning) | 94.8% | 87.7 | 1247 |
+| 2 | Gemini 3.1 Pro Preview | 95.1% | 87.2 | 1247 |
+| 3 | Claude Sonnet 4.6 (high reasoning) | 93.5% | 85.3 | 1247 |
+| 4 | GPT-5.4 (medium reasoning) | 93.3% | 84.3 | 1247 |
+| 5 | Kimi K2.5 Thinking | 91.4% | 80.5 | 1247 |
+| 6 | Claude Opus 4.6 (no reasoning) | 90.9% | 80.0 | 1247 |
+| 7 | Claude Sonnet 4.6 (no reasoning) | 90.1% | 79.8 | 1247 |
+| 8 | Qwen3.5-397B-A17B | 90.1% | 77.3 | 1247 |
+| 9 | Deepseek V3.2 | 89.5% | 76.8 | 1247 |
+| 10 | Grok 4.20 Beta 0309 Reasoning | 89.4% | 76.0 | 1247 |
+| 11 | Gemini 3.1 Flash-Lite Preview | 89.7% | 75.9 | 1247 |
+| 12 | ByteDance Seed2.0 Pro | 86.9% | 70.8 | 1247 |
+| 13 | GLM-5 | 85.4% | 62.2 | 1247 |
+| 14 | Baidu Ernie 5.0 | 78.4% | 54.0 | 1247 |
+| 15 | GPT-5.4 (no reasoning) | 67.5% | 42.6 | 1247 |
+| 16 | Mistral Large 3 | 59.1% | 36.9 | 1247 |
+| 17 | Grok 4.20 Beta 0309 Non-Reasoning | 60.6% | 36.2 | 1247 |
 
-**Theme:** "Concepts or systems that involve solving complex problems through simplification or abstraction"
-
-### 376
-
-**Examples:** clay pot, bamboo sieve, calabash gourd spoon
-
-**Anti-examples:** plastic serving spoon, rubber spatula, plastic strainer
-
-**Candidates:**
-1. cast iron skillet
-2. **wooden mortar** <- correct pick
-3. nylon cooking utensils
-4. ceramic bowl 
-5. stone grinding wheel
-6. porcelain plate
-7. silicone baking mat
-8. bamboo steamer basket
-
-**Theme:** "Tools or implements traditionally used in West African food preparation that are made primarily from a single, naturally occurring material."
+On the full benchmark, the top tier is tighter and more saturated than on the hard subset. The hard subset is therefore the more useful public-facing comparison.
 
 ---
 
-## Note
-Note that in general "verification vs. generation complexity asymmetry notions continue to hold empirically when replacing tailored algorithms with Language Models (LMs)" (https://arxiv.org/abs/2407.16831v1). "An LLM may be able to perform individual steps in a task, e.g. evidence verification, more accurately than the LLM can perform an entire task" (https://arxiv.org/abs/2306.00024). Verification tends to require fewer resources or simpler reasoning, so even very complex AI-generated benchmark items can be checked for correctness by another model with relative ease. 
+## Example Benchmark Item
 
-In our benchmark, it's trivial for top LLMs to see if an example or counterexample fits a known theme. But hide the theme, and generalizing from a few examples to one underlying concept, then picking among adversarial alternatives, gets way harder. This asymmetry lets us use LLMs for both creating and evaluating benchmark items.
+Here is a representative V2-style example:
 
-We also checked for self-grading bias. None detected.
+**Examples**
+- a surveyor's leveling rod
+- a fishpole microphone boom
+- a submarine periscope housing
+
+**Anti-examples**
+- a coiled steel measuring tape
+- a folding wooden carpenter's rule
+- a retractable cord dog leash
+
+**Correct candidate**
+- a collapsible stainless steel drinking straw
+
+**Theme**
+- physical objects that extend and retract by sliding rigid, nested tubular segments along a single axis
+
+This shows the core idea of the benchmark:
+- the model must infer a **narrow mechanism**, not just a broad category like "things that extend"
+- the anti-examples are deliberately close enough to tempt a broader but wrong rule
+- the correct answer is only obvious if the model identifies the precise latent theme
 
 ---
-## Other multi-agent benchmarks
-- [Public Goods Game (PGG) Benchmark: Contribute & Punish](https://github.com/lechmazur/pgg_bench/)
-- [Elimination Game: Social Reasoning and Deception in Multi-Agent LLMs](https://github.com/lechmazur/elimination_game/)
-- [Step Race: Collaboration vs. Misdirection Under Pressure](https://github.com/lechmazur/step_game/)
 
-## Other benchmarks
+## Method Summary
+
+### 1. Theme generation
+
+Multiple strong LLMs generate candidate themes from random seeds. These themes are meant to be narrow, specific, and checkable rather than broad trivia categories.
+
+### 2. Examples and anti-examples
+
+For each theme, models generate:
+- true examples that fit the exact theme
+- anti-examples that fit a broader or neighboring pattern but not the exact one
+
+### 3. Double-checking
+
+Generated examples and anti-examples are reviewed by other models. Weak or internally inconsistent items are removed.
+
+### 4. Validation
+
+The benchmark runs explicit validation prompts that ask models to:
+- check whether the true candidate matches the stated theme
+- infer alternate themes from the examples
+- detect cases where the candidate pack is too ambiguous
+
+V2 adds a stricter ambiguity / exclusivity screen here.
+
+### 5. Final pick task
+
+Each benchmark prompt shows:
+- 3 examples
+- 3 anti-examples
+- 8 candidates
+
+Exactly one candidate is the hidden fourth true example. Models score all 8 candidates, and the results are turned into leaderboard metrics.
+
+---
+
+## Why this benchmark matters
+
+This task sits in a useful middle ground:
+- it is harder than direct classification or retrieval
+- it is more structured than open-ended creative reasoning
+- it tests whether models can infer a **specific concept from sparse evidence** while resisting nearby distractor patterns
+
+Top models now do very well on the full benchmark, which is why V2 emphasizes harder subsets. The benchmark is therefore useful both as a broad reasoning test and as a frontier-separation tool when filtered to the right slice.
+
+---
+
+## Related Benchmarks
+
+- [Sycophancy Benchmark](https://github.com/lechmazur/sycophancy/)
+- [Writing Benchmark](https://github.com/lechmazur/writing/)
+- [Translation Benchmark](https://github.com/lechmazur/translation/)
+- [PACT: Multi-Round Bargaining Benchmark](https://github.com/lechmazur/pact/)
+- [BAZAAR: Auction Market Benchmark](https://github.com/lechmazur/bazaar/)
 - [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/)
-- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/)
-- [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/)
-- [LLM Deceptiveness and Gullibility](https://github.com/lechmazur/deception/)
-- [LLM Divergent Thinking Creativity Benchmark](https://github.com/lechmazur/divergent/)
-
----
-
-## Updates
-- Sep 22, 2025: DeepSeek V3.1, Grok 4 Fast, Qwen 3 Next 80B A3B Thinking, Kimi K2-0905, LongCat Flash Chat, Qwen 3 Max Preview added.
-- Aug 7, 2025: GPT-5 added.
-- Aug 5, 2025: Claude Opus 4.1, GPT-OSS-120B, GPT-OSS-20B added.
-- July 31, 2025: Qwen 3 235B A22B 25-07 Thinking, GLM-4.5 added.
-- July 14, 2024: Kimi K2 added.
-- July 10, 2025: Grok 4, GLM4-32B-0414, Baidu Ernie 4.5 300B A47B, Mistral Small 3.2 added.
-- June 11, 2025: o3-pro added.
-- June 5, 2025: Gemini 2.5 Pro Preview 06-05 added.
-- May 28, 2025: DeepSeek R1 05/28 added.
-- May 22, 2025: Claude 4 models added.
-- May 7, 2025: Gemini 2.5 Pro Preview 05-06 and Mistral Medium 3 added.
-- Apr 30, 2025: Qwen 3 added.
-- Apr 18, 2025: o3, o4-mini, Gemini 2.5 Flash added.
-- Apr 11, 2025: Grok 3 added.
-- Apr 6, 2025: Llama 4 Maverick added.
-- Mar 28, 2025: GPT-4o March 2025 added.
-- Mar 26, 2025: Gemini 2.5 Pro Exp 03-25, DeepSeek V3-0324, o3-mini-high added.
-- Mar 14, 2025: Gemma 3 27B added.
-- Mar 8, 2025: Qwen QwQ-32B added.
-- Feb 27, 2025: GPT-4.5 Preview added.
-- Feb 25, 2025: Claude 3.7 Sonnet Thinking, Claude 3.7 Sonnet, GPT-4o Feb 2025, Gemini 2.0 Pro Exp 02-05, Gemini 2.0 Flash added.
-- Feb 4, 2025: DeepSeek R1, o3-mini (medium reasoning effort), Gemini 2.0 Flash Thinking Exp 01-21, Qwen 2.5 Max, Microsoft Phi-4, Amazon Nova Pro, Mistral Small 3, MiniMax-Text-01 added.
-- Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for other upcoming benchmarks and more.
+- [Step Game](https://github.com/lechmazur/step_game/)
+- [Elimination Game](https://github.com/lechmazur/elimination_game/)

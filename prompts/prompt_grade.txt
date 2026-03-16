@@ -1,0 +1,12 @@
+Analyze how well Theme 1 matches Theme 2. Rate the similarity 0 (no meaningful similarity), 1, 2, 3, ... to 10 (perfect match). 
+
+Theme 1:
+{theme_real}
+
+Theme 2:
+{theme_candidate}
+
+Output the rating enclosed in tags <rating></rating>. For example:
+<rating>7</rating>
+
+Do not output anything else.

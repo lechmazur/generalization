@@ -1,0 +1,23 @@
+Theme, rule, criterion, or category (referred to as "theme"): {theme}
+
+Here are four examples intended to follow this theme:
+{examples}
+
+Your first task is to evaluate the examples above on a scale of 0 (least) to 100 (most) based on how well they match the theme. For each example, output its number in tags <number></number> and its score as an integer in tags <score></score>. For example:
+
+<number>1</number><score>62</score>
+<number>2</number><score>91</score>
+<number>3</number><score>3</score>
+<number>4</number><score>44</score>
+
+Here are anti-examples intended to follow a broader category but not the specific theme:
+{anti_examples}
+
+Your second task is to evaluate the anti-examples. Rate how effective each anti-example is as a distractor on a scale of 0 (least) to 100 (most). A score of 100 means the anti-example clearly does NOT match the specific theme yet is closely related enough to be genuinely misleading. A score of 0 means it either accidentally matches the theme (making it a bad anti-example) or is so unrelated that it would not fool anyone. Use the same format as before. Example:
+
+<number>5</number><score>18</score>
+<number>6</number><score>82</score>
+...
+<number>24</number><score>35</score>
+
+Do not output anything else.
