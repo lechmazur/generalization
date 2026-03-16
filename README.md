@@ -48,16 +48,8 @@ The subset contains **623** items where at least **two distinct full-coverage mo
 | 19 | Mistral Medium 3.1 | 33.5% | 19.6 | 623 |
 
 Main takeaway:
-- the frontier cluster is still tight
-- the subset is much more separating than the full benchmark
-- weaker non-reasoning systems fall off much more sharply here
-
-Under bootstrap confidence analysis, the current top statistical cluster on this hard subset is:
-- Claude Opus 4.6 (high reasoning)
-- GPT-5.4 (extra high reasoning)
-- Gemini 3.1 Pro Preview
-- Claude Sonnet 4.6 (high reasoning)
-- GPT-5.4 (medium reasoning)
+- the frontier cluster is  tight
+- weaker non-reasoning systems fall off sharply
 
 ---
 
@@ -71,40 +63,6 @@ Models that tend to score the same prompts similarly cluster together, while mor
 
 ---
 
-## Full Benchmark Context
-
-Although the hard subset is the headline view, the full benchmark is still useful as a broad thematic-generalization test.
-
-- **Items:** 1,247
-- **Full-coverage models:** 17
-- **Conservative hard subset:** 811 items
-- **Cross-family hard subset:** 623 items
-
-### Full benchmark leaderboard
-
-| Rank | Model | Top-1 Accuracy | Inverse-Rank Score | Cases |
-|---:|---|---:|---:|---:|
-| 1 | GPT-5.4 (extra high reasoning) | 94.8% | 87.7 | 1247 |
-| 2 | Gemini 3.1 Pro Preview | 95.1% | 87.2 | 1247 |
-| 3 | Claude Sonnet 4.6 (high reasoning) | 93.5% | 85.3 | 1247 |
-| 4 | GPT-5.4 (medium reasoning) | 93.3% | 84.3 | 1247 |
-| 5 | Kimi K2.5 Thinking | 91.4% | 80.5 | 1247 |
-| 6 | Claude Opus 4.6 (no reasoning) | 90.9% | 80.0 | 1247 |
-| 7 | Claude Sonnet 4.6 (no reasoning) | 90.1% | 79.8 | 1247 |
-| 8 | Qwen3.5-397B-A17B | 90.1% | 77.3 | 1247 |
-| 9 | Deepseek V3.2 | 89.5% | 76.8 | 1247 |
-| 10 | Grok 4.20 Beta 0309 Reasoning | 89.4% | 76.0 | 1247 |
-| 11 | Gemini 3.1 Flash-Lite Preview | 89.7% | 75.9 | 1247 |
-| 12 | ByteDance Seed2.0 Pro | 86.9% | 70.8 | 1247 |
-| 13 | GLM-5 | 85.4% | 62.2 | 1247 |
-| 14 | Baidu Ernie 5.0 | 78.4% | 54.0 | 1247 |
-| 15 | GPT-5.4 (no reasoning) | 67.5% | 42.6 | 1247 |
-| 16 | Mistral Large 3 | 59.1% | 36.9 | 1247 |
-| 17 | Grok 4.20 Beta 0309 Non-Reasoning | 60.6% | 36.2 | 1247 |
-
-On the full benchmark, the top tier is tighter and more saturated than on the hard subset. The hard subset is therefore the more useful public-facing comparison.
-
----
 
 ## Example Benchmark Item
 
@@ -166,17 +124,6 @@ Each benchmark prompt shows:
 - 8 candidates
 
 Exactly one candidate is the hidden fourth true example. Models score all 8 candidates, and the results are turned into leaderboard metrics.
-
----
-
-## Why this benchmark matters
-
-This task sits in a useful middle ground:
-- it is harder than direct classification or retrieval
-- it is more structured than open-ended creative reasoning
-- it tests whether models can infer a **specific concept from sparse evidence** while resisting nearby distractor patterns
-
-Top models now do very well on the full benchmark, which is why V2 emphasizes harder subsets. The benchmark is therefore useful both as a broad reasoning test and as a frontier-separation tool when filtered to the right slice.
 
 ---
 
