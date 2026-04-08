@@ -21,35 +21,45 @@ This is the main result.
 
 The chart uses **inverse-rank score**, a higher-is-better transformation of the average rank assigned to the correct answer. It is easier to interpret than raw average rank and avoids the old problem where a random model would sit around the middle of the scale.
 
-The subset contains **623** items where at least **two distinct full-coverage model buckets** miss the item. A case does not enter this subset just because two nearby variants from the same family fail; it needs broader model disagreement.
+The subset contains **649** items where at least **two distinct full-coverage model buckets** miss the item. A case does not enter this subset just because two nearby variants from the same family fail; it needs broader model disagreement.
+
+The table below includes every full-coverage model on this subset.
 
 ### Cross-family hard-subset leaderboard
 
 | Rank | Model | Top-1 Accuracy | Inverse-Rank Score | Cases |
 |---:|---|---:|---:|---:|
-| 1 | Claude Opus 4.6 (high reasoning) | 88.9% | 78.7 | 623 |
-| 2 | GPT-5.4 (extra high reasoning) | 89.9% | 78.2 | 623 |
-| 3 | Gemini 3.1 Pro Preview | 90.4% | 77.2 | 623 |
-| 4 | Claude Sonnet 4.6 (high reasoning) | 87.2% | 74.2 | 623 |
-| 5 | GPT-5.4 (medium reasoning) | 86.8% | 72.8 | 623 |
-| 6 | Kimi K2.5 Thinking | 82.8% | 66.6 | 623 |
-| 7 | Claude Opus 4.6 (no reasoning) | 82.5% | 66.3 | 623 |
-| 8 | Claude Sonnet 4.6 (no reasoning) | 80.4% | 65.8 | 623 |
-| 9 | Qwen3.5-397B-A17B | 80.7% | 63.1 | 623 |
-| 10 | Deepseek V3.2 | 79.6% | 62.1 | 623 |
-| 11 | Grok 4.20 Beta 0309 Reasoning | 79.6% | 61.6 | 623 |
-| 12 | Gemini 3.1 Flash-Lite Preview | 80.4% | 60.9 | 623 |
-| 13 | ByteDance Seed2.0 Pro | 74.2% | 53.8 | 623 |
-| 14 | GLM-5 | 73.2% | 46.2 | 623 |
-| 15 | Baidu Ernie 5.0 | 58.3% | 35.4 | 623 |
-| 16 | GPT-5.4 (no reasoning) | 39.0% | 24.6 | 623 |
-| 17 | Mistral Large 3 | 28.1% | 20.5 | 623 |
-| 18 | Grok 4.20 Beta 0309 Non-Reasoning | 29.2% | 20.0 | 623 |
-| 19 | Mistral Medium 3.1 | 33.5% | 19.6 | 623 |
+| 1 | Claude Opus 4.6 (high reasoning) | 89.2% | 79.2 | 649 |
+| 2 | GPT-5.4 (xhigh reasoning) | 90.3% | 78.9 | 649 |
+| 3 | Gemini 3.1 Pro Preview | 90.6% | 77.7 | 649 |
+| 4 | GPT-5.4 (high reasoning) | 87.5% | 75.9 | 649 |
+| 5 | Claude Sonnet 4.6 (high reasoning) | 87.7% | 75.0 | 649 |
+| 6 | GPT-5.4 (medium reasoning) | 87.4% | 73.6 | 649 |
+| 7 | Kimi K2.5 Thinking | 83.5% | 67.6 | 649 |
+| 8 | Claude Opus 4.6 (no reasoning) | 83.1% | 67.1 | 649 |
+| 9 | Claude Sonnet 4.6 (no reasoning) | 81.2% | 66.7 | 649 |
+| 10 | Qwen3.5-397B-A17B | 81.4% | 64.0 | 649 |
+| 11 | DeepSeek V3.2 | 80.3% | 63.0 | 649 |
+| 12 | Grok 4.20 0309 (Reasoning) | 80.3% | 62.4 | 649 |
+| 13 | Gemini 3.1 Flash-Lite Preview | 80.7% | 61.6 | 649 |
+| 14 | GPT-5.4 Mini (xhigh reasoning) | 79.4% | 59.8 | 649 |
+| 15 | Qwen 3.6 Plus | 80.3% | 57.5 | 649 |
+| 16 | ByteDance Seed2.0 Pro | 75.0% | 54.9 | 649 |
+| 17 | Gemma 4 31B Reasoning | 75.7% | 51.0 | 649 |
+| 18 | GLM-5 | 74.1% | 47.0 | 649 |
+| 19 | Xiaomi MiMo V2 Pro | 66.9% | 43.9 | 649 |
+| 20 | Baidu Ernie 5.0 | 59.6% | 36.2 | 649 |
+| 21 | GPT-5.4 (no reasoning) | 41.1% | 25.6 | 649 |
+| 22 | Mistral Large 3 | 30.0% | 21.3 | 649 |
+| 23 | Grok 4.20 0309 (Non-Reasoning) | 31.4% | 20.9 | 649 |
+| 24 | Mistral Medium 3.1 | 34.7% | 20.2 | 649 |
 
 Main takeaway:
-- the frontier cluster is tight
-- weaker non-reasoning systems fall off sharply
+- the top three remain extremely tight: Claude Opus 4.6 (high reasoning), GPT-5.4 (xhigh reasoning), and Gemini 3.1 Pro Preview sit within **1.5 inverse-rank points**
+- reasoning still matters a lot: GPT-5.4's `xhigh`, `high`, and `medium` variants all land in the top 6, while GPT-5.4 (no reasoning) drops to 21st
+- newer additions such as Qwen 3.6 Plus, Gemma 4 31B Reasoning, and Xiaomi MiMo V2 Pro land in the middle of the pack rather than joining the frontier cluster
+
+Across the full **1,247-item** validated set, the same top six hold: Claude Opus 4.6 (high reasoning), GPT-5.4 (xhigh reasoning), Gemini 3.1 Pro Preview, GPT-5.4 (high reasoning), Claude Sonnet 4.6 (high reasoning), and GPT-5.4 (medium reasoning), all with average correct rank between **1.12** and **1.16**.
 
 ---
 
@@ -124,6 +134,15 @@ Each benchmark prompt shows:
 - 8 candidates
 
 Exactly one candidate is the hidden fourth true example. Models score all 8 candidates, and the results are turned into leaderboard metrics.
+
+---
+
+## Updates
+
+- April 8, 2026: Claude Opus 4.6 (high reasoning), GPT-5.4 (high reasoning), GPT-5.4 Mini (xhigh reasoning), Qwen 3.6 Plus, Gemma 4 31B Reasoning, Xiaomi MiMo V2 Pro added
+- March 16, 2026: V2
+
+
 
 ---
 
